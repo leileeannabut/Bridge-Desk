@@ -1,0 +1,22 @@
+{
+  "name": "bridgedesk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Job board connecting Filipino VAs/EAs/PAs/Legal Assistants to US startup openings. Static site plus a scheduled scraper.",
+  "scripts": {
+    "build": "echo 'Static site - nothing to build.'",
+    "detect": "node scripts/detect-ats.js",
+    "detect:dry": "node scripts/detect-ats.js --dry",
+    "scrape": "node run.js",
+    "scrape:dry": "node run.js --dry",
+    "serve": "npx --yes serve .",
+    "deploy": "wrangler deploy"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "wrangler": "4.118.0"
+  }
+}
