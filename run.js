@@ -1,3 +1,18 @@
+// At the top level of run.js
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
+});
+
+// Wrap your main logic
+(async () => {
+  try {
+    // Your scraping code here
+  } catch (error) {
+    console.error('Fatal error:', error);
+    process.exit(1);
+  }
+})();
 #!/usr/bin/env node
 /**
  * run.js — job scraper for BridgeDesk
