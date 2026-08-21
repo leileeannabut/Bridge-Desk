@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Command Center — BridgeDesk</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+/* ==========================================================================
+   Command Center — the applicant pipeline.
+   Same palette as the board, but denser: this is a working tool, not a shop
+   window. Nothing here is public — the page is noindex and every request needs
+   the admin key.
+   ========================================================================== */
+:root{
+  --void:#FAF6ED; --panel:#FFFFFF; --panel-2:#F1ECDF;
+  --line:rgba(36,50,44,.12); --line-2:rgba(36,50,44,.22);
+  --ink:#24322C; --ink-soft:#55645C; --ink-dim:#8A968F;
+  --green:#3F5C43; --purple:#3E7C93; --purple-text:#28556A;
+  --cyan:#3E7C93; --pink:#93743B; --amber:#D6A93B; --red:#B4553F;
+  --head:'Fraunces',Georgia,serif;
+  --body:'Work Sans',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+
+/* The hidden attribute works through display:none in the browser's default
+   stylesheet, and ANY author display rule outranks it — .gate below sets
+   display:grid, so `gate.hidden = true` had no visual effect at all. The gate
+   stayed on screen through every successful sign-in, which looked exactly like
+   a button that did nothing. */
+[hidden]{display:none !important}
+body{
+  background:
+    radial-gradient(1100px 620px at 82% -8%, rgba(62,124,147,.10), transparent 62%),
+    radial-gradient(900px 520px at 4% 104%, rgba(110,143,114,.10), transparent 60%),
+    var(--void);
+  color:var(--ink);font-family:var(--body);min-height:100vh;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1400px;margin:0 auto;padding:38px 30px 90px}
+
+/* ---------- sign in ---------- */
+.gate{min-height:100vh;display:grid;place-items:center;padding:24px}
+.gate-card{
+  width:100%;max-width:420px;padding:38px 34px;border-radius:20px;
+  background:linear-gradient(150deg,rgba(255,255,255,.9),rgba(241,236,223,.9));
+  border:1px solid var(--line-2);box-shadow:0 30px 70px rgba(36,50,44,.18);
+}
+.gate h1{font-family:var(--head);font-size:26px;margin-bottom:8px}
+.gate p{color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:22px}
+.gate input{
+  width:100%;padding:14px 16px;border-radius:11px;margin-bottom:14px;
+  background:rgba(255,255,255,.9);border:1px solid var(--line-2);color:var(--ink);
+  font-family:var(--mono);font-size:14px;
+}
+.gate input:focus{outline:none;border-color:var(--purple)}
+.gate button{
+  width:100%;padding:14px;border-radius:11px;border:0;cursor:pointer;
+  background:linear-gradient(135deg,var(--purple),#5A2FA8);color:#fff;
+  font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+}
+.gate .err{color:var(--red);font-size:13px;min-height:18px;margin-top:10px}
+
+/* ---------- header ---------- */
+.eyebrow{
+  display:flex;align-items:center;gap:9px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--purple-text);margin-bottom:10px;
+}
+.eyebrow::before{content:"";width:9px;height:9px;background:var(--purple);transform:rotate(45deg)}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:34px}
+h1.title{
+  font-family:var(--head);font-size:clamp(34px,5vw,54px);font-weight:700;
+  letter-spacing:-.02em;line-height:1;text-transform:uppercase;
+  background:linear-gradient(96deg,#F4F3FA 8%,var(--purple-text) 52%,var(--cyan) 96%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.btn{
+  padding:11px 20px;border-radius:11px;cursor:pointer;
+  border:1px solid var(--line-2);background:rgba(255,255,255,.85);color:var(--ink-soft);
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;
+  transition:border-color .2s,color .2s,transform .15s;
+}
+.btn:hover{border-color:var(--purple);color:var(--ink);transform:translateY(-1px)}
+
+/* ---------- stat cards ---------- */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-bottom:26px}
+.stat{
+  padding:22px 24px;border-radius:16px;position:relative;overflow:hidden;
+  background:linear-gradient(150deg,rgba(255,255,255,.95),rgba(241,236,223,.85));
+  border:1px solid var(--line);transition:border-color .25s,transform .25s;
+}
+.stat:hover{transform:translateY(-2px)}
+.stat[data-tone="total"]{--tone:var(--purple-text)}
+.stat[data-tone="new"]{--tone:var(--green)}
+.stat[data-tone="interview"]{--tone:var(--cyan)}
+.stat[data-tone="offer"]{--tone:var(--pink)}
+.stat::before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:2px;background:var(--tone);opacity:.6}
+.stat-k{
+  display:flex;align-items:center;gap:9px;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-dim);margin-bottom:14px;
+}
+.stat-k svg{width:15px;height:15px;color:var(--tone)}
+.stat-v{font-family:var(--head);font-size:40px;font-weight:700;line-height:1;color:var(--tone)}
+.stat-sub{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink-dim);margin-top:8px}
+
+/* ---------- filters ---------- */
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.chip{
+  padding:9px 16px;border-radius:100px;cursor:pointer;
+  border:1px solid var(--line);background:rgba(255,255,255,.85);color:var(--ink-dim);
+  font-family:var(--mono);font-size:11px;letter-spacing:.11em;text-transform:uppercase;
+  transition:all .2s;
+}
+.chip:hover{color:var(--ink-soft);border-color:var(--line-2)}
+.chip.on{background:rgba(127,77,224,.2);border-color:var(--purple);color:var(--ink)}
+
+/* ---------- table ---------- */
+.panel{
+  border-radius:18px;overflow:hidden;
+  background:linear-gradient(160deg,rgba(255,255,255,.97),rgba(241,236,223,.9));
+  border:1px solid var(--line);
+}
+.panel-head{
+  padding:20px 26px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+.panel-head h2{font-family:var(--head);font-size:19px;font-weight:600}
+.count{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--ink-dim)}
+table{width:100%;border-collapse:collapse}
+th{
+  text-align:left;padding:13px 18px;
+  font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink-dim);border-bottom:1px solid var(--line);white-space:nowrap;
+}
+td{padding:15px 18px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:middle}
+tr.row{cursor:pointer;transition:background .18s}
+tr.row:hover{background:rgba(62,124,147,.08)}
+.who b{display:block;font-weight:600}
+.who span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
+.role b{display:block;font-weight:500;font-size:13.5px}
+.role span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
+.ref{font-family:var(--mono);font-size:11px;color:var(--ink-dim)}
+.score{
+  font-family:var(--mono);font-size:13px;font-weight:500;
+  display:inline-grid;place-items:center;width:44px;height:32px;border-radius:9px;
+  border:1px solid currentColor;
+}
+.score.hi{color:var(--green)} .score.mid{color:var(--amber)} .score.lo{color:var(--ink-dim)}
+.pill{
+  font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  padding:5px 11px;border-radius:100px;border:1px solid currentColor;white-space:nowrap;
+}
+.pill.new{color:var(--green)} .pill.reviewing{color:var(--cyan)}
+.pill.interview{color:var(--purple-text)} .pill.offer{color:var(--pink)}
+.pill.hired{color:var(--green)} .pill.passed{color:var(--ink-dim)}
+.sent{font-size:15px}
+.sent.ok{color:var(--green)} .sent.no{color:var(--red)}
+.empty{padding:74px 20px;text-align:center;color:var(--ink-dim);font-size:14.5px}
+
+/* ---------- detail drawer ---------- */
+.scrim{position:fixed;inset:0;background:rgba(36,50,44,.42);backdrop-filter:blur(4px);z-index:60}
+.drawer{
+  position:fixed;top:0;right:0;bottom:0;width:min(640px,100%);z-index:61;
+  background:linear-gradient(160deg,#FFFFFF,#FAF6ED);border-left:1px solid var(--line-2);
+  display:flex;flex-direction:column;box-shadow:-30px 0 80px rgba(36,50,44,.22);
+}
+.dr-top{padding:26px 30px;border-bottom:1px solid var(--line);position:relative}
+.dr-top h3{font-family:var(--head);font-size:25px;font-weight:700;margin-bottom:5px}
+.dr-top p{color:var(--ink-dim);font-size:14px}
+.dr-close{
+  position:absolute;top:22px;right:24px;width:34px;height:34px;border-radius:9px;cursor:pointer;
+  border:1px solid var(--line-2);background:rgba(255,255,255,.9);color:var(--ink-soft);font-size:15px;
+}
+.dr-body{padding:26px 30px;overflow-y:auto;flex:1}
+.dr-sec{margin-bottom:26px}
+.dr-sec h4{
+  font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-dim);margin-bottom:11px;
+}
+.dr-sec p,.dr-sec li{font-size:14.5px;line-height:1.68;color:var(--ink-soft)}
+.dr-sec ul{padding-left:19px}
+.dr-sec li{margin-bottom:7px}
+.bg-text{white-space:pre-wrap;border-left:2px solid var(--line-2);padding-left:15px}
+.dr-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border-radius:12px;overflow:hidden;margin-bottom:26px}
+.dr-fact{background:var(--panel);padding:15px 18px}
+.dr-fact dt{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-dim);margin-bottom:5px}
+.dr-fact dd{font-size:14px;font-weight:500}
+.dr-foot{padding:20px 30px;border-top:1px solid var(--line);display:flex;gap:9px;flex-wrap:wrap}
+.dr-send{padding:18px 30px 24px;border-top:1px solid var(--line);background:rgba(127,77,224,.06)}
+.dr-decline{padding:18px 30px 24px;border-top:1px solid var(--line);background:rgba(255,107,107,.05)}
+.dr-decline h4{
+  font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-dim);margin-bottom:11px;
+}
+.dr-decline textarea{min-height:58px;margin-bottom:11px}
+.dl-check{
+  display:flex;align-items:center;gap:9px;margin-bottom:13px;
+  font-size:13px;color:var(--ink-soft);cursor:pointer;
+}
+.dl-check input{width:15px;height:15px;accent-color:var(--purple);cursor:pointer}
+.send-note{font-size:12.5px;line-height:1.6;color:var(--ink-dim);margin-bottom:14px}
+.send-note b{color:var(--ink-soft)}
+.send-row{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:10px}
+.btn.send{border-color:var(--purple);color:var(--ink)}
+.btn.send.danger{border-color:rgba(180,85,63,.5);color:var(--red)}
+.btn.send.danger:hover{border-color:var(--red);background:rgba(255,107,107,.1)}
+.send-warn{color:var(--amber);display:block;margin-top:6px;font-size:12px}
+.send-status{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink-dim)}
+.dr-foot .btn.act{border-color:var(--purple);color:var(--ink)}
+textarea{
+  width:100%;min-height:90px;padding:13px 15px;border-radius:11px;resize:vertical;
+  background:rgba(255,255,255,.9);border:1px solid var(--line-2);color:var(--ink);
+  font-family:var(--body);font-size:14px;line-height:1.6;
+}
+textarea:focus{outline:none;border-color:var(--purple)}
+@media(max-width:760px){
+  .dr-grid{grid-template-columns:1fr}
+  th.hide,td.hide{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- Sign in. The key is exchanged for an HttpOnly cookie rather than living in
+     the URL: this page shows names, emails and career histories, and a ?key= in
+     the address bar leaks into history, bookmarks and referer headers. -->
+<div class="gate" id="gate">
+  <div class="gate-card">
+    <h1>Command Center</h1>
+    <p>Enter your admin key to see the applicant pipeline.</p>
+    <input type="password" id="key" placeholder="Admin key" autocomplete="current-password" />
+    <button type="button" id="signin">Sign in</button>
+    <div class="err" id="gate-err"></div>
+  </div>
+</div>
+
+<div class="wrap" id="app" hidden>
+  <div class="top">
+    <div>
+      <div class="eyebrow">Command Center</div>
+      <h1 class="title" id="title">Pipeline</h1>
+    </div>
+    <div style="display:flex;gap:9px">
+      <button class="btn" type="button" id="refresh">Refresh</button>
+      <button class="btn" type="button" id="signout">Sign out</button>
+      <a class="btn" href="/">← Board</a>
+    </div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="filters" id="filters"></div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>All Applicants</h2>
+      <span class="count" id="count"></span>
+    </div>
+    <div id="table-wrap"><div class="empty">Loading…</div></div>
+  </div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let ALL = [], COUNTS = {}, filterCat = 'all', filterStatus = 'all', openRef = null;
+
+/* The admin key, held in memory for this tab only. Sent as a header on every
+   request rather than relying on a cookie: a cookie can be blocked or dropped
+   by the browser with no visible error, which is impossible to diagnose from
+   the outside. sessionStorage keeps a refresh from logging you out, and is
+   cleared when the tab closes. */
+/* The key is remembered for this tab, but not indefinitely: this page shows
+   names, emails and career histories, and an unattended laptop should not leave
+   them open. After IDLE_MINUTES without a request the key is dropped and the
+   gate returns. */
+const IDLE_MINUTES = 60;
+
+let ADMIN_KEY = '';
+try {
+  const saved = sessionStorage.getItem('ff_admin_key');
+  const at = Number(sessionStorage.getItem('ff_admin_at') || 0);
+  if (saved && at && (Date.now() - at) < IDLE_MINUTES * 60000) ADMIN_KEY = saved;
+  else sessionStorage.removeItem('ff_admin_key');
+} catch (_) { /* storage blocked */ }
+
+/** Called on every authenticated request, so the hour counts from last use. */
+function touchSession() {
+  try { sessionStorage.setItem('ff_admin_at', String(Date.now())); } catch (_) {}
+}
+
+/** Drops the key and returns to the gate. */
+function signOut(message) {
+  ADMIN_KEY = '';
+  try { sessionStorage.removeItem('ff_admin_key'); sessionStorage.removeItem('ff_admin_at'); } catch (_) {}
+  $('app').hidden = true;
+  $('gate').hidden = false;
+  $('key').value = '';
+  if (message) $('gate-err').textContent = message;
+}
+const authHeaders = () => (ADMIN_KEY ? { 'X-Admin-Key': ADMIN_KEY } : {});
+
+/* What each stored status is called on screen. 'passed' is the value in the
+   database; "Declined" is what it means. */
+const STATUS_LABEL = {
+  new: 'New', reviewing: 'Reviewing', interview: 'Interview',
+  offer: 'Offer', hired: 'Hired', passed: 'Declined',
+};
+
+const ICONS = {
+  total: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h12"/></svg>',
+  new: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>',
+  interview: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+  offer: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>',
+};
+
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const ago = (iso) => {
+  const then = Date.parse((iso || '').replace(' ', 'T') + 'Z');
+  if (Number.isNaN(then)) return '';
+  const mins = Math.floor((Date.now() - then) / 60000);
+  if (mins < 60) return mins + 'm ago';
+  const h = Math.floor(mins / 60);
+  if (h < 24) return h + 'h ago';
+  const d = Math.floor(h / 24);
+  return d < 30 ? d + 'd ago' : Math.floor(d / 30) + 'mo ago';
+};
+
+/* ---------- sign in ---------- */
+async function signIn() {
+  // The whole body is wrapped: any throw at all — a parse failure, blocked
+  // sessionStorage, a render bug — becomes a visible message instead of
+  // leaving the button stuck on "Checking…" with nothing to see.
+  try {
+    const key = $('key').value.trim();
+    if (!key) { $('gate-err').textContent = 'Enter your key.'; return; }
+
+    $('gate-err').textContent = 'Checking…';
+    ADMIN_KEY = key;
+
+    // One request. If the key is right this returns the applications directly,
+    // so there is no separate login step to go wrong.
+    const res = await fetch('/api/applications', { headers: { 'X-Admin-Key': key } });
+
+    touchSession();
+
+  if (res.status === 401) {
+      ADMIN_KEY = '';
+      $('gate-err').textContent = 'That key was not accepted.';
+      return;
+    }
+
+    // Read as text first. If the API route is missing, Cloudflare's fallback
+    // answers with index.html and a 200 — calling res.json() on that throws.
+    const raw = await res.text();
+    let body = null;
+    try { body = JSON.parse(raw); } catch (_) { /* not JSON */ }
+
+    if (body === null) {
+      ADMIN_KEY = '';
+      $('gate-err').textContent = raw.trim().startsWith('<')
+        ? 'The API returned a page instead of data — worker.js may not be deployed.'
+        : 'The server sent something unexpected (' + res.status + ').';
+      return;
+    }
+
+    if (!res.ok) {
+      $('gate-err').textContent = body.error || ('Server returned ' + res.status);
+      return;
+    }
+
+    // Storage is a nicety, not a requirement — some browsers block it.
+    try { sessionStorage.setItem('ff_admin_key', key); } catch (_) {}
+    touchSession();
+
+    ALL = body.applications || [];
+    COUNTS = body.counts || {};
+    $('gate-err').textContent = '';
+    $('gate').hidden = true;
+    $('app').hidden = false;
+    render();
+
+  } catch (err) {
+    console.error('[admin] sign-in failed:', err);
+    $('gate-err').textContent = 'Sign-in error: ' + (err && err.message ? err.message : String(err));
+  }
+}
+
+$('signin').addEventListener('click', signIn);
+$('key').addEventListener('keydown', (e) => { if (e.key === 'Enter') signIn(); });
+
+/* ---------- data ---------- */
+/** Returns null on success, or a sentence explaining what went wrong. */
+async function load() {
+  let res;
+  try {
+    res = await fetch('/api/applications', { headers: authHeaders() });
+  } catch (err) {
+    return 'Could not reach the server. Check your connection and try again.';
+  }
+
+  if (res.status === 401) {
+    // The cookie did not come back. Almost always a browser blocking cookies,
+    // or the site being served over http where a Secure cookie is dropped.
+    $('app').hidden = true; $('gate').hidden = false;
+    return 'Your session expired. Sign in again.';
+  }
+
+  // Same defensive parse as signIn: if the API route is missing, the SPA
+  // fallback answers with index.html and a 200, and res.json() would throw.
+  const raw = await res.text();
+  let body = null;
+  try { body = JSON.parse(raw); } catch (_) { /* not JSON */ }
+  if (body === null) {
+    const msg = raw.trim().startsWith('<')
+      ? 'The API returned a page instead of data — worker.js may not be deployed.'
+      : 'The server sent something unexpected.';
+    $('table-wrap').innerHTML = '<div class="empty">' + esc(msg) + '</div>';
+    return msg;
+  }
+
+  if (!res.ok) {
+    const msg = body.error || ('Server returned ' + res.status);
+    $('table-wrap').innerHTML = '<div class="empty">' + esc(msg) + '</div>';
+    return msg;
+  }
+
+  ALL = body.applications || [];
+  COUNTS = body.counts || {};
+  render();
+  return null;
+}
+$('refresh').addEventListener('click', () => load());
+$('signout').addEventListener('click', () => signOut('Signed out.'));
+
+/* Expire the session while the tab sits open, not only on reload. */
+setInterval(() => {
+  if (!ADMIN_KEY || $('app').hidden) return;
+  let at = 0;
+  try { at = Number(sessionStorage.getItem('ff_admin_at') || 0); } catch (_) {}
+  if (at && (Date.now() - at) > IDLE_MINUTES * 60000) {
+    signOut('Session expired after ' + IDLE_MINUTES + ' minutes. Sign in again.');
+  }
+}, 60000);
+
+/* ---------- render ---------- */
+function visible() {
+  return ALL.filter((a) =>
+    (filterCat === 'all' || a.category === filterCat) &&
+    (filterStatus === 'all' || a.status === filterStatus));
+}
+
+function render() {
+  try { renderInner(); }
+  catch (err) {
+    console.error('[admin] render failed:', err);
+    $('table-wrap').innerHTML = '<div class="empty">Could not draw the table: ' + esc(err.message) + '</div>';
+  }
+}
+
+function renderInner() {
+  const n = (s) => ALL.filter((a) => a.status === s).length;
+  $('title').textContent = filterCat === 'all' ? 'Pipeline' : filterCat + ' Pipeline';
+
+  $('stats').innerHTML = [
+    ['total', 'Total', ALL.length, 'all time'],
+    ['new', 'New', n('new'), 'awaiting review'],
+    ['interview', 'Interview', n('interview'), 'in process'],
+    ['offer', 'Offers', n('offer') + n('hired'), n('hired') + ' hired'],
+  ].map(([tone, label, value, sub]) => `
+    <div class="stat" data-tone="${tone}">
+      <div class="stat-k">${ICONS[tone]}${label}</div>
+      <div class="stat-v">${value}</div>
+      <div class="stat-sub">${esc(sub)}</div>
+    </div>`).join('');
+
+  $('filters').innerHTML = [
+    ['cat', 'all', 'All roles'], ['cat', 'Virtual Assistant', 'Virtual Assistant'],
+    ['cat', 'Executive Assistant', 'Executive Assistant'], ['cat', 'Personal Assistant', 'Personal Assistant'],
+    ['cat', 'Legal Assistant', 'Legal Assistant'],
+    ['status', 'all', 'Any status'], ['status', 'new', 'New'], ['status', 'reviewing', 'Reviewing'],
+    ['status', 'interview', 'Interview'], ['status', 'offer', 'Offer'],
+    ['status', 'hired', 'Hired'], ['status', 'passed', 'Declined'],
+  ].map(([kind, val, label]) => {
+    const on = (kind === 'cat' ? filterCat : filterStatus) === val;
+    return `<button class="chip${on ? ' on' : ''}" data-kind="${kind}" data-val="${val}">${label}</button>`;
+  }).join('');
+
+  const rows = visible();
+  $('count').textContent = rows.length + (rows.length === 1 ? ' application' : ' applications');
+
+  if (!rows.length) {
+    $('table-wrap').innerHTML = '<div class="empty">' +
+      (ALL.length ? 'Nothing matches that filter.' : 'No applications yet.') + '</div>';
+    return;
+  }
+
+  $('table-wrap').innerHTML = `
+    <table>
+      <thead><tr>
+        <th>Candidate</th><th>Role</th><th class="hide">Match</th>
+        <th>Status</th><th class="hide">Sent</th><th class="hide">Applied</th>
+      </tr></thead>
+      <tbody>${rows.map((a) => {
+        const band = a.score >= 75 ? 'hi' : a.score >= 50 ? 'mid' : 'lo';
+        return `<tr class="row" data-ref="${esc(a.ref)}">
+          <td class="who">
+            <b>${esc([a.first_name, a.middle_initial, a.last_name].filter(Boolean).join(' '))}</b>
+            <span>${esc(a.ref)} · ${esc(a.email)}</span>
+          </td>
+          <td class="role">
+            <b>${esc(a.job_title || '')}</b>
+            <span>${esc(a.company || '')}${a.location ? ' · ' + esc(a.location) : ''}</span>
+          </td>
+          <td class="hide">${a.score != null ? `<span class="score ${band}">${a.score}</span>` : '—'}</td>
+          <td><span class="pill ${esc(a.status)}">${esc(STATUS_LABEL[a.status] || a.status)}</span></td>
+          <td class="hide sent ${a.sent_to_employer_at ? 'ok' : 'no'}"
+              title="${a.sent_to_employer_at ? 'Sent to employer' : esc(a.send_error || 'Not sent')}">
+            ${a.sent_to_employer_at ? '✓' : '—'}
+          </td>
+          <td class="hide"><span class="ref">${ago(a.created_at)}</span></td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
+}
+
+document.addEventListener('click', (e) => {
+  const chip = e.target.closest('.chip');
+  if (chip) {
+    if (chip.dataset.kind === 'cat') filterCat = chip.dataset.val;
+    else filterStatus = chip.dataset.val;
+    render();
+    return;
+  }
+  const row = e.target.closest('tr.row');
+  if (row) openDrawer(row.dataset.ref);
+});
+
+/* ---------- detail ---------- */
+function openDrawer(ref) {
+  const a = ALL.find((x) => x.ref === ref);
+  if (!a) return;
+  openRef = ref;
+  closeDrawer();
+
+  const scrim = document.createElement('div');
+  scrim.className = 'scrim';
+  scrim.addEventListener('click', closeDrawer);
+
+  const d = document.createElement('div');
+  d.className = 'drawer';
+  const list = (items) => items.length
+    ? '<ul>' + items.map((x) => `<li>${esc(x)}</li>`).join('') + '</ul>'
+    : '<p style="color:var(--ink-dim)">None recorded.</p>';
+
+  d.innerHTML = `
+    <div class="dr-top">
+      <button class="dr-close" type="button" aria-label="Close">✕</button>
+      <h3>${esc([a.first_name, a.middle_initial, a.last_name].filter(Boolean).join(' '))}</h3>
+      <p>${esc(a.job_title || '')} · ${esc(a.company || '')}</p>
+    </div>
+    <div class="dr-body">
+      <div class="dr-grid">
+        <div class="dr-fact"><dt>Reference</dt><dd>${esc(a.ref)}</dd></div>
+        <div class="dr-fact"><dt>Match score</dt><dd>${a.score != null ? a.score + '/100' : '—'} <span style="color:var(--ink-dim);font-size:11px">${a.reviewed_by === 'ai' ? '(AI)' : '(keyword)'}</span></dd></div>
+        <div class="dr-fact"><dt>Email</dt><dd><a href="mailto:${esc(a.email)}">${esc(a.email)}</a></dd></div>
+        <div class="dr-fact"><dt>Phone</dt><dd>${esc(a.phone || '—')}</dd></div>
+        <div class="dr-fact"><dt>Currently</dt><dd>${esc(a.current_position || '—')}${a.current_company ? ' · ' + esc(a.current_company) : ''}</dd></div>
+        <div class="dr-fact"><dt>Sent to employer</dt><dd>${a.sent_to_employer_at ? 'Yes' : '<span style="color:var(--red)">No</span>'}</dd></div>
+      </div>
+      ${a.linkedin ? `<div class="dr-sec"><h4>LinkedIn</h4><p><a href="${esc(a.linkedin)}" target="_blank" rel="noopener" style="color:var(--cyan)">${esc(a.linkedin)}</a></p></div>` : ''}
+      ${a.send_error ? `<div class="dr-sec"><h4>Delivery problem</h4><p style="color:var(--red)">${esc(a.send_error)}</p></div>` : ''}
+      <div class="dr-sec"><h4>Strengths</h4>${list(a.strengths || [])}</div>
+      <div class="dr-sec"><h4>Gaps</h4>${list(a.gaps || [])}</div>
+      <div class="dr-sec"><h4>Background</h4><p class="bg-text">${esc(a.background || '')}</p></div>
+      <div class="dr-sec"><h4>Your notes</h4><textarea id="notes" placeholder="Anything worth remembering about this candidate…">${esc(a.notes || '')}</textarea></div>
+    </div>
+    <div class="dr-foot">
+      ${['reviewing', 'interview', 'offer', 'hired', 'passed']
+        .map((s) => `<button class="btn${a.status === s ? ' act' : ''}" type="button" data-status="${s}">${STATUS_LABEL[s] || s}</button>`).join('')}
+      <button class="btn act" type="button" id="save-notes">Save notes</button>
+    </div>
+    <div class="dr-send">
+      <p class="send-note">
+        Nothing reaches the employer until you send it. A <b>teaser</b> shows the role, score,
+        strengths and gaps with no contact details — enough to create interest, not enough to
+        go around you. Send <b>full details</b> only once terms are agreed.
+      </p>
+      <div class="send-row">
+        <button class="btn send" type="button" data-send="teaser">Send teaser</button>
+        <button class="btn send danger" type="button" data-send="full">Send full details</button>
+      </div>
+      <div class="send-status" id="send-status">${a.sent_to_employer_at
+        ? 'Sent ' + esc(ago(a.sent_to_employer_at))
+        : a.send_error ? 'Last attempt failed: ' + esc(a.send_error) : 'Not sent'}</div>
+    </div>
+
+    <!-- Declining. Silence is the norm in recruiting and the thing candidates
+         resent most; a short honest note costs nothing and keeps them in the
+         network for the next role. -->
+    <div class="dr-decline">
+      <h4>Not a fit</h4>
+      <textarea id="decline-reason" rows="2"
+        placeholder="Optional — one line the candidate will see. e.g. 'This role needed direct multifamily lease-up experience.'"></textarea>
+      <label class="dl-check">
+        <input type="checkbox" id="decline-notify" checked />
+        Email ${esc(a.first_name || 'the candidate')} to let them know
+      </label>
+      <div class="send-row">
+        <button class="btn danger" type="button" id="decline-btn">Decline application</button>
+      </div>
+      <div class="send-status" id="decline-status">${a.status === 'passed'
+        ? (a.declined_at ? 'Declined ' + esc(ago(a.declined_at)) : 'Marked passed')
+        : ''}</div>
+    </div>`;
+
+  d.querySelector('.dr-close').addEventListener('click', closeDrawer);
+  d.querySelectorAll('[data-status]').forEach((b) =>
+    b.addEventListener('click', () => update(ref, { status: b.dataset.status })));
+  d.querySelector('#save-notes').addEventListener('click', () =>
+    update(ref, { notes: d.querySelector('#notes').value }));
+
+  d.querySelector('#decline-btn')?.addEventListener('click', async () => {
+    const status = d.querySelector('#decline-status');
+    const reason = d.querySelector('#decline-reason').value.trim();
+    const notify = d.querySelector('#decline-notify').checked;
+
+    if (!confirm(notify
+      ? 'Decline this application and email the candidate?'
+      : 'Decline this application without telling the candidate?')) return;
+
+    status.textContent = 'Declining…';
+    try {
+      const res = await fetch('/api/decline', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({ ref, reason: reason || undefined, notify }),
+      });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) { status.textContent = 'Failed: ' + (body.error || res.status); return; }
+
+      status.textContent = body.notified
+        ? 'Declined, candidate emailed.'
+        : 'Declined. ' + (body.error || 'No email sent.');
+
+      const rec = ALL.find((x) => x.ref === ref);
+      if (rec) { rec.status = 'passed'; rec.declined_at = new Date().toISOString(); }
+      render();
+    } catch (err) {
+      status.textContent = 'Failed: ' + err.message;
+    }
+  });
+
+  d.querySelectorAll('[data-send]').forEach((b) =>
+    b.addEventListener('click', () => introduce(ref, b.dataset.send, d)));
+
+  document.body.append(scrim, d);
+  document.addEventListener('keydown', escClose);
+}
+
+function escClose(e) { if (e.key === 'Escape') closeDrawer(); }
+function closeDrawer() {
+  document.querySelector('.scrim')?.remove();
+  document.querySelector('.drawer')?.remove();
+  document.removeEventListener('keydown', escClose);
+}
+
+/** Forward a candidate. Full details ask first — it is not undoable. */
+async function introduce(ref, mode, drawer, override) {
+  const status = drawer.querySelector('#send-status');
+
+  if (mode === 'full' && !confirm(
+    'Send this candidate\u2019s full contact details and background to the employer?\n\n' +
+    'Once they have these they can hire directly. Only do this when a fee agreement is in place.')) return;
+
+  status.textContent = 'Sending…';
+  try {
+    const res = await fetch('/api/forward', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ ref, mode, override: override || undefined }),
+    });
+    const body = await res.json().catch(() => ({}));
+
+    // 409 means the gate stopped it: no fee agreement on file for this company.
+    // That is the system working, not a fault — explain it, and offer the
+    // override deliberately rather than leaving a dead end.
+    if (res.status === 409 && body.needs_agreement) {
+      status.innerHTML = esc(body.error) +
+        '<br /><span class="send-warn">Nothing was sent. Add the agreement to the fee_agreements table, ' +
+        'or override if you have terms recorded elsewhere.</span>';
+      const again = document.createElement('button');
+      again.type = 'button';
+      again.className = 'btn danger';
+      again.style.marginTop = '10px';
+      again.textContent = 'Send anyway, no agreement';
+      again.addEventListener('click', () => {
+        if (confirm('Send with no fee agreement on file?\n\nYou will have no contractual claim if they hire this candidate.'))
+          introduce(ref, mode, drawer, true);
+      });
+      status.append(again);
+      return;
+    }
+
+    if (!res.ok) { status.textContent = 'Failed: ' + (body.error || res.status); return; }
+
+    status.textContent = (mode === 'full' ? 'Full details sent just now' : 'Teaser sent just now') +
+      (body.to ? ' to ' + body.to : '') +
+      (body.fee_percent ? ' \u00b7 ' + body.fee_percent + '% fee on file' : ' \u00b7 no agreement on file');
+
+    const a = ALL.find((x) => x.ref === ref);
+    if (a) a.sent_to_employer_at = new Date().toISOString();
+    render();
+  } catch (err) {
+    status.textContent = 'Failed: ' + err.message;
+  }
+}
+
+async function update(ref, patch) {
+  const res = await fetch('/api/applications', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeaders() },
+    body: JSON.stringify({ ref, ...patch }),
+  });
+  if (!res.ok) return;
+  const a = ALL.find((x) => x.ref === ref);
+  if (a) Object.assign(a, patch);
+  render();
+  if (patch.status) closeDrawer(); else openDrawer(ref);
+}
+
+/* Already signed in this tab? Skip the gate. */
+if (ADMIN_KEY) {
+  fetch('/api/applications', { headers: authHeaders() })
+    .then((r) => { if (r.ok) { $('gate').hidden = true; $('app').hidden = false; load(); } })
+    .catch(() => {});
+}
+</script>
+</body>
+</html>
