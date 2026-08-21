@@ -109,21 +109,28 @@ nav.site-nav a:hover{color:var(--ink)}
 .wordmark .mark img{width:100%;height:100%;object-fit:contain;border-radius:8px}
 
 /* ---------- circular spinning nav badge ---------- */
-.nav-circle-wrap{position:relative;width:104px;height:104px;flex-shrink:0}
+.nav-circle-wrap{position:relative;width:120px;height:120px;flex-shrink:0}
+.nav-circle-wrap::before{
+  content:'';position:absolute;inset:0;margin:auto;width:100%;height:100%;
+  border-radius:50%;background:var(--card);border:1.5px solid var(--line-strong);
+  box-shadow:0 14px 30px -20px rgba(36,50,44,.4);
+}
 .nav-circle-wrap a.hub-link{
   position:absolute;inset:0;display:grid;place-items:center;z-index:2;
-  width:34px;height:34px;margin:auto;border-radius:50%;
-  background:var(--card);border:1.5px solid var(--line-strong);
-  font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.04em;
-  color:var(--sage-deep);text-decoration:none;text-align:center;line-height:1.15;
+  width:56px;height:56px;margin:auto;border-radius:50%;
+  background:var(--gold);border:1.5px solid var(--gold);color:#241C08;
+  font-family:var(--body);font-size:11.5px;font-weight:700;letter-spacing:0;
+  text-decoration:none;text-align:center;line-height:1.2;
+  box-shadow:0 8px 18px -8px rgba(140,106,30,.55);
+  transition:transform .15s ease, background .15s ease, border-color .15s ease;
 }
-.nav-circle-wrap a.hub-link:hover{border-color:var(--sage-deep);background:var(--sage-tint)}
-.nav-circle{width:100%;height:100%;animation:navSpin 22s linear infinite}
+.nav-circle-wrap a.hub-link:hover{background:var(--gold-deep);border-color:var(--gold-deep);transform:translateY(-1px)}
+.nav-circle{position:relative;z-index:1;width:100%;height:100%;animation:navSpin 22s linear infinite}
 .nav-circle:hover{animation-play-state:paused}
 @keyframes navSpin{to{transform:rotate(360deg)}}
 .nav-circle text{
-  font-family:var(--mono);font-size:9.6px;font-weight:700;letter-spacing:.06em;
-  fill:var(--ink-soft);text-transform:uppercase;
+  font-family:var(--body);font-size:11.5px;font-weight:700;letter-spacing:.03em;
+  fill:var(--ink);text-transform:uppercase;
 }
 .nav-circle a{cursor:pointer}
 .nav-circle a:hover text{fill:var(--sky-deep)}
@@ -364,7 +371,7 @@ footer.site a:hover{color:var(--ink)}
     <div class="nav-circle-wrap" aria-label="Site navigation">
       <svg class="nav-circle" viewBox="0 0 200 200" role="group">
         <defs>
-          <path id="navCirclePath" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0" />
+          <path id="navCirclePath" d="M 100,100 m -82,0 a 82,82 0 1,1 164,0 a 82,82 0 1,1 -164,0" />
         </defs>
         <a href="#board" aria-label="Open roles">
           <text><textPath href="#navCirclePath" startOffset="1%">Open roles •</textPath></text>
