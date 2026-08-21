@@ -37,6 +37,12 @@ const args = Object.fromEntries(process.argv.slice(2).map((a) => {
 }));
 
 const OUT = args.out || 'site/jobs.json';
+// The committed, canonical feed — used to carry over jobs from sources this
+// run skipped or failed. Deliberately separate from OUT: when scraping a
+// shard, OUT is a throwaway per-shard file with no history of its own, but
+// site/jobs.json (checked out fresh from the repo at the start of the job)
+// still holds yesterday's full feed, so carry-over keeps working per-shard.
+const PREV = args.prev || 'site/jobs.json';
 const TIMEOUT_MS = 20000;
 const CONCURRENCY = 4;          // polite: four career sites at a time, not 123
 const DELAY_MS = 350;           // between batches
@@ -742,10 +748,38 @@ async function loadPrevious(path) {
   }
 }
 
-const targets = COMPANIES
+/** Stable, deterministic bucket for an id — same company always lands in the
+ *  same shard as long as N doesn't change, so re-runs don't reshuffle work. */
+function hashBucket(id, n) {
+  let h = 0;
+  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
+  return h % n;
+}
+
+const onlyIds = args.only
+  ? String(args.only).split(',').map((s) => s.trim()).filter(Boolean)
+  : null;
+
+let targets = COMPANIES
   .filter((c) => c.active !== false)
   .filter((c) => (args.hub ? c.hub === args.hub : true))
-  .filter((c) => (args.only ? c.id === args.only : true));
+  .filter((c) => (onlyIds ? onlyIds.includes(c.id) : true));
+
+// --shard=i/N — splits the target list into N stable buckets and scrapes only
+// bucket i. Used by the GitHub Actions matrix to run shards in parallel; a
+// single shard failing doesn't touch the others' output.
+if (args.shard) {
+  const [iStr, nStr] = String(args.shard).split('/');
+  const i = parseInt(iStr, 10);
+  const n = parseInt(nStr, 10);
+  if (!Number.isInteger(i) || !Number.isInteger(n) || n < 1 || i < 0 || i >= n) {
+    console.error(`Invalid --shard value "${args.shard}" — expected "i/N" with 0 <= i < N.`);
+    process.exit(1);
+  }
+  const before = targets.length;
+  targets = targets.filter((c) => hashBucket(c.id, n) === i);
+  console.log(`Shard ${i}/${n}: ${targets.length} of ${before} matching companies\n`);
+}
 
 const ready = targets.filter((c) => c.method);
 const pending = targets.filter((c) => !c.method);
@@ -785,9 +819,23 @@ const fresh = okResults.flatMap((r) => r.jobs);
 //      must survive untouched
 //
 // In short: a scrape updates the companies it covered and leaves the rest alone.
+//
+// SHARDED RUNS are the exception: each shard only owns a slice of the full
+// company list, and shards run in parallel with no shared state, so a shard
+// carrying forward every out-of-scope company would (a) duplicate that work
+// across every other shard and (b) bloat each shard's output for no reason —
+// the merge step already reconciles all shards' output back into one feed.
+// So under --shard, "out of scope" carrying is skipped entirely and only
+// this shard's own failed companies get carried; every other company is some
+// other shard's responsibility. Combining --shard with --hub in the same run
+// is the one case this doesn't fully cover (a hub-excluded company belongs to
+// no shard that run), which is an acceptable gap while there's a single hub.
 const scrapedIds = new Set(okResults.map((r) => r.company.id));
-const previous = await loadPrevious(OUT);
-const carried = previous.filter((j) => !scrapedIds.has(j.company_id));
+const previous = await loadPrevious(PREV);
+const targetIds = new Set(targets.map((c) => c.id));
+const carried = args.shard
+  ? previous.filter((j) => targetIds.has(j.company_id) && !scrapedIds.has(j.company_id))
+  : previous.filter((j) => !scrapedIds.has(j.company_id));
 
 const outOfScope = carried.filter((j) => !failedIds0.has(j.company_id)).length;
 const fromFailed = carried.length - outOfScope;
