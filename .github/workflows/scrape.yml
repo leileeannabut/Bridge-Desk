@@ -103,13 +103,13 @@ jobs:
           git commit -m "Update job feed: $COUNT roles"
           git push
 
-      - name: Report
-        if: always()
-        run: |
-          echo "### Scrape run" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- Finished: $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
-          echo "- Result: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
-          if [ -f site/jobs.json ]; then
-            echo "- Roles in feed: $(node -e "const d=require('./site/jobs.json');console.log((d.jobs||d).length)")" >> $GITHUB_STEP_SUMMARY
-          fi
+     - name: Report
+  if: always()
+  run: |
+    echo "### Scrape run" >> $GITHUB_STEP_SUMMARY
+    echo "" >> $GITHUB_STEP_SUMMARY
+    echo "- Finished: $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+    echo "- Result: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+    if [ -f site/jobs.json ]; then
+      echo "- Roles in feed: $(node -e "const fs = require('fs'); const d = JSON.parse(fs.readFileSync('./site/jobs.json', 'utf8')); console.log((d.jobs||d).length)")" >> $GITHUB_STEP_SUMMARY
+    fi
