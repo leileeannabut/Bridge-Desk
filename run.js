@@ -1,18 +1,3 @@
-// At the top level of run.js
-process.on('unhandledRejection', (reason, promise) => {
-  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
-  process.exit(1);
-});
-
-// Wrap your main logic
-(async () => {
-  try {
-    // Your scraping code here
-  } catch (error) {
-    console.error('Fatal error:', error);
-    process.exit(1);
-  }
-})();
 #!/usr/bin/env node
 /**
  * run.js — job scraper for BridgeDesk
@@ -38,6 +23,12 @@ process.on('unhandledRejection', (reason, promise) => {
 import { readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { COMPANIES } from './config.js';
+
+// Error handling for unhandled rejections
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
+});
 
 /* ---- options -------------------------------------------------------------- */
 const args = Object.fromEntries(process.argv.slice(2).map((a) => {
@@ -403,7 +394,7 @@ function isNotAJob(title) {
   const t = title.trim().toLowerCase().replace(/[.!→>»]+$/, '').trim();
 
   // Whole-phrase CTAs and nav labels.
-  if (/^(apply|apply now|view|view all|view more|view jobs?|see all|see more|see jobs?|learn more|read more|explore|explore all|search|search jobs?|browse|browse jobs?|all jobs?|all openings?|current openings?|join us|join our team|work (with|for) us|careers?|jobs?|opportunities|life at .*|our (culture|team|values|benefits)|benefits|culture|diversity.*|back|next|previous|home|contact( us)?|sign in|log ?in|register|subscribe|newsletter|privacy.*|terms.*|cookie.*)$/i.test(t)) return true;
+  if (/^(apply|apply now|view|view all|view more|view jobs?|see all|see more|see jobs?|learn more|read more|explore|explore all|search|search jobs?|browse|browse jobs?|all jobs?|all openings?|current|latest)\b/i.test(t)) return true;
 
   // "Open Opportunities", "Open Roles", "Current Openings", "Available Positions"
   // — a generic index label, not a specific posting.
@@ -437,7 +428,7 @@ async function dom(company) {
   // The second matters because careers pages increasingly link straight out to
   // a hosted board: Esusu's Webflow page links to jobs.deel.com/<uuid>/
   // job-details/<uuid>/overview, which no path pattern would guess.
-  const ATS_HOSTS = /(?:jobs\.deel\.com|boards\.greenhouse\.io|jobs\.lever\.co|jobs\.ashbyhq\.com|apply\.workable\.com|\.breezy\.hr|myworkdayjobs\.com|jobs\.smartrecruiters\.com|recruiting\.paylocity\.com|jobs\.jobvite\.com|icims\.com)/i;
+  const ATS_HOSTS = /(?:jobs\.deel\.com|boards\.greenhouse\.io|jobs\.lever\.co|jobs\.ashbyhq\.com|apply\.workable\.com|\.breezy\.hr|myworkdayjobs\.com|jobs\.smartrecruiters\.com|recruiting\.paylocity\.com)/i;
   const re = /<a[^>]+href="([^"#]+)"[^>]*>([\s\S]{0,300}?)<\/a>/gi;
   let m;
   while ((m = re.exec(html))) {
@@ -909,7 +900,4 @@ if (HISTORY_URL && HISTORY_KEY) {
 if (totalFailure) {
   console.error('\nEvery source failed. The feed kept its previous roles, but this needs looking at.');
   process.exit(1);
-}
-if (!process.env.HISTORY_URL || !process.env.HISTORY_KEY) {
-  throw new Error('Missing required environment variables: HISTORY_URL and/or HISTORY_KEY');
 }
