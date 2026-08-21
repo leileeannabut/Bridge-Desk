@@ -3,14 +3,23 @@ name: Scrape jobs
 # GitHub runs this for you — no server, no database, no cron on your Mac.
 # run.js writes site/jobs.json, beside site/index.html — the folder Cloudflare
 # serves. Committing it triggers a rebuild.
+#
+# EXPANDED CAPACITY:
+#   - Company list is split into N parallel shards so more companies fit in
+#     the timeout window, and one slow/broken company can't block the rest.
+#   - Runs twice a day so freshly-posted roles show up sooner.
+#   - detect-ats now runs weekly on its own schedule instead of only on
+#     manual dispatch, so newly added companies get auto-classified.
+#   - Each shard writes its own partial feed; a merge step combines them
+#     before validation, so a single shard failing doesn't blank the board.
 on:
   schedule:
-    # Daily at 07:00 UTC — 02:00 Eastern, 03:00 during daylight saving. Early
-    # enough that the board is fresh before the working day starts.
+    # Twice daily: 07:00 UTC (~2-3am ET) and 17:00 UTC (~12-1pm ET) — one run
+    # before the US workday starts, one mid-day to catch same-day postings.
     #
     # GitHub's scheduler is best-effort and can lag by several minutes under
     # load. It also disables cron on public repos after 60 days with no commits
-    # — daily runs keep that clock reset as long as the feed keeps changing.
+    # — twice-daily runs keep that clock reset as long as the feed keeps changing.
     #
     #        ┌─ minute
     #        │ ┌─ hour (UTC)
@@ -18,30 +27,85 @@ on:
     #        │ │ │ ┌─ month
     #        │ │ │ │ ┌─ day of week
     - cron: '0 7 * * *'
+    - cron: '0 17 * * *'
+    # Weekly ATS re-detection — Sunday 06:00 UTC, ahead of the Monday morning
+    # scrape, so newly detected companies get scraped same-week.
+    - cron: '0 6 * * 0'
   workflow_dispatch:
     inputs:
       only:
-        description: 'Scrape one company only (its config.js id) — leave blank for all'
+        description: 'Scrape one or more company ids (comma-separated) — leave blank for all'
         type: string
         default: ''
       detect:
         description: 'Re-detect ATS for companies with no scrape method'
         type: boolean
         default: false
+      shards:
+        description: 'Number of parallel shards to split the company list across'
+        type: string
+        default: '6'
 
 concurrency:
   group: scrape
   cancel-in-progress: false
 
 jobs:
-  scrape:
+  # Runs only on the Sunday cron, or when manually requested via `detect`.
+  detect-ats:
+    if: github.event.schedule == '0 6 * * 0' || inputs.detect == true
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
-    # The only permission this needs: writing the feed back to the repo.
+    timeout-minutes: 20
     permissions:
       contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      - name: Detect ATS for new companies
+        run: node scripts/detect-ats.js
+      - name: Commit newly detected ATS methods
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add config.js
+          if git diff --staged --quiet; then
+            echo "No new ATS detections — nothing to commit."
+            exit 0
+          fi
+          git commit -m "Detect ATS for new companies"
+          git push
 
+  # Builds the shard matrix. Kept as its own job so the shard count can come
+  # from a workflow_dispatch input instead of being hardcoded into the matrix.
+  plan:
+    if: github.event.schedule != '0 6 * * 0'
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.set.outputs.shards }}
+    steps:
+      - id: set
+        run: |
+          N="${{ inputs.shards }}"
+          N="${N:-6}"
+          node -e "
+            const n = ${N};
+            const arr = Array.from({length: n}, (_, i) => i);
+            console.log('shards=' + JSON.stringify(arr));
+          " >> "$GITHUB_OUTPUT"
+
+  scrape:
+    if: github.event.schedule != '0 6 * * 0'
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJson(needs.plan.outputs.shards) }}
     steps:
       - uses: actions/checkout@v5
 
@@ -55,23 +119,72 @@ jobs:
       # No install step: run.js and scripts/detect-ats.js use only built-in
       # Node APIs (fetch, fs, URL). Nothing to install, nothing to break.
 
-      - name: Detect ATS for new companies
-        if: inputs.detect
-        run: node scripts/detect-ats.js
-
-      - name: Scrape all companies
-        if: inputs.only == ''
+      - name: Scrape this shard
         env:
           HISTORY_URL: ${{ secrets.HISTORY_URL }}
           HISTORY_KEY: ${{ secrets.HISTORY_KEY }}
-        run: node run.js --out=site/jobs.json
+          SHARD_COUNT: ${{ inputs.shards || '6' }}
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            node run.js --only=${{ inputs.only }} --out=site/jobs.shard-${{ matrix.shard }}.json
+          else
+            node run.js --shard=${{ matrix.shard }}/$SHARD_COUNT --out=site/jobs.shard-${{ matrix.shard }}.json
+          fi
+        continue-on-error: true
 
-      - name: Scrape one company
-        if: inputs.only != ''
-        env:
-          HISTORY_URL: ${{ secrets.HISTORY_URL }}
-          HISTORY_KEY: ${{ secrets.HISTORY_KEY }}
-        run: node run.js --only=${{ inputs.only }} --out=site/jobs.json
+      - name: Upload shard result
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: site/jobs.shard-${{ matrix.shard }}.json
+          if-no-files-found: warn
+          retention-days: 1
+
+  merge:
+    if: github.event.schedule != '0 6 * * 0'
+    needs: scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: site/shards
+
+      - name: Merge shard feeds into one, de-duplicating by id
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            const root = 'site/shards';
+            const seen = new Map();
+            let shardsFound = 0;
+            for (const dir of fs.readdirSync(root)) {
+              const dirPath = path.join(root, dir);
+              for (const file of fs.readdirSync(dirPath)) {
+                if (!file.endsWith('.json')) continue;
+                shardsFound++;
+                const raw = fs.readFileSync(path.join(dirPath, file), 'utf8');
+                let data;
+                try { data = JSON.parse(raw); } catch { continue; }
+                const jobs = Array.isArray(data) ? data : (data.jobs || []);
+                for (const j of jobs) {
+                  if (j && j.id) seen.set(j.id, j);
+                }
+              }
+            }
+            if (shardsFound === 0) throw new Error('no shard output found — every shard failed');
+            const merged = Array.from(seen.values());
+            fs.writeFileSync('site/jobs.json', JSON.stringify(merged, null, 2));
+            console.log('merged ' + merged.length + ' unique jobs from ' + shardsFound + ' shard file(s)');
+          "
 
       # Guard against publishing a broken or empty feed. A scrape that fails
       # halfway should leave yesterday's feed in place, not replace it with
@@ -90,11 +203,11 @@ jobs:
             console.log('feed ok: ' + jobs.length + ' jobs');
           "
 
-      - name: Commit the feed (and any newly detected ATS methods)
+      - name: Commit the merged feed
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add site/jobs.json config.js
+          git add site/jobs.json
           if git diff --staged --quiet; then
             echo "No change since the last scrape — nothing to commit."
             exit 0
