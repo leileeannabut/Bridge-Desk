@@ -65,6 +65,10 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:600;letter-spacing:-.01em;tex
   color:var(--sky-deep);display:flex;align-items:center;gap:8px;font-weight:600;
 }
 .eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.hero-caption{
+  font-family:var(--body);font-size:15.5px;font-weight:600;line-height:1.5;
+  color:var(--ink-soft);max-width:44ch;margin:10px 0 0;
+}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
   padding:13px 22px;border-radius:999px;border:1.5px solid var(--line-strong);
@@ -109,9 +113,6 @@ nav.site-nav a:hover{color:var(--ink)}
 .wordmark .mark img{width:100%;height:100%;object-fit:contain;border-radius:8px}
 
 /* ---------- header nav buttons ---------- */
-.header-ctas{display:flex;gap:10px;flex-shrink:0}
-.header-ctas .btn{padding:10px 18px;font-size:13.5px}
-@media (max-width:860px){.header-ctas{display:none}}
 
 /* ---------- hero ---------- */
 .hero{padding:64px 0 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
@@ -160,6 +161,7 @@ nav.site-nav a:hover{color:var(--ink)}
 .split-card.team{border-top:3px solid var(--gold)}
 .split-card h3{font-size:20px;margin:6px 0 8px}
 .split-card p{color:var(--ink-soft);font-size:14.5px;line-height:1.6;margin-bottom:16px}
+.card-cta-row{display:flex;flex-wrap:wrap;gap:10px}
 .tag-soon{
   display:inline-block;margin-left:8px;padding:3px 9px;border-radius:999px;
   background:var(--line);color:var(--ink-soft);font-size:11px;font-weight:700;
@@ -353,15 +355,10 @@ footer.site a:hover{color:var(--ink)}
       <span class="brand-text">BridgeDesk</span>
     </a>
 
-    <div class="header-ctas" aria-label="Site navigation">
-      <a href="#board" class="btn gold">Available Roles</a>
-      <a href="#employers" class="btn">I want to find my VA</a>
-    </div>
-
-    <nav class="site-nav" style="display:none">
-      <a href="#board">Open roles</a>
-      <a href="#employers">For employers</a>
-      <a href="#candidates">For VAs</a>
+    <nav class="site-nav">
+      <a href="#about">About Us</a>
+      <a href="#board">Open Roles</a>
+      <a href="mailto:hello@bridgedesk.co">Contact Us</a>
     </nav>
   </div>
 </header>
@@ -369,12 +366,13 @@ footer.site a:hover{color:var(--ink)}
 <main id="top">
   <div class="wrap hero">
     <div>
-      <div class="eyebrow">The Direct Bridge Between World-Class Philippine Assistants and US Founders.</div>
+      <div class="eyebrow">US startups · remote-first hiring</div>
+      <p class="hero-caption">The Direct Bridge Between World-Class Philippine Assistants and US Founders.</p>
       <h1>The bridge between <em>US teams</em> and <em>Filipino talent.</em></h1>
       <p class="lede">Connecting top Philippine talent directly with US startups—where location is no barrier, and your expertise is the only requirement that matters.</p>
       <div class="hero-ctas">
-        <a href="#board" class="btn gold">Available Roles</a>
-        <a href="#employers" class="btn">I want to find my VA</a>
+        <a href="#employers" class="btn gold">I am an Employer</a>
+        <a href="#candidates" class="btn">I am an Applicant</a>
       </div>
     </div>
 
@@ -424,13 +422,16 @@ footer.site a:hover{color:var(--ink)}
       <div class="eyebrow">For US employers</div>
       <h3>Hire a remote EA or VA without running the search yourself</h3>
       <p>We pre-screen Filipino candidates against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. Introductions are made under a fee agreement, so there's no cost until a hire happens.</p>
-      <a class="btn gold" href="mailto:hello@bridgedesk.co?subject=Hiring%20a%20remote%20assistant">Tell us who you're looking for</a>
+      <a class="btn gold" href="mailto:hello@bridgedesk.co?subject=Posting%20an%20open%20position">Post an Open Position</a>
     </div>
     <div class="split-card vas" id="candidates">
       <div class="eyebrow">For Filipino VAs &amp; EAs</div>
       <h3>Apply to real openings at real US startups</h3>
-      <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly through BridgeDesk and get an AI-reviewed read on how your background matches the role before you send it.</p>
-      <a class="btn" href="#board">Browse open roles ↓</a>
+      <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly through BridgeDesk and get an AI-reviewed read on how your background matches the role before you send it. Not ready to pick a specific role yet? Activate matching instead — paste your background once and we'll read it against openings for you.</p>
+      <div class="card-cta-row">
+        <a class="btn" href="#board">Browse open roles ↓</a>
+        <button type="button" class="btn gold" id="activate-matching-btn">Activate Matching</button>
+      </div>
     </div>
     <div class="split-card team" id="team">
       <div class="eyebrow">For full-coverage hiring</div>
@@ -466,7 +467,7 @@ footer.site a:hover{color:var(--ink)}
     </div>
   </section>
 
-  <section class="detail">
+  <section class="detail" id="about">
     <div class="wrap detail-grid">
       <div>
         <div class="eyebrow">How the PH signal works</div>
@@ -975,6 +976,16 @@ updateClock();
 setInterval(updateClock, 30000);
 
 loadJobs();
+
+/* ---------- general matching (no specific job selected yet) ---------- */
+const GENERAL_MATCH_PROFILE = {
+  id: null, ref: null,
+  title: 'General Talent Pool Review', company: 'BridgeDesk',
+  hub: 'startup', category: 'Virtual Assistant',
+  location: 'Philippines · Remote', apply_url: null,
+};
+$('activate-matching-btn')?.addEventListener('click', () => openApply(GENERAL_MATCH_PROFILE));
+
 </script>
 </body>
 </html>
