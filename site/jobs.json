@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:36:47.270Z",
+  "generated_at": "2026-08-21T18:57:51.039Z",
   "count": 11,
   "sources_ok": 22,
   "sources_failed": 3,
@@ -24,7 +24,7 @@
       "apply_url": "https://www.samsara.com/company/careers/roles/8140386?gh_jid=8140386",
       "source": "greenhouse",
       "posted_at": "2026-08-20T14:53:52-04:00",
-      "scraped_at": "2026-08-21T18:36:38.626Z",
+      "scraped_at": "2026-08-21T18:57:48.004Z",
       "status": "open"
     },
     {
@@ -47,7 +47,7 @@
       "apply_url": "https://jobs.ashbyhq.com/rula/d6e6acc0-ba6f-47a8-9434-823f128742b9",
       "source": "ashby",
       "posted_at": "2026-08-19T16:58:19.681+00:00",
-      "scraped_at": "2026-08-21T18:36:46.809Z",
+      "scraped_at": "2026-08-21T18:57:50.574Z",
       "status": "open"
     },
     {
@@ -70,7 +70,7 @@
       "apply_url": "https://jobs.ashbyhq.com/percona/1b48c239-ee02-4f2b-9b11-cbd2c0eae00f",
       "source": "ashby",
       "posted_at": "2026-08-17T14:06:00.459+00:00",
-      "scraped_at": "2026-08-21T18:36:46.337Z",
+      "scraped_at": "2026-08-21T18:57:50.167Z",
       "status": "open"
     },
     {
@@ -93,7 +93,7 @@
       "apply_url": "https://jobs.ashbyhq.com/exa/b5665525-c2a3-4c6a-a3dd-d0d1f1df01f8",
       "source": "ashby",
       "posted_at": "2026-08-14T04:53:13.724+00:00",
-      "scraped_at": "2026-08-21T18:36:45.925Z",
+      "scraped_at": "2026-08-21T18:57:49.016Z",
       "status": "open"
     },
     {
@@ -116,7 +116,7 @@
       "apply_url": "https://job-boards.greenhouse.io/checkr/jobs/8121846",
       "source": "greenhouse",
       "posted_at": "2026-08-11T11:48:38-04:00",
-      "scraped_at": "2026-08-21T18:36:38.010Z",
+      "scraped_at": "2026-08-21T18:57:47.389Z",
       "status": "open"
     },
     {
@@ -139,7 +139,7 @@
       "apply_url": "https://job-boards.greenhouse.io/turing/jobs/6123880004",
       "source": "greenhouse",
       "posted_at": "2026-08-05T17:41:51-04:00",
-      "scraped_at": "2026-08-21T18:36:37.988Z",
+      "scraped_at": "2026-08-21T18:57:47.371Z",
       "status": "open"
     },
     {
@@ -162,7 +162,7 @@
       "apply_url": "https://job-boards.greenhouse.io/flex/jobs/4703666005",
       "source": "greenhouse",
       "posted_at": "2026-07-31T15:57:25-04:00",
-      "scraped_at": "2026-08-21T18:36:38.500Z",
+      "scraped_at": "2026-08-21T18:57:47.838Z",
       "status": "open"
     },
     {
@@ -185,7 +185,7 @@
       "apply_url": "https://job-boards.greenhouse.io/turing/jobs/6123046004",
       "source": "greenhouse",
       "posted_at": "2026-07-29T22:59:32-04:00",
-      "scraped_at": "2026-08-21T18:36:37.987Z",
+      "scraped_at": "2026-08-21T18:57:47.371Z",
       "status": "open"
     },
     {
@@ -208,7 +208,7 @@
       "apply_url": "https://job-boards.greenhouse.io/flex/jobs/4717442005",
       "source": "greenhouse",
       "posted_at": "2026-07-29T18:30:19-04:00",
-      "scraped_at": "2026-08-21T18:36:38.500Z",
+      "scraped_at": "2026-08-21T18:57:47.838Z",
       "status": "open"
     },
     {
@@ -231,7 +231,7 @@
       "apply_url": "https://jobs.ashbyhq.com/vanta/2ed33963-d4b4-430b-867b-07b14bfd561d",
       "source": "ashby",
       "posted_at": "2026-07-28T15:58:16.693+00:00",
-      "scraped_at": "2026-08-21T18:36:46.391Z",
+      "scraped_at": "2026-08-21T18:57:50.157Z",
       "status": "open"
     },
     {
@@ -254,7 +254,7 @@
       "apply_url": "https://job-boards.greenhouse.io/checkr/jobs/7913718",
       "source": "greenhouse",
       "posted_at": "2026-07-08T17:11:17-04:00",
-      "scraped_at": "2026-08-21T18:36:38.010Z",
+      "scraped_at": "2026-08-21T18:57:47.389Z",
       "status": "open"
     }
   ]
