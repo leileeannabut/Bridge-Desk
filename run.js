@@ -910,3 +910,6 @@ if (totalFailure) {
   console.error('\nEvery source failed. The feed kept its previous roles, but this needs looking at.');
   process.exit(1);
 }
+if (!process.env.HISTORY_URL || !process.env.HISTORY_KEY) {
+  throw new Error('Missing required environment variables: HISTORY_URL and/or HISTORY_KEY');
+}
