@@ -150,15 +150,23 @@ nav.site-nav a:hover{color:var(--ink)}
 .bc-overlap b{color:var(--sage-deep)}
 
 /* ---------- audience split ---------- */
-.split{padding:6px 0 54px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.split{padding:6px 0 54px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
 .split-card{
   background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
   padding:26px 26px 24px;
 }
 .split-card.employers{border-top:3px solid var(--sky)}
 .split-card.vas{border-top:3px solid var(--sage)}
+.split-card.team{border-top:3px solid var(--gold)}
 .split-card h3{font-size:20px;margin:6px 0 8px}
 .split-card p{color:var(--ink-soft);font-size:14.5px;line-height:1.6;margin-bottom:16px}
+.tag-soon{
+  display:inline-block;margin-left:8px;padding:3px 9px;border-radius:999px;
+  background:var(--line);color:var(--ink-soft);font-size:11px;font-weight:700;
+  letter-spacing:.04em;text-transform:uppercase;vertical-align:middle;
+}
+.btn[aria-disabled="true"]{opacity:.7;cursor:default}
+.btn[aria-disabled="true"]:hover{transform:none;border-color:var(--line-strong)}
 
 /* ---------- board ---------- */
 .board{padding:8px 0 60px;border-top:1px solid var(--line)}
@@ -423,6 +431,12 @@ footer.site a:hover{color:var(--ink)}
       <h3>Apply to real openings at real US startups</h3>
       <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly through BridgeDesk and get an AI-reviewed read on how your background matches the role before you send it.</p>
       <a class="btn" href="#board">Browse open roles ↓</a>
+    </div>
+    <div class="split-card team" id="team">
+      <div class="eyebrow">For full-coverage hiring</div>
+      <h3>Hire a Team, not just one person</h3>
+      <p>For the price of one hire, get a small team behind your role instead of a single point of failure — so you're covered whenever, wherever, even when one person is out. This runs through our dedicated VA agency, currently under construction.</p>
+      <a class="btn" href="#" aria-disabled="true" onclick="event.preventDefault()">Hire a Team <span class="tag-soon">Coming soon</span></a>
     </div>
   </div>
 
