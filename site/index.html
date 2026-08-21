@@ -37,10 +37,10 @@
   --paper:#FAF6ED; --paper-soft:#F1ECDF; --card:#FFFFFF;
   --ink:#24322C; --ink-soft:#55645C; --ink-dim:#8A968F;
   --line:rgba(36,50,44,.13); --line-strong:rgba(36,50,44,.22);
-  --sage:#6E8F72; --sage-deep:#3F5C43; --sage-tint:#E4ECE2;
-  --sky:#3E7C93; --sky-deep:#28556A; --sky-tint:#DEEAEE;
-  --tan:#C8A66C; --tan-deep:#93743B; --tan-tint:#F3E9D4;
-  --gold:#D6A93B; --gold-deep:#8C6A1E;
+  --green:#9AD6B4; --green-deep:#276843; --green-tint:#DEF2E7;
+  --blue:#759ECC; --blue-deep:#204C79; --blue-tint:#A7CCE6;
+  --purple:#B49EDE; --purple-deep:#462682; --purple-tint:#C6B3E8;
+  --yellow:#FBFC94; --yellow-deep:#78621C; --yellow-tint:#FBFFCC;
   --danger:#B4553F;
   --display:'Fraunces',Georgia,serif;
   --body:'Work Sans',system-ui,sans-serif;
@@ -56,15 +56,15 @@ body{
 }
 a{color:inherit;text-decoration:none}
 img,svg{display:block;max-width:100%}
-::selection{background:var(--gold);color:#241C08}
-:focus-visible{outline:2px solid var(--sky);outline-offset:3px;border-radius:4px}
+::selection{background:var(--yellow);color:var(--ink)}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:4px}
 h1,h2,h3,h4{font-family:var(--display);font-weight:600;letter-spacing:-.01em;text-wrap:balance}
 .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
 .eyebrow{
   font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--sky-deep);display:flex;align-items:center;gap:8px;font-weight:600;
+  color:var(--blue-deep);display:flex;align-items:center;gap:8px;font-weight:600;
 }
-.eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--yellow)}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
   padding:13px 22px;border-radius:999px;border:1.5px solid var(--line-strong);
@@ -72,10 +72,14 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:600;letter-spacing:-.01em;tex
   background:transparent;color:var(--ink);transition:transform .15s ease, background .15s ease, border-color .15s ease;
 }
 .btn:hover{border-color:var(--ink);transform:translateY(-1px)}
-.btn.primary{background:var(--sage-deep);border-color:var(--sage-deep);color:#fff}
+.btn.primary{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
 .btn.primary:hover{background:var(--ink);border-color:var(--ink)}
-.btn.gold{background:var(--gold);border-color:var(--gold);color:#241C08}
-.btn.gold:hover{background:var(--gold-deep);border-color:var(--gold-deep)}
+.btn.yellow{background:var(--yellow);border-color:var(--yellow);color:var(--ink)}
+.btn.yellow:hover{background:var(--yellow-deep);border-color:var(--yellow-deep);color:#fff}
+.btn.blue{background:var(--blue);border-color:var(--blue);color:var(--ink)}
+.btn.blue:hover{background:var(--blue-deep);border-color:var(--blue-deep);color:#fff}
+.btn.green{background:var(--green);border-color:var(--green);color:var(--ink)}
+.btn.green:hover{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
 .btn[disabled]{opacity:.55;cursor:default;transform:none}
 .btn.block{width:100%}
 
@@ -88,7 +92,7 @@ header.site{
 .wordmark{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:21px;letter-spacing:-.01em}
 .wordmark .mark{
   width:30px;height:30px;border-radius:9px;display:grid;place-items:center;
-  background:linear-gradient(135deg,var(--sky) 0%,var(--sage) 100%);color:#fff;
+  background:linear-gradient(135deg,var(--blue) 0%,var(--green) 100%);color:#fff;
   font-family:var(--mono);font-size:13px;font-weight:700;
 }
 nav.site-nav{display:flex;gap:26px;align-items:center;font-size:14.5px;font-weight:500;color:var(--ink-soft)}
@@ -96,7 +100,7 @@ nav.site-nav a:hover{color:var(--ink)}
 
 /* ---------- animated wordmark ---------- */
 .wordmark .brand-text{
-  background:linear-gradient(100deg,var(--sky-deep) 0%,var(--sage-deep) 30%,var(--gold-deep) 55%,var(--sky-deep) 80%);
+  background:linear-gradient(100deg,var(--blue-deep) 0%,var(--green-deep) 30%,var(--yellow-deep) 55%,var(--blue-deep) 80%);
   background-size:260% 100%;
   -webkit-background-clip:text;background-clip:text;color:transparent;
   animation:brandShimmer 7s ease-in-out infinite;
@@ -113,9 +117,15 @@ nav.site-nav a:hover{color:var(--ink)}
 /* ---------- hero ---------- */
 .hero{padding:64px 0 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
 .hero h1{font-size:clamp(34px,4.4vw,54px);line-height:1.06;margin:14px 0 18px}
-.hero h1 em{font-style:italic;color:var(--sage-deep)}
+.hero h1 em{font-style:italic;color:var(--green-deep)}
 .hero p.lede{font-size:17.5px;color:var(--ink-soft);max-width:46ch;margin-bottom:26px}
-.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.hero-bridge{width:56px;height:20px;flex-shrink:0}
+.hero-bridge .hb-cable{stroke:var(--line-strong);stroke-width:1.6}
+.hero-bridge .hb-tower{stroke:var(--line-strong);stroke-width:1.6}
+.hero-bridge .hb-dot.employer{fill:var(--blue)}
+.hero-bridge .hb-dot.applicant{fill:var(--green)}
+@media (max-width:480px){.hero-bridge{display:none}}
 
 /* bridge clock — signature element */
 .bridge-clock{
@@ -129,22 +139,22 @@ nav.site-nav a:hover{color:var(--ink)}
 .bc-city.ph{text-align:right}
 .bc-city .place{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;color:var(--ink-dim);text-transform:uppercase;margin-bottom:4px}
 .bc-city .time{font-family:var(--display);font-size:30px;font-weight:600;font-variant-numeric:tabular-nums}
-.bc-city.us .time{color:var(--sky-deep)}
-.bc-city.ph .time{color:var(--sage-deep)}
+.bc-city.us .time{color:var(--blue-deep)}
+.bc-city.ph .time{color:var(--green-deep)}
 .bc-track{position:relative;height:56px;margin:2px 0 8px}
 .bc-track svg{width:100%;height:100%;display:block;overflow:visible}
 .bc-track .bridge-deck{stroke:var(--line-strong);stroke-width:2}
-.bc-track .bridge-cable{stroke:var(--sky);stroke-width:1.4;opacity:.55}
-.bc-track .bridge-cable.ph{stroke:var(--sage)}
+.bc-track .bridge-cable{stroke:var(--blue);stroke-width:1.4;opacity:.55}
+.bc-track .bridge-cable.ph{stroke:var(--green)}
 .bc-track .bridge-tower{stroke:var(--ink-dim);stroke-width:2}
 .bc-track .bridge-fill{fill:url(#bcGradient)}
 .bc-track .now{
   position:absolute;top:82%;width:16px;height:16px;border-radius:50%;
-  background:var(--gold);border:3px solid var(--card);box-shadow:0 2px 8px rgba(0,0,0,.25);
+  background:var(--yellow);border:3px solid var(--card);box-shadow:0 2px 8px rgba(0,0,0,.25);
   transform:translate(-50%,-50%);transition:left .3s ease;
 }
 .bc-overlap{font-size:13px;color:var(--ink-soft);line-height:1.55}
-.bc-overlap b{color:var(--sage-deep)}
+.bc-overlap b{color:var(--green-deep)}
 
 /* ---------- audience split ---------- */
 .split{padding:6px 0 54px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
@@ -152,17 +162,12 @@ nav.site-nav a:hover{color:var(--ink)}
   background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
   padding:26px 26px 24px;
 }
-.split-card.employers{border-top:3px solid var(--sky)}
-.split-card.vas{border-top:3px solid var(--sage)}
-.split-card.team{border-top:3px solid var(--gold)}
+.split-card.employers{border-top:3px solid var(--blue)}
+.split-card.vas{border-top:3px solid var(--green)}
+.split-card.team{border-top:3px solid var(--purple)}
 .split-card h3{font-size:20px;margin:6px 0 8px}
 .split-card p{color:var(--ink-soft);font-size:14.5px;line-height:1.6;margin-bottom:16px}
 .card-cta-row{display:flex;flex-wrap:wrap;gap:10px}
-.price-tag{
-  display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12.5px;
-  color:var(--ink-soft);margin-top:12px;letter-spacing:.01em;
-}
-.price-tag::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--gold)}
 .tag-soon{
   display:inline-block;margin-left:8px;padding:3px 9px;border-radius:999px;
   background:var(--line);color:var(--ink-soft);font-size:11px;font-weight:700;
@@ -183,7 +188,7 @@ nav.site-nav a:hover{color:var(--ink)}
   width:100%;padding:12px 16px 12px 40px;border-radius:11px;border:1.5px solid var(--line-strong);
   background:var(--card);font-family:var(--body);font-size:14.5px;color:var(--ink);
 }
-.search-wrap input:focus{border-color:var(--sky)}
+.search-wrap input:focus{border-color:var(--blue)}
 .search-wrap svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.5}
 .pill-row{display:flex;gap:8px;flex-wrap:wrap}
 .pill{
@@ -201,31 +206,31 @@ nav.site-nav a:hover{color:var(--ink)}
   padding:20px 20px 18px;cursor:pointer;transition:border-color .15s ease, transform .15s ease, box-shadow .15s ease;
   display:flex;flex-direction:column;gap:10px;
 }
-.job-card:hover{border-color:var(--sky);transform:translateY(-2px);box-shadow:0 14px 30px -20px rgba(36,50,44,.4)}
+.job-card:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:0 14px 30px -20px rgba(36,50,44,.4)}
 .job-card .row-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .chip{
   display:inline-block;padding:4px 10px;border-radius:999px;font-size:11.5px;font-weight:700;
   letter-spacing:.02em;font-family:var(--mono);text-transform:uppercase;
 }
-.chip.cat-Executive-Assistant{background:var(--sky-tint);color:var(--sky-deep)}
-.chip.cat-Virtual-Assistant{background:var(--sage-tint);color:var(--sage-deep)}
-.chip.cat-Personal-Assistant{background:var(--tan-tint);color:var(--tan-deep)}
+.chip.cat-Executive-Assistant{background:var(--blue-tint);color:var(--blue-deep)}
+.chip.cat-Virtual-Assistant{background:var(--green-tint);color:var(--green-deep)}
+.chip.cat-Personal-Assistant{background:var(--purple-tint);color:var(--purple-deep)}
 .chip.cat-Legal-Assistant{background:#F1E3E9;color:#8A3D57}
 .ph-badge{display:flex;gap:3px;align-items:center;flex-shrink:0}
 .ph-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--line-strong)}
-.ph-badge .dot.on{background:var(--gold)}
+.ph-badge .dot.on{background:var(--yellow)}
 .ph-badge span.lbl{font-family:var(--mono);font-size:10px;color:var(--ink-dim);margin-left:4px;letter-spacing:.04em}
 .job-card h3{font-size:17.5px;line-height:1.3}
 .job-card .company{font-size:13.5px;color:var(--ink-soft);font-weight:600}
 .job-card .meta{font-size:12.5px;color:var(--ink-dim);display:flex;gap:8px;flex-wrap:wrap}
 .job-card .summary{font-size:13.5px;color:var(--ink-soft);line-height:1.5;flex:1}
-.job-card .comp{font-family:var(--mono);font-size:12.5px;color:var(--sage-deep);font-weight:600}
+.job-card .comp{font-family:var(--mono);font-size:12.5px;color:var(--green-deep);font-weight:600}
 .empty-state{padding:60px 20px;text-align:center;color:var(--ink-dim)}
 .empty-state h4{color:var(--ink-soft);margin-bottom:6px;font-size:17px}
 
 .sample-banner{
-  background:var(--tan-tint);border:1px solid var(--tan);border-radius:11px;
-  padding:12px 16px;font-size:13.5px;color:var(--tan-deep);margin:18px 0 4px;display:flex;gap:10px;align-items:center;
+  background:var(--purple-tint);border:1px solid var(--purple);border-radius:11px;
+  padding:12px 16px;font-size:13.5px;color:var(--purple-deep);margin:18px 0 4px;display:flex;gap:10px;align-items:center;
 }
 
 /* ---------- employer / candidate detail sections ---------- */
@@ -237,7 +242,7 @@ nav.site-nav a:hover{color:var(--ink)}
 .detail li{
   padding-left:24px;position:relative;font-size:14.5px;color:var(--ink-soft);margin-bottom:9px;line-height:1.5;
 }
-.detail li::before{content:'—';position:absolute;left:0;color:var(--sage-deep);font-weight:700}
+.detail li::before{content:'—';position:absolute;left:0;color:var(--green-deep);font-weight:700}
 .fee-note{font-size:12px;color:var(--ink-dim);font-weight:500;line-height:1.6;margin-top:2px}
 
 /* ---------- footer ---------- */
@@ -284,8 +289,8 @@ footer.site a:hover{color:var(--ink)}
 .drawer .drawer-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
 .drawer .desc{font-size:14.5px;color:var(--ink-soft);line-height:1.65;margin:16px 0 22px;white-space:pre-line}
 .ph-note{
-  background:var(--sky-tint);border:1px solid var(--sky);border-radius:11px;padding:13px 15px;
-  font-size:13.5px;color:var(--sky-deep);margin-bottom:20px;line-height:1.55;
+  background:var(--blue-tint);border:1px solid var(--blue);border-radius:11px;padding:13px 15px;
+  font-size:13.5px;color:var(--blue-deep);margin-bottom:20px;line-height:1.55;
 }
 .ph-note.low{background:var(--paper-soft);border-color:var(--line-strong);color:var(--ink-soft)}
 
@@ -293,7 +298,7 @@ footer.site a:hover{color:var(--ink)}
 .wiz-steps{display:flex;gap:8px;margin:22px 0 20px}
 .wiz-step{flex:1}
 .wiz-bar{height:4px;border-radius:99px;background:var(--line-strong);overflow:hidden;margin-bottom:6px}
-.wiz-bar span{display:block;height:100%;width:0;background:var(--sage-deep);transition:width .2s ease}
+.wiz-bar span{display:block;height:100%;width:0;background:var(--green-deep);transition:width .2s ease}
 .wiz-step.is-on .wiz-bar span,.wiz-step.is-done .wiz-bar span{width:100%}
 .wiz-step small{display:block;font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-dim)}
 .wiz-intro{font-size:14px;color:var(--ink-soft);margin-bottom:18px;line-height:1.55}
@@ -302,18 +307,18 @@ footer.site a:hover{color:var(--ink)}
 .f-row.mi{grid-template-columns:1fr 50px 1fr}
 .f label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--ink)}
 .f label .opt{font-weight:400;color:var(--ink-dim)}
-.f label .req{color:var(--sky-deep)}
+.f label .req{color:var(--blue-deep)}
 .f input,.f textarea,.f select{
   width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);
   font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink);
 }
-.f input:focus,.f textarea:focus,.f select:focus{border-color:var(--sky)}
+.f input:focus,.f textarea:focus,.f select:focus{border-color:var(--blue)}
 .f select{cursor:pointer}
 .f textarea{min-height:170px;resize:vertical;line-height:1.5}
 .f.has-error input,.f.has-error textarea,.f.has-error select{border-color:var(--danger)}
 .f .err{display:block;font-size:12px;color:var(--danger);margin-top:5px}
 .char-count{font-size:12px;color:var(--ink-dim);margin-top:5px}
-.char-count.is-thin{color:var(--tan-deep)}
+.char-count.is-thin{color:var(--purple-deep)}
 .hint{display:block;font-size:12px;color:var(--ink-dim);margin-top:6px}
 .wiz-foot{display:flex;align-items:center;gap:10px;margin-top:22px}
 .wiz-foot .spacer{flex:1}
@@ -326,13 +331,13 @@ footer.site a:hover{color:var(--ink)}
   display:flex;align-items:center;gap:12px;cursor:pointer;background:var(--paper-soft);
   transition:border-color .15s ease, background .15s ease;
 }
-.upload-box:hover{border-color:var(--sky);background:var(--sky-tint)}
-.upload-box.has-file{border-color:var(--sage);background:var(--sage-tint)}
+.upload-box:hover{border-color:var(--blue);background:var(--blue-tint)}
+.upload-box.has-file{border-color:var(--green);background:var(--green-tint)}
 .upload-box .up-icon{
   width:38px;height:38px;border-radius:9px;background:var(--card);border:1.5px solid var(--line-strong);
-  display:grid;place-items:center;flex-shrink:0;color:var(--sky-deep);font-size:16px;
+  display:grid;place-items:center;flex-shrink:0;color:var(--blue-deep);font-size:16px;
 }
-.upload-box.has-file .up-icon{color:var(--sage-deep);border-color:var(--sage)}
+.upload-box.has-file .up-icon{color:var(--green-deep);border-color:var(--green)}
 .upload-box .up-text{flex:1;min-width:0}
 .upload-box .up-text b{display:block;font-size:13.5px;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .upload-box .up-text span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
@@ -347,7 +352,7 @@ footer.site a:hover{color:var(--ink)}
 .pay-box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:18px}
 .pay-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
 .pay-row .pay-label{font-size:14.5px;color:var(--ink);font-weight:600}
-.pay-row .pay-amount{font-family:var(--display);font-size:26px;font-weight:600;color:var(--sage-deep);white-space:nowrap}
+.pay-row .pay-amount{font-family:var(--display);font-size:26px;font-weight:600;color:var(--green-deep);white-space:nowrap}
 .pay-desc{font-size:13px;color:var(--ink-soft);line-height:1.55;margin-top:8px}
 .pay-methods{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
 .pay-methods span{
@@ -355,20 +360,20 @@ footer.site a:hover{color:var(--ink)}
   color:var(--ink-dim);border:1px solid var(--line-strong);border-radius:6px;padding:3px 8px;
 }
 .gate-lock{
-  width:48px;height:48px;border-radius:50%;background:var(--sage-tint);color:var(--sage-deep);
+  width:48px;height:48px;border-radius:50%;background:var(--green-tint);color:var(--green-deep);
   display:grid;place-items:center;font-family:var(--display);font-size:20px;font-weight:600;margin-bottom:16px;
 }
 
 /* ---------- checkout return banner ---------- */
 .return-banner{
-  background:var(--sage-tint);border:1px solid var(--sage);border-radius:11px;
-  padding:13px 16px;font-size:13.5px;color:var(--sage-deep);margin:18px 0 0;
+  background:var(--green-tint);border:1px solid var(--green);border-radius:11px;
+  padding:13px 16px;font-size:13.5px;color:var(--green-deep);margin:18px 0 0;
   display:flex;gap:10px;align-items:center;font-weight:600;
 }
 
 .thinking{display:flex;flex-direction:column;align-items:center;gap:16px;padding:50px 10px;text-align:center}
 .thinking-ring{
-  width:44px;height:44px;border-radius:50%;border:3px solid var(--line-strong);border-top-color:var(--sage-deep);
+  width:44px;height:44px;border-radius:50%;border:3px solid var(--line-strong);border-top-color:var(--green-deep);
   animation:spin 1s linear infinite;
 }
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -379,22 +384,22 @@ footer.site a:hover{color:var(--ink)}
 .score-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
 .score-ring circle{fill:none;stroke-width:8}
 .score-ring .track{stroke:var(--paper-soft)}
-.score-ring .fill{stroke:var(--gold);stroke-linecap:round}
+.score-ring .fill{stroke:var(--yellow);stroke-linecap:round}
 .score-ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-size:22px}
 .score-card h4{font-size:16px;margin-bottom:4px}
 .score-card p{font-size:13px;color:var(--ink-soft);line-height:1.5}
 .rev-block{margin-bottom:18px}
 .rev-block h5{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;font-family:var(--mono);margin-bottom:8px;color:var(--ink-soft)}
-.rev-block h5.green{color:var(--sage-deep)}
+.rev-block h5.green{color:var(--green-deep)}
 .rev-list{list-style:none;padding:0}
 .rev-list li{font-size:13.5px;color:var(--ink-soft);padding-left:18px;position:relative;margin-bottom:7px;line-height:1.5}
-.rev-list li::before{content:'✓';position:absolute;left:0;color:var(--sage-deep);font-weight:700}
-.rev-list.gap li::before{content:'○';color:var(--tan-deep)}
+.rev-list li::before{content:'✓';position:absolute;left:0;color:var(--green-deep);font-weight:700}
+.rev-list.gap li::before{content:'○';color:var(--purple-deep)}
 .tag-row{display:flex;flex-wrap:wrap;gap:6px}
-.tag{background:var(--sage-tint);color:var(--sage-deep);padding:5px 11px;border-radius:999px;font-size:12px;font-weight:600}
+.tag{background:var(--green-tint);color:var(--green-deep);padding:5px 11px;border-radius:999px;font-size:12px;font-weight:600}
 .ai-note{font-size:12px;color:var(--ink-dim);line-height:1.5;margin-top:6px}
 
-.done-mark{width:56px;height:56px;border-radius:50%;background:var(--sage-tint);color:var(--sage-deep);display:grid;place-items:center;font-size:26px;margin:20px auto 18px;font-weight:700}
+.done-mark{width:56px;height:56px;border-radius:50%;background:var(--green-tint);color:var(--green-deep);display:grid;place-items:center;font-size:26px;margin:20px auto 18px;font-weight:700}
 .done-mark.err{background:#F1E3E0;color:var(--danger)}
 .drawer .done h3{text-align:center;font-size:21px;margin-bottom:8px}
 .drawer .done p{text-align:center;font-size:14px;color:var(--ink-soft)}
@@ -436,8 +441,15 @@ footer.site a:hover{color:var(--ink)}
       <h1>The direct bridge between <em>world-class Philippine assistants</em> and <em>US founders.</em></h1>
       <p class="lede">Connecting top Philippine talent directly with US startups—where location is no barrier, and your expertise is the only requirement that matters.</p>
       <div class="hero-ctas">
-        <a href="#employers" class="btn gold">I am an Employer</a>
-        <a href="#candidates" class="btn">I am an Applicant</a>
+        <a href="#employers" class="btn blue">I am an Employer</a>
+        <svg class="hero-bridge" viewBox="0 0 56 20" aria-hidden="true">
+          <path class="hb-cable" d="M4 16 Q28 3 52 16" fill="none"/>
+          <line class="hb-tower" x1="4" y1="13" x2="4" y2="19"/>
+          <line class="hb-tower" x1="52" y1="13" x2="52" y2="19"/>
+          <circle class="hb-dot employer" cx="4" cy="16" r="3"/>
+          <circle class="hb-dot applicant" cx="52" cy="16" r="3"/>
+        </svg>
+        <a href="#candidates" class="btn green">I am an Applicant</a>
       </div>
     </div>
 
@@ -460,17 +472,17 @@ footer.site a:hover{color:var(--ink)}
         <svg viewBox="0 0 320 56" preserveAspectRatio="none" aria-hidden="true">
           <defs>
             <linearGradient id="bcGradient" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0" stop-color="#DEEAEE" />
-              <stop offset="1" stop-color="#E4ECE2" />
+              <stop offset="0" stop-color="#A7CCE6" />
+              <stop offset="1" stop-color="#DEF2E7" />
             </linearGradient>
           </defs>
           <!-- towers -->
           <line class="bridge-tower" x1="40" y1="8" x2="40" y2="46" />
           <line class="bridge-tower" x1="280" y1="8" x2="280" y2="46" />
-          <!-- suspension cables (US side, sky) -->
+          <!-- suspension cables (US side, blue) -->
           <path class="bridge-cable" d="M6,46 Q40,10 74,46" fill="none" />
           <path class="bridge-cable" d="M40,46 Q160,-6 280,46" fill="none" />
-          <!-- suspension cables (PH side, sage) -->
+          <!-- suspension cables (PH side, green) -->
           <path class="bridge-cable ph" d="M246,46 Q280,10 314,46" fill="none" />
           <!-- deck -->
           <rect class="bridge-fill" x="6" y="42" width="308" height="8" rx="4" />
@@ -487,8 +499,7 @@ footer.site a:hover{color:var(--ink)}
       <div class="eyebrow">For US employers</div>
       <h3>Hire a remote EA or VA without running the search yourself</h3>
       <p>We pre-screen Filipino candidates against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. Introductions are made under a fee agreement, so there's no cost until a hire happens.</p>
-      <button type="button" class="btn gold" id="post-job-btn">Post an Open Position</button>
-      <div class="price-tag">$5 per job posting</div>
+      <button type="button" class="btn yellow" id="post-job-btn">Post an Open Position</button>
     </div>
     <div class="split-card vas" id="candidates">
       <div class="eyebrow">For Filipino VAs &amp; EAs</div>
@@ -496,16 +507,14 @@ footer.site a:hover{color:var(--ink)}
       <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly and get an AI-reviewed read on how you match before you send it. Or skip sending resumes yourself altogether — activate matching and let us do the legwork. We read your background against every opening on the board; you just wait until a match reaches out.</p>
       <div class="card-cta-row">
         <a class="btn" href="#board">Browse open roles ↓</a>
-        <button type="button" class="btn gold" id="activate-matching-btn">Activate Matching</button>
+        <button type="button" class="btn yellow" id="activate-matching-btn">Activate Matching</button>
       </div>
-      <div class="price-tag">₱299 one-time · unlocks matching</div>
     </div>
     <div class="split-card team" id="team">
       <div class="eyebrow">For full-coverage hiring</div>
       <h3>Hire a Team, not just one person</h3>
       <p>Three Filipino specialists covering your business for the price of one hire — so coverage doesn't stop when a single person is out sick, on leave, or off the clock. One point of contact, a team behind it.</p>
-      <div class="price-tag">$4,000–$5,000/mo · by scope</div>
-      <a class="btn gold" href="mailto:hello@bridgedesk.co?subject=Hiring%20a%20Team%20(3-for-1)&body=Tell%20us%20about%20the%20role(s)%20you%20need%20covered%2C%20your%20business%20hours%2C%20and%20any%20must-have%20skills%3A%0A%0A">Talk to us about your team</a>
+      <a class="btn yellow" href="mailto:hello@bridgedesk.co?subject=Hiring%20a%20Team%20(3-for-1)&body=Team%20packages%20run%20%244%2C000%E2%80%93%245%2C000%2Fmo%20depending%20on%20scope.%20Tell%20us%20about%20the%20role(s)%20you%20need%20covered%2C%20your%20business%20hours%2C%20and%20any%20must-have%20skills%3A%0A%0A">Talk to us about your team</a>
     </div>
   </div>
 
@@ -738,7 +747,7 @@ function renderJobDetail(job) {
     <span class="chip cat-${esc(String(job.category).replace(/\s+/g,'-'))}">${esc(job.category)}</span>
     <h2 style="margin-top:12px">${esc(job.title)}</h2>
     <div class="drawer-company">${esc(job.company)} · ${esc(job.location)}</div>
-    <div class="drawer-meta">${phBadge(job.ph_signal)}${compLine(job) ? `<span class="chip" style="background:var(--tan-tint);color:var(--tan-deep)">${esc(compLine(job))}</span>` : ''}</div>
+    <div class="drawer-meta">${phBadge(job.ph_signal)}${compLine(job) ? `<span class="chip" style="background:var(--purple-tint);color:var(--purple-deep)">${esc(compLine(job))}</span>` : ''}</div>
     ${phNote(job.ph_signal)}
     <p class="desc">${esc(job.description || job.summary)}</p>
     <div class="drawer-foot">
@@ -1231,7 +1240,7 @@ function renderPostJob() {
   const { step } = postJob;
   drawerInner.innerHTML = `
     <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <span class="chip" style="background:var(--sky-tint);color:var(--sky-deep)">Post a role</span>
+    <span class="chip" style="background:var(--blue-tint);color:var(--blue-deep)">Post a role</span>
     <h2 style="margin-top:12px">Reach Filipino VA &amp; EA talent</h2>
     <div class="drawer-company">Fields match what we pull from a company's own careers page.</div>
     <div class="wiz-steps">
