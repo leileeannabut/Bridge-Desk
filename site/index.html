@@ -158,6 +158,11 @@ nav.site-nav a:hover{color:var(--ink)}
 .split-card h3{font-size:20px;margin:6px 0 8px}
 .split-card p{color:var(--ink-soft);font-size:14.5px;line-height:1.6;margin-bottom:16px}
 .card-cta-row{display:flex;flex-wrap:wrap;gap:10px}
+.price-tag{
+  display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12.5px;
+  color:var(--ink-soft);margin-top:12px;letter-spacing:.01em;
+}
+.price-tag::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--gold)}
 .tag-soon{
   display:inline-block;margin-left:8px;padding:3px 9px;border-radius:999px;
   background:var(--line);color:var(--ink-soft);font-size:11px;font-weight:700;
@@ -238,6 +243,22 @@ nav.site-nav a:hover{color:var(--ink)}
 /* ---------- footer ---------- */
 footer.site{border-top:1px solid var(--line);padding:36px 0 44px;color:var(--ink-dim);font-size:13px}
 footer.site .foot-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:center}
+.foot-right{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.foot-social{display:flex;align-items:center;gap:14px}
+.foot-social a{color:var(--ink-dim);display:flex;transition:color .15s ease}
+.foot-social a:hover{color:var(--ink)}
+.foot-social svg{width:18px;height:18px}
+
+/* ---------- admin fab ---------- */
+.admin-fab{
+  position:fixed;right:20px;bottom:20px;z-index:45;display:inline-flex;align-items:center;
+  padding:10px 18px;border-radius:999px;background:var(--card);border:1.5px solid var(--line-strong);
+  font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;
+  color:var(--ink-dim);box-shadow:0 10px 26px -14px rgba(36,50,44,.4);
+  transition:color .15s ease,border-color .15s ease,transform .15s ease;
+}
+.admin-fab:hover{color:var(--ink);border-color:var(--ink);transform:translateY(-1px)}
+@media (max-width:860px){.admin-fab{right:14px;bottom:14px;padding:9px 15px;font-size:11px}}
 footer.site a:hover{color:var(--ink)}
 
 /* ---------- drawer ---------- */
@@ -282,13 +303,14 @@ footer.site a:hover{color:var(--ink)}
 .f label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--ink)}
 .f label .opt{font-weight:400;color:var(--ink-dim)}
 .f label .req{color:var(--sky-deep)}
-.f input,.f textarea{
+.f input,.f textarea,.f select{
   width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);
   font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink);
 }
-.f input:focus,.f textarea:focus{border-color:var(--sky)}
+.f input:focus,.f textarea:focus,.f select:focus{border-color:var(--sky)}
+.f select{cursor:pointer}
 .f textarea{min-height:170px;resize:vertical;line-height:1.5}
-.f.has-error input,.f.has-error textarea{border-color:var(--danger)}
+.f.has-error input,.f.has-error textarea,.f.has-error select{border-color:var(--danger)}
 .f .err{display:block;font-size:12px;color:var(--danger);margin-top:5px}
 .char-count{font-size:12px;color:var(--ink-dim);margin-top:5px}
 .char-count.is-thin{color:var(--tan-deep)}
@@ -296,6 +318,53 @@ footer.site a:hover{color:var(--ink)}
 .wiz-foot{display:flex;align-items:center;gap:10px;margin-top:22px}
 .wiz-foot .spacer{flex:1}
 .wiz-sending{font-size:14px;color:var(--ink-soft);font-family:var(--mono)}
+.form-error{font-size:12.5px;color:var(--danger);margin:-6px 0 16px;line-height:1.5}
+
+/* ---------- résumé upload ---------- */
+.upload-box{
+  border:1.5px dashed var(--line-strong);border-radius:11px;padding:14px 16px;
+  display:flex;align-items:center;gap:12px;cursor:pointer;background:var(--paper-soft);
+  transition:border-color .15s ease, background .15s ease;
+}
+.upload-box:hover{border-color:var(--sky);background:var(--sky-tint)}
+.upload-box.has-file{border-color:var(--sage);background:var(--sage-tint)}
+.upload-box .up-icon{
+  width:38px;height:38px;border-radius:9px;background:var(--card);border:1.5px solid var(--line-strong);
+  display:grid;place-items:center;flex-shrink:0;color:var(--sky-deep);font-size:16px;
+}
+.upload-box.has-file .up-icon{color:var(--sage-deep);border-color:var(--sage)}
+.upload-box .up-text{flex:1;min-width:0}
+.upload-box .up-text b{display:block;font-size:13.5px;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.upload-box .up-text span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
+.upload-remove{
+  flex-shrink:0;background:none;border:none;cursor:pointer;font-family:var(--body);
+  font-size:12px;color:var(--ink-dim);text-decoration:underline;
+}
+.or-divider{display:flex;align-items:center;gap:10px;margin:16px 0;font-family:var(--mono);font-size:11px;color:var(--ink-dim);letter-spacing:.08em;text-transform:uppercase}
+.or-divider::before,.or-divider::after{content:'';flex:1;height:1px;background:var(--line)}
+
+/* ---------- payment ---------- */
+.pay-box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:18px}
+.pay-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.pay-row .pay-label{font-size:14.5px;color:var(--ink);font-weight:600}
+.pay-row .pay-amount{font-family:var(--display);font-size:26px;font-weight:600;color:var(--sage-deep);white-space:nowrap}
+.pay-desc{font-size:13px;color:var(--ink-soft);line-height:1.55;margin-top:8px}
+.pay-methods{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.pay-methods span{
+  font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--ink-dim);border:1px solid var(--line-strong);border-radius:6px;padding:3px 8px;
+}
+.gate-lock{
+  width:48px;height:48px;border-radius:50%;background:var(--sage-tint);color:var(--sage-deep);
+  display:grid;place-items:center;font-family:var(--display);font-size:20px;font-weight:600;margin-bottom:16px;
+}
+
+/* ---------- checkout return banner ---------- */
+.return-banner{
+  background:var(--sage-tint);border:1px solid var(--sage);border-radius:11px;
+  padding:13px 16px;font-size:13.5px;color:var(--sage-deep);margin:18px 0 0;
+  display:flex;gap:10px;align-items:center;font-weight:600;
+}
 
 .thinking{display:flex;flex-direction:column;align-items:center;gap:16px;padding:50px 10px;text-align:center}
 .thinking-ring{
@@ -360,6 +429,7 @@ footer.site a:hover{color:var(--ink)}
 </header>
 
 <main id="top">
+  <div class="wrap" id="return-banner-slot"></div>
   <div class="wrap hero">
     <div>
       <div class="eyebrow">US startups · remote-first hiring</div>
@@ -417,22 +487,25 @@ footer.site a:hover{color:var(--ink)}
       <div class="eyebrow">For US employers</div>
       <h3>Hire a remote EA or VA without running the search yourself</h3>
       <p>We pre-screen Filipino candidates against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. Introductions are made under a fee agreement, so there's no cost until a hire happens.</p>
-      <a class="btn gold" href="mailto:hello@bridgedesk.co?subject=Posting%20an%20open%20position">Post an Open Position</a>
+      <button type="button" class="btn gold" id="post-job-btn">Post an Open Position</button>
+      <div class="price-tag">$5 per job posting</div>
     </div>
     <div class="split-card vas" id="candidates">
       <div class="eyebrow">For Filipino VAs &amp; EAs</div>
       <h3>Apply to real openings at real US startups</h3>
-      <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly through BridgeDesk and get an AI-reviewed read on how your background matches the role before you send it. Not ready to pick a specific role yet? Activate matching instead — paste your background once and we'll read it against openings for you.</p>
+      <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly and get an AI-reviewed read on how you match before you send it. Or skip sending resumes yourself altogether — activate matching and let us do the legwork. We read your background against every opening on the board; you just wait until a match reaches out.</p>
       <div class="card-cta-row">
         <a class="btn" href="#board">Browse open roles ↓</a>
         <button type="button" class="btn gold" id="activate-matching-btn">Activate Matching</button>
       </div>
+      <div class="price-tag">₱299 one-time · unlocks matching</div>
     </div>
     <div class="split-card team" id="team">
       <div class="eyebrow">For full-coverage hiring</div>
       <h3>Hire a Team, not just one person</h3>
-      <p>For the price of one hire, get a small team behind your role instead of a single point of failure — so you're covered whenever, wherever, even when one person is out. This runs through our dedicated VA agency, currently under construction.</p>
-      <a class="btn" href="#" aria-disabled="true" onclick="event.preventDefault()">Hire a Team <span class="tag-soon">Coming soon</span></a>
+      <p>Three Filipino specialists covering your business for the price of one hire — so coverage doesn't stop when a single person is out sick, on leave, or off the clock. One point of contact, a team behind it.</p>
+      <div class="price-tag">$4,000–$5,000/mo · by scope</div>
+      <a class="btn gold" href="mailto:hello@bridgedesk.co?subject=Hiring%20a%20Team%20(3-for-1)&body=Tell%20us%20about%20the%20role(s)%20you%20need%20covered%2C%20your%20business%20hours%2C%20and%20any%20must-have%20skills%3A%0A%0A">Talk to us about your team</a>
     </div>
   </div>
 
@@ -495,12 +568,23 @@ footer.site a:hover{color:var(--ink)}
       <span class="mark" style="width:22px;height:22px;font-size:10px">BD</span>
       BridgeDesk
     </div>
-    <div>
-      <a href="mailto:hello@bridgedesk.co">hello@bridgedesk.co</a>
-      &nbsp;·&nbsp; Roles refresh daily
+    <div class="foot-right">
+      <!-- Social links are placeholders — update hrefs once accounts are live -->
+      <div class="foot-social" aria-label="BridgeDesk on social media">
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="7.5" cy="8" r="1.3"/><rect x="6.3" y="10.5" width="2.4" height="7"/><path d="M11.5 10.5h2.3v1.3c.5-.8 1.4-1.5 2.8-1.5 2.2 0 3.4 1.4 3.4 4v5.2h-2.4v-4.6c0-1.3-.5-2.1-1.7-2.1-1.1 0-1.8.8-1.8 2.1v4.6h-2.4v-9z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="5" width="20" height="14" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 8.5h1.8V6h-1.9c-2 0-3.1 1.2-3.1 3.1v1.6H8.5v2.6h1.8V19h2.6v-5.7h1.9l.3-2.6h-2.2v-1.3c0-.6.3-.9.9-.9z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none"/></svg></a>
+      </div>
+      <div>
+        <a href="mailto:hello@bridgedesk.co">hello@bridgedesk.co</a>
+        &nbsp;·&nbsp; Roles refresh daily
+      </div>
     </div>
   </div>
 </footer>
+
+<a href="/admin" class="admin-fab">Admin</a>
 
 <div class="scrim" id="scrim"></div>
 <div class="drawer" id="drawer" role="dialog" aria-modal="true"><div class="drawer-inner" id="drawer-inner"></div></div>
@@ -659,7 +743,6 @@ function renderJobDetail(job) {
     <p class="desc">${esc(job.description || job.summary)}</p>
     <div class="drawer-foot">
       <button type="button" class="btn primary block" id="apply-btn">Apply through BridgeDesk</button>
-      ${job.apply_url ? `<p style="margin-top:10px;font-size:12.5px;text-align:center"><a href="${esc(job.apply_url)}" target="_blank" rel="noopener">View the original posting ↗</a></p>` : ''}
     </div>`;
   drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
   drawerInner.querySelector('#apply-btn').addEventListener('click', () => openApply(job));
@@ -743,10 +826,32 @@ function validateOne() {
   return ok;
 }
 
+function fileToBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(String(reader.result).split(',')[1] || '');
+    reader.onerror = () => reject(reader.error);
+    reader.readAsDataURL(file);
+  });
+}
+
 function stageTwo() {
   const d = apply.data;
   $('wiz-body').innerHTML = `
-    <p class="wiz-intro">Paste your résumé or write a summary of your background. Specifics beat adjectives — tools you use, hours you've covered, what you actually own day to day.</p>
+    <p class="wiz-intro">Upload your résumé or paste a summary of your background. Specifics beat adjectives — tools you use, hours you've covered, what you actually own day to day.</p>
+    <div class="f" data-for="resume">
+      <label>Résumé <span class="opt">(optional if you paste below)</span></label>
+      <div class="upload-box ${d.resumeFile ? 'has-file' : ''}" id="upload-box" role="button" tabindex="0">
+        <span class="up-icon">↑</span>
+        <span class="up-text" id="up-text">
+          <b>${esc(d.resumeFile ? d.resumeFile.name : 'Upload a file')}</b>
+          <span>${d.resumeFile ? 'Click to replace' : 'PDF or Word, up to 8MB'}</span>
+        </span>
+        ${d.resumeFile ? '<button type="button" class="upload-remove" id="upload-remove">Remove</button>' : ''}
+      </div>
+      <input type="file" id="a-resume" accept=".pdf,.doc,.docx" hidden />
+    </div>
+    <div class="or-divider">or paste it</div>
     <div class="f" data-for="background">
       <label for="a-background">Résumé / professional background <span class="req">*</span></label>
       <textarea id="a-background" placeholder="Years of experience, the kind of exec/company you've supported, tools (calendars, inboxes, CRMs), and the hours you're available.">${esc(d.background || '')}</textarea>
@@ -758,7 +863,7 @@ function stageTwo() {
     <span class="spacer"></span>
     <button class="btn primary" type="button" id="wiz-next">Run review →</button>`;
 
-  const ta = $('a-background'), cc = $('cc');
+  const ta = $('a-background'), cc = $('cc'), uploadBox = $('upload-box'), fileInput = $('a-resume');
   const sync = () => {
     const n = ta.value.trim().length;
     cc.textContent = n + ' characters' + (n > 0 && n < 180 ? ' — a little more detail sharpens the review' : '');
@@ -766,15 +871,47 @@ function stageTwo() {
   };
   ta.addEventListener('input', sync); sync();
 
+  const openPicker = (e) => { if (!e.target.closest('#upload-remove')) fileInput.click(); };
+  uploadBox.addEventListener('click', openPicker);
+  uploadBox.addEventListener('keydown', (e) => {
+    if ((e.key === 'Enter' || e.key === ' ') && !e.target.closest('#upload-remove')) { e.preventDefault(); fileInput.click(); }
+  });
+  $('upload-remove')?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    apply.data.background = ta.value; // preserve in-progress text before re-render
+    d.resumeFile = null; fileInput.value = ''; stageTwo();
+  });
+  fileInput.addEventListener('change', async () => {
+    const file = fileInput.files?.[0];
+    if (!file) return;
+    const wrap = document.querySelector('.f[data-for="resume"]');
+    wrap.classList.remove('has-error'); wrap.querySelector('.err')?.remove();
+    if (file.size > 8 * 1024 * 1024) {
+      wrap.classList.add('has-error');
+      const e = document.createElement('span'); e.className = 'err'; e.textContent = 'Keep it under 8MB.'; wrap.append(e);
+      fileInput.value = ''; return;
+    }
+    try {
+      const base64 = await fileToBase64(file);
+      d.resumeFile = { name: file.name, type: file.type, size: file.size, base64 };
+    } catch (err) {
+      d.resumeFile = null;
+    }
+    apply.data.background = ta.value; // preserve in-progress text before re-render
+    stageTwo();
+  });
+
   $('wiz-back').addEventListener('click', () => { apply.data.background = ta.value; apply.step = 1; renderApply(); });
   $('wiz-next').addEventListener('click', () => {
     apply.data.background = ta.value.trim();
-    if (apply.data.background.length < 60) {
+    const hasText = apply.data.background.length >= 60;
+    const hasFile = !!apply.data.resumeFile;
+    if (!hasText && !hasFile) {
       const wrap = document.querySelector('.f[data-for="background"]');
       wrap.classList.add('has-error');
       if (!wrap.querySelector('.err')) {
         const e = document.createElement('span'); e.className = 'err';
-        e.textContent = 'Give us at least a couple of sentences to work with.'; wrap.append(e);
+        e.textContent = 'Upload a résumé or give us at least a couple of sentences.'; wrap.append(e);
       }
       ta.focus(); return;
     }
@@ -871,12 +1008,22 @@ function stageThree() {
           body: JSON.stringify({
             jobTitle: job.title, company: job.company,
             resume: data.background, linkedin: data.linkedin || '',
+            resume_file: data.resumeFile ? { name: data.resumeFile.name, type: data.resumeFile.type, base64: data.resumeFile.base64 } : null,
           }),
         });
         if (res.ok) { const { analysis } = await res.json(); review = parseAnalysis(analysis, data); }
       } catch (_) {}
       clearInterval(tick);
-      apply.review = review || buildReview(job, data);
+      if (!review) {
+        review = (data.resumeFile && data.background.trim().length < 60)
+          ? {
+              pending: true,
+              strengths: ["Your résumé file is attached and ready for review."],
+              gaps: ["A specific match score follows once we've read it — you'll hear back either way."],
+            }
+          : buildReview(job, data);
+      }
+      apply.review = review;
       renderApply();
     })();
     return;
@@ -884,6 +1031,24 @@ function stageThree() {
 
   const r = apply.review;
   const name = [data.first, data.last].filter(Boolean).join(' ');
+
+  if (r.pending) {
+    $('wiz-body').innerHTML = `
+      <div class="rev-block">
+        <h5 class="green">Résumé received</h5>
+        <p style="font-size:14px;color:var(--ink-soft);line-height:1.55;margin-bottom:4px">${esc(name)}'s file is with us for <strong>${esc(job.title)}</strong> at ${esc(job.company)}. A specific match score follows once we've read it — you can still submit now.</p>
+      </div>
+      <div class="rev-block"><h5>What happens next</h5><ul class="rev-list">${r.strengths.concat(r.gaps).map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
+      <p class="ai-note">This is for you, not sent to the employer as-is — your résumé file goes along with your application either way.</p>`;
+    $('wiz-foot').innerHTML = `
+      <button class="btn" type="button" id="wiz-back">← Edit background</button>
+      <span class="spacer"></span>
+      <button class="btn primary" type="button" id="wiz-submit">Submit application</button>`;
+    $('wiz-back').addEventListener('click', () => { apply.step = 2; apply.review = null; renderApply(); });
+    $('wiz-submit').addEventListener('click', submitApply);
+    return;
+  }
+
   const verdict = r.score >= 78 ? 'Strong match' : r.score >= 60 ? 'Worth a conversation' : 'Some gaps to close';
   const C = 2 * Math.PI * 36;
 
@@ -926,8 +1091,10 @@ async function submitApply() {
         first_name: data.first, last_name: data.last,
         email: data.email, phone: data.phone, linkedin: data.linkedin,
         background: data.background,
+        resume_file: data.resumeFile ? { name: data.resumeFile.name, type: data.resumeFile.type, base64: data.resumeFile.base64 } : null,
         score: review.score ?? null, strengths: review.strengths || [], gaps: review.gaps || [],
-        reviewed_by: review.ai ? 'ai' : 'keyword',
+        reviewed_by: review.pending ? 'pending' : review.ai ? 'ai' : 'keyword',
+        matching_paid: !!data.paid, matching_payment_ref: data.payment_ref || null,
       }),
     });
     result = res.ok ? await res.json() : { ok: false, error: (await res.json().catch(() => ({}))).error };
@@ -972,6 +1139,28 @@ setInterval(updateClock, 30000);
 
 loadJobs();
 
+/* ==========================================================================
+   Checkout — shared by "Activate Matching" and "Post an Open Position".
+   Both call this the same way: it hits a backend endpoint that creates the
+   checkout session (PayMongo for ₱/GCash, Stripe or PayMongo for $) and
+   returns a hosted checkout_url to send the browser to. Implement
+   POST /api/checkout server-side — never put payment secret keys in this
+   file. On success the provider redirects back to success_path below.
+   ========================================================================== */
+async function startCheckout(payload) {
+  try {
+    const res = await fetch('/api/checkout', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const out = await res.json().catch(() => ({}));
+    if (!res.ok || !out.ok) return { ok: false, error: out.error || "Payment couldn't be started." };
+    return out;
+  } catch (err) {
+    return { ok: false, error: 'Network problem — check your connection and try again.' };
+  }
+}
+
 /* ---------- general matching (no specific job selected yet) ---------- */
 const GENERAL_MATCH_PROFILE = {
   id: null, ref: null,
@@ -979,8 +1168,231 @@ const GENERAL_MATCH_PROFILE = {
   hub: 'startup', category: 'Virtual Assistant',
   location: 'Philippines · Remote', apply_url: null,
 };
-$('activate-matching-btn')?.addEventListener('click', () => openApply(GENERAL_MATCH_PROFILE));
 
+function openMatchingGate() {
+  apply = null;
+  drawerInner.innerHTML = `
+    <button type="button" class="drawer-close" aria-label="Close">✕</button>
+    <div class="gate-lock">₱</div>
+    <h2>Activate Matching</h2>
+    <p class="wiz-intro">One payment gets your background read against every open role on the board, not just one — plus new roles as they're added, without applying again from scratch.</p>
+    <div class="pay-box">
+      <div class="pay-row"><span class="pay-label">Activate Matching</span><span class="pay-amount">₱299</span></div>
+      <p class="pay-desc">One-time payment. Unlocks an AI-reviewed match score against every open role.</p>
+      <div class="pay-methods"><span>GCash</span><span>Maya</span><span>Card</span></div>
+    </div>
+    <div id="gate-error"></div>
+    <div class="wiz-foot">
+      <button class="btn" type="button" id="gate-cancel">Maybe later</button>
+      <span class="spacer"></span>
+      <button class="btn primary" type="button" id="gate-pay">Pay ₱299 &amp; continue →</button>
+    </div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  $('gate-cancel').addEventListener('click', closeDrawer);
+  $('gate-pay').addEventListener('click', payForMatching);
+  scrim.classList.add('is-open');
+  drawer.classList.add('is-open');
+}
+
+async function payForMatching() {
+  const btn = $('gate-pay');
+  btn.disabled = true; btn.textContent = 'Starting checkout…';
+  $('gate-error').innerHTML = '';
+
+  const result = await startCheckout({
+    product: 'matching', amount: 299, currency: 'PHP',
+    success_path: '/?matched=1', cancel_path: '/?matching_cancelled=1',
+  });
+
+  if (result.ok && result.checkout_url) { window.location.href = result.checkout_url; return; }
+
+  btn.disabled = false; btn.textContent = 'Pay ₱299 & continue →';
+  $('gate-error').innerHTML = `<p class="form-error">${esc(result.error || "That didn't go through. Try again, or email hello@bridgedesk.co.")}</p>`;
+}
+
+$('activate-matching-btn')?.addEventListener('click', openMatchingGate);
+
+/* ==========================================================================
+   Post an Open Position — employer job submission + $5/posting payment
+   ========================================================================== */
+const POST_CATEGORIES = CATEGORIES.filter((c) => c !== 'All');
+const POST_STAGE_LABELS = [['01', 'Role details'], ['02', 'Contact & payment']];
+let postJob = null; // { step, data }
+
+function openPostJob() {
+  postJob = { step: 1, data: postJob?.data || {} };
+  renderPostJob();
+  scrim.classList.add('is-open');
+  drawer.classList.add('is-open');
+}
+
+function renderPostJob() {
+  if (!postJob) return;
+  const { step } = postJob;
+  drawerInner.innerHTML = `
+    <button type="button" class="drawer-close" aria-label="Close">✕</button>
+    <span class="chip" style="background:var(--sky-tint);color:var(--sky-deep)">Post a role</span>
+    <h2 style="margin-top:12px">Reach Filipino VA &amp; EA talent</h2>
+    <div class="drawer-company">Fields match what we pull from a company's own careers page.</div>
+    <div class="wiz-steps">
+      ${POST_STAGE_LABELS.map((s, i) => `
+        <div class="wiz-step ${step === i + 1 ? 'is-on' : ''} ${step > i + 1 ? 'is-done' : ''}">
+          <div class="wiz-bar"><span></span></div><small>${s[0]} · ${s[1]}</small>
+        </div>`).join('')}
+    </div>
+    <div id="wiz-body"></div>
+    <div class="wiz-foot" id="wiz-foot"></div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+
+  if (step === 1) postJobStageOne();
+  else postJobStageTwo();
+}
+
+function postJobStageOne() {
+  const d = postJob.data;
+  const field = (id, label, opts = {}) => `
+    <div class="f" data-for="${id}">
+      <label for="pj-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
+      <input id="pj-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
+    </div>`;
+
+  $('wiz-body').innerHTML = `
+    <p class="wiz-intro">Tell candidates what the role actually is. Specifics — tools, hours, what they'd own — bring in stronger applicants than a generic listing.</p>
+    <div class="f" data-for="category">
+      <label for="pj-category">Category <span class="req">*</span></label>
+      <select id="pj-category">${POST_CATEGORIES.map((c) => `<option ${d.category === c ? 'selected' : ''}>${esc(c)}</option>`).join('')}</select>
+    </div>
+    <div class="f-row">${field('title', 'Job title', { ph: 'Executive Assistant to CEO' })}${field('company', 'Company name')}</div>
+    <div class="f-row">${field('location', 'Location', { ph: 'Remote · US hours' })}${field('level', 'Level', { optional: true, ph: 'Mid, Senior…' })}</div>
+    <div class="f-row">${field('comp_min', 'Salary from (USD/yr)', { optional: true, type: 'number', ph: '40000' })}${field('comp_max', 'Salary to (USD/yr)', { optional: true, type: 'number', ph: '55000' })}</div>
+    <div class="f" data-for="summary">
+      <label for="pj-summary">One-line summary <span class="req">*</span></label>
+      <input id="pj-summary" type="text" value="${esc(d.summary || '')}" placeholder="What this role owns, in one sentence — shown on the board." />
+    </div>
+    <div class="f" data-for="description">
+      <label for="pj-description">Full description <span class="req">*</span></label>
+      <textarea id="pj-description" placeholder="Responsibilities, must-have tools, hours, and what makes a strong fit.">${esc(d.description || '')}</textarea>
+    </div>
+    ${field('apply_url', 'Link to original posting', { optional: true, ph: 'https://yourcompany.com/careers/…' })}`;
+
+  $('wiz-foot').innerHTML = `
+    <button class="btn" type="button" id="wiz-back">Cancel</button>
+    <span class="spacer"></span>
+    <button class="btn primary" type="button" id="wiz-next">Continue →</button>`;
+
+  $('wiz-back').addEventListener('click', closeDrawer);
+  $('wiz-next').addEventListener('click', () => {
+    ['title', 'company', 'location', 'level', 'comp_min', 'comp_max', 'summary', 'description', 'apply_url'].forEach((id) => {
+      d[id] = ($('pj-' + id)?.value || '').trim();
+    });
+    d.category = $('pj-category').value;
+    if (validatePostJobOne()) { postJob.step = 2; renderPostJob(); }
+  });
+}
+
+function validatePostJobOne() {
+  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
+  const d = postJob.data;
+  let ok = true;
+  const need = (id, msg) => { if (!d[id]) { markError(id, msg); ok = false; } };
+  need('title', 'Add the job title.');
+  need('company', 'Add the company name.');
+  need('location', 'Add a location, even if it\'s just "Remote".');
+  need('summary', 'Add a one-line summary — this is what shows on the board.');
+  if ((d.description || '').length < 40) { markError('description', 'Give candidates a bit more to go on.'); ok = false; }
+  if (!ok) document.querySelector('.f.has-error input, .f.has-error textarea, .f.has-error select')?.focus();
+  return ok;
+}
+
+function postJobStageTwo() {
+  const d = postJob.data;
+  const field = (id, label, opts = {}) => `
+    <div class="f" data-for="${id}">
+      <label for="pj-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
+      <input id="pj-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
+    </div>`;
+
+  $('wiz-body').innerHTML = `
+    <p class="wiz-intro">Where we'll send confirmation and, if we have questions, a quick note.</p>
+    <div class="f-row">${field('contact_name', 'Your name')}${field('contact_email', 'Work email', { type: 'email', ph: 'you@company.com' })}</div>
+    <div class="pay-box">
+      <div class="pay-row"><span class="pay-label">Post this role</span><span class="pay-amount">$5</span></div>
+      <p class="pay-desc">One-time fee per posting. Goes to review immediately after payment and stays live until you close it.</p>
+      <div class="pay-methods"><span>Card</span><span>GCash</span></div>
+    </div>
+    <div id="pj-error"></div>`;
+
+  $('wiz-foot').innerHTML = `
+    <button class="btn" type="button" id="wiz-back">← Back</button>
+    <span class="spacer"></span>
+    <button class="btn primary" type="button" id="wiz-pay">Pay $5 &amp; publish →</button>`;
+
+  $('wiz-back').addEventListener('click', () => {
+    ['contact_name', 'contact_email'].forEach((id) => { d[id] = ($('pj-' + id)?.value || '').trim(); });
+    postJob.step = 1; renderPostJob();
+  });
+  $('wiz-pay').addEventListener('click', payAndPostJob);
+}
+
+async function payAndPostJob() {
+  const d = postJob.data;
+  ['contact_name', 'contact_email'].forEach((id) => { d[id] = ($('pj-' + id)?.value || '').trim(); });
+
+  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
+  let ok = true;
+  if (!d.contact_name) { markError('contact_name', 'Add your name.'); ok = false; }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.contact_email)) { markError('contact_email', 'Add a valid work email.'); ok = false; }
+  if (!ok) { document.querySelector('.f.has-error input')?.focus(); return; }
+
+  const btn = $('wiz-pay');
+  btn.disabled = true; btn.textContent = 'Starting checkout…';
+  $('pj-error').innerHTML = '';
+
+  const result = await startCheckout({
+    product: 'job_posting', amount: 5, currency: 'USD',
+    job: {
+      title: d.title, company: d.company, location: d.location, level: d.level || null,
+      category: d.category, summary: d.summary, description: d.description,
+      apply_url: d.apply_url || null,
+      comp_min: d.comp_min ? Number(d.comp_min) : null, comp_max: d.comp_max ? Number(d.comp_max) : null,
+    },
+    employer: { name: d.contact_name, email: d.contact_email },
+    success_path: '/?posted=1', cancel_path: '/?posting_cancelled=1',
+  });
+
+  if (result.ok && result.checkout_url) { window.location.href = result.checkout_url; return; }
+
+  btn.disabled = false; btn.textContent = 'Pay $5 & publish →';
+  $('pj-error').innerHTML = `<p class="form-error">${esc(result.error || "That didn't go through. Try again, or email hello@bridgedesk.co and we'll post it for you.")}</p>`;
+}
+
+$('post-job-btn')?.addEventListener('click', openPostJob);
+
+/* ==========================================================================
+   Handle a redirect back from checkout (?posted=1 / ?matched=1). Whoever
+   implements /api/checkout server-side should send the provider's
+   success_url back to this page with the same query params.
+   ========================================================================== */
+function showReturnBanner(text) {
+  const slot = $('return-banner-slot');
+  if (slot) slot.innerHTML = `<div class="return-banner">✓ ${esc(text)}</div>`;
+}
+
+function handleCheckoutReturn() {
+  const params = new URLSearchParams(location.search);
+  if (params.get('matched') === '1') {
+    history.replaceState(null, '', location.pathname + location.hash);
+    openApply(GENERAL_MATCH_PROFILE);
+    if (apply) { apply.data.paid = true; apply.data.payment_ref = params.get('ref') || ''; }
+    showReturnBanner('Payment received — let’s build your matching profile.');
+  } else if (params.get('posted') === '1') {
+    history.replaceState(null, '', location.pathname + location.hash);
+    showReturnBanner("Payment received — your role is queued for review and will go live within one business day.");
+  } else if (params.get('matching_cancelled') === '1' || params.get('posting_cancelled') === '1') {
+    history.replaceState(null, '', location.pathname + location.hash);
+  }
+}
+handleCheckoutReturn();
 </script>
 </body>
 </html>
