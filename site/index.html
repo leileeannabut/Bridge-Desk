@@ -52,7 +52,7 @@
 html{scroll-behavior:smooth}
 body{
   background:var(--paper); color:var(--ink); font-family:var(--body);
-  font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;
+  font-size:16px; line-height:1.6; font-weight:700; -webkit-font-smoothing:antialiased;
 }
 a{color:inherit;text-decoration:none}
 img,svg{display:block;max-width:100%}
@@ -94,6 +94,41 @@ header.site{
 nav.site-nav{display:flex;gap:26px;align-items:center;font-size:14.5px;font-weight:500;color:var(--ink-soft)}
 nav.site-nav a:hover{color:var(--ink)}
 
+/* ---------- animated wordmark ---------- */
+.wordmark .brand-text{
+  background:linear-gradient(100deg,var(--sky-deep) 0%,var(--sage-deep) 30%,var(--gold-deep) 55%,var(--sky-deep) 80%);
+  background-size:260% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:brandShimmer 7s ease-in-out infinite;
+}
+@keyframes brandShimmer{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+.wordmark .mark img{width:100%;height:100%;object-fit:contain;border-radius:8px}
+
+/* ---------- circular spinning nav badge ---------- */
+.nav-circle-wrap{position:relative;width:104px;height:104px;flex-shrink:0}
+.nav-circle-wrap a.hub-link{
+  position:absolute;inset:0;display:grid;place-items:center;z-index:2;
+  width:34px;height:34px;margin:auto;border-radius:50%;
+  background:var(--card);border:1.5px solid var(--line-strong);
+  font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.04em;
+  color:var(--sage-deep);text-decoration:none;text-align:center;line-height:1.15;
+}
+.nav-circle-wrap a.hub-link:hover{border-color:var(--sage-deep);background:var(--sage-tint)}
+.nav-circle{width:100%;height:100%;animation:navSpin 22s linear infinite}
+.nav-circle:hover{animation-play-state:paused}
+@keyframes navSpin{to{transform:rotate(360deg)}}
+.nav-circle text{
+  font-family:var(--mono);font-size:9.6px;font-weight:700;letter-spacing:.06em;
+  fill:var(--ink-soft);text-transform:uppercase;
+}
+.nav-circle a{cursor:pointer}
+.nav-circle a:hover text{fill:var(--sky-deep)}
+@media (max-width:860px){.nav-circle-wrap{display:none}}
+
 /* ---------- hero ---------- */
 .hero{padding:64px 0 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
 .hero h1{font-size:clamp(34px,4.4vw,54px);line-height:1.06;margin:14px 0 18px}
@@ -115,10 +150,15 @@ nav.site-nav a:hover{color:var(--ink)}
 .bc-city .time{font-family:var(--display);font-size:30px;font-weight:600;font-variant-numeric:tabular-nums}
 .bc-city.us .time{color:var(--sky-deep)}
 .bc-city.ph .time{color:var(--sage-deep)}
-.bc-track{position:relative;height:10px;border-radius:99px;background:var(--paper-soft);border:1px solid var(--line);overflow:visible;margin:6px 0 10px}
-.bc-track .fill{position:absolute;inset:0;border-radius:99px;background:linear-gradient(90deg,var(--sky-tint),var(--sage-tint))}
+.bc-track{position:relative;height:56px;margin:2px 0 8px}
+.bc-track svg{width:100%;height:100%;display:block;overflow:visible}
+.bc-track .bridge-deck{stroke:var(--line-strong);stroke-width:2}
+.bc-track .bridge-cable{stroke:var(--sky);stroke-width:1.4;opacity:.55}
+.bc-track .bridge-cable.ph{stroke:var(--sage)}
+.bc-track .bridge-tower{stroke:var(--ink-dim);stroke-width:2}
+.bc-track .bridge-fill{fill:url(#bcGradient)}
 .bc-track .now{
-  position:absolute;top:50%;width:16px;height:16px;border-radius:50%;
+  position:absolute;top:82%;width:16px;height:16px;border-radius:50%;
   background:var(--gold);border:3px solid var(--card);box-shadow:0 2px 8px rgba(0,0,0,.25);
   transform:translate(-50%,-50%);transition:left .3s ease;
 }
@@ -203,6 +243,7 @@ nav.site-nav a:hover{color:var(--ink)}
   padding-left:24px;position:relative;font-size:14.5px;color:var(--ink-soft);margin-bottom:9px;line-height:1.5;
 }
 .detail li::before{content:'—';position:absolute;left:0;color:var(--sage-deep);font-weight:700}
+.fee-note{font-size:12px;color:var(--ink-dim);font-weight:500;line-height:1.6;margin-top:2px}
 
 /* ---------- footer ---------- */
 footer.site{border-top:1px solid var(--line);padding:36px 0 44px;color:var(--ink-dim);font-size:13px}
@@ -316,10 +357,29 @@ footer.site a:hover{color:var(--ink)}
 <header class="site">
   <div class="wrap site-bar">
     <a class="wordmark" href="#top">
-      <span class="mark">BD</span>
-      BridgeDesk
+      <span class="mark"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVEhL7ZRNaFxlFIafc+7fzNjaGKeZtHWCOCnaAStSKyLUv+JG4qo7a1a6FBddFdwWN4K4c1FIEVeCP+hC6KIWDVI0gQaEGo2LEqUpTWIp6ty5f9/n4t4ZJterKI5d+S4PfO973vc758iZD25YCnSmfQAO3OVR93VQ/tdQgMldDk8cuoPZVsBsKxirAIB2pn2OdhpjJx6FzraCcm3s+O/aH8FtEZGlH8LhdI3i2s9bnF9Z5sfNa/TjCMUiYhEMikUVRCyKpe57tKcO8OSDjzM1MVWmqhb5aWuThQufEtsME0doQT4gFbFFzeJILuYFHjVVThw7wfTk9A6+yrjOrywRWQNpjIrJu1eGhCoWFXAUwCBiIE1IbMqlK1+W6apF1jc3kCwGmyGDaKwBzNCBYMAaHAXBYm0KacL17fUyXbVIkkTYLEWFoYBIHo2j4DoUbmwuJBYFrEmI4n6ZrlpEJc8dMsQWUSnEWcxvYcivYUiSJjhFHXKXIvnbMipFBrkPOjcmpdfv02k1mXvkMHNHDnNfq0mvH2JMiiuCUzSmUmYDt1wA8kkqHMVpzJ56wMtzx3mqe5BbvR4AdzYaLF5Z5d2Ln9GLQuqei7WmTAV/6gRw1NJPYd/de3nzpXm6M/t4/f1PeOXsO7x69hxvfPQxh2banHnxJFO7dxFGIY6A8jfjctWSWaW7+zqnDl7mxtXPObXwHl+trZFlKZnJ+Pr77zh9boF+EvHaC/M83OmQZAluBWNFKf8TMDzTvEo7vMjq8gL9OGKiEQw/e6JRpxeFbGzfZLp5D88/+thwYcuoFiGf/0s32yz+0mU1eQBXwdr8pAgWS4anwvLaKkvfXubCynKxM3/8l8qz8taHbxNnfZJMioWzeJKgw8kz+ZKKJTMZYlPUUWqei+/6zD93egdfpZP21H4cz6PuGGpOii8JjgiqFi0mz1FBBQJXqfk+ddfD85X9e+8t01WLPP3QMRrqop4Dw9nPux84weY3bbC0bqAEEnC0+2yZrjougK1bmyx+8wUb2+skSZQ7GLlbzsipr/kBreYMR+4/zuSenReYvxIZJyrjGjf+F/lHuC0ivwPUEUoF+T9UowAAAABJRU5ErkJggg==" alt="BridgeDesk logo" /></span>
+      <span class="brand-text">BridgeDesk</span>
     </a>
-    <nav class="site-nav">
+
+    <div class="nav-circle-wrap" aria-label="Site navigation">
+      <svg class="nav-circle" viewBox="0 0 200 200" role="group">
+        <defs>
+          <path id="navCirclePath" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0" />
+        </defs>
+        <a href="#board" aria-label="Open roles">
+          <text><textPath href="#navCirclePath" startOffset="1%">Open roles •</textPath></text>
+        </a>
+        <a href="#employers" aria-label="For employers">
+          <text><textPath href="#navCirclePath" startOffset="34%">For employers •</textPath></text>
+        </a>
+        <a href="#candidates" aria-label="For VAs">
+          <text><textPath href="#navCirclePath" startOffset="67%">For VAs •</textPath></text>
+        </a>
+      </svg>
+      <a class="hub-link" href="#board">Browse<br />roles</a>
+    </div>
+
+    <nav class="site-nav" style="display:none">
       <a href="#board">Open roles</a>
       <a href="#employers">For employers</a>
       <a href="#candidates">For VAs</a>
@@ -334,7 +394,7 @@ footer.site a:hover{color:var(--ink)}
       <h1>The bridge between <em>US teams</em> and <em>Filipino talent.</em></h1>
       <p class="lede">BridgeDesk scrapes Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant openings straight from US startups' own career pages — then scores every one for how openly it reads to a Philippines-based hire.</p>
       <div class="hero-ctas">
-        <a href="#board" class="btn primary">Browse open roles</a>
+        <a href="#board" class="btn gold">Browse open roles</a>
         <a href="#employers" class="btn">I'm hiring</a>
       </div>
     </div>
@@ -354,7 +414,28 @@ footer.site a:hover{color:var(--ink)}
           <div class="time" id="bc-ph-time">--:--</div>
         </div>
       </div>
-      <div class="bc-track"><div class="fill"></div><div class="now" id="bc-now" style="left:50%"></div></div>
+      <div class="bc-track">
+        <svg viewBox="0 0 320 56" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="bcGradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#DEEAEE" />
+              <stop offset="1" stop-color="#E4ECE2" />
+            </linearGradient>
+          </defs>
+          <!-- towers -->
+          <line class="bridge-tower" x1="40" y1="8" x2="40" y2="46" />
+          <line class="bridge-tower" x1="280" y1="8" x2="280" y2="46" />
+          <!-- suspension cables (US side, sky) -->
+          <path class="bridge-cable" d="M6,46 Q40,10 74,46" fill="none" />
+          <path class="bridge-cable" d="M40,46 Q160,-6 280,46" fill="none" />
+          <!-- suspension cables (PH side, sage) -->
+          <path class="bridge-cable ph" d="M246,46 Q280,10 314,46" fill="none" />
+          <!-- deck -->
+          <rect class="bridge-fill" x="6" y="42" width="308" height="8" rx="4" />
+          <line class="bridge-deck" x1="6" y1="42" x2="314" y2="42" />
+        </svg>
+        <div class="now" id="bc-now" style="left:50%"></div>
+      </div>
       <p class="bc-overlap" id="bc-overlap-text">Manila runs 12–13 hours ahead of US Eastern — an early PH shift lines up with the US evening before, a late PH shift with the US morning.</p>
     </div>
   </div>
@@ -416,12 +497,12 @@ footer.site a:hover{color:var(--ink)}
       <div>
         <div class="eyebrow">The introduction process</div>
         <h2>What happens after you apply</h2>
-        <p>BridgeDesk reviews every application against the role it was sent for, using the same AI-assisted read the company would eventually see. Strong matches get forwarded to the employer under a signed fee agreement — so employers only pay once someone's actually hired, and candidates always hear back either way.</p>
+        <p>BridgeDesk reviews every application against the role it was sent for, using the same AI-assisted read the company would eventually see. Strong matches get forwarded to the employer, and candidates always hear back either way.</p>
         <ul>
           <li>Applications are reviewed within a few business days.</li>
           <li>Employers are only contacted for candidates worth their time.</li>
-          <li>No fee to candidates, ever — BridgeDesk is paid by the hiring company.</li>
         </ul>
+        <p class="fee-note">A light finder's fee applies on a successful placement, shared between both sides.</p>
       </div>
     </div>
   </section>
