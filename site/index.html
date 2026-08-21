@@ -108,33 +108,10 @@ nav.site-nav a:hover{color:var(--ink)}
 }
 .wordmark .mark img{width:100%;height:100%;object-fit:contain;border-radius:8px}
 
-/* ---------- circular spinning nav badge ---------- */
-.nav-circle-wrap{position:relative;width:120px;height:120px;flex-shrink:0}
-.nav-circle-wrap::before{
-  content:'';position:absolute;inset:0;margin:auto;width:100%;height:100%;
-  border-radius:50%;background:var(--card);border:1.5px solid var(--line-strong);
-  box-shadow:0 14px 30px -20px rgba(36,50,44,.4);
-}
-.nav-circle-wrap a.hub-link{
-  position:absolute;inset:0;display:grid;place-items:center;z-index:2;
-  width:56px;height:56px;margin:auto;border-radius:50%;
-  background:var(--gold);border:1.5px solid var(--gold);color:#241C08;
-  font-family:var(--body);font-size:11.5px;font-weight:700;letter-spacing:0;
-  text-decoration:none;text-align:center;line-height:1.2;
-  box-shadow:0 8px 18px -8px rgba(140,106,30,.55);
-  transition:transform .15s ease, background .15s ease, border-color .15s ease;
-}
-.nav-circle-wrap a.hub-link:hover{background:var(--gold-deep);border-color:var(--gold-deep);transform:translateY(-1px)}
-.nav-circle{position:relative;z-index:1;width:100%;height:100%;animation:navSpin 22s linear infinite}
-.nav-circle:hover{animation-play-state:paused}
-@keyframes navSpin{to{transform:rotate(360deg)}}
-.nav-circle text{
-  font-family:var(--body);font-size:11.5px;font-weight:700;letter-spacing:.03em;
-  fill:var(--ink);text-transform:uppercase;
-}
-.nav-circle a{cursor:pointer}
-.nav-circle a:hover text{fill:var(--sky-deep)}
-@media (max-width:860px){.nav-circle-wrap{display:none}}
+/* ---------- header nav buttons ---------- */
+.header-ctas{display:flex;gap:10px;flex-shrink:0}
+.header-ctas .btn{padding:10px 18px;font-size:13.5px}
+@media (max-width:860px){.header-ctas{display:none}}
 
 /* ---------- hero ---------- */
 .hero{padding:64px 0 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
@@ -368,22 +345,9 @@ footer.site a:hover{color:var(--ink)}
       <span class="brand-text">BridgeDesk</span>
     </a>
 
-    <div class="nav-circle-wrap" aria-label="Site navigation">
-      <svg class="nav-circle" viewBox="0 0 200 200" role="group">
-        <defs>
-          <path id="navCirclePath" d="M 100,100 m -82,0 a 82,82 0 1,1 164,0 a 82,82 0 1,1 -164,0" />
-        </defs>
-        <a href="#board" aria-label="Open roles">
-          <text><textPath href="#navCirclePath" startOffset="1%">Open roles •</textPath></text>
-        </a>
-        <a href="#employers" aria-label="For employers">
-          <text><textPath href="#navCirclePath" startOffset="34%">For employers •</textPath></text>
-        </a>
-        <a href="#candidates" aria-label="For VAs">
-          <text><textPath href="#navCirclePath" startOffset="67%">For VAs •</textPath></text>
-        </a>
-      </svg>
-      <a class="hub-link" href="#board">Browse<br />roles</a>
+    <div class="header-ctas" aria-label="Site navigation">
+      <a href="#board" class="btn gold">Available Roles</a>
+      <a href="#employers" class="btn">I want to find my VA</a>
     </div>
 
     <nav class="site-nav" style="display:none">
@@ -397,12 +361,12 @@ footer.site a:hover{color:var(--ink)}
 <main id="top">
   <div class="wrap hero">
     <div>
-      <div class="eyebrow">US startups · remote-first hiring</div>
+      <div class="eyebrow">The Direct Bridge Between World-Class Philippine Assistants and US Founders.</div>
       <h1>The bridge between <em>US teams</em> and <em>Filipino talent.</em></h1>
-      <p class="lede">BridgeDesk scrapes Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant openings straight from US startups' own career pages — then scores every one for how openly it reads to a Philippines-based hire.</p>
+      <p class="lede">Connecting top Philippine talent directly with US startups—where location is no barrier, and your expertise is the only requirement that matters.</p>
       <div class="hero-ctas">
-        <a href="#board" class="btn gold">Browse open roles</a>
-        <a href="#employers" class="btn">I'm hiring</a>
+        <a href="#board" class="btn gold">Available Roles</a>
+        <a href="#employers" class="btn">I want to find my VA</a>
       </div>
     </div>
 
