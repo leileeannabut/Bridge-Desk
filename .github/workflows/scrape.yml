@@ -75,7 +75,8 @@ jobs:
             exit 0
           fi
           git commit -m "Detect ATS for new companies"
-          git push
+          git pull --rebase origin main
+          git push origin main
 
   # Builds the shard matrix. Kept as its own job so the shard count can come
   # from a workflow_dispatch input instead of being hardcoded into the matrix.
@@ -207,6 +208,8 @@ jobs:
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git reset --hard origin/main
           git add site/jobs.json
           if git diff --staged --quiet; then
             echo "No change since the last scrape — nothing to commit."
@@ -214,7 +217,7 @@ jobs:
           fi
           COUNT=$(node -e "const fs = require('fs'); const raw = fs.readFileSync('site/jobs.json', 'utf8'); const d = JSON.parse(raw); console.log((d.jobs||d).length)")
           git commit -m "Update job feed: $COUNT roles"
-          git push
+          git push origin main
 
       - name: Report
         if: always()
