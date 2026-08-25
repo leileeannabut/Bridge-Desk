@@ -216,6 +216,7 @@ nav.site-nav a:hover{color:var(--ink)}
 .chip.cat-Virtual-Assistant{background:var(--green-tint);color:var(--green-deep)}
 .chip.cat-Personal-Assistant{background:var(--purple-tint);color:var(--purple-deep)}
 .chip.cat-Legal-Assistant{background:#F1E3E9;color:#8A3D57}
+.chip.cat-Social-Media-Manager,.chip.cat-Copywriter,.chip.cat-Bookkeeper,.chip.cat-Property-Manager{background:var(--line);color:var(--ink-soft)}
 .ph-badge{display:flex;gap:3px;align-items:center;flex-shrink:0}
 .ph-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--line-strong)}
 .ph-badge .dot.on{background:var(--yellow)}
@@ -242,7 +243,7 @@ nav.site-nav a:hover{color:var(--ink)}
 .detail li{
   padding-left:24px;position:relative;font-size:14.5px;color:var(--ink-soft);margin-bottom:9px;line-height:1.5;
 }
-.detail li::before{content:'—';position:absolute;left:0;color:var(--green-deep);font-weight:700}
+.detail li::before{content:'•';position:absolute;left:2px;top:-1px;color:var(--green-deep);font-weight:700;font-size:17px}
 .fee-note{font-size:12px;color:var(--ink-dim);font-weight:500;line-height:1.6;margin-top:2px}
 
 /* ---------- footer ---------- */
@@ -574,7 +575,7 @@ footer.site a:hover{color:var(--ink)}
 <footer class="site">
   <div class="wrap foot-row">
     <div class="wordmark" style="font-size:16px">
-      <span class="mark" style="width:22px;height:22px;font-size:10px">BD</span>
+      <span class="mark" style="width:22px;height:22px;font-size:10px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVEhL7ZRNaFxlFIafc+7fzNjaGKeZtHWCOCnaAStSKyLUv+JG4qo7a1a6FBddFdwWN4K4c1FIEVeCP+hC6KIWDVI0gQaEGo2LEqUpTWIp6ty5f9/n4t4ZJterKI5d+S4PfO973vc758iZD25YCnSmfQAO3OVR93VQ/tdQgMldDk8cuoPZVsBsKxirAIB2pn2OdhpjJx6FzraCcm3s+O/aH8FtEZGlH8LhdI3i2s9bnF9Z5sfNa/TjCMUiYhEMikUVRCyKpe57tKcO8OSDjzM1MVWmqhb5aWuThQufEtsME0doQT4gFbFFzeJILuYFHjVVThw7wfTk9A6+yrjOrywRWQNpjIrJu1eGhCoWFXAUwCBiIE1IbMqlK1+W6apF1jc3kCwGmyGDaKwBzNCBYMAaHAXBYm0KacL17fUyXbVIkkTYLEWFoYBIHo2j4DoUbmwuJBYFrEmI4n6ZrlpEJc8dMsQWUSnEWcxvYcivYUiSJjhFHXKXIvnbMipFBrkPOjcmpdfv02k1mXvkMHNHDnNfq0mvH2JMiiuCUzSmUmYDt1wA8kkqHMVpzJ56wMtzx3mqe5BbvR4AdzYaLF5Z5d2Ln9GLQuqei7WmTAV/6gRw1NJPYd/de3nzpXm6M/t4/f1PeOXsO7x69hxvfPQxh2banHnxJFO7dxFGIY6A8jfjctWSWaW7+zqnDl7mxtXPObXwHl+trZFlKZnJ+Pr77zh9boF+EvHaC/M83OmQZAluBWNFKf8TMDzTnEo7vMjq8gL9OGKiEQw/e6JRpxeFbGzfZLp5D88/+thwYcuoFiGf/0s32yz+0mU1eQBXwdr8pAgWS4anwvLaKkvfXubCynKxM3/8l8qz8taHbxNnfZJMioWzeJKgw8kz+ZKKJTMZYlPUUWqei+/6zD93egdfpZP19H4cz6PuGGpOii8JjgiqFi0mz1FBBQJXqfk+ddfD85X9e+8t01WLPP3QMRrqop4Dw9nPux84weY3bbC0bqAEEnC0+2yZrjougK1bmyx+8wUb2+skSZQ7GLlbzsipr/kBreYMR+4/zuSenReYvxIZJyrjGjf+F/lHuC0ivwPUEUoF+T9UowAAAABJRU5ErkJggg==" alt="BridgeDesk logo" /></span>
       BridgeDesk
     </div>
     <div class="foot-right">
@@ -605,7 +606,7 @@ footer.site a:hover{color:var(--ink)}
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-const CATEGORIES = ['All', 'Virtual Assistant', 'Executive Assistant', 'Personal Assistant', 'Legal Assistant'];
+const CATEGORIES = ['All', 'Virtual Assistant', 'Executive Assistant', 'Personal Assistant', 'Legal Assistant', 'Social Media Manager', 'Copywriter', 'Bookkeeper', 'Property Manager'];
 const PH_FILTERS = [
   { id: 'all', label: 'All roles' },
   { id: 'strong', label: 'PH signal 2+' },
