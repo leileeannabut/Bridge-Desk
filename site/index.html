@@ -177,6 +177,24 @@ nav.site-nav a:hover{color:var(--ink)}
 .btn[aria-disabled="true"]:hover{transform:none;border-color:var(--line-strong)}
 
 /* ---------- board ---------- */
+.bridge-flow{padding:56px 0 54px;border-top:1px solid var(--line);overflow:hidden}
+.bridge-flow h2{font-size:28px;margin:8px 0 10px}
+.bridge-flow>.wrap>p{color:var(--ink-soft);font-size:15px;line-height:1.65;max-width:620px;margin-bottom:0}
+.flow-track{margin-top:30px}
+.flow-track svg{width:100%;height:auto;display:block;overflow:visible}
+.flow-tower{stroke:var(--ink-dim);stroke-width:3}
+.flow-cable{stroke:var(--blue);stroke-width:1.6;opacity:.5;fill:none}
+.flow-cable.ph{stroke:var(--green)}
+.flow-fill{fill:url(#flowGradient)}
+.flow-deck{stroke:var(--line-strong);stroke-width:1}
+.flow-label{font-family:var(--mono);font-size:13px;letter-spacing:.08em;fill:var(--ink-dim);font-weight:700}
+.flow-chip.job circle{fill:var(--blue)}
+.flow-chip.candidate circle{fill:var(--green)}
+.flow-legend{display:flex;gap:24px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--ink-soft)}
+.flow-legend .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:middle}
+.flow-legend .dot.job{background:var(--blue)}
+.flow-legend .dot.candidate{background:var(--green)}
+@media (prefers-reduced-motion: reduce){.flow-chip{display:none}}
 .board{padding:8px 0 60px;border-top:1px solid var(--line)}
 .board-head{padding-top:44px;margin-bottom:20px}
 .board-head h2{font-size:28px;margin:8px 0 6px}
@@ -515,9 +533,53 @@ footer.site a:hover{color:var(--ink)}
       <div class="eyebrow">For full-coverage hiring</div>
       <h3>Hire a Team, not just one person</h3>
       <p>Three Filipino specialists covering your business for the price of one hire — so coverage doesn't stop when a single person is out sick, on leave, or off the clock. One point of contact, a team behind it.</p>
-      <a class="btn yellow" href="mailto:hello@bridgedesk.co?subject=Hiring%20a%20Team%20(3-for-1)&body=Team%20packages%20run%20%244%2C000%E2%80%93%245%2C000%2Fmo%20depending%20on%20scope.%20Tell%20us%20about%20the%20role(s)%20you%20need%20covered%2C%20your%20business%20hours%2C%20and%20any%20must-have%20skills%3A%0A%0A">Talk to us about your team</a>
+      <button type="button" class="btn yellow" id="team-inquiry-btn">Talk to us about your team</button>
     </div>
   </div>
+
+  <section class="bridge-flow">
+    <div class="wrap">
+      <div class="eyebrow">Employers to the board</div>
+      <h2>The bridge runs both ways</h2>
+      <p>Every role an employer posts crosses onto the board below. Every application crosses back the other way — until a match closes the loop.</p>
+      <div class="flow-track">
+        <svg viewBox="0 0 1120 190" aria-hidden="true">
+          <defs>
+            <linearGradient id="flowGradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#A7CCE6" />
+              <stop offset="1" stop-color="#DEF2E7" />
+            </linearGradient>
+          </defs>
+          <!-- towers -->
+          <line class="flow-tower" x1="90" y1="26" x2="90" y2="150" />
+          <line class="flow-tower" x1="1030" y1="26" x2="1030" y2="150" />
+          <!-- suspension cables -->
+          <path class="flow-cable" d="M20,150 Q90,18 160,150" fill="none" />
+          <path class="flow-cable" d="M90,150 Q560,-42 1030,150" fill="none" />
+          <path class="flow-cable ph" d="M960,150 Q1030,18 1100,150" fill="none" />
+          <!-- deck -->
+          <rect class="flow-fill" x="20" y="145" width="1080" height="10" rx="5" />
+          <line class="flow-deck" x1="20" y1="145" x2="1100" y2="145" />
+          <line class="flow-deck" x1="20" y1="155" x2="1100" y2="155" />
+          <!-- end labels -->
+          <text class="flow-label" x="90" y="176" text-anchor="middle">EMPLOYERS</text>
+          <text class="flow-label" x="1030" y="176" text-anchor="middle">AVAILABLE ROLES</text>
+          <!-- roles: employers -> board -->
+          <g class="flow-chip job"><circle r="6"/><animateMotion dur="7s" begin="0s" repeatCount="indefinite" path="M30,144 L1090,144"/></g>
+          <g class="flow-chip job"><circle r="6"/><animateMotion dur="7s" begin="2.3s" repeatCount="indefinite" path="M30,144 L1090,144"/></g>
+          <g class="flow-chip job"><circle r="6"/><animateMotion dur="7s" begin="4.6s" repeatCount="indefinite" path="M30,144 L1090,144"/></g>
+          <!-- applications: board -> employers -->
+          <g class="flow-chip candidate"><circle r="6"/><animateMotion dur="7.5s" begin="1s" repeatCount="indefinite" path="M1090,156 L30,156"/></g>
+          <g class="flow-chip candidate"><circle r="6"/><animateMotion dur="7.5s" begin="3.5s" repeatCount="indefinite" path="M1090,156 L30,156"/></g>
+          <g class="flow-chip candidate"><circle r="6"/><animateMotion dur="7.5s" begin="6s" repeatCount="indefinite" path="M1090,156 L30,156"/></g>
+        </svg>
+      </div>
+      <div class="flow-legend">
+        <span><i class="dot job"></i>Roles, from employers</span>
+        <span><i class="dot candidate"></i>Applications, back to employers</span>
+      </div>
+    </div>
+  </section>
 
   <section class="board" id="board">
     <div class="wrap">
@@ -1403,6 +1465,99 @@ function handleCheckoutReturn() {
   }
 }
 handleCheckoutReturn();
+
+/* ==========================================================================
+   Talk to us about your team — inquiry form -> Google Sheet via Apps Script.
+   Paste your deployed Web App URL below (see apps-script-team-inquiry.js
+   for the script + setup steps). Looks like:
+   https://script.google.com/macros/s/AKfycb.../exec
+   ========================================================================== */
+const TEAM_INQUIRY_ENDPOINT = 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
+
+let teamInquiry = null; // { data }
+
+function openTeamInquiry() {
+  teamInquiry = { data: teamInquiry?.data || {} };
+  renderTeamInquiry();
+  scrim.classList.add('is-open');
+  drawer.classList.add('is-open');
+}
+
+function renderTeamInquiry() {
+  const d = teamInquiry.data;
+  const field = (id, label, opts = {}) => `
+    <div class="f" data-for="${id}">
+      <label for="ti-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
+      <input id="ti-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
+    </div>`;
+
+  drawerInner.innerHTML = `
+    <button type="button" class="drawer-close" aria-label="Close">✕</button>
+    <span class="chip" style="background:var(--purple-tint);color:var(--purple-deep)">Hire a team</span>
+    <h2 style="margin-top:12px">Tell us what you need covered</h2>
+    <div class="drawer-company">Three specialists, one point of contact — $4,000–$5,000/mo depending on scope.</div>
+    <div id="wiz-body">
+      <div class="f-row">${field('name', 'Your name')}${field('email', 'Work email', { type: 'email', ph: 'you@company.com' })}</div>
+      ${field('company', 'Company name')}
+      <div class="f" data-for="needs">
+        <label for="ti-needs">What do you need covered? <span class="req">*</span></label>
+        <textarea id="ti-needs" placeholder="Roles you're trying to fill, your business hours, and any must-have skills.">${esc(d.needs || '')}</textarea>
+      </div>
+      ${field('start', 'Preferred start', { optional: true, ph: 'e.g., Within 2 weeks' })}
+      <div id="ti-error"></div>
+    </div>
+    <div class="wiz-foot" id="wiz-foot">
+      <button class="btn" type="button" id="wiz-back">Cancel</button>
+      <span class="spacer"></span>
+      <button class="btn primary" type="button" id="wiz-send">Send inquiry →</button>
+    </div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  $('wiz-back').addEventListener('click', closeDrawer);
+  $('wiz-send').addEventListener('click', submitTeamInquiry);
+}
+
+async function submitTeamInquiry() {
+  const d = teamInquiry.data;
+  ['name', 'email', 'company', 'start'].forEach((id) => { d[id] = ($('ti-' + id)?.value || '').trim(); });
+  d.needs = ($('ti-needs')?.value || '').trim();
+
+  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
+  let ok = true;
+  if (!d.name) { markError('name', 'Add your name.'); ok = false; }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email)) { markError('email', 'Add a valid work email.'); ok = false; }
+  if (!d.company) { markError('company', 'Add your company name.'); ok = false; }
+  if (d.needs.length < 15) { markError('needs', 'Give us a bit more to go on.'); ok = false; }
+  if (!ok) { document.querySelector('.f.has-error input, .f.has-error textarea')?.focus(); return; }
+
+  const btn = $('wiz-send');
+  btn.disabled = true; btn.textContent = 'Sending…';
+  $('ti-error').innerHTML = '';
+
+  let result;
+  try {
+    const res = await fetch(TEAM_INQUIRY_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain' }, // avoids a CORS preflight against Apps Script
+      body: JSON.stringify({
+        name: d.name, email: d.email, company: d.company,
+        needs: d.needs, start: d.start || null,
+      }),
+    });
+    result = res.ok ? await res.json() : { ok: false, error: "That didn't go through." };
+  } catch (err) {
+    result = { ok: false, error: 'Network problem — check your connection and try again.' };
+  }
+
+  const body = result.ok
+    ? `<div class="done-mark">✓</div><h3>Inquiry sent.</h3><p>Thanks ${esc(d.name)}. We'll follow up at ${esc(d.email)} within one business day.</p>`
+    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
+
+  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Back to roles</button></div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  $('done-close').addEventListener('click', closeDrawer);
+}
+
+$('team-inquiry-btn')?.addEventListener('click', openTeamInquiry);
 </script>
 </body>
 </html>
