@@ -253,6 +253,19 @@ nav.site-nav a:hover{color:var(--ink)}
 }
 
 /* ---------- employer / candidate detail sections ---------- */
+.training{padding:56px 0 60px;border-top:1px solid var(--line)}
+.training-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.training-copy h2{font-size:28px;margin:8px 0 10px}
+.training-copy>p{color:var(--ink-soft);font-size:15px;line-height:1.65;margin-bottom:16px}
+.training-points{list-style:none;padding:0;margin:0 0 22px}
+.training-points li{position:relative;padding-left:24px;font-size:14.5px;color:var(--ink-soft);margin-bottom:8px;line-height:1.5}
+.training-points li::before{content:'✓';position:absolute;left:0;color:var(--green-deep);font-weight:700}
+.cert-card{background:var(--card);border:1.5px dashed var(--line-strong);border-radius:var(--radius);padding:32px 28px;text-align:center}
+.cert-seal{width:52px;height:52px;border-radius:50%;background:var(--yellow-tint);color:var(--yellow-deep);display:grid;place-items:center;font-size:22px;font-weight:700;margin:0 auto 16px}
+.cert-title{font-family:var(--display);font-size:19px;font-weight:600;margin-bottom:6px}
+.cert-name{font-family:var(--mono);font-size:12.5px;color:var(--ink-dim);border-bottom:1px dashed var(--line-strong);display:inline-block;padding-bottom:4px;margin-bottom:10px}
+.cert-course{font-size:13px;color:var(--ink-soft)}
+@media (max-width:860px){.training-grid{grid-template-columns:1fr}}
 .detail{padding:56px 0;border-top:1px solid var(--line)}
 .detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
 .detail h2{font-size:26px;margin:8px 0 12px}
@@ -604,6 +617,28 @@ footer.site a:hover{color:var(--ink)}
       <p class="result-count" id="count"></p>
 
       <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="training" id="training">
+    <div class="wrap training-grid">
+      <div class="training-copy">
+        <div class="eyebrow">For aspiring VAs</div>
+        <h2>Not ready to apply yet? Get certified first.</h2>
+        <p>A self-paced course built around what employers on this board actually ask for — inbox and calendar management, the tools US teams run on, and working async across a 12+ hour time difference. Finish it, and you walk away with a certificate you can put straight on your application.</p>
+        <ul class="training-points">
+          <li>Learn at your own pace — no fixed schedule</li>
+          <li>Certificate of completion</li>
+          <li>Built around the roles actually posted on this board</li>
+        </ul>
+        <button type="button" class="btn yellow" id="training-enroll-btn">Enroll in training</button>
+      </div>
+      <div class="cert-card" aria-hidden="true">
+        <div class="cert-seal">✓</div>
+        <div class="cert-title">Certificate of Completion</div>
+        <div class="cert-name">— your name here —</div>
+        <div class="cert-course">BridgeDesk VA Foundations</div>
+      </div>
     </div>
   </section>
 
@@ -1558,6 +1593,100 @@ async function submitTeamInquiry() {
 }
 
 $('team-inquiry-btn')?.addEventListener('click', openTeamInquiry);
+
+/* ==========================================================================
+   Enroll in training — self-paced VA course, marketing + lead capture.
+   Paste your deployed Web App URL below (see apps-script-training-signup.js
+   for the script + setup steps — same pattern as the team inquiry form,
+   deployed as its own separate script/URL).
+   Actual payment isn't collected here — this captures the signup, then the
+   acknowledgment email explains that payment instructions follow. Wire in
+   real payment collection once that's ready; don't claim it's charged here.
+   ========================================================================== */
+const TRAINING_SIGNUP_ENDPOINT = 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
+const TRAINING_PRICE_LABEL = '₱[SET PRICE]'; // <-- replace with your real price
+
+let trainingSignup = null; // { data }
+
+function openTrainingSignup() {
+  trainingSignup = { data: trainingSignup?.data || {} };
+  renderTrainingSignup();
+  scrim.classList.add('is-open');
+  drawer.classList.add('is-open');
+}
+
+function renderTrainingSignup() {
+  const d = trainingSignup.data;
+  const field = (id, label, opts = {}) => `
+    <div class="f" data-for="${id}">
+      <label for="tr-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
+      <input id="tr-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
+    </div>`;
+
+  drawerInner.innerHTML = `
+    <button type="button" class="drawer-close" aria-label="Close">✕</button>
+    <span class="chip" style="background:var(--yellow-tint);color:var(--yellow-deep)">VA training</span>
+    <h2 style="margin-top:12px">Enroll in self-paced training</h2>
+    <div class="drawer-company">Self-paced · certificate on completion.</div>
+    <div id="wiz-body">
+      <div class="f-row">${field('name', 'Your name')}${field('email', 'Email', { type: 'email', ph: 'you@email.com' })}</div>
+      <div class="f" data-for="track">
+        <label for="tr-track">What are you training for? <span class="req">*</span></label>
+        <select id="tr-track">${POST_CATEGORIES.map((c) => `<option ${d.track === c ? 'selected' : ''}>${esc(c)}</option>`).join('')}</select>
+      </div>
+      <div class="pay-box">
+        <div class="pay-row"><span class="pay-label">Self-paced training</span><span class="pay-amount">${TRAINING_PRICE_LABEL}</span></div>
+        <p class="pay-desc">One-time fee. We'll email you payment instructions and portal access after you reserve your spot below.</p>
+      </div>
+      <div id="tr-error"></div>
+    </div>
+    <div class="wiz-foot" id="wiz-foot">
+      <button class="btn" type="button" id="wiz-back">Cancel</button>
+      <span class="spacer"></span>
+      <button class="btn primary" type="button" id="wiz-send">Reserve my spot →</button>
+    </div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  $('wiz-back').addEventListener('click', closeDrawer);
+  $('wiz-send').addEventListener('click', submitTrainingSignup);
+}
+
+async function submitTrainingSignup() {
+  const d = trainingSignup.data;
+  ['name', 'email'].forEach((id) => { d[id] = ($('tr-' + id)?.value || '').trim(); });
+  d.track = $('tr-track').value;
+
+  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
+  let ok = true;
+  if (!d.name) { markError('name', 'Add your name.'); ok = false; }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email)) { markError('email', 'Add a valid email.'); ok = false; }
+  if (!ok) { document.querySelector('.f.has-error input')?.focus(); return; }
+
+  const btn = $('wiz-send');
+  btn.disabled = true; btn.textContent = 'Sending…';
+  $('tr-error').innerHTML = '';
+
+  let result;
+  try {
+    const res = await fetch(TRAINING_SIGNUP_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain' }, // avoids a CORS preflight against Apps Script
+      body: JSON.stringify({ name: d.name, email: d.email, track: d.track }),
+    });
+    result = res.ok ? await res.json() : { ok: false, error: "That didn't go through." };
+  } catch (err) {
+    result = { ok: false, error: 'Network problem — check your connection and try again.' };
+  }
+
+  const body = result.ok
+    ? `<div class="done-mark">✓</div><h3>You're on the list.</h3><p>Thanks ${esc(d.name)}. We'll email ${esc(d.email)} with payment instructions and portal access shortly.</p>`
+    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
+
+  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Back to roles</button></div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  $('done-close').addEventListener('click', closeDrawer);
+}
+
+$('training-enroll-btn')?.addEventListener('click', openTrainingSignup);
 </script>
 </body>
 </html>
