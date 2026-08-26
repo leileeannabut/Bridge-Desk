@@ -165,9 +165,9 @@ const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
 const MODEL = 'claude-sonnet-5';
 
 function buildPrompt({ jobTitle, company, resume, linkedin }) {
-  const role = 'a recruiter who places Filipino virtual assistants, executive assistants, '
-    + 'personal assistants and legal assistants with US employers, and who is screening a '
-    + 'candidate against a specific US company\'s posting';
+  const role = 'a recruiter who places virtual assistants, executive assistants, '
+    + 'personal assistants and legal assistants worldwide with employers worldwide, and who is screening a '
+    + 'candidate against a specific company\'s posting';
   const li = linkedin ? `LinkedIn: ${linkedin}\n` : '';
 
   return `You are ${role}. Assess this candidate for "${jobTitle}" at ${company}.
@@ -178,8 +178,8 @@ transferable substance, not keyword overlap — someone moving from in-office
 admin work to remote EA/VA work, or from general VA work into a specialised
 niche (legal, e-commerce, real estate), may be an excellent fit. Weigh async
 communication, timezone-overlap discipline, and tool fluency (calendars,
-inboxes, CRMs, Slack/Notion-style tools) the way a remote-first US employer
-would.
+inboxes, CRMs, Slack/Notion-style tools) the way a remote-first employer
+hiring across borders would.
 
 Respond in EXACTLY this format and nothing else:
 
