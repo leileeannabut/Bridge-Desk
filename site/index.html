@@ -37,10 +37,10 @@
   --paper:#FAF6ED; --paper-soft:#F1ECDF; --card:#FFFFFF;
   --ink:#24322C; --ink-soft:#55645C; --ink-dim:#8A968F;
   --line:rgba(36,50,44,.13); --line-strong:rgba(36,50,44,.22);
-  --green:#9AD6B4; --green-deep:#276843; --green-tint:#DEF2E7;
-  --blue:#759ECC; --blue-deep:#204C79; --blue-tint:#A7CCE6;
-  --purple:#B49EDE; --purple-deep:#462682; --purple-tint:#C6B3E8;
-  --yellow:#FBFC94; --yellow-deep:#78621C; --yellow-tint:#FBFFCC;
+  --sage:#6E8F72; --sage-deep:#3F5C43; --sage-tint:#E4ECE2;
+  --sky:#3E7C93; --sky-deep:#28556A; --sky-tint:#DEEAEE;
+  --tan:#C8A66C; --tan-deep:#93743B; --tan-tint:#F3E9D4;
+  --gold:#D6A93B; --gold-deep:#8C6A1E;
   --danger:#B4553F;
   --display:'Fraunces',Georgia,serif;
   --body:'Work Sans',system-ui,sans-serif;
@@ -52,19 +52,19 @@
 html{scroll-behavior:smooth}
 body{
   background:var(--paper); color:var(--ink); font-family:var(--body);
-  font-size:16px; line-height:1.6; font-weight:700; -webkit-font-smoothing:antialiased;
+  font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;
 }
 a{color:inherit;text-decoration:none}
 img,svg{display:block;max-width:100%}
-::selection{background:var(--yellow);color:var(--ink)}
-:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:4px}
+::selection{background:var(--gold);color:#241C08}
+:focus-visible{outline:2px solid var(--sky);outline-offset:3px;border-radius:4px}
 h1,h2,h3,h4{font-family:var(--display);font-weight:600;letter-spacing:-.01em;text-wrap:balance}
 .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
 .eyebrow{
   font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--blue-deep);display:flex;align-items:center;gap:8px;font-weight:600;
+  color:var(--sky-deep);display:flex;align-items:center;gap:8px;font-weight:600;
 }
-.eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--yellow)}
+.eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold)}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
   padding:13px 22px;border-radius:999px;border:1.5px solid var(--line-strong);
@@ -72,14 +72,10 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:600;letter-spacing:-.01em;tex
   background:transparent;color:var(--ink);transition:transform .15s ease, background .15s ease, border-color .15s ease;
 }
 .btn:hover{border-color:var(--ink);transform:translateY(-1px)}
-.btn.primary{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
+.btn.primary{background:var(--sage-deep);border-color:var(--sage-deep);color:#fff}
 .btn.primary:hover{background:var(--ink);border-color:var(--ink)}
-.btn.yellow{background:var(--yellow);border-color:var(--yellow);color:var(--ink)}
-.btn.yellow:hover{background:var(--yellow-deep);border-color:var(--yellow-deep);color:#fff}
-.btn.blue{background:var(--blue);border-color:var(--blue);color:var(--ink)}
-.btn.blue:hover{background:var(--blue-deep);border-color:var(--blue-deep);color:#fff}
-.btn.green{background:var(--green);border-color:var(--green);color:var(--ink)}
-.btn.green:hover{background:var(--green-deep);border-color:var(--green-deep);color:#fff}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#241C08}
+.btn.gold:hover{background:var(--gold-deep);border-color:var(--gold-deep)}
 .btn[disabled]{opacity:.55;cursor:default;transform:none}
 .btn.block{width:100%}
 
@@ -92,40 +88,18 @@ header.site{
 .wordmark{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:21px;letter-spacing:-.01em}
 .wordmark .mark{
   width:30px;height:30px;border-radius:9px;display:grid;place-items:center;
-  background:linear-gradient(135deg,var(--blue) 0%,var(--green) 100%);color:#fff;
+  background:linear-gradient(135deg,var(--sky) 0%,var(--sage) 100%);color:#fff;
   font-family:var(--mono);font-size:13px;font-weight:700;
 }
 nav.site-nav{display:flex;gap:26px;align-items:center;font-size:14.5px;font-weight:500;color:var(--ink-soft)}
 nav.site-nav a:hover{color:var(--ink)}
 
-/* ---------- animated wordmark ---------- */
-.wordmark .brand-text{
-  background:linear-gradient(100deg,var(--blue-deep) 0%,var(--green-deep) 30%,var(--yellow-deep) 55%,var(--blue-deep) 80%);
-  background-size:260% 100%;
-  -webkit-background-clip:text;background-clip:text;color:transparent;
-  animation:brandShimmer 7s ease-in-out infinite;
-}
-@keyframes brandShimmer{
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-.wordmark .mark img{width:100%;height:100%;object-fit:contain;border-radius:8px}
-
-/* ---------- header nav buttons ---------- */
-
 /* ---------- hero ---------- */
 .hero{padding:64px 0 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
 .hero h1{font-size:clamp(34px,4.4vw,54px);line-height:1.06;margin:14px 0 18px}
-.hero h1 em{font-style:italic;color:var(--green-deep)}
+.hero h1 em{font-style:italic;color:var(--sage-deep)}
 .hero p.lede{font-size:17.5px;color:var(--ink-soft);max-width:46ch;margin-bottom:26px}
-.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
-.hero-bridge{width:56px;height:20px;flex-shrink:0}
-.hero-bridge .hb-cable{stroke:var(--line-strong);stroke-width:1.6}
-.hero-bridge .hb-tower{stroke:var(--line-strong);stroke-width:1.6}
-.hero-bridge .hb-dot.employer{fill:var(--blue)}
-.hero-bridge .hb-dot.applicant{fill:var(--green)}
-@media (max-width:480px){.hero-bridge{display:none}}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
 
 /* bridge clock — signature element */
 .bridge-clock{
@@ -139,62 +113,45 @@ nav.site-nav a:hover{color:var(--ink)}
 .bc-city.ph{text-align:right}
 .bc-city .place{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;color:var(--ink-dim);text-transform:uppercase;margin-bottom:4px}
 .bc-city .time{font-family:var(--display);font-size:30px;font-weight:600;font-variant-numeric:tabular-nums}
-.bc-city.us .time{color:var(--blue-deep)}
-.bc-city.ph .time{color:var(--green-deep)}
-.bc-track{position:relative;height:56px;margin:2px 0 8px}
-.bc-track svg{width:100%;height:100%;display:block;overflow:visible}
-.bc-track .bridge-deck{stroke:var(--line-strong);stroke-width:2}
-.bc-track .bridge-cable{stroke:var(--blue);stroke-width:1.4;opacity:.55}
-.bc-track .bridge-cable.ph{stroke:var(--green)}
-.bc-track .bridge-tower{stroke:var(--ink-dim);stroke-width:2}
-.bc-track .bridge-fill{fill:url(#bcGradient)}
+.bc-city.us .time{color:var(--sky-deep)}
+.bc-city.ph .time{color:var(--sage-deep)}
+.bc-track{position:relative;height:10px;border-radius:99px;background:var(--paper-soft);border:1px solid var(--line);overflow:visible;margin:6px 0 10px}
+.bc-track .fill{position:absolute;inset:0;border-radius:99px;background:linear-gradient(90deg,var(--sky-tint),var(--sage-tint))}
 .bc-track .now{
-  position:absolute;top:82%;width:16px;height:16px;border-radius:50%;
-  background:var(--yellow);border:3px solid var(--card);box-shadow:0 2px 8px rgba(0,0,0,.25);
+  position:absolute;top:50%;width:16px;height:16px;border-radius:50%;
+  background:var(--gold);border:3px solid var(--card);box-shadow:0 2px 8px rgba(0,0,0,.25);
   transform:translate(-50%,-50%);transition:left .3s ease;
 }
 .bc-overlap{font-size:13px;color:var(--ink-soft);line-height:1.55}
-.bc-overlap b{color:var(--green-deep)}
+.bc-overlap b{color:var(--sage-deep)}
 
 /* ---------- audience split ---------- */
-.split{padding:6px 0 54px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
+.split{padding:6px 0 54px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
 .split-card{
   background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
   padding:26px 26px 24px;
 }
-.split-card.employers{border-top:3px solid var(--blue)}
-.split-card.vas{border-top:3px solid var(--green)}
-.split-card.team{border-top:3px solid var(--purple)}
+.split-card.employers{border-top:3px solid var(--sky)}
+.split-card.vas{border-top:3px solid var(--sage)}
+.split-card.team{border-top:3px solid var(--gold)}
+.split-card.training{border-top:3px dashed var(--line-strong)}
 .split-card h3{font-size:20px;margin:6px 0 8px}
 .split-card p{color:var(--ink-soft);font-size:14.5px;line-height:1.6;margin-bottom:16px}
-.card-cta-row{display:flex;flex-wrap:wrap;gap:10px}
-.tag-soon{
-  display:inline-block;margin-left:8px;padding:3px 9px;border-radius:999px;
-  background:var(--line);color:var(--ink-soft);font-size:11px;font-weight:700;
-  letter-spacing:.04em;text-transform:uppercase;vertical-align:middle;
+.split-card .soon-tag{
+  display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-dim);background:var(--paper-soft);border:1px solid var(--line-strong);
+  padding:3px 10px;border-radius:999px;margin-bottom:10px;
 }
-.btn[aria-disabled="true"]{opacity:.7;cursor:default}
-.btn[aria-disabled="true"]:hover{transform:none;border-color:var(--line-strong)}
+.pool-card{
+  grid-column:1/-1;background:linear-gradient(120deg,var(--sage-tint),var(--sky-tint));
+  border:1px solid var(--line);border-radius:var(--radius);padding:30px 32px;
+  display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
+}
+.pool-card h3{font-size:21px;margin:6px 0 6px}
+.pool-card p{color:var(--ink-soft);font-size:14.5px;line-height:1.5;max-width:520px}
+@media(max-width:640px){.pool-card{flex-direction:column;align-items:flex-start}}
 
 /* ---------- board ---------- */
-.bridge-flow{padding:56px 0 54px;border-top:1px solid var(--line);overflow:hidden}
-.bridge-flow h2{font-size:28px;margin:8px 0 10px}
-.bridge-flow>.wrap>p{color:var(--ink-soft);font-size:15px;line-height:1.65;max-width:620px;margin-bottom:0}
-.flow-track{margin-top:30px}
-.flow-track svg{width:100%;height:auto;display:block;overflow:visible}
-.flow-tower{stroke:var(--ink-dim);stroke-width:3}
-.flow-cable{stroke:var(--blue);stroke-width:1.6;opacity:.5;fill:none}
-.flow-cable.ph{stroke:var(--green)}
-.flow-fill{fill:url(#flowGradient)}
-.flow-deck{stroke:var(--line-strong);stroke-width:1}
-.flow-label{font-family:var(--mono);font-size:13px;letter-spacing:.08em;fill:var(--ink-dim);font-weight:700}
-.flow-chip.job circle{fill:var(--blue)}
-.flow-chip.candidate circle{fill:var(--green)}
-.flow-legend{display:flex;gap:24px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--ink-soft)}
-.flow-legend .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:middle}
-.flow-legend .dot.job{background:var(--blue)}
-.flow-legend .dot.candidate{background:var(--green)}
-@media (prefers-reduced-motion: reduce){.flow-chip{display:none}}
 .board{padding:8px 0 60px;border-top:1px solid var(--line)}
 .board-head{padding-top:44px;margin-bottom:20px}
 .board-head h2{font-size:28px;margin:8px 0 6px}
@@ -206,7 +163,7 @@ nav.site-nav a:hover{color:var(--ink)}
   width:100%;padding:12px 16px 12px 40px;border-radius:11px;border:1.5px solid var(--line-strong);
   background:var(--card);font-family:var(--body);font-size:14.5px;color:var(--ink);
 }
-.search-wrap input:focus{border-color:var(--blue)}
+.search-wrap input:focus{border-color:var(--sky)}
 .search-wrap svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.5}
 .pill-row{display:flex;gap:8px;flex-wrap:wrap}
 .pill{
@@ -224,48 +181,34 @@ nav.site-nav a:hover{color:var(--ink)}
   padding:20px 20px 18px;cursor:pointer;transition:border-color .15s ease, transform .15s ease, box-shadow .15s ease;
   display:flex;flex-direction:column;gap:10px;
 }
-.job-card:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:0 14px 30px -20px rgba(36,50,44,.4)}
+.job-card:hover{border-color:var(--sky);transform:translateY(-2px);box-shadow:0 14px 30px -20px rgba(36,50,44,.4)}
 .job-card .row-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .chip{
   display:inline-block;padding:4px 10px;border-radius:999px;font-size:11.5px;font-weight:700;
   letter-spacing:.02em;font-family:var(--mono);text-transform:uppercase;
 }
-.chip.cat-Executive-Assistant{background:var(--blue-tint);color:var(--blue-deep)}
-.chip.cat-Virtual-Assistant{background:var(--green-tint);color:var(--green-deep)}
-.chip.cat-Personal-Assistant{background:var(--purple-tint);color:var(--purple-deep)}
+.chip.cat-Executive-Assistant{background:var(--sky-tint);color:var(--sky-deep)}
+.chip.cat-Virtual-Assistant{background:var(--sage-tint);color:var(--sage-deep)}
+.chip.cat-Personal-Assistant{background:var(--tan-tint);color:var(--tan-deep)}
 .chip.cat-Legal-Assistant{background:#F1E3E9;color:#8A3D57}
-.chip.cat-Social-Media-Manager,.chip.cat-Copywriter,.chip.cat-Bookkeeper,.chip.cat-Property-Manager{background:var(--line);color:var(--ink-soft)}
 .ph-badge{display:flex;gap:3px;align-items:center;flex-shrink:0}
 .ph-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--line-strong)}
-.ph-badge .dot.on{background:var(--yellow)}
+.ph-badge .dot.on{background:var(--gold)}
 .ph-badge span.lbl{font-family:var(--mono);font-size:10px;color:var(--ink-dim);margin-left:4px;letter-spacing:.04em}
 .job-card h3{font-size:17.5px;line-height:1.3}
 .job-card .company{font-size:13.5px;color:var(--ink-soft);font-weight:600}
 .job-card .meta{font-size:12.5px;color:var(--ink-dim);display:flex;gap:8px;flex-wrap:wrap}
 .job-card .summary{font-size:13.5px;color:var(--ink-soft);line-height:1.5;flex:1}
-.job-card .comp{font-family:var(--mono);font-size:12.5px;color:var(--green-deep);font-weight:600}
+.job-card .comp{font-family:var(--mono);font-size:12.5px;color:var(--sage-deep);font-weight:600}
 .empty-state{padding:60px 20px;text-align:center;color:var(--ink-dim)}
 .empty-state h4{color:var(--ink-soft);margin-bottom:6px;font-size:17px}
 
 .sample-banner{
-  background:var(--purple-tint);border:1px solid var(--purple);border-radius:11px;
-  padding:12px 16px;font-size:13.5px;color:var(--purple-deep);margin:18px 0 4px;display:flex;gap:10px;align-items:center;
+  background:var(--tan-tint);border:1px solid var(--tan);border-radius:11px;
+  padding:12px 16px;font-size:13.5px;color:var(--tan-deep);margin:18px 0 4px;display:flex;gap:10px;align-items:center;
 }
 
 /* ---------- employer / candidate detail sections ---------- */
-.training{padding:56px 0 60px;border-top:1px solid var(--line)}
-.training-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
-.training-copy h2{font-size:28px;margin:8px 0 10px}
-.training-copy>p{color:var(--ink-soft);font-size:15px;line-height:1.65;margin-bottom:16px}
-.training-points{list-style:none;padding:0;margin:0 0 22px}
-.training-points li{position:relative;padding-left:24px;font-size:14.5px;color:var(--ink-soft);margin-bottom:8px;line-height:1.5}
-.training-points li::before{content:'✓';position:absolute;left:0;color:var(--green-deep);font-weight:700}
-.cert-card{background:var(--card);border:1.5px dashed var(--line-strong);border-radius:var(--radius);padding:32px 28px;text-align:center}
-.cert-seal{width:52px;height:52px;border-radius:50%;background:var(--yellow-tint);color:var(--yellow-deep);display:grid;place-items:center;font-size:22px;font-weight:700;margin:0 auto 16px}
-.cert-title{font-family:var(--display);font-size:19px;font-weight:600;margin-bottom:6px}
-.cert-name{font-family:var(--mono);font-size:12.5px;color:var(--ink-dim);border-bottom:1px dashed var(--line-strong);display:inline-block;padding-bottom:4px;margin-bottom:10px}
-.cert-course{font-size:13px;color:var(--ink-soft)}
-@media (max-width:860px){.training-grid{grid-template-columns:1fr}}
 .detail{padding:56px 0;border-top:1px solid var(--line)}
 .detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
 .detail h2{font-size:26px;margin:8px 0 12px}
@@ -274,28 +217,11 @@ nav.site-nav a:hover{color:var(--ink)}
 .detail li{
   padding-left:24px;position:relative;font-size:14.5px;color:var(--ink-soft);margin-bottom:9px;line-height:1.5;
 }
-.detail li::before{content:'•';position:absolute;left:2px;top:-1px;color:var(--green-deep);font-weight:700;font-size:17px}
-.fee-note{font-size:12px;color:var(--ink-dim);font-weight:500;line-height:1.6;margin-top:2px}
+.detail li::before{content:'—';position:absolute;left:0;color:var(--sage-deep);font-weight:700}
 
 /* ---------- footer ---------- */
 footer.site{border-top:1px solid var(--line);padding:36px 0 44px;color:var(--ink-dim);font-size:13px}
 footer.site .foot-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:center}
-.foot-right{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
-.foot-social{display:flex;align-items:center;gap:14px}
-.foot-social a{color:var(--ink-dim);display:flex;transition:color .15s ease}
-.foot-social a:hover{color:var(--ink)}
-.foot-social svg{width:18px;height:18px}
-
-/* ---------- admin fab ---------- */
-.admin-fab{
-  position:fixed;right:20px;bottom:20px;z-index:45;display:inline-flex;align-items:center;
-  padding:10px 18px;border-radius:999px;background:var(--card);border:1.5px solid var(--line-strong);
-  font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;
-  color:var(--ink-dim);box-shadow:0 10px 26px -14px rgba(36,50,44,.4);
-  transition:color .15s ease,border-color .15s ease,transform .15s ease;
-}
-.admin-fab:hover{color:var(--ink);border-color:var(--ink);transform:translateY(-1px)}
-@media (max-width:860px){.admin-fab{right:14px;bottom:14px;padding:9px 15px;font-size:11px}}
 footer.site a:hover{color:var(--ink)}
 
 /* ---------- drawer ---------- */
@@ -321,8 +247,8 @@ footer.site a:hover{color:var(--ink)}
 .drawer .drawer-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
 .drawer .desc{font-size:14.5px;color:var(--ink-soft);line-height:1.65;margin:16px 0 22px;white-space:pre-line}
 .ph-note{
-  background:var(--blue-tint);border:1px solid var(--blue);border-radius:11px;padding:13px 15px;
-  font-size:13.5px;color:var(--blue-deep);margin-bottom:20px;line-height:1.55;
+  background:var(--sky-tint);border:1px solid var(--sky);border-radius:11px;padding:13px 15px;
+  font-size:13.5px;color:var(--sky-deep);margin-bottom:20px;line-height:1.55;
 }
 .ph-note.low{background:var(--paper-soft);border-color:var(--line-strong);color:var(--ink-soft)}
 
@@ -330,7 +256,7 @@ footer.site a:hover{color:var(--ink)}
 .wiz-steps{display:flex;gap:8px;margin:22px 0 20px}
 .wiz-step{flex:1}
 .wiz-bar{height:4px;border-radius:99px;background:var(--line-strong);overflow:hidden;margin-bottom:6px}
-.wiz-bar span{display:block;height:100%;width:0;background:var(--green-deep);transition:width .2s ease}
+.wiz-bar span{display:block;height:100%;width:0;background:var(--sage-deep);transition:width .2s ease}
 .wiz-step.is-on .wiz-bar span,.wiz-step.is-done .wiz-bar span{width:100%}
 .wiz-step small{display:block;font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-dim)}
 .wiz-intro{font-size:14px;color:var(--ink-soft);margin-bottom:18px;line-height:1.55}
@@ -339,73 +265,25 @@ footer.site a:hover{color:var(--ink)}
 .f-row.mi{grid-template-columns:1fr 50px 1fr}
 .f label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--ink)}
 .f label .opt{font-weight:400;color:var(--ink-dim)}
-.f label .req{color:var(--blue-deep)}
-.f input,.f textarea,.f select{
+.f label .req{color:var(--sky-deep)}
+.f input,.f textarea{
   width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);
   font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink);
 }
-.f input:focus,.f textarea:focus,.f select:focus{border-color:var(--blue)}
-.f select{cursor:pointer}
+.f input:focus,.f textarea:focus{border-color:var(--sky)}
 .f textarea{min-height:170px;resize:vertical;line-height:1.5}
-.f.has-error input,.f.has-error textarea,.f.has-error select{border-color:var(--danger)}
+.f.has-error input,.f.has-error textarea{border-color:var(--danger)}
 .f .err{display:block;font-size:12px;color:var(--danger);margin-top:5px}
 .char-count{font-size:12px;color:var(--ink-dim);margin-top:5px}
-.char-count.is-thin{color:var(--purple-deep)}
+.char-count.is-thin{color:var(--tan-deep)}
 .hint{display:block;font-size:12px;color:var(--ink-dim);margin-top:6px}
 .wiz-foot{display:flex;align-items:center;gap:10px;margin-top:22px}
 .wiz-foot .spacer{flex:1}
 .wiz-sending{font-size:14px;color:var(--ink-soft);font-family:var(--mono)}
-.form-error{font-size:12.5px;color:var(--danger);margin:-6px 0 16px;line-height:1.5}
-
-/* ---------- résumé upload ---------- */
-.upload-box{
-  border:1.5px dashed var(--line-strong);border-radius:11px;padding:14px 16px;
-  display:flex;align-items:center;gap:12px;cursor:pointer;background:var(--paper-soft);
-  transition:border-color .15s ease, background .15s ease;
-}
-.upload-box:hover{border-color:var(--blue);background:var(--blue-tint)}
-.upload-box.has-file{border-color:var(--green);background:var(--green-tint)}
-.upload-box .up-icon{
-  width:38px;height:38px;border-radius:9px;background:var(--card);border:1.5px solid var(--line-strong);
-  display:grid;place-items:center;flex-shrink:0;color:var(--blue-deep);font-size:16px;
-}
-.upload-box.has-file .up-icon{color:var(--green-deep);border-color:var(--green)}
-.upload-box .up-text{flex:1;min-width:0}
-.upload-box .up-text b{display:block;font-size:13.5px;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.upload-box .up-text span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
-.upload-remove{
-  flex-shrink:0;background:none;border:none;cursor:pointer;font-family:var(--body);
-  font-size:12px;color:var(--ink-dim);text-decoration:underline;
-}
-.or-divider{display:flex;align-items:center;gap:10px;margin:16px 0;font-family:var(--mono);font-size:11px;color:var(--ink-dim);letter-spacing:.08em;text-transform:uppercase}
-.or-divider::before,.or-divider::after{content:'';flex:1;height:1px;background:var(--line)}
-
-/* ---------- payment ---------- */
-.pay-box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:18px}
-.pay-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.pay-row .pay-label{font-size:14.5px;color:var(--ink);font-weight:600}
-.pay-row .pay-amount{font-family:var(--display);font-size:26px;font-weight:600;color:var(--green-deep);white-space:nowrap}
-.pay-desc{font-size:13px;color:var(--ink-soft);line-height:1.55;margin-top:8px}
-.pay-methods{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
-.pay-methods span{
-  font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;
-  color:var(--ink-dim);border:1px solid var(--line-strong);border-radius:6px;padding:3px 8px;
-}
-.gate-lock{
-  width:48px;height:48px;border-radius:50%;background:var(--green-tint);color:var(--green-deep);
-  display:grid;place-items:center;font-family:var(--display);font-size:20px;font-weight:600;margin-bottom:16px;
-}
-
-/* ---------- checkout return banner ---------- */
-.return-banner{
-  background:var(--green-tint);border:1px solid var(--green);border-radius:11px;
-  padding:13px 16px;font-size:13.5px;color:var(--green-deep);margin:18px 0 0;
-  display:flex;gap:10px;align-items:center;font-weight:600;
-}
 
 .thinking{display:flex;flex-direction:column;align-items:center;gap:16px;padding:50px 10px;text-align:center}
 .thinking-ring{
-  width:44px;height:44px;border-radius:50%;border:3px solid var(--line-strong);border-top-color:var(--green-deep);
+  width:44px;height:44px;border-radius:50%;border:3px solid var(--line-strong);border-top-color:var(--sage-deep);
   animation:spin 1s linear infinite;
 }
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -416,22 +294,22 @@ footer.site a:hover{color:var(--ink)}
 .score-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
 .score-ring circle{fill:none;stroke-width:8}
 .score-ring .track{stroke:var(--paper-soft)}
-.score-ring .fill{stroke:var(--yellow);stroke-linecap:round}
+.score-ring .fill{stroke:var(--gold);stroke-linecap:round}
 .score-ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-size:22px}
 .score-card h4{font-size:16px;margin-bottom:4px}
 .score-card p{font-size:13px;color:var(--ink-soft);line-height:1.5}
 .rev-block{margin-bottom:18px}
 .rev-block h5{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;font-family:var(--mono);margin-bottom:8px;color:var(--ink-soft)}
-.rev-block h5.green{color:var(--green-deep)}
+.rev-block h5.green{color:var(--sage-deep)}
 .rev-list{list-style:none;padding:0}
 .rev-list li{font-size:13.5px;color:var(--ink-soft);padding-left:18px;position:relative;margin-bottom:7px;line-height:1.5}
-.rev-list li::before{content:'✓';position:absolute;left:0;color:var(--green-deep);font-weight:700}
-.rev-list.gap li::before{content:'○';color:var(--purple-deep)}
+.rev-list li::before{content:'✓';position:absolute;left:0;color:var(--sage-deep);font-weight:700}
+.rev-list.gap li::before{content:'○';color:var(--tan-deep)}
 .tag-row{display:flex;flex-wrap:wrap;gap:6px}
-.tag{background:var(--green-tint);color:var(--green-deep);padding:5px 11px;border-radius:999px;font-size:12px;font-weight:600}
+.tag{background:var(--sage-tint);color:var(--sage-deep);padding:5px 11px;border-radius:999px;font-size:12px;font-weight:600}
 .ai-note{font-size:12px;color:var(--ink-dim);line-height:1.5;margin-top:6px}
 
-.done-mark{width:56px;height:56px;border-radius:50%;background:var(--green-tint);color:var(--green-deep);display:grid;place-items:center;font-size:26px;margin:20px auto 18px;font-weight:700}
+.done-mark{width:56px;height:56px;border-radius:50%;background:var(--sage-tint);color:var(--sage-deep);display:grid;place-items:center;font-size:26px;margin:20px auto 18px;font-weight:700}
 .done-mark.err{background:#F1E3E0;color:var(--danger)}
 .drawer .done h3{text-align:center;font-size:21px;margin-bottom:8px}
 .drawer .done p{text-align:center;font-size:14px;color:var(--ink-soft)}
@@ -453,35 +331,27 @@ footer.site a:hover{color:var(--ink)}
 <header class="site">
   <div class="wrap site-bar">
     <a class="wordmark" href="#top">
-      <span class="mark"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVEhL7ZRNaFxlFIafc+7fzNjaGKeZtHWCOCnaAStSKyLUv+JG4qo7a1a6FBddFdwWN4K4c1FIEVeCP+hC6KIWDVI0gQaEGo2LEqUpTWIp6ty5f9/n4t4ZJterKI5d+S4PfO973vc758iZD25YCnSmfQAO3OVR93VQ/tdQgMldDk8cuoPZVsBsKxirAIB2pn2OdhpjJx6FzraCcm3s+O/aH8FtEZGlH8LhdI3i2s9bnF9Z5sfNa/TjCMUiYhEMikUVRCyKpe57tKcO8OSDjzM1MVWmqhb5aWuThQufEtsME0doQT4gFbFFzeJILuYFHjVVThw7wfTk9A6+yrjOrywRWQNpjIrJu1eGhCoWFXAUwCBiIE1IbMqlK1+W6apF1jc3kCwGmyGDaKwBzNCBYMAaHAXBYm0KacL17fUyXbVIkkTYLEWFoYBIHo2j4DoUbmwuJBYFrEmI4n6ZrlpEJc8dMsQWUSnEWcxvYcivYUiSJjhFHXKXIvnbMipFBrkPOjcmpdfv02k1mXvkMHNHDnNfq0mvH2JMiiuCUzSmUmYDt1wA8kkqHMVpzJ56wMtzx3mqe5BbvR4AdzYaLF5Z5d2Ln9GLQuqei7WmTAV/6gRw1NJPYd/de3nzpXm6M/t4/f1PeOXsO7x69hxvfPQxh2banHnxJFO7dxFGIY6A8jfjctWSWaW7+zqnDl7mxtXPObXwHl+trZFlKZnJ+Pr77zh9boF+EvHaC/M83OmQZAluBWNFKf8TMDzTvEo7vMjq8gL9OGKiEQw/e6JRpxeFbGzfZLp5D88/+thwYcuoFiGf/0s32yz+0mU1eQBXwdr8pAgWS4anwvLaKkvfXubCynKxM3/8l8qz8taHbxNnfZJMioWzeJKgw8kz+ZKKJTMZYlPUUWqei+/6zD93egdfpZP21H4cz6PuGGpOii8JjgiqFi0mz1FBBQJXqfk+ddfD85X9e+8t01WLPP3QMRrqop4Dw9nPux84weY3bbC0bqAEEnC0+2yZrjougK1bmyx+8wUb2+skSZQ7GLlbzsipr/kBreYMR+4/zuSenReYvxIZJyrjGjf+F/lHuC0ivwPUEUoF+T9UowAAAABJRU5ErkJggg==" alt="BridgeDesk logo" /></span>
-      <span class="brand-text">BridgeDesk</span>
+      <span class="mark">BD</span>
+      BridgeDesk
     </a>
-
     <nav class="site-nav">
-      <a href="#about">About Us</a>
-      <a href="#board">Open Roles</a>
-      <a href="mailto:hello@bridgedesk.co">Contact Us</a>
+      <a href="#board">Open roles</a>
+      <a href="#employers">For employers</a>
+      <a href="#candidates">For VAs</a>
+      <a href="#pool">Join the pool</a>
     </nav>
   </div>
 </header>
 
 <main id="top">
-  <div class="wrap" id="return-banner-slot"></div>
   <div class="wrap hero">
     <div>
       <div class="eyebrow">US startups · remote-first hiring</div>
-      <h1>The direct bridge between <em>world-class Philippine assistants</em> and <em>US founders.</em></h1>
-      <p class="lede">Connecting top Philippine talent directly with US startups—where location is no barrier, and your expertise is the only requirement that matters.</p>
+      <h1>The bridge between <em>US teams</em> and <em>Filipino talent.</em></h1>
+      <p class="lede">BridgeDesk scrapes Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant openings straight from US startups' own career pages — then scores every one for how openly it reads to a Philippines-based hire.</p>
       <div class="hero-ctas">
-        <a href="#employers" class="btn blue">I am an Employer</a>
-        <svg class="hero-bridge" viewBox="0 0 56 20" aria-hidden="true">
-          <path class="hb-cable" d="M4 16 Q28 3 52 16" fill="none"/>
-          <line class="hb-tower" x1="4" y1="13" x2="4" y2="19"/>
-          <line class="hb-tower" x1="52" y1="13" x2="52" y2="19"/>
-          <circle class="hb-dot employer" cx="4" cy="16" r="3"/>
-          <circle class="hb-dot applicant" cx="52" cy="16" r="3"/>
-        </svg>
-        <a href="#candidates" class="btn green">I am an Applicant</a>
+        <a href="#board" class="btn primary">Browse open roles</a>
+        <a href="#employers" class="btn">I'm hiring</a>
       </div>
     </div>
 
@@ -500,28 +370,7 @@ footer.site a:hover{color:var(--ink)}
           <div class="time" id="bc-ph-time">--:--</div>
         </div>
       </div>
-      <div class="bc-track">
-        <svg viewBox="0 0 320 56" preserveAspectRatio="none" aria-hidden="true">
-          <defs>
-            <linearGradient id="bcGradient" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0" stop-color="#A7CCE6" />
-              <stop offset="1" stop-color="#DEF2E7" />
-            </linearGradient>
-          </defs>
-          <!-- towers -->
-          <line class="bridge-tower" x1="40" y1="8" x2="40" y2="46" />
-          <line class="bridge-tower" x1="280" y1="8" x2="280" y2="46" />
-          <!-- suspension cables (US side, blue) -->
-          <path class="bridge-cable" d="M6,46 Q40,10 74,46" fill="none" />
-          <path class="bridge-cable" d="M40,46 Q160,-6 280,46" fill="none" />
-          <!-- suspension cables (PH side, green) -->
-          <path class="bridge-cable ph" d="M246,46 Q280,10 314,46" fill="none" />
-          <!-- deck -->
-          <rect class="bridge-fill" x="6" y="42" width="308" height="8" rx="4" />
-          <line class="bridge-deck" x1="6" y1="42" x2="314" y2="42" />
-        </svg>
-        <div class="now" id="bc-now" style="left:50%"></div>
-      </div>
+      <div class="bc-track"><div class="fill"></div><div class="now" id="bc-now" style="left:50%"></div></div>
       <p class="bc-overlap" id="bc-overlap-text">Manila runs 12–13 hours ahead of US Eastern — an early PH shift lines up with the US evening before, a late PH shift with the US morning.</p>
     </div>
   </div>
@@ -530,69 +379,40 @@ footer.site a:hover{color:var(--ink)}
     <div class="split-card employers" id="employers">
       <div class="eyebrow">For US employers</div>
       <h3>Hire a remote EA or VA without running the search yourself</h3>
-      <p>We pre-screen Filipino candidates against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. Introductions are made under a fee agreement, so there's no cost until a hire happens.</p>
-      <button type="button" class="btn yellow" id="post-job-btn">Post an Open Position</button>
+      <p>We pre-screen Filipino candidates against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. There's no cost until you actually decide to hire.</p>
+      <a class="btn gold" href="mailto:hello@bridgedesk.co?subject=Hiring%20a%20remote%20assistant">Tell us who you're looking for</a>
+    </div>
+    <div class="split-card team" id="team">
+      <div class="eyebrow">For growing teams</div>
+      <h3>Hire a Team — build out several roles at once</h3>
+      <p>Bringing on more than one remote assistant? Tell us the roles, skills and budget once, and we match candidates across all of them together — one intake instead of running each search separately.</p>
+      <a class="btn" type="button" id="team-cta-btn">Tell us who you're building</a>
     </div>
     <div class="split-card vas" id="candidates">
       <div class="eyebrow">For Filipino VAs &amp; EAs</div>
       <h3>Apply to real openings at real US startups</h3>
-      <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly and get an AI-reviewed read on how you match before you send it. Or skip sending resumes yourself altogether — activate matching and let us do the legwork. We read your background against every opening on the board; you just wait until a match reaches out.</p>
-      <div class="card-cta-row">
-        <a class="btn" href="#board">Browse open roles ↓</a>
-        <button type="button" class="btn yellow" id="activate-matching-btn">Activate Matching</button>
-      </div>
+      <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly through BridgeDesk and get an AI-reviewed read on how your background matches the role before you send it.</p>
+      <a class="btn" href="#board">Browse open roles ↓</a>
     </div>
-    <div class="split-card team" id="team">
-      <div class="eyebrow">For full-coverage hiring</div>
-      <h3>Hire a Team, not just one person</h3>
-      <p>Three Filipino specialists covering your business for the price of one hire — so coverage doesn't stop when a single person is out sick, on leave, or off the clock. One point of contact, a team behind it.</p>
-      <button type="button" class="btn yellow" id="team-inquiry-btn">Talk to us about your team</button>
+    <div class="split-card training" id="training">
+      <span class="soon-tag">Coming soon</span>
+      <div class="eyebrow">For Filipino VAs &amp; EAs</div>
+      <h3>Training — get role-ready before you apply</h3>
+      <p>A structured path for tools, async communication and client-handling skills that US employers look for. Not live yet — check back, or sign up for the pool below to hear when it opens.</p>
+      <button class="btn" type="button" disabled>Coming soon</button>
     </div>
   </div>
 
-  <section class="bridge-flow">
-    <div class="wrap">
-      <div class="eyebrow">Employers to the board</div>
-      <h2>The bridge runs both ways</h2>
-      <p>Every role an employer posts crosses onto the board below. Every application crosses back the other way — until a match closes the loop.</p>
-      <div class="flow-track">
-        <svg viewBox="0 0 1120 190" aria-hidden="true">
-          <defs>
-            <linearGradient id="flowGradient" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0" stop-color="#A7CCE6" />
-              <stop offset="1" stop-color="#DEF2E7" />
-            </linearGradient>
-          </defs>
-          <!-- towers -->
-          <line class="flow-tower" x1="90" y1="26" x2="90" y2="150" />
-          <line class="flow-tower" x1="1030" y1="26" x2="1030" y2="150" />
-          <!-- suspension cables -->
-          <path class="flow-cable" d="M20,150 Q90,18 160,150" fill="none" />
-          <path class="flow-cable" d="M90,150 Q560,-42 1030,150" fill="none" />
-          <path class="flow-cable ph" d="M960,150 Q1030,18 1100,150" fill="none" />
-          <!-- deck -->
-          <rect class="flow-fill" x="20" y="145" width="1080" height="10" rx="5" />
-          <line class="flow-deck" x1="20" y1="145" x2="1100" y2="145" />
-          <line class="flow-deck" x1="20" y1="155" x2="1100" y2="155" />
-          <!-- end labels -->
-          <text class="flow-label" x="90" y="176" text-anchor="middle">EMPLOYERS</text>
-          <text class="flow-label" x="1030" y="176" text-anchor="middle">AVAILABLE ROLES</text>
-          <!-- roles: employers -> board -->
-          <g class="flow-chip job"><circle r="6"/><animateMotion dur="7s" begin="0s" repeatCount="indefinite" path="M30,144 L1090,144"/></g>
-          <g class="flow-chip job"><circle r="6"/><animateMotion dur="7s" begin="2.3s" repeatCount="indefinite" path="M30,144 L1090,144"/></g>
-          <g class="flow-chip job"><circle r="6"/><animateMotion dur="7s" begin="4.6s" repeatCount="indefinite" path="M30,144 L1090,144"/></g>
-          <!-- applications: board -> employers -->
-          <g class="flow-chip candidate"><circle r="6"/><animateMotion dur="7.5s" begin="1s" repeatCount="indefinite" path="M1090,156 L30,156"/></g>
-          <g class="flow-chip candidate"><circle r="6"/><animateMotion dur="7.5s" begin="3.5s" repeatCount="indefinite" path="M1090,156 L30,156"/></g>
-          <g class="flow-chip candidate"><circle r="6"/><animateMotion dur="7.5s" begin="6s" repeatCount="indefinite" path="M1090,156 L30,156"/></g>
-        </svg>
+  <div class="wrap" style="padding-bottom:54px" id="pool">
+    <div class="pool-card">
+      <div>
+        <div class="eyebrow">Join our pool</div>
+        <h3>Be notified the moment you're a perfect match</h3>
+        <p>Not applying to a specific role right now? Leave a standing profile — bio, skills, rate and (optionally) your résumé — and we'll reach out directly when an employer's needs line up with yours.</p>
       </div>
-      <div class="flow-legend">
-        <span><i class="dot job"></i>Roles, from employers</span>
-        <span><i class="dot candidate"></i>Applications, back to employers</span>
-      </div>
+      <button class="btn primary" type="button" id="pool-cta-btn">Join the pool →</button>
     </div>
-  </section>
+  </div>
 
   <section class="board" id="board">
     <div class="wrap">
@@ -620,29 +440,7 @@ footer.site a:hover{color:var(--ink)}
     </div>
   </section>
 
-  <section class="training" id="training">
-    <div class="wrap training-grid">
-      <div class="training-copy">
-        <div class="eyebrow">For aspiring VAs</div>
-        <h2>Not ready to apply yet? Get certified first.</h2>
-        <p>A self-paced course built around what employers on this board actually ask for — inbox and calendar management, the tools US teams run on, and working async across a 12+ hour time difference. Finish it, and you walk away with a certificate you can put straight on your application.</p>
-        <ul class="training-points">
-          <li>Learn at your own pace — no fixed schedule</li>
-          <li>Certificate of completion</li>
-          <li>Built around the roles actually posted on this board</li>
-        </ul>
-        <button type="button" class="btn yellow" id="training-enroll-btn">Enroll in training</button>
-      </div>
-      <div class="cert-card" aria-hidden="true">
-        <div class="cert-seal">✓</div>
-        <div class="cert-title">Certificate of Completion</div>
-        <div class="cert-name">— your name here —</div>
-        <div class="cert-course">BridgeDesk VA Foundations</div>
-      </div>
-    </div>
-  </section>
-
-  <section class="detail" id="about">
+  <section class="detail">
     <div class="wrap detail-grid">
       <div>
         <div class="eyebrow">How the PH signal works</div>
@@ -658,12 +456,12 @@ footer.site a:hover{color:var(--ink)}
       <div>
         <div class="eyebrow">The introduction process</div>
         <h2>What happens after you apply</h2>
-        <p>BridgeDesk reviews every application against the role it was sent for, using the same AI-assisted read the company would eventually see. Strong matches get forwarded to the employer, and candidates always hear back either way.</p>
+        <p>BridgeDesk reviews every application against the role it was sent for, using the same AI-assisted read the company would eventually see. Strong matches get forwarded to the employer — so employers only pay once someone's actually hired, and candidates always hear back either way.</p>
         <ul>
           <li>Applications are reviewed within a few business days.</li>
           <li>Employers are only contacted for candidates worth their time.</li>
+          <li>No fee to candidates, ever — BridgeDesk is paid by the hiring company.</li>
         </ul>
-        <p class="fee-note">A light finder's fee applies on a successful placement, shared between both sides.</p>
       </div>
     </div>
   </section>
@@ -672,26 +470,15 @@ footer.site a:hover{color:var(--ink)}
 <footer class="site">
   <div class="wrap foot-row">
     <div class="wordmark" style="font-size:16px">
-      <span class="mark" style="width:22px;height:22px;font-size:10px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAcCAYAAACUJBTQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVEhL7ZRNaFxlFIafc+7fzNjaGKeZtHWCOCnaAStSKyLUv+JG4qo7a1a6FBddFdwWN4K4c1FIEVeCP+hC6KIWDVI0gQaEGo2LEqUpTWIp6ty5f9/n4t4ZJterKI5d+S4PfO973vc758iZD25YCnSmfQAO3OVR93VQ/tdQgMldDk8cuoPZVsBsKxirAIB2pn2OdhpjJx6FzraCcm3s+O/aH8FtEZGlH8LhdI3i2s9bnF9Z5sfNa/TjCMUiYhEMikUVRCyKpe57tKcO8OSDjzM1MVWmqhb5aWuThQufEtsME0doQT4gFbFFzeJILuYFHjVVThw7wfTk9A6+yrjOrywRWQNpjIrJu1eGhCoWFXAUwCBiIE1IbMqlK1+W6apF1jc3kCwGmyGDaKwBzNCBYMAaHAXBYm0KacL17fUyXbVIkkTYLEWFoYBIHo2j4DoUbmwuJBYFrEmI4n6ZrlpEJc8dMsQWUSnEWcxvYcivYUiSJjhFHXKXIvnbMipFBrkPOjcmpdfv02k1mXvkMHNHDnNfq0mvH2JMiiuCUzSmUmYDt1wA8kkqHMVpzJ56wMtzx3mqe5BbvR4AdzYaLF5Z5d2Ln9GLQuqei7WmTAV/6gRw1NJPYd/de3nzpXm6M/t4/f1PeOXsO7x69hxvfPQxh2banHnxJFO7dxFGIY6A8jfjctWSWaW7+zqnDl7mxtXPObXwHl+trZFlKZnJ+Pr77zh9boF+EvHaC/M83OmQZAluBWNFKf8TMDzTnEo7vMjq8gL9OGKiEQw/e6JRpxeFbGzfZLp5D88/+thwYcuoFiGf/0s32yz+0mU1eQBXwdr8pAgWS4anwvLaKkvfXubCynKxM3/8l8qz8taHbxNnfZJMioWzeJKgw8kz+ZKKJTMZYlPUUWqei+/6zD93egdfpZP19H4cz6PuGGpOii8JjgiqFi0mz1FBBQJXqfk+ddfD85X9e+8t01WLPP3QMRrqop4Dw9nPux84weY3bbC0bqAEEnC0+2yZrjougK1bmyx+8wUb2+skSZQ7GLlbzsipr/kBreYMR+4/zuSenReYvxIZJyrjGjf+F/lHuC0ivwPUEUoF+T9UowAAAABJRU5ErkJggg==" alt="BridgeDesk logo" /></span>
+      <span class="mark" style="width:22px;height:22px;font-size:10px">BD</span>
       BridgeDesk
     </div>
-    <div class="foot-right">
-      <!-- Social links are placeholders — update hrefs once accounts are live -->
-      <div class="foot-social" aria-label="BridgeDesk on social media">
-        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="7.5" cy="8" r="1.3"/><rect x="6.3" y="10.5" width="2.4" height="7"/><path d="M11.5 10.5h2.3v1.3c.5-.8 1.4-1.5 2.8-1.5 2.2 0 3.4 1.4 3.4 4v5.2h-2.4v-4.6c0-1.3-.5-2.1-1.7-2.1-1.1 0-1.8.8-1.8 2.1v4.6h-2.4v-9z"/></svg></a>
-        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="5" width="20" height="14" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg></a>
-        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 8.5h1.8V6h-1.9c-2 0-3.1 1.2-3.1 3.1v1.6H8.5v2.6h1.8V19h2.6v-5.7h1.9l.3-2.6h-2.2v-1.3c0-.6.3-.9.9-.9z"/></svg></a>
-        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.3"/><circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none"/></svg></a>
-      </div>
-      <div>
-        <a href="mailto:hello@bridgedesk.co">hello@bridgedesk.co</a>
-        &nbsp;·&nbsp; Roles refresh daily
-      </div>
+    <div>
+      <a href="mailto:hello@bridgedesk.co">hello@bridgedesk.co</a>
+      &nbsp;·&nbsp; Roles refresh daily
     </div>
   </div>
 </footer>
-
-<a href="/admin" class="admin-fab">Admin</a>
 
 <div class="scrim" id="scrim"></div>
 <div class="drawer" id="drawer" role="dialog" aria-modal="true"><div class="drawer-inner" id="drawer-inner"></div></div>
@@ -703,7 +490,7 @@ footer.site a:hover{color:var(--ink)}
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-const CATEGORIES = ['All', 'Virtual Assistant', 'Executive Assistant', 'Personal Assistant', 'Legal Assistant', 'Social Media Manager', 'Copywriter', 'Bookkeeper', 'Property Manager'];
+const CATEGORIES = ['All', 'Virtual Assistant', 'Executive Assistant', 'Personal Assistant', 'Legal Assistant'];
 const PH_FILTERS = [
   { id: 'all', label: 'All roles' },
   { id: 'strong', label: 'PH signal 2+' },
@@ -845,11 +632,12 @@ function renderJobDetail(job) {
     <span class="chip cat-${esc(String(job.category).replace(/\s+/g,'-'))}">${esc(job.category)}</span>
     <h2 style="margin-top:12px">${esc(job.title)}</h2>
     <div class="drawer-company">${esc(job.company)} · ${esc(job.location)}</div>
-    <div class="drawer-meta">${phBadge(job.ph_signal)}${compLine(job) ? `<span class="chip" style="background:var(--purple-tint);color:var(--purple-deep)">${esc(compLine(job))}</span>` : ''}</div>
+    <div class="drawer-meta">${phBadge(job.ph_signal)}${compLine(job) ? `<span class="chip" style="background:var(--tan-tint);color:var(--tan-deep)">${esc(compLine(job))}</span>` : ''}</div>
     ${phNote(job.ph_signal)}
     <p class="desc">${esc(job.description || job.summary)}</p>
     <div class="drawer-foot">
       <button type="button" class="btn primary block" id="apply-btn">Apply through BridgeDesk</button>
+      ${job.apply_url ? `<p style="margin-top:10px;font-size:12.5px;text-align:center"><a href="${esc(job.apply_url)}" target="_blank" rel="noopener">View the original posting ↗</a></p>` : ''}
     </div>`;
   drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
   drawerInner.querySelector('#apply-btn').addEventListener('click', () => openApply(job));
@@ -933,32 +721,10 @@ function validateOne() {
   return ok;
 }
 
-function fileToBase64(file) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = () => resolve(String(reader.result).split(',')[1] || '');
-    reader.onerror = () => reject(reader.error);
-    reader.readAsDataURL(file);
-  });
-}
-
 function stageTwo() {
   const d = apply.data;
   $('wiz-body').innerHTML = `
-    <p class="wiz-intro">Upload your résumé or paste a summary of your background. Specifics beat adjectives — tools you use, hours you've covered, what you actually own day to day.</p>
-    <div class="f" data-for="resume">
-      <label>Résumé <span class="opt">(optional if you paste below)</span></label>
-      <div class="upload-box ${d.resumeFile ? 'has-file' : ''}" id="upload-box" role="button" tabindex="0">
-        <span class="up-icon">↑</span>
-        <span class="up-text" id="up-text">
-          <b>${esc(d.resumeFile ? d.resumeFile.name : 'Upload a file')}</b>
-          <span>${d.resumeFile ? 'Click to replace' : 'PDF or Word, up to 8MB'}</span>
-        </span>
-        ${d.resumeFile ? '<button type="button" class="upload-remove" id="upload-remove">Remove</button>' : ''}
-      </div>
-      <input type="file" id="a-resume" accept=".pdf,.doc,.docx" hidden />
-    </div>
-    <div class="or-divider">or paste it</div>
+    <p class="wiz-intro">Paste your résumé or write a summary of your background. Specifics beat adjectives — tools you use, hours you've covered, what you actually own day to day.</p>
     <div class="f" data-for="background">
       <label for="a-background">Résumé / professional background <span class="req">*</span></label>
       <textarea id="a-background" placeholder="Years of experience, the kind of exec/company you've supported, tools (calendars, inboxes, CRMs), and the hours you're available.">${esc(d.background || '')}</textarea>
@@ -970,7 +736,7 @@ function stageTwo() {
     <span class="spacer"></span>
     <button class="btn primary" type="button" id="wiz-next">Run review →</button>`;
 
-  const ta = $('a-background'), cc = $('cc'), uploadBox = $('upload-box'), fileInput = $('a-resume');
+  const ta = $('a-background'), cc = $('cc');
   const sync = () => {
     const n = ta.value.trim().length;
     cc.textContent = n + ' characters' + (n > 0 && n < 180 ? ' — a little more detail sharpens the review' : '');
@@ -978,47 +744,15 @@ function stageTwo() {
   };
   ta.addEventListener('input', sync); sync();
 
-  const openPicker = (e) => { if (!e.target.closest('#upload-remove')) fileInput.click(); };
-  uploadBox.addEventListener('click', openPicker);
-  uploadBox.addEventListener('keydown', (e) => {
-    if ((e.key === 'Enter' || e.key === ' ') && !e.target.closest('#upload-remove')) { e.preventDefault(); fileInput.click(); }
-  });
-  $('upload-remove')?.addEventListener('click', (e) => {
-    e.stopPropagation();
-    apply.data.background = ta.value; // preserve in-progress text before re-render
-    d.resumeFile = null; fileInput.value = ''; stageTwo();
-  });
-  fileInput.addEventListener('change', async () => {
-    const file = fileInput.files?.[0];
-    if (!file) return;
-    const wrap = document.querySelector('.f[data-for="resume"]');
-    wrap.classList.remove('has-error'); wrap.querySelector('.err')?.remove();
-    if (file.size > 8 * 1024 * 1024) {
-      wrap.classList.add('has-error');
-      const e = document.createElement('span'); e.className = 'err'; e.textContent = 'Keep it under 8MB.'; wrap.append(e);
-      fileInput.value = ''; return;
-    }
-    try {
-      const base64 = await fileToBase64(file);
-      d.resumeFile = { name: file.name, type: file.type, size: file.size, base64 };
-    } catch (err) {
-      d.resumeFile = null;
-    }
-    apply.data.background = ta.value; // preserve in-progress text before re-render
-    stageTwo();
-  });
-
   $('wiz-back').addEventListener('click', () => { apply.data.background = ta.value; apply.step = 1; renderApply(); });
   $('wiz-next').addEventListener('click', () => {
     apply.data.background = ta.value.trim();
-    const hasText = apply.data.background.length >= 60;
-    const hasFile = !!apply.data.resumeFile;
-    if (!hasText && !hasFile) {
+    if (apply.data.background.length < 60) {
       const wrap = document.querySelector('.f[data-for="background"]');
       wrap.classList.add('has-error');
       if (!wrap.querySelector('.err')) {
         const e = document.createElement('span'); e.className = 'err';
-        e.textContent = 'Upload a résumé or give us at least a couple of sentences.'; wrap.append(e);
+        e.textContent = 'Give us at least a couple of sentences to work with.'; wrap.append(e);
       }
       ta.focus(); return;
     }
@@ -1115,22 +849,12 @@ function stageThree() {
           body: JSON.stringify({
             jobTitle: job.title, company: job.company,
             resume: data.background, linkedin: data.linkedin || '',
-            resume_file: data.resumeFile ? { name: data.resumeFile.name, type: data.resumeFile.type, base64: data.resumeFile.base64 } : null,
           }),
         });
         if (res.ok) { const { analysis } = await res.json(); review = parseAnalysis(analysis, data); }
       } catch (_) {}
       clearInterval(tick);
-      if (!review) {
-        review = (data.resumeFile && data.background.trim().length < 60)
-          ? {
-              pending: true,
-              strengths: ["Your résumé file is attached and ready for review."],
-              gaps: ["A specific match score follows once we've read it — you'll hear back either way."],
-            }
-          : buildReview(job, data);
-      }
-      apply.review = review;
+      apply.review = review || buildReview(job, data);
       renderApply();
     })();
     return;
@@ -1138,24 +862,6 @@ function stageThree() {
 
   const r = apply.review;
   const name = [data.first, data.last].filter(Boolean).join(' ');
-
-  if (r.pending) {
-    $('wiz-body').innerHTML = `
-      <div class="rev-block">
-        <h5 class="green">Résumé received</h5>
-        <p style="font-size:14px;color:var(--ink-soft);line-height:1.55;margin-bottom:4px">${esc(name)}'s file is with us for <strong>${esc(job.title)}</strong> at ${esc(job.company)}. A specific match score follows once we've read it — you can still submit now.</p>
-      </div>
-      <div class="rev-block"><h5>What happens next</h5><ul class="rev-list">${r.strengths.concat(r.gaps).map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
-      <p class="ai-note">This is for you, not sent to the employer as-is — your résumé file goes along with your application either way.</p>`;
-    $('wiz-foot').innerHTML = `
-      <button class="btn" type="button" id="wiz-back">← Edit background</button>
-      <span class="spacer"></span>
-      <button class="btn primary" type="button" id="wiz-submit">Submit application</button>`;
-    $('wiz-back').addEventListener('click', () => { apply.step = 2; apply.review = null; renderApply(); });
-    $('wiz-submit').addEventListener('click', submitApply);
-    return;
-  }
-
   const verdict = r.score >= 78 ? 'Strong match' : r.score >= 60 ? 'Worth a conversation' : 'Some gaps to close';
   const C = 2 * Math.PI * 36;
 
@@ -1198,10 +904,8 @@ async function submitApply() {
         first_name: data.first, last_name: data.last,
         email: data.email, phone: data.phone, linkedin: data.linkedin,
         background: data.background,
-        resume_file: data.resumeFile ? { name: data.resumeFile.name, type: data.resumeFile.type, base64: data.resumeFile.base64 } : null,
         score: review.score ?? null, strengths: review.strengths || [], gaps: review.gaps || [],
-        reviewed_by: review.pending ? 'pending' : review.ai ? 'ai' : 'keyword',
-        matching_paid: !!data.paid, matching_payment_ref: data.payment_ref || null,
+        reviewed_by: review.ai ? 'ai' : 'keyword',
       }),
     });
     result = res.ok ? await res.json() : { ok: false, error: (await res.json().catch(() => ({}))).error };
@@ -1219,6 +923,195 @@ async function submitApply() {
   drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
   drawerInner.querySelector('#done-close').addEventListener('click', closeDrawer);
 }
+
+/* ==========================================================================
+   The Pool — candidate profile + employer intake forms
+   --------------------------------------------------------------------------
+   Both open in the same drawer used for job applications. Neither is a
+   multi-step wizard — one screen, submit, done — since there's no AI review
+   step involved here, just an intake.
+   ========================================================================== */
+const ROLE_CATEGORIES = ['Virtual Assistant', 'Executive Assistant', 'Personal Assistant', 'Legal Assistant'];
+
+function categoryChecks(prefix, checked = []) {
+  return `<div class="f" data-for="${prefix}-cats">
+    <label>Role type(s) <span class="opt">(pick any that fit)</span></label>
+    <div class="tag-row">${ROLE_CATEGORIES.map((c) => `
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:500;color:var(--ink-soft)">
+        <input type="checkbox" class="${prefix}-cat" value="${esc(c)}" ${checked.includes(c) ? 'checked' : ''} style="width:15px;height:15px" />
+        ${esc(c)}
+      </label>`).join('')}
+    </div>
+  </div>`;
+}
+
+function openPoolForm() {
+  apply = null;
+  drawerInner.innerHTML = `
+    <button type="button" class="drawer-close" aria-label="Close">✕</button>
+    <span class="chip cat-Virtual-Assistant">Join the pool</span>
+    <h2 style="margin-top:12px">Be notified when you're a perfect match</h2>
+    <p class="wiz-intro">This is a standing profile, not an application to one role — we'll reach out when an employer's needs line up with yours.</p>
+    <div id="pool-body">
+      <div class="f-row">
+        <div class="f" data-for="p-first"><label>First name <span class="req">*</span></label><input id="p-first" /></div>
+        <div class="f" data-for="p-last"><label>Last name <span class="req">*</span></label><input id="p-last" /></div>
+      </div>
+      <div class="f-row">
+        <div class="f" data-for="p-email"><label>Email <span class="req">*</span></label><input id="p-email" type="email" /></div>
+        <div class="f" data-for="p-phone"><label>Phone / WhatsApp <span class="opt">(optional)</span></label><input id="p-phone" type="tel" /></div>
+      </div>
+      <div class="f" data-for="p-linkedin"><label>LinkedIn / portfolio <span class="opt">(optional)</span></label><input id="p-linkedin" /></div>
+      ${categoryChecks('p')}
+      <div class="f" data-for="p-skills"><label>Skills <span class="opt">(comma-separated, e.g. calendar management, QuickBooks, Notion)</span></label><input id="p-skills" /></div>
+      <div class="f" data-for="p-bio"><label>Bio / background <span class="req">*</span></label><textarea id="p-bio" placeholder="What you do, tools you use, the kind of exec/company you support best."></textarea></div>
+      <div class="f-row">
+        <div class="f" data-for="p-avail"><label>Availability</label>
+          <select id="p-avail" style="width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink)">
+            <option>Full-time</option><option>Part-time</option><option>Either</option>
+          </select>
+        </div>
+        <div class="f" data-for="p-tz"><label>Timezone overlap</label><input id="p-tz" placeholder="e.g. US Eastern mornings" /></div>
+      </div>
+      <div class="f-row" style="grid-template-columns:1fr 1fr 1fr">
+        <div class="f" data-for="p-rmin"><label>Rate min <span class="opt">(optional)</span></label><input id="p-rmin" type="number" min="0" /></div>
+        <div class="f" data-for="p-rmax"><label>Rate max <span class="opt">(optional)</span></label><input id="p-rmax" type="number" min="0" /></div>
+        <div class="f" data-for="p-rbasis"><label>Basis</label>
+          <select id="p-rbasis" style="width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink)">
+            <option value="hourly">Hourly</option><option value="monthly">Monthly</option><option value="annual">Annual</option>
+          </select>
+        </div>
+      </div>
+      <div class="f" data-for="p-resume"><label>Résumé <span class="opt">(optional, PDF/DOC/DOCX, up to 5MB)</span></label><input id="p-resume" type="file" accept=".pdf,.doc,.docx" /></div>
+    </div>
+    <div class="wiz-foot">
+      <button class="btn" type="button" id="pool-cancel">Cancel</button>
+      <span class="spacer"></span>
+      <button class="btn primary" type="button" id="pool-submit">Join the pool</button>
+    </div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  drawerInner.querySelector('#pool-cancel').addEventListener('click', closeDrawer);
+  drawerInner.querySelector('#pool-submit').addEventListener('click', submitPoolForm);
+  scrim.classList.add('is-open'); drawer.classList.add('is-open');
+}
+
+async function submitPoolForm() {
+  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
+  const val = (id) => ($(id)?.value || '').trim();
+  const first = val('p-first'), last = val('p-last'), email = val('p-email'), bio = val('p-bio');
+  let ok = true;
+  if (!first) { markError('p-first', 'Add your first name.'); ok = false; }
+  if (!last) { markError('p-last', 'Add your last name.'); ok = false; }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { markError('p-email', 'Add a valid email address.'); ok = false; }
+  if (bio.length < 40) { markError('p-bio', 'Give us at least a couple of sentences to work with.'); ok = false; }
+  if (!ok) { document.querySelector('.f.has-error input,.f.has-error textarea')?.focus(); return; }
+
+  const cats = [...document.querySelectorAll('.p-cat:checked')].map((c) => c.value);
+  const skills = val('p-skills').split(',').map((s) => s.trim()).filter(Boolean);
+  const fd = new FormData();
+  fd.set('first_name', first); fd.set('last_name', last); fd.set('email', email);
+  fd.set('phone', val('p-phone')); fd.set('linkedin', val('p-linkedin'));
+  fd.set('categories', JSON.stringify(cats)); fd.set('skills', JSON.stringify(skills));
+  fd.set('bio', bio); fd.set('availability', val('p-avail'));
+  fd.set('timezone_overlap', val('p-tz'));
+  if (val('p-rmin')) fd.set('rate_min', val('p-rmin'));
+  if (val('p-rmax')) fd.set('rate_max', val('p-rmax'));
+  fd.set('rate_basis', val('p-rbasis'));
+  const file = $('p-resume')?.files?.[0];
+  if (file) fd.set('resume', file);
+
+  drawer.querySelector('.wiz-foot').innerHTML = '<span class="wiz-sending">Sending your profile…</span>';
+  let result = { ok: false };
+  try {
+    const res = await fetch('/api/pool/join', { method: 'POST', body: fd });
+    result = res.ok ? await res.json() : { ok: false, error: (await res.json().catch(() => ({}))).error };
+  } catch { result = { ok: false, error: 'Network problem' }; }
+
+  const body = result.ok
+    ? `<div class="done-mark">✓</div><h3>You're in the pool.</h3><p>Thanks ${esc(first)}. We'll reach out the moment your profile lines up with an employer's needs.</p><p class="done-ref">Reference ${esc(result.ref || '')}</p>`
+    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
+  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Close</button></div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  drawerInner.querySelector('#done-close').addEventListener('click', closeDrawer);
+}
+
+function openEmployerIntake() {
+  apply = null;
+  drawerInner.innerHTML = `
+    <button type="button" class="drawer-close" aria-label="Close">✕</button>
+    <span class="chip cat-Executive-Assistant">Hire a Team</span>
+    <h2 style="margin-top:12px">Tell us who you're building</h2>
+    <p class="wiz-intro">One intake, matched across every role at once — from a single hire to a full remote team.</p>
+    <div class="f-row">
+      <div class="f" data-for="e-company"><label>Company <span class="req">*</span></label><input id="e-company" /></div>
+      <div class="f" data-for="e-contact"><label>Contact name <span class="opt">(optional)</span></label><input id="e-contact" /></div>
+    </div>
+    <div class="f" data-for="e-email"><label>Contact email <span class="req">*</span></label><input id="e-email" type="email" /></div>
+    ${categoryChecks('e')}
+    <div class="f" data-for="e-skills"><label>Must-have skills <span class="opt">(comma-separated)</span></label><input id="e-skills" /></div>
+    <div class="f-row">
+      <div class="f" data-for="e-teamsize"><label>How many assistants are you hiring?</label><input id="e-teamsize" type="number" min="1" value="1" /></div>
+      <div class="f" data-for="e-tz"><label>Timezone needs</label><input id="e-tz" placeholder="e.g. overlap with US Pacific mornings" /></div>
+    </div>
+    <div class="f-row" style="grid-template-columns:1fr 1fr 1fr">
+      <div class="f" data-for="e-bmin"><label>Budget min <span class="opt">(optional)</span></label><input id="e-bmin" type="number" min="0" /></div>
+      <div class="f" data-for="e-bmax"><label>Budget max <span class="opt">(optional)</span></label><input id="e-bmax" type="number" min="0" /></div>
+      <div class="f" data-for="e-bbasis"><label>Basis</label>
+        <select id="e-bbasis" style="width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink)">
+          <option value="hourly">Hourly</option><option value="monthly">Monthly</option><option value="annual">Annual</option>
+        </select>
+      </div>
+    </div>
+    <div class="f" data-for="e-notes"><label>Anything else worth knowing <span class="opt">(optional)</span></label><textarea id="e-notes" placeholder="Team culture, tools you standardize on, what's made a past hire work well."></textarea></div>
+    <div class="wiz-foot">
+      <button class="btn" type="button" id="e-cancel">Cancel</button>
+      <span class="spacer"></span>
+      <button class="btn primary" type="button" id="e-submit">Submit</button>
+    </div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  drawerInner.querySelector('#e-cancel').addEventListener('click', closeDrawer);
+  drawerInner.querySelector('#e-submit').addEventListener('click', submitEmployerIntake);
+  scrim.classList.add('is-open'); drawer.classList.add('is-open');
+}
+
+async function submitEmployerIntake() {
+  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
+  const val = (id) => ($(id)?.value || '').trim();
+  const company = val('e-company'), email = val('e-email');
+  let ok = true;
+  if (!company) { markError('e-company', 'Add your company name.'); ok = false; }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { markError('e-email', 'Add a valid email address.'); ok = false; }
+  if (!ok) { document.querySelector('.f.has-error input')?.focus(); return; }
+
+  const cats = [...document.querySelectorAll('.e-cat:checked')].map((c) => c.value);
+  const skills = val('e-skills').split(',').map((s) => s.trim()).filter(Boolean);
+  const payload = {
+    company, contact_name: val('e-contact'), contact_email: email,
+    categories: cats, must_have_skills: skills,
+    team_size: val('e-teamsize') || 1, timezone_needs: val('e-tz'),
+    budget_min: val('e-bmin') || undefined, budget_max: val('e-bmax') || undefined,
+    budget_basis: val('e-bbasis'), culture_notes: val('e-notes'),
+  };
+
+  drawer.querySelector('.wiz-foot').innerHTML = '<span class="wiz-sending">Sending your request…</span>';
+  let result = { ok: false };
+  try {
+    const res = await fetch('/api/pool/employer-intake', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+    });
+    result = res.ok ? await res.json() : { ok: false, error: (await res.json().catch(() => ({}))).error };
+  } catch { result = { ok: false, error: 'Network problem' }; }
+
+  const body = result.ok
+    ? `<div class="done-mark">✓</div><h3>Got it.</h3><p>We're matching this against our pool now — expect to hear from us shortly.</p><p class="done-ref">Reference ${esc(result.ref || '')}</p>`
+    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
+  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Close</button></div>`;
+  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  drawerInner.querySelector('#done-close').addEventListener('click', closeDrawer);
+}
+
+$('team-cta-btn').addEventListener('click', openEmployerIntake);
+$('pool-cta-btn').addEventListener('click', openPoolForm);
 
 /* ==========================================================================
    Bridge clock — signature element
@@ -1245,448 +1138,6 @@ updateClock();
 setInterval(updateClock, 30000);
 
 loadJobs();
-
-/* ==========================================================================
-   Checkout — shared by "Activate Matching" and "Post an Open Position".
-   Both call this the same way: it hits a backend endpoint that creates the
-   checkout session (PayMongo for ₱/GCash, Stripe or PayMongo for $) and
-   returns a hosted checkout_url to send the browser to. Implement
-   POST /api/checkout server-side — never put payment secret keys in this
-   file. On success the provider redirects back to success_path below.
-   ========================================================================== */
-async function startCheckout(payload) {
-  try {
-    const res = await fetch('/api/checkout', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-    });
-    const out = await res.json().catch(() => ({}));
-    if (!res.ok || !out.ok) return { ok: false, error: out.error || "Payment couldn't be started." };
-    return out;
-  } catch (err) {
-    return { ok: false, error: 'Network problem — check your connection and try again.' };
-  }
-}
-
-/* ---------- general matching (no specific job selected yet) ---------- */
-const GENERAL_MATCH_PROFILE = {
-  id: null, ref: null,
-  title: 'General Talent Pool Review', company: 'BridgeDesk',
-  hub: 'startup', category: 'Virtual Assistant',
-  location: 'Philippines · Remote', apply_url: null,
-};
-
-function openMatchingGate() {
-  apply = null;
-  drawerInner.innerHTML = `
-    <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <div class="gate-lock">₱</div>
-    <h2>Activate Matching</h2>
-    <p class="wiz-intro">One payment gets your background read against every open role on the board, not just one — plus new roles as they're added, without applying again from scratch.</p>
-    <div class="pay-box">
-      <div class="pay-row"><span class="pay-label">Activate Matching</span><span class="pay-amount">₱299</span></div>
-      <p class="pay-desc">One-time payment. Unlocks an AI-reviewed match score against every open role.</p>
-      <div class="pay-methods"><span>GCash</span><span>Maya</span><span>Card</span></div>
-    </div>
-    <div id="gate-error"></div>
-    <div class="wiz-foot">
-      <button class="btn" type="button" id="gate-cancel">Maybe later</button>
-      <span class="spacer"></span>
-      <button class="btn primary" type="button" id="gate-pay">Pay ₱299 &amp; continue →</button>
-    </div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  $('gate-cancel').addEventListener('click', closeDrawer);
-  $('gate-pay').addEventListener('click', payForMatching);
-  scrim.classList.add('is-open');
-  drawer.classList.add('is-open');
-}
-
-async function payForMatching() {
-  const btn = $('gate-pay');
-  btn.disabled = true; btn.textContent = 'Starting checkout…';
-  $('gate-error').innerHTML = '';
-
-  const result = await startCheckout({
-    product: 'matching', amount: 299, currency: 'PHP',
-    success_path: '/?matched=1', cancel_path: '/?matching_cancelled=1',
-  });
-
-  if (result.ok && result.checkout_url) { window.location.href = result.checkout_url; return; }
-
-  btn.disabled = false; btn.textContent = 'Pay ₱299 & continue →';
-  $('gate-error').innerHTML = `<p class="form-error">${esc(result.error || "That didn't go through. Try again, or email hello@bridgedesk.co.")}</p>`;
-}
-
-$('activate-matching-btn')?.addEventListener('click', openMatchingGate);
-
-/* ==========================================================================
-   Post an Open Position — employer job submission + $5/posting payment
-   ========================================================================== */
-const POST_CATEGORIES = CATEGORIES.filter((c) => c !== 'All');
-const POST_STAGE_LABELS = [['01', 'Role details'], ['02', 'Contact & payment']];
-let postJob = null; // { step, data }
-
-function openPostJob() {
-  postJob = { step: 1, data: postJob?.data || {} };
-  renderPostJob();
-  scrim.classList.add('is-open');
-  drawer.classList.add('is-open');
-}
-
-function renderPostJob() {
-  if (!postJob) return;
-  const { step } = postJob;
-  drawerInner.innerHTML = `
-    <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <span class="chip" style="background:var(--blue-tint);color:var(--blue-deep)">Post a role</span>
-    <h2 style="margin-top:12px">Reach Filipino VA &amp; EA talent</h2>
-    <div class="drawer-company">Fields match what we pull from a company's own careers page.</div>
-    <div class="wiz-steps">
-      ${POST_STAGE_LABELS.map((s, i) => `
-        <div class="wiz-step ${step === i + 1 ? 'is-on' : ''} ${step > i + 1 ? 'is-done' : ''}">
-          <div class="wiz-bar"><span></span></div><small>${s[0]} · ${s[1]}</small>
-        </div>`).join('')}
-    </div>
-    <div id="wiz-body"></div>
-    <div class="wiz-foot" id="wiz-foot"></div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-
-  if (step === 1) postJobStageOne();
-  else postJobStageTwo();
-}
-
-function postJobStageOne() {
-  const d = postJob.data;
-  const field = (id, label, opts = {}) => `
-    <div class="f" data-for="${id}">
-      <label for="pj-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
-      <input id="pj-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
-    </div>`;
-
-  $('wiz-body').innerHTML = `
-    <p class="wiz-intro">Tell candidates what the role actually is. Specifics — tools, hours, what they'd own — bring in stronger applicants than a generic listing.</p>
-    <div class="f" data-for="category">
-      <label for="pj-category">Category <span class="req">*</span></label>
-      <select id="pj-category">${POST_CATEGORIES.map((c) => `<option ${d.category === c ? 'selected' : ''}>${esc(c)}</option>`).join('')}</select>
-    </div>
-    <div class="f-row">${field('title', 'Job title', { ph: 'Executive Assistant to CEO' })}${field('company', 'Company name')}</div>
-    <div class="f-row">${field('location', 'Location', { ph: 'Remote · US hours' })}${field('level', 'Level', { optional: true, ph: 'Mid, Senior…' })}</div>
-    <div class="f-row">${field('comp_min', 'Salary from (USD/yr)', { optional: true, type: 'number', ph: '40000' })}${field('comp_max', 'Salary to (USD/yr)', { optional: true, type: 'number', ph: '55000' })}</div>
-    <div class="f" data-for="summary">
-      <label for="pj-summary">One-line summary <span class="req">*</span></label>
-      <input id="pj-summary" type="text" value="${esc(d.summary || '')}" placeholder="What this role owns, in one sentence — shown on the board." />
-    </div>
-    <div class="f" data-for="description">
-      <label for="pj-description">Full description <span class="req">*</span></label>
-      <textarea id="pj-description" placeholder="Responsibilities, must-have tools, hours, and what makes a strong fit.">${esc(d.description || '')}</textarea>
-    </div>
-    ${field('apply_url', 'Link to original posting', { optional: true, ph: 'https://yourcompany.com/careers/…' })}`;
-
-  $('wiz-foot').innerHTML = `
-    <button class="btn" type="button" id="wiz-back">Cancel</button>
-    <span class="spacer"></span>
-    <button class="btn primary" type="button" id="wiz-next">Continue →</button>`;
-
-  $('wiz-back').addEventListener('click', closeDrawer);
-  $('wiz-next').addEventListener('click', () => {
-    ['title', 'company', 'location', 'level', 'comp_min', 'comp_max', 'summary', 'description', 'apply_url'].forEach((id) => {
-      d[id] = ($('pj-' + id)?.value || '').trim();
-    });
-    d.category = $('pj-category').value;
-    if (validatePostJobOne()) { postJob.step = 2; renderPostJob(); }
-  });
-}
-
-function validatePostJobOne() {
-  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
-  const d = postJob.data;
-  let ok = true;
-  const need = (id, msg) => { if (!d[id]) { markError(id, msg); ok = false; } };
-  need('title', 'Add the job title.');
-  need('company', 'Add the company name.');
-  need('location', 'Add a location, even if it\'s just "Remote".');
-  need('summary', 'Add a one-line summary — this is what shows on the board.');
-  if ((d.description || '').length < 40) { markError('description', 'Give candidates a bit more to go on.'); ok = false; }
-  if (!ok) document.querySelector('.f.has-error input, .f.has-error textarea, .f.has-error select')?.focus();
-  return ok;
-}
-
-function postJobStageTwo() {
-  const d = postJob.data;
-  const field = (id, label, opts = {}) => `
-    <div class="f" data-for="${id}">
-      <label for="pj-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
-      <input id="pj-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
-    </div>`;
-
-  $('wiz-body').innerHTML = `
-    <p class="wiz-intro">Where we'll send confirmation and, if we have questions, a quick note.</p>
-    <div class="f-row">${field('contact_name', 'Your name')}${field('contact_email', 'Work email', { type: 'email', ph: 'you@company.com' })}</div>
-    <div class="pay-box">
-      <div class="pay-row"><span class="pay-label">Post this role</span><span class="pay-amount">$5</span></div>
-      <p class="pay-desc">One-time fee per posting. Goes to review immediately after payment and stays live until you close it.</p>
-      <div class="pay-methods"><span>Card</span><span>GCash</span></div>
-    </div>
-    <div id="pj-error"></div>`;
-
-  $('wiz-foot').innerHTML = `
-    <button class="btn" type="button" id="wiz-back">← Back</button>
-    <span class="spacer"></span>
-    <button class="btn primary" type="button" id="wiz-pay">Pay $5 &amp; publish →</button>`;
-
-  $('wiz-back').addEventListener('click', () => {
-    ['contact_name', 'contact_email'].forEach((id) => { d[id] = ($('pj-' + id)?.value || '').trim(); });
-    postJob.step = 1; renderPostJob();
-  });
-  $('wiz-pay').addEventListener('click', payAndPostJob);
-}
-
-async function payAndPostJob() {
-  const d = postJob.data;
-  ['contact_name', 'contact_email'].forEach((id) => { d[id] = ($('pj-' + id)?.value || '').trim(); });
-
-  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
-  let ok = true;
-  if (!d.contact_name) { markError('contact_name', 'Add your name.'); ok = false; }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.contact_email)) { markError('contact_email', 'Add a valid work email.'); ok = false; }
-  if (!ok) { document.querySelector('.f.has-error input')?.focus(); return; }
-
-  const btn = $('wiz-pay');
-  btn.disabled = true; btn.textContent = 'Starting checkout…';
-  $('pj-error').innerHTML = '';
-
-  const result = await startCheckout({
-    product: 'job_posting', amount: 5, currency: 'USD',
-    job: {
-      title: d.title, company: d.company, location: d.location, level: d.level || null,
-      category: d.category, summary: d.summary, description: d.description,
-      apply_url: d.apply_url || null,
-      comp_min: d.comp_min ? Number(d.comp_min) : null, comp_max: d.comp_max ? Number(d.comp_max) : null,
-    },
-    employer: { name: d.contact_name, email: d.contact_email },
-    success_path: '/?posted=1', cancel_path: '/?posting_cancelled=1',
-  });
-
-  if (result.ok && result.checkout_url) { window.location.href = result.checkout_url; return; }
-
-  btn.disabled = false; btn.textContent = 'Pay $5 & publish →';
-  $('pj-error').innerHTML = `<p class="form-error">${esc(result.error || "That didn't go through. Try again, or email hello@bridgedesk.co and we'll post it for you.")}</p>`;
-}
-
-$('post-job-btn')?.addEventListener('click', openPostJob);
-
-/* ==========================================================================
-   Handle a redirect back from checkout (?posted=1 / ?matched=1). Whoever
-   implements /api/checkout server-side should send the provider's
-   success_url back to this page with the same query params.
-   ========================================================================== */
-function showReturnBanner(text) {
-  const slot = $('return-banner-slot');
-  if (slot) slot.innerHTML = `<div class="return-banner">✓ ${esc(text)}</div>`;
-}
-
-function handleCheckoutReturn() {
-  const params = new URLSearchParams(location.search);
-  if (params.get('matched') === '1') {
-    history.replaceState(null, '', location.pathname + location.hash);
-    openApply(GENERAL_MATCH_PROFILE);
-    if (apply) { apply.data.paid = true; apply.data.payment_ref = params.get('ref') || ''; }
-    showReturnBanner('Payment received — let’s build your matching profile.');
-  } else if (params.get('posted') === '1') {
-    history.replaceState(null, '', location.pathname + location.hash);
-    showReturnBanner("Payment received — your role is queued for review and will go live within one business day.");
-  } else if (params.get('matching_cancelled') === '1' || params.get('posting_cancelled') === '1') {
-    history.replaceState(null, '', location.pathname + location.hash);
-  }
-}
-handleCheckoutReturn();
-
-/* ==========================================================================
-   Talk to us about your team — inquiry form -> Google Sheet via Apps Script.
-   Paste your deployed Web App URL below (see apps-script-team-inquiry.js
-   for the script + setup steps). Looks like:
-   https://script.google.com/macros/s/AKfycb.../exec
-   ========================================================================== */
-const TEAM_INQUIRY_ENDPOINT = 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
-
-let teamInquiry = null; // { data }
-
-function openTeamInquiry() {
-  teamInquiry = { data: teamInquiry?.data || {} };
-  renderTeamInquiry();
-  scrim.classList.add('is-open');
-  drawer.classList.add('is-open');
-}
-
-function renderTeamInquiry() {
-  const d = teamInquiry.data;
-  const field = (id, label, opts = {}) => `
-    <div class="f" data-for="${id}">
-      <label for="ti-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
-      <input id="ti-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
-    </div>`;
-
-  drawerInner.innerHTML = `
-    <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <span class="chip" style="background:var(--purple-tint);color:var(--purple-deep)">Hire a team</span>
-    <h2 style="margin-top:12px">Tell us what you need covered</h2>
-    <div class="drawer-company">Three specialists, one point of contact — $4,000–$5,000/mo depending on scope.</div>
-    <div id="wiz-body">
-      <div class="f-row">${field('name', 'Your name')}${field('email', 'Work email', { type: 'email', ph: 'you@company.com' })}</div>
-      ${field('company', 'Company name')}
-      <div class="f" data-for="needs">
-        <label for="ti-needs">What do you need covered? <span class="req">*</span></label>
-        <textarea id="ti-needs" placeholder="Roles you're trying to fill, your business hours, and any must-have skills.">${esc(d.needs || '')}</textarea>
-      </div>
-      ${field('start', 'Preferred start', { optional: true, ph: 'e.g., Within 2 weeks' })}
-      <div id="ti-error"></div>
-    </div>
-    <div class="wiz-foot" id="wiz-foot">
-      <button class="btn" type="button" id="wiz-back">Cancel</button>
-      <span class="spacer"></span>
-      <button class="btn primary" type="button" id="wiz-send">Send inquiry →</button>
-    </div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  $('wiz-back').addEventListener('click', closeDrawer);
-  $('wiz-send').addEventListener('click', submitTeamInquiry);
-}
-
-async function submitTeamInquiry() {
-  const d = teamInquiry.data;
-  ['name', 'email', 'company', 'start'].forEach((id) => { d[id] = ($('ti-' + id)?.value || '').trim(); });
-  d.needs = ($('ti-needs')?.value || '').trim();
-
-  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
-  let ok = true;
-  if (!d.name) { markError('name', 'Add your name.'); ok = false; }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email)) { markError('email', 'Add a valid work email.'); ok = false; }
-  if (!d.company) { markError('company', 'Add your company name.'); ok = false; }
-  if (d.needs.length < 15) { markError('needs', 'Give us a bit more to go on.'); ok = false; }
-  if (!ok) { document.querySelector('.f.has-error input, .f.has-error textarea')?.focus(); return; }
-
-  const btn = $('wiz-send');
-  btn.disabled = true; btn.textContent = 'Sending…';
-  $('ti-error').innerHTML = '';
-
-  let result;
-  try {
-    const res = await fetch(TEAM_INQUIRY_ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'text/plain' }, // avoids a CORS preflight against Apps Script
-      body: JSON.stringify({
-        name: d.name, email: d.email, company: d.company,
-        needs: d.needs, start: d.start || null,
-      }),
-    });
-    result = res.ok ? await res.json() : { ok: false, error: "That didn't go through." };
-  } catch (err) {
-    result = { ok: false, error: 'Network problem — check your connection and try again.' };
-  }
-
-  const body = result.ok
-    ? `<div class="done-mark">✓</div><h3>Inquiry sent.</h3><p>Thanks ${esc(d.name)}. We'll follow up at ${esc(d.email)} within one business day.</p>`
-    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
-
-  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Back to roles</button></div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  $('done-close').addEventListener('click', closeDrawer);
-}
-
-$('team-inquiry-btn')?.addEventListener('click', openTeamInquiry);
-
-/* ==========================================================================
-   Enroll in training — self-paced VA course, marketing + lead capture.
-   Paste your deployed Web App URL below (see apps-script-training-signup.js
-   for the script + setup steps — same pattern as the team inquiry form,
-   deployed as its own separate script/URL).
-   Actual payment isn't collected here — this captures the signup, then the
-   acknowledgment email explains that payment instructions follow. Wire in
-   real payment collection once that's ready; don't claim it's charged here.
-   ========================================================================== */
-const TRAINING_SIGNUP_ENDPOINT = 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
-const TRAINING_PRICE_LABEL = '₱[SET PRICE]'; // <-- replace with your real price
-
-let trainingSignup = null; // { data }
-
-function openTrainingSignup() {
-  trainingSignup = { data: trainingSignup?.data || {} };
-  renderTrainingSignup();
-  scrim.classList.add('is-open');
-  drawer.classList.add('is-open');
-}
-
-function renderTrainingSignup() {
-  const d = trainingSignup.data;
-  const field = (id, label, opts = {}) => `
-    <div class="f" data-for="${id}">
-      <label for="tr-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
-      <input id="tr-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
-    </div>`;
-
-  drawerInner.innerHTML = `
-    <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <span class="chip" style="background:var(--yellow-tint);color:var(--yellow-deep)">VA training</span>
-    <h2 style="margin-top:12px">Enroll in self-paced training</h2>
-    <div class="drawer-company">Self-paced · certificate on completion.</div>
-    <div id="wiz-body">
-      <div class="f-row">${field('name', 'Your name')}${field('email', 'Email', { type: 'email', ph: 'you@email.com' })}</div>
-      <div class="f" data-for="track">
-        <label for="tr-track">What are you training for? <span class="req">*</span></label>
-        <select id="tr-track">${POST_CATEGORIES.map((c) => `<option ${d.track === c ? 'selected' : ''}>${esc(c)}</option>`).join('')}</select>
-      </div>
-      <div class="pay-box">
-        <div class="pay-row"><span class="pay-label">Self-paced training</span><span class="pay-amount">${TRAINING_PRICE_LABEL}</span></div>
-        <p class="pay-desc">One-time fee. We'll email you payment instructions and portal access after you reserve your spot below.</p>
-      </div>
-      <div id="tr-error"></div>
-    </div>
-    <div class="wiz-foot" id="wiz-foot">
-      <button class="btn" type="button" id="wiz-back">Cancel</button>
-      <span class="spacer"></span>
-      <button class="btn primary" type="button" id="wiz-send">Reserve my spot →</button>
-    </div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  $('wiz-back').addEventListener('click', closeDrawer);
-  $('wiz-send').addEventListener('click', submitTrainingSignup);
-}
-
-async function submitTrainingSignup() {
-  const d = trainingSignup.data;
-  ['name', 'email'].forEach((id) => { d[id] = ($('tr-' + id)?.value || '').trim(); });
-  d.track = $('tr-track').value;
-
-  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
-  let ok = true;
-  if (!d.name) { markError('name', 'Add your name.'); ok = false; }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email)) { markError('email', 'Add a valid email.'); ok = false; }
-  if (!ok) { document.querySelector('.f.has-error input')?.focus(); return; }
-
-  const btn = $('wiz-send');
-  btn.disabled = true; btn.textContent = 'Sending…';
-  $('tr-error').innerHTML = '';
-
-  let result;
-  try {
-    const res = await fetch(TRAINING_SIGNUP_ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'text/plain' }, // avoids a CORS preflight against Apps Script
-      body: JSON.stringify({ name: d.name, email: d.email, track: d.track }),
-    });
-    result = res.ok ? await res.json() : { ok: false, error: "That didn't go through." };
-  } catch (err) {
-    result = { ok: false, error: 'Network problem — check your connection and try again.' };
-  }
-
-  const body = result.ok
-    ? `<div class="done-mark">✓</div><h3>You're on the list.</h3><p>Thanks ${esc(d.name)}. We'll email ${esc(d.email)} with payment instructions and portal access shortly.</p>`
-    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
-
-  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Back to roles</button></div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  $('done-close').addEventListener('click', closeDrawer);
-}
-
-$('training-enroll-btn')?.addEventListener('click', openTrainingSignup);
 </script>
 </body>
 </html>
