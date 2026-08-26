@@ -3,24 +3,12 @@
   "name": "bridgedesk",
   "compatibility_date": "2026-08-01",
   "main": "worker.js",
-
   "assets": {
-    // Serve ONLY the site folder. Pointing at "." would sweep in node_modules
-    // and publish your .git directory.
     "directory": "./site",
     "binding": "ASSETS",
-
-    // Any path that is not a real file returns index.html, so deep links work.
     "not_found_handling": "single-page-application",
-
-    // With static assets, Cloudflare serves assets BEFORE running the Worker —
-    // and with SPA handling above, every unmatched path resolves to
-    // index.html. Without this line, the Worker never runs for /api/*.
     "run_worker_first": ["/api/*"]
   },
-
-  // Applications, click tracking, and the pool/matching tables all live in
-  // this one database.
   "d1_databases": [
     {
       "binding": "DB",
@@ -28,13 +16,10 @@
       "database_id": "e5fce93e-2399-4fa5-95e1-b959c577e793"
     }
   ],
-
-  // Logs from console.error in worker.js.
   "observability": {
     "enabled": true
   },
-
-  // Runs the scheduled() handler in worker.js once a day at 06:00 UTC to
-  // refresh the jobs table from Remotive/Arbeitnow/RemoteOK/etc.
   "triggers": {
-    "crons": ["0 6 * *
+    "crons": ["0 6 * * *"]
+  }
+}
