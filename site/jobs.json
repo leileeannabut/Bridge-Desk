@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T21:22:12.685Z",
+  "generated_at": "2026-08-26T22:06:59.959Z",
   "count": 25,
-  "sources_ok": 41,
-  "sources_failed": 16,
+  "sources_ok": 40,
+  "sources_failed": 17,
   "sources_skipped": 1,
   "regions": {
     "United States": 11,
@@ -10,9 +10,9 @@
     "United Kingdom & Ireland": 3,
     "Canada": 2,
     "Asia-Pacific": 2,
-    "Latin America": 1,
     "Remote / Unspecified": 1,
-    "Middle East & Africa": 1
+    "Middle East & Africa": 1,
+    "Latin America": 1
   },
   "jobs": [
     {
@@ -64,7 +64,7 @@
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7559351003?gh_jid=7559351003",
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:13:20-04:00",
-      "scraped_at": "2026-08-26T21:22:06.686Z",
+      "scraped_at": "2026-08-26T22:06:54.096Z",
       "status": "open"
     },
     {
@@ -90,7 +90,7 @@
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7853419003?gh_jid=7853419003",
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:13:20-04:00",
-      "scraped_at": "2026-08-26T21:22:06.687Z",
+      "scraped_at": "2026-08-26T22:06:54.100Z",
       "status": "open"
     },
     {
@@ -116,7 +116,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8700245002",
       "source": "greenhouse",
       "posted_at": "2026-08-24T17:41:11-04:00",
-      "scraped_at": "2026-08-26T21:22:03.875Z",
+      "scraped_at": "2026-08-26T22:06:36.771Z",
       "status": "open"
     },
     {
@@ -142,7 +142,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8143610",
       "source": "greenhouse",
       "posted_at": "2026-08-24T09:22:55-04:00",
-      "scraped_at": "2026-08-26T21:22:04.859Z",
+      "scraped_at": "2026-08-26T22:06:53.235Z",
       "status": "open"
     },
     {
@@ -194,7 +194,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/a0389dc2-77d8-439b-960b-2acb8712991e",
       "source": "ashby",
       "posted_at": "2026-08-19T17:58:23.460+00:00",
-      "scraped_at": "2026-08-26T21:22:07.170Z",
+      "scraped_at": "2026-08-26T22:06:55.613Z",
       "status": "open"
     },
     {
@@ -220,7 +220,7 @@
       "apply_url": "https://jobs.ashbyhq.com/rula/d6e6acc0-ba6f-47a8-9434-823f128742b9",
       "source": "ashby",
       "posted_at": "2026-08-19T16:58:19.681+00:00",
-      "scraped_at": "2026-08-26T21:22:03.136Z",
+      "scraped_at": "2026-08-26T22:06:36.102Z",
       "status": "open"
     },
     {
@@ -246,7 +246,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
       "source": "greenhouse",
       "posted_at": "2026-08-19T08:40:20-04:00",
-      "scraped_at": "2026-08-26T21:22:04.857Z",
+      "scraped_at": "2026-08-26T22:06:53.234Z",
       "status": "open"
     },
     {
@@ -272,7 +272,7 @@
       "apply_url": "https://jobs.ashbyhq.com/wrapbook/f7733f57-7174-457a-a973-f7e83c86c630",
       "source": "ashby",
       "posted_at": "2026-08-18T22:34:03.967+00:00",
-      "scraped_at": "2026-08-26T21:22:02.696Z",
+      "scraped_at": "2026-08-26T22:06:35.665Z",
       "status": "open"
     },
     {
@@ -298,7 +298,7 @@
       "apply_url": "https://jobs.ashbyhq.com/percona/1b48c239-ee02-4f2b-9b11-cbd2c0eae00f",
       "source": "ashby",
       "posted_at": "2026-08-17T14:06:00.459+00:00",
-      "scraped_at": "2026-08-26T21:22:02.692Z",
+      "scraped_at": "2026-08-26T22:06:35.655Z",
       "status": "open"
     },
     {
@@ -324,7 +324,7 @@
       "apply_url": "https://jobs.ashbyhq.com/exa/b5665525-c2a3-4c6a-a3dd-d0d1f1df01f8",
       "source": "ashby",
       "posted_at": "2026-08-14T04:53:13.724+00:00",
-      "scraped_at": "2026-08-26T21:22:02.262Z",
+      "scraped_at": "2026-08-26T22:06:35.284Z",
       "status": "open"
     },
     {
@@ -350,7 +350,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/6797aaec-8471-4af2-ae20-534d7089f734",
       "source": "ashby",
       "posted_at": "2026-08-12T03:14:49.437+00:00",
-      "scraped_at": "2026-08-26T21:22:07.169Z",
+      "scraped_at": "2026-08-26T22:06:55.613Z",
       "status": "open"
     },
     {
@@ -376,7 +376,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/33c501d9-f0d7-45b9-a90c-07c9c0b92f55",
       "source": "ashby",
       "posted_at": "2026-08-11T16:16:49.513+00:00",
-      "scraped_at": "2026-08-26T21:22:07.170Z",
+      "scraped_at": "2026-08-26T22:06:55.613Z",
       "status": "open"
     },
     {
@@ -402,7 +402,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/e0fdb2f5-54b4-4dff-813d-2c328d990e4c",
       "source": "ashby",
       "posted_at": "2026-08-11T09:04:36.968+00:00",
-      "scraped_at": "2026-08-26T21:22:07.168Z",
+      "scraped_at": "2026-08-26T22:06:55.611Z",
       "status": "open"
     },
     {
@@ -428,7 +428,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/faf6f3a3-c215-4f25-aaee-5111dddde3c9",
       "source": "ashby",
       "posted_at": "2026-08-10T12:45:28.050+00:00",
-      "scraped_at": "2026-08-26T21:22:07.169Z",
+      "scraped_at": "2026-08-26T22:06:55.612Z",
       "status": "open"
     },
     {
@@ -454,7 +454,7 @@
       "apply_url": "https://job-boards.greenhouse.io/automatticcareers/jobs/8076786",
       "source": "greenhouse",
       "posted_at": "2026-08-06T13:18:41-04:00",
-      "scraped_at": "2026-08-26T21:22:04.360Z",
+      "scraped_at": "2026-08-26T22:06:38.603Z",
       "status": "open"
     },
     {
@@ -480,7 +480,7 @@
       "apply_url": "https://job-boards.greenhouse.io/turing/jobs/6123880004",
       "source": "greenhouse",
       "posted_at": "2026-08-05T17:41:51-04:00",
-      "scraped_at": "2026-08-26T21:22:00.113Z",
+      "scraped_at": "2026-08-26T22:06:13.911Z",
       "status": "open"
     },
     {
@@ -506,7 +506,7 @@
       "apply_url": "https://n26.com/en-eu/careers/positions/8090480?gh_jid=8090480",
       "source": "greenhouse",
       "posted_at": "2026-08-05T05:59:35-04:00",
-      "scraped_at": "2026-08-26T21:22:07.185Z",
+      "scraped_at": "2026-08-26T22:06:55.629Z",
       "status": "open"
     },
     {
@@ -532,7 +532,7 @@
       "apply_url": "https://job-boards.greenhouse.io/flex/jobs/4703666005",
       "source": "greenhouse",
       "posted_at": "2026-07-31T15:57:25-04:00",
-      "scraped_at": "2026-08-26T21:22:00.565Z",
+      "scraped_at": "2026-08-26T22:06:14.343Z",
       "status": "open"
     },
     {
@@ -558,7 +558,7 @@
       "apply_url": "https://job-boards.greenhouse.io/turing/jobs/6123046004",
       "source": "greenhouse",
       "posted_at": "2026-07-29T22:59:32-04:00",
-      "scraped_at": "2026-08-26T21:22:00.112Z",
+      "scraped_at": "2026-08-26T22:06:13.909Z",
       "status": "open"
     },
     {
@@ -584,7 +584,7 @@
       "apply_url": "https://job-boards.greenhouse.io/flex/jobs/4717442005",
       "source": "greenhouse",
       "posted_at": "2026-07-29T18:30:19-04:00",
-      "scraped_at": "2026-08-26T21:22:00.566Z",
+      "scraped_at": "2026-08-26T22:06:14.344Z",
       "status": "open"
     },
     {
@@ -610,7 +610,7 @@
       "apply_url": "https://jobs.ashbyhq.com/lovable/cb717c83-53e2-484e-bf0d-60e19699c7d8",
       "source": "ashby",
       "posted_at": "2026-07-21T11:05:04.178+00:00",
-      "scraped_at": "2026-08-26T21:22:07.612Z",
+      "scraped_at": "2026-08-26T22:06:56.012Z",
       "status": "open"
     },
     {
@@ -636,7 +636,7 @@
       "apply_url": "https://job-boards.greenhouse.io/checkr/jobs/7913718",
       "source": "greenhouse",
       "posted_at": "2026-07-08T17:11:17-04:00",
-      "scraped_at": "2026-08-26T21:22:00.137Z",
+      "scraped_at": "2026-08-26T22:06:13.933Z",
       "status": "open"
     },
     {
@@ -662,7 +662,7 @@
       "apply_url": "https://jobs.ashbyhq.com/supabase/b566fbf8-2894-4314-9533-8fa920e80c19",
       "source": "ashby",
       "posted_at": "2026-07-06T18:49:00.242+00:00",
-      "scraped_at": "2026-08-26T21:22:07.087Z",
+      "scraped_at": "2026-08-26T22:06:55.550Z",
       "status": "open"
     }
   ]
