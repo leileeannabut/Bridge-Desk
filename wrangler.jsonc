@@ -19,12 +19,22 @@
     "run_worker_first": ["/api/*"]
   },
 
-  // Applications and click tracking. Both tables live in this one database.
+  // Applications, click tracking, and the pool/matching tables all live in
+  // this one database.
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "bridgedesk-db",
-      "database_id": "e5fce93e-2399-4fa5-95e1-b959c577e793"
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+    }
+  ],
+
+  // Résumés uploaded through the "Join our Pool" form. Admin-only reads —
+  // see /api/admin/resume in worker.js.
+  "r2_buckets": [
+    {
+      "binding": "RESUMES",
+      "bucket_name": "bridgedesk-resumes"
     }
   ],
 
