@@ -37,6 +37,4 @@
   // Runs the scheduled() handler in worker.js once a day at 06:00 UTC to
   // refresh the jobs table from Remotive/Arbeitnow/RemoteOK/etc.
   "triggers": {
-    "crons": ["0 6 * * *"]
-  }
-}
+    "crons": ["0 6 * *
