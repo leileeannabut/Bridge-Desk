@@ -3,12 +3,10 @@
  * run.js — job scraper for BridgeDesk
  * ---------------------------------------------------------------------------
  * Pulls open Virtual Assistant / Executive Assistant / Personal Assistant /
- * Legal Assistant / Social Media Manager / Cold Caller (and other VA-niche)
- * roles from career pages of companies based in the US, Canada, Australia,
- * New Zealand, Singapore, or Malaysia — kept only when the posting explicitly
- * signals remote/outsourced hiring (see MIN_SIGNAL) — and writes
+ * Legal Assistant roles from startup career pages worldwide and writes
  * site/jobs.json beside site/index.html, which the page reads directly. No
- * database.
+ * database. Nothing is dropped for being outside the US — every posting is
+ * tagged with a region instead, and the board filters on that.
  *
  *   node run.js                          # every company with a known method
  *   node run.js --hub=startup            # one hub (only one exists today)
@@ -27,12 +25,6 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { COMPANIES } from './config.js';
 
-// Error handling for unhandled rejections
-process.on('unhandledRejection', (reason, promise) => {
-  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
-  process.exit(1);
-});
-
 /* ---- options -------------------------------------------------------------- */
 const args = Object.fromEntries(process.argv.slice(2).map((a) => {
   const [k, v] = a.replace(/^--/, '').split('=');
@@ -40,12 +32,6 @@ const args = Object.fromEntries(process.argv.slice(2).map((a) => {
 }));
 
 const OUT = args.out || 'site/jobs.json';
-// The committed, canonical feed — used to carry over jobs from sources this
-// run skipped or failed. Deliberately separate from OUT: when scraping a
-// shard, OUT is a throwaway per-shard file with no history of its own, but
-// site/jobs.json (checked out fresh from the repo at the start of the job)
-// still holds yesterday's full feed, so carry-over keeps working per-shard.
-const PREV = args.prev || 'site/jobs.json';
 const TIMEOUT_MS = 20000;
 const CONCURRENCY = 4;          // polite: four career sites at a time, not 123
 const DELAY_MS = 350;           // between batches
@@ -168,64 +154,72 @@ function parseComp(text) {
  */
 function categorise(title = '') {
   const t = title.toLowerCase();
-  if (/\b(legal assistant|paralegal|legal secretary|legal support|contract admin(istrator)?)\b/.test(t)) return 'Legal Assistant';
-  if (/\b(executive assistant|executive business partner|ea to|chief of staff|c-suite support)\b/.test(t)) return 'Executive Assistant';
-  if (/\b(personal assistant|household|family assistant|lifestyle (assistant|manager))\b/.test(t)) return 'Personal Assistant';
-  if (/\b(social media (manager|specialist|coordinator|assistant|strategist)|community manager|content (manager|coordinator)|social media marketing)\b/.test(t)) return 'Social Media Manager';
-  if (/\b(cold caller|cold calling|appointment setter|telemarketer|outbound (caller|sales|sdr)|sales development rep(resentative)?|\bsdr\b|lead generation (specialist|rep(resentative)?))\b/.test(t)) return 'Cold Caller';
-  if (/\b(virtual assistant|va\b|remote assistant|administrative assistant|admin assistant|office (admin|assistant)|operations assistant|inbox|calendar management)\b/.test(t)) return 'Virtual Assistant';
-  // Broader VA-niche catch-all: bookkeeping, customer/chat support, data
-  // entry, transcription, e-commerce/real-estate VA work, and general
-  // "X Assistant"/"X Coordinator" titles not matched above. Deliberately
-  // wide — "any other VA niche" means near-misses should land here rather
-  // than fall through to 'Other' and get dropped.
-  if (/\b(bookkeeper|bookkeeping|customer (support|service) (rep(resentative)?|agent|specialist)|chat support|data entry|transcription(ist)?|e-?commerce (assistant|va|coordinator)|real estate (va|assistant|coordinator)|research assistant|inbox manager|email manager|assistant|coordinator)\b/.test(t)) return 'Virtual Assistant';
+
+  // Titles that contain "assistant" but are not assistant roles. Checked first
+  // so "Assistant Controller" or "Assistant General Counsel" never land on the
+  // board as a "Virtual Assistant" — one of those makes the whole feed look
+  // unread by a human.
+  if (/\b(assistant|associate|deputy|vice)\s+(controller|manager|director|general counsel|counsel|professor|editor|engineer|producer|buyer|store|branch|brand|product|project|account|vice president|vp|dean|chef|coach|principal|treasurer|secretary of)\b/.test(t)) return 'Other';
+  if (/\b(physician|medical|dental|nursing|surgical|clinical|lab(oratory)?|research|teaching|graduate|library|veterinary|pharmacy|care|health ?care|classroom|production|warehouse|kitchen|sales|retail|shop|store)\s+assistant\b/.test(t)) return 'Other';
+  if (/\b(assistant\s+(to\s+the\s+)?(store|branch|restaurant|general|regional)\s+manager)\b/.test(t)) return 'Other';
+
+  if (/\b(legal assistant|paralegal|legal secretary|legal support|legal (ops|operations) (assistant|coordinator|specialist)|contract admin(istrator)?|litigation (assistant|support))\b/.test(t)) return 'Legal Assistant';
+  if (/\b(executive assistant|executive business partner|executive support|\bea\b|chief of staff|c-suite support|executive (admin(istrator)?|coordinator|operations (partner|coordinator)))\b/.test(t)) return 'Executive Assistant';
+  if (/\b(personal assistant|household (manager|assistant)|family assistant|lifestyle (assistant|manager)|estate (manager|assistant)|house manager)\b/.test(t)) return 'Personal Assistant';
+  if (/\b(virtual assistant|\bva\b|remote assistant|administrative assistant|admin(istrative)? (assistant|coordinator|specialist|support)|admin assistant|office (admin(istrator)?|assistant|coordinator|manager)|operations assistant|team assistant|inbox|calendar (management|manager)|business support (assistant|officer)|scheduling (assistant|coordinator))\b/.test(t)) return 'Virtual Assistant';
+  // Narrow catch-all: "X Assistant" only when X is an admin/ops/office/exec
+  // word — the old bare `assistant|coordinator` match pulled in everything.
+  if (/\b(admin|office|operations|ops|executive|team|business|support|front[- ]desk|reception)\w*\s+(assistant|coordinator)\b/.test(t)) return 'Virtual Assistant';
   return 'Other';
 }
 
 /** Best-effort seniority, used only as a chip in the drawer. */
 function levelOf(title = '') {
   const t = title.toLowerCase();
-  if (/\bsenior|sr\.?|lead\b/.test(t)) return 'Senior';
-  if (/\bjunior|jr\.?|entry\b/.test(t)) return 'Entry';
+  if (/\b(senior|sr\.?|lead|principal|head of|chief)\b/.test(t)) return 'Senior';
+  if (/\b(junior|jr\.?|entry|associate|trainee|intern)\b/.test(t)) return 'Entry';
   return 'Mid';
 }
 
 const segmentOf = () => 'Startup';
 
 /* ==========================================================================
-   PH-OUTSOURCING SIGNAL
+   INTERNATIONAL-HIRING SIGNAL
    --------------------------------------------------------------------------
-   Unlike a US-only job board, BridgeDesk wants roles a US company might be
-   open to filling with a remote Filipino hire — most postings never say so
-   explicitly, so this is a best-effort SCORE (0-3), not a hard filter.
-   Nothing here excludes a posting; a 0 just means "the posting is silent on
-   this," which describes most of them. The admin console surfaces the score
-   so a human decides who to pitch, same as the fee-agreement flow decides
-   who to introduce.
+   BridgeDesk connects candidates anywhere with employers anywhere. Most
+   postings never say whether the company would hire across a border, so this
+   is a best-effort SCORE (0-3), not a hard filter. Nothing here excludes a
+   posting; 0 just means "the posting is silent on this," which describes most
+   of them. The board and the admin console surface the score so a human
+   decides who to pitch.
+
+   The field is written as `intl_signal`. `ph_signal` is kept as an alias so
+   older readers of the feed keep working.
    ========================================================================== */
 
 const STRONG_SIGNAL = [
-  'philippines', 'manila', 'cebu', 'filipino', 'ph-based', 'ph based',
-  'outside the us', 'outside the u.s.', 'international contractor',
-  'anywhere in the world', 'work from anywhere', 'global talent',
-  'timezone flexible', 'async-first', 'asynchronous-first',
-  // Explicit outsourcing/offshore language — the strongest possible signal
-  // that a company is deliberately hiring outside its home country.
-  'outsource', 'outsourcing', 'offshore', 'offshore team', 'offshore hire',
-  'hire internationally', 'hiring internationally', 'international hire',
-  'global remote team', 'globally distributed', 'work with a remote team abroad',
-  'virtual assistant agency', 'va agency',
+  // Explicit cross-border language.
+  'anywhere in the world', 'work from anywhere', 'from anywhere', 'global talent',
+  'globally distributed', 'hire globally', 'hiring globally', 'international contractor',
+  'international candidates', 'any country', 'any location', 'any timezone', 'any time zone',
+  'timezone flexible', 'time zone flexible', 'timezone agnostic', 'location agnostic',
+  'async-first', 'asynchronous-first', 'work from wherever', 'no location restriction',
+  'open to international', 'outside the us', 'outside the u.s.', 'outside the uk',
+  'outside the united states', 'employer of record', 'eor',
+  // A posting that names an offshore talent market outright.
+  'philippines', 'manila', 'cebu', 'filipino', 'latam', 'latin america', 'south africa',
+  'eastern europe', 'india-based', 'kenya', 'nigeria', 'pakistan', 'vietnam', 'colombia',
+  'argentina', 'brazil', 'mexico', 'portugal', 'poland', 'romania', 'ukraine', 'egypt',
 ];
 const MEDIUM_SIGNAL = [
-  'remote-first', 'remote first', 'fully remote', 'fully distributed',
-  'distributed team', 'contractor', 'independent contractor', 'freelance',
-  'no location restriction', 'work from wherever', 'open to international candidates',
-  'candidates outside', 'work across time zones',
+  'remote-first', 'remote first', 'fully remote', '100% remote', 'fully distributed',
+  'distributed team', 'distributed company', 'contractor', 'independent contractor',
+  'freelance', 'global', 'international', 'worldwide', 'emea', 'apac', 'multiple countries',
+  'across time zones', 'across timezones', 'remote (global)', 'remote - global', 'remote, global',
 ];
-const WEAK_SIGNAL = ['remote', 'anywhere', 'flexible hours', 'async'];
+const WEAK_SIGNAL = ['remote', 'anywhere', 'flexible hours', 'async', 'hybrid'];
 
-function phSignal(title = '', description = '', location = '') {
+function intlSignal(title = '', description = '', location = '') {
   const s = `${title} ${description} ${location}`.toLowerCase();
   if (STRONG_SIGNAL.some((k) => s.includes(k))) return 3;
   if (MEDIUM_SIGNAL.some((k) => s.includes(k))) return 2;
@@ -233,35 +227,16 @@ function phSignal(title = '', description = '', location = '') {
   return 0;
 }
 
-// How explicit a posting has to be before it's allowed on the board at all.
-// Previously ph_signal was a display-only score — a 0 just meant "silent,"
-// and silent postings still made the feed. Per BridgeDesk's current scope,
-// a posting must say SOMETHING about remote/outsourced hiring, not just
-// exist — so this is now a hard cutoff, not a label.
-//   3 = explicit offshore/outsourcing language (e.g. "outsource", "Philippines")
-//   2 = explicit remote-hiring language (e.g. "fully remote", "contractor")
-//   1 = the word "remote" appears somewhere, with no other context
-// MIN_SIGNAL = 2 means "remote" alone is no longer enough — the posting has
-// to say something closer to actually meaning offshore/outsourced hiring.
-// Lower to 1 if this filters out too much; raise to 3 to require explicit
-// offshore/outsourcing language only.
-const MIN_SIGNAL = 2;
-
 /* ==========================================================================
-   TARGET-EMPLOYER-GEOGRAPHY FILTER
+   REGION TAGGING
    --------------------------------------------------------------------------
-   BridgeDesk pitches Filipino remote hires AT employers based in a fixed set
-   of countries: US, Canada, Australia, New Zealand, Singapore, Malaysia.
-   Listings for offices outside those six (a London GTM team, a Bengaluru
-   engineering pod, etc.) are dropped — those markets already have their own
-   in-region labor pool, so a posting there isn't a lead for this board.
-   Kept name isTargetGeo() (was isUS()) — same asymmetric logic, wider list.
+   Replaces the old US-only filter. Nothing is dropped for its location — each
+   posting gets a `region` (a short list the board can filter on) and a
+   `country` where one can be read from the location string. Unknown or
+   "Remote" with no country attached becomes "Remote / Unspecified" rather
+   than being guessed as any particular place.
    ========================================================================== */
 
-// Two-letter postal codes, matched as a standalone token (", TX" or "TX,").
-// US only — Canadian/Australian provincial abbreviations are too easily
-// confused with unrelated two-letter tokens (job codes, req IDs) to trust,
-// so those countries rely on full state/province/city names below instead.
 const US_ABBR = new Set(['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA',
   'KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND',
   'OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC','PR']);
@@ -272,70 +247,107 @@ const US_STATE_NAMES = ['alabama','alaska','arizona','arkansas','california','co
   'montana','nebraska','nevada','new hampshire','new jersey','new mexico','new york','north carolina',
   'north dakota','ohio','oklahoma','oregon','pennsylvania','rhode island','south carolina',
   'south dakota','tennessee','texas','utah','vermont','virginia','washington','west virginia',
-  'wisconsin','wyoming','district of columbia','puerto rico'];
+  'wisconsin','wyoming','district of columbia','puerto rico',
+  'san francisco','new york city','nyc','los angeles','austin','seattle','boston','chicago','denver',
+  'atlanta','miami','dallas','houston','phoenix','portland','san diego','san jose','bay area'];
 
-// Full names only (no 2-letter codes — "ON", "BC" etc. collide with req IDs).
-const CANADA_NAMES = ['canada','ontario','toronto','vancouver','british columbia','alberta','calgary',
-  'montreal','quebec','ottawa','winnipeg','edmonton','halifax','manitoba','saskatchewan',
-  'nova scotia','new brunswick','prince edward island','newfoundland','yukon',
-  'northwest territories','nunavut','mississauga'];
+// [region, country, keywords...]. Order matters: specific cities before broad
+// terms, and "united kingdom" is checked as a whole so "kingdom" alone never
+// matches. Keep every keyword lowercase.
+const REGION_TABLE = [
+  ['Canada', 'Canada', ['canada','ontario','toronto','vancouver','british columbia','alberta','calgary','montreal','quebec','ottawa','winnipeg','edmonton','halifax']],
+  ['United Kingdom & Ireland', 'United Kingdom', ['united kingdom','uk','england','london','manchester','birmingham','edinburgh','scotland','wales','cardiff','belfast','bristol','leeds','glasgow']],
+  ['United Kingdom & Ireland', 'Ireland', ['ireland','dublin','cork','galway']],
+  ['Europe', 'Germany', ['germany','berlin','munich','hamburg','frankfurt','cologne']],
+  ['Europe', 'France', ['france','paris','lyon','marseille']],
+  ['Europe', 'Spain', ['spain','madrid','barcelona','valencia']],
+  ['Europe', 'Portugal', ['portugal','lisbon','porto']],
+  ['Europe', 'Netherlands', ['netherlands','amsterdam','rotterdam','the hague','utrecht']],
+  ['Europe', 'Poland', ['poland','warsaw','krakow','kraków','wroclaw','wrocław','gdansk','gdańsk']],
+  ['Europe', 'Romania', ['romania','bucharest','cluj']],
+  ['Europe', 'Ukraine', ['ukraine','kyiv','kiev','lviv']],
+  ['Europe', 'Sweden', ['sweden','stockholm','gothenburg']],
+  ['Europe', 'Denmark', ['denmark','copenhagen']],
+  ['Europe', 'Norway', ['norway','oslo']],
+  ['Europe', 'Finland', ['finland','helsinki']],
+  ['Europe', 'Switzerland', ['switzerland','zurich','zürich','geneva']],
+  ['Europe', 'Austria', ['austria','vienna']],
+  ['Europe', 'Belgium', ['belgium','brussels','antwerp']],
+  ['Europe', 'Italy', ['italy','milan','rome']],
+  ['Europe', 'Czech Republic', ['czech','prague']],
+  ['Europe', 'Hungary', ['hungary','budapest']],
+  ['Europe', 'Greece', ['greece','athens']],
+  ['Europe', 'Estonia', ['estonia','tallinn']],
+  ['Europe', 'Lithuania', ['lithuania','vilnius']],
+  ['Europe', 'Latvia', ['latvia','riga']],
+  ['Europe', 'Bulgaria', ['bulgaria','sofia']],
+  ['Europe', 'Serbia', ['serbia','belgrade']],
+  ['Europe', 'Croatia', ['croatia','zagreb']],
+  ['Europe', 'Europe', ['europe','eu-based','eu based','emea','european']],
+  ['Middle East & Africa', 'Israel', ['israel','tel aviv','jerusalem','herzliya','haifa']],
+  ['Middle East & Africa', 'United Arab Emirates', ['united arab emirates','uae','dubai','abu dhabi']],
+  ['Middle East & Africa', 'Saudi Arabia', ['saudi','riyadh','jeddah']],
+  ['Middle East & Africa', 'Turkey', ['turkey','türkiye','istanbul','ankara']],
+  ['Middle East & Africa', 'Egypt', ['egypt','cairo']],
+  ['Middle East & Africa', 'South Africa', ['south africa','cape town','johannesburg','durban']],
+  ['Middle East & Africa', 'Nigeria', ['nigeria','lagos','abuja']],
+  ['Middle East & Africa', 'Kenya', ['kenya','nairobi']],
+  ['Middle East & Africa', 'Ghana', ['ghana','accra']],
+  ['Middle East & Africa', 'Morocco', ['morocco','casablanca']],
+  ['Middle East & Africa', 'Middle East & Africa', ['middle east','mea','africa']],
+  ['Asia-Pacific', 'Philippines', ['philippines','manila','cebu','makati','taguig','bgc','davao','quezon city','pasig','filipino']],
+  ['Asia-Pacific', 'India', ['india','bangalore','bengaluru','mumbai','delhi','new delhi','hyderabad','pune','gurgaon','gurugram','chennai','noida','kolkata']],
+  ['Asia-Pacific', 'Pakistan', ['pakistan','karachi','lahore','islamabad']],
+  ['Asia-Pacific', 'Bangladesh', ['bangladesh','dhaka']],
+  ['Asia-Pacific', 'Sri Lanka', ['sri lanka','colombo']],
+  ['Asia-Pacific', 'Singapore', ['singapore']],
+  ['Asia-Pacific', 'Malaysia', ['malaysia','kuala lumpur']],
+  ['Asia-Pacific', 'Indonesia', ['indonesia','jakarta','bali']],
+  ['Asia-Pacific', 'Thailand', ['thailand','bangkok']],
+  ['Asia-Pacific', 'Vietnam', ['vietnam','ho chi minh','hanoi']],
+  ['Asia-Pacific', 'Japan', ['japan','tokyo','osaka']],
+  ['Asia-Pacific', 'South Korea', ['korea','seoul']],
+  ['Asia-Pacific', 'China', ['china','shanghai','beijing','shenzhen']],
+  ['Asia-Pacific', 'Hong Kong', ['hong kong']],
+  ['Asia-Pacific', 'Taiwan', ['taiwan','taipei']],
+  ['Asia-Pacific', 'Australia', ['australia','sydney','melbourne','brisbane','perth','adelaide']],
+  ['Asia-Pacific', 'New Zealand', ['new zealand','auckland','wellington']],
+  ['Asia-Pacific', 'Asia-Pacific', ['apac','asia','asia pacific','asia-pacific','anz']],
+  ['Latin America', 'Mexico', ['mexico','mexico city','cdmx','guadalajara','monterrey']],
+  ['Latin America', 'Brazil', ['brazil','brasil','sao paulo','são paulo','rio de janeiro']],
+  ['Latin America', 'Argentina', ['argentina','buenos aires']],
+  ['Latin America', 'Colombia', ['colombia','bogota','bogotá','medellin','medellín']],
+  ['Latin America', 'Chile', ['chile','santiago']],
+  ['Latin America', 'Peru', ['peru','lima']],
+  ['Latin America', 'Costa Rica', ['costa rica','san jose, costa rica']],
+  ['Latin America', 'Uruguay', ['uruguay','montevideo']],
+  ['Latin America', 'Guatemala', ['guatemala']],
+  ['Latin America', 'Dominican Republic', ['dominican republic','santo domingo']],
+  ['Latin America', 'Latin America', ['latam','latin america','central america','south america','caribbean']],
+];
 
-const AUSTRALIA_NAMES = ['australia','new south wales','victoria','queensland','western australia',
-  'south australia','tasmania','northern territory','australian capital territory',
-  'sydney','melbourne','brisbane','perth','adelaide','canberra','gold coast','hobart','darwin'];
+const GLOBAL_WORDS = /\b(global|worldwide|anywhere|international|any ?where in the world|any (country|location|timezone|time zone)|multiple countries|all countries)\b/;
 
-const NZ_NAMES = ['new zealand','auckland','wellington','christchurch',
-  'tauranga','dunedin','queenstown'];
+function regionOf(location = '') {
+  const raw = String(location || '').trim();
+  const s = raw.toLowerCase();
+  if (!s) return { region: 'Remote / Unspecified', country: null };
 
-const SINGAPORE_NAMES = ['singapore'];
+  // A named non-US place wins even when the string also says "Remote".
+  for (const [region, country, keys] of REGION_TABLE) {
+    if (keys.some((k) => new RegExp('(^|[^a-z])' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '([^a-z]|$)').test(s))) {
+      return { region, country };
+    }
+  }
 
-const MALAYSIA_NAMES = ['malaysia','kuala lumpur','penang','johor bahru','selangor',
-  'petaling jaya','cyberjaya'];
+  const isUSA = /\b(united states|usa|u\.s\.a?\.?|us-based|us based|us only|us remote|remote - us|remote, us|remote us|america|americas)\b/.test(s)
+    || US_STATE_NAMES.some((n) => new RegExp('(^|[^a-z])' + n + '([^a-z]|$)').test(s))
+    || (raw.match(/\b([A-Z]{2})\b/g) || []).some((a) => US_ABBR.has(a));
+  if (isUSA) return { region: 'United States', country: 'United States' };
 
-const TARGET_NAMES = [...CANADA_NAMES, ...AUSTRALIA_NAMES, ...NZ_NAMES, ...SINGAPORE_NAMES, ...MALAYSIA_NAMES];
-
-// Everything else that shows up in these ATS feeds and is NOT one of the six
-// target countries. Philippines/Manila/Cebu/Makati deliberately excluded —
-// a posting already located in the Philippines is the strongest possible
-// signal a company is open to hiring there, and should be kept, never
-// dropped as "wrong geo".
-const EXCLUDED = ['united kingdom','england','london','manchester','scotland','ireland','dublin',
-  'israel','tel aviv','jerusalem','herzliya',
-  'india','bangalore','bengaluru','mumbai','delhi','hyderabad','pune','gurgaon','chennai',
-  'mexico','mexico city','guadalajara','monterrey',
-  'brazil','sao paulo','argentina','colombia','bogota','costa rica',
-  'germany','berlin','munich','france','paris','spain','madrid','barcelona',
-  'netherlands','amsterdam','poland','warsaw','portugal','lisbon','romania','bucharest',
-  'japan','tokyo','china','shanghai','hong kong','korea','seoul',
-  'vietnam','thailand','indonesia','jakarta',
-  'united arab emirates','dubai','south africa','nigeria','kenya','emea','latam'];
-
-/**
- * Is this posting based in one of the six target countries (or unstated)?
- *
- * Deliberately asymmetric. A location that clearly names an excluded country
- * is dropped; anything else — including plain "Remote" with no country
- * attached — is kept. Getting this backwards would silently discard real
- * target-market roles written as "Field-based" or "Multiple locations", and
- * a missing job is harder to notice than an extra one.
- */
-function isTargetGeo(location, title) {
-  const s = String(location || '').toLowerCase().trim();
-  if (!s) return true;                       // unknown: keep
-
-  if (EXCLUDED.some((k) => new RegExp('\\b' + k + '\\b').test(s))) return false;
-  if (/\b(united states|usa|u\.s\.a?\.?|america)\b/.test(s)) return true;
-  if (US_STATE_NAMES.some((n) => s.includes(n))) return true;
-  if ((String(location).match(/\b([A-Z]{2})\b/g) || []).some((a) => US_ABBR.has(a))) return true;
-  if (TARGET_NAMES.some((n) => s.includes(n))) return true;
-
-  // "Remote" / "APAC" with no disqualifying country attached: keep. APAC is
-  // ambiguous (could be Vietnam, could be Singapore) — treating it as
-  // excluded would drop real Singapore/Malaysia/Australia roles that just
-  // used the regional label instead of a country name.
-  if (/\bremote\b|\banywhere\b|\bnationwide\b|\bapac\b/.test(s)) return true;
-
-  return true;                               // nothing disqualifying found
+  if (GLOBAL_WORDS.test(s)) return { region: 'Remote / Global', country: null };
+  if (/\bremote\b|\bwfh\b|\bwork from home\b|\bdistributed\b/.test(s)) return { region: 'Remote / Unspecified', country: null };
+  return { region: 'Remote / Unspecified', country: null };
 }
 
 /* ==========================================================================
@@ -350,6 +362,18 @@ async function greenhouse(company) {
   const res = await get(`https://boards-api.greenhouse.io/v1/boards/${slug}/jobs?content=true`);
   if (!res.ok) throw new Error('greenhouse HTTP ' + res.status);
   const body = await res.json();
+
+  // Greenhouse exposes the board's display name. A slug that resolves to a
+  // different company than the one in config.js is the single worst failure
+  // mode for this board, so it is logged loudly rather than silently trusted.
+  if (company.verified !== true) {
+    try {
+      const meta = await (await get(`https://boards-api.greenhouse.io/v1/boards/${slug}`)).json();
+      if (meta?.name && !meta.name.toLowerCase().includes(company.name.toLowerCase().split(' ')[0])) {
+        console.warn(`  WARN  ${company.name}: greenhouse board "${slug}" is named "${meta.name}" — check the slug`);
+      }
+    } catch { /* metadata is a nicety, not a requirement */ }
+  }
   if (!Array.isArray(body.jobs)) throw new Error('greenhouse returned no jobs array');
 
   return body.jobs.map((j) => {
@@ -457,7 +481,7 @@ function isNotAJob(title) {
   const t = title.trim().toLowerCase().replace(/[.!→>»]+$/, '').trim();
 
   // Whole-phrase CTAs and nav labels.
-  if (/^(apply|apply now|view|view all|view more|view jobs?|see all|see more|see jobs?|learn more|read more|explore|explore all|search|search jobs?|browse|browse jobs?|all jobs?|all openings?|current|latest)\b/i.test(t)) return true;
+  if (/^(apply|apply now|view|view all|view more|view jobs?|see all|see more|see jobs?|learn more|read more|explore|explore all|search|search jobs?|browse|browse jobs?|all jobs?|all openings?|current openings?|join us|join our team|work (with|for) us|careers?|jobs?|opportunities|life at .*|our (culture|team|values|benefits)|benefits|culture|diversity.*|back|next|previous|home|contact( us)?|sign in|log ?in|register|subscribe|newsletter|privacy.*|terms.*|cookie.*)$/i.test(t)) return true;
 
   // "Open Opportunities", "Open Roles", "Current Openings", "Available Positions"
   // — a generic index label, not a specific posting.
@@ -491,7 +515,7 @@ async function dom(company) {
   // The second matters because careers pages increasingly link straight out to
   // a hosted board: Esusu's Webflow page links to jobs.deel.com/<uuid>/
   // job-details/<uuid>/overview, which no path pattern would guess.
-  const ATS_HOSTS = /(?:jobs\.deel\.com|boards\.greenhouse\.io|jobs\.lever\.co|jobs\.ashbyhq\.com|apply\.workable\.com|\.breezy\.hr|myworkdayjobs\.com|jobs\.smartrecruiters\.com|recruiting\.paylocity\.com)/i;
+  const ATS_HOSTS = /(?:jobs\.deel\.com|boards\.greenhouse\.io|jobs\.lever\.co|jobs\.ashbyhq\.com|apply\.workable\.com|\.breezy\.hr|myworkdayjobs\.com|jobs\.smartrecruiters\.com|recruiting\.paylocity\.com|jobs\.jobvite\.com|icims\.com)/i;
   const re = /<a[^>]+href="([^"#]+)"[^>]*>([\s\S]{0,300}?)<\/a>/gi;
   let m;
   while ((m = re.exec(html))) {
@@ -759,7 +783,10 @@ function normalise(raw, company) {
     employment_type: /intern/i.test(raw.title) ? 'contract' : 'full-time',
     comp_min: raw.min,
     comp_max: raw.max,
-    ph_signal: phSignal(raw.title, description, raw.location),
+    region: regionOf(raw.location).region,
+    country: regionOf(raw.location).country,
+    intl_signal: intlSignal(raw.title, description, raw.location),
+    ph_signal: intlSignal(raw.title, description, raw.location),   // alias, see above
     summary: summarise(description) || `${raw.title} at ${company.name}.`,
     description,
     apply_url: raw.url,
@@ -785,13 +812,10 @@ async function scrapeOne(company) {
     // Only assistant-family roles belong on this board — everything else this
     // company posts (engineers, AEs, whatever) gets dropped here.
     const relevant = usable.filter((j) => categorise(j.title) !== 'Other');
-    const inGeo = relevant.filter((j) => isTargetGeo(j.location, j.title));
-    // Hard cutoff: the posting has to actually say something about remote/
-    // outsourced hiring, not just exist at a company that might be open to
-    // it. See MIN_SIGNAL comment above for what each threshold means.
-    const explicit = inGeo.filter((j) => phSignal(j.title, j.description, j.location) >= MIN_SIGNAL);
-    const dropped = usable.length - explicit.length;
-    return { company, ok: true, jobs: explicit.map((j) => normalise(j, company)), dropped };
+    // No location filter: every assistant-family role is kept, wherever it is,
+    // and tagged with a region so the board can filter on it.
+    const dropped = usable.length - relevant.length;
+    return { company, ok: true, jobs: relevant.map((j) => normalise(j, company)), dropped, seen: usable.length };
   } catch (err) {
     return { company, ok: false, reason: err.message, jobs: [] };
   }
@@ -809,38 +833,10 @@ async function loadPrevious(path) {
   }
 }
 
-/** Stable, deterministic bucket for an id — same company always lands in the
- *  same shard as long as N doesn't change, so re-runs don't reshuffle work. */
-function hashBucket(id, n) {
-  let h = 0;
-  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
-  return h % n;
-}
-
-const onlyIds = args.only
-  ? String(args.only).split(',').map((s) => s.trim()).filter(Boolean)
-  : null;
-
-let targets = COMPANIES
+const targets = COMPANIES
   .filter((c) => c.active !== false)
   .filter((c) => (args.hub ? c.hub === args.hub : true))
-  .filter((c) => (onlyIds ? onlyIds.includes(c.id) : true));
-
-// --shard=i/N — splits the target list into N stable buckets and scrapes only
-// bucket i. Used by the GitHub Actions matrix to run shards in parallel; a
-// single shard failing doesn't touch the others' output.
-if (args.shard) {
-  const [iStr, nStr] = String(args.shard).split('/');
-  const i = parseInt(iStr, 10);
-  const n = parseInt(nStr, 10);
-  if (!Number.isInteger(i) || !Number.isInteger(n) || n < 1 || i < 0 || i >= n) {
-    console.error(`Invalid --shard value "${args.shard}" — expected "i/N" with 0 <= i < N.`);
-    process.exit(1);
-  }
-  const before = targets.length;
-  targets = targets.filter((c) => hashBucket(c.id, n) === i);
-  console.log(`Shard ${i}/${n}: ${targets.length} of ${before} matching companies\n`);
-}
+  .filter((c) => (args.only ? c.id === args.only : true));
 
 const ready = targets.filter((c) => c.method);
 const pending = targets.filter((c) => !c.method);
@@ -855,7 +851,7 @@ for (let i = 0; i < ready.length; i += CONCURRENCY) {
     const label = r.company.name.padEnd(30).slice(0, 30);
     console.log(r.ok
       ? `  ok    ${label} ${r.jobs.length} role${r.jobs.length === 1 ? '' : 's'}` +
-        (r.dropped ? `  (${r.dropped} out of scope: geo or no explicit signal)` : '')
+        (r.dropped ? `  (${r.dropped} non-assistant roles skipped)` : '')
       : `  FAIL  ${label} ${r.reason}`);
   }
   results.push(...batch);
@@ -880,23 +876,11 @@ const fresh = okResults.flatMap((r) => r.jobs);
 //      must survive untouched
 //
 // In short: a scrape updates the companies it covered and leaves the rest alone.
-//
-// SHARDED RUNS are the exception: each shard only owns a slice of the full
-// company list, and shards run in parallel with no shared state, so a shard
-// carrying forward every out-of-scope company would (a) duplicate that work
-// across every other shard and (b) bloat each shard's output for no reason —
-// the merge step already reconciles all shards' output back into one feed.
-// So under --shard, "out of scope" carrying is skipped entirely and only
-// this shard's own failed companies get carried; every other company is some
-// other shard's responsibility. Combining --shard with --hub in the same run
-// is the one case this doesn't fully cover (a hub-excluded company belongs to
-// no shard that run), which is an acceptable gap while there's a single hub.
 const scrapedIds = new Set(okResults.map((r) => r.company.id));
-const previous = await loadPrevious(PREV);
-const targetIds = new Set(targets.map((c) => c.id));
-const carried = args.shard
-  ? previous.filter((j) => targetIds.has(j.company_id) && !scrapedIds.has(j.company_id))
-  : previous.filter((j) => !scrapedIds.has(j.company_id));
+const previous = await loadPrevious(OUT);
+const carried = previous
+  .filter((j) => !String(j.id || '').startsWith('sample:'))   // placeholder rows never survive a real run
+  .filter((j) => !scrapedIds.has(j.company_id));
 
 const outOfScope = carried.filter((j) => !failedIds0.has(j.company_id)).length;
 const fromFailed = carried.length - outOfScope;
@@ -906,7 +890,7 @@ const all = [...fresh, ...carried];
 console.log('\n' + '-'.repeat(60));
 const droppedTotal = okResults.reduce((n, r) => n + (r.dropped || 0), 0);
 console.log(`scraped   ${fresh.length} roles from ${okResults.length} sources`);
-if (droppedTotal) console.log(`filtered  ${droppedTotal} roles (wrong geo, or no explicit remote/outsourcing signal)`);
+if (droppedTotal) console.log(`filtered  ${droppedTotal} non-assistant roles`);
 if (fromFailed) console.log(`carried   ${fromFailed} roles from ${failed.length} failed source(s)`);
 if (outOfScope) console.log(`kept      ${outOfScope} roles from companies not in this run`);
 if (pending.length) console.log(`skipped   ${pending.length} companies with no method — run scripts/detect-ats.js`);
@@ -930,32 +914,40 @@ if (priorityFailed.length) {
 for (const cat of ['Virtual Assistant', 'Executive Assistant', 'Personal Assistant', 'Legal Assistant']) {
   const n = all.filter((j) => j.category === cat).length;
   const src = new Set(all.filter((j) => j.category === cat).map((j) => j.company)).size;
-  const strong = all.filter((j) => j.category === cat && j.ph_signal >= 2).length;
-  console.log(`${cat.padEnd(20)} ${String(n).padStart(4)} roles from ${src} companies (${strong} with a strong PH signal)`);
+  const strong = all.filter((j) => j.category === cat && j.intl_signal >= 2).length;
+  console.log(`${cat.padEnd(20)} ${String(n).padStart(4)} roles from ${src} companies (${strong} reading open to international hires)`);
 }
+const byRegion = {};
+for (const j of all) byRegion[j.region || 'Remote / Unspecified'] = (byRegion[j.region || 'Remote / Unspecified'] || 0) + 1;
+console.log('by region  ' + Object.entries(byRegion).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k}: ${v}`).join(' · '));
 
-// Refuse to publish an empty feed. Better to leave yesterday's file in place
-// than to replace a working board with nothing.
-if (!all.length) {
-  console.error('\nNo jobs collected — refusing to write an empty feed.');
+// Every source failing is an outage, not a quiet day — refuse to overwrite
+// the feed in that case so yesterday's roles stay up.
+//
+// Every source SUCCEEDING and finding zero assistant roles is different: that
+// is a true result, not a bug. The old rule exited 1 here too, which made the
+// daily Action fail on any quiet day and looked exactly like a broken scraper.
+// Now an empty-but-healthy run writes an empty feed and the site shows its
+// "no roles right now" state.
+const totalFailure = ready.length > 0 && okResults.length === 0;
+if (!all.length && totalFailure) {
+  console.error('\nNo jobs collected and every source failed — refusing to write an empty feed.');
   process.exit(1);
 }
+if (!all.length) console.warn('\nAll sources answered but none has an assistant-family role open today. Writing an empty feed; consider adding companies to config.js.');
 
 if (args.dry) {
   console.log('\ndry run — nothing written');
   process.exit(0);
 }
 
-// Every source failing is an outage, not a quiet day. The feed still holds
-// carried-over roles so the board keeps working, but the run is marked failed
-// so GitHub emails you instead of the problem going unnoticed for weeks.
-const totalFailure = ready.length > 0 && okResults.length === 0;
-
 const feed = {
   generated_at: new Date().toISOString(),
   count: all.length,
   sources_ok: okResults.length,
   sources_failed: failed.length,
+  sources_skipped: pending.length,
+  regions: Object.fromEntries(Object.entries(byRegion).sort((a, b) => b[1] - a[1])),
   jobs: all.sort((a, b) => (b.posted_at || '').localeCompare(a.posted_at || '')),
 };
 
@@ -983,10 +975,11 @@ if (HISTORY_URL && HISTORY_KEY) {
       headers: { 'Content-Type': 'application/json', 'X-Admin-Key': HISTORY_KEY },
       body: JSON.stringify({
         sources_ok: okResults.length,
-        sources_failed: results.length - okResults.length,
+        sources_failed: failed.length,
         jobs: all.map((j) => ({
           id: j.id, hub: j.hub, company: j.company, company_id: j.company_id,
           title: j.title, category: j.category, level: j.level, location: j.location,
+          region: j.region, country: j.country, intl_signal: j.intl_signal,
           comp_min: j.comp_min, comp_max: j.comp_max,
           apply_url: j.apply_url, source: j.source, posted_at: j.posted_at,
         })),
