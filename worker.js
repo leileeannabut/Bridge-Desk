@@ -16,6 +16,26 @@
 
 const JSON_HEADERS = { 'content-type': 'application/json; charset=utf-8' };
 
+/* ==========================================================================
+   PAYMENT ROUTING
+   --------------------------------------------------------------------------
+   BridgeDesk no longer gates introductions behind a signed fee agreement —
+   forwarding a candidate is a deliberate admin action (see introduce() below),
+   and the placement fee is collected directly rather than tracked per-company
+   in a database table. Every introduction email tells the employer where to
+   send it.
+
+   Fill in the bank fields once you have them — they are placeholders until
+   then. Nothing reads these except notifyEmployer()'s email template below.
+   ========================================================================== */
+const PAYMENT_INFO = {
+  wise_email: 'leileeannabut@gmail.com',
+  bank_name: 'PLACEHOLDER — add your bank name',
+  account_name: 'PLACEHOLDER — add the account holder name',
+  account_number: 'PLACEHOLDER — add the account number',
+  swift_bic: 'PLACEHOLDER — add the SWIFT/BIC code',
+};
+
 /* A click is a small, fixed shape. Anything longer is truncated rather than
    rejected, so a long job title never costs you the row. */
 function clean(value, max = 200) {
@@ -319,12 +339,11 @@ async function receiveApplication(request, env) {
  *   teaser (default) — role, score, strengths and gaps, no contact details.
  *                      Enough for the employer to want the person, not enough
  *                      to go around you.
- *   full             — everything, including contact details. Use once a fee
- *                      agreement is in place.
+ *   full             — everything, including contact details. The email tells
+ *                      them where to send the placement fee — see PAYMENT_INFO.
  */
 async function notifyEmployer(env, row, opts = {}) {
   const mode = opts.mode === 'full' ? 'full' : 'teaser';
-  const agreement = opts.agreement || null;
   const to = opts.to || env.EMPLOYER_EMAIL || env.ADMIN_EMAIL;
   if (!env.RESEND_API_KEY) return { ok: false, error: 'No RESEND_API_KEY configured' };
   if (!to) return { ok: false, error: 'No recipient — set EMPLOYER_EMAIL or pass one' };
@@ -360,10 +379,14 @@ async function notifyEmployer(env, row, opts = {}) {
         </p>`}
       <hr style="border:0;border-top:1px solid #e5e5e5;margin:26px 0 14px" />
       <p style="font-size:12px;color:#777;line-height:1.6;margin:0">
-        ${agreement
-          ? `Introduced under our agreement${agreement.agreement_ref ? ' ' + escapeHtml(agreement.agreement_ref) : ''}${agreement.signed_on ? ' dated ' + escapeHtml(agreement.signed_on) : ''}. A placement fee of ${agreement.fee_percent}% of ${escapeHtml(agreement.fee_basis || 'first-year base salary')} applies if you engage this candidate, or any candidate introduced by us, within ${agreement.claim_window_months || 12} months of this introduction.`
-          : `Introduced by BridgeDesk. A placement fee applies if you engage this candidate within 12 months of this introduction. Reply to agree terms before proceeding.`}
-        <br />Introduction reference ${escapeHtml(row.ref)} · ${new Date().toISOString().slice(0, 10)}
+        Introduced by BridgeDesk. A placement fee applies if you engage this candidate within
+        12 months of this introduction.
+        ${full ? `
+        <br /><br /><b style="color:#444">Payment</b><br />
+        Wise — ${escapeHtml(PAYMENT_INFO.wise_email)}
+        <br />Bank transfer — ${escapeHtml(PAYMENT_INFO.bank_name)} · ${escapeHtml(PAYMENT_INFO.account_name)} ·
+        ${escapeHtml(PAYMENT_INFO.account_number)} · ${escapeHtml(PAYMENT_INFO.swift_bic)}` : ''}
+        <br /><br />Introduction reference ${escapeHtml(row.ref)} · ${new Date().toISOString().slice(0, 10)}
       </p>
     </div>`;
 
@@ -410,31 +433,12 @@ async function introduce(request, env) {
   const row = await env.DB.prepare('SELECT * FROM applications WHERE ref = ?1').bind(clean(body.ref, 20)).first();
   if (!row) return new Response(JSON.stringify({ error: 'No such application.' }), { status: 404, headers: JSON_HEADERS });
 
-  // ---- the gate ----------------------------------------------------------
-  // No agreement, no introduction. This is deliberately enforced here rather
-  // than left to memory: the moment a candidate's details reach a company you
-  // have no terms with, you have given away the only thing you can charge for.
-  //
-  // Redaction is not protection — a match score and a career summary describe a
-  // small enough population to identify. The agreement is what protects you.
-  let agreement = null;
-  try {
-    agreement = await env.DB.prepare(
-      'SELECT * FROM fee_agreements WHERE company = ?1 AND active = 1').bind(row.company).first();
-  } catch (_) {
-    // Table not created yet. Treated as "no agreement" — fail closed, never open.
-  }
-
-  if (!agreement && !body.override) {
-    return new Response(JSON.stringify({
-      error: `No fee agreement on file for ${row.company}.`,
-      needs_agreement: true,
-      company: row.company,
-    }), { status: 409, headers: JSON_HEADERS });
-  }
-
-  const to = clean(body.to, 200) || agreement?.contact_email || env.EMPLOYER_EMAIL || env.ADMIN_EMAIL;
-  const result = await notifyEmployer(env, row, { mode: body.mode, to, agreement });
+  // No agreement gate: forwarding is still a deliberate admin action (never
+  // automatic — this endpoint is only ever called from the Command Center),
+  // but the placement fee is now collected directly per PAYMENT_INFO rather
+  // than tracked per-company beforehand.
+  const to = clean(body.to, 200) || env.EMPLOYER_EMAIL || env.ADMIN_EMAIL;
+  const result = await notifyEmployer(env, row, { mode: body.mode, to });
 
   await env.DB.prepare(
     `UPDATE applications
@@ -446,21 +450,17 @@ async function introduce(request, env) {
   // whom, on what date, under which agreement. Written only on success, so the
   // log never claims an introduction that did not happen.
   if (result.ok) {
-    const months = agreement?.claim_window_months ?? 12;
     try {
       await env.DB.prepare(
         `INSERT INTO introductions
            (application_ref, candidate_name, candidate_email, company, job_title,
-            sent_to, mode, fee_percent, claim_expires, agreement_ref)
-         VALUES (?1,?2,?3,?4,?5,?6,?7,?8, date('now', ?9), ?10)`
+            sent_to, mode, claim_expires)
+         VALUES (?1,?2,?3,?4,?5,?6,?7, date('now', '+12 months'))`
       ).bind(
         row.ref,
         [row.first_name, row.last_name].filter(Boolean).join(' '),
         row.email, row.company, row.job_title, to,
         body.mode === 'full' ? 'full' : 'teaser',
-        agreement?.fee_percent ?? null,
-        `+${months} months`,
-        agreement?.agreement_ref ?? null
       ).run();
     } catch (err) {
       console.error('introduction log failed:', err.message);
@@ -468,7 +468,7 @@ async function introduce(request, env) {
   }
 
   return new Response(JSON.stringify(result.ok
-    ? { ok: true, mode: body.mode === 'full' ? 'full' : 'teaser', to, fee_percent: agreement?.fee_percent ?? null }
+    ? { ok: true, mode: body.mode === 'full' ? 'full' : 'teaser', to }
     : { error: result.error }),
     { status: result.ok ? 200 : 502, headers: JSON_HEADERS });
 }
@@ -663,6 +663,377 @@ async function sendDecline(env, row, reason) {
 
 
 /* ==========================================================================
+   THE POOL — Employee-Employer Matching
+   --------------------------------------------------------------------------
+   Two intake forms feed one matching system:
+     - Candidates join the pool with a standing profile (site/index.html's
+       "Join our Pool" card) — bio, skills, availability, rate, and a résumé
+       file stored in R2.
+     - Employers submit hiring preferences (the "Employers" and "Hire a Team"
+       cards) — role types, must-have skills, budget, timezone needs.
+
+   computeMatchScore() is a deterministic score (category, skills, rate range,
+   timezone overlap) so matching works with or without an Anthropic key. When
+   ANTHROPIC_API_KEY is set, matchRationale() adds a one-line AI-written
+   explanation on top of the score for the Command Center's Matching tab.
+
+   None of this auto-notifies anyone — an admin reviews matches and triggers
+   the candidate notification explicitly, same "deliberate action" principle
+   as introduce() above.
+   ========================================================================== */
+
+function makeRefWithPrefix(prefix) {
+  const A = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  let s = '';
+  for (let i = 0; i < 4; i++) s += A[Math.floor(Math.random() * A.length)];
+  return prefix + '-' + s;
+}
+
+function safeJsonArray(v) {
+  if (Array.isArray(v)) return v;
+  if (typeof v !== 'string' || !v) return [];
+  try { const p = JSON.parse(v); return Array.isArray(p) ? p : []; } catch { return []; }
+}
+
+/** Every field optional on purpose: a partial profile is still worth having,
+ *  and a rejected form is a candidate who never comes back. */
+function cleanProfileFields(a, max = {}) {
+  return {
+    categories: JSON.stringify(asList(a.categories).slice(0, 4)),
+    skills: JSON.stringify(asList(a.skills).slice(0, 30)),
+    bio: clean(a.bio, max.bio || 6000),
+  };
+}
+
+/**
+ * Deterministic match score, 0-100. Works with no external dependency so the
+ * Matching tab always shows *something* — the AI rationale (below) is a
+ * nice-to-have layered on top, never a requirement.
+ */
+function computeMatchScore(candidate, employer) {
+  const reasons = [];
+  let score = 0;
+
+  const candCats = safeJsonArray(candidate.categories);
+  const empCats = safeJsonArray(employer.categories);
+  const catOverlap = candCats.filter((c) => empCats.includes(c));
+  if (!empCats.length || catOverlap.length) {
+    score += 35;
+    if (catOverlap.length) reasons.push(`Open to ${catOverlap.join(', ')}`);
+  }
+
+  const candSkills = safeJsonArray(candidate.skills).map((s) => String(s).toLowerCase());
+  const empSkills = safeJsonArray(employer.must_have_skills).map((s) => String(s).toLowerCase());
+  const skillHits = empSkills.filter((s) => candSkills.includes(s));
+  const skillPct = empSkills.length ? skillHits.length / empSkills.length : 1;
+  score += Math.round(skillPct * 35);
+  if (empSkills.length) reasons.push(`${skillHits.length}/${empSkills.length} required skills`);
+
+  if (employer.budget_min != null && employer.budget_max != null
+      && candidate.rate_min != null && candidate.rate_max != null) {
+    const overlap = Math.min(employer.budget_max, candidate.rate_max) - Math.max(employer.budget_min, candidate.rate_min);
+    if (overlap >= 0) { score += 15; reasons.push('Rate expectations fit the budget'); }
+  } else {
+    score += 8; // unknown on one side — partial credit rather than a penalty
+  }
+
+  if (employer.timezone_needs && candidate.timezone_overlap) {
+    const need = String(employer.timezone_needs).toLowerCase();
+    const have = String(candidate.timezone_overlap).toLowerCase();
+    const words = need.split(/\W+/).filter((w) => w.length > 3);
+    if (words.some((w) => have.includes(w))) { score += 15; reasons.push('Timezone overlap looks compatible'); }
+  } else {
+    score += 7;
+  }
+
+  return { score: Math.max(0, Math.min(100, score)), reasons };
+}
+
+/** Optional: a one-line AI rationale layered on top of the deterministic
+ *  score. Silently skipped without ANTHROPIC_API_KEY — the score above still
+ *  stands on its own. */
+async function matchRationale(env, candidate, employer) {
+  if (!env.ANTHROPIC_API_KEY) return null;
+  try {
+    const res = await fetch(ANTHROPIC_URL, {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: MODEL,
+        max_tokens: 120,
+        messages: [{
+          role: 'user',
+          content: `In one short sentence, say why this candidate could be a good fit for this `
+            + `employer's need (or the main risk if it's a weak fit). Be specific, not generic.\n\n`
+            + `Employer needs: ${employer.categories || ''} — must-haves: ${employer.must_have_skills || ''}. `
+            + `${employer.culture_notes || ''}\n\n`
+            + `Candidate: ${candidate.categories || ''} — skills: ${candidate.skills || ''}. `
+            + `${(candidate.bio || '').slice(0, 600)}`,
+        }],
+      }),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    return (data?.content?.[0]?.text || '').trim().slice(0, 300) || null;
+  } catch {
+    return null;
+  }
+}
+
+/** Candidate joins the pool. multipart/form-data so a résumé can ride along
+ *  with the same submit — everything else is a plain text field. */
+async function joinPool(request, env) {
+  if (!env.DB) return new Response(JSON.stringify({ error: 'Not configured yet.' }), { status: 503, headers: JSON_HEADERS });
+
+  let form;
+  try { form = await request.formData(); }
+  catch { return new Response(JSON.stringify({ error: 'Expected a form submission.' }), { status: 400, headers: JSON_HEADERS }); }
+
+  const get = (k) => (form.get(k) || '').toString().trim();
+  const email = get('email');
+  const missing = ['first_name', 'last_name', 'bio'].filter((k) => !get(k));
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) missing.push('email');
+  if (missing.length) {
+    return new Response(JSON.stringify({ error: 'Missing: ' + missing.join(', ') }), { status: 400, headers: JSON_HEADERS });
+  }
+
+  let categories = [], skills = [];
+  try { categories = JSON.parse(form.get('categories') || '[]'); } catch {}
+  try { skills = JSON.parse(form.get('skills') || '[]'); } catch {}
+
+  const ref = makeRefWithPrefix('CP');
+
+  // Résumé is optional — a profile without one is still worth having.
+  let resumeKey = null, resumeFilename = null;
+  const file = form.get('resume');
+  if (file && typeof file === 'object' && file.size > 0) {
+    if (file.size > 5 * 1024 * 1024) {
+      return new Response(JSON.stringify({ error: 'Résumé is too large — 5MB max.' }), { status: 400, headers: JSON_HEADERS });
+    }
+    if (!env.RESUMES) {
+      return new Response(JSON.stringify({ error: 'Résumé storage is not configured yet — try again without a file, or contact us.' }), { status: 503, headers: JSON_HEADERS });
+    }
+    const safeName = clean(file.name, 120).replace(/[^\w.\-]/g, '_');
+    resumeKey = `resumes/${ref}-${safeName}`;
+    resumeFilename = safeName;
+    try {
+      await env.RESUMES.put(resumeKey, file.stream(), { httpMetadata: { contentType: file.type || 'application/octet-stream' } });
+    } catch (err) {
+      console.error('resume upload failed:', err.message);
+      return new Response(JSON.stringify({ error: 'Could not save your résumé. Try again.' }), { status: 500, headers: JSON_HEADERS });
+    }
+  }
+
+  const prof = cleanProfileFields({ categories, skills, bio: get('bio') });
+
+  try {
+    await env.DB.prepare(
+      `INSERT INTO candidate_profiles
+         (ref, first_name, last_name, email, phone, linkedin, categories, skills, bio,
+          availability, timezone_overlap, rate_min, rate_max, rate_basis, resume_key, resume_filename)
+       VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12,?13,?14,?15,?16)`
+    ).bind(
+      ref, clean(get('first_name'), 80), clean(get('last_name'), 80), clean(email, 200),
+      clean(get('phone'), 40), clean(get('linkedin'), 200),
+      prof.categories, prof.skills, prof.bio,
+      clean(get('availability'), 40), clean(get('timezone_overlap'), 200),
+      Number.isFinite(+get('rate_min')) && get('rate_min') ? +get('rate_min') : null,
+      Number.isFinite(+get('rate_max')) && get('rate_max') ? +get('rate_max') : null,
+      clean(get('rate_basis'), 20) || 'hourly',
+      resumeKey, resumeFilename,
+    ).run();
+  } catch (err) {
+    if (/UNIQUE/i.test(err.message || '')) {
+      return new Response(JSON.stringify({ error: 'That email is already in the pool.' }), { status: 409, headers: JSON_HEADERS });
+    }
+    console.error('pool join failed:', err.message);
+    return new Response(JSON.stringify({ error: 'Could not save your profile. Please try again.' }), { status: 500, headers: JSON_HEADERS });
+  }
+
+  return new Response(JSON.stringify({ ok: true, ref }), { headers: JSON_HEADERS });
+}
+
+/** Employer submits hiring preferences — the intake behind "Employers" and
+ *  "Hire a Team". Plain JSON, no file involved. */
+async function employerIntake(request, env) {
+  if (!env.DB) return new Response(JSON.stringify({ error: 'Not configured yet.' }), { status: 503, headers: JSON_HEADERS });
+
+  let a;
+  try { a = await request.json(); }
+  catch { return new Response(JSON.stringify({ error: 'Expected JSON.' }), { status: 400, headers: JSON_HEADERS }); }
+
+  const missing = ['company', 'contact_email'].filter((k) => !String(a[k] || '').trim());
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(String(a.contact_email || ''))) missing.push('contact_email');
+  if (missing.length) {
+    return new Response(JSON.stringify({ error: 'Missing: ' + missing.join(', ') }), { status: 400, headers: JSON_HEADERS });
+  }
+
+  const ref = makeRefWithPrefix('EP');
+  try {
+    await env.DB.prepare(
+      `INSERT INTO employer_preferences
+         (ref, company, contact_name, contact_email, categories, must_have_skills,
+          team_size, timezone_needs, budget_min, budget_max, budget_basis, culture_notes)
+       VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12)`
+    ).bind(
+      ref, clean(a.company, 120), clean(a.contact_name, 120), clean(a.contact_email, 200),
+      JSON.stringify(asList(a.categories).slice(0, 4)), JSON.stringify(asList(a.must_have_skills).slice(0, 30)),
+      Number.isFinite(+a.team_size) ? Math.max(1, Math.round(+a.team_size)) : null,
+      clean(a.timezone_needs, 200),
+      Number.isFinite(+a.budget_min) ? +a.budget_min : null,
+      Number.isFinite(+a.budget_max) ? +a.budget_max : null,
+      clean(a.budget_basis, 20) || 'hourly',
+      clean(a.culture_notes, 2000),
+    ).run();
+  } catch (err) {
+    console.error('employer intake failed:', err.message);
+    return new Response(JSON.stringify({ error: 'Could not save your request. Please try again.' }), { status: 500, headers: JSON_HEADERS });
+  }
+
+  return new Response(JSON.stringify({ ok: true, ref }), { headers: JSON_HEADERS });
+}
+
+async function listPool(request, env) {
+  if (!env.DB) return new Response(JSON.stringify({ error: 'No database configured.' }), { status: 503, headers: JSON_HEADERS });
+  if (!adminAuthed(request, env)) return new Response(JSON.stringify({ error: 'unauthorised' }), { status: 401, headers: JSON_HEADERS });
+
+  const [candidates, employers] = await Promise.all([
+    env.DB.prepare(`SELECT * FROM candidate_profiles WHERE status != 'removed' ORDER BY created_at DESC LIMIT 500`).all(),
+    env.DB.prepare(`SELECT * FROM employer_preferences WHERE status != 'removed' ORDER BY created_at DESC LIMIT 500`).all(),
+  ]);
+
+  return new Response(JSON.stringify({
+    candidates: (candidates.results || []).map((c) => ({ ...c, categories: safeJsonArray(c.categories), skills: safeJsonArray(c.skills), has_resume: !!c.resume_key })),
+    employers: (employers.results || []).map((e) => ({ ...e, categories: safeJsonArray(e.categories), must_have_skills: safeJsonArray(e.must_have_skills) })),
+  }), { headers: JSON_HEADERS });
+}
+
+/** Ranked candidate matches for one employer's saved preferences. Computed on
+ *  the fly (cheap — pool sizes are small) and cached into pool_matches so the
+ *  notify step below has something to reference. */
+async function poolMatches(request, env) {
+  if (!env.DB) return new Response(JSON.stringify({ error: 'No database configured.' }), { status: 503, headers: JSON_HEADERS });
+  if (!adminAuthed(request, env)) return new Response(JSON.stringify({ error: 'unauthorised' }), { status: 401, headers: JSON_HEADERS });
+
+  const employerRef = clean(new URL(request.url).searchParams.get('employer_ref'), 20);
+  const employer = await env.DB.prepare('SELECT * FROM employer_preferences WHERE ref = ?1').bind(employerRef).first();
+  if (!employer) return new Response(JSON.stringify({ error: 'No such employer request.' }), { status: 404, headers: JSON_HEADERS });
+
+  const candidates = (await env.DB.prepare(
+    `SELECT * FROM candidate_profiles WHERE status = 'active' ORDER BY created_at DESC LIMIT 300`).all()).results || [];
+
+  const ranked = candidates
+    .map((c) => ({ candidate: c, ...computeMatchScore(c, employer) }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 20);
+
+  // AI rationale only for the top handful — keeps this fast and cheap.
+  for (const m of ranked.slice(0, 5)) {
+    m.ai_rationale = await matchRationale(env, m.candidate, employer);
+  }
+
+  for (const m of ranked) {
+    try {
+      await env.DB.prepare(
+        `INSERT INTO pool_matches (employer_ref, candidate_ref, score, rationale)
+         VALUES (?1,?2,?3,?4)
+         ON CONFLICT(employer_ref, candidate_ref) DO UPDATE SET score = ?3, rationale = COALESCE(?4, rationale)`
+      ).bind(employer.ref, m.candidate.ref, m.score, m.ai_rationale || null).run();
+    } catch (err) {
+      console.error('pool_matches upsert failed:', err.message);
+    }
+  }
+
+  return new Response(JSON.stringify({
+    employer: { ...employer, categories: safeJsonArray(employer.categories), must_have_skills: safeJsonArray(employer.must_have_skills) },
+    matches: ranked.map((m) => ({
+      ref: m.candidate.ref,
+      first_name: m.candidate.first_name, last_name: m.candidate.last_name,
+      categories: safeJsonArray(m.candidate.categories), skills: safeJsonArray(m.candidate.skills),
+      has_resume: !!m.candidate.resume_key,
+      score: m.score, reasons: m.reasons, ai_rationale: m.ai_rationale || null,
+    })),
+  }), { headers: JSON_HEADERS });
+}
+
+/** Tells a matched candidate they've been matched to an opportunity — the
+ *  promise behind the "Join our Pool" card. Deliberately vague about which
+ *  employer: the introduction itself is still a separate, deliberate step. */
+async function notifyPoolCandidate(request, env) {
+  if (!env.DB) return new Response(JSON.stringify({ error: 'No database configured.' }), { status: 503, headers: JSON_HEADERS });
+  if (!adminAuthed(request, env)) return new Response(JSON.stringify({ error: 'unauthorised' }), { status: 401, headers: JSON_HEADERS });
+
+  let body;
+  try { body = await request.json(); }
+  catch { return new Response(JSON.stringify({ error: 'Expected JSON.' }), { status: 400, headers: JSON_HEADERS }); }
+
+  const candidate = await env.DB.prepare('SELECT * FROM candidate_profiles WHERE ref = ?1').bind(clean(body.candidate_ref, 20)).first();
+  if (!candidate) return new Response(JSON.stringify({ error: 'No such candidate.' }), { status: 404, headers: JSON_HEADERS });
+
+  let sent = { ok: false, error: 'No RESEND_API_KEY configured — mark it notified and reach out directly.' };
+  if (env.RESEND_API_KEY) {
+    const html = `
+      <div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:560px;line-height:1.6">
+        <p>Hi ${escapeHtml(candidate.first_name || 'there')},</p>
+        <p>Good news — your BridgeDesk pool profile looks like a strong fit for an opportunity we're
+           working on. We'll be in touch shortly with details.</p>
+        <p style="margin-top:22px">— BridgeDesk</p>
+      </div>`;
+    try {
+      const res = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: { Authorization: 'Bearer ' + env.RESEND_API_KEY, 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          from: env.FROM_EMAIL || 'BridgeDesk <onboarding@resend.dev>',
+          to: [candidate.email],
+          reply_to: env.ADMIN_EMAIL || env.EMPLOYER_EMAIL || undefined,
+          subject: "You're a match for an opportunity on BridgeDesk",
+          html,
+        }),
+      });
+      sent = res.ok ? { ok: true } : { ok: false, error: 'Resend ' + res.status };
+    } catch (err) {
+      sent = { ok: false, error: err.message };
+    }
+  }
+
+  try {
+    await env.DB.prepare(
+      `UPDATE pool_matches SET notified = 1, notified_at = datetime('now')
+        WHERE employer_ref = ?1 AND candidate_ref = ?2`
+    ).bind(clean(body.employer_ref, 20), candidate.ref).run();
+  } catch (err) {
+    console.error('pool_matches notify update failed:', err.message);
+  }
+
+  return new Response(JSON.stringify({ ok: true, emailed: sent.ok, error: sent.ok ? undefined : sent.error }), { headers: JSON_HEADERS });
+}
+
+/** Streams a résumé from R2. Admin-only — résumés are never public. */
+async function downloadResume(request, env) {
+  if (!adminAuthed(request, env)) return new Response(JSON.stringify({ error: 'unauthorised' }), { status: 401, headers: JSON_HEADERS });
+  if (!env.RESUMES) return new Response(JSON.stringify({ error: 'Résumé storage is not configured.' }), { status: 503, headers: JSON_HEADERS });
+
+  const ref = clean(new URL(request.url).searchParams.get('ref'), 20);
+  const row = await env.DB.prepare('SELECT resume_key, resume_filename FROM candidate_profiles WHERE ref = ?1').bind(ref).first();
+  if (!row || !row.resume_key) return new Response(JSON.stringify({ error: 'No résumé on file.' }), { status: 404, headers: JSON_HEADERS });
+
+  const obj = await env.RESUMES.get(row.resume_key);
+  if (!obj) return new Response(JSON.stringify({ error: 'File missing from storage.' }), { status: 404, headers: JSON_HEADERS });
+
+  return new Response(obj.body, {
+    headers: {
+      'content-type': obj.httpMetadata?.contentType || 'application/octet-stream',
+      'content-disposition': `attachment; filename="${(row.resume_filename || 'resume').replace(/"/g, '')}"`,
+    },
+  });
+}
+
+/* ==========================================================================
    JOB HISTORY
    --------------------------------------------------------------------------
    The feed is a snapshot. This turns it into a record.
@@ -839,6 +1210,13 @@ export default {
     if (pathname === '/api/history/sync'  && request.method === 'POST') return syncHistory(request, env);
     if (pathname === '/api/history'       && request.method === 'GET')  return historyReport(request, env);
     if (pathname === '/api/introduce'     && request.method === 'POST') return introduce(request, env);
+
+    if (pathname === '/api/pool/join'            && request.method === 'POST') return joinPool(request, env);
+    if (pathname === '/api/pool/employer-intake' && request.method === 'POST') return employerIntake(request, env);
+    if (pathname === '/api/admin/pool'           && request.method === 'GET')  return listPool(request, env);
+    if (pathname === '/api/admin/pool/matches'   && request.method === 'GET')  return poolMatches(request, env);
+    if (pathname === '/api/admin/pool/notify'    && request.method === 'POST') return notifyPoolCandidate(request, env);
+    if (pathname === '/api/admin/resume'         && request.method === 'GET')  return downloadResume(request, env);
 
     // Everything else is the site itself.
     return env.ASSETS.fetch(request);
