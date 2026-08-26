@@ -25,8 +25,21 @@
     {
       "binding": "DB",
       "database_name": "bridgedesk-db",
-      "database_id": "e5fce93e-2399-4fa5-95e1-b959c577e793"
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
     }
   ],
 
-  // Logs from
+  // Résumés uploaded through the "Join our Pool" form. Admin-only reads —
+  // see /api/admin/resume in worker.js.
+  "r2_buckets": [
+    {
+      "binding": "RESUMES",
+      "bucket_name": "bridgedesk-resumes"
+    }
+  ],
+
+  // Logs from console.error in worker.js.
+  "observability": {
+    "enabled": true
+  }
+}
