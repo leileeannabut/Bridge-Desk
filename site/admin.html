@@ -3,1141 +3,877 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>BridgeDesk — Remote VA, EA &amp; Legal Assistant roles at US startups</title>
-<meta name="description" content="Remote Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant roles at US startups — scraped straight from their own career pages, scored for how open they read to a Philippines-based hire." />
-<link rel="canonical" href="https://bridgedesk.co/" />
-<meta name="robots" content="index, follow" />
-<meta name="theme-color" content="#FAF6ED" />
-
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="BridgeDesk" />
-<meta property="og:title" content="BridgeDesk — the bridge between US teams and Filipino talent" />
-<meta property="og:description" content="Remote VA / EA / PA / Legal Assistant roles at US startups, scored for how open each one reads to a Philippines-based hire." />
-<meta property="og:url" content="https://bridgedesk.co/" />
-<meta property="og:image" content="https://bridgedesk.co/og.svg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta name="twitter:card" content="summary_large_image" />
-
+<title>Command Center — BridgeDesk</title>
+<meta name="robots" content="noindex, nofollow" />
 <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <style>
 /* ==========================================================================
-   BridgeDesk — job board for Filipino VA/EA/PA/Legal Assistant candidates
-   at US startups. Static site, no build step, no framework.
-
-   Signature element: the "Bridge Clock" in the hero — a live two-city time
-   strip (US Eastern vs. Philippine Time) that makes the whole pitch of the
-   site visible in one glance, before a single word of copy is read.
+   Command Center — the applicant pipeline.
+   Same palette as the board, but denser: this is a working tool, not a shop
+   window. Nothing here is public — the page is noindex and every request needs
+   the admin key.
    ========================================================================== */
 :root{
-  --paper:#FAF6ED; --paper-soft:#F1ECDF; --card:#FFFFFF;
+  --void:#FAF6ED; --panel:#FFFFFF; --panel-2:#F1ECDF;
+  --line:rgba(36,50,44,.12); --line-2:rgba(36,50,44,.22);
   --ink:#24322C; --ink-soft:#55645C; --ink-dim:#8A968F;
-  --line:rgba(36,50,44,.13); --line-strong:rgba(36,50,44,.22);
-  --sage:#6E8F72; --sage-deep:#3F5C43; --sage-tint:#E4ECE2;
-  --sky:#3E7C93; --sky-deep:#28556A; --sky-tint:#DEEAEE;
-  --tan:#C8A66C; --tan-deep:#93743B; --tan-tint:#F3E9D4;
-  --gold:#D6A93B; --gold-deep:#8C6A1E;
-  --danger:#B4553F;
-  --display:'Fraunces',Georgia,serif;
+  --green:#3F5C43; --purple:#3E7C93; --purple-text:#28556A;
+  --cyan:#3E7C93; --pink:#93743B; --amber:#D6A93B; --red:#B4553F;
+  --head:'Fraunces',Georgia,serif;
   --body:'Work Sans',system-ui,sans-serif;
   --mono:'JetBrains Mono',ui-monospace,monospace;
-  --radius:14px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
+
+/* The hidden attribute works through display:none in the browser's default
+   stylesheet, and ANY author display rule outranks it — .gate below sets
+   display:grid, so `gate.hidden = true` had no visual effect at all. The gate
+   stayed on screen through every successful sign-in, which looked exactly like
+   a button that did nothing. */
 [hidden]{display:none !important}
-html{scroll-behavior:smooth}
 body{
-  background:var(--paper); color:var(--ink); font-family:var(--body);
-  font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;
+  background:
+    radial-gradient(1100px 620px at 82% -8%, rgba(62,124,147,.10), transparent 62%),
+    radial-gradient(900px 520px at 4% 104%, rgba(110,143,114,.10), transparent 60%),
+    var(--void);
+  color:var(--ink);font-family:var(--body);min-height:100vh;
+  -webkit-font-smoothing:antialiased;
 }
 a{color:inherit;text-decoration:none}
-img,svg{display:block;max-width:100%}
-::selection{background:var(--gold);color:#241C08}
-:focus-visible{outline:2px solid var(--sky);outline-offset:3px;border-radius:4px}
-h1,h2,h3,h4{font-family:var(--display);font-weight:600;letter-spacing:-.01em;text-wrap:balance}
-.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
-.eyebrow{
-  font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--sky-deep);display:flex;align-items:center;gap:8px;font-weight:600;
+.wrap{max-width:1400px;margin:0 auto;padding:38px 30px 90px}
+
+/* ---------- sign in ---------- */
+.gate{min-height:100vh;display:grid;place-items:center;padding:24px}
+.gate-card{
+  width:100%;max-width:420px;padding:38px 34px;border-radius:20px;
+  background:linear-gradient(150deg,rgba(255,255,255,.9),rgba(241,236,223,.9));
+  border:1px solid var(--line-2);box-shadow:0 30px 70px rgba(36,50,44,.18);
 }
-.eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold)}
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  padding:13px 22px;border-radius:999px;border:1.5px solid var(--line-strong);
-  font-family:var(--body);font-weight:600;font-size:14.5px;cursor:pointer;
-  background:transparent;color:var(--ink);transition:transform .15s ease, background .15s ease, border-color .15s ease;
+.gate h1{font-family:var(--head);font-size:26px;margin-bottom:8px}
+.gate p{color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:22px}
+.gate input{
+  width:100%;padding:14px 16px;border-radius:11px;margin-bottom:14px;
+  background:rgba(255,255,255,.9);border:1px solid var(--line-2);color:var(--ink);
+  font-family:var(--mono);font-size:14px;
 }
-.btn:hover{border-color:var(--ink);transform:translateY(-1px)}
-.btn.primary{background:var(--sage-deep);border-color:var(--sage-deep);color:#fff}
-.btn.primary:hover{background:var(--ink);border-color:var(--ink)}
-.btn.gold{background:var(--gold);border-color:var(--gold);color:#241C08}
-.btn.gold:hover{background:var(--gold-deep);border-color:var(--gold-deep)}
-.btn[disabled]{opacity:.55;cursor:default;transform:none}
-.btn.block{width:100%}
+.gate input:focus{outline:none;border-color:var(--purple)}
+.gate button{
+  width:100%;padding:14px;border-radius:11px;border:0;cursor:pointer;
+  background:linear-gradient(135deg,var(--purple),#5A2FA8);color:#fff;
+  font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+}
+.gate .err{color:var(--red);font-size:13px;min-height:18px;margin-top:10px}
 
 /* ---------- header ---------- */
-header.site{
-  position:sticky;top:0;z-index:40;background:rgba(250,246,237,.92);
-  backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+.eyebrow{
+  display:flex;align-items:center;gap:9px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--purple-text);margin-bottom:10px;
 }
-.site-bar{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
-.wordmark{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:21px;letter-spacing:-.01em}
-.wordmark .mark{
-  width:30px;height:30px;border-radius:9px;display:grid;place-items:center;
-  background:linear-gradient(135deg,var(--sky) 0%,var(--sage) 100%);color:#fff;
-  font-family:var(--mono);font-size:13px;font-weight:700;
+.eyebrow::before{content:"";width:9px;height:9px;background:var(--purple);transform:rotate(45deg)}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:34px}
+h1.title{
+  font-family:var(--head);font-size:clamp(34px,5vw,54px);font-weight:700;
+  letter-spacing:-.02em;line-height:1;text-transform:uppercase;
+  background:linear-gradient(96deg,#F4F3FA 8%,var(--purple-text) 52%,var(--cyan) 96%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
 }
-nav.site-nav{display:flex;gap:26px;align-items:center;font-size:14.5px;font-weight:500;color:var(--ink-soft)}
-nav.site-nav a:hover{color:var(--ink)}
+.btn{
+  padding:11px 20px;border-radius:11px;cursor:pointer;
+  border:1px solid var(--line-2);background:rgba(255,255,255,.85);color:var(--ink-soft);
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;
+  transition:border-color .2s,color .2s,transform .15s;
+}
+.btn:hover{border-color:var(--purple);color:var(--ink);transform:translateY(-1px)}
 
-/* ---------- hero ---------- */
-.hero{padding:64px 0 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(34px,4.4vw,54px);line-height:1.06;margin:14px 0 18px}
-.hero h1 em{font-style:italic;color:var(--sage-deep)}
-.hero p.lede{font-size:17.5px;color:var(--ink-soft);max-width:46ch;margin-bottom:26px}
-.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+/* ---------- stat cards ---------- */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-bottom:26px}
+.stat{
+  padding:22px 24px;border-radius:16px;position:relative;overflow:hidden;
+  background:linear-gradient(150deg,rgba(255,255,255,.95),rgba(241,236,223,.85));
+  border:1px solid var(--line);transition:border-color .25s,transform .25s;
+}
+.stat:hover{transform:translateY(-2px)}
+.stat[data-tone="total"]{--tone:var(--purple-text)}
+.stat[data-tone="new"]{--tone:var(--green)}
+.stat[data-tone="interview"]{--tone:var(--cyan)}
+.stat[data-tone="offer"]{--tone:var(--pink)}
+.stat::before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:2px;background:var(--tone);opacity:.6}
+.stat-k{
+  display:flex;align-items:center;gap:9px;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-dim);margin-bottom:14px;
+}
+.stat-k svg{width:15px;height:15px;color:var(--tone)}
+.stat-v{font-family:var(--head);font-size:40px;font-weight:700;line-height:1;color:var(--tone)}
+.stat-sub{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink-dim);margin-top:8px}
 
-/* bridge clock — signature element */
-.bridge-clock{
-  background:var(--card);border:1px solid var(--line);border-radius:20px;
-  padding:26px 26px 22px;box-shadow:0 20px 50px -30px rgba(36,50,44,.35);
-}
-.bridge-clock .bc-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:18px}
-.bridge-clock .bc-head span{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-dim)}
-.bc-cities{display:flex;justify-content:space-between;margin-bottom:14px}
-.bc-city{text-align:left}
-.bc-city.ph{text-align:right}
-.bc-city .place{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;color:var(--ink-dim);text-transform:uppercase;margin-bottom:4px}
-.bc-city .time{font-family:var(--display);font-size:30px;font-weight:600;font-variant-numeric:tabular-nums}
-.bc-city.us .time{color:var(--sky-deep)}
-.bc-city.ph .time{color:var(--sage-deep)}
-.bc-track{position:relative;height:10px;border-radius:99px;background:var(--paper-soft);border:1px solid var(--line);overflow:visible;margin:6px 0 10px}
-.bc-track .fill{position:absolute;inset:0;border-radius:99px;background:linear-gradient(90deg,var(--sky-tint),var(--sage-tint))}
-.bc-track .now{
-  position:absolute;top:50%;width:16px;height:16px;border-radius:50%;
-  background:var(--gold);border:3px solid var(--card);box-shadow:0 2px 8px rgba(0,0,0,.25);
-  transform:translate(-50%,-50%);transition:left .3s ease;
-}
-.bc-overlap{font-size:13px;color:var(--ink-soft);line-height:1.55}
-.bc-overlap b{color:var(--sage-deep)}
-
-/* ---------- audience split ---------- */
-.split{padding:6px 0 54px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.split-card{
-  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
-  padding:26px 26px 24px;
-}
-.split-card.employers{border-top:3px solid var(--sky)}
-.split-card.vas{border-top:3px solid var(--sage)}
-.split-card.team{border-top:3px solid var(--gold)}
-.split-card.training{border-top:3px dashed var(--line-strong)}
-.split-card h3{font-size:20px;margin:6px 0 8px}
-.split-card p{color:var(--ink-soft);font-size:14.5px;line-height:1.6;margin-bottom:16px}
-.split-card .soon-tag{
-  display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--ink-dim);background:var(--paper-soft);border:1px solid var(--line-strong);
-  padding:3px 10px;border-radius:999px;margin-bottom:10px;
-}
-.pool-card{
-  grid-column:1/-1;background:linear-gradient(120deg,var(--sage-tint),var(--sky-tint));
-  border:1px solid var(--line);border-radius:var(--radius);padding:30px 32px;
-  display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
-}
-.pool-card h3{font-size:21px;margin:6px 0 6px}
-.pool-card p{color:var(--ink-soft);font-size:14.5px;line-height:1.5;max-width:520px}
-@media(max-width:640px){.pool-card{flex-direction:column;align-items:flex-start}}
-
-/* ---------- board ---------- */
-.board{padding:8px 0 60px;border-top:1px solid var(--line)}
-.board-head{padding-top:44px;margin-bottom:20px}
-.board-head h2{font-size:28px;margin:8px 0 6px}
-.board-head p{color:var(--ink-soft);font-size:15px}
-
-.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:22px 0 8px}
-.search-wrap{position:relative;flex:1;min-width:240px}
-.search-wrap input{
-  width:100%;padding:12px 16px 12px 40px;border-radius:11px;border:1.5px solid var(--line-strong);
-  background:var(--card);font-family:var(--body);font-size:14.5px;color:var(--ink);
-}
-.search-wrap input:focus{border-color:var(--sky)}
-.search-wrap svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.5}
-.pill-row{display:flex;gap:8px;flex-wrap:wrap}
-.pill{
-  padding:9px 15px;border-radius:999px;border:1.5px solid var(--line-strong);
-  font-size:13.5px;font-weight:600;cursor:pointer;background:var(--card);color:var(--ink-soft);
-  white-space:nowrap;transition:all .15s ease;
-}
-.pill:hover{border-color:var(--ink)}
-.pill.is-on{background:var(--ink);border-color:var(--ink);color:#fff}
-.result-count{font-size:13.5px;color:var(--ink-dim);margin:14px 2px 4px;font-family:var(--mono)}
-
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:14px}
-.job-card{
-  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
-  padding:20px 20px 18px;cursor:pointer;transition:border-color .15s ease, transform .15s ease, box-shadow .15s ease;
-  display:flex;flex-direction:column;gap:10px;
-}
-.job-card:hover{border-color:var(--sky);transform:translateY(-2px);box-shadow:0 14px 30px -20px rgba(36,50,44,.4)}
-.job-card .row-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+/* ---------- filters ---------- */
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
 .chip{
-  display:inline-block;padding:4px 10px;border-radius:999px;font-size:11.5px;font-weight:700;
-  letter-spacing:.02em;font-family:var(--mono);text-transform:uppercase;
+  padding:9px 16px;border-radius:100px;cursor:pointer;
+  border:1px solid var(--line);background:rgba(255,255,255,.85);color:var(--ink-dim);
+  font-family:var(--mono);font-size:11px;letter-spacing:.11em;text-transform:uppercase;
+  transition:all .2s;
 }
-.chip.cat-Executive-Assistant{background:var(--sky-tint);color:var(--sky-deep)}
-.chip.cat-Virtual-Assistant{background:var(--sage-tint);color:var(--sage-deep)}
-.chip.cat-Personal-Assistant{background:var(--tan-tint);color:var(--tan-deep)}
-.chip.cat-Legal-Assistant{background:#F1E3E9;color:#8A3D57}
-.ph-badge{display:flex;gap:3px;align-items:center;flex-shrink:0}
-.ph-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--line-strong)}
-.ph-badge .dot.on{background:var(--gold)}
-.ph-badge span.lbl{font-family:var(--mono);font-size:10px;color:var(--ink-dim);margin-left:4px;letter-spacing:.04em}
-.job-card h3{font-size:17.5px;line-height:1.3}
-.job-card .company{font-size:13.5px;color:var(--ink-soft);font-weight:600}
-.job-card .meta{font-size:12.5px;color:var(--ink-dim);display:flex;gap:8px;flex-wrap:wrap}
-.job-card .summary{font-size:13.5px;color:var(--ink-soft);line-height:1.5;flex:1}
-.job-card .comp{font-family:var(--mono);font-size:12.5px;color:var(--sage-deep);font-weight:600}
-.empty-state{padding:60px 20px;text-align:center;color:var(--ink-dim)}
-.empty-state h4{color:var(--ink-soft);margin-bottom:6px;font-size:17px}
+.chip:hover{color:var(--ink-soft);border-color:var(--line-2)}
+.chip.on{background:rgba(127,77,224,.2);border-color:var(--purple);color:var(--ink)}
 
-.sample-banner{
-  background:var(--tan-tint);border:1px solid var(--tan);border-radius:11px;
-  padding:12px 16px;font-size:13.5px;color:var(--tan-deep);margin:18px 0 4px;display:flex;gap:10px;align-items:center;
+/* ---------- table ---------- */
+.panel{
+  border-radius:18px;overflow:hidden;
+  background:linear-gradient(160deg,rgba(255,255,255,.97),rgba(241,236,223,.9));
+  border:1px solid var(--line);
 }
-
-/* ---------- employer / candidate detail sections ---------- */
-.detail{padding:56px 0;border-top:1px solid var(--line)}
-.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-.detail h2{font-size:26px;margin:8px 0 12px}
-.detail p{color:var(--ink-soft);font-size:15px;line-height:1.65;margin-bottom:14px}
-.detail ul{margin:6px 0 18px 0;padding-left:0;list-style:none}
-.detail li{
-  padding-left:24px;position:relative;font-size:14.5px;color:var(--ink-soft);margin-bottom:9px;line-height:1.5;
+.panel-head{
+  padding:20px 26px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
 }
-.detail li::before{content:'—';position:absolute;left:0;color:var(--sage-deep);font-weight:700}
-
-/* ---------- footer ---------- */
-footer.site{border-top:1px solid var(--line);padding:36px 0 44px;color:var(--ink-dim);font-size:13px}
-footer.site .foot-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:center}
-footer.site a:hover{color:var(--ink)}
-
-/* ---------- drawer ---------- */
-.scrim{
-  position:fixed;inset:0;background:rgba(36,50,44,.4);backdrop-filter:blur(2px);
-  z-index:80;opacity:0;pointer-events:none;transition:opacity .2s ease;
+.panel-head h2{font-family:var(--head);font-size:19px;font-weight:600}
+.count{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--ink-dim)}
+table{width:100%;border-collapse:collapse}
+th{
+  text-align:left;padding:13px 18px;
+  font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink-dim);border-bottom:1px solid var(--line);white-space:nowrap;
 }
-.scrim.is-open{opacity:1;pointer-events:auto}
+td{padding:15px 18px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:middle}
+tr.row{cursor:pointer;transition:background .18s}
+tr.row:hover{background:rgba(62,124,147,.08)}
+.who b{display:block;font-weight:600}
+.who span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
+.role b{display:block;font-weight:500;font-size:13.5px}
+.role span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
+.ref{font-family:var(--mono);font-size:11px;color:var(--ink-dim)}
+.score{
+  font-family:var(--mono);font-size:13px;font-weight:500;
+  display:inline-grid;place-items:center;width:44px;height:32px;border-radius:9px;
+  border:1px solid currentColor;
+}
+.score.hi{color:var(--green)} .score.mid{color:var(--amber)} .score.lo{color:var(--ink-dim)}
+.pill{
+  font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  padding:5px 11px;border-radius:100px;border:1px solid currentColor;white-space:nowrap;
+}
+.pill.new{color:var(--green)} .pill.reviewing{color:var(--cyan)}
+.pill.interview{color:var(--purple-text)} .pill.offer{color:var(--pink)}
+.pill.hired{color:var(--green)} .pill.passed{color:var(--ink-dim)}
+.sent{font-size:15px}
+.sent.ok{color:var(--green)} .sent.no{color:var(--red)}
+.empty{padding:74px 20px;text-align:center;color:var(--ink-dim);font-size:14.5px}
+
+/* ---------- detail drawer ---------- */
+.scrim{position:fixed;inset:0;background:rgba(36,50,44,.42);backdrop-filter:blur(4px);z-index:60}
 .drawer{
-  position:fixed;top:0;right:0;bottom:0;width:min(560px,100%);background:var(--paper);
-  z-index:90;transform:translateX(100%);transition:transform .28s cubic-bezier(.2,.8,.2,1);
-  overflow-y:auto;box-shadow:-20px 0 60px rgba(36,50,44,.25);
+  position:fixed;top:0;right:0;bottom:0;width:min(640px,100%);z-index:61;
+  background:linear-gradient(160deg,#FFFFFF,#FAF6ED);border-left:1px solid var(--line-2);
+  display:flex;flex-direction:column;box-shadow:-30px 0 80px rgba(36,50,44,.22);
 }
-.drawer.is-open{transform:translateX(0)}
-.drawer-inner{padding:26px 28px 60px}
-.drawer-close{
-  width:34px;height:34px;border-radius:50%;border:1.5px solid var(--line-strong);background:var(--card);
-  display:grid;place-items:center;cursor:pointer;font-size:16px;margin-bottom:18px;
+.dr-top{padding:26px 30px;border-bottom:1px solid var(--line);position:relative}
+.dr-top h3{font-family:var(--head);font-size:25px;font-weight:700;margin-bottom:5px}
+.dr-top p{color:var(--ink-dim);font-size:14px}
+.dr-close{
+  position:absolute;top:22px;right:24px;width:34px;height:34px;border-radius:9px;cursor:pointer;
+  border:1px solid var(--line-2);background:rgba(255,255,255,.9);color:var(--ink-soft);font-size:15px;
 }
-.drawer-close:hover{border-color:var(--ink)}
-.drawer h2{font-size:23px;margin:4px 0 6px}
-.drawer .drawer-company{font-size:14.5px;color:var(--ink-soft);margin-bottom:6px}
-.drawer .drawer-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
-.drawer .desc{font-size:14.5px;color:var(--ink-soft);line-height:1.65;margin:16px 0 22px;white-space:pre-line}
-.ph-note{
-  background:var(--sky-tint);border:1px solid var(--sky);border-radius:11px;padding:13px 15px;
-  font-size:13.5px;color:var(--sky-deep);margin-bottom:20px;line-height:1.55;
+.dr-body{padding:26px 30px;overflow-y:auto;flex:1}
+.dr-sec{margin-bottom:26px}
+.dr-sec h4{
+  font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-dim);margin-bottom:11px;
 }
-.ph-note.low{background:var(--paper-soft);border-color:var(--line-strong);color:var(--ink-soft)}
-
-/* ---------- apply wizard ---------- */
-.wiz-steps{display:flex;gap:8px;margin:22px 0 20px}
-.wiz-step{flex:1}
-.wiz-bar{height:4px;border-radius:99px;background:var(--line-strong);overflow:hidden;margin-bottom:6px}
-.wiz-bar span{display:block;height:100%;width:0;background:var(--sage-deep);transition:width .2s ease}
-.wiz-step.is-on .wiz-bar span,.wiz-step.is-done .wiz-bar span{width:100%}
-.wiz-step small{display:block;font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-dim)}
-.wiz-intro{font-size:14px;color:var(--ink-soft);margin-bottom:18px;line-height:1.55}
-.f{margin-bottom:16px}
-.f-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.f-row.mi{grid-template-columns:1fr 50px 1fr}
-.f label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--ink)}
-.f label .opt{font-weight:400;color:var(--ink-dim)}
-.f label .req{color:var(--sky-deep)}
-.f input,.f textarea{
-  width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);
-  font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink);
+.dr-sec p,.dr-sec li{font-size:14.5px;line-height:1.68;color:var(--ink-soft)}
+.dr-sec ul{padding-left:19px}
+.dr-sec li{margin-bottom:7px}
+.bg-text{white-space:pre-wrap;border-left:2px solid var(--line-2);padding-left:15px}
+.dr-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border-radius:12px;overflow:hidden;margin-bottom:26px}
+.dr-fact{background:var(--panel);padding:15px 18px}
+.dr-fact dt{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-dim);margin-bottom:5px}
+.dr-fact dd{font-size:14px;font-weight:500}
+.dr-foot{padding:20px 30px;border-top:1px solid var(--line);display:flex;gap:9px;flex-wrap:wrap}
+.dr-send{padding:18px 30px 24px;border-top:1px solid var(--line);background:rgba(127,77,224,.06)}
+.dr-decline{padding:18px 30px 24px;border-top:1px solid var(--line);background:rgba(255,107,107,.05)}
+.dr-decline h4{
+  font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-dim);margin-bottom:11px;
 }
-.f input:focus,.f textarea:focus{border-color:var(--sky)}
-.f textarea{min-height:170px;resize:vertical;line-height:1.5}
-.f.has-error input,.f.has-error textarea{border-color:var(--danger)}
-.f .err{display:block;font-size:12px;color:var(--danger);margin-top:5px}
-.char-count{font-size:12px;color:var(--ink-dim);margin-top:5px}
-.char-count.is-thin{color:var(--tan-deep)}
-.hint{display:block;font-size:12px;color:var(--ink-dim);margin-top:6px}
-.wiz-foot{display:flex;align-items:center;gap:10px;margin-top:22px}
-.wiz-foot .spacer{flex:1}
-.wiz-sending{font-size:14px;color:var(--ink-soft);font-family:var(--mono)}
-
-.thinking{display:flex;flex-direction:column;align-items:center;gap:16px;padding:50px 10px;text-align:center}
-.thinking-ring{
-  width:44px;height:44px;border-radius:50%;border:3px solid var(--line-strong);border-top-color:var(--sage-deep);
-  animation:spin 1s linear infinite;
+.dr-decline textarea{min-height:58px;margin-bottom:11px}
+.dl-check{
+  display:flex;align-items:center;gap:9px;margin-bottom:13px;
+  font-size:13px;color:var(--ink-soft);cursor:pointer;
 }
-@keyframes spin{to{transform:rotate(360deg)}}
-.thinking p{color:var(--ink-soft);font-size:14px}
-
-.score-card{display:flex;gap:18px;align-items:center;margin-bottom:22px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
-.score-ring{position:relative;width:84px;height:84px;flex-shrink:0}
-.score-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
-.score-ring circle{fill:none;stroke-width:8}
-.score-ring .track{stroke:var(--paper-soft)}
-.score-ring .fill{stroke:var(--gold);stroke-linecap:round}
-.score-ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-size:22px}
-.score-card h4{font-size:16px;margin-bottom:4px}
-.score-card p{font-size:13px;color:var(--ink-soft);line-height:1.5}
-.rev-block{margin-bottom:18px}
-.rev-block h5{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;font-family:var(--mono);margin-bottom:8px;color:var(--ink-soft)}
-.rev-block h5.green{color:var(--sage-deep)}
-.rev-list{list-style:none;padding:0}
-.rev-list li{font-size:13.5px;color:var(--ink-soft);padding-left:18px;position:relative;margin-bottom:7px;line-height:1.5}
-.rev-list li::before{content:'✓';position:absolute;left:0;color:var(--sage-deep);font-weight:700}
-.rev-list.gap li::before{content:'○';color:var(--tan-deep)}
-.tag-row{display:flex;flex-wrap:wrap;gap:6px}
-.tag{background:var(--sage-tint);color:var(--sage-deep);padding:5px 11px;border-radius:999px;font-size:12px;font-weight:600}
-.ai-note{font-size:12px;color:var(--ink-dim);line-height:1.5;margin-top:6px}
-
-.done-mark{width:56px;height:56px;border-radius:50%;background:var(--sage-tint);color:var(--sage-deep);display:grid;place-items:center;font-size:26px;margin:20px auto 18px;font-weight:700}
-.done-mark.err{background:#F1E3E0;color:var(--danger)}
-.drawer .done h3{text-align:center;font-size:21px;margin-bottom:8px}
-.drawer .done p{text-align:center;font-size:14px;color:var(--ink-soft)}
-.done-ref{font-family:var(--mono);font-size:12.5px;color:var(--ink-dim);margin-top:6px}
-.drawer-foot{margin-top:26px}
-
-@media (max-width:860px){
-  .hero{grid-template-columns:1fr;gap:34px}
-  .split{grid-template-columns:1fr}
-  .detail-grid{grid-template-columns:1fr}
-  .f-row{grid-template-columns:1fr}
-  .f-row.mi{grid-template-columns:1fr}
-  nav.site-nav{display:none}
+.dl-check input{width:15px;height:15px;accent-color:var(--purple);cursor:pointer}
+.send-note{font-size:12.5px;line-height:1.6;color:var(--ink-dim);margin-bottom:14px}
+.send-note b{color:var(--ink-soft)}
+.send-row{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:10px}
+.btn.send{border-color:var(--purple);color:var(--ink)}
+.btn.send.danger{border-color:rgba(180,85,63,.5);color:var(--red)}
+.btn.send.danger:hover{border-color:var(--red);background:rgba(255,107,107,.1)}
+.send-warn{color:var(--amber);display:block;margin-top:6px;font-size:12px}
+.send-status{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink-dim)}
+.dr-foot .btn.act{border-color:var(--purple);color:var(--ink)}
+textarea{
+  width:100%;min-height:90px;padding:13px 15px;border-radius:11px;resize:vertical;
+  background:rgba(255,255,255,.9);border:1px solid var(--line-2);color:var(--ink);
+  font-family:var(--body);font-size:14px;line-height:1.6;
+}
+textarea:focus{outline:none;border-color:var(--purple)}
+@media(max-width:760px){
+  .dr-grid{grid-template-columns:1fr}
+  th.hide,td.hide{display:none}
 }
 </style>
 </head>
 <body>
 
-<header class="site">
-  <div class="wrap site-bar">
-    <a class="wordmark" href="#top">
-      <span class="mark">BD</span>
-      BridgeDesk
-    </a>
-    <nav class="site-nav">
-      <a href="#board">Open roles</a>
-      <a href="#employers">For employers</a>
-      <a href="#candidates">For VAs</a>
-      <a href="#pool">Join the pool</a>
-    </nav>
+<!-- Sign in. The key is exchanged for an HttpOnly cookie rather than living in
+     the URL: this page shows names, emails and career histories, and a ?key= in
+     the address bar leaks into history, bookmarks and referer headers. -->
+<div class="gate" id="gate">
+  <div class="gate-card">
+    <h1>Command Center</h1>
+    <p>Enter your admin key to see the applicant pipeline.</p>
+    <input type="password" id="key" placeholder="Admin key" autocomplete="current-password" />
+    <button type="button" id="signin">Sign in</button>
+    <div class="err" id="gate-err"></div>
   </div>
-</header>
+</div>
 
-<main id="top">
-  <div class="wrap hero">
+<div class="wrap" id="app" hidden>
+  <div class="top">
     <div>
-      <div class="eyebrow">US startups · remote-first hiring</div>
-      <h1>The bridge between <em>US teams</em> and <em>Filipino talent.</em></h1>
-      <p class="lede">BridgeDesk scrapes Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant openings straight from US startups' own career pages — then scores every one for how openly it reads to a Philippines-based hire.</p>
-      <div class="hero-ctas">
-        <a href="#board" class="btn primary">Browse open roles</a>
-        <a href="#employers" class="btn">I'm hiring</a>
-      </div>
+      <div class="eyebrow">Command Center</div>
+      <h1 class="title" id="title">Pipeline</h1>
     </div>
-
-    <div class="bridge-clock" aria-label="Current time in the US and the Philippines">
-      <div class="bc-head">
-        <span>Right now</span>
-        <span id="bc-overlap-label">—</span>
-      </div>
-      <div class="bc-cities">
-        <div class="bc-city us">
-          <div class="place">New York, ET</div>
-          <div class="time" id="bc-us-time">--:--</div>
-        </div>
-        <div class="bc-city ph">
-          <div class="place">Manila, PHT</div>
-          <div class="time" id="bc-ph-time">--:--</div>
-        </div>
-      </div>
-      <div class="bc-track"><div class="fill"></div><div class="now" id="bc-now" style="left:50%"></div></div>
-      <p class="bc-overlap" id="bc-overlap-text">Manila runs 12–13 hours ahead of US Eastern — an early PH shift lines up with the US evening before, a late PH shift with the US morning.</p>
+    <div style="display:flex;gap:9px">
+      <button class="btn" type="button" id="refresh">Refresh</button>
+      <button class="btn" type="button" id="signout">Sign out</button>
+      <a class="btn" href="/">← Board</a>
     </div>
   </div>
 
-  <div class="wrap split">
-    <div class="split-card employers" id="employers">
-      <div class="eyebrow">For US employers</div>
-      <h3>Hire a remote EA or VA without running the search yourself</h3>
-      <p>We pre-screen Filipino candidates against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. There's no cost until you actually decide to hire.</p>
-      <a class="btn gold" href="mailto:hello@bridgedesk.co?subject=Hiring%20a%20remote%20assistant">Tell us who you're looking for</a>
-    </div>
-    <div class="split-card team" id="team">
-      <div class="eyebrow">For growing teams</div>
-      <h3>Hire a Team — build out several roles at once</h3>
-      <p>Bringing on more than one remote assistant? Tell us the roles, skills and budget once, and we match candidates across all of them together — one intake instead of running each search separately.</p>
-      <a class="btn" type="button" id="team-cta-btn">Tell us who you're building</a>
-    </div>
-    <div class="split-card vas" id="candidates">
-      <div class="eyebrow">For Filipino VAs &amp; EAs</div>
-      <h3>Apply to real openings at real US startups</h3>
-      <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly through BridgeDesk and get an AI-reviewed read on how your background matches the role before you send it.</p>
-      <a class="btn" href="#board">Browse open roles ↓</a>
-    </div>
-    <div class="split-card training" id="training">
-      <span class="soon-tag">Coming soon</span>
-      <div class="eyebrow">For Filipino VAs &amp; EAs</div>
-      <h3>Training — get role-ready before you apply</h3>
-      <p>A structured path for tools, async communication and client-handling skills that US employers look for. Not live yet — check back, or sign up for the pool below to hear when it opens.</p>
-      <button class="btn" type="button" disabled>Coming soon</button>
+  <div class="filters" style="margin-bottom:22px">
+    <button class="chip on" type="button" id="tab-pipeline">Pipeline</button>
+    <button class="chip" type="button" id="tab-matching">Matching</button>
+  </div>
+
+  <div id="view-pipeline">
+    <div class="stats" id="stats"></div>
+
+    <div class="filters" id="filters"></div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <h2>All Applicants</h2>
+        <span class="count" id="count"></span>
+      </div>
+      <div id="table-wrap"><div class="empty">Loading…</div></div>
     </div>
   </div>
 
-  <div class="wrap" style="padding-bottom:54px" id="pool">
-    <div class="pool-card">
-      <div>
-        <div class="eyebrow">Join our pool</div>
-        <h3>Be notified the moment you're a perfect match</h3>
-        <p>Not applying to a specific role right now? Leave a standing profile — bio, skills, rate and (optionally) your résumé — and we'll reach out directly when an employer's needs line up with yours.</p>
+  <div id="view-matching" hidden>
+    <div class="panel" style="margin-bottom:18px">
+      <div class="panel-head">
+        <h2>Employer requests</h2>
+        <span class="count" id="employer-count"></span>
       </div>
-      <button class="btn primary" type="button" id="pool-cta-btn">Join the pool →</button>
+      <div id="employer-table-wrap"><div class="empty">Loading…</div></div>
+    </div>
+    <div class="panel" id="matches-panel" hidden>
+      <div class="panel-head">
+        <h2 id="matches-title">Matches</h2>
+        <span class="count" id="matches-count"></span>
+      </div>
+      <div id="matches-wrap"></div>
     </div>
   </div>
-
-  <section class="board" id="board">
-    <div class="wrap">
-      <div class="board-head">
-        <div class="eyebrow">Live roles</div>
-        <h2>Open Virtual, Executive, Personal &amp; Legal Assistant roles</h2>
-        <p id="stats-line">Loading roles…</p>
-      </div>
-
-      <div id="sample-banner" class="sample-banner" hidden>
-        <span>●</span> Showing sample data — this board hasn't scraped live roles yet. Run the scraper to populate it.
-      </div>
-
-      <div class="controls">
-        <div class="search-wrap">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-          <input type="search" id="search" placeholder="Search by title, company, or location…" aria-label="Search roles" />
-        </div>
-      </div>
-      <div class="pill-row" id="cat-pills" role="group" aria-label="Filter by role"></div>
-      <div class="pill-row" id="ph-pills" role="group" aria-label="Filter by PH signal" style="margin-top:8px"></div>
-      <p class="result-count" id="count"></p>
-
-      <div class="grid" id="grid"></div>
-    </div>
-  </section>
-
-  <section class="detail">
-    <div class="wrap detail-grid">
-      <div>
-        <div class="eyebrow">How the PH signal works</div>
-        <h2>We score every posting, we don't filter it</h2>
-        <p>Most US companies never say "open to the Philippines" outright — so instead of hiding roles that are silent on it, every listing gets a score from what its own language suggests:</p>
-        <ul>
-          <li><b>3 — strong:</b> explicitly mentions the Philippines, international contractors, or hiring "anywhere in the world."</li>
-          <li><b>2 — medium:</b> "remote-first," "fully distributed," or contractor-friendly language.</li>
-          <li><b>1 — weak:</b> just says "remote" or "flexible hours," with no further detail either way.</li>
-          <li><b>0 — none:</b> the posting is silent — worth a pitch, just not a confirmed yes.</li>
-        </ul>
-      </div>
-      <div>
-        <div class="eyebrow">The introduction process</div>
-        <h2>What happens after you apply</h2>
-        <p>BridgeDesk reviews every application against the role it was sent for, using the same AI-assisted read the company would eventually see. Strong matches get forwarded to the employer — so employers only pay once someone's actually hired, and candidates always hear back either way.</p>
-        <ul>
-          <li>Applications are reviewed within a few business days.</li>
-          <li>Employers are only contacted for candidates worth their time.</li>
-          <li>No fee to candidates, ever — BridgeDesk is paid by the hiring company.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site">
-  <div class="wrap foot-row">
-    <div class="wordmark" style="font-size:16px">
-      <span class="mark" style="width:22px;height:22px;font-size:10px">BD</span>
-      BridgeDesk
-    </div>
-    <div>
-      <a href="mailto:hello@bridgedesk.co">hello@bridgedesk.co</a>
-      &nbsp;·&nbsp; Roles refresh daily
-    </div>
-  </div>
-</footer>
-
-<div class="scrim" id="scrim"></div>
-<div class="drawer" id="drawer" role="dialog" aria-modal="true"><div class="drawer-inner" id="drawer-inner"></div></div>
+</div>
 
 <script>
-/* ==========================================================================
-   Data + rendering
-   ========================================================================== */
 const $ = (id) => document.getElementById(id);
-const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let ALL = [], COUNTS = {}, filterCat = 'all', filterStatus = 'all', openRef = null;
 
-const CATEGORIES = ['All', 'Virtual Assistant', 'Executive Assistant', 'Personal Assistant', 'Legal Assistant'];
-const PH_FILTERS = [
-  { id: 'all', label: 'All roles' },
-  { id: 'strong', label: 'PH signal 2+' },
-  { id: 'confirmed', label: 'PH signal 3' },
-];
+/* The admin key, held in memory for this tab only. Sent as a header on every
+   request rather than relying on a cookie: a cookie can be blocked or dropped
+   by the browser with no visible error, which is impossible to diagnose from
+   the outside. sessionStorage keeps a refresh from logging you out, and is
+   cleared when the tab closes. */
+/* The key is remembered for this tab, but not indefinitely: this page shows
+   names, emails and career histories, and an unattended laptop should not leave
+   them open. After IDLE_MINUTES without a request the key is dropped and the
+   gate returns. */
+const IDLE_MINUTES = 60;
 
-let JOBS = [];
-let filters = { q: '', cat: 'All', ph: 'all' };
+let ADMIN_KEY = '';
+try {
+  const saved = sessionStorage.getItem('ff_admin_key');
+  const at = Number(sessionStorage.getItem('ff_admin_at') || 0);
+  if (saved && at && (Date.now() - at) < IDLE_MINUTES * 60000) ADMIN_KEY = saved;
+  else sessionStorage.removeItem('ff_admin_key');
+} catch (_) { /* storage blocked */ }
 
-async function loadJobs() {
+/** Called on every authenticated request, so the hour counts from last use. */
+function touchSession() {
+  try { sessionStorage.setItem('ff_admin_at', String(Date.now())); } catch (_) {}
+}
+
+/** Drops the key and returns to the gate. */
+function signOut(message) {
+  ADMIN_KEY = '';
+  try { sessionStorage.removeItem('ff_admin_key'); sessionStorage.removeItem('ff_admin_at'); } catch (_) {}
+  $('app').hidden = true;
+  $('gate').hidden = false;
+  $('key').value = '';
+  if (message) $('gate-err').textContent = message;
+}
+const authHeaders = () => (ADMIN_KEY ? { 'X-Admin-Key': ADMIN_KEY } : {});
+
+/* What each stored status is called on screen. 'passed' is the value in the
+   database; "Declined" is what it means. */
+const STATUS_LABEL = {
+  new: 'New', reviewing: 'Reviewing', interview: 'Interview',
+  offer: 'Offer', hired: 'Hired', passed: 'Declined',
+};
+
+const ICONS = {
+  total: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h12"/></svg>',
+  new: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>',
+  interview: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+  offer: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>',
+};
+
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const ago = (iso) => {
+  const then = Date.parse((iso || '').replace(' ', 'T') + 'Z');
+  if (Number.isNaN(then)) return '';
+  const mins = Math.floor((Date.now() - then) / 60000);
+  if (mins < 60) return mins + 'm ago';
+  const h = Math.floor(mins / 60);
+  if (h < 24) return h + 'h ago';
+  const d = Math.floor(h / 24);
+  return d < 30 ? d + 'd ago' : Math.floor(d / 30) + 'mo ago';
+};
+
+/* ---------- sign in ---------- */
+async function signIn() {
+  // The whole body is wrapped: any throw at all — a parse failure, blocked
+  // sessionStorage, a render bug — becomes a visible message instead of
+  // leaving the button stuck on "Checking…" with nothing to see.
   try {
-    const res = await fetch('jobs.json', { cache: 'no-store' });
-    const data = await res.json();
-    JOBS = Array.isArray(data) ? data : (data.jobs || []);
-    if (data.sample) $('sample-banner').hidden = false;
-    renderPills();
+    const key = $('key').value.trim();
+    if (!key) { $('gate-err').textContent = 'Enter your key.'; return; }
+
+    $('gate-err').textContent = 'Checking…';
+    ADMIN_KEY = key;
+
+    // One request. If the key is right this returns the applications directly,
+    // so there is no separate login step to go wrong.
+    const res = await fetch('/api/applications', { headers: { 'X-Admin-Key': key } });
+
+    touchSession();
+
+  if (res.status === 401) {
+      ADMIN_KEY = '';
+      $('gate-err').textContent = 'That key was not accepted.';
+      return;
+    }
+
+    // Read as text first. If the API route is missing, Cloudflare's fallback
+    // answers with index.html and a 200 — calling res.json() on that throws.
+    const raw = await res.text();
+    let body = null;
+    try { body = JSON.parse(raw); } catch (_) { /* not JSON */ }
+
+    if (body === null) {
+      ADMIN_KEY = '';
+      $('gate-err').textContent = raw.trim().startsWith('<')
+        ? 'The API returned a page instead of data — worker.js may not be deployed.'
+        : 'The server sent something unexpected (' + res.status + ').';
+      return;
+    }
+
+    if (!res.ok) {
+      $('gate-err').textContent = body.error || ('Server returned ' + res.status);
+      return;
+    }
+
+    // Storage is a nicety, not a requirement — some browsers block it.
+    try { sessionStorage.setItem('ff_admin_key', key); } catch (_) {}
+    touchSession();
+
+    ALL = body.applications || [];
+    COUNTS = body.counts || {};
+    $('gate-err').textContent = '';
+    $('gate').hidden = true;
+    $('app').hidden = false;
     render();
+
   } catch (err) {
-    $('stats-line').textContent = "Couldn't load the job feed — try refreshing.";
+    console.error('[admin] sign-in failed:', err);
+    $('gate-err').textContent = 'Sign-in error: ' + (err && err.message ? err.message : String(err));
   }
 }
 
-function renderPills() {
-  const catWrap = $('cat-pills');
-  catWrap.innerHTML = CATEGORIES.map((c) =>
-    `<button type="button" class="pill ${filters.cat === c ? 'is-on' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`
-  ).join('');
-  catWrap.querySelectorAll('.pill').forEach((btn) =>
-    btn.addEventListener('click', () => { filters.cat = btn.dataset.cat; renderPills(); render(); })
-  );
+$('signin').addEventListener('click', signIn);
+$('key').addEventListener('keydown', (e) => { if (e.key === 'Enter') signIn(); });
 
-  const phWrap = $('ph-pills');
-  phWrap.innerHTML = PH_FILTERS.map((p) =>
-    `<button type="button" class="pill ${filters.ph === p.id ? 'is-on' : ''}" data-ph="${p.id}">${esc(p.label)}</button>`
-  ).join('');
-  phWrap.querySelectorAll('.pill').forEach((btn) =>
-    btn.addEventListener('click', () => { filters.ph = btn.dataset.ph; renderPills(); render(); })
-  );
+/* ---------- data ---------- */
+/** Returns null on success, or a sentence explaining what went wrong. */
+async function load() {
+  let res;
+  try {
+    res = await fetch('/api/applications', { headers: authHeaders() });
+  } catch (err) {
+    return 'Could not reach the server. Check your connection and try again.';
+  }
+
+  if (res.status === 401) {
+    // The cookie did not come back. Almost always a browser blocking cookies,
+    // or the site being served over http where a Secure cookie is dropped.
+    $('app').hidden = true; $('gate').hidden = false;
+    return 'Your session expired. Sign in again.';
+  }
+
+  // Same defensive parse as signIn: if the API route is missing, the SPA
+  // fallback answers with index.html and a 200, and res.json() would throw.
+  const raw = await res.text();
+  let body = null;
+  try { body = JSON.parse(raw); } catch (_) { /* not JSON */ }
+  if (body === null) {
+    const msg = raw.trim().startsWith('<')
+      ? 'The API returned a page instead of data — worker.js may not be deployed.'
+      : 'The server sent something unexpected.';
+    $('table-wrap').innerHTML = '<div class="empty">' + esc(msg) + '</div>';
+    return msg;
+  }
+
+  if (!res.ok) {
+    const msg = body.error || ('Server returned ' + res.status);
+    $('table-wrap').innerHTML = '<div class="empty">' + esc(msg) + '</div>';
+    return msg;
+  }
+
+  ALL = body.applications || [];
+  COUNTS = body.counts || {};
+  render();
+  return null;
 }
+$('refresh').addEventListener('click', () => load());
+$('signout').addEventListener('click', () => signOut('Signed out.'));
 
-function visibleJobs() {
-  const q = filters.q.trim().toLowerCase();
-  return JOBS.filter((j) => {
-    if (filters.cat !== 'All' && j.category !== filters.cat) return false;
-    if (filters.ph === 'strong' && (j.ph_signal || 0) < 2) return false;
-    if (filters.ph === 'confirmed' && (j.ph_signal || 0) < 3) return false;
-    if (q) {
-      const hay = `${j.title} ${j.company} ${j.location}`.toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
-    return true;
-  });
-}
+/* Expire the session while the tab sits open, not only on reload. */
+setInterval(() => {
+  if (!ADMIN_KEY || $('app').hidden) return;
+  let at = 0;
+  try { at = Number(sessionStorage.getItem('ff_admin_at') || 0); } catch (_) {}
+  if (at && (Date.now() - at) > IDLE_MINUTES * 60000) {
+    signOut('Session expired after ' + IDLE_MINUTES + ' minutes. Sign in again.');
+  }
+}, 60000);
 
-function phBadge(n) {
-  n = n || 0;
-  const dots = [1, 2, 3].map((i) => `<span class="dot ${i <= n ? 'on' : ''}"></span>`).join('');
-  return `<span class="ph-badge" title="PH signal ${n}/3">${dots}<span class="lbl">PH ${n}/3</span></span>`;
-}
-
-function compLine(j) {
-  if (j.comp_min && j.comp_max) return `$${Math.round(j.comp_min / 1000)}k–$${Math.round(j.comp_max / 1000)}k`;
-  return '';
+/* ---------- render ---------- */
+function visible() {
+  return ALL.filter((a) =>
+    (filterCat === 'all' || a.category === filterCat) &&
+    (filterStatus === 'all' || a.status === filterStatus));
 }
 
 function render() {
-  const list = visibleJobs();
-  const total = JOBS.length;
-  $('stats-line').textContent = total
-    ? `${total} open role${total === 1 ? '' : 's'} across ${new Set(JOBS.map((j) => j.company)).size} startups.`
-    : 'No roles in the feed yet.';
-  $('count').textContent = `${list.length} of ${total} roles`;
-
-  const grid = $('grid');
-  if (!list.length) {
-    grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1"><h4>No roles match that filter</h4><p>Try clearing the search or picking a different category.</p></div>`;
-    return;
+  try { renderInner(); }
+  catch (err) {
+    console.error('[admin] render failed:', err);
+    $('table-wrap').innerHTML = '<div class="empty">Could not draw the table: ' + esc(err.message) + '</div>';
   }
+}
 
-  grid.innerHTML = list.map((j) => {
-    const catClass = 'cat-' + String(j.category).replace(/\s+/g, '-');
-    const comp = compLine(j);
-    return `
-    <article class="job-card" data-id="${esc(j.id)}">
-      <div class="row-top">
-        <span class="chip ${catClass}">${esc(j.category)}</span>
-        ${phBadge(j.ph_signal)}
-      </div>
-      <div>
-        <h3>${esc(j.title)}</h3>
-        <div class="company">${esc(j.company)}</div>
-      </div>
-      <div class="meta"><span>${esc(j.location)}</span>${j.level ? `<span>· ${esc(j.level)}</span>` : ''}</div>
-      <p class="summary">${esc(j.summary)}</p>
-      ${comp ? `<div class="comp">${esc(comp)}</div>` : ''}
-    </article>`;
+function renderInner() {
+  const n = (s) => ALL.filter((a) => a.status === s).length;
+  $('title').textContent = filterCat === 'all' ? 'Pipeline' : filterCat + ' Pipeline';
+
+  $('stats').innerHTML = [
+    ['total', 'Total', ALL.length, 'all time'],
+    ['new', 'New', n('new'), 'awaiting review'],
+    ['interview', 'Interview', n('interview'), 'in process'],
+    ['offer', 'Offers', n('offer') + n('hired'), n('hired') + ' hired'],
+  ].map(([tone, label, value, sub]) => `
+    <div class="stat" data-tone="${tone}">
+      <div class="stat-k">${ICONS[tone]}${label}</div>
+      <div class="stat-v">${value}</div>
+      <div class="stat-sub">${esc(sub)}</div>
+    </div>`).join('');
+
+  $('filters').innerHTML = [
+    ['cat', 'all', 'All roles'], ['cat', 'Virtual Assistant', 'Virtual Assistant'],
+    ['cat', 'Executive Assistant', 'Executive Assistant'], ['cat', 'Personal Assistant', 'Personal Assistant'],
+    ['cat', 'Legal Assistant', 'Legal Assistant'],
+    ['status', 'all', 'Any status'], ['status', 'new', 'New'], ['status', 'reviewing', 'Reviewing'],
+    ['status', 'interview', 'Interview'], ['status', 'offer', 'Offer'],
+    ['status', 'hired', 'Hired'], ['status', 'passed', 'Declined'],
+  ].map(([kind, val, label]) => {
+    const on = (kind === 'cat' ? filterCat : filterStatus) === val;
+    return `<button class="chip${on ? ' on' : ''}" data-kind="${kind}" data-val="${val}">${label}</button>`;
   }).join('');
 
-  grid.querySelectorAll('.job-card').forEach((card) =>
-    card.addEventListener('click', () => openJob(card.dataset.id))
-  );
-}
+  const rows = visible();
+  $('count').textContent = rows.length + (rows.length === 1 ? ' application' : ' applications');
 
-$('search').addEventListener('input', (e) => { filters.q = e.target.value; render(); });
-
-/* ==========================================================================
-   Drawer: job detail + apply wizard
-   ========================================================================== */
-const scrim = $('scrim'), drawer = $('drawer'), drawerInner = $('drawer-inner');
-let apply = null; // { job, step, data, review }
-
-function closeDrawer() {
-  scrim.classList.remove('is-open');
-  drawer.classList.remove('is-open');
-  apply = null;
-}
-scrim.addEventListener('click', closeDrawer);
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
-
-function openJob(id) {
-  const job = JOBS.find((j) => j.id === id);
-  if (!job) return;
-  apply = null;
-  renderJobDetail(job);
-  scrim.classList.add('is-open');
-  drawer.classList.add('is-open');
-}
-
-function phNote(n) {
-  n = n || 0;
-  if (n >= 2) return `<div class="ph-note">This posting's own language reads as open to remote/international hiring (PH signal ${n}/3) — a good one to apply to directly.</div>`;
-  if (n === 1) return `<div class="ph-note low">This posting just says "remote" with no further detail (PH signal 1/3). Worth applying — BridgeDesk pitches the case for a PH hire as part of every introduction.</div>`;
-  return `<div class="ph-note low">This posting doesn't mention remote/international hiring either way (PH signal 0/3). Still worth applying — the fit gets made in the introduction, not the job ad.</div>`;
-}
-
-function renderJobDetail(job) {
-  drawerInner.innerHTML = `
-    <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <span class="chip cat-${esc(String(job.category).replace(/\s+/g,'-'))}">${esc(job.category)}</span>
-    <h2 style="margin-top:12px">${esc(job.title)}</h2>
-    <div class="drawer-company">${esc(job.company)} · ${esc(job.location)}</div>
-    <div class="drawer-meta">${phBadge(job.ph_signal)}${compLine(job) ? `<span class="chip" style="background:var(--tan-tint);color:var(--tan-deep)">${esc(compLine(job))}</span>` : ''}</div>
-    ${phNote(job.ph_signal)}
-    <p class="desc">${esc(job.description || job.summary)}</p>
-    <div class="drawer-foot">
-      <button type="button" class="btn primary block" id="apply-btn">Apply through BridgeDesk</button>
-      ${job.apply_url ? `<p style="margin-top:10px;font-size:12.5px;text-align:center"><a href="${esc(job.apply_url)}" target="_blank" rel="noopener">View the original posting ↗</a></p>` : ''}
-    </div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  drawerInner.querySelector('#apply-btn').addEventListener('click', () => openApply(job));
-}
-
-const STAGE_LABELS = [['01', 'About you'], ['02', 'Background'], ['03', 'Review']];
-
-function openApply(job) {
-  apply = { job, step: 1, data: apply?.data || {}, review: null };
-  renderApply();
-}
-
-function renderApply() {
-  if (!apply) return;
-  const { job, step } = apply;
-  drawerInner.innerHTML = `
-    <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <span class="chip cat-${esc(String(job.category).replace(/\s+/g,'-'))}">Applying</span>
-    <h2 style="margin-top:12px">${esc(job.title)}</h2>
-    <div class="drawer-company">${esc(job.company)} · ${esc(job.location)}</div>
-    <div class="wiz-steps">
-      ${STAGE_LABELS.map((s, i) => `
-        <div class="wiz-step ${step === i + 1 ? 'is-on' : ''} ${step > i + 1 ? 'is-done' : ''}">
-          <div class="wiz-bar"><span></span></div><small>${s[0]} · ${s[1]}</small>
-        </div>`).join('')}
-    </div>
-    <div id="wiz-body"></div>
-    <div class="wiz-foot" id="wiz-foot"></div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-
-  if (step === 1) stageOne();
-  else if (step === 2) stageTwo();
-  else stageThree();
-}
-
-function stageOne() {
-  const d = apply.data;
-  const field = (id, label, opts = {}) => `
-    <div class="f" data-for="${id}">
-      <label for="a-${id}">${label} ${opts.optional ? '<span class="opt">(optional)</span>' : '<span class="req">*</span>'}</label>
-      <input id="a-${id}" type="${opts.type || 'text'}" value="${esc(d[id] || '')}" placeholder="${esc(opts.ph || '')}" />
-    </div>`;
-
-  $('wiz-body').innerHTML = `
-    <p class="wiz-intro">Tell us who you are. Optional fields just sharpen the review in step three.</p>
-    <div class="f-row">${field('first', 'First name')}${field('last', 'Last name')}</div>
-    <div class="f-row">${field('email', 'Email address', { type: 'email', ph: 'you@example.com' })}${field('phone', 'Phone / WhatsApp number', { type: 'tel' })}</div>
-    ${field('linkedin', 'LinkedIn or portfolio link', { optional: true, ph: 'linkedin.com/in/yourname' })}`;
-
-  $('wiz-foot').innerHTML = `
-    <button class="btn" type="button" id="wiz-back">Back to role</button>
-    <span class="spacer"></span>
-    <button class="btn primary" type="button" id="wiz-next">Continue →</button>`;
-
-  $('wiz-back').addEventListener('click', () => renderJobDetail(apply.job));
-  $('wiz-next').addEventListener('click', () => {
-    ['first', 'last', 'email', 'phone', 'linkedin'].forEach((id) => { apply.data[id] = ($('a-' + id)?.value || '').trim(); });
-    if (validateOne()) { apply.step = 2; renderApply(); }
-  });
-}
-
-function markError(id, message) {
-  const wrap = document.querySelector(`.f[data-for="${id}"]`);
-  if (!wrap) return;
-  wrap.classList.add('has-error');
-  if (!wrap.querySelector('.err')) {
-    const e = document.createElement('span');
-    e.className = 'err'; e.textContent = message; wrap.append(e);
-  }
-}
-
-function validateOne() {
-  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
-  const d = apply.data;
-  let ok = true;
-  if (!d.first) { markError('first', 'Add your first name.'); ok = false; }
-  if (!d.last) { markError('last', 'Add your last name.'); ok = false; }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email)) { markError('email', 'Add a valid email address.'); ok = false; }
-  if ((d.phone || '').replace(/\D/g, '').length < 7) { markError('phone', 'Add a number we can reach you on.'); ok = false; }
-  if (!ok) document.querySelector('.f.has-error input')?.focus();
-  return ok;
-}
-
-function stageTwo() {
-  const d = apply.data;
-  $('wiz-body').innerHTML = `
-    <p class="wiz-intro">Paste your résumé or write a summary of your background. Specifics beat adjectives — tools you use, hours you've covered, what you actually own day to day.</p>
-    <div class="f" data-for="background">
-      <label for="a-background">Résumé / professional background <span class="req">*</span></label>
-      <textarea id="a-background" placeholder="Years of experience, the kind of exec/company you've supported, tools (calendars, inboxes, CRMs), and the hours you're available.">${esc(d.background || '')}</textarea>
-      <div class="char-count" id="cc"></div>
-    </div>`;
-
-  $('wiz-foot').innerHTML = `
-    <button class="btn" type="button" id="wiz-back">← Back</button>
-    <span class="spacer"></span>
-    <button class="btn primary" type="button" id="wiz-next">Run review →</button>`;
-
-  const ta = $('a-background'), cc = $('cc');
-  const sync = () => {
-    const n = ta.value.trim().length;
-    cc.textContent = n + ' characters' + (n > 0 && n < 180 ? ' — a little more detail sharpens the review' : '');
-    cc.classList.toggle('is-thin', n > 0 && n < 180);
-  };
-  ta.addEventListener('input', sync); sync();
-
-  $('wiz-back').addEventListener('click', () => { apply.data.background = ta.value; apply.step = 1; renderApply(); });
-  $('wiz-next').addEventListener('click', () => {
-    apply.data.background = ta.value.trim();
-    if (apply.data.background.length < 60) {
-      const wrap = document.querySelector('.f[data-for="background"]');
-      wrap.classList.add('has-error');
-      if (!wrap.querySelector('.err')) {
-        const e = document.createElement('span'); e.className = 'err';
-        e.textContent = 'Give us at least a couple of sentences to work with.'; wrap.append(e);
-      }
-      ta.focus(); return;
-    }
-    apply.review = null; apply.step = 3; renderApply();
-  });
-}
-
-/* ---------- local fallback review (used if /api/screen is unavailable) ---------- */
-const STOP = new Set(('the and for you your with that this from have has had are was were will would not but they their them our out who what when where which while into over under about across a an of to in on at as it is be by or if we us do does did done more most than then there here role job work working team plus own owning day days needs need per via one two three four five six seven eight nine ten first second every each also just only very still even much many some any all both other another same well good great real really').split(' '));
-function stem(w) { return w.replace(/(ations?|ing|ers?|ed|s)$/, '').slice(0, 6); }
-function terms(text) {
-  return (String(text).toLowerCase().match(/[a-z][a-z0-9+#.\-]{2,}/g) || [])
-    .map((w) => w.replace(/[.\-]+$/, '')).filter((w) => w.length > 3 && !STOP.has(w));
-}
-function buildReview(job, data) {
-  const bg = data.background || '';
-  const weighted = new Map();
-  const add = (text, weight) => terms(text).forEach((w) => {
-    const s = stem(w); const cur = weighted.get(s) || { w: 0, label: w };
-    cur.w += weight; if (w.length < cur.label.length) cur.label = w; weighted.set(s, cur);
-  });
-  add(job.title, 5); add(job.category, 5); add(job.summary, 2); add(job.description || '', 1);
-
-  const key = [...weighted.entries()].sort((a, b) => b[1].w - a[1].w).slice(0, 18);
-  const mine = new Set(terms(bg).map(stem));
-  const hits = key.filter(([s]) => mine.has(s));
-  const misses = key.filter(([s]) => !mine.has(s));
-  const keyWeight = key.reduce((sum, [, v]) => sum + v.w, 0) || 1;
-  const hitWeight = hits.reduce((sum, [, v]) => sum + v.w, 0);
-  const coverage = Math.min(1, (hitWeight / keyWeight) / 0.45);
-  const numbers = (bg.match(/\b\d[\d,.]*%?\b/g) || []).length;
-  const words = bg.trim().split(/\s+/).length;
-  const depth = Math.min(1, (Math.min(words, 220) / 220) * 0.55 + Math.min(numbers, 5) / 5 * 0.45);
-  const completeness = data.linkedin ? 1 : 0.4;
-  const score = Math.round(Math.min(96, Math.max(28, coverage * 100 * 0.55 + depth * 100 * 0.30 + completeness * 100 * 0.15)));
-  const label = ([, v]) => v.label;
-  const hitWords = hits.map(label), missWords = misses.map(label);
-
-  const strengths = [];
-  if (hits.length) strengths.push(`Your background lands on ${hits.length} of the ${key.length} signals this role leads with.`);
-  if (numbers >= 3) strengths.push(`You quantified your work — ${numbers} concrete figures. Employers read those first.`);
-  else if (numbers > 0) strengths.push(`You included ${numbers === 1 ? 'a figure' : 'a few figures'}, which helps.`);
-  if (words >= 110) strengths.push('Enough detail for a hiring manager to form a real picture before the first call.');
-  if (data.linkedin) strengths.push('A profile link is attached, so the reviewer can check your history without asking.');
-  if (!strengths.length) strengths.push('Profile submitted and ready for a human reviewer.');
-
-  const gaps = [];
-  if (missWords.length) gaps.push(`The posting leans on ${missWords.slice(0, 4).join(', ')} — worth addressing if you have that experience.`);
-  if (numbers < 3) gaps.push('Add numbers: hours covered, inbox volume, tools you administer. Specifics move applications forward.');
-  if (words < 110) gaps.push('Your summary is short. A couple more sentences on scope and tools would strengthen it.');
-  if (!data.linkedin) gaps.push('No profile link — optional, but reviewers usually look for one.');
-  if (!gaps.length) gaps.push('Nothing obvious missing. This is ready to send.');
-
-  return { score, hits: hitWords.slice(0, 10), strengths, gaps, words, numbers };
-}
-
-function parseAnalysis(text, data) {
-  if (!text || typeof text !== 'string') return null;
-  const section = (label, next) => {
-    const re = new RegExp(label + ':\\s*([\\s\\S]*?)(?=' + next + ':|MATCH SCORE:|$)', 'i');
-    const m = text.match(re);
-    if (!m) return [];
-    return m[1].split('\n').map((l) => l.replace(/^[\s\-•*]+/, '').trim()).filter((l) => l.length > 2);
-  };
-  const strengths = section('STRENGTHS', 'GAPS');
-  const gaps = section('GAPS', 'MATCH SCORE');
-  const scoreMatch = text.match(/MATCH SCORE:\s*(\d{1,3})/i);
-  const score = scoreMatch ? Math.max(0, Math.min(100, parseInt(scoreMatch[1], 10))) : null;
-  if (!strengths.length || score == null) return null;
-  const bg = data.background || '';
-  return {
-    score, strengths, gaps: gaps.length ? gaps : ['Nothing obvious missing. This is ready to send.'],
-    hits: [], words: bg.trim().split(/\s+/).length,
-    numbers: (bg.match(/\b\d[\d,.]*%?\b/g) || []).length, ai: true,
-  };
-}
-
-function stageThree() {
-  const { job, data } = apply;
-  if (!apply.review) {
-    $('wiz-body').innerHTML = `<div class="thinking"><div class="thinking-ring"></div><p id="think-line">Reading your background…</p></div>`;
-    $('wiz-foot').innerHTML = `<button class="btn" type="button" id="wiz-back">← Back</button><span class="spacer"></span>`;
-    $('wiz-back').addEventListener('click', () => { apply.step = 2; renderApply(); });
-
-    const lines = ['Reading your background…', 'Comparing against the role…', 'Weighing tools and timezone fit…', 'Writing the summary…'];
-    let i = 0;
-    const tick = setInterval(() => { i++; const el = $('think-line'); if (el && lines[i]) el.textContent = lines[i]; }, 600);
-
-    (async () => {
-      let review = null;
-      try {
-        const res = await fetch('/api/screen', {
-          method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            jobTitle: job.title, company: job.company,
-            resume: data.background, linkedin: data.linkedin || '',
-          }),
-        });
-        if (res.ok) { const { analysis } = await res.json(); review = parseAnalysis(analysis, data); }
-      } catch (_) {}
-      clearInterval(tick);
-      apply.review = review || buildReview(job, data);
-      renderApply();
-    })();
+  if (!rows.length) {
+    $('table-wrap').innerHTML = '<div class="empty">' +
+      (ALL.length ? 'Nothing matches that filter.' : 'No applications yet.') + '</div>';
     return;
   }
 
-  const r = apply.review;
-  const name = [data.first, data.last].filter(Boolean).join(' ');
-  const verdict = r.score >= 78 ? 'Strong match' : r.score >= 60 ? 'Worth a conversation' : 'Some gaps to close';
-  const C = 2 * Math.PI * 36;
-
-  $('wiz-body').innerHTML = `
-    <div class="score-card">
-      <div class="score-ring">
-        <svg viewBox="0 0 84 84"><circle class="track" cx="42" cy="42" r="36"/><circle class="fill" cx="42" cy="42" r="36" stroke-dasharray="${C}" stroke-dashoffset="${C}" id="score-arc"/></svg>
-        <b>${r.score}</b>
-      </div>
-      <div><h4>${verdict}</h4><p>${esc(name)} against <strong>${esc(job.title)}</strong> at ${esc(job.company)}. ${r.words} words of background, ${r.numbers} quantified detail${r.numbers === 1 ? '' : 's'}.</p></div>
-    </div>
-    ${r.hits && r.hits.length ? `<div class="rev-block"><h5 class="green">Signals you matched</h5><div class="tag-row">${r.hits.map((w) => `<span class="tag">${esc(w)}</span>`).join('')}</div></div>` : ''}
-    <div class="rev-block"><h5 class="green">What reads well</h5><ul class="rev-list">${r.strengths.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
-    <div class="rev-block"><h5>Worth strengthening</h5><ul class="rev-list gap">${r.gaps.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
-    <p class="ai-note">${r.ai ? 'Reviewed by AI against this role.' : 'Quick match against the posting.'} This is for you, not sent to the employer — edit step two and re-run it anytime.</p>`;
-
-  $('wiz-foot').innerHTML = `
-    <button class="btn" type="button" id="wiz-back">← Edit background</button>
-    <span class="spacer"></span>
-    <button class="btn primary" type="button" id="wiz-submit">Submit application</button>`;
-
-  requestAnimationFrame(() => { const arc = $('score-arc'); if (arc) arc.style.strokeDashoffset = C * (1 - r.score / 100); });
-  $('wiz-back').addEventListener('click', () => { apply.step = 2; apply.review = null; renderApply(); });
-  $('wiz-submit').addEventListener('click', submitApply);
+  $('table-wrap').innerHTML = `
+    <table>
+      <thead><tr>
+        <th>Candidate</th><th>Role</th><th class="hide">Match</th>
+        <th>Status</th><th class="hide">Sent</th><th class="hide">Applied</th>
+      </tr></thead>
+      <tbody>${rows.map((a) => {
+        const band = a.score >= 75 ? 'hi' : a.score >= 50 ? 'mid' : 'lo';
+        return `<tr class="row" data-ref="${esc(a.ref)}">
+          <td class="who">
+            <b>${esc([a.first_name, a.middle_initial, a.last_name].filter(Boolean).join(' '))}</b>
+            <span>${esc(a.ref)} · ${esc(a.email)}</span>
+          </td>
+          <td class="role">
+            <b>${esc(a.job_title || '')}</b>
+            <span>${esc(a.company || '')}${a.location ? ' · ' + esc(a.location) : ''}</span>
+          </td>
+          <td class="hide">${a.score != null ? `<span class="score ${band}">${a.score}</span>` : '—'}</td>
+          <td><span class="pill ${esc(a.status)}">${esc(STATUS_LABEL[a.status] || a.status)}</span></td>
+          <td class="hide sent ${a.sent_to_employer_at ? 'ok' : 'no'}"
+              title="${a.sent_to_employer_at ? 'Sent to employer' : esc(a.send_error || 'Not sent')}">
+            ${a.sent_to_employer_at ? '✓' : '—'}
+          </td>
+          <td class="hide"><span class="ref">${ago(a.created_at)}</span></td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
 }
 
-async function submitApply() {
-  const { job, data } = apply;
-  const review = apply.review || {};
-  drawer.querySelector('.wiz-foot').innerHTML = '<span class="wiz-sending">Sending your application…</span>';
-
-  let result = { ok: false };
-  try {
-    const res = await fetch('/api/apply', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        job_id: job.id, job_title: job.title, company: job.company,
-        hub: job.hub, category: job.category, location: job.location,
-        apply_url: job.apply_url || null,
-        first_name: data.first, last_name: data.last,
-        email: data.email, phone: data.phone, linkedin: data.linkedin,
-        background: data.background,
-        score: review.score ?? null, strengths: review.strengths || [], gaps: review.gaps || [],
-        reviewed_by: review.ai ? 'ai' : 'keyword',
-      }),
-    });
-    result = res.ok ? await res.json() : { ok: false, error: (await res.json().catch(() => ({}))).error };
-  } catch (err) {
-    result = { ok: false, error: 'Network problem' };
+document.addEventListener('click', (e) => {
+  const chip = e.target.closest('.chip');
+  if (chip) {
+    if (chip.dataset.kind === 'cat') filterCat = chip.dataset.val;
+    else filterStatus = chip.dataset.val;
+    render();
+    return;
   }
+  const row = e.target.closest('tr.row');
+  if (row) openDrawer(row.dataset.ref);
+});
 
-  const body = result.ok && result.duplicate
-    ? `<div class="done-mark">✓</div><h3>Already applied.</h3><p>You have an application in for this role, ${esc(data.first)}. No need to send another.</p>`
-    : result.ok
-    ? `<div class="done-mark">✓</div><h3>Application in.</h3><p>Thanks ${esc(data.first)}. Your details and background are with us${result.notified ? ` and on their way to ${esc(job.company)}` : ''}.</p><p class="done-ref">Reference ${esc(result.ref || '')}</p>`
-    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
+/* ---------- detail ---------- */
+function openDrawer(ref) {
+  const a = ALL.find((x) => x.ref === ref);
+  if (!a) return;
+  openRef = ref;
+  closeDrawer();
 
-  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Back to roles</button></div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  drawerInner.querySelector('#done-close').addEventListener('click', closeDrawer);
-}
+  const scrim = document.createElement('div');
+  scrim.className = 'scrim';
+  scrim.addEventListener('click', closeDrawer);
 
-/* ==========================================================================
-   The Pool — candidate profile + employer intake forms
-   --------------------------------------------------------------------------
-   Both open in the same drawer used for job applications. Neither is a
-   multi-step wizard — one screen, submit, done — since there's no AI review
-   step involved here, just an intake.
-   ========================================================================== */
-const ROLE_CATEGORIES = ['Virtual Assistant', 'Executive Assistant', 'Personal Assistant', 'Legal Assistant'];
+  const d = document.createElement('div');
+  d.className = 'drawer';
+  const list = (items) => items.length
+    ? '<ul>' + items.map((x) => `<li>${esc(x)}</li>`).join('') + '</ul>'
+    : '<p style="color:var(--ink-dim)">None recorded.</p>';
 
-function categoryChecks(prefix, checked = []) {
-  return `<div class="f" data-for="${prefix}-cats">
-    <label>Role type(s) <span class="opt">(pick any that fit)</span></label>
-    <div class="tag-row">${ROLE_CATEGORIES.map((c) => `
-      <label style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:500;color:var(--ink-soft)">
-        <input type="checkbox" class="${prefix}-cat" value="${esc(c)}" ${checked.includes(c) ? 'checked' : ''} style="width:15px;height:15px" />
-        ${esc(c)}
-      </label>`).join('')}
+  d.innerHTML = `
+    <div class="dr-top">
+      <button class="dr-close" type="button" aria-label="Close">✕</button>
+      <h3>${esc([a.first_name, a.middle_initial, a.last_name].filter(Boolean).join(' '))}</h3>
+      <p>${esc(a.job_title || '')} · ${esc(a.company || '')}</p>
     </div>
-  </div>`;
-}
-
-function openPoolForm() {
-  apply = null;
-  drawerInner.innerHTML = `
-    <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <span class="chip cat-Virtual-Assistant">Join the pool</span>
-    <h2 style="margin-top:12px">Be notified when you're a perfect match</h2>
-    <p class="wiz-intro">This is a standing profile, not an application to one role — we'll reach out when an employer's needs line up with yours.</p>
-    <div id="pool-body">
-      <div class="f-row">
-        <div class="f" data-for="p-first"><label>First name <span class="req">*</span></label><input id="p-first" /></div>
-        <div class="f" data-for="p-last"><label>Last name <span class="req">*</span></label><input id="p-last" /></div>
+    <div class="dr-body">
+      <div class="dr-grid">
+        <div class="dr-fact"><dt>Reference</dt><dd>${esc(a.ref)}</dd></div>
+        <div class="dr-fact"><dt>Match score</dt><dd>${a.score != null ? a.score + '/100' : '—'} <span style="color:var(--ink-dim);font-size:11px">${a.reviewed_by === 'ai' ? '(AI)' : '(keyword)'}</span></dd></div>
+        <div class="dr-fact"><dt>Email</dt><dd><a href="mailto:${esc(a.email)}">${esc(a.email)}</a></dd></div>
+        <div class="dr-fact"><dt>Phone</dt><dd>${esc(a.phone || '—')}</dd></div>
+        <div class="dr-fact"><dt>Currently</dt><dd>${esc(a.current_position || '—')}${a.current_company ? ' · ' + esc(a.current_company) : ''}</dd></div>
+        <div class="dr-fact"><dt>Sent to employer</dt><dd>${a.sent_to_employer_at ? 'Yes' : '<span style="color:var(--red)">No</span>'}</dd></div>
       </div>
-      <div class="f-row">
-        <div class="f" data-for="p-email"><label>Email <span class="req">*</span></label><input id="p-email" type="email" /></div>
-        <div class="f" data-for="p-phone"><label>Phone / WhatsApp <span class="opt">(optional)</span></label><input id="p-phone" type="tel" /></div>
-      </div>
-      <div class="f" data-for="p-linkedin"><label>LinkedIn / portfolio <span class="opt">(optional)</span></label><input id="p-linkedin" /></div>
-      ${categoryChecks('p')}
-      <div class="f" data-for="p-skills"><label>Skills <span class="opt">(comma-separated, e.g. calendar management, QuickBooks, Notion)</span></label><input id="p-skills" /></div>
-      <div class="f" data-for="p-bio"><label>Bio / background <span class="req">*</span></label><textarea id="p-bio" placeholder="What you do, tools you use, the kind of exec/company you support best."></textarea></div>
-      <div class="f-row">
-        <div class="f" data-for="p-avail"><label>Availability</label>
-          <select id="p-avail" style="width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink)">
-            <option>Full-time</option><option>Part-time</option><option>Either</option>
-          </select>
-        </div>
-        <div class="f" data-for="p-tz"><label>Timezone overlap</label><input id="p-tz" placeholder="e.g. US Eastern mornings" /></div>
-      </div>
-      <div class="f-row" style="grid-template-columns:1fr 1fr 1fr">
-        <div class="f" data-for="p-rmin"><label>Rate min <span class="opt">(optional)</span></label><input id="p-rmin" type="number" min="0" /></div>
-        <div class="f" data-for="p-rmax"><label>Rate max <span class="opt">(optional)</span></label><input id="p-rmax" type="number" min="0" /></div>
-        <div class="f" data-for="p-rbasis"><label>Basis</label>
-          <select id="p-rbasis" style="width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink)">
-            <option value="hourly">Hourly</option><option value="monthly">Monthly</option><option value="annual">Annual</option>
-          </select>
-        </div>
-      </div>
-      <div class="f" data-for="p-resume"><label>Résumé <span class="opt">(optional, PDF/DOC/DOCX, up to 5MB)</span></label><input id="p-resume" type="file" accept=".pdf,.doc,.docx" /></div>
+      ${a.linkedin ? `<div class="dr-sec"><h4>LinkedIn</h4><p><a href="${esc(a.linkedin)}" target="_blank" rel="noopener" style="color:var(--cyan)">${esc(a.linkedin)}</a></p></div>` : ''}
+      ${a.send_error ? `<div class="dr-sec"><h4>Delivery problem</h4><p style="color:var(--red)">${esc(a.send_error)}</p></div>` : ''}
+      <div class="dr-sec"><h4>Strengths</h4>${list(a.strengths || [])}</div>
+      <div class="dr-sec"><h4>Gaps</h4>${list(a.gaps || [])}</div>
+      <div class="dr-sec"><h4>Background</h4><p class="bg-text">${esc(a.background || '')}</p></div>
+      <div class="dr-sec"><h4>Your notes</h4><textarea id="notes" placeholder="Anything worth remembering about this candidate…">${esc(a.notes || '')}</textarea></div>
     </div>
-    <div class="wiz-foot">
-      <button class="btn" type="button" id="pool-cancel">Cancel</button>
-      <span class="spacer"></span>
-      <button class="btn primary" type="button" id="pool-submit">Join the pool</button>
+    <div class="dr-foot">
+      ${['reviewing', 'interview', 'offer', 'hired', 'passed']
+        .map((s) => `<button class="btn${a.status === s ? ' act' : ''}" type="button" data-status="${s}">${STATUS_LABEL[s] || s}</button>`).join('')}
+      <button class="btn act" type="button" id="save-notes">Save notes</button>
+    </div>
+    <div class="dr-send">
+      <p class="send-note">
+        Nothing reaches the employer until you send it. A <b>teaser</b> shows the role, score,
+        strengths and gaps with no contact details — enough to create interest, not enough to
+        go around you. <b>Full details</b> includes the candidate's contact info and payment
+        instructions (Wise) for the placement fee.
+      </p>
+      <div class="send-row">
+        <button class="btn send" type="button" data-send="teaser">Send teaser</button>
+        <button class="btn send danger" type="button" data-send="full">Send full details</button>
+      </div>
+      <div class="send-status" id="send-status">${a.sent_to_employer_at
+        ? 'Sent ' + esc(ago(a.sent_to_employer_at))
+        : a.send_error ? 'Last attempt failed: ' + esc(a.send_error) : 'Not sent'}</div>
+    </div>
+
+    <!-- Declining. Silence is the norm in recruiting and the thing candidates
+         resent most; a short honest note costs nothing and keeps them in the
+         network for the next role. -->
+    <div class="dr-decline">
+      <h4>Not a fit</h4>
+      <textarea id="decline-reason" rows="2"
+        placeholder="Optional — one line the candidate will see. e.g. 'This role needed direct multifamily lease-up experience.'"></textarea>
+      <label class="dl-check">
+        <input type="checkbox" id="decline-notify" checked />
+        Email ${esc(a.first_name || 'the candidate')} to let them know
+      </label>
+      <div class="send-row">
+        <button class="btn danger" type="button" id="decline-btn">Decline application</button>
+      </div>
+      <div class="send-status" id="decline-status">${a.status === 'passed'
+        ? (a.declined_at ? 'Declined ' + esc(ago(a.declined_at)) : 'Marked passed')
+        : ''}</div>
     </div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  drawerInner.querySelector('#pool-cancel').addEventListener('click', closeDrawer);
-  drawerInner.querySelector('#pool-submit').addEventListener('click', submitPoolForm);
-  scrim.classList.add('is-open'); drawer.classList.add('is-open');
+
+  d.querySelector('.dr-close').addEventListener('click', closeDrawer);
+  d.querySelectorAll('[data-status]').forEach((b) =>
+    b.addEventListener('click', () => update(ref, { status: b.dataset.status })));
+  d.querySelector('#save-notes').addEventListener('click', () =>
+    update(ref, { notes: d.querySelector('#notes').value }));
+
+  d.querySelector('#decline-btn')?.addEventListener('click', async () => {
+    const status = d.querySelector('#decline-status');
+    const reason = d.querySelector('#decline-reason').value.trim();
+    const notify = d.querySelector('#decline-notify').checked;
+
+    if (!confirm(notify
+      ? 'Decline this application and email the candidate?'
+      : 'Decline this application without telling the candidate?')) return;
+
+    status.textContent = 'Declining…';
+    try {
+      const res = await fetch('/api/decline', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...authHeaders() },
+        body: JSON.stringify({ ref, reason: reason || undefined, notify }),
+      });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) { status.textContent = 'Failed: ' + (body.error || res.status); return; }
+
+      status.textContent = body.notified
+        ? 'Declined, candidate emailed.'
+        : 'Declined. ' + (body.error || 'No email sent.');
+
+      const rec = ALL.find((x) => x.ref === ref);
+      if (rec) { rec.status = 'passed'; rec.declined_at = new Date().toISOString(); }
+      render();
+    } catch (err) {
+      status.textContent = 'Failed: ' + err.message;
+    }
+  });
+
+  d.querySelectorAll('[data-send]').forEach((b) =>
+    b.addEventListener('click', () => introduce(ref, b.dataset.send, d)));
+
+  document.body.append(scrim, d);
+  document.addEventListener('keydown', escClose);
 }
 
-async function submitPoolForm() {
-  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
-  const val = (id) => ($(id)?.value || '').trim();
-  const first = val('p-first'), last = val('p-last'), email = val('p-email'), bio = val('p-bio');
-  let ok = true;
-  if (!first) { markError('p-first', 'Add your first name.'); ok = false; }
-  if (!last) { markError('p-last', 'Add your last name.'); ok = false; }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { markError('p-email', 'Add a valid email address.'); ok = false; }
-  if (bio.length < 40) { markError('p-bio', 'Give us at least a couple of sentences to work with.'); ok = false; }
-  if (!ok) { document.querySelector('.f.has-error input,.f.has-error textarea')?.focus(); return; }
+function escClose(e) { if (e.key === 'Escape') closeDrawer(); }
+function closeDrawer() {
+  document.querySelector('.scrim')?.remove();
+  document.querySelector('.drawer')?.remove();
+  document.removeEventListener('keydown', escClose);
+}
 
-  const cats = [...document.querySelectorAll('.p-cat:checked')].map((c) => c.value);
-  const skills = val('p-skills').split(',').map((s) => s.trim()).filter(Boolean);
-  const fd = new FormData();
-  fd.set('first_name', first); fd.set('last_name', last); fd.set('email', email);
-  fd.set('phone', val('p-phone')); fd.set('linkedin', val('p-linkedin'));
-  fd.set('categories', JSON.stringify(cats)); fd.set('skills', JSON.stringify(skills));
-  fd.set('bio', bio); fd.set('availability', val('p-avail'));
-  fd.set('timezone_overlap', val('p-tz'));
-  if (val('p-rmin')) fd.set('rate_min', val('p-rmin'));
-  if (val('p-rmax')) fd.set('rate_max', val('p-rmax'));
-  fd.set('rate_basis', val('p-rbasis'));
-  const file = $('p-resume')?.files?.[0];
-  if (file) fd.set('resume', file);
+/** Forward a candidate. Full details ask first — it is not undoable. */
+async function introduce(ref, mode, drawer) {
+  const status = drawer.querySelector('#send-status');
 
-  drawer.querySelector('.wiz-foot').innerHTML = '<span class="wiz-sending">Sending your profile…</span>';
-  let result = { ok: false };
+  if (mode === 'full' && !confirm(
+    'Send this candidate\u2019s full contact details and background to the employer?\n\n' +
+    'The email tells them where to send the placement fee (Wise / bank transfer). Once they have ' +
+    'these details they can hire directly.')) return;
+
+  status.textContent = 'Sending…';
   try {
-    const res = await fetch('/api/pool/join', { method: 'POST', body: fd });
-    result = res.ok ? await res.json() : { ok: false, error: (await res.json().catch(() => ({}))).error };
-  } catch { result = { ok: false, error: 'Network problem' }; }
-
-  const body = result.ok
-    ? `<div class="done-mark">✓</div><h3>You're in the pool.</h3><p>Thanks ${esc(first)}. We'll reach out the moment your profile lines up with an employer's needs.</p><p class="done-ref">Reference ${esc(result.ref || '')}</p>`
-    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
-  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Close</button></div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  drawerInner.querySelector('#done-close').addEventListener('click', closeDrawer);
-}
-
-function openEmployerIntake() {
-  apply = null;
-  drawerInner.innerHTML = `
-    <button type="button" class="drawer-close" aria-label="Close">✕</button>
-    <span class="chip cat-Executive-Assistant">Hire a Team</span>
-    <h2 style="margin-top:12px">Tell us who you're building</h2>
-    <p class="wiz-intro">One intake, matched across every role at once — from a single hire to a full remote team.</p>
-    <div class="f-row">
-      <div class="f" data-for="e-company"><label>Company <span class="req">*</span></label><input id="e-company" /></div>
-      <div class="f" data-for="e-contact"><label>Contact name <span class="opt">(optional)</span></label><input id="e-contact" /></div>
-    </div>
-    <div class="f" data-for="e-email"><label>Contact email <span class="req">*</span></label><input id="e-email" type="email" /></div>
-    ${categoryChecks('e')}
-    <div class="f" data-for="e-skills"><label>Must-have skills <span class="opt">(comma-separated)</span></label><input id="e-skills" /></div>
-    <div class="f-row">
-      <div class="f" data-for="e-teamsize"><label>How many assistants are you hiring?</label><input id="e-teamsize" type="number" min="1" value="1" /></div>
-      <div class="f" data-for="e-tz"><label>Timezone needs</label><input id="e-tz" placeholder="e.g. overlap with US Pacific mornings" /></div>
-    </div>
-    <div class="f-row" style="grid-template-columns:1fr 1fr 1fr">
-      <div class="f" data-for="e-bmin"><label>Budget min <span class="opt">(optional)</span></label><input id="e-bmin" type="number" min="0" /></div>
-      <div class="f" data-for="e-bmax"><label>Budget max <span class="opt">(optional)</span></label><input id="e-bmax" type="number" min="0" /></div>
-      <div class="f" data-for="e-bbasis"><label>Basis</label>
-        <select id="e-bbasis" style="width:100%;padding:11px 13px;border-radius:9px;border:1.5px solid var(--line-strong);font-family:var(--body);font-size:14px;background:var(--card);color:var(--ink)">
-          <option value="hourly">Hourly</option><option value="monthly">Monthly</option><option value="annual">Annual</option>
-        </select>
-      </div>
-    </div>
-    <div class="f" data-for="e-notes"><label>Anything else worth knowing <span class="opt">(optional)</span></label><textarea id="e-notes" placeholder="Team culture, tools you standardize on, what's made a past hire work well."></textarea></div>
-    <div class="wiz-foot">
-      <button class="btn" type="button" id="e-cancel">Cancel</button>
-      <span class="spacer"></span>
-      <button class="btn primary" type="button" id="e-submit">Submit</button>
-    </div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  drawerInner.querySelector('#e-cancel').addEventListener('click', closeDrawer);
-  drawerInner.querySelector('#e-submit').addEventListener('click', submitEmployerIntake);
-  scrim.classList.add('is-open'); drawer.classList.add('is-open');
-}
-
-async function submitEmployerIntake() {
-  document.querySelectorAll('.f.has-error').forEach((w) => { w.classList.remove('has-error'); w.querySelector('.err')?.remove(); });
-  const val = (id) => ($(id)?.value || '').trim();
-  const company = val('e-company'), email = val('e-email');
-  let ok = true;
-  if (!company) { markError('e-company', 'Add your company name.'); ok = false; }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { markError('e-email', 'Add a valid email address.'); ok = false; }
-  if (!ok) { document.querySelector('.f.has-error input')?.focus(); return; }
-
-  const cats = [...document.querySelectorAll('.e-cat:checked')].map((c) => c.value);
-  const skills = val('e-skills').split(',').map((s) => s.trim()).filter(Boolean);
-  const payload = {
-    company, contact_name: val('e-contact'), contact_email: email,
-    categories: cats, must_have_skills: skills,
-    team_size: val('e-teamsize') || 1, timezone_needs: val('e-tz'),
-    budget_min: val('e-bmin') || undefined, budget_max: val('e-bmax') || undefined,
-    budget_basis: val('e-bbasis'), culture_notes: val('e-notes'),
-  };
-
-  drawer.querySelector('.wiz-foot').innerHTML = '<span class="wiz-sending">Sending your request…</span>';
-  let result = { ok: false };
-  try {
-    const res = await fetch('/api/pool/employer-intake', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+    const res = await fetch('/api/forward', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ ref, mode }),
     });
-    result = res.ok ? await res.json() : { ok: false, error: (await res.json().catch(() => ({}))).error };
-  } catch { result = { ok: false, error: 'Network problem' }; }
+    const body = await res.json().catch(() => ({}));
 
-  const body = result.ok
-    ? `<div class="done-mark">✓</div><h3>Got it.</h3><p>We're matching this against our pool now — expect to hear from us shortly.</p><p class="done-ref">Reference ${esc(result.ref || '')}</p>`
-    : `<div class="done-mark err">!</div><h3>That didn't send.</h3><p>${esc(result.error || 'Something went wrong on our end.')} Try again, or email hello@bridgedesk.co directly.</p>`;
-  drawerInner.innerHTML = `<button type="button" class="drawer-close" aria-label="Close">✕</button><div class="done">${body}</div><div class="drawer-foot"><button class="btn primary block" type="button" id="done-close">Close</button></div>`;
-  drawerInner.querySelector('.drawer-close').addEventListener('click', closeDrawer);
-  drawerInner.querySelector('#done-close').addEventListener('click', closeDrawer);
+    if (!res.ok) { status.textContent = 'Failed: ' + (body.error || res.status); return; }
+
+    status.textContent = (mode === 'full' ? 'Full details sent just now' : 'Teaser sent just now') +
+      (body.to ? ' to ' + body.to : '') +
+      (mode === 'full' ? ' \u00b7 payment instructions included (Wise)' : '');
+
+    const a = ALL.find((x) => x.ref === ref);
+    if (a) a.sent_to_employer_at = new Date().toISOString();
+    render();
+  } catch (err) {
+    status.textContent = 'Failed: ' + err.message;
+  }
 }
 
-$('team-cta-btn').addEventListener('click', openEmployerIntake);
-$('pool-cta-btn').addEventListener('click', openPoolForm);
+async function update(ref, patch) {
+  const res = await fetch('/api/applications', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeaders() },
+    body: JSON.stringify({ ref, ...patch }),
+  });
+  if (!res.ok) return;
+  const a = ALL.find((x) => x.ref === ref);
+  if (a) Object.assign(a, patch);
+  render();
+  if (patch.status) closeDrawer(); else openDrawer(ref);
+}
 
 /* ==========================================================================
-   Bridge clock — signature element
+   Matching tab — employer requests + ranked candidate matches
    ========================================================================== */
-function updateClock() {
-  const now = new Date();
-  const fmt = (tz) => new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit', hour12: true, timeZone: tz }).format(now);
-  const hourFrac = (tz) => {
-    const parts = new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: 'numeric', hourCycle: 'h23', timeZone: tz }).formatToParts(now);
-    const h = +parts.find((p) => p.type === 'hour').value, m = +parts.find((p) => p.type === 'minute').value;
-    return h + m / 60;
-  };
-  $('bc-us-time').textContent = fmt('America/New_York');
-  $('bc-ph-time').textContent = fmt('Asia/Manila');
+let POOL_EMPLOYERS = [], POOL_CANDIDATES = [], OPEN_EMPLOYER_REF = null;
 
-  const usH = hourFrac('America/New_York');
-  const pct = (usH / 24) * 100;
-  $('bc-now').style.left = pct + '%';
+$('tab-pipeline').addEventListener('click', () => {
+  $('tab-pipeline').classList.add('on'); $('tab-matching').classList.remove('on');
+  $('view-pipeline').hidden = false; $('view-matching').hidden = true;
+});
+$('tab-matching').addEventListener('click', () => {
+  $('tab-matching').classList.add('on'); $('tab-pipeline').classList.remove('on');
+  $('view-pipeline').hidden = true; $('view-matching').hidden = false;
+  if (!POOL_EMPLOYERS.length && !POOL_CANDIDATES.length) loadPool();
+});
 
-  const label = (usH >= 7 && usH <= 19) ? 'US business hours' : 'US after-hours';
-  $('bc-overlap-label').textContent = label;
+async function loadPool() {
+  try {
+    const res = await fetch('/api/admin/pool', { headers: authHeaders() });
+    const body = await res.json().catch(() => ({}));
+    if (!res.ok) { $('employer-table-wrap').innerHTML = '<div class="empty">' + esc(body.error || 'Could not load.') + '</div>'; return; }
+    POOL_EMPLOYERS = body.employers || [];
+    POOL_CANDIDATES = body.candidates || [];
+    renderEmployerTable();
+  } catch (err) {
+    $('employer-table-wrap').innerHTML = '<div class="empty">Could not reach the server.</div>';
+  }
 }
-updateClock();
-setInterval(updateClock, 30000);
 
-loadJobs();
+function renderEmployerTable() {
+  $('employer-count').textContent = POOL_EMPLOYERS.length + (POOL_EMPLOYERS.length === 1 ? ' request' : ' requests');
+  if (!POOL_EMPLOYERS.length) {
+    $('employer-table-wrap').innerHTML = '<div class="empty">No employer requests yet.</div>';
+    return;
+  }
+  $('employer-table-wrap').innerHTML = `
+    <table>
+      <thead><tr><th>Company</th><th>Looking for</th><th class="hide">Team size</th><th class="hide">Budget</th><th class="hide">Received</th></tr></thead>
+      <tbody>${POOL_EMPLOYERS.map((e) => `
+        <tr class="row" data-eref="${esc(e.ref)}">
+          <td class="who"><b>${esc(e.company)}</b><span>${esc(e.ref)}${e.contact_email ? ' · ' + esc(e.contact_email) : ''}</span></td>
+          <td class="role"><b>${esc((e.categories || []).join(', ') || '—')}</b><span>${esc((e.must_have_skills || []).slice(0, 4).join(', '))}</span></td>
+          <td class="hide">${e.team_size || 1}</td>
+          <td class="hide">${e.budget_min || e.budget_max ? '$' + (e.budget_min || '?') + '–' + (e.budget_max || '?') + '/' + esc(e.budget_basis || 'hourly') : '—'}</td>
+          <td class="hide"><span class="ref">${ago(e.created_at)}</span></td>
+        </tr>`).join('')}</tbody>
+    </table>`;
+  $('employer-table-wrap').querySelectorAll('tr.row').forEach((row) =>
+    row.addEventListener('click', () => loadMatches(row.dataset.eref)));
+}
+
+async function loadMatches(employerRef) {
+  OPEN_EMPLOYER_REF = employerRef;
+  $('matches-panel').hidden = false;
+  $('matches-wrap').innerHTML = '<div class="empty">Finding matches…</div>';
+  try {
+    const res = await fetch('/api/admin/pool/matches?employer_ref=' + encodeURIComponent(employerRef), { headers: authHeaders() });
+    const body = await res.json().catch(() => ({}));
+    if (!res.ok) { $('matches-wrap').innerHTML = '<div class="empty">' + esc(body.error || 'Could not load matches.') + '</div>'; return; }
+    renderMatches(body);
+  } catch (err) {
+    $('matches-wrap').innerHTML = '<div class="empty">Could not reach the server.</div>';
+  }
+}
+
+function renderMatches(body) {
+  const { employer, matches } = body;
+  $('matches-title').textContent = 'Matches for ' + (employer?.company || '');
+  $('matches-count').textContent = matches.length + (matches.length === 1 ? ' candidate' : ' candidates');
+  if (!matches.length) {
+    $('matches-wrap').innerHTML = '<div class="empty">No candidates in the pool yet.</div>';
+    return;
+  }
+  $('matches-wrap').innerHTML = `
+    <table>
+      <thead><tr><th>Candidate</th><th class="hide">Skills</th><th>Score</th><th class="hide">Why</th><th>Résumé</th><th>Notify</th></tr></thead>
+      <tbody>${matches.map((m) => {
+        const band = m.score >= 75 ? 'hi' : m.score >= 50 ? 'mid' : 'lo';
+        return `<tr>
+          <td class="who"><b>${esc([m.first_name, m.last_name].filter(Boolean).join(' '))}</b><span>${esc(m.ref)} · ${esc((m.categories || []).join(', '))}</span></td>
+          <td class="hide">${esc((m.skills || []).slice(0, 5).join(', ')) || '—'}</td>
+          <td><span class="score ${band}">${m.score}</span></td>
+          <td class="hide" style="max-width:260px;white-space:normal;font-size:12.5px;color:var(--ink-dim)">${esc(m.ai_rationale || (m.reasons || []).join(' · '))}</td>
+          <td>${m.has_resume ? `<button class="btn" type="button" data-resume="${esc(m.ref)}" style="padding:6px 12px;font-size:10.5px">Download</button>` : '—'}</td>
+          <td><button class="btn" type="button" data-notify="${esc(m.ref)}" style="padding:6px 12px;font-size:10.5px">Notify</button></td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
+
+  $('matches-wrap').querySelectorAll('[data-resume]').forEach((btn) =>
+    btn.addEventListener('click', () => downloadResume(btn.dataset.resume)));
+  $('matches-wrap').querySelectorAll('[data-notify]').forEach((btn) =>
+    btn.addEventListener('click', () => notifyCandidate(btn.dataset.notify, btn)));
+}
+
+async function downloadResume(candidateRef) {
+  try {
+    const res = await fetch('/api/admin/resume?ref=' + encodeURIComponent(candidateRef), { headers: authHeaders() });
+    if (!res.ok) { alert('No résumé on file, or it could not be fetched.'); return; }
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = candidateRef + '-resume';
+    document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  } catch (err) {
+    alert('Could not download: ' + err.message);
+  }
+}
+
+async function notifyCandidate(candidateRef, btn) {
+  if (!confirm('Let this candidate know they\u2019ve been matched to an opportunity?')) return;
+  btn.textContent = '…'; btn.disabled = true;
+  try {
+    const res = await fetch('/api/admin/pool/notify', {
+      method: 'POST', headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ candidate_ref: candidateRef, employer_ref: OPEN_EMPLOYER_REF }),
+    });
+    const body = await res.json().catch(() => ({}));
+    btn.textContent = res.ok && body.emailed ? 'Notified ✓' : res.ok ? 'Marked (no email)' : 'Failed';
+  } catch (err) {
+    btn.textContent = 'Failed';
+  }
+}
+
+/* Already signed in this tab? Skip the gate. */
+if (ADMIN_KEY) {
+  fetch('/api/applications', { headers: authHeaders() })
+    .then((r) => { if (r.ok) { $('gate').hidden = true; $('app').hidden = false; load(); } })
+    .catch(() => {});
+}
 </script>
 </body>
 </html>
