@@ -19,4 +19,24 @@
     "run_worker_first": ["/api/*"]
   },
 
-  //
+  // Applications, click tracking, and the pool/matching tables all live in
+  // this one database.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "bridgedesk-db",
+      "database_id": "e5fce93e-2399-4fa5-95e1-b959c577e793"
+    }
+  ],
+
+  // Logs from console.error in worker.js.
+  "observability": {
+    "enabled": true
+  },
+
+  // Runs the scheduled() handler in worker.js once a day at 06:00 UTC to
+  // refresh the jobs table from Remotive/Arbeitnow/RemoteOK/etc.
+  "triggers": {
+    "crons": ["0 6 * * *"]
+  }
+}
