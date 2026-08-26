@@ -91,7 +91,13 @@ jobs:
           N="${{ inputs.shards }}"
           N="${N:-6}"
           node -e "
-            const n = ${N};
+            let n = parseInt('${N}', 10);
+            // Guard rails: 'shards' means parallel jobs to split the company
+            // list across, not the number of companies. A bad/huge value
+            // here used to blow past GitHub's hard 256-job matrix cap and
+            // silently kill the whole scrape job before it started.
+            if (!Number.isInteger(n) || n < 1) n = 6;
+            if (n > 20) n = 20;
             const arr = Array.from({length: n}, (_, i) => i);
             console.log('shards=' + JSON.stringify(arr));
           " >> "$GITHUB_OUTPUT"
