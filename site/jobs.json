@@ -18,13 +18,16 @@
       "comp_min": 85000,
       "comp_max": 110000,
       "ph_signal": 0,
-      "summary": "Right-hand support for Checkr's Chief People Officer — calendar, travel, and cross-team coordination.",
+      "summary": "Right-hand support for Checkr's Chief People Officer \u2014 calendar, travel, and cross-team coordination.",
       "description": "A career with Checkr is an opportunity to work with some of the best and brightest minds in background checks. We're looking for an EA who knows how to dive in, roll up their sleeves, and stay two steps ahead of their executive.",
       "apply_url": "https://boards.greenhouse.io/checkr",
       "source": "greenhouse",
       "posted_at": "2026-08-10T00:00:00.000Z",
       "scraped_at": "2026-08-21T00:00:00.000Z",
-      "status": "open"
+      "status": "open",
+      "region": "United States",
+      "country": "United States",
+      "intl_signal": 0
     },
     {
       "id": "sample:zapier:1",
@@ -39,13 +42,16 @@
       "comp_min": null,
       "comp_max": null,
       "ph_signal": 3,
-      "summary": "Zapier has been fully distributed since day one — this EA role supports leadership across time zones with no location restriction.",
+      "summary": "Zapier has been fully distributed since day one \u2014 this EA role supports leadership across time zones with no location restriction.",
       "description": "Zapier is a fully distributed team spanning many countries and time zones. We're looking for an Executive Assistant comfortable working async, anywhere in the world, to support our leadership team.",
       "apply_url": "https://jobs.ashbyhq.com/zapier",
       "source": "ashby",
       "posted_at": "2026-08-15T00:00:00.000Z",
       "scraped_at": "2026-08-21T00:00:00.000Z",
-      "status": "open"
+      "status": "open",
+      "region": "Remote / Unspecified",
+      "country": null,
+      "intl_signal": 3
     },
     {
       "id": "sample:freshprints:1",
@@ -55,7 +61,7 @@
       "company_id": "freshprints",
       "category": "Virtual Assistant",
       "level": "Mid",
-      "location": "India & The Philippines (Remote)",
+      "location": "London, UK",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
@@ -66,7 +72,10 @@
       "source": "greenhouse",
       "posted_at": "2026-08-05T00:00:00.000Z",
       "scraped_at": "2026-08-21T00:00:00.000Z",
-      "status": "open"
+      "status": "open",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "intl_signal": 3
     },
     {
       "id": "sample:wrapbook:1",
@@ -76,18 +85,21 @@
       "company_id": "wrapbook",
       "category": "Executive Assistant",
       "level": "Senior",
-      "location": "Remote - USA / Canada",
+      "location": "Manila, Philippines",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
       "ph_signal": 1,
-      "summary": "Supports Wrapbook's CPO, SVP of Engineering, and General Counsel — a legal-adjacent EA seat at a production-finance startup.",
+      "summary": "Supports Wrapbook's CPO, SVP of Engineering, and General Counsel \u2014 a legal-adjacent EA seat at a production-finance startup.",
       "description": "Wrapbook is the AI platform for production finance. As Senior Executive Assistant you'll support our Chief Product Officer, Senior VP of Engineering, and General Counsel, turning their intent into action.",
       "apply_url": "https://jobs.ashbyhq.com/wrapbook",
       "source": "ashby",
       "posted_at": "2026-08-12T00:00:00.000Z",
       "scraped_at": "2026-08-21T00:00:00.000Z",
-      "status": "open"
+      "status": "open",
+      "region": "Asia-Pacific",
+      "country": "Philippines",
+      "intl_signal": 1
     },
     {
       "id": "sample:obsidiansystems:1",
@@ -97,7 +109,7 @@
       "company_id": "obsidiansystems",
       "category": "Executive Assistant",
       "level": "Mid",
-      "location": "Remote",
+      "location": "Remote \u2014 LATAM",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
@@ -108,7 +120,10 @@
       "source": "ashby",
       "posted_at": "2026-08-08T00:00:00.000Z",
       "scraped_at": "2026-08-21T00:00:00.000Z",
-      "status": "open"
+      "status": "open",
+      "region": "Latin America",
+      "country": "Latin America",
+      "intl_signal": 2
     },
     {
       "id": "sample:qualio:1",
@@ -118,18 +133,29 @@
       "company_id": "qualio",
       "category": "Executive Assistant",
       "level": "Mid",
-      "location": "Remote",
+      "location": "Toronto, Canada",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
       "ph_signal": 2,
-      "summary": "Qualio's team is already all-remote across North America and Europe — a strong sign this seat could stretch further.",
+      "summary": "Qualio's team is already all-remote across North America and Europe \u2014 a strong sign this seat could stretch further.",
       "description": "The Qualio team is all-remote, currently distributed across North America and Europe. We're looking for a self-driven, proactive Executive Assistant to the CEO, coordinating across global time zones.",
       "apply_url": "https://boards.greenhouse.io/qualio",
       "source": "greenhouse",
       "posted_at": "2026-08-03T00:00:00.000Z",
       "scraped_at": "2026-08-21T00:00:00.000Z",
-      "status": "open"
+      "status": "open",
+      "region": "Canada",
+      "country": "Canada",
+      "intl_signal": 2
     }
-  ]
+  ],
+  "regions": {
+    "United States": 1,
+    "Remote / Unspecified": 1,
+    "United Kingdom & Ireland": 1,
+    "Asia-Pacific": 1,
+    "Latin America": 1,
+    "Canada": 1
+  }
 }
