@@ -255,16 +255,40 @@ textarea:focus{outline:none;border-color:var(--purple)}
     </div>
   </div>
 
-  <div class="stats" id="stats"></div>
+  <div class="filters" style="margin-bottom:22px">
+    <button class="chip on" type="button" id="tab-pipeline">Pipeline</button>
+    <button class="chip" type="button" id="tab-matching">Matching</button>
+  </div>
 
-  <div class="filters" id="filters"></div>
+  <div id="view-pipeline">
+    <div class="stats" id="stats"></div>
 
-  <div class="panel">
-    <div class="panel-head">
-      <h2>All Applicants</h2>
-      <span class="count" id="count"></span>
+    <div class="filters" id="filters"></div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <h2>All Applicants</h2>
+        <span class="count" id="count"></span>
+      </div>
+      <div id="table-wrap"><div class="empty">Loading…</div></div>
     </div>
-    <div id="table-wrap"><div class="empty">Loading…</div></div>
+  </div>
+
+  <div id="view-matching" hidden>
+    <div class="panel" style="margin-bottom:18px">
+      <div class="panel-head">
+        <h2>Employer requests</h2>
+        <span class="count" id="employer-count"></span>
+      </div>
+      <div id="employer-table-wrap"><div class="empty">Loading…</div></div>
+    </div>
+    <div class="panel" id="matches-panel" hidden>
+      <div class="panel-head">
+        <h2 id="matches-title">Matches</h2>
+        <span class="count" id="matches-count"></span>
+      </div>
+      <div id="matches-wrap"></div>
+    </div>
   </div>
 </div>
 
@@ -593,7 +617,8 @@ function openDrawer(ref) {
       <p class="send-note">
         Nothing reaches the employer until you send it. A <b>teaser</b> shows the role, score,
         strengths and gaps with no contact details — enough to create interest, not enough to
-        go around you. Send <b>full details</b> only once terms are agreed.
+        go around you. <b>Full details</b> includes the candidate's contact info and payment
+        instructions (Wise) for the placement fee.
       </p>
       <div class="send-row">
         <button class="btn send" type="button" data-send="teaser">Send teaser</button>
@@ -675,47 +700,28 @@ function closeDrawer() {
 }
 
 /** Forward a candidate. Full details ask first — it is not undoable. */
-async function introduce(ref, mode, drawer, override) {
+async function introduce(ref, mode, drawer) {
   const status = drawer.querySelector('#send-status');
 
   if (mode === 'full' && !confirm(
     'Send this candidate\u2019s full contact details and background to the employer?\n\n' +
-    'Once they have these they can hire directly. Only do this when a fee agreement is in place.')) return;
+    'The email tells them where to send the placement fee (Wise / bank transfer). Once they have ' +
+    'these details they can hire directly.')) return;
 
   status.textContent = 'Sending…';
   try {
     const res = await fetch('/api/forward', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({ ref, mode, override: override || undefined }),
+      body: JSON.stringify({ ref, mode }),
     });
     const body = await res.json().catch(() => ({}));
-
-    // 409 means the gate stopped it: no fee agreement on file for this company.
-    // That is the system working, not a fault — explain it, and offer the
-    // override deliberately rather than leaving a dead end.
-    if (res.status === 409 && body.needs_agreement) {
-      status.innerHTML = esc(body.error) +
-        '<br /><span class="send-warn">Nothing was sent. Add the agreement to the fee_agreements table, ' +
-        'or override if you have terms recorded elsewhere.</span>';
-      const again = document.createElement('button');
-      again.type = 'button';
-      again.className = 'btn danger';
-      again.style.marginTop = '10px';
-      again.textContent = 'Send anyway, no agreement';
-      again.addEventListener('click', () => {
-        if (confirm('Send with no fee agreement on file?\n\nYou will have no contractual claim if they hire this candidate.'))
-          introduce(ref, mode, drawer, true);
-      });
-      status.append(again);
-      return;
-    }
 
     if (!res.ok) { status.textContent = 'Failed: ' + (body.error || res.status); return; }
 
     status.textContent = (mode === 'full' ? 'Full details sent just now' : 'Teaser sent just now') +
       (body.to ? ' to ' + body.to : '') +
-      (body.fee_percent ? ' \u00b7 ' + body.fee_percent + '% fee on file' : ' \u00b7 no agreement on file');
+      (mode === 'full' ? ' \u00b7 payment instructions included (Wise)' : '');
 
     const a = ALL.find((x) => x.ref === ref);
     if (a) a.sent_to_employer_at = new Date().toISOString();
@@ -736,6 +742,130 @@ async function update(ref, patch) {
   if (a) Object.assign(a, patch);
   render();
   if (patch.status) closeDrawer(); else openDrawer(ref);
+}
+
+/* ==========================================================================
+   Matching tab — employer requests + ranked candidate matches
+   ========================================================================== */
+let POOL_EMPLOYERS = [], POOL_CANDIDATES = [], OPEN_EMPLOYER_REF = null;
+
+$('tab-pipeline').addEventListener('click', () => {
+  $('tab-pipeline').classList.add('on'); $('tab-matching').classList.remove('on');
+  $('view-pipeline').hidden = false; $('view-matching').hidden = true;
+});
+$('tab-matching').addEventListener('click', () => {
+  $('tab-matching').classList.add('on'); $('tab-pipeline').classList.remove('on');
+  $('view-pipeline').hidden = true; $('view-matching').hidden = false;
+  if (!POOL_EMPLOYERS.length && !POOL_CANDIDATES.length) loadPool();
+});
+
+async function loadPool() {
+  try {
+    const res = await fetch('/api/admin/pool', { headers: authHeaders() });
+    const body = await res.json().catch(() => ({}));
+    if (!res.ok) { $('employer-table-wrap').innerHTML = '<div class="empty">' + esc(body.error || 'Could not load.') + '</div>'; return; }
+    POOL_EMPLOYERS = body.employers || [];
+    POOL_CANDIDATES = body.candidates || [];
+    renderEmployerTable();
+  } catch (err) {
+    $('employer-table-wrap').innerHTML = '<div class="empty">Could not reach the server.</div>';
+  }
+}
+
+function renderEmployerTable() {
+  $('employer-count').textContent = POOL_EMPLOYERS.length + (POOL_EMPLOYERS.length === 1 ? ' request' : ' requests');
+  if (!POOL_EMPLOYERS.length) {
+    $('employer-table-wrap').innerHTML = '<div class="empty">No employer requests yet.</div>';
+    return;
+  }
+  $('employer-table-wrap').innerHTML = `
+    <table>
+      <thead><tr><th>Company</th><th>Looking for</th><th class="hide">Team size</th><th class="hide">Budget</th><th class="hide">Received</th></tr></thead>
+      <tbody>${POOL_EMPLOYERS.map((e) => `
+        <tr class="row" data-eref="${esc(e.ref)}">
+          <td class="who"><b>${esc(e.company)}</b><span>${esc(e.ref)}${e.contact_email ? ' · ' + esc(e.contact_email) : ''}</span></td>
+          <td class="role"><b>${esc((e.categories || []).join(', ') || '—')}</b><span>${esc((e.must_have_skills || []).slice(0, 4).join(', '))}</span></td>
+          <td class="hide">${e.team_size || 1}</td>
+          <td class="hide">${e.budget_min || e.budget_max ? '$' + (e.budget_min || '?') + '–' + (e.budget_max || '?') + '/' + esc(e.budget_basis || 'hourly') : '—'}</td>
+          <td class="hide"><span class="ref">${ago(e.created_at)}</span></td>
+        </tr>`).join('')}</tbody>
+    </table>`;
+  $('employer-table-wrap').querySelectorAll('tr.row').forEach((row) =>
+    row.addEventListener('click', () => loadMatches(row.dataset.eref)));
+}
+
+async function loadMatches(employerRef) {
+  OPEN_EMPLOYER_REF = employerRef;
+  $('matches-panel').hidden = false;
+  $('matches-wrap').innerHTML = '<div class="empty">Finding matches…</div>';
+  try {
+    const res = await fetch('/api/admin/pool/matches?employer_ref=' + encodeURIComponent(employerRef), { headers: authHeaders() });
+    const body = await res.json().catch(() => ({}));
+    if (!res.ok) { $('matches-wrap').innerHTML = '<div class="empty">' + esc(body.error || 'Could not load matches.') + '</div>'; return; }
+    renderMatches(body);
+  } catch (err) {
+    $('matches-wrap').innerHTML = '<div class="empty">Could not reach the server.</div>';
+  }
+}
+
+function renderMatches(body) {
+  const { employer, matches } = body;
+  $('matches-title').textContent = 'Matches for ' + (employer?.company || '');
+  $('matches-count').textContent = matches.length + (matches.length === 1 ? ' candidate' : ' candidates');
+  if (!matches.length) {
+    $('matches-wrap').innerHTML = '<div class="empty">No candidates in the pool yet.</div>';
+    return;
+  }
+  $('matches-wrap').innerHTML = `
+    <table>
+      <thead><tr><th>Candidate</th><th class="hide">Skills</th><th>Score</th><th class="hide">Why</th><th>Résumé</th><th>Notify</th></tr></thead>
+      <tbody>${matches.map((m) => {
+        const band = m.score >= 75 ? 'hi' : m.score >= 50 ? 'mid' : 'lo';
+        return `<tr>
+          <td class="who"><b>${esc([m.first_name, m.last_name].filter(Boolean).join(' '))}</b><span>${esc(m.ref)} · ${esc((m.categories || []).join(', '))}</span></td>
+          <td class="hide">${esc((m.skills || []).slice(0, 5).join(', ')) || '—'}</td>
+          <td><span class="score ${band}">${m.score}</span></td>
+          <td class="hide" style="max-width:260px;white-space:normal;font-size:12.5px;color:var(--ink-dim)">${esc(m.ai_rationale || (m.reasons || []).join(' · '))}</td>
+          <td>${m.has_resume ? `<button class="btn" type="button" data-resume="${esc(m.ref)}" style="padding:6px 12px;font-size:10.5px">Download</button>` : '—'}</td>
+          <td><button class="btn" type="button" data-notify="${esc(m.ref)}" style="padding:6px 12px;font-size:10.5px">Notify</button></td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
+
+  $('matches-wrap').querySelectorAll('[data-resume]').forEach((btn) =>
+    btn.addEventListener('click', () => downloadResume(btn.dataset.resume)));
+  $('matches-wrap').querySelectorAll('[data-notify]').forEach((btn) =>
+    btn.addEventListener('click', () => notifyCandidate(btn.dataset.notify, btn)));
+}
+
+async function downloadResume(candidateRef) {
+  try {
+    const res = await fetch('/api/admin/resume?ref=' + encodeURIComponent(candidateRef), { headers: authHeaders() });
+    if (!res.ok) { alert('No résumé on file, or it could not be fetched.'); return; }
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = candidateRef + '-resume';
+    document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  } catch (err) {
+    alert('Could not download: ' + err.message);
+  }
+}
+
+async function notifyCandidate(candidateRef, btn) {
+  if (!confirm('Let this candidate know they\u2019ve been matched to an opportunity?')) return;
+  btn.textContent = '…'; btn.disabled = true;
+  try {
+    const res = await fetch('/api/admin/pool/notify', {
+      method: 'POST', headers: { 'Content-Type': 'application/json', ...authHeaders() },
+      body: JSON.stringify({ candidate_ref: candidateRef, employer_ref: OPEN_EMPLOYER_REF }),
+    });
+    const body = await res.json().catch(() => ({}));
+    btn.textContent = res.ok && body.emailed ? 'Notified ✓' : res.ok ? 'Marked (no email)' : 'Failed';
+  } catch (err) {
+    btn.textContent = 'Failed';
+  }
 }
 
 /* Already signed in this tab? Skip the gate. */
