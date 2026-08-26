@@ -298,7 +298,7 @@ export const COMPANIES = [
     country: "France", state: null, segment: "AI Foundation Models", verified: false, method: "lever", atsSlug: "mistral", active: true,
   },
   { id: "shopify", name: "Shopify", hub: "startup", careersUrl: "https://www.shopify.com/careers", website: "https://www.shopify.com",
-    country: "Canada", state: null, segment: "E-commerce Platform", verified: false, method: null, atsSlug: null, active: true,
+    country: "Canada", state: null, segment: "E-commerce Platform", verified: false, method: "dom", atsSlug: null, active: true,
     // Custom careers site — leave method null and let detect-ats.js try, or skip.
   },
   { id: "wealthsimple", name: "Wealthsimple", hub: "startup", careersUrl: "https://jobs.lever.co/wealthsimple", website: "https://www.wealthsimple.com",
