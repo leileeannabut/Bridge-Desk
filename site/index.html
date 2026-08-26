@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>BridgeDesk — Remote VA, EA &amp; Legal Assistant roles at US startups</title>
-<meta name="description" content="Remote Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant roles at US startups — scraped straight from their own career pages, scored for how open they read to a Philippines-based hire." />
+<title>BridgeDesk — Remote VA, EA &amp; Legal Assistant roles at startups worldwide</title>
+<meta name="description" content="Remote Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant roles at startups worldwide — scraped straight from their own career pages, rated for how open each one reads to hiring across borders." />
 <link rel="canonical" href="https://bridgedesk.co/" />
 <meta name="robots" content="index, follow" />
 <meta name="theme-color" content="#FAF6ED" />
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="BridgeDesk" />
-<meta property="og:title" content="BridgeDesk — the bridge between US teams and Filipino talent" />
-<meta property="og:description" content="Remote VA / EA / PA / Legal Assistant roles at US startups, scored for how open each one reads to a Philippines-based hire." />
+<meta property="og:title" content="BridgeDesk — connecting global teams and global talent" />
+<meta property="og:description" content="Remote VA / EA / PA / Legal Assistant roles at startups worldwide, rated for how open each one reads to hiring across borders." />
 <meta property="og:url" content="https://bridgedesk.co/" />
 <meta property="og:image" content="https://bridgedesk.co/og.svg" />
 <meta property="og:image:width" content="1200" />
@@ -26,12 +26,12 @@
 
 <style>
 /* ==========================================================================
-   BridgeDesk — job board for Filipino VA/EA/PA/Legal Assistant candidates
-   at US startups. Static site, no build step, no framework.
+   BridgeDesk — job board for VA/EA/PA/Legal Assistant candidates worldwide,
+   working for startups worldwide. Static site, no build step, no framework.
 
-   Signature element: the "Bridge Clock" in the hero — a live two-city time
-   strip (US Eastern, Manila) that makes the whole pitch of the site visible
-   in one glance, before a single word of copy is read.
+   Signature element: the "Bridge Clock" in the hero — a live five-city time
+   strip (US, UK, Canada, LatAm, Australia) that makes the whole pitch of the
+   site visible in one glance, before a single word of copy is read.
    ========================================================================== */
 :root{
   --paper:#FAF6ED; --paper-soft:#F1ECDF; --card:#FFFFFF;
@@ -294,6 +294,7 @@ footer.site .foot-bottom{margin-top:24px;padding-top:20px;border-top:1px solid v
 }
 .social-row a:hover{color:var(--sage-deep);border-color:var(--sage-deep);background:var(--sage-tint)}
 .social-row svg{width:16px;height:16px;fill:currentColor}
+.pill .pill-n{opacity:.6;font-size:11px;margin-left:2px}
 
 /* ---------- drawer ---------- */
 .scrim{
@@ -456,9 +457,9 @@ footer.site .foot-bottom{margin-top:24px;padding-top:20px;border-top:1px solid v
 
   <div class="wrap split">
     <div class="split-card employers" id="employers">
-      <div class="eyebrow">For US employers</div>
+      <div class="eyebrow">For Employers Worldwide</div>
       <h3>Hire a remote EA or VA without running the search yourself</h3>
-      <p>We pre-screen Filipino candidates against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. Introductions are made under a fee agreement, so there's no cost until a hire happens.</p>
+      <p>We pre-screen candidates worldwide against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. There's no cost until you actually decide to hire.</p>
       <a class="btn gold" href="mailto:Bridgedesk@gmail.com?subject=Posting%20an%20open%20position">Post an Open Position</a>
     </div>
     <div class="split-card team" id="team">
@@ -470,16 +471,16 @@ footer.site .foot-bottom{margin-top:24px;padding-top:20px;border-top:1px solid v
       <a class="btn" type="button" id="team-cta-btn">Tell Us Who You're Building</a>
     </div>
     <div class="split-card vas" id="candidates">
-      <div class="eyebrow">For Filipino VAs &amp; EAs</div>
-      <h3>Apply to real openings at real US startups</h3>
+      <div class="eyebrow">For VAs &amp; EAs Worldwide</div>
+      <h3>Apply to real openings at real startups worldwide</h3>
       <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly through BridgeDesk and get an AI-reviewed read on how your background matches the role before you send it.</p>
       <a class="btn" href="#board">Browse Open Roles ↓</a>
     </div>
     <div class="split-card training" id="training">
       <span class="soon-tag">Coming Soon</span>
-      <div class="eyebrow">For Filipino VAs &amp; EAs</div>
+      <div class="eyebrow">For VAs &amp; EAs Worldwide</div>
       <h3>Training — get role-ready before you apply</h3>
-      <p>A structured path for tools, async communication and client-handling skills that US employers look for. Not live yet — check back, or sign up for the pool below to hear when it opens.</p>
+      <p>A structured path for tools, async communication and client-handling skills that employers worldwide look for. Not live yet — check back, or sign up for the pool below to hear when it opens.</p>
       <button class="btn" type="button" disabled>Coming Soon</button>
     </div>
   </div>
@@ -514,7 +515,8 @@ footer.site .foot-bottom{margin-top:24px;padding-top:20px;border-top:1px solid v
         </div>
       </div>
       <div class="pill-row" id="cat-pills" role="group" aria-label="Filter by role"></div>
-      <div class="pill-row" id="ph-pills" role="group" aria-label="Filter by PH signal" style="margin-top:8px"></div>
+      <div class="pill-row" id="ph-pills" role="group" aria-label="Filter by rubric rating" style="margin-top:8px"></div>
+      <div class="pill-row" id="region-pills" role="group" aria-label="Filter by region" style="margin-top:8px" hidden></div>
       <p class="result-count" id="count"></p>
 
       <div class="grid" id="grid"></div>
@@ -524,11 +526,11 @@ footer.site .foot-bottom{margin-top:24px;padding-top:20px;border-top:1px solid v
   <section class="detail">
     <div class="wrap detail-grid">
       <div>
-        <div class="eyebrow">How the PH signal works</div>
-        <h2>We score every posting, we don't filter it</h2>
-        <p>Most US companies never say "open to the Philippines" outright — so instead of hiding roles that are silent on it, every listing gets a score from what its own language suggests:</p>
+        <div class="eyebrow">How the rubric works</div>
+        <h2>We rate every posting, we don't filter it</h2>
+        <p>Most companies never say "open to hiring across borders" outright — so instead of hiding roles that are silent on it, every listing gets a rating from what its own language suggests:</p>
         <ul class="rubric-list">
-          <li><span class="rubric-tier t3">3</span><p><b>Strong —</b> explicitly mentions the Philippines, international contractors, or hiring "anywhere in the world."</p></li>
+          <li><span class="rubric-tier t3">3</span><p><b>Strong —</b> explicitly mentions international contractors, a specific country or region, or hiring "anywhere in the world."</p></li>
           <li><span class="rubric-tier t2">2</span><p><b>Medium —</b> "remote-first," "fully distributed," or contractor-friendly language.</p></li>
           <li><span class="rubric-tier t1">1</span><p><b>Weak —</b> just says "remote" or "flexible hours," with no further detail either way.</p></li>
           <li><span class="rubric-tier t0">0</span><p><b>None —</b> the posting is silent — worth a pitch, just not a confirmed yes.</p></li>
@@ -560,9 +562,9 @@ footer.site .foot-bottom{margin-top:24px;padding-top:20px;border-top:1px solid v
     <div class="wrap about-wrap">
       <div class="eyebrow">About us</div>
       <h2 style="margin-bottom:14px">Why BridgeDesk exists</h2>
-      <p>Great Philippine support talent knows no borders—most traditional platforms simply aren't built to reveal that to fast-scaling US startups. BridgeDesk was built to erase that boundary. We go straight to the primary source, evaluating US career listings with intelligent precision, rating each role against a clear PH-hiring compatibility index, and engineering high-confidence matches rather than sending resumes into a black hole.</p>
-      <p>We are not a traditional staffing agency recycling old job boards, nor are we a static resume repository. BridgeDesk is an intelligent matching ecosystem where every opening stems directly from a US company's native career page, every profile is scored against real-world operational readiness, and every introduction is driven by intentional curation. We ask for a single, one-time payment on both sides — employer and candidate — only when a successful hire is made—making the entire discovery process completely frictionless for US companies and Filipino professionals alike.</p>
-      <p>We pioneered this framework across Virtual, Executive, Personal, and Legal Assistant roles because that is where the disconnect between "remote-friendly" and true openness to Philippines-based hiring is greatest—and where the right connection fundamentally transforms a career, an operation, and an enterprise.</p>
+      <p>Great support talent knows no borders—most traditional platforms simply aren't built to reveal that to fast-scaling companies. BridgeDesk was built to erase that boundary. We go straight to the primary source, evaluating career listings worldwide with intelligent precision, rating each role against a clear international-hiring compatibility index, and engineering high-confidence matches rather than sending resumes into a black hole.</p>
+      <p>We are not a traditional staffing agency recycling old job boards, nor are we a static resume repository. BridgeDesk is an intelligent matching ecosystem where every opening stems directly from a company's native career page, every profile is scored against real-world operational readiness, and every introduction is driven by intentional curation. We ask for a single, one-time payment on both sides — employer and candidate — only when a successful hire is made—making the entire discovery process completely frictionless for companies and professionals alike, worldwide.</p>
+      <p>We pioneered this framework across Virtual, Executive, Personal, and Legal Assistant roles because that is where the disconnect between "remote-friendly" and true global hiring is greatest—and where the right connection fundamentally transforms a career, an operation, and an enterprise.</p>
     </div>
   </section>
 
@@ -621,9 +623,9 @@ const fy = $('foot-year'); if (fy) fy.textContent = new Date().getFullYear();
    FAQ accordion
    ========================================================================== */
 const FAQS = [
-  { q: "Who is BridgeDesk for?", a: "US companies hiring Virtual, Executive, Personal, or Legal Assistant support, and Filipino candidates looking for real, direct roles with those companies — not repostings or a resume database." },
+  { q: "Who is BridgeDesk for?", a: "Companies anywhere hiring Virtual, Executive, Personal, or Legal Assistant support, and candidates anywhere looking for real, direct roles with those companies — not repostings or a resume database." },
   { q: "Is BridgeDesk free to use?", a: "Browsing roles, applying, submitting a hiring request, and joining the pool all cost nothing upfront. We ask for a one-time payment on both sides — employer and candidate — only once a match actually leads to a hire." },
-  { q: "How does the rubric rating work?", a: "Every listing is rated 0–3 based on how openly its own language reads to a Philippines-based hire — from an explicit mention of the Philippines or contractor-friendly hiring (3) down to no mention either way (0). A low rating doesn't mean don't apply; it just means the posting is silent." },
+  { q: "How does the rubric rating work?", a: "Every listing is rated 0–3 based on how openly its own language reads to hiring across borders — from an explicit mention of international or contractor-friendly hiring (3) down to no mention either way (0). A low rating doesn't mean don't apply; it just means the posting is silent." },
   { q: "Where do the job listings come from?", a: "Straight from each company's own careers page — not a staffing agency repost. The board refreshes daily." },
   { q: "What happens after I apply?", a: "Your application gets an AI-assisted read against that specific posting. Strong matches are forwarded to the employer as a curated introduction, and you'll hear back either way." },
   { q: "Can I hire more than one role at once?", a: "Yes — the Hire a Team option lets you submit your roles, skills, and budget once, and BridgeDesk builds and manages a fully matched multi-role team for you." },
@@ -665,8 +667,14 @@ const PH_FILTERS = [
   { id: 'confirmed', label: 'Rubric 3' },
 ];
 
+const REGION_ORDER = ['United States', 'Canada', 'United Kingdom & Ireland', 'Europe', 'Asia-Pacific', 'Latin America', 'Middle East & Africa', 'Remote / Global', 'Remote / Unspecified'];
+
 let JOBS = [];
-let filters = { q: '', cat: 'All', ph: 'all' };
+let filters = { q: '', cat: 'All', ph: 'all', region: 'All' };
+
+// The feed writes `intl_signal`; older feeds only had `ph_signal`. Same 0–3 scale.
+const sig = (j) => (j.intl_signal ?? j.ph_signal ?? 0);
+const regionOfJob = (j) => j.region || 'Remote / Unspecified';
 
 async function loadJobs() {
   try {
@@ -697,16 +705,34 @@ function renderPills() {
   phWrap.querySelectorAll('.pill').forEach((btn) =>
     btn.addEventListener('click', () => { filters.ph = btn.dataset.ph; renderPills(); render(); })
   );
+
+  // Region pills are built from what's actually in the feed, in a fixed order,
+  // so an empty region never shows as a dead filter.
+  const regWrap = $('region-pills');
+  if (regWrap) {
+    const counts = {};
+    JOBS.forEach((j) => { counts[regionOfJob(j)] = (counts[regionOfJob(j)] || 0) + 1; });
+    const present = REGION_ORDER.filter((r) => counts[r]);
+    Object.keys(counts).filter((r) => !REGION_ORDER.includes(r)).forEach((r) => present.push(r));
+    regWrap.hidden = present.length < 2;
+    regWrap.innerHTML = ['All', ...present].map((r) =>
+      `<button type="button" class="pill ${filters.region === r ? 'is-on' : ''}" data-region="${esc(r)}">${esc(r === 'All' ? 'All regions' : r)}${r !== 'All' ? ` <span class="pill-n">${counts[r]}</span>` : ''}</button>`
+    ).join('');
+    regWrap.querySelectorAll('.pill').forEach((btn) =>
+      btn.addEventListener('click', () => { filters.region = btn.dataset.region; renderPills(); render(); })
+    );
+  }
 }
 
 function visibleJobs() {
   const q = filters.q.trim().toLowerCase();
   return JOBS.filter((j) => {
     if (filters.cat !== 'All' && j.category !== filters.cat) return false;
-    if (filters.ph === 'strong' && (j.ph_signal || 0) < 2) return false;
-    if (filters.ph === 'confirmed' && (j.ph_signal || 0) < 3) return false;
+    if (filters.ph === 'strong' && sig(j) < 2) return false;
+    if (filters.ph === 'confirmed' && sig(j) < 3) return false;
+    if (filters.region !== 'All' && regionOfJob(j) !== filters.region) return false;
     if (q) {
-      const hay = `${j.title} ${j.company} ${j.location}`.toLowerCase();
+      const hay = `${j.title} ${j.company} ${j.location} ${j.country || ''} ${regionOfJob(j)}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -728,13 +754,15 @@ function render() {
   const list = visibleJobs();
   const total = JOBS.length;
   $('stats-line').textContent = total
-    ? `${total} open role${total === 1 ? '' : 's'} across ${new Set(JOBS.map((j) => j.company)).size} startups.`
-    : 'No roles in the feed yet.';
+    ? `${total} open role${total === 1 ? '' : 's'} across ${new Set(JOBS.map((j) => j.company)).size} startups in ${new Set(JOBS.map(regionOfJob)).size} region${new Set(JOBS.map(regionOfJob)).size === 1 ? '' : 's'}.`
+    : 'No assistant roles are open across our tracked companies right now — the board refreshes daily, and you can join the pool below to be matched as soon as one opens.';
   $('count').textContent = `${list.length} of ${total} roles`;
 
   const grid = $('grid');
   if (!list.length) {
-    grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1"><h4>No roles match that filter</h4><p>Try clearing the search or picking a different category.</p></div>`;
+    grid.innerHTML = total
+      ? `<div class="empty-state" style="grid-column:1/-1"><h4>No roles match that filter</h4><p>Try clearing the search or picking a different category or region.</p></div>`
+      : `<div class="empty-state" style="grid-column:1/-1"><h4>Nothing open today</h4><p>Every company we track answered, but none has an assistant-family role open right now. Check back tomorrow, or <a href="#pool">join the pool</a> so we can match you the moment one appears.</p></div>`;
     return;
   }
 
@@ -745,13 +773,13 @@ function render() {
     <article class="job-card" data-id="${esc(j.id)}">
       <div class="row-top">
         <span class="chip ${catClass}">${esc(j.category)}</span>
-        ${phBadge(j.ph_signal)}
+        ${phBadge(sig(j))}
       </div>
       <div>
         <h3>${esc(j.title)}</h3>
         <div class="company">${esc(j.company)}</div>
       </div>
-      <div class="meta"><span>${esc(j.location)}</span>${j.level ? `<span>· ${esc(j.level)}</span>` : ''}</div>
+      <div class="meta"><span>${esc(j.location)}</span>${j.country && !j.location.toLowerCase().includes(j.country.toLowerCase()) ? `<span>· ${esc(j.country)}</span>` : ''}${j.level ? `<span>· ${esc(j.level)}</span>` : ''}</div>
       <p class="summary">${esc(j.summary)}</p>
       ${comp ? `<div class="comp">${esc(comp)}</div>` : ''}
     </article>`;
@@ -789,8 +817,8 @@ function openJob(id) {
 
 function phNote(n) {
   n = n || 0;
-  if (n >= 2) return `<div class="ph-note">This posting's own language reads as open to hiring in the Philippines (rubric ${n}/3) — a good one to apply to directly.</div>`;
-  if (n === 1) return `<div class="ph-note low">This posting just says "remote" with no further detail (rubric 1/3). Worth applying — BridgeDesk pitches the case for hiring in the Philippines as part of every introduction.</div>`;
+  if (n >= 2) return `<div class="ph-note">This posting's own language reads as open to hiring across borders (rubric ${n}/3) — a good one to apply to directly.</div>`;
+  if (n === 1) return `<div class="ph-note low">This posting just says "remote" with no further detail (rubric 1/3). Worth applying — BridgeDesk pitches the case for hiring internationally as part of every introduction.</div>`;
   return `<div class="ph-note low">This posting doesn't mention remote/international hiring either way (rubric 0/3). Still worth applying — the fit gets made in the introduction, not the job ad.</div>`;
 }
 
@@ -800,8 +828,8 @@ function renderJobDetail(job) {
     <span class="chip cat-${esc(String(job.category).replace(/\s+/g,'-'))}">${esc(job.category)}</span>
     <h2 style="margin-top:12px">${esc(job.title)}</h2>
     <div class="drawer-company">${esc(job.company)} · ${esc(job.location)}</div>
-    <div class="drawer-meta">${phBadge(job.ph_signal)}${compLine(job) ? `<span class="chip" style="background:var(--tan-tint);color:var(--tan-deep)">${esc(compLine(job))}</span>` : ''}</div>
-    ${phNote(job.ph_signal)}
+    <div class="drawer-meta">${phBadge(sig(job))}${job.region ? `<span class="chip" style="background:var(--sage-tint);color:var(--sage-deep)">${esc(job.region)}</span>` : ''}${compLine(job) ? `<span class="chip" style="background:var(--tan-tint);color:var(--tan-deep)">${esc(compLine(job))}</span>` : ''}</div>
+    ${phNote(sig(job))}
     <p class="desc">${esc(job.description || job.summary)}</p>
     <div class="drawer-foot">
       <button type="button" class="btn primary block" id="apply-btn">Apply Through BridgeDesk</button>
@@ -1139,7 +1167,7 @@ function openPoolForm() {
             <option>Full-time</option><option>Part-time</option><option>Either</option>
           </select>
         </div>
-        <div class="f" data-for="p-tz"><label>Timezone overlap</label><input id="p-tz" placeholder="e.g. US Eastern mornings" /></div>
+        <div class="f" data-for="p-tz"><label>Timezone overlap</label><input id="p-tz" placeholder="e.g. US Eastern mornings, UK afternoons" /></div>
       </div>
       <div class="f-row" style="grid-template-columns:1fr 1fr 1fr">
         <div class="f" data-for="p-rmin"><label>Rate min <span class="opt">(optional)</span></label><input id="p-rmin" type="number" min="0" /></div>
@@ -1219,7 +1247,7 @@ function openEmployerIntake() {
     <div class="f" data-for="e-skills"><label>Must-have skills <span class="opt">(comma-separated)</span></label><input id="e-skills" /></div>
     <div class="f-row">
       <div class="f" data-for="e-teamsize"><label>How many assistants are you hiring?</label><input id="e-teamsize" type="number" min="1" value="1" /></div>
-      <div class="f" data-for="e-tz"><label>Timezone needs</label><input id="e-tz" placeholder="e.g. overlap with US Pacific mornings" /></div>
+      <div class="f" data-for="e-tz"><label>Timezone needs</label><input id="e-tz" placeholder="e.g. overlap with London mornings" /></div>
     </div>
     <div class="f-row" style="grid-template-columns:1fr 1fr 1fr">
       <div class="f" data-for="e-bmin"><label>Budget min <span class="opt">(optional)</span></label><input id="e-bmin" type="number" min="0" /></div>
