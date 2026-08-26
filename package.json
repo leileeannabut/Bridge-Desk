@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Job board connecting Filipino VAs/EAs/PAs/Legal Assistants to US startup openings. Static site plus a scheduled scraper.",
+  "description": "Job board connecting VAs/EAs/PAs/Legal Assistants worldwide to startup openings worldwide. Static site plus a scheduled scraper.",
   "scripts": {
     "build": "echo 'Static site - nothing to build.'",
     "detect": "node scripts/detect-ats.js",
