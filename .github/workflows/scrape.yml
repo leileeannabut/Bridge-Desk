@@ -3,23 +3,14 @@ name: Scrape jobs
 # GitHub runs this for you — no server, no database, no cron on your Mac.
 # run.js writes site/jobs.json, beside site/index.html — the folder Cloudflare
 # serves. Committing it triggers a rebuild.
-#
-# EXPANDED CAPACITY:
-#   - Company list is split into N parallel shards so more companies fit in
-#     the timeout window, and one slow/broken company can't block the rest.
-#   - Runs twice a day so freshly-posted roles show up sooner.
-#   - detect-ats now runs weekly on its own schedule instead of only on
-#     manual dispatch, so newly added companies get auto-classified.
-#   - Each shard writes its own partial feed; a merge step combines them
-#     before validation, so a single shard failing doesn't blank the board.
 on:
   schedule:
-    # Twice daily: 07:00 UTC (~2-3am ET) and 17:00 UTC (~12-1pm ET) — one run
-    # before the US workday starts, one mid-day to catch same-day postings.
+    # Daily at 07:00 UTC — 02:00 Eastern, 03:00 during daylight saving. Early
+    # enough that the board is fresh before the working day starts.
     #
     # GitHub's scheduler is best-effort and can lag by several minutes under
     # load. It also disables cron on public repos after 60 days with no commits
-    # — twice-daily runs keep that clock reset as long as the feed keeps changing.
+    # — daily runs keep that clock reset as long as the feed keeps changing.
     #
     #        ┌─ minute
     #        │ ┌─ hour (UTC)
@@ -27,92 +18,30 @@ on:
     #        │ │ │ ┌─ month
     #        │ │ │ │ ┌─ day of week
     - cron: '0 7 * * *'
-    - cron: '0 17 * * *'
-    # Weekly ATS re-detection — Sunday 06:00 UTC, ahead of the Monday morning
-    # scrape, so newly detected companies get scraped same-week.
-    - cron: '0 6 * * 0'
   workflow_dispatch:
     inputs:
       only:
-        description: 'Scrape one or more company ids (comma-separated) — leave blank for all'
+        description: 'Scrape one company only (its config.js id) — leave blank for all'
         type: string
         default: ''
       detect:
         description: 'Re-detect ATS for companies with no scrape method'
         type: boolean
         default: false
-      shards:
-        description: 'Number of parallel shards to split the company list across'
-        type: string
-        default: '6'
 
 concurrency:
   group: scrape
   cancel-in-progress: false
 
 jobs:
-  # Runs only on the Sunday cron, or when manually requested via `detect`.
-  detect-ats:
-    if: github.event.schedule == '0 6 * * 0' || inputs.detect == true
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '24'
-      - name: Detect ATS for new companies
-        run: node scripts/detect-ats.js
-      - name: Commit newly detected ATS methods
-        run: |
-          git config user.name  'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add config.js
-          if git diff --staged --quiet; then
-            echo "No new ATS detections — nothing to commit."
-            exit 0
-          fi
-          git commit -m "Detect ATS for new companies"
-          git pull --rebase origin main
-          git push origin main
-
-  # Builds the shard matrix. Kept as its own job so the shard count can come
-  # from a workflow_dispatch input instead of being hardcoded into the matrix.
-  plan:
-    if: github.event.schedule != '0 6 * * 0'
-    runs-on: ubuntu-latest
-    outputs:
-      shards: ${{ steps.set.outputs.shards }}
-    steps:
-      - id: set
-        run: |
-          N="${{ inputs.shards }}"
-          N="${N:-6}"
-          node -e "
-            let n = parseInt('${N}', 10);
-            // Guard rails: 'shards' means parallel jobs to split the company
-            // list across, not the number of companies. A bad/huge value
-            // here used to blow past GitHub's hard 256-job matrix cap and
-            // silently kill the whole scrape job before it started.
-            if (!Number.isInteger(n) || n < 1) n = 6;
-            if (n > 20) n = 20;
-            const arr = Array.from({length: n}, (_, i) => i);
-            console.log('shards=' + JSON.stringify(arr));
-          " >> "$GITHUB_OUTPUT"
-
   scrape:
-    if: github.event.schedule != '0 6 * * 0'
-    needs: plan
     runs-on: ubuntu-latest
     timeout-minutes: 30
+
+    # The only permission this needs: writing the feed back to the repo.
     permissions:
-      contents: read
-    strategy:
-      fail-fast: false
-      matrix:
-        shard: ${{ fromJson(needs.plan.outputs.shards) }}
+      contents: write
+
     steps:
       - uses: actions/checkout@v5
 
@@ -126,72 +55,23 @@ jobs:
       # No install step: run.js and scripts/detect-ats.js use only built-in
       # Node APIs (fetch, fs, URL). Nothing to install, nothing to break.
 
-      - name: Scrape this shard
+      - name: Detect ATS for new companies
+        if: inputs.detect
+        run: node scripts/detect-ats.js
+
+      - name: Scrape all companies
+        if: inputs.only == ''
         env:
           HISTORY_URL: ${{ secrets.HISTORY_URL }}
           HISTORY_KEY: ${{ secrets.HISTORY_KEY }}
-          SHARD_COUNT: ${{ inputs.shards || '6' }}
-        run: |
-          if [ -n "${{ inputs.only }}" ]; then
-            node run.js --only=${{ inputs.only }} --out=site/jobs.shard-${{ matrix.shard }}.json
-          else
-            node run.js --shard=${{ matrix.shard }}/$SHARD_COUNT --out=site/jobs.shard-${{ matrix.shard }}.json
-          fi
-        continue-on-error: true
+        run: node run.js --out=site/jobs.json
 
-      - name: Upload shard result
-        uses: actions/upload-artifact@v4
-        with:
-          name: shard-${{ matrix.shard }}
-          path: site/jobs.shard-${{ matrix.shard }}.json
-          if-no-files-found: warn
-          retention-days: 1
-
-  merge:
-    if: github.event.schedule != '0 6 * * 0'
-    needs: scrape
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v5
-
-      - uses: actions/setup-node@v5
-        with:
-          node-version: '24'
-
-      - uses: actions/download-artifact@v4
-        with:
-          path: site/shards
-
-      - name: Merge shard feeds into one, de-duplicating by id
-        run: |
-          node -e "
-            const fs = require('fs');
-            const path = require('path');
-            const root = 'site/shards';
-            const seen = new Map();
-            let shardsFound = 0;
-            for (const dir of fs.readdirSync(root)) {
-              const dirPath = path.join(root, dir);
-              for (const file of fs.readdirSync(dirPath)) {
-                if (!file.endsWith('.json')) continue;
-                shardsFound++;
-                const raw = fs.readFileSync(path.join(dirPath, file), 'utf8');
-                let data;
-                try { data = JSON.parse(raw); } catch { continue; }
-                const jobs = Array.isArray(data) ? data : (data.jobs || []);
-                for (const j of jobs) {
-                  if (j && j.id) seen.set(j.id, j);
-                }
-              }
-            }
-            if (shardsFound === 0) throw new Error('no shard output found — every shard failed');
-            const merged = Array.from(seen.values());
-            fs.writeFileSync('site/jobs.json', JSON.stringify(merged, null, 2));
-            console.log('merged ' + merged.length + ' unique jobs from ' + shardsFound + ' shard file(s)');
-          "
+      - name: Scrape one company
+        if: inputs.only != ''
+        env:
+          HISTORY_URL: ${{ secrets.HISTORY_URL }}
+          HISTORY_KEY: ${{ secrets.HISTORY_KEY }}
+        run: node run.js --only=${{ inputs.only }} --out=site/jobs.json
 
       # Guard against publishing a broken or empty feed. A scrape that fails
       # halfway should leave yesterday's feed in place, not replace it with
@@ -204,26 +84,28 @@ jobs:
             const data = JSON.parse(raw);
             const jobs = Array.isArray(data) ? data : data.jobs;
             if (!Array.isArray(jobs)) throw new Error('feed is not an array of jobs');
-            if (jobs.length === 0) throw new Error('feed is empty — refusing to publish');
+            // An empty feed is only a failure if the scrape itself broke. If every
+            // source answered and simply had no assistant roles open, that is a
+            // real (if quiet) result and the site shows its empty state.
+            if (jobs.length === 0 && !(data.sources_ok > 0 && data.sources_failed === 0)) throw new Error('feed is empty and sources failed — refusing to publish');
+            if (jobs.length === 0) console.log('feed ok: 0 jobs (all ' + data.sources_ok + ' sources answered, none had an assistant role open)');
             const bad = jobs.filter(j => !j.id || !j.title || !j.company);
             if (bad.length) throw new Error(bad.length + ' rows missing id, title or company');
-            console.log('feed ok: ' + jobs.length + ' jobs');
+            if (jobs.length) console.log('feed ok: ' + jobs.length + ' jobs across regions: ' + JSON.stringify(data.regions || {}));
           "
 
-      - name: Commit the merged feed
+      - name: Commit the feed (and any newly detected ATS methods)
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git fetch origin main
-          git reset --hard origin/main
-          git add site/jobs.json
+          git add site/jobs.json config.js
           if git diff --staged --quiet; then
             echo "No change since the last scrape — nothing to commit."
             exit 0
           fi
-          COUNT=$(node -e "const fs = require('fs'); const raw = fs.readFileSync('site/jobs.json', 'utf8'); const d = JSON.parse(raw); console.log((d.jobs||d).length)")
+          COUNT=$(node -e "const d=require('./site/jobs.json');console.log((d.jobs||d).length)")
           git commit -m "Update job feed: $COUNT roles"
-          git push origin main
+          git push
 
       - name: Report
         if: always()
@@ -233,5 +115,5 @@ jobs:
           echo "- Finished: $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
           echo "- Result: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
           if [ -f site/jobs.json ]; then
-            echo "- Roles in feed: $(node -e "const fs = require('fs'); const raw = fs.readFileSync('site/jobs.json', 'utf8'); const d = JSON.parse(raw); console.log((d.jobs||d).length)")" >> $GITHUB_STEP_SUMMARY
+            echo "- Roles in feed: $(node -e "const d=require('./site/jobs.json');console.log((d.jobs||d).length)")" >> $GITHUB_STEP_SUMMARY
           fi
