@@ -29,8 +29,4 @@
     }
   ],
 
-  // Logs from console.error in worker.js.
-  "observability": {
-    "enabled": true
-  }
-}
+  // Logs from
