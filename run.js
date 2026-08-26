@@ -3,7 +3,10 @@
  * run.js — job scraper for BridgeDesk
  * ---------------------------------------------------------------------------
  * Pulls open Virtual Assistant / Executive Assistant / Personal Assistant /
- * Legal Assistant roles from US startup career pages and writes
+ * Legal Assistant / Social Media Manager / Cold Caller (and other VA-niche)
+ * roles from career pages of companies based in the US, Canada, Australia,
+ * New Zealand, Singapore, or Malaysia — kept only when the posting explicitly
+ * signals remote/outsourced hiring (see MIN_SIGNAL) — and writes
  * site/jobs.json beside site/index.html, which the page reads directly. No
  * database.
  *
@@ -168,8 +171,15 @@ function categorise(title = '') {
   if (/\b(legal assistant|paralegal|legal secretary|legal support|contract admin(istrator)?)\b/.test(t)) return 'Legal Assistant';
   if (/\b(executive assistant|executive business partner|ea to|chief of staff|c-suite support)\b/.test(t)) return 'Executive Assistant';
   if (/\b(personal assistant|household|family assistant|lifestyle (assistant|manager))\b/.test(t)) return 'Personal Assistant';
+  if (/\b(social media (manager|specialist|coordinator|assistant|strategist)|community manager|content (manager|coordinator)|social media marketing)\b/.test(t)) return 'Social Media Manager';
+  if (/\b(cold caller|cold calling|appointment setter|telemarketer|outbound (caller|sales|sdr)|sales development rep(resentative)?|\bsdr\b|lead generation (specialist|rep(resentative)?))\b/.test(t)) return 'Cold Caller';
   if (/\b(virtual assistant|va\b|remote assistant|administrative assistant|admin assistant|office (admin|assistant)|operations assistant|inbox|calendar management)\b/.test(t)) return 'Virtual Assistant';
-  if (/\b(assistant|coordinator)\b/.test(t)) return 'Virtual Assistant'; // catch-all for "X Assistant" not matched above
+  // Broader VA-niche catch-all: bookkeeping, customer/chat support, data
+  // entry, transcription, e-commerce/real-estate VA work, and general
+  // "X Assistant"/"X Coordinator" titles not matched above. Deliberately
+  // wide — "any other VA niche" means near-misses should land here rather
+  // than fall through to 'Other' and get dropped.
+  if (/\b(bookkeeper|bookkeeping|customer (support|service) (rep(resentative)?|agent|specialist)|chat support|data entry|transcription(ist)?|e-?commerce (assistant|va|coordinator)|real estate (va|assistant|coordinator)|research assistant|inbox manager|email manager|assistant|coordinator)\b/.test(t)) return 'Virtual Assistant';
   return 'Other';
 }
 
@@ -200,11 +210,18 @@ const STRONG_SIGNAL = [
   'outside the us', 'outside the u.s.', 'international contractor',
   'anywhere in the world', 'work from anywhere', 'global talent',
   'timezone flexible', 'async-first', 'asynchronous-first',
+  // Explicit outsourcing/offshore language — the strongest possible signal
+  // that a company is deliberately hiring outside its home country.
+  'outsource', 'outsourcing', 'offshore', 'offshore team', 'offshore hire',
+  'hire internationally', 'hiring internationally', 'international hire',
+  'global remote team', 'globally distributed', 'work with a remote team abroad',
+  'virtual assistant agency', 'va agency',
 ];
 const MEDIUM_SIGNAL = [
   'remote-first', 'remote first', 'fully remote', 'fully distributed',
   'distributed team', 'contractor', 'independent contractor', 'freelance',
-  'no location restriction', 'work from wherever',
+  'no location restriction', 'work from wherever', 'open to international candidates',
+  'candidates outside', 'work across time zones',
 ];
 const WEAK_SIGNAL = ['remote', 'anywhere', 'flexible hours', 'async'];
 
@@ -216,17 +233,35 @@ function phSignal(title = '', description = '', location = '') {
   return 0;
 }
 
+// How explicit a posting has to be before it's allowed on the board at all.
+// Previously ph_signal was a display-only score — a 0 just meant "silent,"
+// and silent postings still made the feed. Per BridgeDesk's current scope,
+// a posting must say SOMETHING about remote/outsourced hiring, not just
+// exist — so this is now a hard cutoff, not a label.
+//   3 = explicit offshore/outsourcing language (e.g. "outsource", "Philippines")
+//   2 = explicit remote-hiring language (e.g. "fully remote", "contractor")
+//   1 = the word "remote" appears somewhere, with no other context
+// MIN_SIGNAL = 2 means "remote" alone is no longer enough — the posting has
+// to say something closer to actually meaning offshore/outsourced hiring.
+// Lower to 1 if this filters out too much; raise to 3 to require explicit
+// offshore/outsourcing language only.
+const MIN_SIGNAL = 2;
+
 /* ==========================================================================
-   US-EMPLOYER FILTER
+   TARGET-EMPLOYER-GEOGRAPHY FILTER
    --------------------------------------------------------------------------
-   Every company in config.js is a US-founded startup by construction, but
-   some of their listings are for non-US offices (a London GTM team, a
-   Manila support pod, etc). Those are dropped — BridgeDesk pitches Filipino
-   candidates AT the US side of the company, not at postings that already
-   sit in-market. Kept name isUS() for continuity with the adapters below.
+   BridgeDesk pitches Filipino remote hires AT employers based in a fixed set
+   of countries: US, Canada, Australia, New Zealand, Singapore, Malaysia.
+   Listings for offices outside those six (a London GTM team, a Bengaluru
+   engineering pod, etc.) are dropped — those markets already have their own
+   in-region labor pool, so a posting there isn't a lead for this board.
+   Kept name isTargetGeo() (was isUS()) — same asymmetric logic, wider list.
    ========================================================================== */
 
 // Two-letter postal codes, matched as a standalone token (", TX" or "TX,").
+// US only — Canadian/Australian provincial abbreviations are too easily
+// confused with unrelated two-letter tokens (job codes, req IDs) to trust,
+// so those countries rely on full state/province/city names below instead.
 const US_ABBR = new Set(['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA',
   'KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND',
   'OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC','PR']);
@@ -239,44 +274,66 @@ const US_STATE_NAMES = ['alabama','alaska','arizona','arkansas','california','co
   'south dakota','tennessee','texas','utah','vermont','virginia','washington','west virginia',
   'wisconsin','wyoming','district of columbia','puerto rico'];
 
-// Countries and cities that appear in these companies' postings and are not US.
-const NON_US = ['canada','ontario','toronto','vancouver','british columbia','alberta','calgary',
-  'montreal','quebec','ottawa','winnipeg','edmonton','halifax',
-  'united kingdom','england','london','manchester','scotland','ireland','dublin',
+// Full names only (no 2-letter codes — "ON", "BC" etc. collide with req IDs).
+const CANADA_NAMES = ['canada','ontario','toronto','vancouver','british columbia','alberta','calgary',
+  'montreal','quebec','ottawa','winnipeg','edmonton','halifax','manitoba','saskatchewan',
+  'nova scotia','new brunswick','prince edward island','newfoundland','yukon',
+  'northwest territories','nunavut','mississauga'];
+
+const AUSTRALIA_NAMES = ['australia','new south wales','victoria','queensland','western australia',
+  'south australia','tasmania','northern territory','australian capital territory',
+  'sydney','melbourne','brisbane','perth','adelaide','canberra','gold coast','hobart','darwin'];
+
+const NZ_NAMES = ['new zealand','auckland','wellington','christchurch',
+  'tauranga','dunedin','queenstown'];
+
+const SINGAPORE_NAMES = ['singapore'];
+
+const MALAYSIA_NAMES = ['malaysia','kuala lumpur','penang','johor bahru','selangor',
+  'petaling jaya','cyberjaya'];
+
+const TARGET_NAMES = [...CANADA_NAMES, ...AUSTRALIA_NAMES, ...NZ_NAMES, ...SINGAPORE_NAMES, ...MALAYSIA_NAMES];
+
+// Everything else that shows up in these ATS feeds and is NOT one of the six
+// target countries. Philippines/Manila/Cebu/Makati deliberately excluded —
+// a posting already located in the Philippines is the strongest possible
+// signal a company is open to hiring there, and should be kept, never
+// dropped as "wrong geo".
+const EXCLUDED = ['united kingdom','england','london','manchester','scotland','ireland','dublin',
   'israel','tel aviv','jerusalem','herzliya',
   'india','bangalore','bengaluru','mumbai','delhi','hyderabad','pune','gurgaon','chennai',
-  // NOTE: Philippines/Manila/Cebu/Makati deliberately NOT in this list. A
-  // posting already located in the Philippines is the single strongest
-  // possible signal that a company is open to hiring there — it should be
-  // kept and scored, never dropped as "not US".
   'mexico','mexico city','guadalajara','monterrey',
   'brazil','sao paulo','argentina','colombia','bogota','costa rica',
   'germany','berlin','munich','france','paris','spain','madrid','barcelona',
   'netherlands','amsterdam','poland','warsaw','portugal','lisbon','romania','bucharest',
-  'australia','sydney','melbourne','new zealand','singapore','japan','tokyo','china','shanghai',
-  'hong kong','korea','seoul','vietnam','thailand','indonesia','jakarta','malaysia',
-  'united arab emirates','dubai','south africa','nigeria','kenya', 'emea','apac','latam'];
+  'japan','tokyo','china','shanghai','hong kong','korea','seoul',
+  'vietnam','thailand','indonesia','jakarta',
+  'united arab emirates','dubai','south africa','nigeria','kenya','emea','latam'];
 
 /**
- * Is this posting in the US?
+ * Is this posting based in one of the six target countries (or unstated)?
  *
- * Deliberately asymmetric. A location that clearly names another country is
- * dropped; anything else is kept. Getting this backwards — dropping whatever
- * cannot be proven American — would silently discard real US roles whose
- * location is written as "Field-based" or "Multiple locations", and a missing
- * job is harder to notice than an extra one.
+ * Deliberately asymmetric. A location that clearly names an excluded country
+ * is dropped; anything else — including plain "Remote" with no country
+ * attached — is kept. Getting this backwards would silently discard real
+ * target-market roles written as "Field-based" or "Multiple locations", and
+ * a missing job is harder to notice than an extra one.
  */
-function isUS(location, title) {
+function isTargetGeo(location, title) {
   const s = String(location || '').toLowerCase().trim();
   if (!s) return true;                       // unknown: keep
 
-  if (NON_US.some((k) => new RegExp('\\b' + k + '\\b').test(s))) return false;
+  if (EXCLUDED.some((k) => new RegExp('\\b' + k + '\\b').test(s))) return false;
   if (/\b(united states|usa|u\.s\.a?\.?|america)\b/.test(s)) return true;
   if (US_STATE_NAMES.some((n) => s.includes(n))) return true;
   if ((String(location).match(/\b([A-Z]{2})\b/g) || []).some((a) => US_ABBR.has(a))) return true;
+  if (TARGET_NAMES.some((n) => s.includes(n))) return true;
 
-  // "Remote" with no country attached: treat as US on a US board.
-  if (/\bremote\b|\banywhere\b|\bnationwide\b/.test(s)) return true;
+  // "Remote" / "APAC" with no disqualifying country attached: keep. APAC is
+  // ambiguous (could be Vietnam, could be Singapore) — treating it as
+  // excluded would drop real Singapore/Malaysia/Australia roles that just
+  // used the regional label instead of a country name.
+  if (/\bremote\b|\banywhere\b|\bnationwide\b|\bapac\b/.test(s)) return true;
 
   return true;                               // nothing disqualifying found
 }
@@ -728,9 +785,13 @@ async function scrapeOne(company) {
     // Only assistant-family roles belong on this board — everything else this
     // company posts (engineers, AEs, whatever) gets dropped here.
     const relevant = usable.filter((j) => categorise(j.title) !== 'Other');
-    const inUS = relevant.filter((j) => isUS(j.location, j.title));
-    const dropped = usable.length - inUS.length;
-    return { company, ok: true, jobs: inUS.map((j) => normalise(j, company)), dropped };
+    const inGeo = relevant.filter((j) => isTargetGeo(j.location, j.title));
+    // Hard cutoff: the posting has to actually say something about remote/
+    // outsourced hiring, not just exist at a company that might be open to
+    // it. See MIN_SIGNAL comment above for what each threshold means.
+    const explicit = inGeo.filter((j) => phSignal(j.title, j.description, j.location) >= MIN_SIGNAL);
+    const dropped = usable.length - explicit.length;
+    return { company, ok: true, jobs: explicit.map((j) => normalise(j, company)), dropped };
   } catch (err) {
     return { company, ok: false, reason: err.message, jobs: [] };
   }
@@ -794,7 +855,7 @@ for (let i = 0; i < ready.length; i += CONCURRENCY) {
     const label = r.company.name.padEnd(30).slice(0, 30);
     console.log(r.ok
       ? `  ok    ${label} ${r.jobs.length} role${r.jobs.length === 1 ? '' : 's'}` +
-        (r.dropped ? `  (${r.dropped} outside the US)` : '')
+        (r.dropped ? `  (${r.dropped} out of scope: geo or no explicit signal)` : '')
       : `  FAIL  ${label} ${r.reason}`);
   }
   results.push(...batch);
@@ -845,7 +906,7 @@ const all = [...fresh, ...carried];
 console.log('\n' + '-'.repeat(60));
 const droppedTotal = okResults.reduce((n, r) => n + (r.dropped || 0), 0);
 console.log(`scraped   ${fresh.length} roles from ${okResults.length} sources`);
-if (droppedTotal) console.log(`filtered  ${droppedTotal} roles outside the US`);
+if (droppedTotal) console.log(`filtered  ${droppedTotal} roles (wrong geo, or no explicit remote/outsourcing signal)`);
 if (fromFailed) console.log(`carried   ${fromFailed} roles from ${failed.length} failed source(s)`);
 if (outOfScope) console.log(`kept      ${outOfScope} roles from companies not in this run`);
 if (pending.length) console.log(`skipped   ${pending.length} companies with no method — run scripts/detect-ats.js`);
