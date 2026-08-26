@@ -29,15 +29,6 @@
     }
   ],
 
-  // Résumés uploaded through the "Join our Pool" form. Admin-only reads —
-  // see /api/admin/resume in worker.js.
-  "r2_buckets": [
-    {
-      "binding": "RESUMES",
-      "bucket_name": "bridgedesk-resumes"
-    }
-  ],
-
   // Logs from console.error in worker.js.
   "observability": {
     "enabled": true
