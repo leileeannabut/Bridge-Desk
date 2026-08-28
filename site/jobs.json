@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T18:09:37.493Z",
+  "generated_at": "2026-08-28T19:19:46.289Z",
   "count": 26,
   "sources_ok": 41,
   "sources_failed": 16,
@@ -15,6 +15,32 @@
     "Remote / Unspecified": 1
   },
   "jobs": [
+    {
+      "id": "ashby:elevenlabs:aa387988-9983-46a0-a265-d678af9939cb",
+      "hub": "startup",
+      "title": "Executive Assistant",
+      "company": "ElevenLabs",
+      "company_id": "elevenlabs",
+      "priority": false,
+      "category": "Executive Assistant",
+      "segment": "Startup",
+      "level": "Mid",
+      "location": "Poland",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "region": "Europe",
+      "country": "Poland",
+      "intl_signal": 3,
+      "ph_signal": 3,
+      "summary": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology.",
+      "description": "About ElevenLabs\nElevenLabs is an AI research and product company transforming how we interact with technology.\nWe launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $11B - multiples of 11, always.\n\nWe have expanded from voice into three main platforms:\n- ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n\n- ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n\n- ElevenAPI gives developers access to our leading AI audio foundational models.\n\nEverything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\n\nHow we work\n- High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n\n- Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n\n- AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n\n- Excellence everywhere: Everything we do should match the quality of our AI models.\n\n- Global team: We prioritize your talent, not your location.\n\nWhat we offer\n- Innovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n\n- Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n\n- Learning & development: ElevenLabs proactively supports professional development through an annual discretionary stipend.\n\n- Social travel: We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n\n- Annual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.\n\n- Co-working: If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\n\nAbout the role\n\nElevenLabs moves fast - and behind every high-performing leader is someone who makes sure nothing slips. This is a high-trust, hands-on role for someone who thrives in dynamic environments, holds themselves to a high standard, and takes genuine pride in making their lead's life easier - down to the small, considered details that others overlook.\n\nYou'll be the operational backbone for senior leadership - managing calendars, coordinating across time zones, handling logistics, and owning the day-to-day administrative tasks that let leadership focus on what matters most.\n\nIn this role, you will:\n- Own calendars and time allocation for finance leadership team, making trade-off calls independently against stated priorities\n\n- Prepare executives for every meeting: pre-reads, context, and the decision needed - including board and investor sessions\n\n- Capture actions out of meetings and chase them to completion\n\n- Triage executive inboxes and draft correspondence\n\n- Automate the mechanical parts of the role - briefing prep, triage, scheduling, recurring reporting\n\n- Run discrete projects: board logistics, executive travel, offsites, and the finance team's operating cadence\n\nRequirements\n- Experience supporting multiple senior executives in a high-velocity environment\n\n- Strong organisational skills with the ability to manage competing priorities, shifting timelines, and multiple stakeholders\n\n- Exceptional written and verbal communication skills, with the ability to communicate effectively with a wide range of stakeholders, from senior executives and partners to vendors and office guests\n\n- Proven judgment and problem-solving skills\n\n- Fluency with AI tools and a track record of automating your own work - come ready to show what you've built\n\n- High emotional intelligence and discretion - trusted with sensitive information\n\n- Fluency in English\n\nWe are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.",
+      "apply_url": "https://jobs.ashbyhq.com/elevenlabs/aa387988-9983-46a0-a265-d678af9939cb",
+      "source": "ashby",
+      "posted_at": "2026-08-27T20:21:07.157+00:00",
+      "scraped_at": "2026-08-28T19:19:43.642Z",
+      "status": "open"
+    },
     {
       "id": "greenhouse:careem:8578380002",
       "hub": "startup",
@@ -38,7 +64,7 @@
       "apply_url": "https://boards.greenhouse.io/careem/jobs/8578380002?gh_jid=8578380002",
       "source": "greenhouse",
       "posted_at": "2026-08-27T07:25:03-04:00",
-      "scraped_at": "2026-08-27T18:09:37.490Z",
+      "scraped_at": "2026-08-28T19:19:46.286Z",
       "status": "open"
     },
     {
@@ -64,7 +90,7 @@
       "apply_url": "https://www.samsara.com/company/careers/roles/8145051?gh_jid=8145051",
       "source": "greenhouse",
       "posted_at": "2026-08-26T09:42:15-04:00",
-      "scraped_at": "2026-08-27T18:09:25.526Z",
+      "scraped_at": "2026-08-28T19:19:36.317Z",
       "status": "open"
     },
     {
@@ -90,7 +116,7 @@
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7559351003?gh_jid=7559351003",
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:13:20-04:00",
-      "scraped_at": "2026-08-27T18:09:33.843Z",
+      "scraped_at": "2026-08-28T19:19:43.091Z",
       "status": "open"
     },
     {
@@ -116,7 +142,7 @@
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7853419003?gh_jid=7853419003",
       "source": "greenhouse",
       "posted_at": "2026-08-25T12:13:20-04:00",
-      "scraped_at": "2026-08-27T18:09:33.844Z",
+      "scraped_at": "2026-08-28T19:19:43.096Z",
       "status": "open"
     },
     {
@@ -142,7 +168,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8700245002",
       "source": "greenhouse",
       "posted_at": "2026-08-24T17:41:11-04:00",
-      "scraped_at": "2026-08-27T18:09:28.237Z",
+      "scraped_at": "2026-08-28T19:19:38.961Z",
       "status": "open"
     },
     {
@@ -168,7 +194,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8143610",
       "source": "greenhouse",
       "posted_at": "2026-08-24T09:22:55-04:00",
-      "scraped_at": "2026-08-27T18:09:29.224Z",
+      "scraped_at": "2026-08-28T19:19:40.015Z",
       "status": "open"
     },
     {
@@ -194,7 +220,7 @@
       "apply_url": "https://www.samsara.com/company/careers/roles/8140386?gh_jid=8140386",
       "source": "greenhouse",
       "posted_at": "2026-08-20T14:53:52-04:00",
-      "scraped_at": "2026-08-27T18:09:25.529Z",
+      "scraped_at": "2026-08-28T19:19:36.320Z",
       "status": "open"
     },
     {
@@ -220,7 +246,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/a0389dc2-77d8-439b-960b-2acb8712991e",
       "source": "ashby",
       "posted_at": "2026-08-19T17:58:23.460+00:00",
-      "scraped_at": "2026-08-27T18:09:34.584Z",
+      "scraped_at": "2026-08-28T19:19:43.641Z",
       "status": "open"
     },
     {
@@ -246,7 +272,7 @@
       "apply_url": "https://jobs.ashbyhq.com/rula/d6e6acc0-ba6f-47a8-9434-823f128742b9",
       "source": "ashby",
       "posted_at": "2026-08-19T16:58:19.681+00:00",
-      "scraped_at": "2026-08-27T18:09:27.517Z",
+      "scraped_at": "2026-08-28T19:19:38.228Z",
       "status": "open"
     },
     {
@@ -272,7 +298,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
       "source": "greenhouse",
       "posted_at": "2026-08-19T08:40:20-04:00",
-      "scraped_at": "2026-08-27T18:09:29.223Z",
+      "scraped_at": "2026-08-28T19:19:40.014Z",
       "status": "open"
     },
     {
@@ -298,7 +324,7 @@
       "apply_url": "https://jobs.ashbyhq.com/wrapbook/f7733f57-7174-457a-a973-f7e83c86c630",
       "source": "ashby",
       "posted_at": "2026-08-18T22:34:03.967+00:00",
-      "scraped_at": "2026-08-27T18:09:26.965Z",
+      "scraped_at": "2026-08-28T19:19:37.749Z",
       "status": "open"
     },
     {
@@ -324,7 +350,7 @@
       "apply_url": "https://jobs.ashbyhq.com/percona/1b48c239-ee02-4f2b-9b11-cbd2c0eae00f",
       "source": "ashby",
       "posted_at": "2026-08-17T14:06:00.459+00:00",
-      "scraped_at": "2026-08-27T18:09:27.082Z",
+      "scraped_at": "2026-08-28T19:19:37.739Z",
       "status": "open"
     },
     {
@@ -350,7 +376,7 @@
       "apply_url": "https://jobs.ashbyhq.com/exa/b5665525-c2a3-4c6a-a3dd-d0d1f1df01f8",
       "source": "ashby",
       "posted_at": "2026-08-14T04:53:13.724+00:00",
-      "scraped_at": "2026-08-27T18:09:26.566Z",
+      "scraped_at": "2026-08-28T19:19:37.326Z",
       "status": "open"
     },
     {
@@ -376,7 +402,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/6797aaec-8471-4af2-ae20-534d7089f734",
       "source": "ashby",
       "posted_at": "2026-08-12T03:14:49.437+00:00",
-      "scraped_at": "2026-08-27T18:09:34.583Z",
+      "scraped_at": "2026-08-28T19:19:43.641Z",
       "status": "open"
     },
     {
@@ -402,7 +428,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/33c501d9-f0d7-45b9-a90c-07c9c0b92f55",
       "source": "ashby",
       "posted_at": "2026-08-11T16:16:49.513+00:00",
-      "scraped_at": "2026-08-27T18:09:34.584Z",
+      "scraped_at": "2026-08-28T19:19:43.641Z",
       "status": "open"
     },
     {
@@ -428,7 +454,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/e0fdb2f5-54b4-4dff-813d-2c328d990e4c",
       "source": "ashby",
       "posted_at": "2026-08-11T09:04:36.968+00:00",
-      "scraped_at": "2026-08-27T18:09:34.582Z",
+      "scraped_at": "2026-08-28T19:19:43.639Z",
       "status": "open"
     },
     {
@@ -454,7 +480,7 @@
       "apply_url": "https://jobs.ashbyhq.com/elevenlabs/faf6f3a3-c215-4f25-aaee-5111dddde3c9",
       "source": "ashby",
       "posted_at": "2026-08-10T12:45:28.050+00:00",
-      "scraped_at": "2026-08-27T18:09:34.582Z",
+      "scraped_at": "2026-08-28T19:19:43.640Z",
       "status": "open"
     },
     {
@@ -480,7 +506,7 @@
       "apply_url": "https://job-boards.greenhouse.io/automatticcareers/jobs/8076786",
       "source": "greenhouse",
       "posted_at": "2026-08-06T13:18:41-04:00",
-      "scraped_at": "2026-08-27T18:09:28.708Z",
+      "scraped_at": "2026-08-28T19:19:39.445Z",
       "status": "open"
     },
     {
@@ -506,33 +532,7 @@
       "apply_url": "https://job-boards.greenhouse.io/turing/jobs/6123880004",
       "source": "greenhouse",
       "posted_at": "2026-08-05T17:41:51-04:00",
-      "scraped_at": "2026-08-27T18:09:24.909Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:n26:8090480",
-      "hub": "startup",
-      "title": "Executive Assistant to the Chief Technology Officer",
-      "company": "N26",
-      "company_id": "n26",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Startup",
-      "level": "Senior",
-      "location": "Berlin",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "region": "Europe",
-      "country": "Germany",
-      "intl_signal": 2,
-      "ph_signal": 2,
-      "summary": "About the opportunity We have an exciting opportunity to join the N26 Executive Office as Executive Assistant to our Chief Technology Officer (CTO).",
-      "description": "About the opportunity\n\nWe have an exciting opportunity to join the N26 Executive Office as Executive Assistant to our Chief Technology Officer (CTO).\n\nAt N26, our team of Executive Assistants provide high-level management support, clerical and business assistance, plus direction and guidance to support in the achievement of strategic priorities and business goals and objectives. This opportunity will allow you to see what the daily life of a C-Level executive is like, how N26 is managed, and how our senior management works together.\n\nThe Executive Assistant is responsible for providing sophisticated administrative and operational support while contributing to projects that help drive business priorities and strengthen team collaboration in a way that facilitates the executive and teams being their most productive and effective.\n\nTaking direction from the Chief of Staff of the N26 Executive Office, the Executive Assistant is ultimately responsible for ensuring seamless back office and logistical support.\n\nIn this role, you will:\n\n- Assist in managing competing executive time, focus, and priorities in line with strategic objectives and short-term goals and objectives, assessing any shift in priorities as appropriate through the following:\n\n- Manage complex calendars, across multiple time zones including vetting, prioritising, and providing recommendations on meeting cadence, time spent, and optimising scheduling on an ongoing basis.\n\n- Act as a gatekeeper for the CTO, by reviewing incoming requests and assessing the purpose, objective, and desired outcomes of requests. You will review communications to the CTO and handle, reassign or prioritize these for the executive in line with identified and understood priorities and areas of responsibility with the team and business.\n\n- Assess and manage the flow of information, communications, and access to the CTO.\n\n- Use your judgment to prevent unnecessary involvement of the CTO in day-to-day office management issues, team issues and daily interruptions. The Executive Assistant will manage enquiries unilaterally where possible, or bring them to the attention of the Chief of Staff, where necessary.\n\n- Draft communications, documents, and presentations.\n\n- Manage and/or oversee projects as directed, including the development of plans for such projects. This includes following up and providing reminders on project deadlines, action items, and deliverables.\n\n- Assist and/or manage all logistics from end-to-end of small to large scale events planning, including team meetings, all-hands and offsites.\n\n- Prepare complex and highly detailed national and international travel itineraries at a very short notice; including, but not limited to, purchase of flight tickets, accommodation, ground transportation, visa requirements and applicable security measures.\n\n- Ensure all logistical and administrative duties are completed in a timely manner, including expense reports, reimbursement requests, post management, IT support, and financial administration.\n\nAs well as have the following responsibilities:\n\n- Build and maintain strong relationships with all team members, direct reports, internal executives and stakeholders in other divisions or departments, as well as any relevant external clients or partners.\n\n- Partner with other Executive Assistants in the N26 Executive Office and key stakeholders on driving efficiency and improved processes for the Management Team of N26, and support or step-in when needed to ensure business continuity.\n\n- Support initiatives of the CTO, or elsewhere in the organization, as required and act as an advocate of the CTO.\n\n- Report into the N26 Executive Office and be an integral team member to all executive support staff at N26.\n\nWhat you need to be successful:\n\nBackground:\n\n- At least five years of relevant work experience as an Executive Assistant supporting senior executives or leaders in dynamic and fast-paced environments.\n\n- Previous project management experience would be beneficial.\n\n- Fluent in business-level English.\n\nSkills:\n\n- Excellent communicator, rapport and relationship builder, with very high emotional intelligence and the ability to maintain key relationships.\n\n- Highly competent at managing workflow, priorities, diaries and schedules for multiple persons, including yourself and the executive.\n\n- Level of integrity that is beyond reproach and be able to keep confidences and corporate confidentiality without question, as well as professionalism with senior leaders.\n\n- Must be good at assessing and analyzing vast quantities of data, information and communications and assessing the relevance of these and their level of priority at all times.\n\n- Adept at quickly learning and understanding the roles and responsibilities of the CTO and his team and others within the organization who support the N26 Executive Leadership Team.\n\n- Possess advanced office software skills; strong written communication skills, including the drafting and editing of high-level documents; advanced presentation preparation and design skills; a strong financial numeracy and corporate finance understanding is a plus.\n\n- Rational thinker with problem-solving capabilities and the ability to complete complex tasks and projects quickly with little to no guidance.\n\n- Adept at dealing with a variety of complex stakeholders and difficult situations and at managing and overcoming conflict.\n\n- You react with appropriate urgency to situations that require a quick turnaround and take effective action to continually improve the status quo.\n\nWhat’s in it for you:\n\n- Accelerate your career growth by joining one of Europe’s most talked about disruptors 🚀.\n\n- Employee benefits that range from a competitive personal development budget, work from home budget, discounts to fitness & wellness memberships, language apps and public transportation.\n\n- As an N26 employee you will have access to a Premium subscription on your personal N26 bank account. As well as subscriptions for friends and family members.\n\n- Additional day of annual leave for each year of service.\n\n- A high degree of autonomy and access to cutting edge technologies - all while working with a friendly team of peers of diverse nationalities, life experiences and family statuses.\n\n- A relocation package with visa support for those who need it.\n\nWho we are\n\nN26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use.\n\nWe've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do.\n\nWe are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities.\n\nSounds good? Apply now for this position.\n\nEqual Opportunities:\n\nWe recognize that our strength lies in our people and the varied perspectives they bring to our workforce. We strive to build talented and diverse teams to drive our business success and empower our people to reach their full potential.\n\nWe genuinely welcome and encourage applications from people of all backgrounds, cultures, genders, sexual orientations, abilities, neurodiversities, and ages. We're committed to creating an inclusive workspace where everyone feels valued and respected, free from harassment and discrimination. If there's anything you need to make the application process work for you, please let us know by reaching out to candidate.exp@n26.com.\n\nVisit our website to learn more about Diversity, Equity, & Inclusion at N26.",
-      "apply_url": "https://n26.com/en-eu/careers/positions/8090480?gh_jid=8090480",
-      "source": "greenhouse",
-      "posted_at": "2026-08-05T05:59:35-04:00",
-      "scraped_at": "2026-08-27T18:09:34.386Z",
+      "scraped_at": "2026-08-28T19:19:35.544Z",
       "status": "open"
     },
     {
@@ -558,7 +558,7 @@
       "apply_url": "https://job-boards.greenhouse.io/flex/jobs/4703666005",
       "source": "greenhouse",
       "posted_at": "2026-07-31T15:57:25-04:00",
-      "scraped_at": "2026-08-27T18:09:25.372Z",
+      "scraped_at": "2026-08-28T19:19:36.159Z",
       "status": "open"
     },
     {
@@ -584,7 +584,7 @@
       "apply_url": "https://job-boards.greenhouse.io/turing/jobs/6123046004",
       "source": "greenhouse",
       "posted_at": "2026-07-29T22:59:32-04:00",
-      "scraped_at": "2026-08-27T18:09:24.907Z",
+      "scraped_at": "2026-08-28T19:19:35.542Z",
       "status": "open"
     },
     {
@@ -610,7 +610,7 @@
       "apply_url": "https://job-boards.greenhouse.io/flex/jobs/4717442005",
       "source": "greenhouse",
       "posted_at": "2026-07-29T18:30:19-04:00",
-      "scraped_at": "2026-08-27T18:09:25.374Z",
+      "scraped_at": "2026-08-28T19:19:36.160Z",
       "status": "open"
     },
     {
@@ -636,7 +636,7 @@
       "apply_url": "https://jobs.ashbyhq.com/lovable/cb717c83-53e2-484e-bf0d-60e19699c7d8",
       "source": "ashby",
       "posted_at": "2026-07-21T11:05:04.178+00:00",
-      "scraped_at": "2026-08-27T18:09:35.036Z",
+      "scraped_at": "2026-08-28T19:19:44.045Z",
       "status": "open"
     },
     {
@@ -662,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/checkr/jobs/7913718",
       "source": "greenhouse",
       "posted_at": "2026-07-08T17:11:17-04:00",
-      "scraped_at": "2026-08-27T18:09:24.934Z",
+      "scraped_at": "2026-08-28T19:19:35.713Z",
       "status": "open"
     },
     {
@@ -688,7 +688,7 @@
       "apply_url": "https://jobs.ashbyhq.com/supabase/b566fbf8-2894-4314-9533-8fa920e80c19",
       "source": "ashby",
       "posted_at": "2026-07-06T18:49:00.242+00:00",
-      "scraped_at": "2026-08-27T18:09:34.253Z",
+      "scraped_at": "2026-08-28T19:19:43.558Z",
       "status": "open"
     }
   ]
