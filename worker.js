@@ -5,7 +5,8 @@
  * into a D1 database you own.
  *
  * Routes
- *   POST /api/click              record a job-board click        (public)
+ *   POST /api/click              record a job-board click / view / apply (public)
+ *   GET  /api/history            a visitor's viewed/applied history (public, keyed by visitor_id)
  *   POST /api/apply              apply to a scraped job listing   (public)
  *   POST /api/pool               "Join our Pool" candidate intake (public)
  *   POST /api/employer           employer / Hire-a-Team intake    (public)
@@ -100,16 +101,80 @@ function requireAdmin(request, env) {
 /* ==========================================================================
    PUBLIC: click tracking
    ========================================================================== */
+/**
+ * There's no candidate login on this site, so "viewed" / "applied" history
+ * is primarily kept in the visitor's own browser (localStorage, see
+ * index.html) — this endpoint is a best-effort backend copy, keyed by a
+ * random id the browser generates once and reuses. It survives that device
+ * clearing cookies but not localStorage; it is device-scoped, not a real
+ * account, since there's nothing here to tie one visitor's id to another
+ * device without a login system this site doesn't have.
+ *
+ * Requires a `job_interactions` table:
+ *   create table if not exists job_interactions (
+ *     id integer primary key autoincrement,
+ *     visitor_id text not null,
+ *     job_id text not null,
+ *     job_title text,
+ *     company text,
+ *     type text not null,              -- 'viewed' | 'applied'
+ *     created_at text not null default (datetime('now'))
+ *   );
+ *   create index if not exists idx_job_interactions_visitor on job_interactions(visitor_id, job_id);
+ */
 async function recordClick(request, env) {
   if (!env.DB) return new Response(null, { status: 204 });
   let body;
   try { body = await request.json(); } catch { return new Response(null, { status: 204 }); }
+
+  const jobId = clean(body.job_id, 200);
+  const jobTitle = clean(body.job_title, 200);
+  const company = clean(body.company, 200);
+  const visitorId = clean(body.visitor_id, 100);
+  const type = clean(body.type, 20);
+
   try {
     await env.DB.prepare(
       'insert into job_clicks (job_id, job_title, company) values (?1, ?2, ?3)'
-    ).bind(clean(body.job_id, 200), clean(body.job_title, 200), clean(body.company, 200)).run();
+    ).bind(jobId, jobTitle, company).run();
   } catch { /* tracking is best-effort, never blocks the click-through */ }
+
+  // visitor_id + type are new, optional fields — only sent by the "viewed" /
+  // "applied" history tracking, not the plain click-through this endpoint
+  // originally covered. Old callers with neither still work unchanged.
+  if (visitorId && (type === 'viewed' || type === 'applied')) {
+    try {
+      await env.DB.prepare(
+        'insert into job_interactions (visitor_id, job_id, job_title, company, type) values (?1, ?2, ?3, ?4, ?5)'
+      ).bind(visitorId, jobId, jobTitle, company, type).run();
+    } catch { /* table may not exist yet on an older deploy — never block the UI for this */ }
+  }
+
   return new Response(null, { status: 204 });
+}
+
+/**
+ * Public — no admin auth, gated only by knowing the visitor_id (a random,
+ * non-guessable id the browser generated). Lets a returning visitor recover
+ * their viewed/applied history on the same device even after clearing
+ * cookies. Returns the raw interaction rows; the front end already keeps the
+ * full job objects in localStorage; this is a backend backstop, not the
+ * primary source for the Previously Viewed tab.
+ */
+async function getHistory(request, env) {
+  if (!env.DB) return json({ error: 'No database configured.' }, 503);
+  const visitorId = clean(new URL(request.url).searchParams.get('visitor_id'), 100);
+  if (!visitorId) return json({ error: 'visitor_id is required.' }, 400);
+  try {
+    const rows = await env.DB.prepare(
+      'select job_id, job_title, company, type, created_at from job_interactions where visitor_id = ?1 order by created_at desc limit 200'
+    ).bind(visitorId).all();
+    return json({ interactions: rows.results || [] });
+  } catch {
+    // Table not migrated yet on this deploy — behave like "no history" rather
+    // than a hard error, since the front end has its own localStorage copy.
+    return json({ interactions: [] });
+  }
 }
 
 /* ==========================================================================
@@ -843,6 +908,7 @@ export default {
     const method = request.method;
 
     if (pathname === '/api/click' && method === 'POST') return recordClick(request, env);
+    if (pathname === '/api/history' && method === 'GET') return getHistory(request, env);
     if (pathname === '/api/apply' && method === 'POST') return receiveApplication(request, env);
     if (pathname === '/api/pool' && method === 'POST') return joinPool(request, env);
     if (pathname === '/api/employer' && method === 'POST') return employerIntake(request, env);
