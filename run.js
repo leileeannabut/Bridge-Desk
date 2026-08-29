@@ -761,6 +761,191 @@ async function loadPrevious(path) {
   }
 }
 
+/* ==========================================================================
+   AGGREGATOR SOURCES
+   --------------------------------------------------------------------------
+   These are public feeds whose publishers explicitly document and invite
+   third-party reuse — not a scrape against a site's wishes the way LinkedIn
+   or Indeed would be. Each one's own terms ask for the same thing in
+   exchange: link back to the original posting and credit the source by
+   name. Both happen automatically here — every job's `apply_url` points at
+   the original listing on the aggregator, and `source` names it; nothing
+   from these feeds is ever presented as if it came from the employer's own
+   careers page.
+
+   Unlike a config.js company, one aggregator source spans many different
+   employers, so there is no single company.name to normalise() against —
+   each job below carries its own employer name straight from the feed.
+   ========================================================================== */
+
+/** A handful of RSS <tag>content</tag> pulls — same pattern as sitemap XML
+ *  parsing elsewhere in this file, no external XML library needed. */
+function xmlTag(block, tag) {
+  const m = block.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`));
+  return m ? m[1].trim() : '';
+}
+
+function parseWWRFeed(xml) {
+  const jobs = [];
+  const items = xml.split('<item>').slice(1);
+  for (const raw of items) {
+    const rawTitle = toText(xmlTag(raw, 'title'));
+    const link = xmlTag(raw, 'link').trim();
+    const guid = xmlTag(raw, 'guid').trim() || link;
+    if (!rawTitle || !link) continue;
+
+    // WWR titles are always "Company: Role" — the only place the employer
+    // name appears anywhere in this feed.
+    const sep = rawTitle.indexOf(':');
+    if (sep === -1) continue;
+    const company = rawTitle.slice(0, sep).trim();
+    const title = rawTitle.slice(sep + 1).trim();
+    if (!company || !title) continue;
+
+    const region = toText(xmlTag(raw, 'region'));
+    const state = toText(xmlTag(raw, 'state'));
+    // <country> sometimes carries flag emoji ahead of the name (e.g.
+    // "🇺🇸 United States") — decorative, not useful as location text.
+    const country = toText(xmlTag(raw, 'country')).replace(/\p{Extended_Pictographic}/gu, '').trim();
+    const location = [region, state, country].filter(Boolean).join(', ') || 'Remote';
+
+    const description = toText(xmlTag(raw, 'description'));
+    const pubDate = xmlTag(raw, 'pubDate');
+
+    jobs.push({
+      sourceId: (guid.split('/').pop() || guid).replace(/[^a-z0-9-]/gi, '').slice(0, 80),
+      title, company, location, description,
+      url: link,
+      postedAt: pubDate ? new Date(pubDate).toISOString() : null,
+      ...parseComp(description),
+    });
+  }
+  return jobs;
+}
+
+async function scrapeWeWorkRemotely() {
+  // "All Other" is where WWR's own category list puts admin/ops/support
+  // roles (no dedicated "admin support" category exists on WWR); Management
+  // & Finance and Customer Support both surface EA/ops-adjacent postings too.
+  // The assistant-role filter re-checks every title regardless — these are
+  // just where it's worth looking, not a substitute for that check.
+  const FEEDS = [
+    'https://weworkremotely.com/categories/all-other-remote-jobs.rss',
+    'https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss',
+    'https://weworkremotely.com/categories/remote-customer-support-jobs.rss',
+  ];
+  const jobs = [];
+  for (const url of FEEDS) {
+    const res = await get(url, { headers: { Accept: 'application/rss+xml, text/xml, */*' } });
+    if (!res.ok) throw new Error('HTTP ' + res.status + ' (' + url + ')');
+    jobs.push(...parseWWRFeed(await res.text()));
+  }
+  return jobs;
+}
+
+async function scrapeRemotive() {
+  const CATEGORIES = ['customer-support', 'all-others'];
+  const jobs = [];
+  for (const category of CATEGORIES) {
+    const res = await get(`https://remotive.com/api/remote-jobs?category=${category}&limit=100`);
+    if (!res.ok) throw new Error('HTTP ' + res.status + ' (' + category + ')');
+    const body = await res.json();
+    for (const j of Array.isArray(body.jobs) ? body.jobs : []) {
+      if (!j.title || !j.company_name || !j.url) continue;
+      const description = toText(j.description || '');
+      jobs.push({
+        sourceId: String(j.id ?? j.url).replace(/[^a-z0-9-]/gi, '').slice(0, 80),
+        title: j.title,
+        company: j.company_name,
+        location: j.candidate_required_location || 'Remote',
+        description,
+        url: j.url,
+        postedAt: j.publication_date ? new Date(j.publication_date).toISOString() : null,
+        ...parseComp(j.salary || description),
+      });
+    }
+  }
+  return jobs;
+}
+
+async function scrapeJobicy() {
+  // "supporting" is Jobicy's own industry slug for customer/admin support
+  // roles — same caveat as WWR: the assistant-role filter is what actually
+  // decides inclusion, this just narrows what gets fetched.
+  const res = await get('https://jobicy.com/api/v2/remote-jobs?count=50&industry=supporting');
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const body = await res.json();
+  const jobs = [];
+  for (const j of Array.isArray(body.jobs) ? body.jobs : []) {
+    if (!j.jobTitle || !j.companyName || !j.url) continue;
+    const description = toText(j.jobDescription || j.jobExcerpt || '');
+    jobs.push({
+      sourceId: String(j.id ?? j.url).replace(/[^a-z0-9-]/gi, '').slice(0, 80),
+      title: j.jobTitle,
+      company: j.companyName,
+      location: j.jobGeo || 'Remote',
+      description,
+      url: j.url,
+      postedAt: j.pubDate ? new Date(j.pubDate).toISOString() : null,
+      min: typeof j.salaryMin === 'number' ? j.salaryMin : null,
+      max: typeof j.salaryMax === 'number' ? j.salaryMax : null,
+    });
+  }
+  return jobs;
+}
+
+const AGGREGATORS = {
+  weworkremotely: { label: 'We Work Remotely', fetch: scrapeWeWorkRemotely },
+  remotive: { label: 'Remotive', fetch: scrapeRemotive },
+  jobicy: { label: 'Jobicy', fetch: scrapeJobicy },
+};
+
+/** Same shape as normalise(), but keyed off the job's own company name
+ *  rather than a config.js entry — one aggregator source spans many
+ *  employers, so there is no single company to normalise against. */
+function normaliseAggregatorJob(raw, sourceKey, sourceLabel) {
+  const category = categorise(raw.title);
+  return {
+    id: `agg:${sourceKey}:${raw.sourceId}`,
+    hub: category === 'Legal Assistant' ? 'legal' : 'business',
+    title: String(raw.title).trim(),
+    company: raw.company,
+    company_id: `agg:${sourceKey}`,
+    priority: false,
+    category,
+    segment: sourceLabel,
+    level: levelOf(raw.title),
+    location: String(raw.location || 'Remote').trim(),
+    employment_type: /intern/i.test(raw.title) ? 'contract' : 'full-time',
+    comp_min: raw.min ?? null,
+    comp_max: raw.max ?? null,
+    summary: summarise(raw.description) || `${raw.title} at ${raw.company}.`,
+    description: raw.description || '',
+    apply_url: raw.url,
+    source: sourceLabel,
+    posted_at: raw.postedAt,
+    scraped_at: new Date().toISOString(),
+    status: 'open',
+  };
+}
+
+async function scrapeAggregator(key) {
+  const agg = AGGREGATORS[key];
+  try {
+    const raw = await agg.fetch();
+    const usable = raw.filter((j) => j && j.title && j.company && j.sourceId);
+    const assistantRoles = usable.filter((j) => isAssistantRole(j.title));
+    const globallyOpen = assistantRoles.filter((j) => isGloballyOpen(j.location, j.description));
+    const dropped = usable.length - globallyOpen.length;
+    return {
+      key, label: agg.label, ok: true, dropped,
+      jobs: globallyOpen.map((j) => normaliseAggregatorJob(j, key, agg.label)),
+    };
+  } catch (err) {
+    return { key, label: agg.label, ok: false, reason: err.message, jobs: [] };
+  }
+}
+
 const targets = COMPANIES
   .filter((c) => c.active !== false)
   .filter((c) => (args.hub ? c.hub === args.hub : true))
@@ -789,7 +974,37 @@ for (let i = 0; i < ready.length; i += CONCURRENCY) {
 const okResults = results.filter((r) => r.ok);
 const failed = results.filter((r) => !r.ok && !r.skipped);
 const failedIds0 = new Set(failed.map((r) => r.company.id));
-const fresh = okResults.flatMap((r) => r.jobs);
+
+// Aggregator sources (We Work Remotely, Remotive, Jobicy) run once per scrape,
+// independent of which company `--hub`/`--only` narrowed to — they aren't
+// config.js companies, so those flags don't apply to them. Skipped entirely
+// under `--only`, since that flag means "debug one specific company's ATS
+// integration," not a general scrape.
+let aggregatorResults = [];
+if (!args.only) {
+  const keys = Object.keys(AGGREGATORS);
+  console.log(`\nAggregators: ${keys.length} sources`);
+  for (const key of keys) {
+    const r = await scrapeAggregator(key);
+    aggregatorResults.push(r);
+    const label = r.label.padEnd(30).slice(0, 30);
+    console.log(r.ok
+      ? `  ok    ${label} ${r.jobs.length} role${r.jobs.length === 1 ? '' : 's'}` +
+        (r.dropped ? `  (${r.dropped} not assistant-type/not globally open)` : '')
+      : `  FAIL  ${label} ${r.reason}`);
+    await sleep(DELAY_MS);
+  }
+  // `--hub=` narrows aggregator jobs same as it narrows companies — each job
+  // already carries its own hub from categorise(), computed in
+  // normaliseAggregatorJob().
+  if (args.hub) {
+    aggregatorResults = aggregatorResults.map((r) => ({ ...r, jobs: r.jobs.filter((j) => j.hub === args.hub) }));
+  }
+}
+const aggregatorOk = aggregatorResults.filter((r) => r.ok);
+const aggregatorFresh = aggregatorOk.flatMap((r) => r.jobs);
+
+const fresh = [...okResults.flatMap((r) => r.jobs), ...aggregatorFresh];
 
 // Carry over jobs from sources that failed this run. A scrape failure is not
 // evidence that a company stopped hiring, and dropping them would make the
@@ -804,8 +1019,16 @@ const fresh = okResults.flatMap((r) => r.jobs);
 //      `active:false` all narrow the target list, and those companies' roles
 //      must survive untouched
 //
+// The same logic extends to aggregator sources: a source id
+// (`agg:weworkremotely` etc.) only enters scrapedIds once that source
+// succeeds this run, so a transient aggregator failure carries its previous
+// jobs forward exactly like a failed company does, instead of the feed
+// silently losing that whole source until the next successful run.
 // In short: a scrape updates the companies it covered and leaves the rest alone.
-const scrapedIds = new Set(okResults.map((r) => r.company.id));
+const scrapedIds = new Set([
+  ...okResults.map((r) => r.company.id),
+  ...aggregatorOk.map((r) => `agg:${r.key}`),
+]);
 const previous = await loadPrevious(OUT);
 const carried = previous.filter((j) => !scrapedIds.has(j.company_id));
 
