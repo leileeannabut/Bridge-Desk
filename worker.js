@@ -400,6 +400,193 @@ fit_score should reflect overall fit for professional remote assistant/support w
 }
 
 /* ==========================================================================
+   ADMIN: employer outreach campaign
+   ---------------------------------------------------------------------------
+   Sends a compliant cold-outreach email to companies that might hire through
+   BridgeDesk. Deliberately does NOT generate or guess contact emails —
+   config.js only has company name + careers URL, and guessing addresses at
+   scale is exactly the kind of practice that tanks deliverability and burns
+   a sending domain before launch. You import a real contact list (sourced
+   normally — Apollo.io, Hunter.io, LinkedIn, manual research), then this
+   sends against it with a suppression list and an unsubscribe link, which
+   CAN-SPAM requires regardless of B2B/B2C.
+
+   Requires:
+   - RESEND_API_KEY secret (wrangler secret put RESEND_API_KEY)
+   - RESEND_FROM env var, e.g. "BridgeDesk <hello@bridgedesk.co>" — the
+     domain must be verified in Resend, or sends will fail
+   - OUTREACH_MAILING_ADDRESS env var — a real postal address; CAN-SPAM
+     requires one in every commercial email, no exceptions for B2B
+   - SITE_URL env var, e.g. "https://bridgedesk.co" — used to build the
+     unsubscribe link and the link back to the site in the email body
+   - Two new tables — outreach_contacts and outreach_unsubscribes — see the
+     migration note in DEPLOY.md; not something I can write blind without
+     schema.sql
+   ========================================================================== */
+
+/** Minimal CSV parser for "company,email" lines — no quoting/escaping support,
+    which is fine for a two-column contact list but not a general CSV parser. */
+function parseContactsCsv(text) {
+  return String(text || '')
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const [company, email] = line.split(',').map((s) => (s || '').trim());
+      return { company, email };
+    })
+    .filter((c) => c.company && isEmail(c.email));
+}
+
+async function importOutreachContacts(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+
+  const fromArray = Array.isArray(body.contacts)
+    ? body.contacts.map((c) => ({ company: clean(c.company, 200), email: clean(c.email, 200) })).filter((c) => c.company && isEmail(c.email))
+    : [];
+  const fromCsv = typeof body.csv === 'string' ? parseContactsCsv(body.csv) : [];
+  const contacts = [...fromArray, ...fromCsv];
+  if (!contacts.length) return json({ error: 'No valid { company, email } contacts found in body.contacts or body.csv.' }, 400);
+
+  let imported = 0, skipped = 0;
+  for (const c of contacts) {
+    const suppressed = await env.DB.prepare('select 1 from outreach_unsubscribes where email = ?1').bind(c.email).first();
+    if (suppressed) { skipped++; continue; }
+    try {
+      await env.DB.prepare(
+        `insert into outreach_contacts (company, email, status) values (?1, ?2, 'pending')
+         on conflict(email) do nothing`
+      ).bind(c.company, c.email).run();
+      imported++;
+    } catch { skipped++; }
+  }
+  return json({ ok: true, imported, skipped, total_submitted: contacts.length });
+}
+
+async function listOutreachContacts(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  const url = new URL(request.url);
+  const status = url.searchParams.get('status');
+  const sql = status
+    ? 'select * from outreach_contacts where status = ?1 order by created_at desc limit 1000'
+    : 'select * from outreach_contacts order by created_at desc limit 1000';
+  const rows = status
+    ? await env.DB.prepare(sql).bind(status).all()
+    : await env.DB.prepare(sql).all();
+  return json({ contacts: rows.results || [] });
+}
+
+/** The email itself — kept plain and honest rather than salesy, with the
+    physical address and unsubscribe link CAN-SPAM requires in every send. */
+function buildOutreachEmail({ company, email, siteUrl, mailingAddress, unsubscribeToken }) {
+  const unsubscribeUrl = `${siteUrl.replace(/\/$/, '')}/api/unsubscribe?email=${encodeURIComponent(email)}&token=${unsubscribeToken}`;
+  const subject = `Vetted remote assistants for ${company}, hired in days`;
+  const text = `Hi there,
+
+I'm reaching out from BridgeDesk — we connect vetted, English-fluent virtual, executive, and personal assistants (based in the Philippines) with companies hiring remotely, including support for full teams and round-the-clock coverage.
+
+If ${company} is looking to add remote support without the overhead of running your own hiring pipeline, take a look: ${siteUrl}
+
+No obligation, and this is a one-time note — reply "no thanks" or use the link below and you won't hear from us again.
+
+— BridgeDesk
+
+---
+${mailingAddress}
+Unsubscribe: ${unsubscribeUrl}`;
+  return { subject, text };
+}
+
+async function sendOutreachCampaign(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  if (!env.RESEND_API_KEY) return json({ error: 'RESEND_API_KEY is not set. Run: wrangler secret put RESEND_API_KEY' }, 503);
+  if (!env.RESEND_FROM) return json({ error: 'RESEND_FROM env var is not set (e.g. "BridgeDesk <hello@bridgedesk.co>").' }, 503);
+  if (!env.OUTREACH_MAILING_ADDRESS) return json({ error: 'OUTREACH_MAILING_ADDRESS env var is not set — CAN-SPAM requires a real postal address in every commercial email.' }, 503);
+  if (!env.SITE_URL) return json({ error: 'SITE_URL env var is not set (e.g. "https://bridgedesk.co").' }, 503);
+
+  let body;
+  try { body = await request.json(); } catch { body = {}; }
+  // Default well under Resend's free-tier 100/day cap, leaving headroom for
+  // any transactional email (application confirmations, etc.) sharing the
+  // same account and daily limit.
+  const limit = Math.max(1, Math.min(80, parseInt(body.limit, 10) || 80));
+
+  const pending = await env.DB.prepare(
+    `select oc.* from outreach_contacts oc
+     left join outreach_unsubscribes ou on ou.email = oc.email
+     where oc.status = 'pending' and ou.email is null
+     order by oc.created_at asc limit ?1`
+  ).bind(limit).all();
+  const contacts = pending.results || [];
+  if (!contacts.length) return json({ ok: true, sent: 0, failed: 0, message: 'No pending contacts to send to.' });
+
+  let sent = 0, failed = 0;
+  const results = [];
+  for (const contact of contacts) {
+    const unsubscribeToken = contact.ref || contact.id; // stable per-row token, not a secret — just avoids trivial mass-unsubscribe abuse
+    const { subject, text } = buildOutreachEmail({
+      company: contact.company,
+      email: contact.email,
+      siteUrl: env.SITE_URL,
+      mailingAddress: env.OUTREACH_MAILING_ADDRESS,
+      unsubscribeToken,
+    });
+
+    try {
+      const res = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', authorization: `Bearer ${env.RESEND_API_KEY}` },
+        body: JSON.stringify({ from: env.RESEND_FROM, to: contact.email, subject, text }),
+      });
+      if (res.ok) {
+        await env.DB.prepare('update outreach_contacts set status = ?1, sent_at = ?2 where id = ?3')
+          .bind('sent', new Date().toISOString(), contact.id).run();
+        sent++;
+        results.push({ email: contact.email, ok: true });
+      } else {
+        const errText = await res.text().catch(() => '');
+        await env.DB.prepare('update outreach_contacts set status = ?1 where id = ?2').bind('failed', contact.id).run();
+        failed++;
+        results.push({ email: contact.email, ok: false, error: errText.slice(0, 200) });
+      }
+    } catch (err) {
+      await env.DB.prepare('update outreach_contacts set status = ?1 where id = ?2').bind('failed', contact.id).run();
+      failed++;
+      results.push({ email: contact.email, ok: false, error: err.message });
+    }
+    // Polite pacing, same reasoning as the scraper's own DELAY_MS — no need
+    // to hammer the sending API in a tight loop.
+    await new Promise((r) => setTimeout(r, 300));
+  }
+
+  return json({ ok: true, sent, failed, results });
+}
+
+/** Public — no admin auth. A recipient clicking "unsubscribe" must not need
+    a login. Always returns a simple confirmation page regardless of whether
+    the email was actually in the system, so it can't be used to probe the
+    contact list. */
+async function unsubscribeOutreach(request, env) {
+  const url = new URL(request.url);
+  const email = clean(url.searchParams.get('email'), 200);
+  if (email && isEmail(email)) {
+    try {
+      await env.DB.prepare('insert into outreach_unsubscribes (email) values (?1) on conflict(email) do nothing').bind(email).run();
+      await env.DB.prepare("update outreach_contacts set status = 'unsubscribed' where email = ?1").bind(email).run();
+    } catch { /* still show the confirmation either way */ }
+  }
+  return new Response(
+    '<!doctype html><meta charset="utf-8"><title>Unsubscribed</title><body style="font-family:sans-serif;max-width:480px;margin:80px auto;text-align:center;"><h2>You\'re unsubscribed</h2><p>You won\'t receive further emails from BridgeDesk at this address.</p></body>',
+    { headers: { 'content-type': 'text/html; charset=utf-8' } }
+  );
+}
+
+/* ==========================================================================
    ADMIN: list / update employer requests
    ========================================================================== */
 async function listEmployers(request, env) {
@@ -578,6 +765,7 @@ export default {
     if (pathname === '/api/apply' && method === 'POST') return receiveApplication(request, env);
     if (pathname === '/api/pool' && method === 'POST') return joinPool(request, env);
     if (pathname === '/api/employer' && method === 'POST') return employerIntake(request, env);
+    if (pathname === '/api/unsubscribe' && method === 'GET') return unsubscribeOutreach(request, env);
 
     if (pathname === '/api/admin/login' && method === 'POST') return adminLogin(request, env);
     if (pathname === '/api/admin/applications' && method === 'GET') return listApplications(request, env);
@@ -585,6 +773,9 @@ export default {
     if (pathname === '/api/admin/pool' && method === 'GET') return listPool(request, env);
     if (pathname === '/api/admin/pool' && method === 'POST') return updatePool(request, env);
     if (pathname === '/api/admin/review-resume' && method === 'POST') return reviewResume(request, env);
+    if (pathname === '/api/admin/outreach/import' && method === 'POST') return importOutreachContacts(request, env);
+    if (pathname === '/api/admin/outreach' && method === 'GET') return listOutreachContacts(request, env);
+    if (pathname === '/api/admin/outreach/send' && method === 'POST') return sendOutreachCampaign(request, env);
     if (pathname === '/api/admin/employers' && method === 'GET') return listEmployers(request, env);
     if (pathname === '/api/admin/employers' && method === 'POST') return updateEmployer(request, env);
     if (pathname === '/api/admin/match' && method === 'POST') return runMatch(request, env);
