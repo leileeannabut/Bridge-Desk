@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Job board connecting VAs/EAs/PAs/Legal Assistants worldwide to startup openings worldwide. Static site plus a scheduled scraper.",
+  "description": "Job board connecting US startups with Virtual, Executive, Personal, and Legal Assistants worldwide. Static site plus a scheduled scraper.",
   "scripts": {
     "build": "echo 'Static site - nothing to build.'",
     "detect": "node scripts/detect-ats.js",
     "detect:dry": "node scripts/detect-ats.js --dry",
     "scrape": "node run.js",
+    "scrape:business": "node run.js --hub=business",
+    "scrape:legal": "node run.js --hub=legal",
     "scrape:dry": "node run.js --dry",
     "serve": "npx --yes serve .",
     "deploy": "wrangler deploy"
