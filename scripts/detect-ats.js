@@ -6,7 +6,7 @@
  * result back into config.js.
  *
  *   node scripts/detect-ats.js                 # every pending company
- *   node scripts/detect-ats.js --hub=startup   # one hub (only one exists)
+ *   node scripts/detect-ats.js --hub=business  # one hub only
  *   node scripts/detect-ats.js --dry           # print, write nothing
  *   node scripts/detect-ats.js --only=entrata  # a single company
  *
