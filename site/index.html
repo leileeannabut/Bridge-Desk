@@ -186,6 +186,31 @@ section{padding:56px 0;}
 .job-tag{font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; padding:3px 9px; border-radius:999px; display:inline-block;}
 .job button.btn{margin-top:auto; width:100%;}
 .job-empty{grid-column:1/-1; text-align:center; color:var(--ink-dim); padding:40px 0; font-size:15px;}
+.job-tabs{display:flex; gap:6px; flex-wrap:wrap; justify-content:center; margin-bottom:24px;}
+.job-tab{
+  min-width:38px; padding:8px 12px; border-radius:10px; border:1px solid var(--line); background:var(--paper);
+  font-size:13px; font-weight:600; cursor:pointer; color:var(--ink-soft); text-align:center;
+}
+.job-tab.active{background:var(--sky-deep); color:#fff; border-color:var(--sky-deep);}
+.job-tab.history{
+  display:flex; align-items:center; gap:6px; margin-left:6px; padding-left:14px; border-left:1px solid var(--line);
+}
+.job-tab.history .count{
+  background:var(--cream-deep); border-radius:999px; padding:1px 7px; font-size:11.5px; color:var(--ink-dim);
+}
+.job-tab.history.active .count{background:rgba(255,255,255,.25); color:#fff;}
+.job-pool-note{text-align:center; font-size:13px; color:var(--ink-dim); margin:-14px 0 20px;}
+.job-status-tag{
+  position:absolute; top:14px; right:14px; font-size:10.5px; font-weight:700; text-transform:uppercase;
+  letter-spacing:.03em; padding:3px 8px; border-radius:999px;
+}
+.job-status-tag.viewed{background:var(--cream-deep); color:var(--ink-dim);}
+.job-status-tag.applied{background:rgba(143,188,148,.22); color:var(--sage-deep);}
+.job{position:relative;}
+.job-clear-history{
+  display:block; margin:18px auto 0; background:none; border:none; color:var(--ink-dim);
+  font-size:12.5px; text-decoration:underline; cursor:pointer;
+}
 
 /* ---------- footer ---------- */
 footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
@@ -406,9 +431,11 @@ footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
       <p id="jobs-updated">Loading listings…</p>
     </div>
     <div class="filters" id="filters"></div>
+    <div class="job-tabs" id="job-tabs"></div>
     <div class="job-list" id="job-list">
       <div class="job-empty">Loading…</div>
     </div>
+    <button class="job-clear-history" id="clear-history-btn" onclick="clearHistory()" style="display:none;">Clear viewed history</button>
   </div>
 </section>
 
@@ -615,17 +642,121 @@ const CATEGORY_COLORS = {
 
 let ALL_JOBS = [];
 let ACTIVE_FILTER = 'All';
+let ACTIVE_TAB = 1;            // 1-based; resets to 1 on filter/reload
+let VIEWING_HISTORY = false;
+const TAB_SIZE = 10;
+const MAX_TABS = 10;           // 10 tabs × 10 jobs matches the 100-job cap run.js writes
+
+/* ---------- anonymous visitor id + local viewed/applied history ----------
+   There's no candidate login on this site, so "previously interacted" jobs
+   are tracked two ways at once: a full copy lives in this browser's
+   localStorage (works instantly, survives refresh, needs no backend), and a
+   lightweight record is also sent to /api/click keyed by a random id this
+   browser generates once and keeps — so the same device recovers its history
+   even if it clears cookies but not localStorage, and so BridgeDesk can see
+   engagement server-side. It's device-scoped, not a real account: there's no
+   login, so there's no way to follow a visitor across devices. */
+const VISITOR_KEY = 'bd_visitor_id';
+const HISTORY_KEY = 'bd_job_history_v1';
+
+function getVisitorId() {
+  let id = localStorage.getItem(VISITOR_KEY);
+  if (!id) {
+    id = (window.crypto?.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(16).slice(2)}`);
+    try { localStorage.setItem(VISITOR_KEY, id); } catch { /* storage disabled — id just won't persist */ }
+  }
+  return id;
+}
+
+function loadHistory() {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch { return {}; }
+}
+
+function saveHistory() {
+  try { localStorage.setItem(HISTORY_KEY, JSON.stringify(HISTORY)); } catch { /* storage full/disabled */ }
+}
+
+let HISTORY = loadHistory();
+
+/**
+ * Records that this visitor viewed or applied to a job — locally always,
+ * and best-effort on the backend. 'applied' always wins over 'viewed' for a
+ * given job: re-opening a card you already applied to shouldn't downgrade
+ * its badge. The full job object is cached, not just its id, so a posting
+ * that later ages off the live 100-job pool still renders correctly in the
+ * Previously Viewed tab.
+ */
+function trackInteraction(job, type) {
+  const existing = HISTORY[job.id];
+  if (existing?.status === 'applied' && type === 'viewed') return;
+  HISTORY[job.id] = { job, status: type, at: new Date().toISOString() };
+  saveHistory();
+  renderTabs();
+
+  fetch('/api/click', {
+    method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ job_id: job.id, job_title: job.title, company: job.company, visitor_id: getVisitorId(), type }),
+  }).catch(() => { /* tracking is best-effort, never blocks the UI */ });
+}
+
+function clearHistory() {
+  if (!confirm('Clear your viewed/applied history on this device?')) return;
+  HISTORY = {};
+  saveHistory();
+  VIEWING_HISTORY = false;
+  renderTabs();
+  renderJobs();
+}
+
+/**
+ * Best-effort recovery: pulls this device's interaction history back from
+ * the backend and fills in anything missing locally (e.g. localStorage was
+ * cleared but the visitor id cookie-equivalent survived). Never overwrites a
+ * local record, and never downgrades 'applied' to 'viewed'. Backend rows
+ * only carry job_id/title/company, so a recovered entry not currently in
+ * ALL_JOBS renders as a minimal card — enough to show what it was and still
+ * usable if the visitor wants to re-apply.
+ */
+async function syncHistoryFromBackend() {
+  try {
+    const res = await fetch(`/api/history?visitor_id=${encodeURIComponent(getVisitorId())}`, { cache: 'no-store' });
+    if (!res.ok) return;
+    const data = await res.json();
+    let changed = false;
+    for (const row of (data.interactions || [])) {
+      const existing = HISTORY[row.job_id];
+      if (existing?.status === 'applied') continue;
+      if (existing && row.type === 'viewed') continue;
+      const job = ALL_JOBS.find(j => j.id === row.job_id) || {
+        id: row.job_id, title: row.job_title || 'Role no longer listed', company: row.company || '',
+        category: 'Other', location: 'Remote',
+      };
+      HISTORY[row.job_id] = { job, status: row.type, at: row.created_at || existing?.at || new Date().toISOString() };
+      changed = true;
+    }
+    if (changed) { saveHistory(); renderTabs(); if (VIEWING_HISTORY) renderJobs(); }
+  } catch { /* backend sync is a bonus, never blocks the page */ }
+}
 
 async function loadJobs() {
   try {
     const res = await fetch('jobs.json', { cache: 'no-store' });
     const data = await res.json();
-    ALL_JOBS = (data.jobs || []).filter(j => j.status !== 'closed');
+    // run.js already caps the published feed at 100, freshest first — this
+    // slice is a defensive backstop so the 10-tabs-of-10 layout holds even
+    // against a stale or hand-edited jobs.json.
+    ALL_JOBS = (data.jobs || []).filter(j => j.status !== 'closed').slice(0, 100);
     const updated = data.generated_at ? new Date(data.generated_at).toLocaleDateString(undefined, { month:'long', day:'numeric', year:'numeric' }) : null;
     document.getElementById('jobs-updated').textContent = updated
       ? `${ALL_JOBS.length} open roles — last updated ${updated}`
       : `${ALL_JOBS.length} open roles`;
     renderFilters();
+    ACTIVE_TAB = 1;
+    VIEWING_HISTORY = false;
+    renderTabs();
     renderJobs();
   } catch (e) {
     document.getElementById('jobs-updated').textContent = 'Listings are temporarily unavailable.';
@@ -667,18 +798,78 @@ function renderFilters() {
 
 function setFilter(cat) {
   ACTIVE_FILTER = cat;
+  ACTIVE_TAB = 1;
+  VIEWING_HISTORY = false;
   renderFilters();
+  renderTabs();
+  renderJobs();
+}
+
+function currentFilteredList() {
+  return ACTIVE_FILTER === 'All' ? ALL_JOBS : ALL_JOBS.filter(j => (j.category || 'Other') === ACTIVE_FILTER);
+}
+
+/** 1–10 page tabs over the current filtered pool, plus a pinned "Previously
+    Viewed" tab. Tab count tracks the filtered list, capped at 10 — with the
+    100-job feed cap that's never more than 10 tabs of 10. */
+function renderTabs() {
+  const el = document.getElementById('job-tabs');
+  const list = currentFilteredList();
+  const tabCount = list.length ? Math.min(MAX_TABS, Math.ceil(list.length / TAB_SIZE)) : 0;
+  if (ACTIVE_TAB > tabCount) ACTIVE_TAB = Math.max(1, tabCount);
+
+  const numberTabs = Array.from({ length: tabCount }, (_, i) => {
+    const n = i + 1;
+    return `<button class="job-tab ${!VIEWING_HISTORY && n === ACTIVE_TAB ? 'active' : ''}" onclick="goToTab(${n})">${n}</button>`;
+  }).join('');
+
+  const historyCount = Object.keys(HISTORY).length;
+  const historyTab = `
+    <button class="job-tab history ${VIEWING_HISTORY ? 'active' : ''}" onclick="showHistory()">
+      Previously Viewed <span class="count">${historyCount}</span>
+    </button>`;
+
+  el.innerHTML = numberTabs + historyTab;
+  document.getElementById('clear-history-btn').style.display = (VIEWING_HISTORY && historyCount) ? 'block' : 'none';
+}
+
+function goToTab(n) {
+  ACTIVE_TAB = n;
+  VIEWING_HISTORY = false;
+  renderTabs();
+  renderJobs();
+}
+
+function showHistory() {
+  VIEWING_HISTORY = true;
+  renderTabs();
   renderJobs();
 }
 
 function renderJobs() {
-  const list = ACTIVE_FILTER === 'All' ? ALL_JOBS : ALL_JOBS.filter(j => (j.category || 'Other') === ACTIVE_FILTER);
   const el = document.getElementById('job-list');
+
+  if (VIEWING_HISTORY) {
+    const entries = Object.values(HISTORY).sort((a, b) => (b.at || '').localeCompare(a.at || ''));
+    if (!entries.length) { el.innerHTML = '<div class="job-empty">Nothing viewed yet — roles you open or apply to will show up here.</div>'; return; }
+    el.innerHTML = entries.map(({ job, status }) => jobCardHtml(job, status)).join('');
+    return;
+  }
+
+  const list = currentFilteredList();
   if (!list.length) { el.innerHTML = '<div class="job-empty">No roles in this category right now — try Join Our Pool below.</div>'; return; }
-  el.innerHTML = list.map(j => {
-    const c = CATEGORY_COLORS[j.category] || CATEGORY_COLORS.Other;
-    return `
+
+  const start = (ACTIVE_TAB - 1) * TAB_SIZE;
+  const page = list.slice(start, start + TAB_SIZE);
+  el.innerHTML = page.map(j => jobCardHtml(j, HISTORY[j.id]?.status)).join('');
+}
+
+function jobCardHtml(j, status) {
+  const c = CATEGORY_COLORS[j.category] || CATEGORY_COLORS.Other;
+  const badge = status ? `<span class="job-status-tag ${status}">${status === 'applied' ? 'Applied' : 'Viewed'}</span>` : '';
+  return `
     <div class="job">
+      ${badge}
       <div class="job-main">
         <span class="job-tag" style="background:${c.bg};color:${c.fg};">${escapeHtml(j.category || 'Other')}</span>
         <div class="job-title">${escapeHtml(j.title)}</div>
@@ -689,7 +880,6 @@ function renderJobs() {
       </div>
       <button class="btn btn-primary btn-sm" onclick='openApplyModal(${JSON.stringify(j).replace(/'/g,"&#39;")})'>Apply</button>
     </div>`;
-  }).join('');
 }
 
 function escapeHtml(s) {
@@ -708,6 +898,8 @@ function openApplyModal(job) {
   document.getElementById('apply-modal-sub').textContent = `${job.title} at ${job.company}`;
   document.getElementById('apply-msg').className = 'form-msg';
   document.getElementById('apply-overlay').classList.add('open');
+  trackInteraction(job, 'viewed');
+  if (!VIEWING_HISTORY) renderJobs();   // reflect the new "Viewed" badge right away
 }
 
 function openEmployerModal(tier) {
@@ -789,6 +981,7 @@ document.getElementById('apply-form').addEventListener('submit', async (e) => {
     if (!res.ok) throw new Error(data.error || 'Something went wrong.');
     msg.textContent = `Application sent! Reference: ${data.ref}`;
     msg.className = 'form-msg show ok';
+    if (currentApplyJob) { trackInteraction(currentApplyJob, 'applied'); renderJobs(); }
     e.target.reset();
   } catch (err) {
     msg.textContent = err.message;
@@ -940,7 +1133,7 @@ function renderClocks() {
 renderClocks();
 setInterval(renderClocks, 30000);
 
-loadJobs();
+loadJobs().then(syncHistoryFromBackend);
 loadTestimonials();
 setupStarInput();
 </script>
