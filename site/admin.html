@@ -63,7 +63,7 @@ tr:hover td{background:rgba(143,188,148,.06);}
 .score.lo{color:var(--ink-dim);}
 .rationale{font-size:11px;color:var(--ink-dim);max-width:320px;}
 select.status-select{padding:5px 8px;border:1px solid var(--line);border-radius:6px;font-size:12px;background:var(--paper);}
-button.small{padding:6px 11px;border-radius:7px;border:1px solid var(--line);background:var(--paper);font-size:12px;cursor:pointer;font-weight:600;}
+button.small,a.small{padding:6px 11px;border-radius:7px;border:1px solid var(--line);background:var(--paper);font-size:12px;cursor:pointer;font-weight:600;text-decoration:none;color:var(--ink);display:inline-block;}
 button.small.primary{background:var(--sky-deep);border-color:var(--sky-deep);color:#fff;}
 .empty{padding:40px;text-align:center;color:var(--ink-dim);background:var(--paper);border:1px solid var(--line);border-radius:10px;}
 .note{font-size:12px;color:var(--ink-dim);margin:0 0 12px;}
@@ -91,6 +91,7 @@ button.small.primary{background:var(--sky-deep);border-color:var(--sky-deep);col
       <div class="tab" data-tab="pool" onclick="switchTab('pool')">Pool <span class="count" id="count-pool">–</span></div>
       <div class="tab" data-tab="employers" onclick="switchTab('employers')">Employers <span class="count" id="count-employers">–</span></div>
       <div class="tab" data-tab="matches" onclick="switchTab('matches')">Matches <span class="count" id="count-matches">–</span></div>
+      <div class="tab" data-tab="jobs" onclick="switchTab('jobs')">Jobs <span class="count" id="count-jobs">–</span></div>
     </div>
 
     <!-- APPLICATIONS -->
@@ -144,6 +145,24 @@ button.small.primary{background:var(--sky-deep);border-color:var(--sky-deep);col
       </div>
       <div id="matches-table"></div>
     </div>
+
+    <!-- JOBS -->
+    <div class="panel" id="panel-jobs">
+      <p class="note">Every role currently on the live job board — scraped daily from each company's own careers page. "Source" is which ATS it came from (Greenhouse, Lever, Workday, or a direct DOM scrape). Use "View Original Posting" to check a listing directly at the company.</p>
+      <div class="toolbar">
+        <input type="text" id="jobs-company-filter" placeholder="Filter by company" oninput="renderJobsTable()">
+        <select id="jobs-category-filter" onchange="renderJobsTable()"><option value="">All categories</option></select>
+        <select id="jobs-source-filter" onchange="renderJobsTable()">
+          <option value="">All sources</option>
+          <option value="greenhouse">Greenhouse</option>
+          <option value="lever">Lever</option>
+          <option value="workday">Workday</option>
+          <option value="dom">DOM scrape</option>
+        </select>
+        <button class="refresh" onclick="loadJobs()">Refresh</button>
+      </div>
+      <div id="jobs-table"></div>
+    </div>
   </main>
 </div>
 
@@ -188,10 +207,11 @@ function switchTab(name){
   if (name === 'pool') loadPool();
   if (name === 'employers') loadEmployers();
   if (name === 'matches') loadMatches();
+  if (name === 'jobs') loadJobs();
 }
 
 function loadAll(){
-  loadApplications(); loadPool(); loadEmployers(); loadMatches();
+  loadApplications(); loadPool(); loadEmployers(); loadMatches(); loadJobs();
 }
 
 /* ---------- APPLICATIONS ---------- */
@@ -323,6 +343,57 @@ async function loadMatches(){
 }
 async function setMatchStatus(id, status){
   await fetch('/api/admin/matches', { method:'POST', headers: authHeaders(), body: JSON.stringify({ id, status }) });
+}
+
+/* ---------- JOBS ----------
+   Reads the same public site/jobs.json the job board itself reads — this is
+   a static file, not an admin API, so no auth header or backend change is
+   needed. Filtering (company/category/source) happens client-side against
+   the in-memory feed, same pattern as the public board's own filter chips. */
+let ALL_ADMIN_JOBS = [];
+async function loadJobs(){
+  try {
+    const res = await fetch('jobs.json', { cache: 'no-store' });
+    const data = await res.json();
+    ALL_ADMIN_JOBS = data.jobs || (Array.isArray(data) ? data : []);
+  } catch { ALL_ADMIN_JOBS = []; }
+  populateJobsCategoryFilter();
+  renderJobsTable();
+}
+function populateJobsCategoryFilter(){
+  const sel = document.getElementById('jobs-category-filter');
+  const current = sel.value;
+  const cats = [...new Set(ALL_ADMIN_JOBS.map(j => j.category || 'Other'))].sort();
+  sel.innerHTML = '<option value="">All categories</option>' +
+    cats.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+  if (cats.includes(current)) sel.value = current;
+}
+function renderJobsTable(){
+  const companyFilter = document.getElementById('jobs-company-filter').value.trim().toLowerCase();
+  const categoryFilter = document.getElementById('jobs-category-filter').value;
+  const sourceFilter = document.getElementById('jobs-source-filter').value;
+
+  let rows = ALL_ADMIN_JOBS;
+  if (companyFilter) rows = rows.filter(j => (j.company || '').toLowerCase().includes(companyFilter));
+  if (categoryFilter) rows = rows.filter(j => (j.category || 'Other') === categoryFilter);
+  if (sourceFilter) rows = rows.filter(j => (j.source || '') === sourceFilter);
+
+  document.getElementById('count-jobs').textContent = ALL_ADMIN_JOBS.length;
+  const el = document.getElementById('jobs-table');
+  if (!ALL_ADMIN_JOBS.length) { el.innerHTML = '<div class="empty">No scraped jobs yet — check the scrape workflow.</div>'; return; }
+  if (!rows.length) { el.innerHTML = '<div class="empty">No jobs match this filter.</div>'; return; }
+  el.innerHTML = `<table><thead><tr>
+    <th>Title</th><th>Company</th><th>Category</th><th>Location</th><th>Source</th><th>Posted</th><th></th>
+  </tr></thead><tbody>${rows.map(j => `
+    <tr>
+      <td><strong>${esc(j.title)}</strong></td>
+      <td>${esc(j.company)}${j.segment ? `<br><span style="color:var(--ink-dim)">${esc(j.segment)}</span>` : ''}</td>
+      <td>${esc(j.category) || 'Other'}</td>
+      <td>${esc(j.location) || '—'}</td>
+      <td><span class="mono">${esc(j.source) || '—'}</span></td>
+      <td>${fmtDate(j.posted_at || j.scraped_at)}</td>
+      <td>${j.apply_url ? `<a class="small" href="${esc(j.apply_url)}" target="_blank" rel="noopener">View Original Posting</a>` : '—'}</td>
+    </tr>`).join('')}</tbody></table>`;
 }
 
 document.getElementById('login-key').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
