@@ -326,11 +326,15 @@ function scoreCandidate(candidate, employer) {
     notes.push('+0 experience — not stated');
   }
 
-  // Timezone overlap — looks for US-hours language, since every employer here
-  // is a US company.
+  // Timezone overlap — the employer could now be anywhere, not just the US,
+  // so this rewards any specific, checkable overlap language rather than
+  // only US zone names. A named zone or region (in any part of the world)
+  // scores highest; a vague "flexible hours" mention scores partial; nothing
+  // stated scores zero.
   const tz = String(candidate.timezone_overlap || '').toLowerCase();
-  if (/\bus\b|\beastern\b|\bpacific\b|\bcentral\b|\bmountain\b|overlap/.test(tz)) {
-    score += 20; notes.push('+20 timezone overlap stated');
+  const namedZone = /\b(gmt|utc|[a-z]{2,4}t\b|eastern|pacific|central|mountain|cet|cest|bst|ist|sgt|myt|aest|aedt|jst|kst|hkt)\b|[+-]\d{1,2}(:\d{2})?\s*(gmt|utc)?/;
+  if (namedZone.test(tz)) {
+    score += 20; notes.push('+20 timezone overlap stated (named zone/region)');
   } else if (tz) {
     score += 10; notes.push('+10 timezone — some overlap language, unclear how much');
   } else {
