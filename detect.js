@@ -80,14 +80,24 @@ const SIGNATURES = [
   },
   {
     method: 'workday',
+    // run.js's workday() adapter needs BOTH the host (atsSlug) and the site
+    // path (atsSite) to build a working CXS endpoint — a host alone throws
+    // 'workday needs atsSlug (the host) and a site path' every single time.
+    // The site path is usually sitting right next to the host in the same
+    // URL (either the page's own address, once redirected, or an "Apply" /
+    // "See openings" link on the page: .../en-US/SITE/job/... or .../SITE),
+    // so capture both from whichever place the pattern actually matches
+    // rather than just the host.
     test: (html, finalUrl) => {
-      const m =
-        html.match(/([a-z0-9-]+)\.wd\d+\.myworkdayjobs\.com/i) ||
-        finalUrl.match(/([a-z0-9-]+)\.wd\d+\.myworkdayjobs\.com/i);
-      return m ? { slug: m[0] } : null;
+      const pattern = /([a-z0-9-]+\.wd\d+\.myworkdayjobs\.com)\/(?:[a-z]{2}-[A-Z]{2}\/)?([^\/?#"'\s]+)/i;
+      const m = finalUrl.match(pattern) || html.match(pattern);
+      // A bare host mention with no visible site segment (e.g. just a
+      // preconnect link) isn't enough to build a working adapter call, so
+      // don't claim the method without one — leave it NULL and reported,
+      // same as any other unresolved company.
+      if (!m) return null;
+      return { slug: m[1], site: m[2] };
     },
-    // Workday's CXS endpoint needs a tenant + site path that varies per client,
-    // so this reports the host and leaves the exact endpoint to run.js.
     verify: async (slug) => ({ count: null, url: `https://${slug}` }),
   },
   {
@@ -140,6 +150,7 @@ async function detect(company) {
       ...company,
       method: sig.method,
       slug: hit.slug,
+      site: hit.site ?? null,
       atsUrl: confirmed?.url ?? null,
       count: confirmed?.count ?? null,
       reason: null,
@@ -191,9 +202,24 @@ async function writeBack(results) {
     })();
 
     const before = src.slice(idAt, end);
-    const after = before
+    let after = before
       .replace(/method: [^,]+,/, `method: ${JSON.stringify(r.method)},`)
       .replace(/atsSlug: [^,]+,/, `atsSlug: ${r.slug ? JSON.stringify(r.slug) : 'null'},`);
+
+    // Workday needs a site path alongside the host. Most entries were never
+    // written with an atsSite field at all (only the two I set by hand had
+    // one), so patch it in place if it exists, or insert it right after
+    // atsSlug if it doesn't — a plain regex replace on a key that isn't
+    // there yet silently does nothing, which is exactly how this went
+    // unwritten before.
+    if (r.method === 'workday' && r.site) {
+      if (/atsSite:\s*[^,]+,/.test(after)) {
+        after = after.replace(/atsSite:\s*[^,]+,/, `atsSite: ${JSON.stringify(r.site)},`);
+      } else {
+        after = after.replace(/(atsSlug: [^,]+,)/, `$1 atsSite: ${JSON.stringify(r.site)},`);
+      }
+    }
+
     src = src.slice(0, idAt) + after + src.slice(end);
   }
 
