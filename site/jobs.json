@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-29T09:43:56.486Z",
-  "count": 75,
-  "sources_ok": 45,
-  "sources_failed": 19,
+  "generated_at": "2026-08-29T10:04:36.177Z",
+  "count": 56,
+  "sources_ok": 47,
+  "sources_failed": 17,
   "jobs": [
     {
       "id": "greenhouse:tide-uk:7980283003",
@@ -23,7 +23,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7980283003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T08:58:32-04:00",
-      "scraped_at": "2026-08-29T09:43:37.860Z",
+      "scraped_at": "2026-08-29T10:04:27.947Z",
       "status": "open"
     },
     {
@@ -45,7 +45,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7685198003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T09:43:37.859Z",
+      "scraped_at": "2026-08-29T10:04:27.947Z",
       "status": "open"
     },
     {
@@ -67,7 +67,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7598880003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T09:43:37.859Z",
+      "scraped_at": "2026-08-29T10:04:27.947Z",
       "status": "open"
     },
     {
@@ -89,7 +89,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7081017003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T09:43:37.860Z",
+      "scraped_at": "2026-08-29T10:04:27.947Z",
       "status": "open"
     },
     {
@@ -111,7 +111,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T09:43:37.860Z",
+      "scraped_at": "2026-08-29T10:04:27.948Z",
       "status": "open"
     },
     {
@@ -133,7 +133,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T09:43:37.860Z",
+      "scraped_at": "2026-08-29T10:04:27.948Z",
       "status": "open"
     },
     {
@@ -155,7 +155,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155589",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:19:36-04:00",
-      "scraped_at": "2026-08-29T09:43:22.503Z",
+      "scraped_at": "2026-08-29T10:04:21.323Z",
       "status": "open"
     },
     {
@@ -177,7 +177,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155588",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:19:11-04:00",
-      "scraped_at": "2026-08-29T09:43:22.503Z",
+      "scraped_at": "2026-08-29T10:04:21.323Z",
       "status": "open"
     },
     {
@@ -199,7 +199,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155586",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:18:46-04:00",
-      "scraped_at": "2026-08-29T09:43:22.503Z",
+      "scraped_at": "2026-08-29T10:04:21.323Z",
       "status": "open"
     },
     {
@@ -221,7 +221,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8143567",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:18:27-04:00",
-      "scraped_at": "2026-08-29T09:43:22.503Z",
+      "scraped_at": "2026-08-29T10:04:21.323Z",
       "status": "open"
     },
     {
@@ -243,7 +243,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6122010004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T17:24:50-04:00",
-      "scraped_at": "2026-08-29T09:43:18.944Z",
+      "scraped_at": "2026-08-29T10:04:08.611Z",
       "status": "open"
     },
     {
@@ -265,29 +265,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:vercel:6115991004",
-      "hub": "business",
-      "title": "Visual Designer, Web",
-      "company": "Vercel",
-      "company_id": "vercel",
-      "priority": false,
-      "category": "Graphic Designer",
-      "segment": "Frontend Cloud Platform",
-      "level": "Mid",
-      "location": "Remote - United States",
-      "employment_type": "full-time",
-      "comp_min": 208000,
-      "comp_max": 312000,
-      "summary": "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built.",
-      "description": "About Vercel:\n\nVercel is the agentic infrastructure company. We free people and agents to ship what’s next.\n\nFor more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.\n\nNow, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.\n\nWe are building the platform for that future, trusted by companies like OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.\n\nAbout the Role:\n\nWe're looking for a Visual Designer to join our Website Design Engineering team. Your home base is Vercel's web presence, vercel.com, nextjs.org, product launches, and Ship, where you'll design pages, systems, and interactions that get built and shipped, not just handed off. But the impact is bigger than the site: you'll shape how the Vercel brand shows up in the world, from launch moments and event experiences to motion, illustration, and brand-partnership surfaces across digital and physical mediums. You'll work shoulder-to-shoulder with design engineers who turn design into production code, so your work lives on the real web at Vercel's bar for polish.\n\nThis is a role for a designer who thinks in systems and sweats the details: someone equally at home setting the typographic rhythm of a landing page, and shaping how a tier-one hero feels on first load.\n\nFirst and foremost, this is a visual design role. Exceptional creativity and design craft for the web are what matter most. Our design engineers own turning design into production code, and you're encouraged to get hands-on in the medium yourself and carry an idea all the way to production when you want to. Either way, we're hiring you for your eye and your ideas, and coding is never a requirement. You will report to the Director of Website Design Engineering and can be remote or hybrid across our SF, NY, London, or Berlin hubs.\n\nIf you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect with our recruiting team.\n\nWhat You Will Do:\n\n- Define the visual language of Vercel's most-seen surfaces, vercel.com, nextjs.org, product launches, and Ship, and set a creative direction the whole team builds from.\n\n- Create the moments people remember: hero animations, launch films, event environments, and brand-partnership work that reaches across screen and physical space.\n\n- Own the creative vision end to end, from the first spark of a concept to the finished result shipped on the real web, alongside design engineers who turn your work into production code.\n\n- Set the craft bar: the typography, motion, and detail that make a page unmistakably Vercel, the kind of work other teams measure themselves against.\n\n- Move fluidly across mediums, web, motion, illustration, 3D, and identity, and raise the bar wherever the Vercel brand shows up.\n\n- Leave a mark on the system: influence Geist and our shared patterns through work good enough to become the standard.\n\nAbout You:\n\n- Above all, a distinctive eye and original ideas. Exceptional visual design instincts and creativity are the heart of this role, and the web is where most of your work will live.\n\n- A portfolio spanning brand systems and work across multiple digital and physical mediums, anchored by strong, shipped web work. 8+ years of design experience.\n\n- Meaningful hands-on range across several of these: motion, 3D, illustration, environmental and event design, and interaction. This is a maker's role, and coding is not what we mean by hands-on.\n\n- Systems-minded: you design components and patterns, not one-offs, and think about how each choice fits a broader system.\n\n- You've shaped launch moments, events, or brand-partnership surfaces under real deadlines, and you know how to make a moment land.\n\n- You thrive collaborating with engineers and understand the web as a medium: how layouts behave, what's buildable, how design becomes code.\n\n- Comfortable in a technology-driven environment; experience with developer, B2B, or SaaS products is a plus.\n\n- A self-starter and egoless collaborator who takes feedback well and gives it generously.\n\n- Familiar with Vercel, with working knowledge or experience preferred.\n\nBonus If You:\n\n- Can prototype or bring ideas to life in code (React / Tailwind / Next.js).\n\n- Have contributed to a design system at scale (even if owning ours won't be your job).\n\nBenefits:\n\n- Competitive compensation package, including equity.\n\n- Inclusive Healthcare Package.\n\n- Learn and Grow - we provide mentorship and send you to events that help you build your network and skills.\n\n- Flexible Time Off.\n\n- We will provide you the gear you need to do your role, and a WFH budget for you to outfit your space as needed.\n\nThe San Francisco, CA base pay range for this role is $208,000 - $312,000. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process.\n\nVercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.",
-      "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004",
-      "source": "greenhouse",
-      "posted_at": "2026-08-27T14:13:52-04:00",
-      "scraped_at": "2026-08-29T09:43:19.519Z",
+      "scraped_at": "2026-08-29T10:04:28.211Z",
       "status": "open"
     },
     {
@@ -309,205 +287,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-08-26T13:00:27-04:00",
-      "scraped_at": "2026-08-29T09:43:18.943Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:intercom:8140384",
-      "hub": "saas",
-      "title": "Sales Development Coordinator (6-Month FTC)",
-      "company": "Intercom",
-      "company_id": "intercom",
-      "priority": false,
-      "category": "Other",
-      "segment": "Customer Messaging Platform",
-      "level": "Mid",
-      "location": "Dublin, Ireland",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Fin is the AI Customer Agent company on a mission to help businesses provide perfect customer experiences.",
-      "description": "Fin is the AI Customer Agent company on a mission to help businesses provide perfect customer experiences.\n\nOur AI Agent Fin is the highest-performing AI Customer Agent on the market today, enabling businesses to deliver impeccable, always-on customer support across the customer journey – from service, to sales, to ecommerce. Powered by our own AI models, Fin resolves complex customer issues end-to-end across every channel, with minimal set-up and integration. Fin can also be combined with our natively integrated Intercom help desk for one single system that is designed to meet the needs of modern day support teams.\n\nFounded in 2011, Fin became one of the fastest growing companies and remains one of the largest private software companies in the world with nearly 30,000 global businesses using our products to transform their customer support. Driven by our core values, we push boundaries, build with speed and intensity, and relentlessly deliver incredible value to our customers.\n\nWhat's the opportunity?\n\nOur Sales Development organization is a key driver of Fin’s growth, acting as both a talent pipeline and a revenue engine. We identify and engage prospects globally, guiding them through the early stages of the sales process - and laying the foundation for future careers across our Go-to-Market teams.\n\nAt Fin, we’re customer-obsessed and driven to transform online customer service through a human + AI approach. We believe in balancing working hard with working smart - using data, strategy, and creativity to drive results and continuously improve.\n\nWe’re looking for a Sales Development Coordinator to join our Enterprise Sales team. This is a hands-on, learning-focused role designed for someone looking to build strong foundations in sales development, customer engagement, and account research.\n\nYou’ll play a key role in nurturing low-intent prospects, improving the quality of our account and contact data, and enabling Account Executives and Business Development Representatives to engage more effectively with high-potential prospects.\n\nThis role is intended as a stepping stone into Sales. Successful candidates may progress into a full-time Sales Development Representative role based on performance, readiness, and business needs. You will receive coaching and enablement to prepare for progression into an SDR position.\n\nWhat will I be doing?\n\nAs a Sales Development Coordinator, you’ll work closely with the Enterprise Sales teams across several core areas:\n\n- Follow up on inbound leads and engage with early-stage prospects, helping qualify interest and route opportunities appropriately\n\n- Conduct account and prospect research to support outbound efforts\n\n- Build organisation maps for key personas, including roles across Customer Support, Product, AI, and Digital Transformation\n\n- Prepare call briefs and account summaries to help AEs and BDRs engage effectively ahead of meetings\n\nWhat skills do I need?\n\n- Currently pursuing a Bachelor's degree in Business, Sales, Technology, or a related field or early in your career with less than 2 years of professional experience\n\n- Comfortable engaging with prospects via email and phone\n\n- Fluency in English, with French or German preferred (Dublin only)\n\n- Excellent written and verbal communication skills\n\n- Comfortable using tools such as LinkedIn and Google Workspace\n\n- Proactive and self-motivated, with the ability to manage tasks independently with light guidance\n\n- Curious about technology, AI, sales, and customer experience\n\n- High attention to detail and strong follow-through\n\n- Motivated to build a long-term career in sales\n\nPrior sales experience is not required, this role is designed for someone early in their career or transitioning into sales.\nAt Fin, we want to give people what they need to do the best work of their careers. Our benefits and programs are designed to support your health and wellbeing, your family, your time away from work, and your financial future. Offerings vary by location in line with local practices and requirements.\n\nLearn more about working at Fin and the benefits we offer at fin.ai/careers.\n\nPolicies\n\nFin has a hybrid working policy. We believe that working in person helps us stay connected, collaborate easier and create a great culture while still providing flexibility to work from home. We expect employees to be in the office at least three days per week.\n\nWe have a radically open and accepting culture at Fin. We avoid spending time on divisive subjects to foster a safe and cohesive work environment for everyone. As an organization, our policy is to not advocate on behalf of the company or our employees on any social or political topics out of our internal or external communications. We respect personal opinion and expression on these topics on personal social platforms on personal time, and do not challenge or confront anyone for their views on non-work related topics. Our goal is to focus on doing incredible work to achieve our goals and unite the company through our core values.\n\nFin values diversity and is committed to a policy of Equal Employment Opportunity. Fin will not discriminate against an applicant or employee on the basis of race, color, religion, creed, national origin, ancestry, sex, gender, age, physical or mental disability, veteran or military status, genetic information, sexual orientation, gender identity, gender expression, marital status, or any other legally recognized protected basis under federal, state, or local law.",
-      "apply_url": "https://job-boards.greenhouse.io/intercom/jobs/8140384",
-      "source": "greenhouse",
-      "posted_at": "2026-08-26T04:27:02-04:00",
-      "scraped_at": "2026-08-29T09:43:25.997Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:4996719007",
-      "hub": "fintech",
-      "title": "Talent Attraction Specialist (Especialista de Atracción de Talento) – Mexico City (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Other",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Mexico City / CMX / Mexico",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nWhat you'll do\nWe're looking for a Talent Acquisition Specialist to design and execute scalable, data-driven hiring strategies that attract top-tier talent and support Clara’s ambitious growth. You’ll partner closely with people partners & hiring managers to understand team needs, manage full-cycle recruitment processes, and ensure a seamless and engaging candidate experience from first touch to offer. This role will play a key part in enhancing our employer brand, optimizing our use of Greenhouse (ATS), and embedding diversity into our recruitment approach.\nYou’ll also:\n\n- Drive talent acquisition strategy aligned with Clara’s business goals and hiring plans.\n\n- Oversee full-cycle recruiting: sourcing, screening, interviewing, and selection.\n\n- Use tools like LinkedIn Recruiter, referrals, and proactive sourcing to find top candidates.\n\n- Monitor and report on key recruitment KPIs (e.g., time-to-hire, quality-of-hire).\n\n- Stay up-to-date on market trends and apply innovations in recruiting practices and technology.\n\n- Elevate Clara’s employer branding and support recruitment marketing efforts.\n\n- Ensure hiring practices are inclusive and compliant with labor regulations.\n\n- Organize and participate in recruitment events that build our pipeline and visibility.\n\nWho you are\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves\n\n- Bachelor's degree in Psychology, Business Administration, Human Resources, or related field.\n\n- 5+ years of experience in talent acquisition\n\n- Working proficiency in English.\n\n- Strong command of recruitment strategies, passive sourcing, and stakeholder management.\n\n- Hands-on experience with ATS platforms, preferably Greenhouse.\n\n- Familiarity with LinkedIn Recruiter and modern sourcing techniques.\n\n- Analytical mindset with the ability to interpret recruitment metrics and make strategic decisions.\n\n- Excellent communication, negotiation, and interpersonal skills.\n\n- Experience working in fast-paced, high-growth environments.\n\nNice to haves\n\n- Experience in employer branding initiatives.\n\n- Interest or experience in AI tools to enhance recruiting workflows.\n\n- Portuguese or interest in learning it.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/4996719007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-25T10:51:10-04:00",
-      "scraped_at": "2026-08-29T09:43:51.105Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5220244007",
-      "hub": "fintech",
-      "title": "PR Specialist (Especialista de Relaciones Públicas) - Mexico City, Mexico (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Other",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "CMX / Mexico; MEX / Mexico; Mexico City / CMX / Mexico; Toluca / MEX / Mexico",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nPR Specialist (Especialista de Relaciones Públicas) - Mexico City, Mexico (Hybrid)\n\nWhat you'll do\n\n-\nJob Description:\n\nWe are looking for a highly skilled, dynamic, and hands-on PR Specialist to strengthen Clara’s reputation and drive meaningful media coverage across Mexico and Colombia. You will own the planning and execution of local PR strategies, build trusted relationships with journalists and media outlets, and translate Clara’s products, partnerships, and C-level perspectives into clear, relevant stories.\n\nThis role combines strong external communications expertise with excellent stakeholder management. You will work closely with C-level executives in their day-to-day communications, prepare and accompany them at events and media engagements, and partner across Content, Events, Product, Product Marketing, and other teams. We are looking for someone who embodies Clara’s culture of simplicity, ownership, continuous reinvention, inclusion, and clarity—and who brings a builder mindset, using AI and experimentation to simplify workflows and increase impact.\n\nResponsibilities:\n\n- Cultivate and maintain strong relationships with local journalists and media outlets.\n\n- Own communications for product launches, partnerships, and C-level announcements, translating complex information into simple and compelling narratives.\n\n- Create engaging and informative editorial content, including press releases, media alerts, and other PR materials.\n\n- Build strong working relationships across Content, Events, Product, Product Marketing, and other teams to align priorities, gather insights, and deliver integrated communications initiatives.\n\n- Handle day-to-day media relations, including responding to media inquiries and organizing interviews.\n\n- Identify and secure opportunities for thought leadership initiatives, including speaking engagements and bylined articles.\n\n- Coordinate press conferences, media briefings, and industry events; prepare, brief, and accompany C-level executives and spokespeople, ensuring a high-quality experience before, during, and after each engagement.\n\n- Monitor and analyze media coverage to assess the effectiveness of PR strategies and make recommendations for improvement.\n\n- Stay ahead of industry trends, competitor activity, and media landscape changes, turning insights into timely recommendations and new communication opportunities.\n\n- Develop and implement crisis communications plans when needed, coordinating stakeholders and acting with clarity and urgency.\n\n- Serve as a trusted day-to-day communications partner to Clara’s C-level executives and spokespeople, providing media training, message development, briefing materials, and hands-on support for interviews and public appearances.\n\nQualifications:\n\n- Proven experience in planning and executing successful PR strategies.\n\n- Strong local knowledge of the media landscape and established relationships with journalists.\n\n- Excellent written and verbal communication skills, with the judgment and storytelling ability to create clear, compelling content for different audiences.\n\n- Demonstrated experience advising and working directly with C-level stakeholders, including executive communications, event support, media preparation, and day-to-day stakeholder management.\n\n- Ability to thrive in a fast-paced environment and handle multiple projects simultaneously.\n\n- Strong attention to detail and exceptional organizational skills.\n\n- Experience in thought leadership initiatives, such as securing speaking engagements and writing bylined articles.\n\n- Builder mindset and hands-on ability to use AI, automation, and new tools to simplify recurring work, improve quality, and scale PR processes.\n\n- Exceptional teamwork and collaboration skills, with experience aligning diverse cross-functional partners, navigating different perspectives, and moving shared work forward with clarity and accountability.\n\n- Professional fluency in Spanish and English.\n\nNice to have\n\n- Prior experience in a fast-paced startup or high-growth technology company is a plus.\n\n- Experience at a PR agency working with corporate, technology, or fintech accounts.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5220244007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-25T10:21:27-04:00",
-      "scraped_at": "2026-08-29T09:43:51.104Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5169725007",
-      "hub": "fintech",
-      "title": "Paid Media Specialist - Mexico City (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Other",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Mexico City / CMX / Mexico",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nWhat you’ll do\n\nThis is a highly hands-on Paid Media role. You will work directly inside the advertising platforms every day—building and launching campaigns, uploading creatives and copy, checking tracking, monitoring performance, and making optimizations.\nThis is not a strategy-only, coordination, or people-management position. We’re looking for someone who enjoys executing the work themselves and taking direct ownership of campaigns from setup through ongoing optimization.\nYou’ll manage campaigns across multiple platforms and markets while using AI as a core part of your workflow. You’ll be operating within one of Latin America’s fastest-growing companies, as ranked by the Financial Times, on a team that is actively building AI-native workflows into everything we do.\nYour work will directly impact how Clara grows across Mexico, Brazil, and Colombia—and you’ll help define what AI-augmented Paid Media execution looks like at scale.\n\nYour responsibilities will include:\n\n- Launch, monitor and quality assurance of campaigns across Google Ads, Meta Ads, LinkedIn Ads, and other platforms.\n\n- Set up tracking and attribution according to internal guidelines — including AI-assisted tagging validation and anomaly detection.\n\n- Use AI tools daily to accelerate campaign work: generating ad copy variants, summarizing performance data, building audience hypotheses, and drafting creative briefs.\n\n- Conduct keyword and audience research using both native platform tools and AI-powered research assistants (e.g. Claude, Perplexity, ChatGPT, custom GPTs).\n\n- Support in A/B tests and make regular optimizations — using AI to generate hypotheses, interpret results, and suggest next steps.\n\n- Build and maintain recurring performance reports, leveraging AI to surface insights and write narrative summaries.\n\n- Use automation tools (e.g. n8n, Make, Zapier) to reduce repetitive manual work and create scalable workflows around campaign management.\n\n- Work closely with the Growth Team and support teams — using AI to speed up collaboration, from briefing creative to aligning on copy.\n\nWho you are:\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- 2+ year of experience managing campaigns on Google Ads, Meta Ads and/or LinkedIn Ads (other platforms are a plus, but not required).\n\n- Knows how to navigate ad platforms, create audiences, choose formats, and optimize campaigns.\n\n- Confident working with data and tracking the main Paid Media KPIs (spreadsheets, Looker Studio, Power BI, platform native reporting tools or similar).\n\n- Active, daily user of AI tools — you use ChatGPT, Claude, Gemini, Perplexity or similar tools as part of your real workflow, not just occasionally.\n\n- Can write effective prompts: you know how to give AI models context, constraints and examples to get useful outputs on the first or second try.\n\n- Has experience using AI to produce or improve ad copy, creative briefs, keyword lists, or performance summaries.\n\n- Organized, precise and able to handle multiple campaigns in parallel.\n\n- Comfortable communicating with both technical and non-technical teams.\n\n- Genuinely interested in Paid Media and willing to go deep.\n\nNice to haves:\n\n- Experience with automation tools like n8n, Make or Zapier to build workflows around paid media tasks.\n\n- Experience building custom GPTs, AI agents, or AI-assisted reporting pipelines.\n\n- Experience with less common platforms (Spotify Ads, programmatic, Uber Ads etc.).\n\n- Interest or experience in AI workflows, internal tooling, or prompt engineering.\n\n- Experience collaborating with creative teams — including using AI to brief or iterate on creative assets.\n\n- Experience working with B2B SaaS or Fintech.\n\n- Experience with MMMs and/or advanced attribution models.\n\n- Basic understanding of landing page CRO, Google Analytics, or CRM tools like HubSpot.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169725007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-25T10:11:52-04:00",
-      "scraped_at": "2026-08-29T09:43:51.104Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5169732007",
-      "hub": "fintech",
-      "title": "Paid Media Specialist- Bogotá (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Other",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Bogota / CUN / Colombia",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nWhat you’ll do\nThis is a highly hands-on Paid Media role. You will work directly inside the advertising platforms every day—building and launching campaigns, uploading creatives and copy, checking tracking, monitoring performance, and making optimizations.\nThis is not a strategy-only, coordination, or people-management position. We’re looking for someone who enjoys executing the work themselves and taking direct ownership of campaigns from setup through ongoing optimization.\nYou’ll manage campaigns across multiple platforms and markets while using AI as a core part of your workflow. You’ll be operating within one of Latin America’s fastest-growing companies, as ranked by the Financial Times, on a team that is actively building AI-native workflows into everything we do.\nYour work will directly impact how Clara grows across Mexico, Brazil, and Colombia—and you’ll help define what AI-augmented Paid Media execution looks like at scale.\n\nYour responsibilities will include:\n\n- Launch, monitor and quality assurance of campaigns across Google Ads, Meta Ads, LinkedIn Ads, and other platforms.\n\n- Set up tracking and attribution according to internal guidelines — including AI-assisted tagging validation and anomaly detection.\n\n- Use AI tools daily to accelerate campaign work: generating ad copy variants, summarizing performance data, building audience hypotheses, and drafting creative briefs.\n\n- Conduct keyword and audience research using both native platform tools and AI-powered research assistants (e.g. Claude, Perplexity, ChatGPT, custom GPTs).\n\n- Support in A/B tests and make regular optimizations — using AI to generate hypotheses, interpret results, and suggest next steps.\n\n- Build and maintain recurring performance reports, leveraging AI to surface insights and write narrative summaries.\n\n- Use automation tools (e.g. n8n, Make, Zapier) to reduce repetitive manual work and create scalable workflows around campaign management.\n\n- Work closely with the Growth Team and support teams — using AI to speed up collaboration, from briefing creative to aligning on copy.\n\nWho you are:\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- 2+ year of experience managing campaigns on Google Ads, Meta Ads and/or LinkedIn Ads (other platforms are a plus, but not required).\n\n- Knows how to navigate ad platforms, create audiences, choose formats, and optimize campaigns.\n\n- Confident working with data and tracking the main Paid Media KPIs (spreadsheets, Looker Studio, Power BI, platform native reporting tools or similar).\n\n- Active, daily user of AI tools — you use ChatGPT, Claude, Gemini, Perplexity or similar tools as part of your real workflow, not just occasionally.\n\n- Can write effective prompts: you know how to give AI models context, constraints and examples to get useful outputs on the first or second try.\n\n- Has experience using AI to produce or improve ad copy, creative briefs, keyword lists, or performance summaries.\n\n- Organized, precise and able to handle multiple campaigns in parallel.\n\n- Comfortable communicating with both technical and non-technical teams.\n\n- Genuinely interested in Paid Media and willing to go deep.\n\nNice to haves:\n\n- Experience with automation tools like n8n, Make or Zapier to build workflows around paid media tasks.\n\n- Experience building custom GPTs, AI agents, or AI-assisted reporting pipelines.\n\n- Experience with less common platforms (Spotify Ads, programmatic, Uber Ads etc.).\n\n- Interest or experience in AI workflows, internal tooling, or prompt engineering.\n\n- Experience collaborating with creative teams — including using AI to brief or iterate on creative assets.\n\n- Experience working with B2B SaaS or Fintech.\n\n- Experience with MMMs and/or advanced attribution models.\n\n- Basic understanding of landing page CRO, Google Analytics, or CRM tools like HubSpot.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169732007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-25T10:11:36-04:00",
-      "scraped_at": "2026-08-29T09:43:51.104Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5170804007",
-      "hub": "fintech",
-      "title": "Legal Specialist (Especialista Legal) - Mexico City (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Other",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Mexico City / CMX / Mexico",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nWhat you'll do\n\nWe're looking for a Legal Specialist to be a cornerstone of Clara's Legal team in Mexico. In this senior individual contributor role, you will navigate a complex, evolving regulatory landscape and handle high-stakes legal work with significant autonomy. You will serve as a trusted advisor to leadership and internal teams, owning the day-to-day legal operations of Clara's Mexican entity while ensuring local execution aligns seamlessly with our global standards across LATAM.\n\n- Participate in high-stakes global financial transactions, including major loan facilities and other deals in the capital markets.\n\n- Structure and negotiate equity and debt financing rounds including venture capital and private equity stakeholders.\n\n- Own Clara's compliance with Mexican financial regulations, including SOFOM frameworks, AML obligations, data protection (LFPDPPP), and applicable CNBV and Banxico requirements.\n\n- Manage communications, filings, and deadlines with regulatory bodies (CNBV, Banxico, INAI) and support responses to administrative requests or investigations.\n\n- Engage with local, regional and global teams in the drafting, review, negotiation, and management of commercial agreements, including client contracts, supplier agreements, NDAs, and complex partnership deals.\n\n- Lead legal negotiations on product-related matters, partnering closely with the Product, Sales, and Finance teams to enable business momentum while rigorously protecting Clara's interests.\n\n- Manage communications, filings, and deadlines with regulatory bodies (CNBV, Banxico, INAI) and support responses to administrative requests or investigations.\n\n- Collaborate with the Product team on the legal architecture of new launches ensuring regulatory risks are addressed at the design phase.\n\n- Manage and protect Clara’s intellectual property portfolio, with a specific focus on executing trademark registrations, renewals, and monitoring across relevant jurisdictions.\n\n- Maintain rigorous, up-to-date legal records across Google Drive, Slack, and internal legal management systems.\n\n- Identify and implement process improvements, utilizing AI tools and automation to streamline contract workflows and legal research without adding headcount.\n\nWho you are\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves\n\n- Law degree and valid license to practice in Mexico (Cédula Profesional required).\n\n- Minimum 5 years of legal experience in corporate, commercial, financial, or fintech law.\n\n- Deep understanding of Mexican financial regulation, specifically SOFOM frameworks, AML/CFT obligations, CNBV/Banxico requirements, and LFPDPPP.\n\n- Experience in a high-growth fintech, startup, or technology company—you understand that legal must act as a strategic business enabler, not just a gatekeeper.\n\n- Proven track record in complex contract negotiation alongside commercial and product teams.\n\n- Excellent verbal and written communication skills—you can translate dense regulatory complexity into clear, actionable guidance for non-technical stakeholders.\n\n- Experience or interest in AI tools to automate legal workflows and optimize operations.\n\n- Strong team-player, leadership and collaborative skills.\n\n- Adaptability to fast-changing environments and proven role-specific execution with a strong sense of ownership.\n\nNice to haves\n\n- Direct experience working with or advising a SOFOM ENR or SOFOM ER entity.\n\n- Knowledge of Mexican capital markets regulation, intellectual property, or cybersecurity frameworks applicable to financial institutions.\n\n- Basic proficiency in Portuguese or a desire to learn it.\n\n- Independent analytical skills using spreadsheets, SQL, or Python to evaluate operational metrics.\n\n- A good sense of humor.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5170804007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-25T10:08:41-04:00",
-      "scraped_at": "2026-08-29T09:43:51.104Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:4990506007",
-      "hub": "fintech",
-      "title": "Legal Specialist (Especialista Legal) - Bogotá (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Other",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Bogotá / CUN / Colombia; Bogotá D.C. / DC / Colombia",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nWhat you'll do\n\nWe're looking for a Legal Specialist to be a cornerstone of Clara's Legal team in Colombia. In this senior individual contributor role, you will navigate a complex, evolving regulatory landscape and handle high-stakes legal work with significant autonomy. You will serve as a trusted advisor to leadership and internal teams, owning the day-to-day legal operations of Clara's Colombia entity while ensuring local execution aligns seamlessly with our global standards across LATAM.\n\n-\nParticipate in high-stakes global financial transactions, including major loan facilities and capital markets deals.\n\n-\nStructure and negotiate equity and debt financing rounds alongside venture capital and private equity stakeholders.\n\n-\nOwn Clara's regulatory compliance in Colombia, including financial sector requirements, AML/CFT obligations, and data protection frameworks.\n\n-\nManage communications, filings, and deadlines with regulatory bodies, and lead responses to administrative requests or inquiries.\n\n-\nDraft, review, negotiate, and manage commercial agreements, including client contracts, vendor agreements, NDAs, and strategic partnerships.\n\n-\nLead legal negotiations on product-related matters, partnering closely with Product, Sales, and Finance teams to enable business momentum while protecting Clara's interests.\n\n-\nCollaborate with the Product team on the legal architecture of new financial products, ensuring regulatory risk is addressed at the design phase.\n\n-\nManage and protect Clara’s regional intellectual property portfolio, including trademark registrations and renewals.\n\n-\nMaintain rigorous, up-to-date legal records and documentation across Google Drive, Slack, and internal systems.\n\n-\nIdentify and implement process improvements, leveraging N8N and AI tools to automate contract workflows, simplify research, and scale legal operations efficiently.\n\nWho you are\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves\n\n-\nLaw degree and valid license to practice law in Colombia.\n\n-\nMinimum 5 years of legal experience in corporate, commercial, financial, or fintech law.\n\n-\nDeep understanding of Colombian financial regulation, AML/CFT obligations, and consumer/data protection laws.\n\n-\nProven track record in complex commercial contract negotiation and structuring financial transactions.\n\n-\nExperience in a high-growth fintech or technology environment, acting as a strategic business enabler.\n\n-\nWorking proficiency in English and Spanish.\n\n-\nExperience or interest in AI tools to automate workflows.\n\n-\nExcellent verbal and written communication.\n\n-\nAdaptability to fast-changing environments.\n\n-\nProven role-specific execution and strong ownership.\n\nNice to haves\n\n-\nDirect experience advising regulated financial institutions or payment companies in Colombia.\n\n-\nFamiliarity with regional LATAM legal frameworks or cross-border financial transactions.\n\n-\nBasic proficiency in Portuguese or a desire to learn it.\n\n-\nIndependent analytical skills using spreadsheets, SQL, or Python.\n\n-\nA good sense of humor.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/4990506007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-25T10:01:04-04:00",
-      "scraped_at": "2026-08-29T09:43:51.104Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5165450007",
-      "hub": "fintech",
-      "title": "Data Storytelling & Brand Insights Specialist (Especialista de Data Storytelling & Insights de Marca)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Other",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Bogota / CUN / Colombia; Mexico City / CMX / Mexico; Sao Paulo / SP / Brazil",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nWhat you'll do:\n\nWe're looking for a Data Storytelling & Brand Insights Specialist to bridge the gap between deep analytical thinking and high-impact editorial narrative. In this role, you will be a key driver of Clara’s external communication, transforming complex data points, macroeconomic trends, and fintech metrics into compelling, news-worthy stories that solidify Clara as the leading spend management platform in Latin America. You’ll have access to Clara proprietary data sources and complement it with external data.\n\nYou are someone who is \"chronically online\"—hyper-aware of digital trends, platform algorithms, and shifting market conversations—and you know how to hijack those moments using data as your anchor. Working at the intersection of PR and Social Media, you will collaborate closely with internal PR Specialists, Data Engineering, and regional Growth teams to extract proprietary insights and package them into viral social content, interactive reports, and tier-1 media hooks that position Clara at the center of the conversation.\n\nYour responsibilities will include:\n\n- Data Mining for Content: Mine and analyze datasets (internal transaction trends, market research, and social media metrics) to uncover unique hooks and insights about corporate spending specifically and business/financial trends more generally.\n\n- Data Storytelling & Visualization: Translate complex financial statistics and data patterns into clear, beautiful, and highly engaging visual narratives for LinkedIn, Twitter/X, PR pitches, and whitepapers.\n\n- Trend Hijacking & Social Listening: Monitor the tech and financial landscape daily to spot trending topics and instantly turn them into high-impact, data-backed commentary for Clara’s corporate profiles.\n\n- Internal PR Collaboration: Partner closely with our internal PR Specialists to build data-driven press releases, economic indices, and investigative-style corporate reports that capture the attention of tier-1 business journalists.\n\n- Automation & Efficiency: Utilize advanced automation/AI tools to scrape, clean, and process social media texts, images, and data networks efficiently.\n\n- Content Portfolio Management: Use AI tools to maintain a high standard of visual and textual execution, ensuring all data-driven corporate campaigns balance high financial intellect with modern digital formats.\n\nWho you are:\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- Experience: 3+ years of proven experience in Data Journalism, Corporate Brand Storytelling, PR Insights, or Content Strategy, ideally within a Fintech, SaaS, or tech-forward agency.\n\n- Portfolio: A strong portfolio demonstrating your ability to turn complex data, statistics, or technical concepts into highly engaging, creative, and successful content pieces (articles, visual graphics, or social media campaigns).\n\n- Analytical Skills: Strong ability to explore, clean, and analyze databases (advanced Excel/Google Sheets, SQL, or Python/Pandas) with an investigative, story-driven mindset.\n\n- Chronically Online: Deep understanding of B2B social media ecosystems (especially LinkedIn and Twitter/X), algorithms, tone of voice, and visual design principles.\n\n- Location: Ideally based in the São Paulo (BR) or Mexico City (MX) metropolitan regions, with availability to work from Clara’s local offices in a hybrid model.\n\n- Languages: Advanced/Fluent English is non-negotiable (essential for regional collaboration, global alignments, and cross-border reporting), alongside native/fluent Portuguese or Spanish.\n\nNice to haves:\n\n- Academic background, certifications, or specialized courses in Data Journalism, Data Storytelling, or Applied Statistics (e.g., Master's level frameworks).\n\n- Experience with Data Visualization tools (Tableau, PowerBI, Flourish, or Infogram).\n\n- Familiarity with basic web development languages (HTML, CSS) to design immersive digital narratives.\n\n- Practical experience using advanced AI and Machine Learning tools to streamline data mining and content workflows.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5165450007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-25T09:46:53-04:00",
-      "scraped_at": "2026-08-29T09:43:51.104Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5121966007",
-      "hub": "fintech",
-      "title": "Customer Success Associate - Mexico City (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Entry",
-      "location": "Mexico City / CMX / Mexico",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nWhat you'll do\n\nWe're looking for a Customer Success Associate to join our Mexico team and help build lasting partnerships with Clara’s clients. You’ll manage a portfolio of accounts, ensuring they get the most value from our platform while acting as their trusted advisor. This is a cross-functional role that requires a mix of relationship management, commercial drive, and product insight.\n\nYour mission will be to drive customer retention, identify growth opportunities, and deliver a seamless experience from onboarding through renewal. You’ll collaborate with Sales, Product, and Marketing to advocate for customer needs and contribute to Clara’s long-term success. At Clara, we value owners who take pride in the success of their customers and aren't afraid to dive deep into the data to solve complex problems.\n\nWho you are\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves\n\n-\n2–3 years of experience in Customer Success, Account Management, or Sales.\n\n-\nBackground in fintech, banking, SaaS, or financial services.\n\n-\nProficiency with CRM tools, specifically Hubspot.\n\n-\nExperience or interest in AI tools to automate workflows and improve response times.\n\n-\nWorking proficiency in English and Spanish.\n\n-\nExcellent verbal and written communication skills.\n\n-\nAdaptability to fast-changing environments and a proven track record of execution.\n\n-\nExperience identifying upsell or cross-sell opportunities to drive account expansion.\n\nNice to haves\n\n-\nIndependent analytical skills using spreadsheets or Metabase.\n\n-\nExperience collaborating closely with Sales, Marketing, and Product teams.\n\n-\nFamiliarity with product usage monitoring or customer health scoring.\n\n-\nStrategic thinking and an eye for process improvements.\n\n-\nA good sense of humor.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5121966007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-25T09:34:49-04:00",
-      "scraped_at": "2026-08-29T09:43:51.104Z",
+      "scraped_at": "2026-08-29T10:04:08.609Z",
       "status": "open"
     },
     {
@@ -529,29 +309,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8138520",
       "source": "greenhouse",
       "posted_at": "2026-08-25T06:58:32-04:00",
-      "scraped_at": "2026-08-29T09:43:22.488Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:monzo:8143610",
-      "hub": "fintech",
-      "title": "Executive Assistant - CTO and Engineering Leadership",
-      "company": "Monzo",
-      "company_id": "monzo",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Digital Bank",
-      "level": "Mid",
-      "location": "London",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking.",
-      "description": "🚀 We’re on a mission to make money work for everyone.\n\nWe’re waving goodbye to the complicated and confusing ways of traditional banking.\n\nAfter starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us.\n\nWith our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical moments for our customers!\n\nWe’re not about selling products - we want to solve problems and change lives through Monzo ❤️\n\n📍 London (Hybrid) | 💰£60,000 - £64,000 (based on experience level) + Incentive Awards tied to your performance + Benefits ✨\n\nAt Monzo, our Executive Assistants are much more than traditional administrative support - they are the glue holding everything together!\n\nDue to internal moves, and a growing team, we have two roles available within the Technology area of Monzo.\n\n- Role one: Supporting our CTO, Matej Pfajfar and VP of Product Engineering, Steve Martin.\n\n- Role two: Supporting our VP of Platform Engineering, Tom Leitch and incoming General Manager of Fincrime.\n\n🔴 Both roles will work closely with Engineering and the Technology areas of Monzo, and you will partner with a team of EAs already in Tech, and across Monzo. For these two roles we are only considering candidates working, or who have worked, within Engineering or wider Technology teams and Leaders and who are looking for their next career move.\n\nWe see our EAs as strategic business partners to senior leaders, helping them and their teams operate at their best. You'll be deeply embedded within leadership teams, driving organisational effectiveness, improving communication and helping leaders navigate the complexity that comes with scaling one of the UK's most ambitious Fintechs.\n\nThis is a role for someone who thrives in fast paced environments, enjoys solving problems, loves bringing order to ambiguity and is excited by the opportunity to have a genuine impact on how teams and leaders operate.\n\n‼️ Please note - This is not an entry level role. We are only able to consider candidates with previous Executive Assistant experience supporting senior leaders in Technology and Engineering teams. Our EAs operate as strategic business partners in a fast paced, high growth environment, so we're looking for someone who can hit the ground running from day one.\n\n🔑 You'll play a key role by...\n\nActing as a strategic partner to your leader:\nYou'll develop a deep understanding of your leaders' priorities, challenges and goals, helping them stay focused on the work that matters most. You'll anticipate needs, identify opportunities to improve effectiveness, challenge where appropriate and act as a trusted extension of the leaders you support.\n\nDriving organisational effectiveness:\nYou'll drive leadership team effectiveness by creating structure, improving communication flows, driving accountability and ensuring important initiatives continue to move forward. You'll be comfortable navigating ambiguity and helping others do the same.\n\nManaging time, priorities and focus:\nYou'll own complex calendars and competing priorities, ensuring your leaders spend their time where they can have the greatest impact. You'll proactively challenge, prioritise, make informed trade offs and make recommendations based on a strong understanding of business context.\n\nBuilding strong relationships across Monzo:\n\nYou'll build trusted relationships across the business and become a key point of connection between teams and stakeholders. You'll influence without formal authority to create alignment, remove blockers and ensure information flows effectively.\n\nLeading projects and initiatives:\n\nFrom leadership off-sites and engagement initiatives to process improvements and cross functional projects, you'll lead initiatives from concept through to delivery, ensuring momentum is maintained despite competing priorities and creating positive outcomes for Monzo and our customers.\n\nEnabling decision making:\n\nYou'll help leaders prepare for important meetings, decisions and conversations by ensuring they have the right information, context and insights at the right time.\n\nOperating with judgement and discretion. You'll regularly handle sensitive information and support leaders working in a highly regulated environment. You'll exercise sound judgement, maintain confidentiality and proactively identify potential risks or issues before they arise.\n\nContributing beyond your immediate role:\n\nYou'll be part of a collaborative Executive Assistant team that is constantly looking for ways to improve how we work. Whether that's sharing best practices, mentoring others, exploring new technology or helping evolve the EA function, you'll have opportunities to make an impact beyond your immediate support responsibilities.\n\n🤩 We'd love to hear from you if…\n\n- 🔴 You have experience working as an Executive Assistant for Engineering, or Technology Leaders in a fast paced environment, and can operate as a strategic partner from day one.\nYou have significant experience supporting senior leaders in a fast paced environment.\n\n- You thrive in ambiguity and are comfortable making decisions, solving problems and navigating competing priorities.\n\n- You operate as a trusted partner to leaders, not just an administrator.\n\n- You have excellent judgement, strong communication skills and exceptional attention to detail.\n\n- You build strong relationships and influence effectively across all levels of an organisation.\n\n- You're experienced using Slack, (G Suite), AI and other modern workplace tools, and are comfortable leveraging technology to work efficiently.\n\n- Experience in scale up or similarly fast moving environments is highly desirable.\n\n- You can commit to 2 - 3 days a week in our London office (Shoreditch)\n\n✨ What success looks like in this role:\n\n- Leaders are able to focus on the highest impact work.\n\n- Leadership teams are aligned, engaged and operating effectively.\n\n- Risks, conflicts and challenges are identified early and addressed proactively.\n\n- Teams have clear communication, accountability and momentum.\n\n- Important initiatives continue to move forward despite competing priorities.\n\n- Your leaders see you as a trusted partner who helps them and their teams perform at their best\n\nℹ️ The application journey has 4 key steps\n\n- Short Video call with a Monzo Recruiter\n\n- 30 minutes ‘Role Specific’ Interview\n\n- Behavioural Interview\n\n- 30 minute ‘Chemistry Call’ with the relevant Leader\n\n🙌 What's in it for you\n\n💰 £60,000 - £64,000 base salary ➕ Incentive Awards tied to your performance ➕ Benefits\n📍This role is based in our London office in Shoreditch (very close to Liverpool Street Station)\n⏰ We offer flexible working hours and trust you to work enough hours to do your job well, at times that suit you and your team\n♥️ A collaborative and highly supportive EA team\n💪The chance to have a genuine impact on how Monzo operates and grows\n🌱Opportunity to work alongside some of the most senior leaders at Monzo We are unable to sponsor visas for these roles. Only applicants with Right to Work int he UK will be considered 🙏\n\n⏳ Applications close at 6pm on 3rd September\nℹ️ Please Note: We are unable to sponsor visas for these roles. Only applicants with Right to Work in the UK will be considered 🙏\n\n #CM-1\n\nEqual opportunities for everyone\n\nDiversity and inclusion are a priority for us and we’re making sure we have lots of support for all of our people to grow at Monzo. At Monzo, we’re embracing diversity by fostering an inclusive environment for all people to do the best work of their lives with us. This is integral to our mission of making money work for everyone. You can read more in our blog, 2026 Diversity and Inclusion Report and 2025 Gender Pay Gap Report.\n\nWe’re an equal opportunity employer. All applicants will be considered for employment without attention to age, ethnicity, religion, sex, sexual orientation, gender identity, family or parental status, national origin, or veteran, neurodiversity or disability status.\n\nIf you have a preferred name, please use it to apply. We don't need full or birth names at application stage 😊",
-      "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8143610",
-      "source": "greenhouse",
-      "posted_at": "2026-08-24T09:22:55-04:00",
-      "scraped_at": "2026-08-29T09:43:22.539Z",
+      "scraped_at": "2026-08-29T10:04:21.377Z",
       "status": "open"
     },
     {
@@ -573,7 +331,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-08-24T08:23:58-04:00",
-      "scraped_at": "2026-08-29T09:43:22.488Z",
+      "scraped_at": "2026-08-29T10:04:21.377Z",
       "status": "open"
     },
     {
@@ -595,29 +353,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8105783",
       "source": "greenhouse",
       "posted_at": "2026-08-24T04:19:41-04:00",
-      "scraped_at": "2026-08-29T09:43:22.539Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5165459007",
-      "hub": "fintech",
-      "title": "Data Storytelling & Brand Insights Specialist (Especialista de Data Storytelling & Insights de Marca) - Latam (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Other",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Mexico City / CDMX / Mexico",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ready to accelerate your career? Clara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments.",
-      "description": "Ready to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs - in addition to dozens of angel investors and local family offices.\n\nWe’re building the financial infrastructure that powers high-performing organizations across the region. We invite you to join us if you want to be part of a fast-paced environment that will accelerate your career and support you to do some of the best work of your life alongside a passionate and committed team distributed across the Americas.\n\nWhat you'll do:\n\nWe're looking for a Data Storytelling & Brand Insights Specialist to bridge the gap between deep analytical thinking and high-impact editorial narrative. In this role, you will be a key driver of Clara’s external communication, transforming complex data points, macroeconomic trends, and fintech metrics into compelling, news-worthy stories that solidify Clara as the leading spend management platform in Latin America. You’ll have access to Clara proprietary data sources and complement it with external data.\n\nYou are someone who is \"chronically online\"—hyper-aware of digital trends, platform algorithms, and shifting market conversations—and you know how to hijack those moments using data as your anchor. Working at the intersection of PR and Social Media, you will collaborate closely with internal PR Specialists, Data Engineering, and regional Growth teams to extract proprietary insights and package them into viral social content, interactive reports, and tier-1 media hooks that position Clara at the center of the conversation.\n\nYour responsibilities will include:\n\n- Data Mining for Content: Mine and analyze datasets (internal transaction trends, market research, and social media metrics) to uncover unique hooks and insights about corporate spending specifically and business/financial trends more generally.\n\n- Data Storytelling & Visualization: Translate complex financial statistics and data patterns into clear, beautiful, and highly engaging visual narratives for LinkedIn, Twitter/X, PR pitches, and whitepapers.\n\n- Trend Hijacking & Social Listening: Monitor the tech and financial landscape daily to spot trending topics and instantly turn them into high-impact, data-backed commentary for Clara’s corporate profiles.\n\n- Internal PR Collaboration: Partner closely with our internal PR Specialists to build data-driven press releases, economic indices, and investigative-style corporate reports that capture the attention of tier-1 business journalists.\n\n- Automation & Efficiency: Utilize advanced automation/AI tools to scrape, clean, and process social media texts, images, and data networks efficiently.\n\n- Content Portfolio Management: Use AI tools to maintain a high standard of visual and textual execution, ensuring all data-driven corporate campaigns balance high financial intellect with modern digital formats.\n\nWho you are:\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- Experience: 3+ years of proven experience in Data Journalism, Corporate Brand Storytelling, PR Insights, or Content Strategy, ideally within a Fintech, SaaS, or tech-forward agency.\n\n- Portfolio: A strong portfolio demonstrating your ability to turn complex data, statistics, or technical concepts into highly engaging, creative, and successful content pieces (articles, visual graphics, or social media campaigns).\n\n- Analytical Skills: Strong ability to explore, clean, and analyze databases (advanced Excel/Google Sheets, SQL, or Python/Pandas) with an investigative, story-driven mindset.\n\n- Chronically Online: Deep understanding of B2B social media ecosystems (especially LinkedIn and Twitter/X), algorithms, tone of voice, and visual design principles.\n\n- Location: Ideally based in the São Paulo (BR) or Mexico City (MX) metropolitan regions, with availability to work from Clara’s local offices in a hybrid model.\n\n- Languages: Advanced/Fluent English is non-negotiable (essential for regional collaboration, global alignments, and cross-border reporting), alongside native/fluent Portuguese or Spanish.\n\nNice to haves:\n\n- Academic background, certifications, or specialized courses in Data Journalism, Data Storytelling, or Applied Statistics (e.g., Master's level frameworks).\n\n- Experience with Data Visualization tools (Tableau, PowerBI, Flourish, or Infogram).\n\n- Familiarity with basic web development languages (HTML, CSS) to design immersive digital narratives.\n\n- Practical experience using advanced AI and Machine Learning tools to streamline data mining and content workflows.\n\nWhy join Clara\n\nAt Clara, you’ll have the autonomy, speed, and support to make meaningful impact — not just on your team, but on how organizations are run across Latin America.\n\nWho we are\n\n-\nWe’re the leading B2B fintech for spend management in Latin America.\n\n-\nCertified as one of the world's fastest-growing companies, a Great Place to Work, and a LinkedIn Top Startup.\n\n-\nPassionate about making Latin America more prosperous and competitive.\n\n-\nConstantly innovating to build financial infrastructure that enables each of our customers to thrive.\n\n-\nProduct-led, high-talent-density culture — designed for builders who raise the bar.\n\n-\nProud of our open, inclusive, and values-driven environment.\n\nWhat we believe in\n\n-\n#Clarity. We say things clearly, directly, and proactively.\n\n-\n#Simplicity. We reduce noise to focus on what really matters.\n\n-\n#Ownership. We take responsibility and never wait to be told.\n\n-\n#Pride. We build products and experiences we’re proud of.\n\n-\n#Always Be Changing (ABC). We grow through feedback, risk-taking, and action.\n\n-\n#Inclusivity. Every voice counts. Everyone contributes to our mission.\n\nWhat we offer\n\n-\nCompetitive salary and stock options (ESOP) from day one\n\n-\nMulticultural team with daily exposure to Portuguese, Spanish, and English (our corporate language)\n\n-\nAnnual learning budget and internal accelerated development paths\n\n-\nHigh-ownership environment: we move fast, learn fast, and raise the bar — together\n\n-\nSmart, ambitious teammates — low ego, high impact\n\n-\nFlexible vacation and hybrid work model focused on results\n\nIf you’re ready for growth, ownership, and impact — apply now and help us redefine B2B finance in Latin America.\n\nClara’s Hybrid Policy\n\nClaridians in a hybrid mode split their time between working from the office, talking to or visiting customers, or working from home. This hits a balance between bringing people together for in-person collaboration and learning from each other, while supporting flexibility about how to do this in a way that makes sense for each individual and team.\n\nWe don't enforce a minimum number of days for most roles, but you're expected to spend time at the office organically, and be at the office most days during your ramp-up or when required by your leader.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5165459007",
-      "source": "greenhouse",
-      "posted_at": "2026-08-23T12:48:30-04:00",
-      "scraped_at": "2026-08-29T09:43:51.104Z",
+      "scraped_at": "2026-08-29T10:04:21.415Z",
       "status": "open"
     },
     {
@@ -639,7 +375,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-08-29T09:43:18.945Z",
+      "scraped_at": "2026-08-29T10:04:08.611Z",
       "status": "open"
     },
     {
@@ -661,95 +397,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6138978004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:34:49-04:00",
-      "scraped_at": "2026-08-29T09:43:18.944Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:smartly-io:6132586004",
-      "hub": "saas",
-      "title": "Executive Assistant / Workplace Experience Coordinator",
-      "company": "Smartly.io",
-      "company_id": "smartly-io",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Social Advertising Automation",
-      "level": "Mid",
-      "location": "Mexico City",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "We are looking for an Executive Assistant & Workplace Experience Coordinator to support members of Smartly’s Executive Leadership Team while owning the day-to-day workplace experie…",
-      "description": "We are looking for an Executive Assistant & Workplace Experience Coordinator to support members of Smartly’s Executive Leadership Team while owning the day-to-day workplace experience in our Mexico City office. You will combine thoughtful, proactive executive support with hands-on office coordination, helping our leaders use their time effectively while creating an organized and welcoming environment where our local team can do their best work.\n\nThis is a hybrid role based in Mexico City, with an expectation of working from the office three days per week.\n\nWhat You Will Do\n\n- Support 2–3 members of our Executive Leadership Team, managing complex calendars, travel, meetings, and day-to-day coordination with discretion and attention to detail.\n\n- Anticipate executive needs and priorities, identifying scheduling conflicts, preparing for upcoming commitments, and helping leaders make effective use of their time.\n\n- Coordinate leadership meetings and events, including agendas, materials, action items, leadership offsites, board-related meetings, and company events.\n\n- Build strong relationships across Smartly, working with stakeholders across functions, locations, and time zones to keep communication and coordination moving smoothly.\n\n- Own the day-to-day experience of our Mexico City office, coordinating facilities, vendors, supplies, catering, visitors, and other operational needs.\n\n- Create a welcoming and well-organized workplace, ensuring employees, candidates, partners, and visitors have a consistent and positive experience in the office.\n\n- Plan local office events and employee experiences that create opportunities for connection and collaboration, partnering with our global Workplace Experience team where appropriate.\n\n- Handle sensitive information with discretion, applying sound judgment and professionalism in your work with executives, employees, and external partners.\n\nWhat We Are Looking For\n\n- Strong experience providing administrative or executive support to senior leaders, including managing complex calendars, travel, meetings, and competing priorities.\n\n- Professional fluency in both English and Spanish, with clear written and verbal communication skills in both languages.\n\n- Excellent organization and attention to detail, with the ability to anticipate needs, follow through reliably, and adjust when priorities change.\n\n- A proactive and practical approach to problem-solving, with the judgment to determine what needs immediate attention and what can be handled independently.\n\n- Experience handling confidential or sensitive information with professionalism and discretion.\n\n- Strong relationship-building skills and confidence working with stakeholders at different levels and across multiple locations and time zones.\n\n- A hands-on, service-oriented approach to workplace operations and creating a positive employee and visitor experience.\n\n- Ability to work from our Mexico City office three days per week, with a 9:00 a.m. start to support executive schedules and the daily rhythm of the workplace.\n\nWhat We Offer You\n\nAt Smartly, we offer a place where you can advance your career. Here, you'll find:\n\nAn Inclusive Global Culture: Join a team of over 750 Smartlies, representing more than 60 nationalities across 24 locations in 13 countries. We cultivate a culture built on trust, transparency, and open feedback, where diverse perspectives are valued and encouraged.\n\nGlobal Impact: Contribute to a company making a global impact, directly influencing our customers' success and business growth.\n\nFocus on Wellbeing: We prioritize your health with healthcare packages, mental health services, and a commitment to work-life balance through paid holidays and family leave.\n\nComprehensive Rewards: Benefit from equity options, performance-based rewards, competitive compensation, and career development opportunities.\n\nFlexible Hybrid Workplace: Experience a hybrid work model, balancing office collaboration with remote work, and the option to work abroad for up to 30 days annually.\n\nApply Now and Build Your Future with Smartly!\n\nCurious what it’s like to work at Smartly? Visit our Careers page to see how we grow, collaborate, and make impact together\n\n#LI-HYBRID\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6132586004",
-      "source": "greenhouse",
-      "posted_at": "2026-08-20T12:33:55-04:00",
-      "scraped_at": "2026-08-29T09:43:53.895Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:culture-amp:8129373",
-      "hub": "hr-tech",
-      "title": "Growth Marketing AI Adoption Specialist (6 Month FT Contract)",
-      "company": "Culture Amp",
-      "company_id": "culture-amp",
-      "priority": false,
-      "category": "Other",
-      "segment": "Employee Experience Platform",
-      "level": "Mid",
-      "location": "Chicago",
-      "employment_type": "full-time",
-      "comp_min": 112800,
-      "comp_max": 128900,
-      "summary": "We’re big believers in the power of IRL, so for most roles we ask Campers to work from their local Culture Amp office an average of 2 days a week to unlock connection, pace and cul…",
-      "description": "We’re big believers in the power of IRL, so for most roles we ask Campers to work from their local Culture Amp office an average of 2 days a week to unlock connection, pace and culture together.\n\nJoin us on our mission to make a better world of work.\n\nCulture Amp is the world’s leading employee experience platform, revolutionizing how 25 million employees across more than 6,000 companies create a better world of work. Culture Amp empowers companies of all sizes and industries to transform employee engagement, drive performance management, and develop high-performing teams. Powered by people science and the most comprehensive employee dataset in the world, the most innovative companies including Canva, On, Asana, Dolby, McDonalds and Nasdaq depend on Culture Amp every day.\n\nCulture Amp is backed by leading venture capital funds and has offices in the US, UK, Germany and Australia. Culture Amp has been recognized as one of the world’s top private cloud companies by Forbes and most innovative companies by Fast Company.\n\nFor more information visit cultureamp.com.\n\nThe opportunity\n\nOur Growth Marketing team runs on a wide tech stack, including tools like HubSpot, Salesforce, Qualified, 6sense, Outreach, Sendoso, Splash, and Bevy, and much of the work that moves pipeline still runs through manual, rules-based processes. We're looking for an AI Adoption Contractor to review that stack end-to-end, find where AI can genuinely help the team hit its goals, whether that's automating manual work, supporting our team's judgment, or optimizing outcomes, and then build those improvements directly inside the tools we already run. This is a hands-on, execution-focused engagement: you'll audit, prioritize with the team, and ship, not architect new systems or set company-wide AI policy.\n\nAbout the team\n\nYou'll partner with whoever owns each tool or workflow you're improving, across our Lifecycle Marketing, Demand Generation, SDR, Regional Marketing, and Events teams. You'll work in close alignment with our Marketing Operations team, who own the broader martech architecture and data standards those workflows run on, and collaborate with our centralized Marketing AI team to keep your work aligned with company-wide AI governance standards. You'll report into our Lifecycle & Marketing Operations leadership for the duration of the engagement.\n\nWhat you'll do\n\n- Audit our current tech stack, HubSpot, Salesforce, Qualified, 6sense, Outreach, Sendoso, Splash, Bevy, and other tools in use, to identify where AI can automate manual work, support the team, or improve outcomes.\n\n- Support strategy development and execution for AI-powered marketing motions within tools owned by Lifecycle and Marketing Operations leadership, including Qualified and 6sense AI Email.\n\n- Lead strategy support and in-platform execution for Qualified and 6sense AI Email, including prioritization, workflow implementation, performance measurement, and ongoing optimization.\n\n- Drive AI-powered personalization and conversion workflows across Qualified, 6sense, and adjacent tools including customer vs prospect journey design, and account-based chat experiences prioritizing work based on pipeline impact\n\n- Prioritize opportunities with our team, sized by rough effort and impact.\n\n- Build AI-orchestrated workflow improvements directly inside the tools in scope, partnering with whoever owns each one.\n\n- Work in close alignment with our Marketing Operations team, following the QA checks, guardrails, and fallback logic standards they set for anything shipped to production.\n\n- Collaborate with our centralized Marketing AI team to keep your work aligned with company-wide AI governance standards.\n\n- Document what you build clearly enough that our team can maintain and extend it after the engagement ends.\n\n- Deliver a structured handoff before the engagement concludes.\n\nWhat you'll bring\n\n- 3–5 years of hands-on experience working across marketing and revenue technology tools, building or configuring AI-assisted or automated workflows.\n\n- Working familiarity with a range of growth-marketing tool categories: conversational marketing (such as Qualified), intent and ABM (such as 6sense), sales engagement (such as Outreach), and event or gifting platforms (such as Sendoso, Splash, or Bevy). Deep expertise in every tool isn't required, but comfort learning new ones quickly is.\n\n- A track record of spotting manual, repetitive processes and finding practical ways to automate or improve them with AI.\n\n- Comfort working as an embedded, fixed-term contractor: fast ramp-up, strong documentation habits, and comfort handing off what you build.\n\n- Good judgment about scope, staying focused on execution rather than strategy, architecture, or governance work.\n\n- Strong written communication.\n\n- B2B SaaS growth-marketing experience is a plus.\n\nEngagement details\n\n- Approximately 6 months, full-time contract basis.\n\n- Individual contributor engagement: no people-management responsibilities.\n\n- Flexible, hybrid working in line with our global hub locations.\n\nFor this role, the estimated base salary range is listed below. In addition to base salary, your compensation package will include additional components such as equity and benefits. For sales roles, your package may also include sales commission\n\nThe actual base salary will vary based on various factors, including market and individual skills, capabilities and experience, objectively assessed during the interview process. If you're interviewing for this role, speak with your Talent Acquisition Partner to learn more about the total compensation and benefits for this role.\n\nWe believe in fair & equitable pay at Culture Amp, and therefore, we build pay equity into all our programs in addition to conducting annual pay equity audits.\n\nBase Salary Range (US)\n$112,800—$128,900 USD\n\nPerks & Benefits\n\nAt Culture Amp, our people are at the heart of our success. We offer competitive pay and a total rewards package designed to support you at work and in life. This includes:\n\n- Equity through our Employee Share Option Program, so you can share in our long-term success\n\n- Learning programs and coaching to help you thrive and grow\n\n- Quarterly refresh days, an extended end-of-year break and a monthly allowance to support your wellbeing and lifestyle\n\n- Inclusive parental leave from day one\n\n- A MacBook and budget to set up your home workspace, enabling flexibility\n\n- Five annual social impact days to to give back to causes that matter to you\n\n- Medical insurance coverage for you and your family (Available for US & UK only)\n\nOur rewards are designed to support different needs and life stages, recognising that what matters most can vary from person to person.\n\nResearch shows that candidates from underrepresented backgrounds may hesitate to apply if they don’t meet every requirement, but your unique experience matters. If you’re interested in joining us, we strongly encourage you to apply and help us build a more diverse and impactful team.\n\nAccommodations & Data Privacy\n\nIf you require reasonable accommodations or adjustments due to a disability to complete the online application or to participate in the interview process, please contact accommodations@cultureamp.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.\n\nCulture Amp will retain your CV & personal information for a period of two years (four years for the US) from the date of your application process completion. Culture Amp may contact you in relation to future job opportunities during this time period. For further information please see our privacy policy here or contact privacy@cultureamp.com.",
-      "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8129373",
-      "source": "greenhouse",
-      "posted_at": "2026-08-20T11:40:48-04:00",
-      "scraped_at": "2026-08-29T09:43:22.502Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:culture-amp:8129370",
-      "hub": "hr-tech",
-      "title": "Growth Marketing AI Adoption Specialist (6 Month FT Contract)",
-      "company": "Culture Amp",
-      "company_id": "culture-amp",
-      "priority": false,
-      "category": "Other",
-      "segment": "Employee Experience Platform",
-      "level": "Mid",
-      "location": "San Francisco",
-      "employment_type": "full-time",
-      "comp_min": 112800,
-      "comp_max": 128900,
-      "summary": "We’re big believers in the power of IRL, so for most roles we ask Campers to work from their local Culture Amp office an average of 2 days a week to unlock connection, pace and cul…",
-      "description": "We’re big believers in the power of IRL, so for most roles we ask Campers to work from their local Culture Amp office an average of 2 days a week to unlock connection, pace and culture together.\n\nJoin us on our mission to make a better world of work.\n\nCulture Amp is the world’s leading employee experience platform, revolutionizing how 25 million employees across more than 6,000 companies create a better world of work. Culture Amp empowers companies of all sizes and industries to transform employee engagement, drive performance management, and develop high-performing teams. Powered by people science and the most comprehensive employee dataset in the world, the most innovative companies including Canva, On, Asana, Dolby, McDonalds and Nasdaq depend on Culture Amp every day.\n\nCulture Amp is backed by leading venture capital funds and has offices in the US, UK, Germany and Australia. Culture Amp has been recognized as one of the world’s top private cloud companies by Forbes and most innovative companies by Fast Company.\n\nFor more information visit cultureamp.com.\n\nThe opportunity\n\nOur Growth Marketing team runs on a wide tech stack, including tools like HubSpot, Salesforce, Qualified, 6sense, Outreach, Sendoso, Splash, and Bevy, and much of the work that moves pipeline still runs through manual, rules-based processes. We're looking for an AI Adoption Contractor to review that stack end-to-end, find where AI can genuinely help the team hit its goals, whether that's automating manual work, supporting our team's judgment, or optimizing outcomes, and then build those improvements directly inside the tools we already run. This is a hands-on, execution-focused engagement: you'll audit, prioritize with the team, and ship, not architect new systems or set company-wide AI policy.\n\nAbout the team\n\nYou'll partner with whoever owns each tool or workflow you're improving, across our Lifecycle Marketing, Demand Generation, SDR, Regional Marketing, and Events teams. You'll work in close alignment with our Marketing Operations team, who own the broader martech architecture and data standards those workflows run on, and collaborate with our centralized Marketing AI team to keep your work aligned with company-wide AI governance standards. You'll report into our Lifecycle & Marketing Operations leadership for the duration of the engagement.\n\nWhat you'll do\n\n- Audit our current tech stack, HubSpot, Salesforce, Qualified, 6sense, Outreach, Sendoso, Splash, Bevy, and other tools in use, to identify where AI can automate manual work, support the team, or improve outcomes.\n\n- Support strategy development and execution for AI-powered marketing motions within tools owned by Lifecycle and Marketing Operations leadership, including Qualified and 6sense AI Email.\n\n- Lead strategy support and in-platform execution for Qualified and 6sense AI Email, including prioritization, workflow implementation, performance measurement, and ongoing optimization.\n\n- Drive AI-powered personalization and conversion workflows across Qualified, 6sense, and adjacent tools including customer vs prospect journey design, and account-based chat experiences prioritizing work based on pipeline impact\n\n- Prioritize opportunities with our team, sized by rough effort and impact.\n\n- Build AI-orchestrated workflow improvements directly inside the tools in scope, partnering with whoever owns each one.\n\n- Work in close alignment with our Marketing Operations team, following the QA checks, guardrails, and fallback logic standards they set for anything shipped to production.\n\n- Collaborate with our centralized Marketing AI team to keep your work aligned with company-wide AI governance standards.\n\n- Document what you build clearly enough that our team can maintain and extend it after the engagement ends.\n\n- Deliver a structured handoff before the engagement concludes.\n\nWhat you'll bring\n\n- 3–5 years of hands-on experience working across marketing and revenue technology tools, building or configuring AI-assisted or automated workflows.\n\n- Working familiarity with a range of growth-marketing tool categories: conversational marketing (such as Qualified), intent and ABM (such as 6sense), sales engagement (such as Outreach), and event or gifting platforms (such as Sendoso, Splash, or Bevy). Deep expertise in every tool isn't required, but comfort learning new ones quickly is.\n\n- A track record of spotting manual, repetitive processes and finding practical ways to automate or improve them with AI.\n\n- Comfort working as an embedded, fixed-term contractor: fast ramp-up, strong documentation habits, and comfort handing off what you build.\n\n- Good judgment about scope, staying focused on execution rather than strategy, architecture, or governance work.\n\n- Strong written communication.\n\n- B2B SaaS growth-marketing experience is a plus.\n\nEngagement details\n\n- Approximately 6 months, full-time contract basis.\n\n- Individual contributor engagement: no people-management responsibilities.\n\n- Flexible, hybrid working in line with our global hub locations.\n\nFor this role, the estimated base salary range is listed below. In addition to base salary, your compensation package will include additional components such as equity and benefits. For sales roles, your package may also include sales commission\n\nThe actual base salary will vary based on various factors, including market and individual skills, capabilities and experience, objectively assessed during the interview process. If you're interviewing for this role, speak with your Talent Acquisition Partner to learn more about the total compensation and benefits for this role.\n\nWe believe in fair & equitable pay at Culture Amp, and therefore, we build pay equity into all our programs in addition to conducting annual pay equity audits.\n\nBase Salary Range (US)\n$112,800—$128,900 USD\n\nPerks & Benefits\n\nAt Culture Amp, our people are at the heart of our success. We offer competitive pay and a total rewards package designed to support you at work and in life. This includes:\n\n- Equity through our Employee Share Option Program, so you can share in our long-term success\n\n- Learning programs and coaching to help you thrive and grow\n\n- Quarterly refresh days, an extended end-of-year break and a monthly allowance to support your wellbeing and lifestyle\n\n- Inclusive parental leave from day one\n\n- A MacBook and budget to set up your home workspace, enabling flexibility\n\n- Five annual social impact days to to give back to causes that matter to you\n\n- Medical insurance coverage for you and your family (Available for US & UK only)\n\nOur rewards are designed to support different needs and life stages, recognising that what matters most can vary from person to person.\n\nResearch shows that candidates from underrepresented backgrounds may hesitate to apply if they don’t meet every requirement, but your unique experience matters. If you’re interested in joining us, we strongly encourage you to apply and help us build a more diverse and impactful team.\n\nAccommodations & Data Privacy\n\nIf you require reasonable accommodations or adjustments due to a disability to complete the online application or to participate in the interview process, please contact accommodations@cultureamp.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.\n\nCulture Amp will retain your CV & personal information for a period of two years (four years for the US) from the date of your application process completion. Culture Amp may contact you in relation to future job opportunities during this time period. For further information please see our privacy policy here or contact privacy@cultureamp.com.",
-      "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8129370",
-      "source": "greenhouse",
-      "posted_at": "2026-08-20T11:40:39-04:00",
-      "scraped_at": "2026-08-29T09:43:22.503Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:intercom:7366132",
-      "hub": "saas",
-      "title": "Technical Support Specialist",
-      "company": "Intercom",
-      "company_id": "intercom",
-      "priority": false,
-      "category": "Other",
-      "segment": "Customer Messaging Platform",
-      "level": "Mid",
-      "location": "Chicago, Illinois",
-      "employment_type": "full-time",
-      "comp_min": 62000,
-      "comp_max": 74000,
-      "summary": "Fin is the AI Customer Agent company on a mission to help businesses provide perfect customer experiences.",
-      "description": "Fin is the AI Customer Agent company on a mission to help businesses provide perfect customer experiences.\n\nOur AI Agent Fin is the highest-performing AI Customer Agent on the market today, enabling businesses to deliver impeccable, always-on customer support across the customer journey – from service, to sales, to ecommerce. Powered by our own AI models, Fin resolves complex customer issues end-to-end across every channel, with minimal set-up and integration. Fin can also be combined with our natively integrated Intercom help desk for one single system that is designed to meet the needs of modern day support teams.\n\nFounded in 2011, Fin became one of the fastest growing companies and remains one of the largest private software companies in the world with nearly 30,000 global businesses using our products to transform their customer support. Driven by our core values, we push boundaries, build with speed and intensity, and relentlessly deliver incredible value to our customers.\n\nWhat's the opportunity?\n\nWith the advent of AI, the nature of customer support has changed dramatically - as have the humans who provide it. Our next Technical Support Specialist will be someone who thrives in autonomy, is deeply curious, fluent in AI tools and holds an extremely high bar not just for themselves, but for their teammates.\n\nAs a Technical Support Specialist, you'll own complex technical queries around some of our most nuanced features, serve as a point of escalation for your colleagues for the most tricky investigations, consistently provide world class customer support, collaborate with our customers proactively to help them make the most of our platform and help drive improvements in product, processes, and peer development. You'll use AI tools alongside your own expertise to handle complex cases efficiently and play a role in shaping a culture of continuous improvement. We ship product updates consistently, so if constant learning excites and energises you, this environment will suit you well!\n\nIf this is the kind of role that excites you, then we want you as our next Technical Support Specialist.\n\nWhat will I be doing?\n\n- Communicating efficiently and effectively with our customers - we use our own product to do most of our support, but outbound phone calls are part of our offering too.\n\n- Owning customer communications and issues from initial contact until resolution.\n\n- Becoming an encyclopedia of knowledge about how Fin works and what it is capable of.\n\n- Being the one responsible, along with the Support team, to ensure that all customers have a great experience with the product - a crucial part of the role is ensuring we make the product as easy to use, reliable, bug-free, and fast as possible.\n\n- Working directly with product teams to identify current issues and, synthesizing the diverse feedback you hear from our customers, offer informed opinions on potential solutions.\n\n- Debugging complex issues with an understanding of both our own codebase and the many technologies employed by our customers.\n\n- Utilizing inherited and learned technical knowledge to build tools that will help increase the efficiency and effectiveness of the team and its processes.\n\n- Influencing the direction of the Fin product through daily communication with our customers and consistent collaboration with our product teams.\n\nWhat your first 6 months will look like:\n\nIn your first 30 days you will:\n\n- Complete company onboarding, becoming familiar with Fin's values, strategy, and goals.\n\n- Dive into CS-specific trainings to learn the product and CS workflows and successfully pass relevant assessments.\n\n- Start talking to customers in the inbox and build “inboxing” fundamentals through Paired Inboxing sessions.\n\n- Showcase successful and proactive communication about your training progress and needs/questions that arise.\n\nIn your first 60 days, you will:\n\n- Continue to complete CS trainings and pass relevant assessments successfully and on schedule.\n\n- Independently inbox using the resources and supports provided; be able to identify Problems to be Solved and address all pieces of the customer’s query.\n\n- Demonstrate ownership in the execution of your work.\n\n- Showcase successful and proactive communication, building on above - begin a habit of having items prepared for 1:1 discussion and driving the agenda.\n\nIn your first 90 days, you will:\n\n- Receive QA reviews and action feedback.\n\n- Begin a personal growth tracker document (or Individual Development Plan) with your manager for ongoing development and showcase a proactive approach to personal and career development.\n\n- Contribute outside of the inbox via sharing suggestions and ideas for how we can improve.\n\n- Successfully meet KPI targets and/or goals.\n\n- Demonstrate Fin's Values in your work and alignment with the company vision and strategy.\n\nWhat skills do I need?\n\n- 3-4+ years of technical support experience, ideally within a software/SaaS environment.\n\n- Solid understanding of tech fundamentals & modern day tools (Slack, Chrome, Coda, etc.)\n\n- A basic understanding of APIs and webhooks, navigating developer documentation to know what is and isn’t possible with Fin's REST API.\n\n- Strong customer focus (excels at & enjoys helping customers)\n\n- Strong communication skills (ability to question, clarify, empathize, use appropriate tone & language, personable)\n\n- Strong problem solving skills (ability to think critically and learn on-the-fly)\n\n- Ability to troubleshoot and utilize resources to answer questions on baseline topics\n\n- Ability to take on & action feedback, as well as deliver feedback consistently and at a high quality to peers, managers and cross-functional partners.\n\n- Excitement for a support environment that has fully embraced AI solutions as the next step towards providing world-class customer support.\n\n- Demonstrated success working with Key Performance Indicators (KPIs) or other metrics/quotas.\n\nBonus skills & attributes\n\n- Experience using Fin, or similar SaaS platforms.\n\n- Experience as Tier 2 or similar level of support.\n\n- Experience in coaching & mentoring teammates.\n\n- Experience in helping customers make the most of their current subscriptions.\n\n- Experience in using AI tools (Glean, ChatGPT, Gemini etc.) to troubleshoot customer issues.\n\nYou’ll Thrive Here If You:\n\n- Are passionate about leveraging AI to enhance support experiences and drive team performance.\n\n- See support as an exciting opportunity to solve daily customer related puzzles.\n\n- Like finding ways to work smarter, not just harder.\n\n- Are hungry to learn, iterate, and help build something great.\n\n- Are excited by ownership, accountability and feedback—you don’t just do the work, you shape how it’s done, and are ok with sharing both constructive feedback & kudos about it.\n\n*Proof of eligibility to work in the United States is required.\n\nThe base salary range for candidates within the Greater Chicago Area is $62,000 - $74,000. Actual base pay will depend on a variety of factors such as education, skills, experience, location, etc. The base pay range is subject to change and may be modified in the future. All regular employees may also be eligible for the corporate bonus program or a sales incentive (target included in OTE) as well as stock in the form of Restricted Stock Units (RSUs).\nAt Fin, we want to give people what they need to do the best work of their careers. Our benefits and programs are designed to support your health and wellbeing, your family, your time away from work, and your financial future. Offerings vary by location in line with local practices and requirements.\n\nLearn more about working at Fin and the benefits we offer at fin.ai/careers.\n\nPolicies\n\nFin has a hybrid working policy. We believe that working in person helps us stay connected, collaborate easier and create a great culture while still providing flexibility to work from home. We expect employees to be in the office at least three days per week.\n\nWe have a radically open and accepting culture at Fin. We avoid spending time on divisive subjects to foster a safe and cohesive work environment for everyone. As an organization, our policy is to not advocate on behalf of the company or our employees on any social or political topics out of our internal or external communications. We respect personal opinion and expression on these topics on personal social platforms on personal time, and do not challenge or confront anyone for their views on non-work related topics. Our goal is to focus on doing incredible work to achieve our goals and unite the company through our core values.\n\nFin values diversity and is committed to a policy of Equal Employment Opportunity. Fin will not discriminate against an applicant or employee on the basis of race, color, religion, creed, national origin, ancestry, sex, gender, age, physical or mental disability, veteran or military status, genetic information, sexual orientation, gender identity, gender expression, marital status, or any other legally recognized protected basis under federal, state, or local law.",
-      "apply_url": "https://job-boards.greenhouse.io/intercom/jobs/7366132",
-      "source": "greenhouse",
-      "posted_at": "2026-08-20T05:37:05-04:00",
-      "scraped_at": "2026-08-29T09:43:25.997Z",
+      "scraped_at": "2026-08-29T10:04:08.611Z",
       "status": "open"
     },
     {
@@ -793,7 +441,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
       "source": "greenhouse",
       "posted_at": "2026-08-19T08:40:20-04:00",
-      "scraped_at": "2026-08-29T09:43:22.539Z",
+      "scraped_at": "2026-08-29T10:04:21.415Z",
       "status": "open"
     },
     {
@@ -815,7 +463,7 @@
       "apply_url": "https://job-boards.greenhouse.io/eve/jobs/4341655009",
       "source": "greenhouse",
       "posted_at": "2026-08-18T19:42:23-04:00",
-      "scraped_at": "2026-08-29T09:43:22.473Z",
+      "scraped_at": "2026-08-29T10:04:21.336Z",
       "status": "open"
     },
     {
@@ -903,7 +551,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8082783",
       "source": "greenhouse",
       "posted_at": "2026-08-12T01:18:05-04:00",
-      "scraped_at": "2026-08-29T09:43:22.503Z",
+      "scraped_at": "2026-08-29T10:04:21.323Z",
       "status": "open"
     },
     {
@@ -925,7 +573,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521806002",
       "source": "greenhouse",
       "posted_at": "2026-08-07T11:40:30-04:00",
-      "scraped_at": "2026-08-29T09:43:39.552Z",
+      "scraped_at": "2026-08-29T10:04:28.736Z",
       "status": "open"
     },
     {
@@ -947,7 +595,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-08-29T09:43:39.122Z",
+      "scraped_at": "2026-08-29T10:04:28.211Z",
       "status": "open"
     },
     {
@@ -969,7 +617,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/88d09213-d4fe-4c85-92ce-954901559d92",
       "source": "lever",
       "posted_at": "2026-08-04T14:32:11.323Z",
-      "scraped_at": "2026-08-29T09:43:39.122Z",
+      "scraped_at": "2026-08-29T10:04:28.211Z",
       "status": "open"
     },
     {
@@ -991,7 +639,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126662004",
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:54:15-04:00",
-      "scraped_at": "2026-08-29T09:43:53.895Z",
+      "scraped_at": "2026-08-29T10:04:32.436Z",
       "status": "open"
     },
     {
@@ -1013,29 +661,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:smartly-io:5645328004",
-      "hub": "saas",
-      "title": "Creative Onboarding Specialist",
-      "company": "Smartly.io",
-      "company_id": "smartly-io",
-      "priority": false,
-      "category": "Other",
-      "segment": "Social Advertising Automation",
-      "level": "Mid",
-      "location": "Philippines",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Are you passionate about helping designers elevate their creative workflows through advanced tooling? Do you enjoy empowering creative teams to adopt new technologies and drive mea…",
-      "description": "Are you passionate about helping designers elevate their creative workflows through advanced tooling? Do you enjoy empowering creative teams to adopt new technologies and drive meaningful impact in their day-to-day work?\n\nAs the Creative Onboarding Specialist at Smartly, you will enable designers to get the most value out of Smartly’s Creative Suite by delivering expert training, supporting strategic customer conversations, and ensuring seamless integration with industry-standard design tools. You will play a key role in driving product adoption, customer satisfaction, and long-term retention by equipping creative teams with the skills and knowledge to succeed.\n\nAs the Creative Onboarding Specialist at Smartly, you will…\n\n- Act as the main subject matter expert on Smartly’s Creative Suite and creative tooling, supporting Customer Success, Sales, and Product with advanced creative guidance.\n\n- Partner closely with Customer Success to support pitches, demos, and exploratory creative conversations focused on advanced capabilities and workflows.\n\n- Build and deliver training programs, workshops, and best practice sessions for new and experienced designers using Smartly’s tools.\n\n- Conduct expert-level live demos (virtual and in-person) to help designers integrate Smartly with Adobe Creative Cloud, Figma, After Effects, and other industry-standard tools.\n\n- Collaborate with teams across Customer Success, Sales, and Product to identify common creative pain points, upskilling needs, and opportunities to improve user adoption.\n\n- Develop documentation, guides, tutorials, and templates to support ongoing creative education and self-serve learning.\n\n- Measure the effectiveness of training and enablement programs using adoption, retention, and customer feedback metrics, and iterate based on insights.\n\n- Stay current with design trends, creative software, AI in creative, and evolving advertising best practices to ensure Smartly’s creative training is modern and relevant.\n\nWe are looking for you, if you…\n\n- Have at least 4 years of hands-on experience as a designer, with strong expertise in digital advertising, graphic design, UI/UX, illustration, or motion design.\n\n- Are highly proficient in Adobe Photoshop, Illustrator, Figma, After Effects, and familiar with HTML5 and other creative tools.\n\n- Have proven experience delivering creative or technical training to advanced learners.\n\n- Can clearly communicate and demo complex creative concepts to experienced designers.\n\n- Understand creative workflows end-to-end, especially within digital advertising and campaign production.\n\n- Are empathetic, customer-focused, and comfortable driving designer-to-designer conversations.\n\n- Can manage multiple projects independently in a fast-paced environment.\n\n- Have experience with LMS platforms or content creation tools (a plus).\n\n- Hold a degree in Graphic Design, UI/UX, or a related field—or equivalent experience.\n\n#LI-CD1 #LI-HYBRID\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5645328004",
-      "source": "greenhouse",
-      "posted_at": "2026-07-21T09:26:06-04:00",
-      "scraped_at": "2026-08-29T09:43:53.895Z",
+      "scraped_at": "2026-08-29T10:04:28.211Z",
       "status": "open"
     },
     {
@@ -1057,7 +683,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4cc16c3e-f07c-435a-9f16-f162400ee703",
       "source": "lever",
       "posted_at": "2026-07-21T08:48:59.916Z",
-      "scraped_at": "2026-08-29T09:43:39.122Z",
+      "scraped_at": "2026-08-29T10:04:28.211Z",
       "status": "open"
     },
     {
@@ -1079,7 +705,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
       "source": "greenhouse",
       "posted_at": "2026-07-21T03:06:30-04:00",
-      "scraped_at": "2026-08-29T09:43:53.895Z",
+      "scraped_at": "2026-08-29T10:04:32.436Z",
       "status": "open"
     },
     {
@@ -1101,29 +727,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8545100002",
       "source": "greenhouse",
       "posted_at": "2026-07-16T07:52:07-04:00",
-      "scraped_at": "2026-08-29T09:43:39.552Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:smartly-io:6114705004",
-      "hub": "saas",
-      "title": "Executive Assistant",
-      "company": "Smartly.io",
-      "company_id": "smartly-io",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Social Advertising Automation",
-      "level": "Mid",
-      "location": "New York, New York, United States",
-      "employment_type": "full-time",
-      "comp_min": 28000,
-      "comp_max": 45000,
-      "summary": "Smartly is looking for an Executive Assistant to join our fast growing team! In this role you will support the SVP, Ecosystems Partnerships & AI Applications, the SVP, Customer Suc…",
-      "description": "Smartly is looking for an Executive Assistant to join our fast growing team! In this role you will support the SVP, Ecosystems Partnerships & AI Applications, the SVP, Customer Success and the broader US commercial teams. You’ll own administrative tasks, calendar management, and event coordination.\n\nSuccessful candidates must be sociable, have excellent problem solving skills and an entrepreneurial spirit. Attention to detail and strong communication skills are essential! You should also be comfortable handling highly confidential information, juggling scheduling across multiple time zones, and thrive in a fast-paced environment. This is a great opportunity to grow your career in our global organization!\n\nWe are seeking a highly organized person who knows how to “get the job done.” You should have a passion for helping others succeed and be able to juggle and prioritize multiple tasks simultaneously. We are looking for someone to take ownership, optimize their impact, and maximize learning.\n\nThis is a hybrid position with the expectation that you will be in the office 2-3 days a week.\n\nThe nature of the work may require some after hours and weekend support\n\nAs an Executive Assistant at Smartly.io you will…\n\n- Support our SVP, Ecosystems Partnerships & AI Applications, the SVP, Customer Success and the broader US commercial teams\n\n- Work closely with our NYC, Chicago and Helsinki Executive Assistants\n\n- Actively manage/own the executives’ calendar including arranging and prioritizing meetings\n\n- Coordinate the executives’ travel, help to plan customer visits and other events including owning all expense collection and submission\n\n- Collaborate cross-functionally to improve existing business operations\n\n- Represent the Smartly.io brand in all interactions\n\nWe are looking for you if you have…\n\n- Experience in a similar role with a high-growth, fast paced company supporting a senior level executive\n\n- Worked in a start-up environment (a focus on Social or Ad-tech is a plus)\n\n- Ability to multitask and prioritize and meet deadlines in a fast-moving environment\n\n- Strong verbal, written and interpersonal communication skills\n\n- Project Management skills and experience\n\n- Independent and well structured working style with can-do attitude\n\n- Ability to learn fast learning and determination to achieve goals\n\n- Google Workspace and Microsoft Office skills\n\n- Bachelor's Degree preferred\n\nWhat We Offer You...\n\n- Five weeks paid time off (PTO), 11 company paid holidays, unlimited sick days\n\n- Generous healthcare packages & mental health benefits\n\n- 401K plus matching & equity grants for all new Smartlies\n\n- Wellness benefit & learning reimbursement opportunities\n\n- Volunteer time off days & company donation matching opportunities\n\n- And so much more…\n\nThe base pay range for this position is as mentioned. We take into consideration an individual’s background, expertise, and experience in determining final salary. This information is provided in accordance with applicable law. Base pay information is based on market location. Salary in USD : $28 to $45 USD per hour\n\n#LI-HYBRID\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6114705004",
-      "source": "greenhouse",
-      "posted_at": "2026-07-13T12:28:21-04:00",
-      "scraped_at": "2026-08-29T09:43:53.895Z",
+      "scraped_at": "2026-08-29T10:04:28.736Z",
       "status": "open"
     },
     {
@@ -1145,7 +749,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/2c549930-f851-4077-9fef-8f4291ee7649",
       "source": "lever",
       "posted_at": "2026-07-07T12:09:13.992Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.210Z",
       "status": "open"
     },
     {
@@ -1167,7 +771,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.210Z",
       "status": "open"
     },
     {
@@ -1189,29 +793,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-06-23T11:59:32-04:00",
-      "scraped_at": "2026-08-29T09:43:53.895Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:smartly-io:5728537004",
-      "hub": "saas",
-      "title": "Solutions Specialist",
-      "company": "Smartly.io",
-      "company_id": "smartly-io",
-      "priority": false,
-      "category": "Other",
-      "segment": "Social Advertising Automation",
-      "level": "Mid",
-      "location": "Manila",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "About the Role We are looking for a Solutions Specialist who will focus primarily on building, automating, and maintaining solutions within the Smartly platform and Google Apps Scr…",
-      "description": "About the Role\n\nWe are looking for a Solutions Specialist who will focus primarily on building, automating, and maintaining solutions within the Smartly platform and Google Apps Script environment. This role is ideal for someone with strong technical curiosity, solid scripting fundamentals, and the ability to quickly learn digital marketing concepts. You’ll partner closely with internal teams and clients to translate business requirements into scalable, efficient workflows.\n\nThis is a hands-on technical role where you will create custom automations, troubleshoot complex issues, and guide clients on how best to leverage Smartly’s capabilities. Prior AdTech experience is beneficial but not required—what matters most is your learning agility, problem-solving ability, and comfort working with APIs, scripts, and data.\n\nAs a Solutions Specialist at Smartly, you will …\n\nClient & Internal Collaboration\n\n- Work closely with internal teams and client stakeholders to deeply understand business or workflow requirements.\n\n- Translate those needs into technical specifications, scripts, automations, or Smartly platform configurations.\n\n- Explain technical concepts clearly to non-technical audiences.\n\nSolution Development & Automation\n\n- Build, test, and maintain Smartly workflows, templates, rules, and custom automations.\n\n- Develop and optimize Google Apps Script solutions to support data processing, validation, reporting, and operational automation.\n\n- Research and design bespoke solutions using APIs and scripting to solve specific customer use cases.\n\nTroubleshooting & Quality Assurance\n\n- Diagnose and resolve issues across scripts, APIs, and Smartly workflows—even when information is incomplete.\n\n- Perform thorough QA and testing to ensure reliability, performance, and error handling.\n\n- Monitor and maintain long-term stability of custom implementations.\n\nIntegration & Platform Support\n\n- Support client integrations with advertising platforms such as Meta, Google Ads, YouTube, DV360, and Campaign Manager 360.\n\n- Identify bugs or platform issues and deliver clear documentation and reproduction steps for Engineering teams.\n\nInternal Contribution\n\n- Improve internal tools, documentation, and best practices for scalable solution development.\n\n- Contribute to shared knowledge across the team by identifying opportunities to automate or streamline processes.\n\nWe're definitely looking for you, if you have...\n\nTechnical Skills\n\n- Proficiency in JavaScript and Google Apps Script.\n\n- Comfortable working with APIs, JSON structures, and data workflows.\n\n- Experience with HTML5 and CSS.\n\n- Familiarity with Git, AWS, or Google Cloud Platform (GCP) is beneficial.\n\nLearning & Problem-Solving\n\n- Ability to quickly learn marketing concepts such as campaign structure, optimization strategies, and attribution models.\n\n- Strong analytical and debugging skills, especially when working with automation or API-driven systems.\n\n- Structured problem solver with a logical, methodical approach.\n\nCommunication & Collaboration\n\n- Strong verbal and written communication skills in English.\n\n- Capable of simplifying technical ideas for non-technical partners.\n\n- Collaborative mindset with comfort working asynchronously across regions.\n\nAdditional Requirements\n\n- Willingness to work flexible hours to support global time zones.\n\n- Curious, self-driven, and proactive in identifying opportunities to improve workflow efficiency.\n\n#LI-HYBRID\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5728537004",
-      "source": "greenhouse",
-      "posted_at": "2026-06-23T11:59:31-04:00",
-      "scraped_at": "2026-08-29T09:43:53.895Z",
+      "scraped_at": "2026-08-29T10:04:32.436Z",
       "status": "open"
     },
     {
@@ -1233,7 +815,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.210Z",
       "status": "open"
     },
     {
@@ -1255,7 +837,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/221e6a7a-4e02-4dd4-83d7-babe5361f21a",
       "source": "lever",
       "posted_at": "2026-06-12T10:36:34.244Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.210Z",
       "status": "open"
     },
     {
@@ -1277,7 +859,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-08-29T09:43:39.122Z",
+      "scraped_at": "2026-08-29T10:04:28.211Z",
       "status": "open"
     },
     {
@@ -1299,7 +881,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.210Z",
       "status": "open"
     },
     {
@@ -1321,7 +903,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.210Z",
       "status": "open"
     },
     {
@@ -1343,7 +925,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-08-29T09:43:39.122Z",
+      "scraped_at": "2026-08-29T10:04:28.211Z",
       "status": "open"
     },
     {
@@ -1365,7 +947,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.210Z",
       "status": "open"
     },
     {
@@ -1387,7 +969,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.211Z",
       "status": "open"
     },
     {
@@ -1409,7 +991,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-08-29T09:43:39.121Z",
+      "scraped_at": "2026-08-29T10:04:28.210Z",
       "status": "open"
     },
     {
@@ -1431,7 +1013,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-08-29T09:43:25.101Z",
+      "scraped_at": "2026-08-29T10:04:24.904Z",
       "status": "open"
     },
     {
@@ -1453,7 +1035,7 @@
       "apply_url": "https://jobs.lever.co/webfx/a8e8ff2a-a53f-4770-b2ea-b3df91d4d175",
       "source": "lever",
       "posted_at": "2020-03-11T18:25:55.023Z",
-      "scraped_at": "2026-08-29T09:43:55.281Z",
+      "scraped_at": "2026-08-29T10:04:34.663Z",
       "status": "open"
     },
     {
@@ -1475,7 +1057,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:19.076Z",
+      "scraped_at": "2026-08-29T10:04:08.675Z",
       "status": "open"
     },
     {
@@ -1497,7 +1079,7 @@
       "apply_url": "https://www.filevine.com/jobs/7a5a1cfa-bd48-4731-8b14-f4f22747dd7f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:22.060Z",
+      "scraped_at": "2026-08-29T10:04:20.819Z",
       "status": "open"
     },
     {
@@ -1519,7 +1101,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:22.060Z",
+      "scraped_at": "2026-08-29T10:04:20.819Z",
       "status": "open"
     },
     {
@@ -1541,7 +1123,7 @@
       "apply_url": "https://www.filevine.com/jobs/05224546-e164-419e-b0f2-b42e6bf61212/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:22.060Z",
+      "scraped_at": "2026-08-29T10:04:20.819Z",
       "status": "open"
     },
     {
@@ -1563,7 +1145,7 @@
       "apply_url": "https://www.filevine.com/jobs/4f3c925a-e780-417b-acad-65b1d49c0735/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:22.060Z",
+      "scraped_at": "2026-08-29T10:04:20.819Z",
       "status": "open"
     },
     {
@@ -1585,7 +1167,7 @@
       "apply_url": "https://www.filevine.com/jobs/ba34f952-d53e-4ef2-86cf-381cfe88671f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:22.060Z",
+      "scraped_at": "2026-08-29T10:04:20.819Z",
       "status": "open"
     },
     {
@@ -1607,7 +1189,7 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:22.060Z",
+      "scraped_at": "2026-08-29T10:04:20.819Z",
       "status": "open"
     },
     {
@@ -1629,7 +1211,7 @@
       "apply_url": "https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-3088",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:23.677Z",
+      "scraped_at": "2026-08-29T10:04:22.786Z",
       "status": "open"
     },
     {
@@ -1651,7 +1233,7 @@
       "apply_url": "https://supercell.com/en/careers/senior-qa-specialist/be3451d8-7ff6-4130-bbea-880d565051a1/?source=Supercell.com",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:43:51.116Z",
+      "scraped_at": "2026-08-29T10:04:30.960Z",
       "status": "open"
     }
   ]
