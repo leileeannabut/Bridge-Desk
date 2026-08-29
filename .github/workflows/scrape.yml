@@ -26,7 +26,7 @@ on:
         options: [both, business, legal]
         default: both
       detect:
-        description: 'Re-detect ATS for companies with no scrape method'
+        description: 'Re-detect ATS (always runs on the daily schedule anyway; this only affects manual runs)'
         type: boolean
         default: false
 
@@ -56,8 +56,14 @@ jobs:
       # No install step: run.js and scripts/detect-ats.js use only built-in
       # Node APIs (fetch, fs, URL). Nothing to install, nothing to break.
 
+      # On the daily cron, always resolve ATS methods first — a company with
+      # method: null gets silently skipped by the scrape step below, so
+      # skipping this on schedule is exactly how the feed stayed empty.
+      # A manual run still respects the checkbox, so you can opt out of
+      # re-probing every company's careers page when you just want a quick
+      # scrape against the methods already resolved.
       - name: Detect ATS for new companies
-        if: inputs.detect
+        if: github.event_name == 'schedule' || inputs.detect
         run: node scripts/detect-ats.js
 
       # A single pass over every company when no hub is chosen. run.js merges
