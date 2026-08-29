@@ -92,6 +92,7 @@ button.small.primary{background:var(--sky-deep);border-color:var(--sky-deep);col
       <div class="tab" data-tab="employers" onclick="switchTab('employers')">Employers <span class="count" id="count-employers">–</span></div>
       <div class="tab" data-tab="matches" onclick="switchTab('matches')">Matches <span class="count" id="count-matches">–</span></div>
       <div class="tab" data-tab="jobs" onclick="switchTab('jobs')">Jobs <span class="count" id="count-jobs">–</span></div>
+      <div class="tab" data-tab="testimonials" onclick="switchTab('testimonials')">Testimonials <span class="count" id="count-testimonials">–</span></div>
     </div>
 
     <!-- APPLICATIONS -->
@@ -163,6 +164,22 @@ button.small.primary{background:var(--sky-deep);border-color:var(--sky-deep);col
       </div>
       <div id="jobs-table"></div>
     </div>
+
+    <!-- TESTIMONIALS -->
+    <div class="panel" id="panel-testimonials">
+      <p class="note">Submitted via the site's "Share Your Experience" form. Only "approved" or "featured" testimonials appear publicly on the Success Stories section — "featured" ones show first. Improvement feedback is never shown publicly, only here.</p>
+      <div class="toolbar">
+        <select id="testimonials-status-filter" onchange="loadTestimonialsAdmin()">
+          <option value="">All statuses</option>
+          <option value="pending">Pending</option>
+          <option value="approved">Approved</option>
+          <option value="featured">Featured</option>
+          <option value="rejected">Rejected</option>
+        </select>
+        <button class="refresh" onclick="loadTestimonialsAdmin()">Refresh</button>
+      </div>
+      <div id="testimonials-table"></div>
+    </div>
   </main>
 </div>
 
@@ -208,10 +225,11 @@ function switchTab(name){
   if (name === 'employers') loadEmployers();
   if (name === 'matches') loadMatches();
   if (name === 'jobs') loadJobs();
+  if (name === 'testimonials') loadTestimonialsAdmin();
 }
 
 function loadAll(){
-  loadApplications(); loadPool(); loadEmployers(); loadMatches(); loadJobs();
+  loadApplications(); loadPool(); loadEmployers(); loadMatches(); loadJobs(); loadTestimonialsAdmin();
 }
 
 /* ---------- APPLICATIONS ---------- */
@@ -394,6 +412,37 @@ function renderJobsTable(){
       <td>${fmtDate(j.posted_at || j.scraped_at)}</td>
       <td>${j.apply_url ? `<a class="small" href="${esc(j.apply_url)}" target="_blank" rel="noopener">View Original Posting</a>` : '—'}</td>
     </tr>`).join('')}</tbody></table>`;
+}
+
+/* ---------- TESTIMONIALS ---------- */
+async function loadTestimonialsAdmin(){
+  const status = document.getElementById('testimonials-status-filter').value;
+  const url = '/api/admin/testimonials' + (status ? '?status=' + encodeURIComponent(status) : '');
+  const res = await fetch(url, { headers: authHeaders() });
+  const data = await res.json();
+  const rows = data.testimonials || [];
+  document.getElementById('count-testimonials').textContent = rows.length;
+  const el = document.getElementById('testimonials-table');
+  if (!rows.length) { el.innerHTML = '<div class="empty">No testimonials yet.</div>'; return; }
+  el.innerHTML = `<table><thead><tr>
+    <th>From</th><th>Rating</th><th>Testimonial</th><th>Improvement feedback (internal)</th><th>Status</th><th>Received</th>
+  </tr></thead><tbody>${rows.map(t => `
+    <tr>
+      <td><strong>${esc(t.name)}</strong>${t.email ? `<br><span class="mono">${esc(t.email)}</span>` : ''}<br>${esc(t.company_or_title) || (t.role ? esc(t.role === 'employer' ? 'Employer' : 'Candidate') : '—')}</td>
+      <td><span class="mono">${'★'.repeat(t.rating || 0)}${'☆'.repeat(5 - (t.rating || 0))}</span></td>
+      <td>${t.quote ? esc(t.quote) : '<span style="color:var(--ink-dim)">—</span>'}</td>
+      <td style="color:var(--ink-dim)">${t.improvement_feedback ? esc(t.improvement_feedback) : '—'}</td>
+      <td>
+        <select class="status-select" onchange="setTestimonialStatus('${esc(t.ref)}', this.value)">
+          ${['pending','approved','featured','rejected'].map(s =>
+            `<option value="${s}" ${t.status === s ? 'selected' : ''}>${s}</option>`).join('')}
+        </select>
+      </td>
+      <td>${fmtDate(t.created_at)}</td>
+    </tr>`).join('')}</tbody></table>`;
+}
+async function setTestimonialStatus(ref, status){
+  await fetch('/api/admin/testimonials', { method:'POST', headers: authHeaders(), body: JSON.stringify({ ref, status }) });
 }
 
 document.getElementById('login-key').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
