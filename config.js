@@ -240,9 +240,9 @@ export const COMPANIES = [
   },
   {
     id: "clio", name: "Clio", hub: "legal",
-    careersUrl: "https://www.clio.com/about/careers/", website: "https://www.clio.com",
+    careersUrl: "https://clio.wd3.myworkdayjobs.com/ClioCareerSite", website: "https://www.clio.com",
     state: "Remote (US)", segment: "Legal Practice Management SaaS",
-    verified: false, method: null, atsSlug: null, active: true,
+    verified: true, method: "workday", atsSlug: "clio.wd3.myworkdayjobs.com", atsSite: "ClioCareerSite", active: true,
   },
   {
     id: "spotdraft", name: "SpotDraft", hub: "legal",
@@ -594,6 +594,40 @@ export const COMPANIES = [
   { id: "gogox", name: "GoGoX", hub: "business", careersUrl: "https://www.gogox.com/en/careers/", website: "https://www.gogox.com", segment: "On-Demand Logistics", country: "Hong Kong", verified: false, method: null, atsSlug: null, active: true },
 
   // ---------------------------------------------------------------------------
+  // Dedicated VA / EA / PA / Legal VA staffing & outsourcing agencies. These
+  // companies' entire business is placing assistants with clients, so a
+  // single agency's careers page posts far more VA/EA/PA roles per month
+  // than a typical venture-backed startup that hires one EA a year. Missing
+  // this category was a real gap — added deliberately, not just to pad
+  // count. Same rule as everywhere else here: unverified starter list,
+  // method: null until detect-ats.js confirms it.
+  // ---------------------------------------------------------------------------
+  { id: "athena", name: "Athena", hub: "business", careersUrl: "https://athenago.wd108.myworkdayjobs.com/en-US/athena", website: "https://www.athena.com", segment: "Executive Assistant Staffing & Training", country: "Philippines", verified: true, method: "workday", atsSlug: "athenago.wd108.myworkdayjobs.com", atsSite: "athena", active: true },
+  { id: "boldly", name: "Boldly", hub: "business", careersUrl: "https://www.boldly.com/careers/", website: "https://www.boldly.com", segment: "Premium Virtual Staffing (EA/VA/Marketing)", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "belay", name: "BELAY", hub: "business", careersUrl: "https://belaysolutions.com/careers/", website: "https://belaysolutions.com", segment: "Virtual Assistant / Bookkeeping / Social Media Staffing", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "time-etc", name: "Time etc", hub: "business", careersUrl: "https://web.timeetc.com/careers/", website: "https://www.timeetc.com", segment: "Virtual Assistant Staffing", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
+  { id: "wing-assistant", name: "Wing Assistant", hub: "business", careersUrl: "https://www.wingassistant.com/careers", website: "https://www.wingassistant.com", segment: "Virtual Assistant Staffing", country: "United States", verified: false, method: "lever", atsSlug: "wing", active: true },
+  { id: "prialto", name: "Prialto", hub: "business", careersUrl: "https://www.prialto.com/careers", website: "https://www.prialto.com", segment: "Managed Virtual Assistant Teams", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "myoutdesk", name: "MyOutDesk", hub: "business", careersUrl: "https://www.myoutdesk.com/careers/", website: "https://www.myoutdesk.com", segment: "Virtual Assistant Staffing (Real Estate focus)", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "worldwide101", name: "Worldwide101", hub: "business", careersUrl: "https://www.worldwide101.com/careers", website: "https://www.worldwide101.com", segment: "Remote Executive & Marketing Assistant Staffing", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "virtudesk", name: "Virtudesk", hub: "business", careersUrl: "https://www.virtudesk.com/careers/", website: "https://www.virtudesk.com", segment: "Virtual Assistant Staffing", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "20four7va", name: "20Four7VA", hub: "business", careersUrl: "https://20four7va.com/careers/", website: "https://20four7va.com", segment: "Virtual Assistant Staffing", country: "Philippines", verified: false, method: null, atsSlug: null, active: true },
+  { id: "stealth-agents", name: "Stealth Agents", hub: "business", careersUrl: "https://stealthagents.com/careers/", website: "https://stealthagents.com", segment: "Virtual Assistant Staffing", country: "Philippines", verified: false, method: null, atsSlug: null, active: true },
+  { id: "wishup", name: "Wishup", hub: "business", careersUrl: "https://wishup.co/careers/", website: "https://wishup.co", segment: "Virtual Assistant Staffing", country: "India", verified: false, method: null, atsSlug: null, active: true },
+  { id: "uassist-me", name: "Uassist.ME", hub: "business", careersUrl: "https://uassistme.com/careers/", website: "https://uassistme.com", segment: "Bilingual Virtual Assistant Staffing", country: "El Salvador", verified: false, method: null, atsSlug: null, active: true },
+  { id: "cyberbacker", name: "Cyberbacker", hub: "business", careersUrl: "https://cyberbacker.com/careers/", website: "https://cyberbacker.com", segment: "Virtual Assistant Staffing (Real Estate focus)", country: "Philippines", verified: false, method: null, atsSlug: null, active: true },
+  { id: "great-assistant", name: "Great Assistant", hub: "business", careersUrl: "https://www.greatassistant.com/careers", website: "https://www.greatassistant.com", segment: "Executive Assistant Placement Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "assistantly", name: "Assistantly", hub: "business", careersUrl: "https://www.assistantly.com/careers", website: "https://www.assistantly.com", segment: "Virtual Assistant Staffing", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "fancy-hands", name: "Fancy Hands", hub: "business", careersUrl: "https://www.fancyhands.com/jobs", website: "https://www.fancyhands.com", segment: "On-Demand Virtual Assistant Tasking", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+
+  // Legal VA / paralegal-specific staffing (distinct from the legal-tech
+  // software companies in the Legal Support hub above — these agencies place
+  // remote paralegals and legal assistants directly with law firms).
+  { id: "posh-virtual-receptionists", name: "Posh Virtual Receptionists", hub: "legal", careersUrl: "https://posh.com/careers/", website: "https://posh.com", segment: "Virtual Receptionist & Legal Intake Staffing", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "paralegal-bootcamp-staffing", name: "Robert Half Legal", hub: "legal", careersUrl: "https://www.roberthalf.com/us/en/careers", website: "https://www.roberthalf.com", segment: "Legal Staffing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "hire-an-esquire", name: "Hire an Esquire", hub: "legal", careersUrl: "https://www.hireanesquire.com/careers", website: "https://www.hireanesquire.com", segment: "Legal Talent Marketplace", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+
+  // ---------------------------------------------------------------------------
   // Beyond venture-backed "startups" — agencies, DTC e-commerce brands, real
   // estate, education, telehealth, media, and large scale-ups. These are the
   // kinds of businesses that hire the bulk of real-world Filipino VA/EA work,
@@ -645,4 +679,3 @@ export const COMPANIES = [
   { id: "trip-com", name: "Trip.com", hub: "business", careersUrl: "https://careers.trip.com/", website: "https://www.trip.com", segment: "Online Travel Agency", country: "China", verified: false, method: null, atsSlug: null, active: true },
   { id: "agoda", name: "Agoda", hub: "business", careersUrl: "https://careersatagoda.com/", website: "https://www.agoda.com", segment: "Online Travel Agency", country: "Thailand", verified: false, method: null, atsSlug: null, active: true },
 ];
-
