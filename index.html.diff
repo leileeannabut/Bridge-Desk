@@ -1,262 +1,676 @@
---- b/site/index.html	2026-08-26 18:13:41.000000000 +0000
-+++ out/site/index.html	2026-08-26 19:53:47.657958476 +0000
-@@ -3,16 +3,16 @@
- <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--<title>BridgeDesk — Remote VA, EA &amp; Legal Assistant roles at US startups</title>
--<meta name="description" content="Remote Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant roles at US startups — scraped straight from their own career pages, scored for how open they read to a Philippines-based hire." />
-+<title>BridgeDesk — Remote VA, EA &amp; Legal Assistant roles at startups worldwide</title>
-+<meta name="description" content="Remote Virtual Assistant, Executive Assistant, Personal Assistant and Legal Assistant roles at startups worldwide — scraped straight from their own career pages, rated for how open each one reads to hiring across borders." />
- <link rel="canonical" href="https://bridgedesk.co/" />
- <meta name="robots" content="index, follow" />
- <meta name="theme-color" content="#FAF6ED" />
- 
- <meta property="og:type" content="website" />
- <meta property="og:site_name" content="BridgeDesk" />
--<meta property="og:title" content="BridgeDesk — the bridge between US teams and Filipino talent" />
--<meta property="og:description" content="Remote VA / EA / PA / Legal Assistant roles at US startups, scored for how open each one reads to a Philippines-based hire." />
-+<meta property="og:title" content="BridgeDesk — connecting global teams and global talent" />
-+<meta property="og:description" content="Remote VA / EA / PA / Legal Assistant roles at startups worldwide, rated for how open each one reads to hiring across borders." />
- <meta property="og:url" content="https://bridgedesk.co/" />
- <meta property="og:image" content="https://bridgedesk.co/og.svg" />
- <meta property="og:image:width" content="1200" />
-@@ -26,12 +26,12 @@
- 
- <style>
- /* ==========================================================================
--   BridgeDesk — job board for Filipino VA/EA/PA/Legal Assistant candidates
--   at US startups. Static site, no build step, no framework.
-+   BridgeDesk — job board for VA/EA/PA/Legal Assistant candidates worldwide,
-+   working for startups worldwide. Static site, no build step, no framework.
- 
--   Signature element: the "Bridge Clock" in the hero — a live two-city time
--   strip (US Eastern, Manila) that makes the whole pitch of the site visible
--   in one glance, before a single word of copy is read.
-+   Signature element: the "Bridge Clock" in the hero — a live five-city time
-+   strip (US, UK, Canada, LatAm, Australia) that makes the whole pitch of the
-+   site visible in one glance, before a single word of copy is read.
-    ========================================================================== */
- :root{
-   --paper:#FAF6ED; --paper-soft:#F1ECDF; --card:#FFFFFF;
-@@ -294,6 +294,7 @@
- }
- .social-row a:hover{color:var(--sage-deep);border-color:var(--sage-deep);background:var(--sage-tint)}
- .social-row svg{width:16px;height:16px;fill:currentColor}
-+.pill .pill-n{opacity:.6;font-size:11px;margin-left:2px}
- 
- /* ---------- drawer ---------- */
- .scrim{
-@@ -456,9 +457,9 @@
- 
-   <div class="wrap split">
-     <div class="split-card employers" id="employers">
--      <div class="eyebrow">For US employers</div>
-+      <div class="eyebrow">For Employers Worldwide</div>
-       <h3>Hire a remote EA or VA without running the search yourself</h3>
--      <p>We pre-screen Filipino candidates against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. Introductions are made under a fee agreement, so there's no cost until a hire happens.</p>
-+      <p>We pre-screen candidates worldwide against your specific posting — background, tools, timezone overlap — and only send you people worth a first call. There's no cost until you actually decide to hire.</p>
-       <a class="btn gold" href="mailto:Bridgedesk@gmail.com?subject=Posting%20an%20open%20position">Post an Open Position</a>
-     </div>
-     <div class="split-card team" id="team">
-@@ -470,16 +471,16 @@
-       <a class="btn" type="button" id="team-cta-btn">Tell Us Who You're Building</a>
-     </div>
-     <div class="split-card vas" id="candidates">
--      <div class="eyebrow">For Filipino VAs &amp; EAs</div>
--      <h3>Apply to real openings at real US startups</h3>
-+      <div class="eyebrow">For VAs &amp; EAs Worldwide</div>
-+      <h3>Apply to real openings at real startups worldwide</h3>
-       <p>Every listing below comes straight from a company's own career page — not a repost. Apply directly through BridgeDesk and get an AI-reviewed read on how your background matches the role before you send it.</p>
-       <a class="btn" href="#board">Browse Open Roles ↓</a>
-     </div>
-     <div class="split-card training" id="training">
-       <span class="soon-tag">Coming Soon</span>
--      <div class="eyebrow">For Filipino VAs &amp; EAs</div>
-+      <div class="eyebrow">For VAs &amp; EAs Worldwide</div>
-       <h3>Training — get role-ready before you apply</h3>
--      <p>A structured path for tools, async communication and client-handling skills that US employers look for. Not live yet — check back, or sign up for the pool below to hear when it opens.</p>
-+      <p>A structured path for tools, async communication and client-handling skills that employers worldwide look for. Not live yet — check back, or sign up for the pool below to hear when it opens.</p>
-       <button class="btn" type="button" disabled>Coming Soon</button>
-     </div>
-   </div>
-@@ -514,7 +515,8 @@
-         </div>
-       </div>
-       <div class="pill-row" id="cat-pills" role="group" aria-label="Filter by role"></div>
--      <div class="pill-row" id="ph-pills" role="group" aria-label="Filter by PH signal" style="margin-top:8px"></div>
-+      <div class="pill-row" id="ph-pills" role="group" aria-label="Filter by rubric rating" style="margin-top:8px"></div>
-+      <div class="pill-row" id="region-pills" role="group" aria-label="Filter by region" style="margin-top:8px" hidden></div>
-       <p class="result-count" id="count"></p>
- 
-       <div class="grid" id="grid"></div>
-@@ -524,11 +526,11 @@
-   <section class="detail">
-     <div class="wrap detail-grid">
-       <div>
--        <div class="eyebrow">How the PH signal works</div>
--        <h2>We score every posting, we don't filter it</h2>
--        <p>Most US companies never say "open to the Philippines" outright — so instead of hiding roles that are silent on it, every listing gets a score from what its own language suggests:</p>
-+        <div class="eyebrow">How the rubric works</div>
-+        <h2>We rate every posting, we don't filter it</h2>
-+        <p>Most companies never say "open to hiring across borders" outright — so instead of hiding roles that are silent on it, every listing gets a rating from what its own language suggests:</p>
-         <ul class="rubric-list">
--          <li><span class="rubric-tier t3">3</span><p><b>Strong —</b> explicitly mentions the Philippines, international contractors, or hiring "anywhere in the world."</p></li>
-+          <li><span class="rubric-tier t3">3</span><p><b>Strong —</b> explicitly mentions international contractors, a specific country or region, or hiring "anywhere in the world."</p></li>
-           <li><span class="rubric-tier t2">2</span><p><b>Medium —</b> "remote-first," "fully distributed," or contractor-friendly language.</p></li>
-           <li><span class="rubric-tier t1">1</span><p><b>Weak —</b> just says "remote" or "flexible hours," with no further detail either way.</p></li>
-           <li><span class="rubric-tier t0">0</span><p><b>None —</b> the posting is silent — worth a pitch, just not a confirmed yes.</p></li>
-@@ -560,9 +562,9 @@
-     <div class="wrap about-wrap">
-       <div class="eyebrow">About us</div>
-       <h2 style="margin-bottom:14px">Why BridgeDesk exists</h2>
--      <p>Great Philippine support talent knows no borders—most traditional platforms simply aren't built to reveal that to fast-scaling US startups. BridgeDesk was built to erase that boundary. We go straight to the primary source, evaluating US career listings with intelligent precision, rating each role against a clear PH-hiring compatibility index, and engineering high-confidence matches rather than sending resumes into a black hole.</p>
--      <p>We are not a traditional staffing agency recycling old job boards, nor are we a static resume repository. BridgeDesk is an intelligent matching ecosystem where every opening stems directly from a US company's native career page, every profile is scored against real-world operational readiness, and every introduction is driven by intentional curation. We ask for a single, one-time payment on both sides — employer and candidate — only when a successful hire is made—making the entire discovery process completely frictionless for US companies and Filipino professionals alike.</p>
--      <p>We pioneered this framework across Virtual, Executive, Personal, and Legal Assistant roles because that is where the disconnect between "remote-friendly" and true openness to Philippines-based hiring is greatest—and where the right connection fundamentally transforms a career, an operation, and an enterprise.</p>
-+      <p>Great support talent knows no borders—most traditional platforms simply aren't built to reveal that to fast-scaling companies. BridgeDesk was built to erase that boundary. We go straight to the primary source, evaluating career listings worldwide with intelligent precision, rating each role against a clear international-hiring compatibility index, and engineering high-confidence matches rather than sending resumes into a black hole.</p>
-+      <p>We are not a traditional staffing agency recycling old job boards, nor are we a static resume repository. BridgeDesk is an intelligent matching ecosystem where every opening stems directly from a company's native career page, every profile is scored against real-world operational readiness, and every introduction is driven by intentional curation. We ask for a single, one-time payment on both sides — employer and candidate — only when a successful hire is made—making the entire discovery process completely frictionless for companies and professionals alike, worldwide.</p>
-+      <p>We pioneered this framework across Virtual, Executive, Personal, and Legal Assistant roles because that is where the disconnect between "remote-friendly" and true global hiring is greatest—and where the right connection fundamentally transforms a career, an operation, and an enterprise.</p>
-     </div>
-   </section>
- 
-@@ -621,9 +623,9 @@
-    FAQ accordion
-    ========================================================================== */
- const FAQS = [
--  { q: "Who is BridgeDesk for?", a: "US companies hiring Virtual, Executive, Personal, or Legal Assistant support, and Filipino candidates looking for real, direct roles with those companies — not repostings or a resume database." },
-+  { q: "Who is BridgeDesk for?", a: "Companies anywhere hiring Virtual, Executive, Personal, or Legal Assistant support, and candidates anywhere looking for real, direct roles with those companies — not repostings or a resume database." },
-   { q: "Is BridgeDesk free to use?", a: "Browsing roles, applying, submitting a hiring request, and joining the pool all cost nothing upfront. We ask for a one-time payment on both sides — employer and candidate — only once a match actually leads to a hire." },
--  { q: "How does the rubric rating work?", a: "Every listing is rated 0–3 based on how openly its own language reads to a Philippines-based hire — from an explicit mention of the Philippines or contractor-friendly hiring (3) down to no mention either way (0). A low rating doesn't mean don't apply; it just means the posting is silent." },
-+  { q: "How does the rubric rating work?", a: "Every listing is rated 0–3 based on how openly its own language reads to hiring across borders — from an explicit mention of international or contractor-friendly hiring (3) down to no mention either way (0). A low rating doesn't mean don't apply; it just means the posting is silent." },
-   { q: "Where do the job listings come from?", a: "Straight from each company's own careers page — not a staffing agency repost. The board refreshes daily." },
-   { q: "What happens after I apply?", a: "Your application gets an AI-assisted read against that specific posting. Strong matches are forwarded to the employer as a curated introduction, and you'll hear back either way." },
-   { q: "Can I hire more than one role at once?", a: "Yes — the Hire a Team option lets you submit your roles, skills, and budget once, and BridgeDesk builds and manages a fully matched multi-role team for you." },
-@@ -665,8 +667,14 @@
-   { id: 'confirmed', label: 'Rubric 3' },
- ];
- 
-+const REGION_ORDER = ['United States', 'Canada', 'United Kingdom & Ireland', 'Europe', 'Asia-Pacific', 'Latin America', 'Middle East & Africa', 'Remote / Global', 'Remote / Unspecified'];
-+
- let JOBS = [];
--let filters = { q: '', cat: 'All', ph: 'all' };
-+let filters = { q: '', cat: 'All', ph: 'all', region: 'All' };
-+
-+// The feed writes `intl_signal`; older feeds only had `ph_signal`. Same 0–3 scale.
-+const sig = (j) => (j.intl_signal ?? j.ph_signal ?? 0);
-+const regionOfJob = (j) => j.region || 'Remote / Unspecified';
- 
- async function loadJobs() {
-   try {
-@@ -697,16 +705,34 @@
-   phWrap.querySelectorAll('.pill').forEach((btn) =>
-     btn.addEventListener('click', () => { filters.ph = btn.dataset.ph; renderPills(); render(); })
-   );
-+
-+  // Region pills are built from what's actually in the feed, in a fixed order,
-+  // so an empty region never shows as a dead filter.
-+  const regWrap = $('region-pills');
-+  if (regWrap) {
-+    const counts = {};
-+    JOBS.forEach((j) => { counts[regionOfJob(j)] = (counts[regionOfJob(j)] || 0) + 1; });
-+    const present = REGION_ORDER.filter((r) => counts[r]);
-+    Object.keys(counts).filter((r) => !REGION_ORDER.includes(r)).forEach((r) => present.push(r));
-+    regWrap.hidden = present.length < 2;
-+    regWrap.innerHTML = ['All', ...present].map((r) =>
-+      `<button type="button" class="pill ${filters.region === r ? 'is-on' : ''}" data-region="${esc(r)}">${esc(r === 'All' ? 'All regions' : r)}${r !== 'All' ? ` <span class="pill-n">${counts[r]}</span>` : ''}</button>`
-+    ).join('');
-+    regWrap.querySelectorAll('.pill').forEach((btn) =>
-+      btn.addEventListener('click', () => { filters.region = btn.dataset.region; renderPills(); render(); })
-+    );
-+  }
- }
- 
- function visibleJobs() {
-   const q = filters.q.trim().toLowerCase();
-   return JOBS.filter((j) => {
-     if (filters.cat !== 'All' && j.category !== filters.cat) return false;
--    if (filters.ph === 'strong' && (j.ph_signal || 0) < 2) return false;
--    if (filters.ph === 'confirmed' && (j.ph_signal || 0) < 3) return false;
-+    if (filters.ph === 'strong' && sig(j) < 2) return false;
-+    if (filters.ph === 'confirmed' && sig(j) < 3) return false;
-+    if (filters.region !== 'All' && regionOfJob(j) !== filters.region) return false;
-     if (q) {
--      const hay = `${j.title} ${j.company} ${j.location}`.toLowerCase();
-+      const hay = `${j.title} ${j.company} ${j.location} ${j.country || ''} ${regionOfJob(j)}`.toLowerCase();
-       if (!hay.includes(q)) return false;
-     }
-     return true;
-@@ -728,13 +754,15 @@
-   const list = visibleJobs();
-   const total = JOBS.length;
-   $('stats-line').textContent = total
--    ? `${total} open role${total === 1 ? '' : 's'} across ${new Set(JOBS.map((j) => j.company)).size} startups.`
--    : 'No roles in the feed yet.';
-+    ? `${total} open role${total === 1 ? '' : 's'} across ${new Set(JOBS.map((j) => j.company)).size} startups in ${new Set(JOBS.map(regionOfJob)).size} region${new Set(JOBS.map(regionOfJob)).size === 1 ? '' : 's'}.`
-+    : 'No assistant roles are open across our tracked companies right now — the board refreshes daily, and you can join the pool below to be matched as soon as one opens.';
-   $('count').textContent = `${list.length} of ${total} roles`;
- 
-   const grid = $('grid');
-   if (!list.length) {
--    grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1"><h4>No roles match that filter</h4><p>Try clearing the search or picking a different category.</p></div>`;
-+    grid.innerHTML = total
-+      ? `<div class="empty-state" style="grid-column:1/-1"><h4>No roles match that filter</h4><p>Try clearing the search or picking a different category or region.</p></div>`
-+      : `<div class="empty-state" style="grid-column:1/-1"><h4>Nothing open today</h4><p>Every company we track answered, but none has an assistant-family role open right now. Check back tomorrow, or <a href="#pool">join the pool</a> so we can match you the moment one appears.</p></div>`;
-     return;
-   }
- 
-@@ -745,13 +773,13 @@
-     <article class="job-card" data-id="${esc(j.id)}">
-       <div class="row-top">
-         <span class="chip ${catClass}">${esc(j.category)}</span>
--        ${phBadge(j.ph_signal)}
-+        ${phBadge(sig(j))}
-       </div>
-       <div>
-         <h3>${esc(j.title)}</h3>
-         <div class="company">${esc(j.company)}</div>
-       </div>
--      <div class="meta"><span>${esc(j.location)}</span>${j.level ? `<span>· ${esc(j.level)}</span>` : ''}</div>
-+      <div class="meta"><span>${esc(j.location)}</span>${j.country && !j.location.toLowerCase().includes(j.country.toLowerCase()) ? `<span>· ${esc(j.country)}</span>` : ''}${j.level ? `<span>· ${esc(j.level)}</span>` : ''}</div>
-       <p class="summary">${esc(j.summary)}</p>
-       ${comp ? `<div class="comp">${esc(comp)}</div>` : ''}
-     </article>`;
-@@ -789,8 +817,8 @@
- 
- function phNote(n) {
-   n = n || 0;
--  if (n >= 2) return `<div class="ph-note">This posting's own language reads as open to hiring in the Philippines (rubric ${n}/3) — a good one to apply to directly.</div>`;
--  if (n === 1) return `<div class="ph-note low">This posting just says "remote" with no further detail (rubric 1/3). Worth applying — BridgeDesk pitches the case for hiring in the Philippines as part of every introduction.</div>`;
-+  if (n >= 2) return `<div class="ph-note">This posting's own language reads as open to hiring across borders (rubric ${n}/3) — a good one to apply to directly.</div>`;
-+  if (n === 1) return `<div class="ph-note low">This posting just says "remote" with no further detail (rubric 1/3). Worth applying — BridgeDesk pitches the case for hiring internationally as part of every introduction.</div>`;
-   return `<div class="ph-note low">This posting doesn't mention remote/international hiring either way (rubric 0/3). Still worth applying — the fit gets made in the introduction, not the job ad.</div>`;
- }
- 
-@@ -800,8 +828,8 @@
-     <span class="chip cat-${esc(String(job.category).replace(/\s+/g,'-'))}">${esc(job.category)}</span>
-     <h2 style="margin-top:12px">${esc(job.title)}</h2>
-     <div class="drawer-company">${esc(job.company)} · ${esc(job.location)}</div>
--    <div class="drawer-meta">${phBadge(job.ph_signal)}${compLine(job) ? `<span class="chip" style="background:var(--tan-tint);color:var(--tan-deep)">${esc(compLine(job))}</span>` : ''}</div>
--    ${phNote(job.ph_signal)}
-+    <div class="drawer-meta">${phBadge(sig(job))}${job.region ? `<span class="chip" style="background:var(--sage-tint);color:var(--sage-deep)">${esc(job.region)}</span>` : ''}${compLine(job) ? `<span class="chip" style="background:var(--tan-tint);color:var(--tan-deep)">${esc(compLine(job))}</span>` : ''}</div>
-+    ${phNote(sig(job))}
-     <p class="desc">${esc(job.description || job.summary)}</p>
-     <div class="drawer-foot">
-       <button type="button" class="btn primary block" id="apply-btn">Apply Through BridgeDesk</button>
-@@ -1139,7 +1167,7 @@
-             <option>Full-time</option><option>Part-time</option><option>Either</option>
-           </select>
-         </div>
--        <div class="f" data-for="p-tz"><label>Timezone overlap</label><input id="p-tz" placeholder="e.g. US Eastern mornings" /></div>
-+        <div class="f" data-for="p-tz"><label>Timezone overlap</label><input id="p-tz" placeholder="e.g. US Eastern mornings, UK afternoons" /></div>
-       </div>
-       <div class="f-row" style="grid-template-columns:1fr 1fr 1fr">
-         <div class="f" data-for="p-rmin"><label>Rate min <span class="opt">(optional)</span></label><input id="p-rmin" type="number" min="0" /></div>
-@@ -1219,7 +1247,7 @@
-     <div class="f" data-for="e-skills"><label>Must-have skills <span class="opt">(comma-separated)</span></label><input id="e-skills" /></div>
-     <div class="f-row">
-       <div class="f" data-for="e-teamsize"><label>How many assistants are you hiring?</label><input id="e-teamsize" type="number" min="1" value="1" /></div>
--      <div class="f" data-for="e-tz"><label>Timezone needs</label><input id="e-tz" placeholder="e.g. overlap with US Pacific mornings" /></div>
-+      <div class="f" data-for="e-tz"><label>Timezone needs</label><input id="e-tz" placeholder="e.g. overlap with London mornings" /></div>
-     </div>
-     <div class="f-row" style="grid-template-columns:1fr 1fr 1fr">
-       <div class="f" data-for="e-bmin"><label>Budget min <span class="opt">(optional)</span></label><input id="e-bmin" type="number" min="0" /></div>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BridgeDesk — Connecting US Startups with Global Virtual, Executive, Personal &amp; Legal Assistants</title>
+<meta name="description" content="BridgeDesk connects US startups with skilled Virtual, Executive, Personal, and Legal Assistants from around the world. Post a role, hire a team, or join our talent pool.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" href="favicon.png">
+<meta property="og:title" content="BridgeDesk — Connecting US Startups with Global Talent">
+<meta property="og:description" content="Post a role, hire a team, or join our talent pool of Virtual, Executive, Personal, and Legal Assistants from around the world.">
+<meta property="og:image" content="og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#FAF6EF; --cream-deep:#F2EBDD; --paper:#FFFFFF;
+  --tan:#C7A587; --tan-deep:#A6825F;
+  --sky:#7FB2C9; --sky-deep:#4F8DA6;
+  --sage:#8FBC94; --sage-deep:#5E9A69;
+  --gold:#E8B84B; --gold-deep:#C99A2E;
+  --ink:#3E362C; --ink-soft:#6B6153; --ink-dim:#948A7A;
+  --line:rgba(62,54,44,.12);
+  --shadow: 0 8px 30px rgba(62,54,44,.08);
+  --head:'Fraunces',serif; --body:'Inter',sans-serif;
+  --radius:16px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0; background:var(--cream); color:var(--ink);
+  font-family:var(--body); line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family:var(--head); font-weight:600; line-height:1.15; margin:0 0 .4em;}
+p{margin:0 0 1em;}
+a{color:inherit;}
+img,svg{display:block;}
+.wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
+.badge{
+  display:inline-flex; align-items:center; gap:6px; font-size:12.5px; font-weight:600;
+  letter-spacing:.02em; text-transform:uppercase; padding:5px 12px; border-radius:999px;
+  background:var(--cream-deep); color:var(--ink-soft); border:1px solid var(--line);
+}
+
+/* ---------- header ---------- */
+header{
+  position:sticky; top:0; z-index:40; background:rgba(250,246,239,.9); backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.nav{display:flex; align-items:center; justify-content:space-between; padding:16px 0;}
+.brand{display:flex; align-items:center; gap:10px; font-family:var(--head); font-weight:600; font-size:20px;}
+.brand small{display:block; font-family:var(--body); font-weight:500; font-size:11.5px; color:var(--ink-dim); text-transform:none;}
+.nav-links{display:flex; align-items:center; gap:28px; font-size:14.5px; font-weight:500;}
+.nav-links a{text-decoration:none; color:var(--ink-soft);}
+.nav-links a:hover{color:var(--ink);}
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  border:none; cursor:pointer; font-family:var(--body); font-weight:600; font-size:14.5px;
+  padding:12px 22px; border-radius:12px; text-decoration:none; transition:transform .15s ease, box-shadow .15s ease;
+}
+.btn:hover{transform:translateY(-1px);}
+.btn-primary{background:var(--sky-deep); color:#fff; box-shadow:0 6px 18px rgba(79,141,166,.35);}
+.btn-primary:hover{box-shadow:0 10px 22px rgba(79,141,166,.4);}
+.btn-secondary{background:var(--sage-deep); color:#fff; box-shadow:0 6px 18px rgba(94,154,105,.3);}
+.btn-ghost{background:var(--paper); color:var(--ink); border:1px solid var(--line);}
+.btn-gold{background:var(--gold-deep); color:#fff; box-shadow:0 6px 18px rgba(201,154,46,.35);}
+.btn-sm{padding:9px 16px; font-size:13.5px; border-radius:10px;}
+.btn[disabled]{opacity:.55; cursor:not-allowed; transform:none !important;}
+
+/* ---------- hero ---------- */
+.hero{padding:72px 0 56px; text-align:center;}
+.hero h1{font-size:clamp(32px,5vw,52px); max-width:820px; margin:0 auto .5em;}
+.hero .lede{max-width:600px; margin:0 auto 32px; color:var(--ink-soft); font-size:17px;}
+.hero-ctas{display:flex; gap:14px; justify-content:center; flex-wrap:wrap;}
+.dots{display:flex; gap:8px; justify-content:center; margin-top:28px;}
+.dots span{width:9px; height:9px; border-radius:50%; display:block;}
+
+/* ---------- sections ---------- */
+section{padding:56px 0;}
+.section-head{max-width:640px; margin:0 auto 36px; text-align:center;}
+.section-head h2{font-size:clamp(24px,3.4vw,32px);}
+.section-head p{color:var(--ink-soft); margin:0;}
+
+/* ---------- card rows ---------- */
+.row{display:grid; grid-template-columns:1fr 1fr; gap:24px;}
+@media (max-width:760px){.row{grid-template-columns:1fr;}}
+.card{
+  background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
+  padding:32px; box-shadow:var(--shadow); position:relative; overflow:hidden;
+}
+.card .icon{
+  width:48px; height:48px; border-radius:12px; display:flex; align-items:center; justify-content:center;
+  margin-bottom:18px; font-size:22px;
+}
+.card h3{font-size:21px; margin-bottom:8px;}
+.card p.desc{color:var(--ink-soft); font-size:15px; margin-bottom:20px;}
+.card ul{margin:0 0 22px; padding-left:0; list-style:none; font-size:14.5px; color:var(--ink-soft);}
+.card ul li{padding-left:22px; position:relative; margin-bottom:8px;}
+.card ul li::before{content:"✓"; position:absolute; left:0; font-weight:700;}
+.card.tone-sky ul li::before{color:var(--sky-deep);}
+.card.tone-sage ul li::before{color:var(--sage-deep);}
+.card.tone-gold ul li::before{color:var(--gold-deep);}
+.card.tone-tan ul li::before{color:var(--tan-deep);}
+.icon-sky{background:rgba(127,178,201,.18); color:var(--sky-deep);}
+.icon-sage{background:rgba(143,188,148,.2); color:var(--sage-deep);}
+.icon-gold{background:rgba(232,184,75,.22); color:var(--gold-deep);}
+.icon-tan{background:rgba(199,165,135,.25); color:var(--tan-deep);}
+.card.coming-soon{opacity:.85;}
+.card.coming-soon::after{
+  content:"Coming soon"; position:absolute; top:20px; right:20px; font-size:11.5px; font-weight:700;
+  letter-spacing:.03em; text-transform:uppercase; background:var(--cream-deep); color:var(--ink-dim);
+  padding:4px 10px; border-radius:999px; border:1px solid var(--line);
+}
+
+/* ---------- pool banner ---------- */
+.pool-banner{
+  background:linear-gradient(135deg, var(--sage) 0%, var(--sky) 100%);
+  border-radius:20px; padding:40px 40px; color:#fff; display:flex; align-items:center;
+  justify-content:space-between; gap:28px; flex-wrap:wrap;
+}
+.pool-banner h2{color:#fff; font-size:26px; margin-bottom:8px;}
+.pool-banner p{color:rgba(255,255,255,.9); max-width:480px; margin:0;}
+.pool-banner .btn-ghost{background:#fff; color:var(--sky-deep); border:none;}
+
+/* ---------- jobs board ---------- */
+.filters{display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-bottom:28px;}
+.chip{
+  padding:8px 16px; border-radius:999px; border:1px solid var(--line); background:var(--paper);
+  font-size:13.5px; font-weight:600; cursor:pointer; color:var(--ink-soft);
+}
+.chip.active{background:var(--ink); color:var(--cream); border-color:var(--ink);}
+.job-list{display:flex; flex-direction:column; gap:14px;}
+.job{
+  background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:20px 24px;
+  display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;
+}
+.job-main{flex:1; min-width:240px;}
+.job-title{font-weight:700; font-size:16.5px; margin-bottom:3px;}
+.job-meta{font-size:13.5px; color:var(--ink-soft); display:flex; gap:10px; flex-wrap:wrap;}
+.job-meta .dot{opacity:.5;}
+.job-tag{font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; padding:3px 9px; border-radius:999px;}
+.job-empty{text-align:center; color:var(--ink-dim); padding:40px 0; font-size:15px;}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
+.footer-row{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; font-size:13.5px; color:var(--ink-dim);}
+.footer-row a{color:var(--ink-soft); text-decoration:none; margin-left:18px;}
+
+/* ---------- modal ---------- */
+.overlay{
+  position:fixed; inset:0; background:rgba(62,54,44,.45); display:none; align-items:flex-start;
+  justify-content:center; z-index:100; padding:40px 16px; overflow-y:auto;
+}
+.overlay.open{display:flex;}
+.modal{
+  background:var(--paper); border-radius:18px; max-width:560px; width:100%; padding:32px;
+  box-shadow:0 24px 60px rgba(0,0,0,.25); position:relative;
+}
+.modal-close{
+  position:absolute; top:18px; right:18px; background:none; border:none; font-size:20px;
+  cursor:pointer; color:var(--ink-dim); line-height:1;
+}
+.modal h3{font-size:22px; margin-bottom:6px;}
+.modal .sub{color:var(--ink-soft); font-size:14.5px; margin-bottom:22px;}
+.field{margin-bottom:16px;}
+.field label{display:block; font-size:13px; font-weight:600; margin-bottom:6px; color:var(--ink-soft);}
+.field input, .field select, .field textarea{
+  width:100%; padding:11px 13px; border-radius:10px; border:1px solid var(--line);
+  background:var(--cream); font-family:var(--body); font-size:14.5px; color:var(--ink);
+}
+.field textarea{resize:vertical; min-height:80px;}
+.field-row{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+@media (max-width:480px){.field-row{grid-template-columns:1fr;}}
+.checkbox-row{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:6px;}
+.checkbox-pill{
+  display:flex; align-items:center; gap:6px; font-size:13.5px; border:1px solid var(--line);
+  border-radius:999px; padding:7px 13px; cursor:pointer; background:var(--cream);
+}
+.checkbox-pill input{width:auto;}
+.form-msg{font-size:14px; padding:12px 14px; border-radius:10px; margin-top:14px; display:none;}
+.form-msg.show{display:block;}
+.form-msg.ok{background:rgba(143,188,148,.18); color:var(--sage-deep);}
+.form-msg.err{background:rgba(210,110,90,.14); color:#a4432f;}
+.payment-box{
+  margin-top:18px; padding:18px; border-radius:12px; background:var(--cream-deep); border:1px solid var(--line);
+}
+.payment-box a.btn{margin-top:10px;}
+.file-hint{font-size:12px; color:var(--ink-dim); margin-top:5px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="brand">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+        <path d="M2 20 Q9 6 17 20" fill="none" stroke="#8FBC94" stroke-width="3" stroke-linecap="round"/>
+        <path d="M17 20 Q25 6 32 20" fill="none" stroke="#7FB2C9" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="17" cy="20" r="3" fill="#E8B84B"/>
+        <rect x="0" y="19" width="34" height="2.4" rx="1.2" fill="#C7A587"/>
+      </svg>
+      <span>BridgeDesk</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#employers">For Employers</a>
+      <a href="#assistants">For Assistants</a>
+      <a href="#jobs">Job Board</a>
+      <a href="#pool">Join Our Pool</a>
+    </nav>
+    <a href="#employers" class="btn btn-primary btn-sm">Post a Role</a>
+  </div>
+</header>
+
+<section class="hero wrap">
+  <span class="badge">🌍 → 🇺🇸 the bridge between two teams</span>
+  <h1>Connecting US startups with skilled assistants worldwide</h1>
+  <p class="lede">Virtual, Executive, Personal, and Legal Assistants — matched to remote-friendly US startups that are already open to hiring globally.</p>
+  <div class="hero-ctas">
+    <a href="#employers" class="btn btn-primary">I'm Hiring</a>
+    <a href="#assistants" class="btn btn-secondary">I'm Looking for Work</a>
+  </div>
+  <div class="dots">
+    <span style="background:var(--tan)"></span>
+    <span style="background:var(--sky)"></span>
+    <span style="background:var(--sage)"></span>
+    <span style="background:var(--gold)"></span>
+  </div>
+</section>
+
+<!-- ============================= EMPLOYERS ============================= -->
+<section id="employers">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>For Employers</h2>
+      <p>Bring on one great assistant, or build a full support team — either way, we handle the sourcing and matching.</p>
+    </div>
+    <div class="row">
+      <div class="card tone-sky">
+        <div class="icon icon-sky">👤</div>
+        <h3>Hire One Assistant</h3>
+        <p class="desc">Tell us what you need — VA, EA, PA, or Legal Assistant — and we'll match you with vetted candidates from around the world.</p>
+        <ul>
+          <li>Matched from our screened talent pool</li>
+          <li>US-hours overlap confirmed upfront</li>
+          <li>No long-term contract required</li>
+        </ul>
+        <button class="btn btn-primary" onclick="openEmployerModal('single')">Post a Role</button>
+      </div>
+      <div class="card tone-sage">
+        <div class="icon icon-sage">🧑‍🤝‍🧑</div>
+        <h3>Hire a Team</h3>
+        <p class="desc">Scaling support across several roles at once? We'll source and match a full team in one engagement.</p>
+        <ul>
+          <li>Multiple roles, one point of contact</li>
+          <li>Volume pricing for 2+ hires</li>
+          <li>Ideal for fast-growing startups</li>
+        </ul>
+        <button class="btn btn-secondary" onclick="openEmployerModal('team')">Hire a Team</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= ASSISTANTS ============================= -->
+<section id="assistants" style="background:var(--cream-deep);">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>For Assistants</h2>
+      <p>Real roles at real US startups — already open to hiring globally.</p>
+    </div>
+    <div class="row">
+      <div class="card tone-gold">
+        <div class="icon icon-gold">📋</div>
+        <h3>Apply to a Role</h3>
+        <p class="desc">Browse live openings scraped daily from US startups, and apply directly — no middleman fees to you, ever.</p>
+        <ul>
+          <li>Virtual, Executive, Personal &amp; Legal Assistant roles</li>
+          <li>Filtered for remote-friendly, globally-open postings</li>
+          <li>Updated every day</li>
+        </ul>
+        <a href="#jobs" class="btn btn-gold">Browse the Job Board</a>
+      </div>
+      <div class="card tone-tan coming-soon">
+        <div class="icon icon-tan">🎓</div>
+        <h3>Training</h3>
+        <p class="desc">Short courses to help you stand out — client communication, US business etiquette, tools EAs use daily.</p>
+        <ul>
+          <li>Built for VA/EA/PA/Legal Assistant work</li>
+          <li>Self-paced, made for global time zones</li>
+          <li>Certificate on completion</li>
+        </ul>
+        <button class="btn btn-ghost" disabled>Coming Soon</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= POOL BANNER ============================= -->
+<section id="pool">
+  <div class="wrap">
+    <div class="pool-banner">
+      <div>
+        <h2>Not seeing the right role yet?</h2>
+        <p>Join our talent pool once, and we'll reach out directly when an employer request matches your profile — no need to keep checking the board.</p>
+      </div>
+      <button class="btn btn-ghost" onclick="openPoolModal()">Join Our Pool</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= JOB BOARD ============================= -->
+<section id="jobs">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Open Roles</h2>
+      <p id="jobs-updated">Loading listings…</p>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="job-list" id="job-list">
+      <div class="job-empty">Loading…</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <div>© 2026 BridgeDesk. Your partner, wherever you work.</div>
+    <div>
+      <a href="#employers">Employers</a>
+      <a href="#assistants">Assistants</a>
+      <a href="admin.html">Admin</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================= MODALS ============================= -->
+
+<!-- Employer intake -->
+<div class="overlay" id="employer-overlay">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('employer-overlay')">✕</button>
+    <h3 id="employer-modal-title">Post a Role</h3>
+    <p class="sub" id="employer-modal-sub">Tell us about the hire — we'll follow up with matched candidates.</p>
+    <form id="employer-form">
+      <input type="hidden" id="emp-tier" value="single">
+      <div class="field-row">
+        <div class="field"><label>Company</label><input required id="emp-company"></div>
+        <div class="field"><label>Your name</label><input required id="emp-contact"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Email</label><input required type="email" id="emp-email"></div>
+        <div class="field"><label>Phone (optional)</label><input id="emp-phone"></div>
+      </div>
+      <div class="field">
+        <label>Role(s) needed</label>
+        <div class="checkbox-row">
+          <label class="checkbox-pill"><input type="checkbox" value="Virtual Assistant"> Virtual Assistant</label>
+          <label class="checkbox-pill"><input type="checkbox" value="Executive Assistant"> Executive Assistant</label>
+          <label class="checkbox-pill"><input type="checkbox" value="Personal Assistant"> Personal Assistant</label>
+          <label class="checkbox-pill"><input type="checkbox" value="Legal Assistant"> Legal Assistant</label>
+        </div>
+      </div>
+      <div class="field-row" id="emp-team-size-field" style="display:none;">
+        <div class="field"><label>Team size needed</label><input type="number" min="2" id="emp-team-size" placeholder="e.g. 3"></div>
+        <div class="field"><label>Timeline</label><input id="emp-timeline" placeholder="e.g. within 2 weeks"></div>
+      </div>
+      <div class="field-row" id="emp-timeline-solo-field">
+        <div class="field"><label>Budget range</label><input id="emp-budget" placeholder="e.g. $6-10/hr"></div>
+        <div class="field"><label>Timeline</label><input id="emp-timeline-solo" placeholder="e.g. within 2 weeks"></div>
+      </div>
+      <div class="field"><label>Anything else we should know?</label><textarea id="emp-notes"></textarea></div>
+      <button type="submit" class="btn btn-primary" style="width:100%;">Submit Request</button>
+      <div class="form-msg" id="employer-msg"></div>
+      <div class="payment-box" id="employer-payment" style="display:none;"></div>
+    </form>
+  </div>
+</div>
+
+<!-- Job application -->
+<div class="overlay" id="apply-overlay">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('apply-overlay')">✕</button>
+    <h3>Apply for this role</h3>
+    <p class="sub" id="apply-modal-sub"></p>
+    <form id="apply-form">
+      <div class="field-row">
+        <div class="field"><label>Full name</label><input required id="apply-name"></div>
+        <div class="field"><label>Email</label><input required type="email" id="apply-email"></div>
+      </div>
+      <div class="field"><label>Phone (optional)</label><input id="apply-phone"></div>
+      <div class="field">
+        <label>Resume</label>
+        <input type="file" id="apply-resume" accept=".pdf,.doc,.docx">
+        <div class="file-hint">PDF or Word, under 4MB.</div>
+      </div>
+      <div class="field"><label>Short note (optional)</label><textarea id="apply-note" placeholder="Anything you'd like the employer to know"></textarea></div>
+      <button type="submit" class="btn btn-gold" style="width:100%;">Submit Application</button>
+      <div class="form-msg" id="apply-msg"></div>
+    </form>
+  </div>
+</div>
+
+<!-- Join our pool -->
+<div class="overlay" id="pool-overlay">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('pool-overlay')">✕</button>
+    <h3>Join Our Pool</h3>
+    <p class="sub">One profile, matched against every new employer request. We'll reach out when something fits.</p>
+    <form id="pool-form">
+      <div class="field-row">
+        <div class="field"><label>Full name</label><input required id="pool-name"></div>
+        <div class="field"><label>Email</label><input required type="email" id="pool-email"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Phone (optional)</label><input id="pool-phone"></div>
+        <div class="field">
+          <label>Category</label>
+          <select id="pool-category">
+            <option>Virtual Assistant</option>
+            <option>Executive Assistant</option>
+            <option>Personal Assistant</option>
+            <option>Legal Assistant</option>
+          </select>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Years of experience</label><input id="pool-years" placeholder="e.g. 3"></div>
+        <div class="field"><label>Rate expectation</label><input id="pool-rate" placeholder="e.g. $8-10/hr"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Availability</label><input id="pool-availability" placeholder="e.g. Full-time, immediate"></div>
+        <div class="field"><label>Timezone overlap</label><input id="pool-timezone" placeholder="e.g. US Eastern, 9am-5pm"></div>
+      </div>
+      <div class="field"><label>Skills</label><input id="pool-skills" placeholder="e.g. calendar management, QuickBooks, Clio"></div>
+      <div class="field"><label>English level</label><input id="pool-english" placeholder="e.g. Fluent, C1"></div>
+      <div class="field"><label>Short bio</label><textarea id="pool-bio"></textarea></div>
+      <div class="field">
+        <label>Resume</label>
+        <input type="file" id="pool-resume" accept=".pdf,.doc,.docx">
+        <div class="file-hint">PDF or Word, under 4MB.</div>
+      </div>
+      <div class="field"><label>Portfolio link (optional)</label><input id="pool-portfolio" placeholder="https://"></div>
+      <button type="submit" class="btn btn-secondary" style="width:100%;">Join the Pool</button>
+      <div class="form-msg" id="pool-msg"></div>
+    </form>
+  </div>
+</div>
+
+<script>
+const CATEGORY_COLORS = {
+  'Virtual Assistant': { bg:'rgba(232,184,75,.22)', fg:'#C99A2E' },
+  'Executive Assistant': { bg:'rgba(127,178,201,.18)', fg:'#4F8DA6' },
+  'Personal Assistant': { bg:'rgba(199,165,135,.25)', fg:'#A6825F' },
+  'Legal Assistant': { bg:'rgba(143,188,148,.2)', fg:'#5E9A69' },
+  'Other': { bg:'rgba(62,54,44,.08)', fg:'#6B6153' },
+};
+
+let ALL_JOBS = [];
+let ACTIVE_FILTER = 'All';
+
+async function loadJobs() {
+  try {
+    const res = await fetch('jobs.json', { cache: 'no-store' });
+    const data = await res.json();
+    ALL_JOBS = (data.jobs || []).filter(j => j.status !== 'closed');
+    const updated = data.generated_at ? new Date(data.generated_at).toLocaleDateString(undefined, { month:'long', day:'numeric', year:'numeric' }) : null;
+    document.getElementById('jobs-updated').textContent = updated
+      ? `${ALL_JOBS.length} open roles — last updated ${updated}`
+      : `${ALL_JOBS.length} open roles`;
+    renderFilters();
+    renderJobs();
+  } catch (e) {
+    document.getElementById('jobs-updated').textContent = 'Listings are temporarily unavailable.';
+    document.getElementById('job-list').innerHTML = '<div class="job-empty">Check back shortly.</div>';
+  }
+}
+
+function renderFilters() {
+  const cats = ['All', ...new Set(ALL_JOBS.map(j => j.category || 'Other'))];
+  const el = document.getElementById('filters');
+  el.innerHTML = cats.map(c =>
+    `<button class="chip ${c === ACTIVE_FILTER ? 'active' : ''}" onclick="setFilter('${c.replace(/'/g,"\\'")}')">${c}</button>`
+  ).join('');
+}
+
+function setFilter(cat) {
+  ACTIVE_FILTER = cat;
+  renderFilters();
+  renderJobs();
+}
+
+function renderJobs() {
+  const list = ACTIVE_FILTER === 'All' ? ALL_JOBS : ALL_JOBS.filter(j => (j.category || 'Other') === ACTIVE_FILTER);
+  const el = document.getElementById('job-list');
+  if (!list.length) { el.innerHTML = '<div class="job-empty">No roles in this category right now — try Join Our Pool below.</div>'; return; }
+  el.innerHTML = list.map(j => {
+    const c = CATEGORY_COLORS[j.category] || CATEGORY_COLORS.Other;
+    return `
+    <div class="job">
+      <div class="job-main">
+        <div class="job-title">${escapeHtml(j.title)}</div>
+        <div class="job-meta">
+          <span>${escapeHtml(j.company)}</span>
+          <span class="dot">•</span>
+          <span>${escapeHtml(j.location || 'Remote')}</span>
+          <span class="dot">•</span>
+          <span class="job-tag" style="background:${c.bg};color:${c.fg};">${escapeHtml(j.category || 'Other')}</span>
+        </div>
+      </div>
+      <div style="display:flex; gap:10px;">
+        <button class="btn btn-ghost btn-sm" onclick='openApplyModal(${JSON.stringify(j).replace(/'/g,"&#39;")})'>Apply</button>
+        <a class="btn btn-primary btn-sm" href="${j.apply_url}" target="_blank" rel="noopener" onclick='trackClick(${JSON.stringify({id:j.id,title:j.title,company:j.company}).replace(/'/g,"&#39;")})'>View</a>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]));
+}
+
+function trackClick(job) {
+  fetch('/api/click', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify(job) }).catch(()=>{});
+}
+
+/* ---------- modal open/close ---------- */
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+document.querySelectorAll('.overlay').forEach(o => {
+  o.addEventListener('click', e => { if (e.target === o) o.classList.remove('open'); });
+});
+
+let currentApplyJob = null;
+function openApplyModal(job) {
+  currentApplyJob = job;
+  document.getElementById('apply-modal-sub').textContent = `${job.title} at ${job.company}`;
+  document.getElementById('apply-msg').className = 'form-msg';
+  document.getElementById('apply-overlay').classList.add('open');
+}
+
+function openEmployerModal(tier) {
+  document.getElementById('emp-tier').value = tier;
+  document.getElementById('employer-modal-title').textContent = tier === 'team' ? 'Hire a Team' : 'Post a Role';
+  document.getElementById('employer-modal-sub').textContent = tier === 'team'
+    ? "Tell us about the roles you're building out — we'll follow up with a plan and pricing."
+    : "Tell us about the hire — we'll follow up with matched candidates.";
+  document.getElementById('emp-team-size-field').style.display = tier === 'team' ? 'grid' : 'none';
+  document.getElementById('emp-timeline-solo-field').style.display = tier === 'team' ? 'none' : 'grid';
+  document.getElementById('employer-msg').className = 'form-msg';
+  document.getElementById('employer-payment').style.display = 'none';
+  document.getElementById('employer-overlay').classList.add('open');
+}
+
+function openPoolModal() {
+  document.getElementById('pool-msg').className = 'form-msg';
+  document.getElementById('pool-overlay').classList.add('open');
+}
+
+/* ---------- file -> data URL, capped at ~4MB ---------- */
+function fileToDataUrl(input) {
+  return new Promise((resolve, reject) => {
+    const file = input.files && input.files[0];
+    if (!file) return resolve(null);
+    if (file.size > 4 * 1024 * 1024) return reject(new Error('Resume file is too large (max 4MB).'));
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = () => reject(new Error('Could not read the file.'));
+    reader.readAsDataURL(file);
+  });
+}
+
+/* ---------- form submissions ---------- */
+document.getElementById('apply-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const msg = document.getElementById('apply-msg');
+  try {
+    const resumeUrl = await fileToDataUrl(document.getElementById('apply-resume'));
+    const res = await fetch('/api/apply', {
+      method: 'POST', headers: { 'content-type':'application/json' },
+      body: JSON.stringify({
+        job_id: currentApplyJob?.id, job_title: currentApplyJob?.title, company: currentApplyJob?.company,
+        category: currentApplyJob?.category,
+        name: document.getElementById('apply-name').value,
+        email: document.getElementById('apply-email').value,
+        phone: document.getElementById('apply-phone').value,
+        resume_url: resumeUrl,
+        cover_note: document.getElementById('apply-note').value,
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Something went wrong.');
+    msg.textContent = `Application sent! Reference: ${data.ref}`;
+    msg.className = 'form-msg show ok';
+    e.target.reset();
+  } catch (err) {
+    msg.textContent = err.message;
+    msg.className = 'form-msg show err';
+  }
+});
+
+document.getElementById('employer-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const msg = document.getElementById('employer-msg');
+  const tier = document.getElementById('emp-tier').value;
+  const roles = Array.from(document.querySelectorAll('#employer-form input[type=checkbox]:checked')).map(c => c.value);
+  try {
+    const res = await fetch('/api/employer', {
+      method: 'POST', headers: { 'content-type':'application/json' },
+      body: JSON.stringify({
+        tier, company: document.getElementById('emp-company').value,
+        contact_name: document.getElementById('emp-contact').value,
+        email: document.getElementById('emp-email').value,
+        phone: document.getElementById('emp-phone').value,
+        roles_needed: roles,
+        team_size: document.getElementById('emp-team-size').value,
+        budget_range: document.getElementById('emp-budget').value,
+        timeline: tier === 'team' ? document.getElementById('emp-timeline').value : document.getElementById('emp-timeline-solo').value,
+        notes: document.getElementById('emp-notes').value,
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Something went wrong.');
+    msg.textContent = `Request received! Reference: ${data.ref}`;
+    msg.className = 'form-msg show ok';
+    const box = document.getElementById('employer-payment');
+    box.innerHTML = `<p style="margin:0 0 4px;font-weight:600;">${data.message}</p>
+      <a class="btn btn-gold" href="${data.payment_url}" target="_blank" rel="noopener">Pay Placement Deposit via Wise</a>`;
+    box.style.display = 'block';
+    e.target.reset();
+  } catch (err) {
+    msg.textContent = err.message;
+    msg.className = 'form-msg show err';
+  }
+});
+
+document.getElementById('pool-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const msg = document.getElementById('pool-msg');
+  try {
+    const resumeUrl = await fileToDataUrl(document.getElementById('pool-resume'));
+    const res = await fetch('/api/pool', {
+      method: 'POST', headers: { 'content-type':'application/json' },
+      body: JSON.stringify({
+        name: document.getElementById('pool-name').value,
+        email: document.getElementById('pool-email').value,
+        phone: document.getElementById('pool-phone').value,
+        category: document.getElementById('pool-category').value,
+        years_experience: document.getElementById('pool-years').value,
+        rate_expectation: document.getElementById('pool-rate').value,
+        availability: document.getElementById('pool-availability').value,
+        timezone_overlap: document.getElementById('pool-timezone').value,
+        skills: document.getElementById('pool-skills').value,
+        english_level: document.getElementById('pool-english').value,
+        bio: document.getElementById('pool-bio').value,
+        resume_url: resumeUrl,
+        portfolio_url: document.getElementById('pool-portfolio').value,
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Something went wrong.');
+    msg.textContent = `You're in the pool! Reference: ${data.ref}`;
+    msg.className = 'form-msg show ok';
+    e.target.reset();
+  } catch (err) {
+    msg.textContent = err.message;
+    msg.className = 'form-msg show err';
+  }
+});
+
+loadJobs();
+</script>
+</body>
+</html>
