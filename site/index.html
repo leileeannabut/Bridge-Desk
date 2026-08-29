@@ -41,9 +41,23 @@ a{color:inherit;}
 img,svg{display:block;}
 .wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
 .badge{
-  display:inline-flex; align-items:center; gap:6px; font-size:12.5px; font-weight:600;
-  letter-spacing:.02em; text-transform:uppercase; padding:5px 12px; border-radius:999px;
+  display:inline-flex; align-items:center; gap:8px; font-size:12.5px; font-weight:600;
+  letter-spacing:.02em; text-transform:uppercase; padding:5px 14px 5px 10px; border-radius:999px;
   background:var(--cream-deep); color:var(--ink-soft); border:1px solid var(--line);
+}
+.bridge-anim{overflow:visible;}
+.bridge-pulse{
+  offset-path: path('M2 15 Q12 3 22 15 Q32 3 42 15');
+  offset-rotate:0deg; animation:bridge-travel 2.8s ease-in-out infinite;
+}
+@keyframes bridge-travel{
+  0%{offset-distance:0%; opacity:0;}
+  10%{opacity:1;}
+  90%{opacity:1;}
+  100%{offset-distance:100%; opacity:0;}
+}
+@media (prefers-reduced-motion: reduce){
+  .bridge-pulse{animation:none; offset-distance:50%; opacity:1;}
 }
 
 /* ---------- header ---------- */
@@ -78,6 +92,30 @@ header{
 .hero-ctas{display:flex; gap:14px; justify-content:center; flex-wrap:wrap;}
 .dots{display:flex; gap:8px; justify-content:center; margin-top:28px;}
 .dots span{width:9px; height:9px; border-radius:50%; display:block;}
+
+/* ---------- world clock ---------- */
+.clock-wrap{padding:0 24px; margin-top:-10px;}
+.clock-card{
+  max-width:1072px; margin:0 auto; background:var(--paper); border:1px solid var(--line);
+  border-radius:var(--radius); box-shadow:var(--shadow); padding:26px 30px 24px;
+}
+.clock-head{
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;
+  font-family:var(--mono,monospace); font-size:11.5px; font-weight:600; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--ink-dim); margin-bottom:18px;
+}
+.clock-head .live{color:var(--sage-deep);}
+.clock-row{display:grid; grid-template-columns:repeat(5,1fr); gap:14px;}
+@media (max-width:760px){.clock-row{grid-template-columns:repeat(2,1fr);}}
+.clock-tile{
+  background:var(--cream-deep); border:1px solid var(--line); border-radius:12px;
+  padding:16px 10px; text-align:center;
+}
+.clock-city{font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--ink-dim); line-height:1.4; min-height:28px;}
+.clock-time{font-family:var(--head); font-size:24px; font-weight:600; line-height:1.15; margin-top:6px;}
+.clock-time.in-hours{color:var(--sage-deep);}
+.clock-time.off-hours{color:var(--tan-deep);}
+.clock-note{font-size:13.5px; color:var(--ink-soft); margin:18px 0 0; line-height:1.6;}
 
 /* ---------- sections ---------- */
 section{padding:56px 0;}
@@ -216,7 +254,16 @@ footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
 </header>
 
 <section class="hero wrap">
-  <span class="badge">🌍 → 🇺🇸 the bridge between two teams</span>
+  <span class="badge">
+    <svg class="bridge-anim" width="44" height="18" viewBox="0 0 44 18" aria-hidden="true">
+      <path d="M2 15 Q12 3 22 15" fill="none" stroke="#8FBC94" stroke-width="2" stroke-linecap="round"/>
+      <path d="M22 15 Q32 3 42 15" fill="none" stroke="#7FB2C9" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="2" cy="15" r="2.2" fill="#5E9A69"/>
+      <circle cx="42" cy="15" r="2.2" fill="#4F8DA6"/>
+      <circle class="bridge-pulse" r="2.6" fill="#E8B84B"/>
+    </svg>
+    the bridge between two teams
+  </span>
   <h1>Where Global Ambition Meets Infinite Talent.</h1>
   <p class="lede">More than a headhunter — BridgeDesk is a borderless career and hiring engine. Built for speed, precision, and zero recurring markups, our platform unites visionaries and top-tier professionals worldwide through a seamless direct-matching experience.</p>
   <div class="hero-ctas">
@@ -230,6 +277,18 @@ footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
     <span style="background:var(--gold)"></span>
   </div>
 </section>
+
+<!-- ============================= WORLD CLOCK ============================= -->
+<div class="clock-wrap">
+  <div class="clock-card">
+    <div class="clock-head">
+      <span>Right now, worldwide</span>
+      <span id="clock-in-hours" class="live">– of 5 in business hours</span>
+    </div>
+    <div class="clock-row" id="clock-row"></div>
+    <p class="clock-note">A snapshot, not the whole map: candidates and clients join us from every timezone — these five give a feel for how the workday hands off around the world.</p>
+  </div>
+</div>
 
 <!-- ============================= EMPLOYERS ============================= -->
 <section id="employers">
@@ -512,8 +571,7 @@ function renderJobs() {
         </div>
       </div>
       <div style="display:flex; gap:10px;">
-        <button class="btn btn-ghost btn-sm" onclick='openApplyModal(${JSON.stringify(j).replace(/'/g,"&#39;")})'>Apply</button>
-        <a class="btn btn-primary btn-sm" href="${j.apply_url}" target="_blank" rel="noopener" onclick='trackClick(${JSON.stringify({id:j.id,title:j.title,company:j.company}).replace(/'/g,"&#39;")})'>View</a>
+        <button class="btn btn-primary btn-sm" onclick='openApplyModal(${JSON.stringify(j).replace(/'/g,"&#39;")})'>Apply</button>
       </div>
     </div>`;
   }).join('');
@@ -521,10 +579,6 @@ function renderJobs() {
 
 function escapeHtml(s) {
   return String(s || '').replace(/[&<>"']/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]));
-}
-
-function trackClick(job) {
-  fetch('/api/click', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify(job) }).catch(()=>{});
 }
 
 /* ---------- modal open/close ---------- */
@@ -669,6 +723,41 @@ document.getElementById('pool-form').addEventListener('submit', async (e) => {
     msg.className = 'form-msg show err';
   }
 });
+
+/* ---------- world clock ---------- */
+const CLOCK_CITIES = [
+  { label: 'New York, US', tz: 'America/New_York' },
+  { label: 'London, UK', tz: 'Europe/London' },
+  { label: 'Toronto, Canada', tz: 'America/Toronto' },
+  { label: 'Mexico City, LATAM', tz: 'America/Mexico_City' },
+  { label: 'Sydney, Australia', tz: 'Australia/Sydney' },
+];
+
+function renderClocks() {
+  const row = document.getElementById('clock-row');
+  if (!row) return;
+  let inHours = 0;
+  row.innerHTML = CLOCK_CITIES.map(c => {
+    const now = new Date();
+    const parts = new Intl.DateTimeFormat('en-US', { timeZone: c.tz, hour: 'numeric', minute: '2-digit', hour12: true, hourCycle: 'h12' }).formatToParts(now);
+    const hourPart = parts.find(p => p.type === 'hour');
+    const minPart = parts.find(p => p.type === 'minute');
+    const dayPart = parts.find(p => p.type === 'dayPeriod');
+    const hour24 = parseInt(new Intl.DateTimeFormat('en-US', { timeZone: c.tz, hour: 'numeric', hourCycle: 'h23' }).format(now), 10);
+    const businessHours = hour24 >= 9 && hour24 < 18;
+    if (businessHours) inHours++;
+    const cls = businessHours ? 'in-hours' : 'off-hours';
+    return `
+      <div class="clock-tile">
+        <div class="clock-city">${escapeHtml(c.label)}</div>
+        <div class="clock-time ${cls}">${hourPart.value}:${minPart.value}<br>${dayPart.value}</div>
+      </div>`;
+  }).join('');
+  const el = document.getElementById('clock-in-hours');
+  if (el) el.textContent = `${inHours} of ${CLOCK_CITIES.length} in business hours`;
+}
+renderClocks();
+setInterval(renderClocks, 30000);
 
 loadJobs();
 </script>
