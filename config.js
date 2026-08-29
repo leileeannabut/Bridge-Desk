@@ -51,7 +51,7 @@ export const COMPANIES = [
     id: "zapier", name: "Zapier", hub: "business",
     careersUrl: "https://zapier.com/jobs", website: "https://zapier.com",
     state: "Remote (US)", segment: "Automation SaaS",
-    verified: false, method: "dom", atsSlug: null, active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "automattic", name: "Automattic", hub: "business",
@@ -81,7 +81,7 @@ export const COMPANIES = [
     id: "linear", name: "Linear", hub: "business",
     careersUrl: "https://linear.app/careers", website: "https://linear.app",
     state: "Remote (US)", segment: "Project & Issue Tracking SaaS",
-    verified: false, method: "dom", atsSlug: null, active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "superhuman", name: "Superhuman", hub: "business",
@@ -93,19 +93,19 @@ export const COMPANIES = [
     id: "mercury", name: "Mercury", hub: "business",
     careersUrl: "https://mercury.com/careers", website: "https://mercury.com",
     state: "Remote (US)", segment: "Startup Banking",
-    verified: false, method: "greenhouse", atsSlug: "mercury", active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "retool", name: "Retool", hub: "business",
     careersUrl: "https://retool.com/careers", website: "https://retool.com",
     state: "San Francisco, CA", segment: "Internal Tools Platform",
-    verified: false, method: "dom", atsSlug: null, active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "miro", name: "Miro", hub: "business",
     careersUrl: "https://miro.com/careers/", website: "https://miro.com",
     state: "San Francisco, CA", segment: "Visual Collaboration SaaS",
-    verified: false, method: "dom", atsSlug: null, active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "webflow", name: "Webflow", hub: "business",
@@ -135,7 +135,7 @@ export const COMPANIES = [
     id: "brex", name: "Brex", hub: "business",
     careersUrl: "https://www.brex.com/careers", website: "https://www.brex.com",
     state: "Remote (US)", segment: "Corporate Card & Spend Management",
-    verified: false, method: "dom", atsSlug: null, active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "ramp", name: "Ramp", hub: "business",
@@ -147,7 +147,7 @@ export const COMPANIES = [
     id: "rippling", name: "Rippling", hub: "business",
     careersUrl: "https://www.rippling.com/careers", website: "https://www.rippling.com",
     state: "San Francisco, CA", segment: "HR / IT / Payroll Platform",
-    verified: false, method: "dom", atsSlug: null, active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "gusto", name: "Gusto", hub: "business",
@@ -201,19 +201,19 @@ export const COMPANIES = [
     id: "vercel", name: "Vercel", hub: "business",
     careersUrl: "https://vercel.com/careers", website: "https://vercel.com",
     state: "Remote (US)", segment: "Frontend Cloud Platform",
-    verified: false, method: "greenhouse", atsSlug: "vercel", active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "loom", name: "Loom", hub: "business",
     careersUrl: "https://www.loom.com/careers", website: "https://www.loom.com",
     state: "San Francisco, CA", segment: "Async Video Messaging",
-    verified: false, method: "dom", atsSlug: null, active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "calm", name: "Calm", hub: "business",
     careersUrl: "https://www.calm.com/careers", website: "https://www.calm.com",
     state: "San Francisco, CA", segment: "Mental Wellness App",
-    verified: false, method: "greenhouse", atsSlug: "calm", active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "spring-health", name: "Spring Health", hub: "business",
@@ -254,7 +254,7 @@ export const COMPANIES = [
     id: "everlaw", name: "Everlaw", hub: "legal",
     careersUrl: "https://www.everlaw.com/careers/", website: "https://www.everlaw.com",
     state: "Oakland, CA", segment: "E-Discovery & Litigation Software",
-    verified: false, method: "dom", atsSlug: null, active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
   {
     id: "disco", name: "DISCO", hub: "legal",
@@ -290,7 +290,7 @@ export const COMPANIES = [
     id: "clerky", name: "Clerky", hub: "legal",
     careersUrl: "https://www.clerky.com/careers", website: "https://www.clerky.com",
     state: "San Francisco, CA", segment: "Startup Legal Document Automation",
-    verified: false, method: "lever", atsSlug: "clerky", active: true,
+    verified: false, method: null, atsSlug: null, active: true,
   },
 
   // ---------------------------------------------------------------------------
@@ -592,4 +592,57 @@ export const COMPANIES = [
   // Hong Kong
   { id: "klook", name: "Klook", hub: "business", careersUrl: "https://www.klook.com/en-US/careers/", website: "https://www.klook.com", segment: "Travel Experiences Marketplace", country: "Hong Kong", verified: false, method: null, atsSlug: null, active: true },
   { id: "gogox", name: "GoGoX", hub: "business", careersUrl: "https://www.gogox.com/en/careers/", website: "https://www.gogox.com", segment: "On-Demand Logistics", country: "Hong Kong", verified: false, method: null, atsSlug: null, active: true },
+
+  // ---------------------------------------------------------------------------
+  // Beyond venture-backed "startups" — agencies, DTC e-commerce brands, real
+  // estate, education, telehealth, media, and large scale-ups. These are the
+  // kinds of businesses that hire the bulk of real-world Filipino VA/EA work,
+  // not just early-stage tech startups. Same rule: unverified starter list.
+  // ---------------------------------------------------------------------------
+
+  // Digital marketing / growth agencies (heavy VA/admin/content hirers)
+  { id: "single-grain", name: "Single Grain", hub: "business", careersUrl: "https://www.singlegrain.com/careers/", website: "https://www.singlegrain.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "np-digital", name: "NP Digital", hub: "business", careersUrl: "https://npdigital.com/careers/", website: "https://npdigital.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "webfx", name: "WebFX", hub: "business", careersUrl: "https://www.webfx.com/careers/", website: "https://www.webfx.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "ignite-visibility", name: "Ignite Visibility", hub: "business", careersUrl: "https://ignitevisibility.com/careers/", website: "https://ignitevisibility.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "directive-consulting", name: "Directive Consulting", hub: "business", careersUrl: "https://directiveconsulting.com/careers/", website: "https://directiveconsulting.com", segment: "B2B Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+
+  // DTC e-commerce brands (classic Filipino VA client base — order support, content, ads ops)
+  { id: "gymshark", name: "Gymshark", hub: "business", careersUrl: "https://careers.gymshark.com/", website: "https://www.gymshark.com", segment: "Fitness Apparel DTC Brand", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
+  { id: "allbirds", name: "Allbirds", hub: "business", careersUrl: "https://www.allbirds.com/pages/careers", website: "https://www.allbirds.com", segment: "Sustainable Footwear DTC Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "ridge-wallet", name: "Ridge", hub: "business", careersUrl: "https://ridge.com/pages/careers", website: "https://ridge.com", segment: "DTC Accessories Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "beardbrand", name: "Beardbrand", hub: "business", careersUrl: "https://www.beardbrand.com/pages/careers", website: "https://www.beardbrand.com", segment: "Men's Grooming DTC Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "chubbies", name: "Chubbies", hub: "business", careersUrl: "https://www.chubbiesshorts.com/pages/careers", website: "https://www.chubbiesshorts.com", segment: "Apparel DTC Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+
+  // Real estate (transaction coordination, listing admin — a major EA/VA niche)
+  { id: "keller-williams", name: "Keller Williams", hub: "business", careersUrl: "https://www.kw.com/careers/", website: "https://www.kw.com", segment: "Real Estate Franchise", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "redfin", name: "Redfin", hub: "business", careersUrl: "https://www.redfin.com/about/jobs", website: "https://www.redfin.com", segment: "Real Estate Brokerage Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "opendoor", name: "Opendoor", hub: "business", careersUrl: "https://www.opendoor.com/careers", website: "https://www.opendoor.com", segment: "iBuyer Real Estate Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "compass-re", name: "Compass", hub: "business", careersUrl: "https://www.compass.com/careers/", website: "https://www.compass.com", segment: "Real Estate Brokerage Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+
+  // Education / e-learning
+  { id: "coursera", name: "Coursera", hub: "saas", careersUrl: "https://www.coursera.org/about/careers", website: "https://www.coursera.org", segment: "Online Learning Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "udemy", name: "Udemy", hub: "saas", careersUrl: "https://about.udemy.com/careers/", website: "https://www.udemy.com", segment: "Online Learning Marketplace", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "skillshare", name: "Skillshare", hub: "saas", careersUrl: "https://www.skillshare.com/en/careers", website: "https://www.skillshare.com", segment: "Creative Online Learning Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "masterclass", name: "MasterClass", hub: "business", careersUrl: "https://www.masterclass.com/careers", website: "https://www.masterclass.com", segment: "Online Learning / Celebrity-taught Courses", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+
+  // Telehealth (patient coordination, intake support)
+  { id: "teladoc", name: "Teladoc Health", hub: "business", careersUrl: "https://www.teladochealth.com/careers/", website: "https://www.teladochealth.com", segment: "Telehealth Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "hims-hers", name: "Hims & Hers", hub: "business", careersUrl: "https://www.hims.com/careers", website: "https://www.hims.com", segment: "Telehealth & Wellness Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "ro-health", name: "Ro", hub: "business", careersUrl: "https://ro.co/careers/", website: "https://ro.co", segment: "Telehealth Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "included-health", name: "Included Health", hub: "business", careersUrl: "https://includedhealth.com/careers/", website: "https://includedhealth.com", segment: "Virtual Healthcare Navigation Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+
+  // Media / publishing (content ops, scheduling, community)
+  { id: "vox-media", name: "Vox Media", hub: "business", careersUrl: "https://www.voxmedia.com/careers", website: "https://www.voxmedia.com", segment: "Digital Media Company", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "the-points-guy", name: "The Points Guy", hub: "business", careersUrl: "https://thepointsguy.com/careers/", website: "https://thepointsguy.com", segment: "Travel & Points Media", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "morning-brew", name: "Morning Brew", hub: "business", careersUrl: "https://www.morningbrew.com/about/careers", website: "https://www.morningbrew.com", segment: "Newsletter Media Company", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+
+  // Large global scale-ups — not early-stage, but real remote/admin demand at volume
+  { id: "booking-com", name: "Booking.com", hub: "business", careersUrl: "https://careers.booking.com/", website: "https://www.booking.com", segment: "Online Travel Agency", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
+  { id: "zalando", name: "Zalando", hub: "business", careersUrl: "https://jobs.zalando.com/en/", website: "https://www.zalando.com", segment: "Fashion E-commerce Platform", country: "Germany", verified: false, method: null, atsSlug: null, active: true },
+  { id: "asos", name: "ASOS", hub: "business", careersUrl: "https://www.asoscareers.com/", website: "https://www.asos.com", segment: "Fashion E-commerce Retailer", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
+  { id: "farfetch", name: "Farfetch", hub: "business", careersUrl: "https://www.farfetchcareers.com/", website: "https://www.farfetch.com", segment: "Luxury Fashion E-commerce", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
+  { id: "trip-com", name: "Trip.com", hub: "business", careersUrl: "https://careers.trip.com/", website: "https://www.trip.com", segment: "Online Travel Agency", country: "China", verified: false, method: null, atsSlug: null, active: true },
+  { id: "agoda", name: "Agoda", hub: "business", careersUrl: "https://careersatagoda.com/", website: "https://www.agoda.com", segment: "Online Travel Agency", country: "Thailand", verified: false, method: null, atsSlug: null, active: true },
 ];
+
