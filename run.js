@@ -854,16 +854,42 @@ if (args.dry) {
 // so GitHub emails you instead of the problem going unnoticed for weeks.
 const totalFailure = ready.length > 0 && okResults.length === 0;
 
+// Every job's id is `method:company_id:sourceId` (see normalise()), which is
+// stable across runs and unique per posting. `all` shouldn't contain
+// duplicates — fresh jobs come from companies scrapedIds covers, carried jobs
+// explicitly exclude those companies — but a dedupe pass costs nothing and
+// means a config or carry-over bug produces a missing row, never a repeated
+// one on the board.
+const byId = new Map();
+for (const j of all.sort((a, b) => (b.posted_at || '').localeCompare(a.posted_at || ''))) {
+  if (!byId.has(j.id)) byId.set(j.id, j);
+}
+const deduped = [...byId.values()];
+
+// The board shows at most 100 open roles at a time, freshest first (the sort
+// above already ran before deduping). This caps payload size and keeps the
+// front end's 10-tabs-of-10 layout exact. Anything beyond 100 simply hasn't
+// surfaced yet — it isn't dropped from the source of truth, since tomorrow's
+// run re-derives the full set from each company's live feed rather than from
+// today's file, so a role that ages out of the 100 today can reappear once
+// older roles close.
+const MAX_PUBLISHED = 100;
+const published = deduped.slice(0, MAX_PUBLISHED);
+if (deduped.length > MAX_PUBLISHED) {
+  console.log(`\ncapped   ${deduped.length} open roles down to ${MAX_PUBLISHED} for the board`);
+}
+
 const feed = {
   generated_at: new Date().toISOString(),
-  count: all.length,
+  count: published.length,
+  total_open: deduped.length,
   sources_ok: okResults.length,
   sources_failed: failed.length,
-  jobs: all.sort((a, b) => (b.posted_at || '').localeCompare(a.posted_at || '')),
+  jobs: published,
 };
 
 await writeFile(OUT, JSON.stringify(feed, null, 2) + '\n');
-console.log(`\nwrote ${OUT} — ${all.length} roles`);
+console.log(`\nwrote ${OUT} — ${published.length} roles`);
 
 /* No history-sync step here — this build only writes the daily feed to
    site/jobs.json. If you want a historical record of postings over time,
