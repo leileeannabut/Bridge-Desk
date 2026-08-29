@@ -313,11 +313,11 @@ footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
       <div class="card tone-sage">
         <div class="icon icon-sage">🧑‍🤝‍🧑</div>
         <h3>Hire a Team</h3>
-        <p class="desc">Scaling support across several roles at once? We'll source and match a full team in one engagement.</p>
+        <p class="desc">Need dedicated coverage across several roles — or a team anchoring shifts around the clock? We'll form a managed team exclusively for you: hired, coached, and paid by BridgeDesk, not shared or freelance.</p>
         <ul>
-          <li>Multiple roles, one point of contact</li>
-          <li>Volume pricing for 2+ hires</li>
-          <li>Ideal for fast-growing startups</li>
+          <li>Dedicated, exclusive team — not shared or freelance</li>
+          <li>Multiple roles or round-the-clock shifts, anchored by a Senior EA when needed</li>
+          <li>Volume pricing for 2+ hires — custom quotes for 24/7 coverage</li>
         </ul>
         <button class="btn btn-secondary" onclick="openEmployerModal('team')">Hire a Team</button>
       </div>
@@ -388,7 +388,7 @@ footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
 
 <footer>
   <div class="wrap footer-row">
-    <div>© 2026 BridgeDesk. Your partner, wherever you work.</div>
+    <div>© 2026 BridgeDesk. All rights reserved. Your partner, wherever you work.</div>
     <div>
       <a href="#employers">Employers</a>
       <a href="#assistants">Assistants</a>
@@ -681,8 +681,10 @@ document.getElementById('employer-form').addEventListener('submit', async (e) =>
     msg.textContent = `Request received! Reference: ${data.ref}`;
     msg.className = 'form-msg show ok';
     const box = document.getElementById('employer-payment');
-    box.innerHTML = `<p style="margin:0 0 4px;font-weight:600;">${data.message}</p>
-      <a class="btn btn-gold" href="${data.payment_url}" target="_blank" rel="noopener">Pay Placement Deposit via Wise</a>`;
+    box.innerHTML = data.payment_url
+      ? `<p style="margin:0 0 4px;font-weight:600;">${data.message}</p>
+         <a class="btn btn-gold" href="${data.payment_url}" target="_blank" rel="noopener">Pay Placement Deposit via Wise</a>`
+      : `<p style="margin:0;font-weight:600;">${data.message}</p>`;
     box.style.display = 'block';
     e.target.reset();
   } catch (err) {
