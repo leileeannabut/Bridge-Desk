@@ -105,7 +105,31 @@ jobs:
           fi
           COUNT=$(node -e "const d=require('./site/jobs.json');console.log((d.jobs||d).length)")
           git commit -m "Update job feed: $COUNT roles"
-          git push
+
+          # main can move between this job's checkout and this push — a
+          # manual push while the scrape is mid-run, or an overlapping
+          # workflow run. A bare `git push` fails the ENTIRE run (including
+          # a fully successful scrape) on any such race, which is what
+          # happened here: the scrape produced a good feed and still got
+          # marked failed because of this one line. Rebase onto the latest
+          # main immediately before pushing, and retry a few times, since a
+          # second push can still lose the race to a third.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Rebase conflict against main — needs a human to look at this, not something to retry past."
+              git rebase --abort
+              exit 1
+            fi
+            if git push origin main; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt, retrying..."
+            sleep 5
+          done
+          echo "Still couldn't push after 3 attempts."
+          exit 1
 
       - name: Report
         if: always()
