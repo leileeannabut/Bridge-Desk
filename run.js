@@ -191,19 +191,23 @@ function isAssistantRole(title = '') {
 /* ==========================================================================
    GLOBAL-FRIENDLY FILTER
    --------------------------------------------------------------------------
-   Every company in config.js is a US startup — that is guaranteed by the
+   Every company in config.js is a real startup — that is guaranteed by the
    scrape list, not by this filter. What this filter checks is the posting
-   itself: could this role actually be done by someone outside the US, or
-   does it require physical presence in a US office / US-only residency? A
-   candidate should never be shown a role they cannot actually take.
+   itself: could this role actually be done remotely by someone outside the
+   company's home country, or does it require physical presence in an office
+   / residency in one specific country? A candidate should never be shown a
+   role they cannot actually take.
    ========================================================================== */
 
 // Phrases that mean "this seat is in a building," not "remote."
 const ONSITE_ONLY = /\b(on[- ]?site|in[- ]?office|in[- ]?person only|must (be|reside) (in|within) (the )?(office|hq|headquarters))\b/i;
 
-// Phrases that restrict hiring to a specific country/region, which rules out
-// an international hire even when the posting also says "remote."
-const RESIDENCY_LOCKED = /\b(u\.?s\.? citizens? only|must be (a )?u\.?s\.? citizen|must reside in the (united states|u\.?s\.?)|u\.?s\.?[- ]based candidates only|no (visa sponsorship|international candidates)|not open to candidates outside the (u\.?s\.?|united states)|EU residents? only|UK residents? only)\b/i;
+// Phrases that restrict hiring to one specific country or region, which rules
+// out an international hire even when the posting also says "remote." Covers
+// the residency-lock phrasing most common in English-language postings —
+// not exhaustive for every country, so this only removes what it is
+// confident about (see the function doc below).
+const RESIDENCY_LOCKED = /\b(u\.?s\.? citizens? only|must be (a )?u\.?s\.? citizen|must reside in the (united states|u\.?s\.?)|u\.?s\.?[- ]based candidates only|no (visa sponsorship|international candidates)|not open to candidates outside the (u\.?s\.?|united states)|EU residents? only|UK residents? only|singapore(an)? citizens? only|malaysian citizens? only|must (be|reside) in singapore|must (be|reside) in malaysia)\b/i;
 
 // Phrases in the location or description that signal the opposite — genuinely
 // open to hiring anywhere, which is exactly what this board is looking for.
