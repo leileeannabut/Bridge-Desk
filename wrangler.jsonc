@@ -3,12 +3,22 @@
   "name": "bridgedesk",
   "compatibility_date": "2026-08-01",
   "main": "worker.js",
+
   "assets": {
+    // Serve ONLY the site folder. Pointing at "." would sweep in node_modules
+    // and publish your .git directory.
     "directory": "./site",
     "binding": "ASSETS",
+
+    // Any path that is not a real file returns index.html, so deep links work.
     "not_found_handling": "single-page-application",
+
+    // This runs worker.js first for /api/*, and serves assets everywhere else.
     "run_worker_first": ["/api/*"]
   },
+
+  // Applications, pool candidates, employer requests, matches, and click
+  // tracking. All five tables live in this one database — see schema.sql.
   "d1_databases": [
     {
       "binding": "DB",
@@ -16,6 +26,8 @@
       "database_id": "e5fce93e-2399-4fa5-95e1-b959c577e793"
     }
   ],
+
+  // Logs from console.error in worker.js.
   "observability": {
     "enabled": true
   }
