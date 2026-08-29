@@ -164,10 +164,23 @@ async function writeBack(results) {
 
   for (const r of resolved) {
     // Find this company's object literal by its id, then patch inside it.
-    const idAt = src.indexOf(`id: ${JSON.stringify(r.id)},`);
+    const idMarker = `id: ${JSON.stringify(r.id)},`;
+    const idAt = src.indexOf(idMarker);
     if (idAt === -1) continue;
-    const end = src.indexOf('\n  },', idAt);
-    if (end === -1) continue;
+
+    // The object's own end is wherever the NEXT company's `id: "..."` key
+    // begins (or end of file, for the last entry). This works regardless of
+    // whether an entry is written on one line or spread across several —
+    // an earlier version of this function looked for a specific '\n  },'
+    // closing-brace pattern, which only matched entries written in the
+    // original multi-line style. Every single-line entry (config.js is
+    // mostly single-line now) silently failed that check and was skipped
+    // with no error, so a company could be detected successfully on every
+    // run and never actually have its method saved.
+    const end = (() => {
+      const nextIdAt = src.indexOf('id: "', idAt + idMarker.length);
+      return nextIdAt === -1 ? src.length : nextIdAt;
+    })();
 
     const before = src.slice(idAt, end);
     const after = before
