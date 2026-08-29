@@ -298,15 +298,15 @@ export const COMPANIES = [
   // single startup, so total volume depends on having many source companies,
   // not just a few. All unresolved (method: null) until detect-ats.js runs.
   // ---------------------------------------------------------------------------
-  { id: "plaid", name: "Plaid", hub: "business", careersUrl: "https://plaid.com/careers/", website: "https://plaid.com", segment: "Financial Data API", verified: false, method: null, atsSlug: null, active: true },
-  { id: "checkr", name: "Checkr", hub: "business", careersUrl: "https://checkr.com/careers", website: "https://checkr.com", segment: "Background Check Platform", verified: false, method: null, atsSlug: null, active: true },
+  { id: "plaid", name: "Plaid", hub: "business", careersUrl: "https://plaid.com/careers/", website: "https://plaid.com", segment: "Financial Data API", verified: false, method: "dom", atsSlug: null, active: true },
+  { id: "checkr", name: "Checkr", hub: "business", careersUrl: "https://checkr.com/careers", website: "https://checkr.com", segment: "Background Check Platform", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "papaya-global", name: "Papaya Global", hub: "hr-tech", careersUrl: "https://www.papayaglobal.com/careers/", website: "https://www.papayaglobal.com", segment: "Global Payroll Platform", verified: false, method: null, atsSlug: null, active: true },
   { id: "toptal", name: "Toptal", hub: "business", careersUrl: "https://www.toptal.com/careers", website: "https://www.toptal.com", segment: "Freelance Talent Network (fully remote)", verified: false, method: null, atsSlug: null, active: true },
   { id: "athyna", name: "Athyna", hub: "business", careersUrl: "https://athyna.com/careers", website: "https://athyna.com", segment: "Global Talent Matching", verified: false, method: null, atsSlug: null, active: true },
   { id: "brightwheel", name: "Brightwheel", hub: "business", careersUrl: "https://mybrightwheel.com/careers", website: "https://mybrightwheel.com", segment: "Childcare Management Software", verified: false, method: null, atsSlug: null, active: true },
   { id: "papermark", name: "Attentive", hub: "business", careersUrl: "https://www.attentive.com/careers", website: "https://www.attentive.com", segment: "SMS Marketing Platform", verified: false, method: null, atsSlug: null, active: true },
   { id: "postscript", name: "Postscript", hub: "business", careersUrl: "https://postscript.io/careers", website: "https://postscript.io", segment: "SMS Marketing for Shopify (remote-first)", verified: false, method: null, atsSlug: null, active: true },
-  { id: "gorgias", name: "Gorgias", hub: "business", careersUrl: "https://www.gorgias.com/careers", website: "https://www.gorgias.com", segment: "E-commerce Helpdesk Software", verified: false, method: null, atsSlug: null, active: true },
+  { id: "gorgias", name: "Gorgias", hub: "business", careersUrl: "https://www.gorgias.com/careers", website: "https://www.gorgias.com", segment: "E-commerce Helpdesk Software", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "clockwise", name: "Clockwise", hub: "saas", careersUrl: "https://www.getclockwise.com/careers", website: "https://www.getclockwise.com", segment: "Calendar Scheduling AI", verified: false, method: null, atsSlug: null, active: true },
   { id: "motion", name: "Motion", hub: "saas", careersUrl: "https://www.usemotion.com/careers", website: "https://www.usemotion.com", segment: "AI Calendar & Task Manager", verified: false, method: null, atsSlug: null, active: true },
   { id: "runway", name: "Runway Financial", hub: "fintech", careersUrl: "https://www.runway.com/careers", website: "https://www.runway.com", segment: "Financial Planning Software", verified: false, method: null, atsSlug: null, active: true },
@@ -314,18 +314,18 @@ export const COMPANIES = [
   { id: "brightside", name: "Truework", hub: "fintech", careersUrl: "https://www.truework.com/careers", website: "https://www.truework.com", segment: "Income & Employment Verification", verified: false, method: null, atsSlug: null, active: true },
   { id: "modern-treasury", name: "Modern Treasury", hub: "fintech", careersUrl: "https://www.moderntreasury.com/careers", website: "https://www.moderntreasury.com", segment: "Payment Operations Platform", verified: false, method: null, atsSlug: null, active: true },
   { id: "highbeam", name: "Highbeam", hub: "fintech", careersUrl: "https://www.highbeam.co/careers", website: "https://www.highbeam.co", segment: "Banking for E-commerce", verified: false, method: null, atsSlug: null, active: true },
-  { id: "clio-legal", name: "Filevine", hub: "legaltech", careersUrl: "https://www.filevine.com/careers/", website: "https://www.filevine.com", segment: "Legal Case Management Software", verified: false, method: null, atsSlug: null, active: true },
+  { id: "clio-legal", name: "Filevine", hub: "legaltech", careersUrl: "https://www.filevine.com/careers/", website: "https://www.filevine.com", segment: "Legal Case Management Software", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "lawgeex", name: "LawGeex", hub: "legaltech", careersUrl: "https://www.lawgeex.com/careers/", website: "https://www.lawgeex.com", segment: "AI Contract Review", verified: false, method: null, atsSlug: null, active: true },
   { id: "juro", name: "Juro", hub: "legaltech", careersUrl: "https://juro.com/careers", website: "https://juro.com", segment: "Contract Collaboration Platform", verified: false, method: null, atsSlug: null, active: true },
   { id: "rally-legal", name: "Rally Legal Design", hub: "legaltech", careersUrl: "https://www.rallylegaldesign.com/careers", website: "https://www.rallylegaldesign.com", segment: "Legal Design Consultancy", verified: false, method: null, atsSlug: null, active: true },
-  { id: "eve-legal", name: "Eve", hub: "legaltech", careersUrl: "https://www.eve.legal/careers", website: "https://www.eve.legal", segment: "AI Platform for Plaintiff Law Firms", verified: false, method: null, atsSlug: null, active: true },
+  { id: "eve-legal", name: "Eve", hub: "legaltech", careersUrl: "https://www.eve.legal/careers", website: "https://www.eve.legal", segment: "AI Platform for Plaintiff Law Firms", verified: false, method: "greenhouse", atsSlug: "eve", active: true },
   { id: "hellosign", name: "Dropbox Sign (HelloSign)", hub: "legaltech", careersUrl: "https://www.hellosign.com/careers", website: "https://www.hellosign.com", segment: "E-signature Platform", verified: false, method: null, atsSlug: null, active: true },
   { id: "pandadoc", name: "PandaDoc", hub: "legaltech", careersUrl: "https://www.pandadoc.com/careers/", website: "https://www.pandadoc.com", segment: "Document Automation & E-signature", verified: false, method: null, atsSlug: null, active: true },
   { id: "hashicorp-alt", name: "Angi (formerly Angie's List)", hub: "business", careersUrl: "https://www.angi.com/careers/", website: "https://www.angi.com", segment: "Home Services Marketplace", verified: false, method: null, atsSlug: null, active: true },
   { id: "thumbtack", name: "Thumbtack", hub: "business", careersUrl: "https://www.thumbtack.com/careers/", website: "https://www.thumbtack.com", segment: "Local Services Marketplace", verified: false, method: null, atsSlug: null, active: true },
   { id: "sonder", name: "Sonder", hub: "business", careersUrl: "https://www.sonder.com/careers", website: "https://www.sonder.com", segment: "Tech-Enabled Hospitality", verified: false, method: null, atsSlug: null, active: true },
   { id: "lattice", name: "Lattice", hub: "hr-tech", careersUrl: "https://lattice.com/careers", website: "https://lattice.com", segment: "Performance Management Software", verified: false, method: null, atsSlug: null, active: true },
-  { id: "culture-amp", name: "Culture Amp", hub: "hr-tech", careersUrl: "https://www.cultureamp.com/careers", website: "https://www.cultureamp.com", segment: "Employee Experience Platform", verified: false, method: null, atsSlug: null, active: true },
+  { id: "culture-amp", name: "Culture Amp", hub: "hr-tech", careersUrl: "https://www.cultureamp.com/careers", website: "https://www.cultureamp.com", segment: "Employee Experience Platform", verified: false, method: "greenhouse", atsSlug: "cultureamp", active: true },
   { id: "greenhouse-software", name: "Greenhouse Software", hub: "hr-tech", careersUrl: "https://www.greenhouse.com/careers", website: "https://www.greenhouse.com", segment: "Recruiting Software", verified: false, method: null, atsSlug: null, active: true },
   { id: "ashby", name: "Ashby", hub: "hr-tech", careersUrl: "https://www.ashbyhq.com/careers", website: "https://www.ashbyhq.com", segment: "Recruiting Platform", verified: false, method: null, atsSlug: null, active: true },
   { id: "gem", name: "Gem", hub: "hr-tech", careersUrl: "https://www.gem.com/careers", website: "https://www.gem.com", segment: "Recruiting CRM", verified: false, method: null, atsSlug: null, active: true },
@@ -344,16 +344,16 @@ export const COMPANIES = [
   // ---------------------------------------------------------------------------
 
   // United Kingdom
-  { id: "monzo", name: "Monzo", hub: "fintech", careersUrl: "https://monzo.com/careers/", website: "https://monzo.com", segment: "Digital Bank", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
-  { id: "gocardless", name: "GoCardless", hub: "fintech", careersUrl: "https://gocardless.com/careers/", website: "https://gocardless.com", segment: "Recurring Payments Platform", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
-  { id: "wise-plc", name: "Wise", hub: "fintech", careersUrl: "https://wise.jobs/", website: "https://wise.com", segment: "International Money Transfer", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
-  { id: "typeform", name: "Typeform", hub: "saas", careersUrl: "https://www.typeform.com/careers/", website: "https://www.typeform.com", segment: "Online Forms & Surveys", country: "Spain", verified: false, method: null, atsSlug: null, active: true },
+  { id: "monzo", name: "Monzo", hub: "fintech", careersUrl: "https://monzo.com/careers/", website: "https://monzo.com", segment: "Digital Bank", country: "United Kingdom", verified: false, method: "greenhouse", atsSlug: "monzo", active: true },
+  { id: "gocardless", name: "GoCardless", hub: "fintech", careersUrl: "https://gocardless.com/careers/", website: "https://gocardless.com", segment: "Recurring Payments Platform", country: "United Kingdom", verified: false, method: "greenhouse", atsSlug: "gocardless", active: true },
+  { id: "wise-plc", name: "Wise", hub: "fintech", careersUrl: "https://wise.jobs/", website: "https://wise.com", segment: "International Money Transfer", country: "United Kingdom", verified: false, method: "dom", atsSlug: null, active: true },
+  { id: "typeform", name: "Typeform", hub: "saas", careersUrl: "https://www.typeform.com/careers/", website: "https://www.typeform.com", segment: "Online Forms & Surveys", country: "Spain", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "productboard", name: "Productboard", hub: "saas", careersUrl: "https://www.productboard.com/careers/", website: "https://www.productboard.com", segment: "Product Management Platform", country: "Czech Republic / US", verified: false, method: null, atsSlug: null, active: true },
 
   // Canada
-  { id: "shopify", name: "Shopify", hub: "saas", careersUrl: "https://www.shopify.com/careers", website: "https://www.shopify.com", segment: "E-commerce Platform (remote-first)", country: "Canada", verified: false, method: null, atsSlug: null, active: true },
+  { id: "shopify", name: "Shopify", hub: "saas", careersUrl: "https://www.shopify.com/careers", website: "https://www.shopify.com", segment: "E-commerce Platform (remote-first)", country: "Canada", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "wealthsimple", name: "Wealthsimple", hub: "fintech", careersUrl: "https://www.wealthsimple.com/en-ca/careers", website: "https://www.wealthsimple.com", segment: "Personal Finance Platform", country: "Canada", verified: false, method: null, atsSlug: null, active: true },
-  { id: "clearco", name: "Clearco", hub: "fintech", careersUrl: "https://clear.co/careers/", website: "https://clear.co", segment: "Revenue-Based Financing", country: "Canada", verified: false, method: null, atsSlug: null, active: true },
+  { id: "clearco", name: "Clearco", hub: "fintech", careersUrl: "https://clear.co/careers/", website: "https://clear.co", segment: "Revenue-Based Financing", country: "Canada", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Singapore
   { id: "carousell", name: "Carousell", hub: "business", careersUrl: "https://careers.carousell.com/", website: "https://www.carousell.com", segment: "Classifieds Marketplace", country: "Singapore", verified: false, method: null, atsSlug: null, active: true },
@@ -370,7 +370,7 @@ export const COMPANIES = [
   // Australia
   { id: "canva", name: "Canva", hub: "saas", careersUrl: "https://www.canva.com/careers/", website: "https://www.canva.com", segment: "Design Platform", country: "Australia", verified: false, method: null, atsSlug: null, active: true },
   { id: "safetyculture", name: "SafetyCulture", hub: "business", careersUrl: "https://safetyculture.com/careers/", website: "https://safetyculture.com", segment: "Workplace Safety Software", country: "Australia", verified: false, method: null, atsSlug: null, active: true },
-  { id: "airwallex", name: "Airwallex", hub: "fintech", careersUrl: "https://www.airwallex.com/careers", website: "https://www.airwallex.com", segment: "Global Business Payments", country: "Australia", verified: false, method: null, atsSlug: null, active: true },
+  { id: "airwallex", name: "Airwallex", hub: "fintech", careersUrl: "https://www.airwallex.com/careers", website: "https://www.airwallex.com", segment: "Global Business Payments", country: "Australia", verified: false, method: "dom", atsSlug: null, active: true },
 
   // ---------------------------------------------------------------------------
   // Global expansion, round 2 — the site's own copy promises roles "worldwide,"
@@ -384,13 +384,13 @@ export const COMPANIES = [
 
   // Fully distributed / no single HQ that matters for hiring
   // (Deel and Remote already appear above in the US section — not repeated here)
-  { id: "gitlab", name: "GitLab", hub: "saas", careersUrl: "https://about.gitlab.com/jobs/", website: "https://about.gitlab.com", segment: "DevOps Platform (all-remote)", country: "Global / Remote", verified: false, method: null, atsSlug: null, active: true },
+  { id: "gitlab", name: "GitLab", hub: "saas", careersUrl: "https://about.gitlab.com/jobs/", website: "https://about.gitlab.com", segment: "DevOps Platform (all-remote)", country: "Global / Remote", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "andela", name: "Andela", hub: "business", careersUrl: "https://andela.com/careers/", website: "https://andela.com", segment: "Global Remote Talent Network", country: "Global / Remote", verified: false, method: null, atsSlug: null, active: true },
 
   // Germany
-  { id: "n26", name: "N26", hub: "fintech", careersUrl: "https://n26.com/en/careers", website: "https://n26.com", segment: "Digital Bank", country: "Germany", verified: false, method: null, atsSlug: null, active: true },
+  { id: "n26", name: "N26", hub: "fintech", careersUrl: "https://n26.com/en/careers", website: "https://n26.com", segment: "Digital Bank", country: "Germany", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "personio", name: "Personio", hub: "hr-tech", careersUrl: "https://www.personio.com/career/", website: "https://www.personio.com", segment: "HR Software", country: "Germany", verified: false, method: null, atsSlug: null, active: true },
-  { id: "getyourguide", name: "GetYourGuide", hub: "business", careersUrl: "https://careers.getyourguide.com/", website: "https://www.getyourguide.com", segment: "Travel Experiences Marketplace", country: "Germany", verified: false, method: null, atsSlug: null, active: true },
+  { id: "getyourguide", name: "GetYourGuide", hub: "business", careersUrl: "https://careers.getyourguide.com/", website: "https://www.getyourguide.com", segment: "Travel Experiences Marketplace", country: "Germany", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "celonis", name: "Celonis", hub: "saas", careersUrl: "https://www.celonis.com/careers/", website: "https://www.celonis.com", segment: "Process Mining Software", country: "Germany", verified: false, method: null, atsSlug: null, active: true },
 
   // Sweden
@@ -400,23 +400,23 @@ export const COMPANIES = [
   // Netherlands
   { id: "adyen", name: "Adyen", hub: "fintech", careersUrl: "https://www.adyen.com/careers", website: "https://www.adyen.com", segment: "Payments Platform", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
   { id: "mollie", name: "Mollie", hub: "fintech", careersUrl: "https://www.mollie.com/careers", website: "https://www.mollie.com", segment: "Payments Platform", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
-  { id: "bunq", name: "Bunq", hub: "fintech", careersUrl: "https://www.bunq.com/careers", website: "https://www.bunq.com", segment: "Digital Bank", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
+  { id: "bunq", name: "Bunq", hub: "fintech", careersUrl: "https://www.bunq.com/careers", website: "https://www.bunq.com", segment: "Digital Bank", country: "Netherlands", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "bird", name: "Bird (MessageBird)", hub: "saas", careersUrl: "https://bird.com/careers", website: "https://bird.com", segment: "Customer Communications Platform", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
 
   // France
-  { id: "qonto", name: "Qonto", hub: "fintech", careersUrl: "https://qonto.com/en/careers", website: "https://qonto.com", segment: "Business Banking", country: "France", verified: false, method: null, atsSlug: null, active: true },
-  { id: "alan", name: "Alan", hub: "business", careersUrl: "https://alan.com/careers", website: "https://alan.com", segment: "Health Insurance Platform", country: "France", verified: false, method: null, atsSlug: null, active: true },
-  { id: "payfit", name: "PayFit", hub: "hr-tech", careersUrl: "https://payfit.com/careers/", website: "https://payfit.com", segment: "Payroll & HR Software", country: "France", verified: false, method: null, atsSlug: null, active: true },
-  { id: "spendesk", name: "Spendesk", hub: "fintech", careersUrl: "https://spendesk.com/careers", website: "https://spendesk.com", segment: "Spend Management Software", country: "France", verified: false, method: null, atsSlug: null, active: true },
+  { id: "qonto", name: "Qonto", hub: "fintech", careersUrl: "https://qonto.com/en/careers", website: "https://qonto.com", segment: "Business Banking", country: "France", verified: false, method: "lever", atsSlug: "qonto", active: true },
+  { id: "alan", name: "Alan", hub: "business", careersUrl: "https://alan.com/careers", website: "https://alan.com", segment: "Health Insurance Platform", country: "France", verified: false, method: "dom", atsSlug: null, active: true },
+  { id: "payfit", name: "PayFit", hub: "hr-tech", careersUrl: "https://payfit.com/careers/", website: "https://payfit.com", segment: "Payroll & HR Software", country: "France", verified: false, method: "dom", atsSlug: null, active: true },
+  { id: "spendesk", name: "Spendesk", hub: "fintech", careersUrl: "https://spendesk.com/careers", website: "https://spendesk.com", segment: "Spend Management Software", country: "France", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Ireland
-  { id: "intercom", name: "Intercom", hub: "saas", careersUrl: "https://www.intercom.com/careers", website: "https://www.intercom.com", segment: "Customer Messaging Platform", country: "Ireland", verified: false, method: null, atsSlug: null, active: true },
-  { id: "workhuman", name: "Workhuman", hub: "hr-tech", careersUrl: "https://www.workhuman.com/careers", website: "https://www.workhuman.com", segment: "Employee Recognition Software", country: "Ireland", verified: false, method: null, atsSlug: null, active: true },
+  { id: "intercom", name: "Intercom", hub: "saas", careersUrl: "https://www.intercom.com/careers", website: "https://www.intercom.com", segment: "Customer Messaging Platform", country: "Ireland", verified: false, method: "greenhouse", atsSlug: "intercom", active: true },
+  { id: "workhuman", name: "Workhuman", hub: "hr-tech", careersUrl: "https://www.workhuman.com/careers", website: "https://www.workhuman.com", segment: "Employee Recognition Software", country: "Ireland", verified: false, method: "workday", atsSlug: "workhuman.wd1.myworkdayjobs.com", active: true },
 
   // Estonia / Baltics
-  { id: "bolt-eu", name: "Bolt", hub: "business", careersUrl: "https://bolt.eu/en/careers/", website: "https://bolt.eu", segment: "Ride-Hailing & Delivery Super App", country: "Estonia", verified: false, method: null, atsSlug: null, active: true },
+  { id: "bolt-eu", name: "Bolt", hub: "business", careersUrl: "https://bolt.eu/en/careers/", website: "https://bolt.eu", segment: "Ride-Hailing & Delivery Super App", country: "Estonia", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "pipedrive", name: "Pipedrive", hub: "saas", careersUrl: "https://www.pipedrive.com/en/careers", website: "https://www.pipedrive.com", segment: "CRM Software", country: "Estonia", verified: false, method: null, atsSlug: null, active: true },
-  { id: "nordsecurity", name: "Nord Security", hub: "saas", careersUrl: "https://nordsecurity.com/careers", website: "https://nordsecurity.com", segment: "Cybersecurity (NordVPN)", country: "Lithuania", verified: false, method: null, atsSlug: null, active: true },
+  { id: "nordsecurity", name: "Nord Security", hub: "saas", careersUrl: "https://nordsecurity.com/careers", website: "https://nordsecurity.com", segment: "Cybersecurity (NordVPN)", country: "Lithuania", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Poland
   { id: "booksy", name: "Booksy", hub: "business", careersUrl: "https://booksy.com/en-us/careers", website: "https://booksy.com", segment: "Appointment Booking Platform", country: "Poland", verified: false, method: null, atsSlug: null, active: true },
@@ -441,14 +441,14 @@ export const COMPANIES = [
   { id: "tabby", name: "Tabby", hub: "fintech", careersUrl: "https://tabby.ai/careers", website: "https://tabby.ai", segment: "Buy Now, Pay Later", country: "United Arab Emirates", verified: false, method: null, atsSlug: null, active: true },
 
   // Nigeria
-  { id: "flutterwave", name: "Flutterwave", hub: "fintech", careersUrl: "https://www.flutterwave.com/us/careers", website: "https://flutterwave.com", segment: "Payments Infrastructure", country: "Nigeria", verified: false, method: null, atsSlug: null, active: true },
+  { id: "flutterwave", name: "Flutterwave", hub: "fintech", careersUrl: "https://www.flutterwave.com/us/careers", website: "https://flutterwave.com", segment: "Payments Infrastructure", country: "Nigeria", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "paystack", name: "Paystack", hub: "fintech", careersUrl: "https://paystack.com/careers", website: "https://paystack.com", segment: "Payments Infrastructure", country: "Nigeria", verified: false, method: null, atsSlug: null, active: true },
 
   // Kenya
   { id: "m-kopa", name: "M-KOPA", hub: "fintech", careersUrl: "https://www.m-kopa.com/careers/", website: "https://www.m-kopa.com", segment: "Asset Financing / Fintech", country: "Kenya", verified: false, method: null, atsSlug: null, active: true },
 
   // India
-  { id: "razorpay", name: "Razorpay", hub: "fintech", careersUrl: "https://razorpay.com/jobs/", website: "https://razorpay.com", segment: "Payments Platform", country: "India", verified: false, method: null, atsSlug: null, active: true },
+  { id: "razorpay", name: "Razorpay", hub: "fintech", careersUrl: "https://razorpay.com/jobs/", website: "https://razorpay.com", segment: "Payments Platform", country: "India", verified: false, method: "greenhouse", atsSlug: "razorpaysoftwareprivatelimited", active: true },
   { id: "freshworks", name: "Freshworks", hub: "saas", careersUrl: "https://www.freshworks.com/company/careers/", website: "https://www.freshworks.com", segment: "Customer Engagement Software", country: "India", verified: false, method: null, atsSlug: null, active: true },
 
   // Indonesia
@@ -456,7 +456,7 @@ export const COMPANIES = [
   { id: "gotocompany", name: "GoTo Group", hub: "business", careersUrl: "https://www.gotocompany.com/en/career", website: "https://www.gotocompany.com", segment: "Ride-Hailing, E-commerce & Fintech Super App", country: "Indonesia", verified: false, method: null, atsSlug: null, active: true },
 
   // Japan
-  { id: "mercari", name: "Mercari", hub: "business", careersUrl: "https://careers.mercari.com/", website: "https://www.mercari.com", segment: "C2C Marketplace", country: "Japan", verified: false, method: null, atsSlug: null, active: true },
+  { id: "mercari", name: "Mercari", hub: "business", careersUrl: "https://careers.mercari.com/", website: "https://www.mercari.com", segment: "C2C Marketplace", country: "Japan", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Singapore (additional)
   { id: "grab", name: "Grab", hub: "business", careersUrl: "https://grab.careers/", website: "https://www.grab.com", segment: "Ride-Hailing, Delivery & Fintech Super App", country: "Singapore", verified: false, method: null, atsSlug: null, active: true },
@@ -474,20 +474,20 @@ export const COMPANIES = [
   { id: "skyscanner", name: "Skyscanner", hub: "business", careersUrl: "https://www.skyscanner.net/about-us/careers", website: "https://www.skyscanner.net", segment: "Travel Search Engine", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
   { id: "depop", name: "Depop", hub: "business", careersUrl: "https://careers.depop.com/", website: "https://www.depop.com", segment: "Fashion Resale Marketplace", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
   { id: "starling-bank", name: "Starling Bank", hub: "fintech", careersUrl: "https://www.starlingbank.com/careers/", website: "https://www.starlingbank.com", segment: "Digital Bank", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
-  { id: "octopus-energy", name: "Octopus Energy", hub: "business", careersUrl: "https://octopus.energy/careers/", website: "https://octopus.energy", segment: "Energy Retailer & Tech", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
+  { id: "octopus-energy", name: "Octopus Energy", hub: "business", careersUrl: "https://octopus.energy/careers/", website: "https://octopus.energy", segment: "Energy Retailer & Tech", country: "United Kingdom", verified: false, method: "lever", atsSlug: "octoenergy", active: true },
   { id: "onfido", name: "Onfido", hub: "saas", careersUrl: "https://onfido.com/careers/", website: "https://onfido.com", segment: "Identity Verification Platform", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
-  { id: "tide-uk", name: "Tide", hub: "fintech", careersUrl: "https://www.tide.co/careers/", website: "https://www.tide.co", segment: "Business Banking", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
+  { id: "tide-uk", name: "Tide", hub: "fintech", careersUrl: "https://www.tide.co/careers/", website: "https://www.tide.co", segment: "Business Banking", country: "United Kingdom", verified: false, method: "greenhouse", atsSlug: "tide", active: true },
   { id: "curve-uk", name: "Curve", hub: "fintech", careersUrl: "https://www.curve.com/careers/", website: "https://www.curve.com", segment: "Card Aggregation Fintech", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
 
   // Canada (additional)
   { id: "hootsuite", name: "Hootsuite", hub: "saas", careersUrl: "https://www.hootsuite.com/careers", website: "https://www.hootsuite.com", segment: "Social Media Management Software", country: "Canada", verified: false, method: null, atsSlug: null, active: true },
-  { id: "lightspeed", name: "Lightspeed Commerce", hub: "saas", careersUrl: "https://www.lightspeedhq.com/careers/", website: "https://www.lightspeedhq.com", segment: "POS & E-commerce Platform", country: "Canada", verified: false, method: null, atsSlug: null, active: true },
+  { id: "lightspeed", name: "Lightspeed Commerce", hub: "saas", careersUrl: "https://www.lightspeedhq.com/careers/", website: "https://www.lightspeedhq.com", segment: "POS & E-commerce Platform", country: "Canada", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "faire", name: "Faire", hub: "business", careersUrl: "https://www.faire.com/careers", website: "https://www.faire.com", segment: "Wholesale Marketplace", country: "Canada / US", verified: false, method: null, atsSlug: null, active: true },
   { id: "borrowell", name: "Borrowell", hub: "fintech", careersUrl: "https://borrowell.com/careers", website: "https://borrowell.com", segment: "Credit Score & Personal Finance", country: "Canada", verified: false, method: null, atsSlug: null, active: true },
   { id: "ada-support", name: "Ada", hub: "saas", careersUrl: "https://www.ada.cx/careers/", website: "https://www.ada.cx", segment: "AI Customer Service Platform", country: "Canada", verified: false, method: null, atsSlug: null, active: true },
 
   // Australia (additional)
-  { id: "atlassian", name: "Atlassian", hub: "saas", careersUrl: "https://www.atlassian.com/company/careers", website: "https://www.atlassian.com", segment: "Collaboration Software (Jira, Trello)", country: "Australia", verified: false, method: null, atsSlug: null, active: true },
+  { id: "atlassian", name: "Atlassian", hub: "saas", careersUrl: "https://www.atlassian.com/company/careers", website: "https://www.atlassian.com", segment: "Collaboration Software (Jira, Trello)", country: "Australia", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "deputy", name: "Deputy", hub: "saas", careersUrl: "https://www.deputy.com/careers", website: "https://www.deputy.com", segment: "Workforce Management Software", country: "Australia", verified: false, method: null, atsSlug: null, active: true },
   { id: "employment-hero", name: "Employment Hero", hub: "hr-tech", careersUrl: "https://employmenthero.com/careers/", website: "https://employmenthero.com", segment: "HR & Payroll Platform", country: "Australia", verified: false, method: null, atsSlug: null, active: true },
 
@@ -496,10 +496,10 @@ export const COMPANIES = [
   { id: "meesho", name: "Meesho", hub: "business", careersUrl: "https://www.meesho.io/careers", website: "https://www.meesho.com", segment: "Social Commerce Marketplace", country: "India", verified: false, method: null, atsSlug: null, active: true },
   { id: "cred", name: "CRED", hub: "fintech", careersUrl: "https://careers.cred.club/", website: "https://cred.club", segment: "Credit Card Rewards & Fintech", country: "India", verified: false, method: null, atsSlug: null, active: true },
   { id: "postman", name: "Postman", hub: "saas", careersUrl: "https://www.postman.com/careers/", website: "https://www.postman.com", segment: "API Development Platform", country: "India", verified: false, method: null, atsSlug: null, active: true },
-  { id: "chargebee", name: "Chargebee", hub: "fintech", careersUrl: "https://www.chargebee.com/careers/", website: "https://www.chargebee.com", segment: "Subscription Billing Platform", country: "India", verified: false, method: null, atsSlug: null, active: true },
+  { id: "chargebee", name: "Chargebee", hub: "fintech", careersUrl: "https://www.chargebee.com/careers/", website: "https://www.chargebee.com", segment: "Subscription Billing Platform", country: "India", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Singapore (additional)
-  { id: "trax-sg", name: "Trax", hub: "saas", careersUrl: "https://traxretail.com/careers/", website: "https://traxretail.com", segment: "Retail Analytics / Computer Vision", country: "Singapore", verified: false, method: null, atsSlug: null, active: true },
+  { id: "trax-sg", name: "Trax", hub: "saas", careersUrl: "https://traxretail.com/careers/", website: "https://traxretail.com", segment: "Retail Analytics / Computer Vision", country: "Singapore", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "patsnap", name: "PatSnap", hub: "saas", careersUrl: "https://www.patsnap.com/careers", website: "https://www.patsnap.com", segment: "IP & Innovation Intelligence Platform", country: "Singapore", verified: false, method: null, atsSlug: null, active: true },
   { id: "shopback", name: "ShopBack", hub: "business", careersUrl: "https://www.shopback.com/careers", website: "https://www.shopback.com", segment: "Cashback & Rewards Platform", country: "Singapore", verified: false, method: null, atsSlug: null, active: true },
 
@@ -508,20 +508,20 @@ export const COMPANIES = [
   { id: "oy-indonesia", name: "OY! Indonesia", hub: "fintech", careersUrl: "https://oyindonesia.com/careers", website: "https://oyindonesia.com", segment: "Payments Infrastructure", country: "Indonesia", verified: false, method: null, atsSlug: null, active: true },
 
   // Nigeria (additional)
-  { id: "kuda", name: "Kuda", hub: "fintech", careersUrl: "https://kuda.com/careers/", website: "https://kuda.com", segment: "Digital Bank", country: "Nigeria", verified: false, method: null, atsSlug: null, active: true },
+  { id: "kuda", name: "Kuda", hub: "fintech", careersUrl: "https://kuda.com/careers/", website: "https://kuda.com", segment: "Digital Bank", country: "Nigeria", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "moniepoint", name: "Moniepoint", hub: "fintech", careersUrl: "https://moniepoint.com/careers", website: "https://moniepoint.com", segment: "Business Banking & Payments", country: "Nigeria", verified: false, method: null, atsSlug: null, active: true },
 
   // Brazil (additional)
-  { id: "ifood", name: "iFood", hub: "business", careersUrl: "https://carreiras.ifood.com.br/", website: "https://www.ifood.com.br", segment: "Food Delivery Platform", country: "Brazil", verified: false, method: null, atsSlug: null, active: true },
+  { id: "ifood", name: "iFood", hub: "business", careersUrl: "https://carreiras.ifood.com.br/", website: "https://www.ifood.com.br", segment: "Food Delivery Platform", country: "Brazil", verified: false, method: "greenhouse", atsSlug: "ifoodcarreiras", active: true },
   { id: "quintoandar", name: "QuintoAndar", hub: "business", careersUrl: "https://www.quintoandar.com.br/carreiras", website: "https://www.quintoandar.com.br", segment: "Real Estate Rental Platform", country: "Brazil", verified: false, method: null, atsSlug: null, active: true },
   { id: "creditas", name: "Creditas", hub: "fintech", careersUrl: "https://www.creditas.com/carreiras", website: "https://www.creditas.com", segment: "Secured Lending Platform", country: "Brazil", verified: false, method: null, atsSlug: null, active: true },
 
   // Mexico (additional)
-  { id: "clara-mx", name: "Clara", hub: "fintech", careersUrl: "https://www.clara.com/careers", website: "https://www.clara.com", segment: "Corporate Card & Spend Management", country: "Mexico", verified: false, method: null, atsSlug: null, active: true },
+  { id: "clara-mx", name: "Clara", hub: "fintech", careersUrl: "https://www.clara.com/careers", website: "https://www.clara.com", segment: "Corporate Card & Spend Management", country: "Mexico", verified: false, method: "greenhouse", atsSlug: "clara", active: true },
 
   // United Arab Emirates (additional)
   { id: "kitopi", name: "Kitopi", hub: "business", careersUrl: "https://kitopi.com/careers/", website: "https://kitopi.com", segment: "Cloud Kitchen Platform", country: "United Arab Emirates", verified: false, method: null, atsSlug: null, active: true },
-  { id: "property-finder", name: "Property Finder", hub: "business", careersUrl: "https://www.propertyfinder.com/careers", website: "https://www.propertyfinder.com", segment: "Real Estate Marketplace", country: "United Arab Emirates", verified: false, method: null, atsSlug: null, active: true },
+  { id: "property-finder", name: "Property Finder", hub: "business", careersUrl: "https://www.propertyfinder.com/careers", website: "https://www.propertyfinder.com", segment: "Real Estate Marketplace", country: "United Arab Emirates", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Switzerland
   { id: "smallpdf", name: "Smallpdf", hub: "saas", careersUrl: "https://smallpdf.com/careers", website: "https://smallpdf.com", segment: "PDF Tools SaaS", country: "Switzerland", verified: false, method: null, atsSlug: null, active: true },
@@ -534,7 +534,7 @@ export const COMPANIES = [
   // Denmark
   { id: "pleo", name: "Pleo", hub: "fintech", careersUrl: "https://www.pleo.io/en/careers", website: "https://www.pleo.io", segment: "Company Card & Spend Management", country: "Denmark", verified: false, method: null, atsSlug: null, active: true },
   { id: "vivino", name: "Vivino", hub: "business", careersUrl: "https://www.vivino.com/careers", website: "https://www.vivino.com", segment: "Wine Marketplace & Social App", country: "Denmark", verified: false, method: null, atsSlug: null, active: true },
-  { id: "templafy", name: "Templafy", hub: "saas", careersUrl: "https://www.templafy.com/careers/", website: "https://www.templafy.com", segment: "Document Generation Platform", country: "Denmark", verified: false, method: null, atsSlug: null, active: true },
+  { id: "templafy", name: "Templafy", hub: "saas", careersUrl: "https://www.templafy.com/careers/", website: "https://www.templafy.com", segment: "Document Generation Platform", country: "Denmark", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Norway
   { id: "cognite", name: "Cognite", hub: "saas", careersUrl: "https://www.cognite.com/en/careers", website: "https://www.cognite.com", segment: "Industrial DataOps Platform", country: "Norway", verified: false, method: null, atsSlug: null, active: true },
@@ -542,20 +542,20 @@ export const COMPANIES = [
 
   // Finland
   { id: "wolt", name: "Wolt", hub: "business", careersUrl: "https://careers.wolt.com/", website: "https://wolt.com", segment: "Delivery Super App", country: "Finland", verified: false, method: null, atsSlug: null, active: true },
-  { id: "supercell", name: "Supercell", hub: "business", careersUrl: "https://supercell.com/en/careers/", website: "https://supercell.com", segment: "Mobile Gaming Studio", country: "Finland", verified: false, method: null, atsSlug: null, active: true },
-  { id: "smartly-io", name: "Smartly.io", hub: "saas", careersUrl: "https://www.smartly.io/careers", website: "https://www.smartly.io", segment: "Social Advertising Automation", country: "Finland", verified: false, method: null, atsSlug: null, active: true },
+  { id: "supercell", name: "Supercell", hub: "business", careersUrl: "https://supercell.com/en/careers/", website: "https://supercell.com", segment: "Mobile Gaming Studio", country: "Finland", verified: false, method: "dom", atsSlug: null, active: true },
+  { id: "smartly-io", name: "Smartly.io", hub: "saas", careersUrl: "https://www.smartly.io/careers", website: "https://www.smartly.io", segment: "Social Advertising Automation", country: "Finland", verified: false, method: "greenhouse", atsSlug: "smartlyio", active: true },
 
   // Italy
   { id: "satispay", name: "Satispay", hub: "fintech", careersUrl: "https://www.satispay.com/en-it/careers/", website: "https://www.satispay.com", segment: "Mobile Payments Platform", country: "Italy", verified: false, method: null, atsSlug: null, active: true },
   { id: "musixmatch", name: "Musixmatch", hub: "saas", careersUrl: "https://www.musixmatch.com/careers", website: "https://www.musixmatch.com", segment: "Lyrics & Music Data Platform", country: "Italy", verified: false, method: null, atsSlug: null, active: true },
 
   // Portugal
-  { id: "talkdesk", name: "Talkdesk", hub: "saas", careersUrl: "https://www.talkdesk.com/careers/", website: "https://www.talkdesk.com", segment: "Cloud Contact Center Software", country: "Portugal", verified: false, method: null, atsSlug: null, active: true },
+  { id: "talkdesk", name: "Talkdesk", hub: "saas", careersUrl: "https://www.talkdesk.com/careers/", website: "https://www.talkdesk.com", segment: "Cloud Contact Center Software", country: "Portugal", verified: false, method: "greenhouse", atsSlug: "talkdesk2", active: true },
   { id: "feedzai", name: "Feedzai", hub: "fintech", careersUrl: "https://feedzai.com/careers/", website: "https://feedzai.com", segment: "Fraud Prevention AI", country: "Portugal", verified: false, method: null, atsSlug: null, active: true },
   { id: "unbabel", name: "Unbabel", hub: "saas", careersUrl: "https://unbabel.com/careers/", website: "https://unbabel.com", segment: "AI Translation Platform", country: "Portugal", verified: false, method: null, atsSlug: null, active: true },
 
   // South Africa
-  { id: "yoco", name: "Yoco", hub: "fintech", careersUrl: "https://www.yoco.com/za/careers/", website: "https://www.yoco.com", segment: "Card Payments for SMEs", country: "South Africa", verified: false, method: null, atsSlug: null, active: true },
+  { id: "yoco", name: "Yoco", hub: "fintech", careersUrl: "https://www.yoco.com/za/careers/", website: "https://www.yoco.com", segment: "Card Payments for SMEs", country: "South Africa", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "naked-insurance", name: "Naked Insurance", hub: "fintech", careersUrl: "https://naked.insure/careers", website: "https://naked.insure", segment: "Digital Insurance", country: "South Africa", verified: false, method: null, atsSlug: null, active: true },
   { id: "luno", name: "Luno", hub: "fintech", careersUrl: "https://www.luno.com/en/careers", website: "https://www.luno.com", segment: "Crypto Exchange", country: "South Africa", verified: false, method: null, atsSlug: null, active: true },
 
@@ -566,7 +566,7 @@ export const COMPANIES = [
 
   // Israel
   { id: "wix", name: "Wix", hub: "saas", careersUrl: "https://www.wix.com/jobs/", website: "https://www.wix.com", segment: "Website Builder Platform", country: "Israel", verified: false, method: null, atsSlug: null, active: true },
-  { id: "monday-com", name: "monday.com", hub: "saas", careersUrl: "https://monday.com/careers/", website: "https://monday.com", segment: "Work OS / Project Management", country: "Israel", verified: false, method: null, atsSlug: null, active: true },
+  { id: "monday-com", name: "monday.com", hub: "saas", careersUrl: "https://monday.com/careers/", website: "https://monday.com", segment: "Work OS / Project Management", country: "Israel", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "fiverr", name: "Fiverr", hub: "business", careersUrl: "https://www.fiverr.com/careers", website: "https://www.fiverr.com", segment: "Freelance Services Marketplace", country: "Israel", verified: false, method: null, atsSlug: null, active: true },
   { id: "melio", name: "Melio", hub: "fintech", careersUrl: "https://www.meliopayments.com/careers", website: "https://www.meliopayments.com", segment: "B2B Payments Platform", country: "Israel", verified: false, method: null, atsSlug: null, active: true },
 
@@ -590,7 +590,7 @@ export const COMPANIES = [
   { id: "woowa-brothers", name: "Woowa Brothers (Baemin)", hub: "business", careersUrl: "https://www.woowahan.com/en/careers", website: "https://www.woowahan.com", segment: "Food Delivery Platform", country: "South Korea", verified: false, method: null, atsSlug: null, active: true },
 
   // Hong Kong
-  { id: "klook", name: "Klook", hub: "business", careersUrl: "https://www.klook.com/en-US/careers/", website: "https://www.klook.com", segment: "Travel Experiences Marketplace", country: "Hong Kong", verified: false, method: null, atsSlug: null, active: true },
+  { id: "klook", name: "Klook", hub: "business", careersUrl: "https://www.klook.com/en-US/careers/", website: "https://www.klook.com", segment: "Travel Experiences Marketplace", country: "Hong Kong", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "gogox", name: "GoGoX", hub: "business", careersUrl: "https://www.gogox.com/en/careers/", website: "https://www.gogox.com", segment: "On-Demand Logistics", country: "Hong Kong", verified: false, method: null, atsSlug: null, active: true },
 
   // ---------------------------------------------------------------------------
@@ -603,7 +603,7 @@ export const COMPANIES = [
   // Digital marketing / growth agencies (heavy VA/admin/content hirers)
   { id: "single-grain", name: "Single Grain", hub: "business", careersUrl: "https://www.singlegrain.com/careers/", website: "https://www.singlegrain.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
   { id: "np-digital", name: "NP Digital", hub: "business", careersUrl: "https://npdigital.com/careers/", website: "https://npdigital.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
-  { id: "webfx", name: "WebFX", hub: "business", careersUrl: "https://www.webfx.com/careers/", website: "https://www.webfx.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "webfx", name: "WebFX", hub: "business", careersUrl: "https://www.webfx.com/careers/", website: "https://www.webfx.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: "lever", atsSlug: "webfx", active: true },
   { id: "ignite-visibility", name: "Ignite Visibility", hub: "business", careersUrl: "https://ignitevisibility.com/careers/", website: "https://ignitevisibility.com", segment: "Digital Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
   { id: "directive-consulting", name: "Directive Consulting", hub: "business", careersUrl: "https://directiveconsulting.com/careers/", website: "https://directiveconsulting.com", segment: "B2B Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
 
@@ -618,19 +618,19 @@ export const COMPANIES = [
   { id: "keller-williams", name: "Keller Williams", hub: "business", careersUrl: "https://www.kw.com/careers/", website: "https://www.kw.com", segment: "Real Estate Franchise", country: "United States", verified: false, method: null, atsSlug: null, active: true },
   { id: "redfin", name: "Redfin", hub: "business", careersUrl: "https://www.redfin.com/about/jobs", website: "https://www.redfin.com", segment: "Real Estate Brokerage Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
   { id: "opendoor", name: "Opendoor", hub: "business", careersUrl: "https://www.opendoor.com/careers", website: "https://www.opendoor.com", segment: "iBuyer Real Estate Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
-  { id: "compass-re", name: "Compass", hub: "business", careersUrl: "https://www.compass.com/careers/", website: "https://www.compass.com", segment: "Real Estate Brokerage Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "compass-re", name: "Compass", hub: "business", careersUrl: "https://www.compass.com/careers/", website: "https://www.compass.com", segment: "Real Estate Brokerage Platform", country: "United States", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Education / e-learning
-  { id: "coursera", name: "Coursera", hub: "saas", careersUrl: "https://www.coursera.org/about/careers", website: "https://www.coursera.org", segment: "Online Learning Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "coursera", name: "Coursera", hub: "saas", careersUrl: "https://www.coursera.org/about/careers", website: "https://www.coursera.org", segment: "Online Learning Platform", country: "United States", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "udemy", name: "Udemy", hub: "saas", careersUrl: "https://about.udemy.com/careers/", website: "https://www.udemy.com", segment: "Online Learning Marketplace", country: "United States", verified: false, method: null, atsSlug: null, active: true },
   { id: "skillshare", name: "Skillshare", hub: "saas", careersUrl: "https://www.skillshare.com/en/careers", website: "https://www.skillshare.com", segment: "Creative Online Learning Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
   { id: "masterclass", name: "MasterClass", hub: "business", careersUrl: "https://www.masterclass.com/careers", website: "https://www.masterclass.com", segment: "Online Learning / Celebrity-taught Courses", country: "United States", verified: false, method: null, atsSlug: null, active: true },
 
   // Telehealth (patient coordination, intake support)
-  { id: "teladoc", name: "Teladoc Health", hub: "business", careersUrl: "https://www.teladochealth.com/careers/", website: "https://www.teladochealth.com", segment: "Telehealth Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "teladoc", name: "Teladoc Health", hub: "business", careersUrl: "https://www.teladochealth.com/careers/", website: "https://www.teladochealth.com", segment: "Telehealth Platform", country: "United States", verified: false, method: "workday", atsSlug: "teladoc.wd503.myworkdayjobs.com", active: true },
   { id: "hims-hers", name: "Hims & Hers", hub: "business", careersUrl: "https://www.hims.com/careers", website: "https://www.hims.com", segment: "Telehealth & Wellness Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
-  { id: "ro-health", name: "Ro", hub: "business", careersUrl: "https://ro.co/careers/", website: "https://ro.co", segment: "Telehealth Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
-  { id: "included-health", name: "Included Health", hub: "business", careersUrl: "https://includedhealth.com/careers/", website: "https://includedhealth.com", segment: "Virtual Healthcare Navigation Platform", country: "United States", verified: false, method: null, atsSlug: null, active: true },
+  { id: "ro-health", name: "Ro", hub: "business", careersUrl: "https://ro.co/careers/", website: "https://ro.co", segment: "Telehealth Platform", country: "United States", verified: false, method: "lever", atsSlug: "ro", active: true },
+  { id: "included-health", name: "Included Health", hub: "business", careersUrl: "https://includedhealth.com/careers/", website: "https://includedhealth.com", segment: "Virtual Healthcare Navigation Platform", country: "United States", verified: false, method: "lever", atsSlug: "includedhealth", active: true },
 
   // Media / publishing (content ops, scheduling, community)
   { id: "vox-media", name: "Vox Media", hub: "business", careersUrl: "https://www.voxmedia.com/careers", website: "https://www.voxmedia.com", segment: "Digital Media Company", country: "United States", verified: false, method: null, atsSlug: null, active: true },
@@ -638,7 +638,7 @@ export const COMPANIES = [
   { id: "morning-brew", name: "Morning Brew", hub: "business", careersUrl: "https://www.morningbrew.com/about/careers", website: "https://www.morningbrew.com", segment: "Newsletter Media Company", country: "United States", verified: false, method: null, atsSlug: null, active: true },
 
   // Large global scale-ups — not early-stage, but real remote/admin demand at volume
-  { id: "booking-com", name: "Booking.com", hub: "business", careersUrl: "https://careers.booking.com/", website: "https://www.booking.com", segment: "Online Travel Agency", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
+  { id: "booking-com", name: "Booking.com", hub: "business", careersUrl: "https://careers.booking.com/", website: "https://www.booking.com", segment: "Online Travel Agency", country: "Netherlands", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "zalando", name: "Zalando", hub: "business", careersUrl: "https://jobs.zalando.com/en/", website: "https://www.zalando.com", segment: "Fashion E-commerce Platform", country: "Germany", verified: false, method: null, atsSlug: null, active: true },
   { id: "asos", name: "ASOS", hub: "business", careersUrl: "https://www.asoscareers.com/", website: "https://www.asos.com", segment: "Fashion E-commerce Retailer", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
   { id: "farfetch", name: "Farfetch", hub: "business", careersUrl: "https://www.farfetchcareers.com/", website: "https://www.farfetch.com", segment: "Luxury Fashion E-commerce", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
