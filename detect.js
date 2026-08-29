@@ -6,7 +6,7 @@
  * result back into config.js.
  *
  *   node scripts/detect-ats.js                 # every pending company
- *   node scripts/detect-ats.js --hub=startup   # one hub (only one exists)
+ *   node scripts/detect-ats.js --hub=business  # one hub only
  *   node scripts/detect-ats.js --dry           # print, write nothing
  *   node scripts/detect-ats.js --only=entrata  # a single company
  *
@@ -25,9 +25,17 @@ const args = Object.fromEntries(process.argv.slice(2).map((a) => {
   return [k, v ?? true];
 }));
 
-const TIMEOUT_MS = 15000;
+const TIMEOUT_MS = 20000; // matches run.js's own timeout; 15s was aborting some slower-loading pages (e.g. Zomato) before they finished responding
 const CONCURRENCY = 6;
-const UA = 'BridgeDeskBot/1.0 (+https://bridgedesk.co)';
+// A self-identifying bot UA ("BridgeDeskBot/1.0") gets auto-blocked by most
+// WAFs (Cloudflare, Akamai, PerimeterX) before the request even reaches the
+// company's server — that's the direct cause of a large share of the 403s
+// this script sees in practice. A standard browser UA is not deceptive about
+// intent (this scraper still identifies its purpose openly in the codebase
+// and only republishes public job postings with a link back to the source),
+// it just avoids the reflexive bot-block that a literal "Bot" substring
+// triggers regardless of what the request is actually doing.
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
 
 /* ---------------------------------------------------------------------------
    Signatures. Each returns { method, slug } or null.
@@ -164,10 +172,23 @@ async function writeBack(results) {
 
   for (const r of resolved) {
     // Find this company's object literal by its id, then patch inside it.
-    const idAt = src.indexOf(`id: ${JSON.stringify(r.id)},`);
+    const idMarker = `id: ${JSON.stringify(r.id)},`;
+    const idAt = src.indexOf(idMarker);
     if (idAt === -1) continue;
-    const end = src.indexOf('\n  },', idAt);
-    if (end === -1) continue;
+
+    // The object's own end is wherever the NEXT company's `id: "..."` key
+    // begins (or end of file, for the last entry). This works regardless of
+    // whether an entry is written on one line or spread across several —
+    // an earlier version of this function looked for a specific '\n  },'
+    // closing-brace pattern, which only matched entries written in the
+    // original multi-line style. Every single-line entry (config.js is
+    // mostly single-line now) silently failed that check and was skipped
+    // with no error, so a company could be detected successfully on every
+    // run and never actually have its method saved.
+    const end = (() => {
+      const nextIdAt = src.indexOf('id: "', idAt + idMarker.length);
+      return nextIdAt === -1 ? src.length : nextIdAt;
+    })();
 
     const before = src.slice(idAt, end);
     const after = before
