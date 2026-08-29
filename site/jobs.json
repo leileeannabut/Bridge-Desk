@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T09:07:46.571Z",
+  "generated_at": "2026-08-29T09:08:19.100Z",
   "count": 10,
   "sources_ok": 10,
   "sources_failed": 2,
@@ -23,7 +23,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6122010004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T17:24:50-04:00",
-      "scraped_at": "2026-08-29T09:07:44.996Z",
+      "scraped_at": "2026-08-29T09:08:14.460Z",
       "status": "open"
     },
     {
@@ -45,7 +45,7 @@
       "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T14:13:52-04:00",
-      "scraped_at": "2026-08-29T09:07:45.443Z",
+      "scraped_at": "2026-08-29T09:08:14.956Z",
       "status": "open"
     },
     {
@@ -67,7 +67,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-08-26T13:00:27-04:00",
-      "scraped_at": "2026-08-29T09:07:44.995Z",
+      "scraped_at": "2026-08-29T09:08:14.458Z",
       "status": "open"
     },
     {
@@ -89,7 +89,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-08-29T09:07:44.997Z",
+      "scraped_at": "2026-08-29T09:08:14.461Z",
       "status": "open"
     },
     {
@@ -111,7 +111,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6138978004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:34:49-04:00",
-      "scraped_at": "2026-08-29T09:07:44.996Z",
+      "scraped_at": "2026-08-29T09:08:14.460Z",
       "status": "open"
     },
     {
@@ -221,7 +221,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T09:07:44.924Z",
+      "scraped_at": "2026-08-29T09:08:14.473Z",
       "status": "open"
     }
   ]
