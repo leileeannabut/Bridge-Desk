@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T00:00:00Z",
+  "generated_at": "2026-08-29T07:56:43.143Z",
   "count": 4,
-  "sources_ok": 1,
-  "sources_failed": 0,
+  "sources_ok": 9,
+  "sources_failed": 2,
   "jobs": [
     {
       "id": "greenhouse:saas-academy:sample-001",
@@ -92,6 +92,5 @@
       "scraped_at": "2026-08-27T00:00:00Z",
       "status": "open"
     }
-  ],
-  "note": "This is a placeholder feed. Run `npm run scrape` (or let the daily GitHub Action run) to replace it with live listings from config.js."
+  ]
 }
