@@ -20,10 +20,11 @@ on:
     - cron: '0 7 * * *'
   workflow_dispatch:
     inputs:
-      only:
-        description: 'Scrape one company only (its config.js id) — leave blank for all'
-        type: string
-        default: ''
+      hub:
+        description: 'Which hub to scrape'
+        type: choice
+        options: [both, business, legal]
+        default: both
       detect:
         description: 'Re-detect ATS for companies with no scrape method'
         type: boolean
@@ -59,19 +60,16 @@ jobs:
         if: inputs.detect
         run: node scripts/detect-ats.js
 
-      - name: Scrape all companies
-        if: inputs.only == ''
-        env:
-          HISTORY_URL: ${{ secrets.HISTORY_URL }}
-          HISTORY_KEY: ${{ secrets.HISTORY_KEY }}
+      # A single pass over every company when no hub is chosen. run.js merges
+      # correctly either way — a hub run now leaves the other hub's roles
+      # untouched — but one invocation is simpler and half the requests.
+      - name: Scrape both hubs
+        if: inputs.hub == '' || inputs.hub == 'both'
         run: node run.js --out=site/jobs.json
 
-      - name: Scrape one company
-        if: inputs.only != ''
-        env:
-          HISTORY_URL: ${{ secrets.HISTORY_URL }}
-          HISTORY_KEY: ${{ secrets.HISTORY_KEY }}
-        run: node run.js --only=${{ inputs.only }} --out=site/jobs.json
+      - name: Scrape one hub
+        if: inputs.hub == 'business' || inputs.hub == 'legal'
+        run: node run.js --hub=${{ inputs.hub }} --out=site/jobs.json
 
       # Guard against publishing a broken or empty feed. A scrape that fails
       # halfway should leave yesterday's feed in place, not replace it with
@@ -84,14 +82,10 @@ jobs:
             const data = JSON.parse(raw);
             const jobs = Array.isArray(data) ? data : data.jobs;
             if (!Array.isArray(jobs)) throw new Error('feed is not an array of jobs');
-            // An empty feed is only a failure if the scrape itself broke. If every
-            // source answered and simply had no assistant roles open, that is a
-            // real (if quiet) result and the site shows its empty state.
-            if (jobs.length === 0 && !(data.sources_ok > 0 && data.sources_failed === 0)) throw new Error('feed is empty and sources failed — refusing to publish');
-            if (jobs.length === 0) console.log('feed ok: 0 jobs (all ' + data.sources_ok + ' sources answered, none had an assistant role open)');
+            if (jobs.length === 0) throw new Error('feed is empty — refusing to publish');
             const bad = jobs.filter(j => !j.id || !j.title || !j.company);
             if (bad.length) throw new Error(bad.length + ' rows missing id, title or company');
-            if (jobs.length) console.log('feed ok: ' + jobs.length + ' jobs across regions: ' + JSON.stringify(data.regions || {}));
+            console.log('feed ok: ' + jobs.length + ' jobs');
           "
 
       - name: Commit the feed (and any newly detected ATS methods)
