@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-08-29T13:05:57.103Z",
-  "count": 56,
-  "sources_ok": 46,
-  "sources_failed": 18,
+  "generated_at": "2026-08-29T14:49:05.213Z",
+  "count": 55,
+  "total_open": 55,
+  "sources_ok": 47,
+  "sources_failed": 17,
   "jobs": [
     {
       "id": "greenhouse:tide-uk:7980283003",
@@ -23,7 +24,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7980283003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T08:58:32-04:00",
-      "scraped_at": "2026-08-29T13:05:47.221Z",
+      "scraped_at": "2026-08-29T14:48:53.397Z",
       "status": "open"
     },
     {
@@ -45,7 +46,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7685198003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T13:05:47.221Z",
+      "scraped_at": "2026-08-29T14:48:53.397Z",
       "status": "open"
     },
     {
@@ -67,7 +68,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7598880003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T13:05:47.221Z",
+      "scraped_at": "2026-08-29T14:48:53.397Z",
       "status": "open"
     },
     {
@@ -89,7 +90,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7081017003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T13:05:47.221Z",
+      "scraped_at": "2026-08-29T14:48:53.397Z",
       "status": "open"
     },
     {
@@ -111,7 +112,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T13:05:47.222Z",
+      "scraped_at": "2026-08-29T14:48:53.397Z",
       "status": "open"
     },
     {
@@ -133,7 +134,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-29T13:05:47.222Z",
+      "scraped_at": "2026-08-29T14:48:53.398Z",
       "status": "open"
     },
     {
@@ -155,7 +156,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155589",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:19:36-04:00",
-      "scraped_at": "2026-08-29T13:05:29.288Z",
+      "scraped_at": "2026-08-29T14:48:47.649Z",
       "status": "open"
     },
     {
@@ -177,7 +178,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155588",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:19:11-04:00",
-      "scraped_at": "2026-08-29T13:05:29.288Z",
+      "scraped_at": "2026-08-29T14:48:47.650Z",
       "status": "open"
     },
     {
@@ -199,7 +200,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155586",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:18:46-04:00",
-      "scraped_at": "2026-08-29T13:05:29.288Z",
+      "scraped_at": "2026-08-29T14:48:47.649Z",
       "status": "open"
     },
     {
@@ -221,7 +222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8143567",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:18:27-04:00",
-      "scraped_at": "2026-08-29T13:05:29.288Z",
+      "scraped_at": "2026-08-29T14:48:47.649Z",
       "status": "open"
     },
     {
@@ -243,7 +244,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6122010004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T17:24:50-04:00",
-      "scraped_at": "2026-08-29T13:05:25.474Z",
+      "scraped_at": "2026-08-29T14:48:43.891Z",
       "status": "open"
     },
     {
@@ -265,7 +266,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-08-29T13:05:48.879Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -287,7 +288,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-08-26T13:00:27-04:00",
-      "scraped_at": "2026-08-29T13:05:25.473Z",
+      "scraped_at": "2026-08-29T14:48:43.890Z",
       "status": "open"
     },
     {
@@ -309,7 +310,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8138520",
       "source": "greenhouse",
       "posted_at": "2026-08-25T06:58:32-04:00",
-      "scraped_at": "2026-08-29T13:05:29.434Z",
+      "scraped_at": "2026-08-29T14:48:47.668Z",
       "status": "open"
     },
     {
@@ -331,7 +332,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-08-24T08:23:58-04:00",
-      "scraped_at": "2026-08-29T13:05:29.434Z",
+      "scraped_at": "2026-08-29T14:48:47.668Z",
       "status": "open"
     },
     {
@@ -353,7 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8105783",
       "source": "greenhouse",
       "posted_at": "2026-08-24T04:19:41-04:00",
-      "scraped_at": "2026-08-29T13:05:29.331Z",
+      "scraped_at": "2026-08-29T14:48:47.705Z",
       "status": "open"
     },
     {
@@ -375,7 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-08-29T13:05:25.475Z",
+      "scraped_at": "2026-08-29T14:48:43.892Z",
       "status": "open"
     },
     {
@@ -397,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6138978004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:34:49-04:00",
-      "scraped_at": "2026-08-29T13:05:25.475Z",
+      "scraped_at": "2026-08-29T14:48:43.892Z",
       "status": "open"
     },
     {
@@ -441,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
       "source": "greenhouse",
       "posted_at": "2026-08-19T08:40:20-04:00",
-      "scraped_at": "2026-08-29T13:05:29.331Z",
+      "scraped_at": "2026-08-29T14:48:47.703Z",
       "status": "open"
     },
     {
@@ -463,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/eve/jobs/4341655009",
       "source": "greenhouse",
       "posted_at": "2026-08-18T19:42:23-04:00",
-      "scraped_at": "2026-08-29T13:05:29.240Z",
+      "scraped_at": "2026-08-29T14:48:47.605Z",
       "status": "open"
     },
     {
@@ -551,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8082783",
       "source": "greenhouse",
       "posted_at": "2026-08-12T01:18:05-04:00",
-      "scraped_at": "2026-08-29T13:05:29.288Z",
+      "scraped_at": "2026-08-29T14:48:47.650Z",
       "status": "open"
     },
     {
@@ -573,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521806002",
       "source": "greenhouse",
       "posted_at": "2026-08-07T11:40:30-04:00",
-      "scraped_at": "2026-08-29T13:05:49.330Z",
+      "scraped_at": "2026-08-29T14:48:54.637Z",
       "status": "open"
     },
     {
@@ -595,7 +596,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-08-29T13:05:48.879Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -617,7 +618,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/88d09213-d4fe-4c85-92ce-954901559d92",
       "source": "lever",
       "posted_at": "2026-08-04T14:32:11.323Z",
-      "scraped_at": "2026-08-29T13:05:48.879Z",
+      "scraped_at": "2026-08-29T14:48:54.180Z",
       "status": "open"
     },
     {
@@ -639,7 +640,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126662004",
       "source": "greenhouse",
       "posted_at": "2026-07-24T17:54:15-04:00",
-      "scraped_at": "2026-08-29T13:05:53.640Z",
+      "scraped_at": "2026-08-29T14:49:01.958Z",
       "status": "open"
     },
     {
@@ -661,7 +662,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-08-29T13:05:48.879Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -683,7 +684,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4cc16c3e-f07c-435a-9f16-f162400ee703",
       "source": "lever",
       "posted_at": "2026-07-21T08:48:59.916Z",
-      "scraped_at": "2026-08-29T13:05:48.879Z",
+      "scraped_at": "2026-08-29T14:48:54.180Z",
       "status": "open"
     },
     {
@@ -705,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
       "source": "greenhouse",
       "posted_at": "2026-07-21T03:06:30-04:00",
-      "scraped_at": "2026-08-29T13:05:53.640Z",
+      "scraped_at": "2026-08-29T14:49:01.958Z",
       "status": "open"
     },
     {
@@ -727,7 +728,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8545100002",
       "source": "greenhouse",
       "posted_at": "2026-07-16T07:52:07-04:00",
-      "scraped_at": "2026-08-29T13:05:49.330Z",
+      "scraped_at": "2026-08-29T14:48:54.637Z",
       "status": "open"
     },
     {
@@ -749,7 +750,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/2c549930-f851-4077-9fef-8f4291ee7649",
       "source": "lever",
       "posted_at": "2026-07-07T12:09:13.992Z",
-      "scraped_at": "2026-08-29T13:05:48.878Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -771,7 +772,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-08-29T13:05:48.878Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -793,7 +794,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-06-23T11:59:32-04:00",
-      "scraped_at": "2026-08-29T13:05:53.640Z",
+      "scraped_at": "2026-08-29T14:49:01.958Z",
       "status": "open"
     },
     {
@@ -815,7 +816,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-08-29T13:05:48.878Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -837,7 +838,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/221e6a7a-4e02-4dd4-83d7-babe5361f21a",
       "source": "lever",
       "posted_at": "2026-06-12T10:36:34.244Z",
-      "scraped_at": "2026-08-29T13:05:48.878Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -859,7 +860,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-08-29T13:05:48.879Z",
+      "scraped_at": "2026-08-29T14:48:54.180Z",
       "status": "open"
     },
     {
@@ -881,7 +882,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-08-29T13:05:48.878Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -903,7 +904,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-08-29T13:05:48.878Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -925,7 +926,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-08-29T13:05:48.879Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -947,7 +948,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-08-29T13:05:48.878Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -969,7 +970,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-08-29T13:05:48.879Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -991,7 +992,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-08-29T13:05:48.878Z",
+      "scraped_at": "2026-08-29T14:48:54.179Z",
       "status": "open"
     },
     {
@@ -1013,7 +1014,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-08-29T13:05:34.556Z",
+      "scraped_at": "2026-08-29T14:48:51.079Z",
       "status": "open"
     },
     {
@@ -1035,7 +1036,7 @@
       "apply_url": "https://jobs.lever.co/webfx/a8e8ff2a-a53f-4770-b2ea-b3df91d4d175",
       "source": "lever",
       "posted_at": "2020-03-11T18:25:55.023Z",
-      "scraped_at": "2026-08-29T13:05:55.822Z",
+      "scraped_at": "2026-08-29T14:49:03.726Z",
       "status": "open"
     },
     {
@@ -1057,7 +1058,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:25.648Z",
+      "scraped_at": "2026-08-29T14:48:43.842Z",
       "status": "open"
     },
     {
@@ -1079,7 +1080,7 @@
       "apply_url": "https://www.filevine.com/jobs/7a5a1cfa-bd48-4731-8b14-f4f22747dd7f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:28.812Z",
+      "scraped_at": "2026-08-29T14:48:47.189Z",
       "status": "open"
     },
     {
@@ -1101,7 +1102,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:28.813Z",
+      "scraped_at": "2026-08-29T14:48:47.190Z",
       "status": "open"
     },
     {
@@ -1123,7 +1124,7 @@
       "apply_url": "https://www.filevine.com/jobs/05224546-e164-419e-b0f2-b42e6bf61212/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:28.813Z",
+      "scraped_at": "2026-08-29T14:48:47.190Z",
       "status": "open"
     },
     {
@@ -1145,7 +1146,7 @@
       "apply_url": "https://www.filevine.com/jobs/4f3c925a-e780-417b-acad-65b1d49c0735/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:28.813Z",
+      "scraped_at": "2026-08-29T14:48:47.190Z",
       "status": "open"
     },
     {
@@ -1167,7 +1168,7 @@
       "apply_url": "https://www.filevine.com/jobs/ba34f952-d53e-4ef2-86cf-381cfe88671f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:28.813Z",
+      "scraped_at": "2026-08-29T14:48:47.190Z",
       "status": "open"
     },
     {
@@ -1189,29 +1190,7 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:28.813Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:wise-plc:https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-3088",
-      "hub": "fintech",
-      "title": "Sales Enablement Specialist (Enterprise)",
-      "company": "Wise",
-      "company_id": "wise-plc",
-      "priority": false,
-      "category": "Other",
-      "segment": "International Money Transfer",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Sales Enablement Specialist (Enterprise) at Wise.",
-      "description": "",
-      "apply_url": "https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-3088",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:31.014Z",
+      "scraped_at": "2026-08-29T14:48:47.190Z",
       "status": "open"
     },
     {
@@ -1233,7 +1212,7 @@
       "apply_url": "https://supercell.com/en/careers/senior-qa-specialist/be3451d8-7ff6-4130-bbea-880d565051a1/?source=Supercell.com",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T13:05:52.062Z",
+      "scraped_at": "2026-08-29T14:48:57.096Z",
       "status": "open"
     }
   ]
