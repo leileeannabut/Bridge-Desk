@@ -32,7 +32,9 @@ const OUT = args.out || 'site/jobs.json';
 const TIMEOUT_MS = 20000;
 const CONCURRENCY = 4;          // polite: four career sites at a time, not 123
 const DELAY_MS = 350;           // between batches
-const UA = 'BridgeDeskBot/1.0 (+https://bridgedesk.co)';
+// See detect-ats.js for why: a self-identifying bot UA gets auto-blocked by
+// most WAFs before the request even reaches the company's server.
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
 
 /* ---- helpers -------------------------------------------------------------- */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -237,6 +239,14 @@ function isAssistantRole(title = '') {
 // Phrases that mean "this seat is in a building," not "remote."
 const ONSITE_ONLY = /\b(on[- ]?site|in[- ]?office|in[- ]?person only|must (be|reside) (in|within) (the )?(office|hq|headquarters))\b/i;
 
+// "Hybrid" means some number of in-office days are required — impossible for
+// someone based in another country entirely, so this is checked separately
+// and unconditionally, unlike ONSITE_ONLY below. A posting that also says
+// "remote" (very common phrasing: "hybrid-remote", "flexible hybrid") is
+// still hybrid — the in-office requirement doesn't go away just because the
+// posting also uses the word "remote" elsewhere.
+const HYBRID = /\b(hybrid|partially remote|flex(?:ible)?[- ]hybrid|\d+\s*days?\s*(?:a|per)\s*week\s*(?:in|at)\s*(?:the\s*)?office|in[- ]office\s*\d+\s*days?)\b/i;
+
 // Phrases that restrict hiring to one specific country or region, which rules
 // out an international hire even when the posting also says "remote." Covers
 // the residency-lock phrasing most common in English-language postings —
@@ -255,13 +265,17 @@ const OPEN_ANYWHERE = /\b(remote|anywhere|worldwide|global|international|work fr
  * posting that clearly locks itself to a physical office or a residency
  * requirement is dropped; anything ambiguous is kept. A missing job is harder
  * to notice than an extra one, so this only removes what it is confident
- * about.
+ * about. Hybrid is the one exception to "ambiguous is kept" — it's a
+ * specific, deliberate term employers use, not an ambiguous phrase, so it's
+ * treated as a hard exclusion rather than something an "OPEN_ANYWHERE" match
+ * elsewhere in the posting can override.
  */
 function isGloballyOpen(location, description) {
   const loc = String(location || '').toLowerCase();
   const text = (loc + ' ' + String(description || '').toLowerCase()).trim();
   if (!text) return true;                    // unknown: keep
 
+  if (HYBRID.test(text)) return false;
   if (RESIDENCY_LOCKED.test(text)) return false;
   if (ONSITE_ONLY.test(text) && !OPEN_ANYWHERE.test(text)) return false;
 
