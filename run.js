@@ -203,21 +203,22 @@ const segmentOf = (company) => company.segment || (company.hub === 'legal' ? 'Le
  * if a niche belongs on the board, it needs a matching bucket in categorise()
  * too, or it scrapes in and immediately falls into "Other".
  */
-const NICHE_TITLES = /\b(virtual assistant|\bva\b|executive assistant|\bea\b|personal assistant|\bpa\b|legal assistant|paralegal|legal secretary|administrative assistant|admin assistant|admin(?:istrative)? (?:associate|coordinator|support)|office (?:manager|coordinator|assistant)|operations? (?:assistant|coordinator)|chief of staff|assistant to the|social media (?:manager|assistant|coordinator|specialist|strategist)|graphic designer|graphic artist|visual designer|content writer|content creator|copywriter|blog writer|customer (?:support|service) (?:assistant|associate|specialist|representative|agent|coordinator)|customer success (?:assistant|associate)|data entry (?:clerk|specialist|assistant|associate|operator)|bookkeeper|bookkeeping (?:assistant|associate|clerk)|seo (?:specialist|assistant|associate)|email marketing (?:assistant|specialist|coordinator)|(?:e-?commerce|amazon) (?:assistant|specialist|coordinator|virtual assistant)|community manager|video editor|transcriptionist|appointment setter|scheduling assistant|scheduler|project coordinator|podcast (?:manager|editor|producer)|lead generation (?:specialist|assistant))\b/;
+const NICHE_TITLES = /\b(virtual assistant|\bva\b|executive assistant|\bea\b|personal assistant|\bpa\b|legal assistant|paralegal|legal secretary|administrative assistant|admin assistant|admin(?:istrative)? (?:associate|coordinator|support)|office (?:manager|coordinator|assistant)|operations? (?:assistant|coordinator)|chief of staff|assistant to the|social media (?:manager|assistant|coordinator|specialist|strategist)|graphic designer|graphic artist|visual designer|content writer|content creator|copywriter|blog writer|customer (?:support|service) (?:assistant|associate|specialist|representative|agent|coordinator)|customer success (?:assistant|associate)|data entry (?:clerk|specialist|assistant|associate|operator)|bookkeeper|bookkeeping (?:assistant|associate|clerk)|seo (?:specialist|assistant|associate)|email marketing (?:assistant|specialist|coordinator)|(?:e-?commerce|amazon) (?:assistant|specialist|coordinator|virtual assistant)|community manager|video editor|transcriptionist|appointment setter|scheduling assistant|scheduler|project coordinator|podcast (?:manager|editor|producer)|lead generation (?:specialist|assistant)|inbox manager|calendar manager|onboarding (?:specialist|coordinator)|member(?:ship)? (?:support|services|coordinator)|client (?:success|services|support) (?:coordinator|specialist|associate)|\bassistant\b|\bcoordinator\b|\bspecialist\b|support (?:associate|agent|representative))\b/;
 
 /**
- * A handful of terms that, if present, mean this is almost certainly a
- * different (often much more senior or unrelated) role that happens to share
- * a word with one of the niches above — e.g. "Product Designer" contains no
- * niche term and is already excluded by NICHE_TITLES not matching it, but
- * "UX Designer, Client Success Assistant Program" is the kind of compound
- * title this list guards against. Kept short and specific deliberately: a
- * missing VA posting is worse than one extra "Other" row a human can ignore.
+ * A short, deliberately conservative exclude list — only titles that are
+ * almost never a VA-type role even though they might brush against a niche
+ * term above (e.g. "Product Manager, Support Tools" contains no niche term
+ * on its own, but a compound title could still smuggle one of these roles
+ * through). Widening NICHE_TITLES with a broad "assistant/coordinator/
+ * specialist/support" fallback means this list is now the main thing
+ * keeping clearly unrelated engineering/sales/analytics roles off the board,
+ * so keep it short but don't remove it.
  */
 function isAssistantRole(title = '') {
   const t = title.toLowerCase();
   if (!NICHE_TITLES.test(t)) return false;
-  const exclude = /\b(account executive|software engineer|(?:senior |staff |principal )?(?:backend|frontend|full[- ]?stack) developer|product designer|ux designer|ui designer|marketing manager|marketing director|product marketing|growth marketing|brand marketing|recruiter|recruiting|data scientist|business analyst|financial analyst|product manager)\b/;
+  const exclude = /\b(account executive|software engineer|(?:senior |staff |principal )?(?:backend|frontend|full[- ]?stack) developer|product designer|ux designer|ui designer|recruiter|recruiting|data scientist|business analyst|financial analyst|product manager)\b/;
   if (exclude.test(t)) return false;
   return true;
 }
