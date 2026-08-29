@@ -105,7 +105,8 @@ header{
   text-transform:uppercase; color:var(--ink-dim); margin-bottom:18px;
 }
 .clock-head .live{color:var(--sage-deep);}
-.clock-row{display:grid; grid-template-columns:repeat(5,1fr); gap:14px;}
+.clock-row{display:grid; grid-template-columns:repeat(7,1fr); gap:12px;}
+@media (max-width:900px){.clock-row{grid-template-columns:repeat(4,1fr);}}
 @media (max-width:760px){.clock-row{grid-template-columns:repeat(2,1fr);}}
 .clock-tile{
   background:var(--cream-deep); border:1px solid var(--line); border-radius:12px;
@@ -329,13 +330,13 @@ footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
   <div class="wrap">
     <div class="section-head">
       <h2>For Assistants</h2>
-      <p>Real roles at real US startups — already open to hiring globally.</p>
+      <p>Real roles at real startups worldwide — already open to hiring globally.</p>
     </div>
     <div class="row">
       <div class="card tone-gold">
         <div class="icon icon-gold">📋</div>
         <h3>Apply to a Role</h3>
-        <p class="desc">Browse live openings scraped daily from US startups, and apply directly — no middleman fees to you, ever.</p>
+        <p class="desc">Browse live openings scraped daily from startups worldwide, and apply directly — no middleman fees to you, ever.</p>
         <ul>
           <li>Virtual, Executive, Personal &amp; Legal Assistant roles</li>
           <li>Filtered for remote-friendly, globally-open postings</li>
@@ -730,6 +731,8 @@ const CLOCK_CITIES = [
   { label: 'London, UK', tz: 'Europe/London' },
   { label: 'Toronto, Canada', tz: 'America/Toronto' },
   { label: 'Mexico City, LATAM', tz: 'America/Mexico_City' },
+  { label: 'Singapore', tz: 'Asia/Singapore' },
+  { label: 'Kuala Lumpur, Malaysia', tz: 'Asia/Kuala_Lumpur' },
   { label: 'Sydney, Australia', tz: 'Australia/Sydney' },
 ];
 
