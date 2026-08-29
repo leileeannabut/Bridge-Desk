@@ -1,770 +1,439 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BridgeDesk — Where Global Ambition Meets Infinite Talent</title>
-<meta name="description" content="More than a headhunter — BridgeDesk is a borderless career and hiring engine, uniting visionaries and top-tier professionals worldwide through a seamless direct-matching experience. Zero recurring markups.">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
-<link rel="icon" type="image/png" href="favicon.png">
-<meta property="og:title" content="BridgeDesk — Where Global Ambition Meets Infinite Talent">
-<meta property="og:description" content="A borderless career and hiring engine, built for speed, precision, and zero recurring markups.">
-<meta property="og:image" content="og.png">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="og.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-:root{
-  --cream:#FAF6EF; --cream-deep:#F2EBDD; --paper:#FFFFFF;
-  --tan:#C7A587; --tan-deep:#A6825F;
-  --sky:#7FB2C9; --sky-deep:#4F8DA6;
-  --sage:#8FBC94; --sage-deep:#5E9A69;
-  --gold:#E8B84B; --gold-deep:#C99A2E;
-  --ink:#3E362C; --ink-soft:#6B6153; --ink-dim:#948A7A;
-  --line:rgba(62,54,44,.12);
-  --shadow: 0 8px 30px rgba(62,54,44,.08);
-  --head:'Fraunces',serif; --body:'Inter',sans-serif;
-  --radius:16px;
-}
-*{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{
-  margin:0; background:var(--cream); color:var(--ink);
-  font-family:var(--body); line-height:1.55; -webkit-font-smoothing:antialiased;
-}
-h1,h2,h3{font-family:var(--head); font-weight:600; line-height:1.15; margin:0 0 .4em;}
-p{margin:0 0 1em;}
-a{color:inherit;}
-img,svg{display:block;}
-.wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
-.badge{
-  display:inline-flex; align-items:center; gap:8px; font-size:12.5px; font-weight:600;
-  letter-spacing:.02em; text-transform:uppercase; padding:5px 14px 5px 10px; border-radius:999px;
-  background:var(--cream-deep); color:var(--ink-soft); border:1px solid var(--line);
-}
-.bridge-anim{overflow:visible;}
-.bridge-pulse{
-  offset-path: path('M2 15 Q12 3 22 15 Q32 3 42 15');
-  offset-rotate:0deg; animation:bridge-travel 2.8s ease-in-out infinite;
-}
-@keyframes bridge-travel{
-  0%{offset-distance:0%; opacity:0;}
-  10%{opacity:1;}
-  90%{opacity:1;}
-  100%{offset-distance:100%; opacity:0;}
-}
-@media (prefers-reduced-motion: reduce){
-  .bridge-pulse{animation:none; offset-distance:50%; opacity:1;}
+/**
+ * worker.js — BridgeDesk API + site
+ * ---------------------------------------------------------------------------
+ * Everything runs on Cloudflare. No third party sees your data — it goes
+ * into a D1 database you own.
+ *
+ * Routes
+ *   POST /api/click              record a job-board click        (public)
+ *   POST /api/apply              apply to a scraped job listing   (public)
+ *   POST /api/pool               "Join our Pool" candidate intake (public)
+ *   POST /api/employer           employer / Hire-a-Team intake    (public)
+ *   POST /api/admin/login        admin sign-in                    (public, key-gated)
+ *   GET  /api/admin/applications list job applications            (admin)
+ *   POST /api/admin/applications update an application's status   (admin)
+ *   GET  /api/admin/pool         list pool candidates              (admin)
+ *   POST /api/admin/pool         update a candidate's status       (admin)
+ *   GET  /api/admin/employers    list employer requests            (admin)
+ *   POST /api/admin/employers    update an employer request        (admin)
+ *   POST /api/admin/match        compute matches for one employer request (admin)
+ *   GET  /api/admin/matches      list matches                      (admin)
+ *   POST /api/admin/matches      update a match's status            (admin)
+ *   anything else                the static site
+ *
+ * There is no fee-agreement gate. An employer's confirmation screen hands
+ * them a payment link directly (env.WISE_LINK); nothing about introductions
+ * is blocked on a signed agreement. If a D1 binding is missing, the site
+ * still serves normally and API calls that need it return a clear 503 rather
+ * than crashing the page.
+ */
+
+const JSON_HEADERS = { 'content-type': 'application/json; charset=utf-8' };
+
+function json(data, status = 200, extraHeaders = {}) {
+  return new Response(JSON.stringify(data), { status, headers: { ...JSON_HEADERS, ...extraHeaders } });
 }
 
-/* ---------- header ---------- */
-header{
-  position:sticky; top:0; z-index:40; background:rgba(250,246,239,.9); backdrop-filter:blur(8px);
-  border-bottom:1px solid var(--line);
-}
-.nav{display:flex; align-items:center; justify-content:space-between; padding:16px 0;}
-.brand{display:flex; align-items:center; gap:10px; font-family:var(--head); font-weight:600; font-size:20px;}
-.brand small{display:block; font-family:var(--body); font-weight:500; font-size:11.5px; color:var(--ink-dim); text-transform:none;}
-.nav-links{display:flex; align-items:center; gap:28px; font-size:14.5px; font-weight:500;}
-.nav-links a{text-decoration:none; color:var(--ink-soft);}
-.nav-links a:hover{color:var(--ink);}
-.btn{
-  display:inline-flex; align-items:center; justify-content:center; gap:8px;
-  border:none; cursor:pointer; font-family:var(--body); font-weight:600; font-size:14.5px;
-  padding:12px 22px; border-radius:12px; text-decoration:none; transition:transform .15s ease, box-shadow .15s ease;
-}
-.btn:hover{transform:translateY(-1px);}
-.btn-primary{background:var(--sky-deep); color:#fff; box-shadow:0 6px 18px rgba(79,141,166,.35);}
-.btn-primary:hover{box-shadow:0 10px 22px rgba(79,141,166,.4);}
-.btn-secondary{background:var(--sage-deep); color:#fff; box-shadow:0 6px 18px rgba(94,154,105,.3);}
-.btn-ghost{background:var(--paper); color:var(--ink); border:1px solid var(--line);}
-.btn-gold{background:var(--gold-deep); color:#fff; box-shadow:0 6px 18px rgba(201,154,46,.35);}
-.btn-sm{padding:9px 16px; font-size:13.5px; border-radius:10px;}
-.btn[disabled]{opacity:.55; cursor:not-allowed; transform:none !important;}
-
-/* ---------- hero ---------- */
-.hero{padding:72px 0 56px; text-align:center;}
-.hero h1{font-size:clamp(32px,5vw,52px); max-width:820px; margin:0 auto .5em;}
-.hero .lede{max-width:600px; margin:0 auto 32px; color:var(--ink-soft); font-size:17px;}
-.hero-ctas{display:flex; gap:14px; justify-content:center; flex-wrap:wrap;}
-.dots{display:flex; gap:8px; justify-content:center; margin-top:28px;}
-.dots span{width:9px; height:9px; border-radius:50%; display:block;}
-
-/* ---------- world clock ---------- */
-.clock-wrap{padding:0 24px; margin-top:-10px;}
-.clock-card{
-  max-width:1072px; margin:0 auto; background:var(--paper); border:1px solid var(--line);
-  border-radius:var(--radius); box-shadow:var(--shadow); padding:26px 30px 24px;
-}
-.clock-head{
-  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;
-  font-family:var(--mono,monospace); font-size:11.5px; font-weight:600; letter-spacing:.06em;
-  text-transform:uppercase; color:var(--ink-dim); margin-bottom:18px;
-}
-.clock-head .live{color:var(--sage-deep);}
-.clock-row{display:grid; grid-template-columns:repeat(7,1fr); gap:12px;}
-@media (max-width:900px){.clock-row{grid-template-columns:repeat(4,1fr);}}
-@media (max-width:760px){.clock-row{grid-template-columns:repeat(2,1fr);}}
-.clock-tile{
-  background:var(--cream-deep); border:1px solid var(--line); border-radius:12px;
-  padding:16px 10px; text-align:center;
-}
-.clock-city{font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--ink-dim); line-height:1.4; min-height:28px;}
-.clock-time{font-family:var(--head); font-size:24px; font-weight:600; line-height:1.15; margin-top:6px;}
-.clock-time.in-hours{color:var(--sage-deep);}
-.clock-time.off-hours{color:var(--tan-deep);}
-.clock-note{font-size:13.5px; color:var(--ink-soft); margin:18px 0 0; line-height:1.6;}
-
-/* ---------- sections ---------- */
-section{padding:56px 0;}
-.section-head{max-width:640px; margin:0 auto 36px; text-align:center;}
-.section-head h2{font-size:clamp(24px,3.4vw,32px);}
-.section-head p{color:var(--ink-soft); margin:0;}
-
-/* ---------- card rows ---------- */
-.row{display:grid; grid-template-columns:1fr 1fr; gap:24px;}
-@media (max-width:760px){.row{grid-template-columns:1fr;}}
-.card{
-  background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
-  padding:32px; box-shadow:var(--shadow); position:relative; overflow:hidden;
-}
-.card .icon{
-  width:48px; height:48px; border-radius:12px; display:flex; align-items:center; justify-content:center;
-  margin-bottom:18px; font-size:22px;
-}
-.card h3{font-size:21px; margin-bottom:8px;}
-.card p.desc{color:var(--ink-soft); font-size:15px; margin-bottom:20px;}
-.card ul{margin:0 0 22px; padding-left:0; list-style:none; font-size:14.5px; color:var(--ink-soft);}
-.card ul li{padding-left:22px; position:relative; margin-bottom:8px;}
-.card ul li::before{content:"✓"; position:absolute; left:0; font-weight:700;}
-.card.tone-sky ul li::before{color:var(--sky-deep);}
-.card.tone-sage ul li::before{color:var(--sage-deep);}
-.card.tone-gold ul li::before{color:var(--gold-deep);}
-.card.tone-tan ul li::before{color:var(--tan-deep);}
-.icon-sky{background:rgba(127,178,201,.18); color:var(--sky-deep);}
-.icon-sage{background:rgba(143,188,148,.2); color:var(--sage-deep);}
-.icon-gold{background:rgba(232,184,75,.22); color:var(--gold-deep);}
-.icon-tan{background:rgba(199,165,135,.25); color:var(--tan-deep);}
-.card.coming-soon{opacity:.85;}
-.card.coming-soon::after{
-  content:"Coming soon"; position:absolute; top:20px; right:20px; font-size:11.5px; font-weight:700;
-  letter-spacing:.03em; text-transform:uppercase; background:var(--cream-deep); color:var(--ink-dim);
-  padding:4px 10px; border-radius:999px; border:1px solid var(--line);
+/* A submitted value is a small, fixed shape. Anything longer is truncated
+   rather than rejected, so one long field never costs the whole submission. */
+function clean(value, max = 400) {
+  if (value === null || value === undefined) return null;
+  return String(value).slice(0, max).trim() || null;
 }
 
-/* ---------- pool banner ---------- */
-.pool-banner{
-  background:linear-gradient(135deg, var(--sage) 0%, var(--sky) 100%);
-  border-radius:20px; padding:40px 40px; color:#fff; display:flex; align-items:center;
-  justify-content:space-between; gap:28px; flex-wrap:wrap;
+function isEmail(s) {
+  return typeof s === 'string' && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
 }
-.pool-banner h2{color:#fff; font-size:26px; margin-bottom:8px;}
-.pool-banner p{color:rgba(255,255,255,.9); max-width:480px; margin:0;}
-.pool-banner .btn-ghost{background:#fff; color:var(--sky-deep); border:none;}
 
-/* ---------- jobs board ---------- */
-.filters{display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-bottom:28px;}
-.chip{
-  padding:8px 16px; border-radius:999px; border:1px solid var(--line); background:var(--paper);
-  font-size:13.5px; font-weight:600; cursor:pointer; color:var(--ink-soft);
+/** Short human reference, e.g. "BD-7K2M". Not a security token — just a label. */
+function makeRef(prefix) {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  let s = '';
+  for (let i = 0; i < 4; i++) s += chars[Math.floor(Math.random() * chars.length)];
+  return `${prefix}-${s}`;
 }
-.chip.active{background:var(--ink); color:var(--cream); border-color:var(--ink);}
-.job-list{display:flex; flex-direction:column; gap:14px;}
-.job{
-  background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:20px 24px;
-  display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;
+
+/* ==========================================================================
+   ADMIN AUTH
+   Same pattern throughout: header first (never appears in browser history),
+   cookie second (for anything already signed in), query string last (handy
+   for quick checks / CSV-style export links).
+   ========================================================================== */
+function adminAuthed(request, env) {
+  if (!env.ADMIN_KEY) return false;
+  if (request.headers.get('x-admin-key') === env.ADMIN_KEY) return true;
+  const cookie = request.headers.get('cookie') || '';
+  const m = cookie.match(/(?:^|;\s*)bd_admin=([^;]+)/);
+  if (m && m[1] === env.ADMIN_KEY) return true;
+  return new URL(request.url).searchParams.get('key') === env.ADMIN_KEY;
 }
-.job-main{flex:1; min-width:240px;}
-.job-title{font-weight:700; font-size:16.5px; margin-bottom:3px;}
-.job-meta{font-size:13.5px; color:var(--ink-soft); display:flex; gap:10px; flex-wrap:wrap;}
-.job-meta .dot{opacity:.5;}
-.job-tag{font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; padding:3px 9px; border-radius:999px;}
-.job-empty{text-align:center; color:var(--ink-dim); padding:40px 0; font-size:15px;}
 
-/* ---------- footer ---------- */
-footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
-.footer-row{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; font-size:13.5px; color:var(--ink-dim);}
-.footer-row a{color:var(--ink-soft); text-decoration:none; margin-left:18px;}
-
-/* ---------- modal ---------- */
-.overlay{
-  position:fixed; inset:0; background:rgba(62,54,44,.45); display:none; align-items:flex-start;
-  justify-content:center; z-index:100; padding:40px 16px; overflow-y:auto;
-}
-.overlay.open{display:flex;}
-.modal{
-  background:var(--paper); border-radius:18px; max-width:560px; width:100%; padding:32px;
-  box-shadow:0 24px 60px rgba(0,0,0,.25); position:relative;
-}
-.modal-close{
-  position:absolute; top:18px; right:18px; background:none; border:none; font-size:20px;
-  cursor:pointer; color:var(--ink-dim); line-height:1;
-}
-.modal h3{font-size:22px; margin-bottom:6px;}
-.modal .sub{color:var(--ink-soft); font-size:14.5px; margin-bottom:22px;}
-.field{margin-bottom:16px;}
-.field label{display:block; font-size:13px; font-weight:600; margin-bottom:6px; color:var(--ink-soft);}
-.field input, .field select, .field textarea{
-  width:100%; padding:11px 13px; border-radius:10px; border:1px solid var(--line);
-  background:var(--cream); font-family:var(--body); font-size:14.5px; color:var(--ink);
-}
-.field textarea{resize:vertical; min-height:80px;}
-.field-row{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
-@media (max-width:480px){.field-row{grid-template-columns:1fr;}}
-.checkbox-row{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:6px;}
-.checkbox-pill{
-  display:flex; align-items:center; gap:6px; font-size:13.5px; border:1px solid var(--line);
-  border-radius:999px; padding:7px 13px; cursor:pointer; background:var(--cream);
-}
-.checkbox-pill input{width:auto;}
-.form-msg{font-size:14px; padding:12px 14px; border-radius:10px; margin-top:14px; display:none;}
-.form-msg.show{display:block;}
-.form-msg.ok{background:rgba(143,188,148,.18); color:var(--sage-deep);}
-.form-msg.err{background:rgba(210,110,90,.14); color:#a4432f;}
-.payment-box{
-  margin-top:18px; padding:18px; border-radius:12px; background:var(--cream-deep); border:1px solid var(--line);
-}
-.payment-box a.btn{margin-top:10px;}
-.file-hint{font-size:12px; color:var(--ink-dim); margin-top:5px;}
-</style>
-</head>
-<body>
-
-<header>
-  <div class="wrap nav">
-    <div class="brand">
-      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
-        <path d="M2 20 Q9 6 17 20" fill="none" stroke="#8FBC94" stroke-width="3" stroke-linecap="round"/>
-        <path d="M17 20 Q25 6 32 20" fill="none" stroke="#7FB2C9" stroke-width="3" stroke-linecap="round"/>
-        <circle cx="17" cy="20" r="3" fill="#E8B84B"/>
-        <rect x="0" y="19" width="34" height="2.4" rx="1.2" fill="#C7A587"/>
-      </svg>
-      <span>BridgeDesk</span>
-    </div>
-    <nav class="nav-links">
-      <a href="#employers">For Employers</a>
-      <a href="#assistants">For Assistants</a>
-      <a href="#jobs">Job Board</a>
-      <a href="#pool">Join Our Pool</a>
-    </nav>
-    <a href="#employers" class="btn btn-primary btn-sm">Post a Role</a>
-  </div>
-</header>
-
-<section class="hero wrap">
-  <span class="badge">
-    <svg class="bridge-anim" width="44" height="18" viewBox="0 0 44 18" aria-hidden="true">
-      <path d="M2 15 Q12 3 22 15" fill="none" stroke="#8FBC94" stroke-width="2" stroke-linecap="round"/>
-      <path d="M22 15 Q32 3 42 15" fill="none" stroke="#7FB2C9" stroke-width="2" stroke-linecap="round"/>
-      <circle cx="2" cy="15" r="2.2" fill="#5E9A69"/>
-      <circle cx="42" cy="15" r="2.2" fill="#4F8DA6"/>
-      <circle class="bridge-pulse" r="2.6" fill="#E8B84B"/>
-    </svg>
-    the bridge between two teams
-  </span>
-  <h1>Where Global Ambition Meets Infinite Talent.</h1>
-  <p class="lede">More than a headhunter — BridgeDesk is a borderless career and hiring engine. Built for speed, precision, and zero recurring markups, our platform unites visionaries and top-tier professionals worldwide through a seamless direct-matching experience.</p>
-  <div class="hero-ctas">
-    <a href="#employers" class="btn btn-primary">I'm Hiring</a>
-    <a href="#assistants" class="btn btn-secondary">I'm Looking for Work</a>
-  </div>
-  <div class="dots">
-    <span style="background:var(--tan)"></span>
-    <span style="background:var(--sky)"></span>
-    <span style="background:var(--sage)"></span>
-    <span style="background:var(--gold)"></span>
-  </div>
-</section>
-
-<!-- ============================= WORLD CLOCK ============================= -->
-<div class="clock-wrap">
-  <div class="clock-card">
-    <div class="clock-head">
-      <span>Right now, worldwide</span>
-      <span id="clock-in-hours" class="live">– of 5 in business hours</span>
-    </div>
-    <div class="clock-row" id="clock-row"></div>
-    <p class="clock-note">A snapshot, not the whole map: candidates and clients join us from every timezone — these five give a feel for how the workday hands off around the world.</p>
-  </div>
-</div>
-
-<!-- ============================= EMPLOYERS ============================= -->
-<section id="employers">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>For Employers</h2>
-      <p>Bring on one great assistant, or build a full support team — either way, we handle the sourcing and matching.</p>
-    </div>
-    <div class="row">
-      <div class="card tone-sky">
-        <div class="icon icon-sky">👤</div>
-        <h3>Hire One Assistant</h3>
-        <p class="desc">Tell us what you need — VA, EA, PA, or Legal Assistant — and we'll match you with vetted candidates from around the world.</p>
-        <ul>
-          <li>Matched from our screened talent pool</li>
-          <li>US-hours overlap confirmed upfront</li>
-          <li>No long-term contract required</li>
-        </ul>
-        <button class="btn btn-primary" onclick="openEmployerModal('single')">Post a Role</button>
-      </div>
-      <div class="card tone-sage">
-        <div class="icon icon-sage">🧑‍🤝‍🧑</div>
-        <h3>Hire a Team</h3>
-        <p class="desc">Need dedicated coverage across several roles — or a team anchoring shifts around the clock? We'll form a managed team exclusively for you: hired, coached, and paid by BridgeDesk, not shared or freelance.</p>
-        <ul>
-          <li>Dedicated, exclusive team — not shared or freelance</li>
-          <li>Multiple roles or round-the-clock shifts, anchored by a Senior EA when needed</li>
-          <li>Volume pricing for 2+ hires — custom quotes for 24/7 coverage</li>
-        </ul>
-        <button class="btn btn-secondary" onclick="openEmployerModal('team')">Hire a Team</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================= ASSISTANTS ============================= -->
-<section id="assistants" style="background:var(--cream-deep);">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>For Assistants</h2>
-      <p>Real roles at real startups worldwide — already open to hiring globally.</p>
-    </div>
-    <div class="row">
-      <div class="card tone-gold">
-        <div class="icon icon-gold">📋</div>
-        <h3>Apply to a Role</h3>
-        <p class="desc">Browse live openings scraped daily from startups worldwide, and apply directly — no middleman fees to you, ever.</p>
-        <ul>
-          <li>Virtual, Executive, Personal &amp; Legal Assistant roles</li>
-          <li>Filtered for remote-friendly, globally-open postings</li>
-          <li>Updated every day</li>
-        </ul>
-        <a href="#jobs" class="btn btn-gold">Browse the Job Board</a>
-      </div>
-      <div class="card tone-tan coming-soon">
-        <div class="icon icon-tan">🎓</div>
-        <h3>Training</h3>
-        <p class="desc">Short courses to help you stand out — client communication, US business etiquette, tools EAs use daily.</p>
-        <ul>
-          <li>Built for VA/EA/PA/Legal Assistant work</li>
-          <li>Self-paced, made for global time zones</li>
-          <li>Certificate on completion</li>
-        </ul>
-        <button class="btn btn-ghost" disabled>Coming Soon</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================= POOL BANNER ============================= -->
-<section id="pool">
-  <div class="wrap">
-    <div class="pool-banner">
-      <div>
-        <h2>Not seeing the right role yet?</h2>
-        <p>Join our talent pool once, and we'll reach out directly when an employer request matches your profile — no need to keep checking the board.</p>
-      </div>
-      <button class="btn btn-ghost" onclick="openPoolModal()">Join Our Pool</button>
-    </div>
-  </div>
-</section>
-
-<!-- ============================= JOB BOARD ============================= -->
-<section id="jobs">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Open Roles</h2>
-      <p id="jobs-updated">Loading listings…</p>
-    </div>
-    <div class="filters" id="filters"></div>
-    <div class="job-list" id="job-list">
-      <div class="job-empty">Loading…</div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap footer-row">
-    <div>© 2026 BridgeDesk. All rights reserved. Your partner, wherever you work.</div>
-    <div>
-      <a href="#employers">Employers</a>
-      <a href="#assistants">Assistants</a>
-      <a href="admin.html">Admin</a>
-    </div>
-  </div>
-</footer>
-
-<!-- ============================= MODALS ============================= -->
-
-<!-- Employer intake -->
-<div class="overlay" id="employer-overlay">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal('employer-overlay')">✕</button>
-    <h3 id="employer-modal-title">Post a Role</h3>
-    <p class="sub" id="employer-modal-sub">Tell us about the hire — we'll follow up with matched candidates.</p>
-    <form id="employer-form">
-      <input type="hidden" id="emp-tier" value="single">
-      <div class="field-row">
-        <div class="field"><label>Company</label><input required id="emp-company"></div>
-        <div class="field"><label>Your name</label><input required id="emp-contact"></div>
-      </div>
-      <div class="field-row">
-        <div class="field"><label>Email</label><input required type="email" id="emp-email"></div>
-        <div class="field"><label>Phone (optional)</label><input id="emp-phone"></div>
-      </div>
-      <div class="field">
-        <label>Role(s) needed</label>
-        <div class="checkbox-row">
-          <label class="checkbox-pill"><input type="checkbox" value="Virtual Assistant"> Virtual Assistant</label>
-          <label class="checkbox-pill"><input type="checkbox" value="Executive Assistant"> Executive Assistant</label>
-          <label class="checkbox-pill"><input type="checkbox" value="Personal Assistant"> Personal Assistant</label>
-          <label class="checkbox-pill"><input type="checkbox" value="Legal Assistant"> Legal Assistant</label>
-        </div>
-      </div>
-      <div class="field-row" id="emp-team-size-field" style="display:none;">
-        <div class="field"><label>Team size needed</label><input type="number" min="2" id="emp-team-size" placeholder="e.g. 3"></div>
-        <div class="field"><label>Timeline</label><input id="emp-timeline" placeholder="e.g. within 2 weeks"></div>
-      </div>
-      <div class="field-row" id="emp-timeline-solo-field">
-        <div class="field"><label>Budget range</label><input id="emp-budget" placeholder="e.g. $6-10/hr"></div>
-        <div class="field"><label>Timeline</label><input id="emp-timeline-solo" placeholder="e.g. within 2 weeks"></div>
-      </div>
-      <div class="field"><label>Anything else we should know?</label><textarea id="emp-notes"></textarea></div>
-      <button type="submit" class="btn btn-primary" style="width:100%;">Submit Request</button>
-      <div class="form-msg" id="employer-msg"></div>
-      <div class="payment-box" id="employer-payment" style="display:none;"></div>
-    </form>
-  </div>
-</div>
-
-<!-- Job application -->
-<div class="overlay" id="apply-overlay">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal('apply-overlay')">✕</button>
-    <h3>Apply for this role</h3>
-    <p class="sub" id="apply-modal-sub"></p>
-    <form id="apply-form">
-      <div class="field-row">
-        <div class="field"><label>Full name</label><input required id="apply-name"></div>
-        <div class="field"><label>Email</label><input required type="email" id="apply-email"></div>
-      </div>
-      <div class="field"><label>Phone (optional)</label><input id="apply-phone"></div>
-      <div class="field">
-        <label>Resume</label>
-        <input type="file" id="apply-resume" accept=".pdf,.doc,.docx">
-        <div class="file-hint">PDF or Word, under 4MB.</div>
-      </div>
-      <div class="field"><label>Short note (optional)</label><textarea id="apply-note" placeholder="Anything you'd like the employer to know"></textarea></div>
-      <button type="submit" class="btn btn-gold" style="width:100%;">Submit Application</button>
-      <div class="form-msg" id="apply-msg"></div>
-    </form>
-  </div>
-</div>
-
-<!-- Join our pool -->
-<div class="overlay" id="pool-overlay">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal('pool-overlay')">✕</button>
-    <h3>Join Our Pool</h3>
-    <p class="sub">One profile, matched against every new employer request. We'll reach out when something fits.</p>
-    <form id="pool-form">
-      <div class="field-row">
-        <div class="field"><label>Full name</label><input required id="pool-name"></div>
-        <div class="field"><label>Email</label><input required type="email" id="pool-email"></div>
-      </div>
-      <div class="field-row">
-        <div class="field"><label>Phone (optional)</label><input id="pool-phone"></div>
-        <div class="field">
-          <label>Category</label>
-          <select id="pool-category">
-            <option>Virtual Assistant</option>
-            <option>Executive Assistant</option>
-            <option>Personal Assistant</option>
-            <option>Legal Assistant</option>
-          </select>
-        </div>
-      </div>
-      <div class="field-row">
-        <div class="field"><label>Years of experience</label><input id="pool-years" placeholder="e.g. 3"></div>
-        <div class="field"><label>Rate expectation</label><input id="pool-rate" placeholder="e.g. $8-10/hr"></div>
-      </div>
-      <div class="field-row">
-        <div class="field"><label>Availability</label><input id="pool-availability" placeholder="e.g. Full-time, immediate"></div>
-        <div class="field"><label>Timezone overlap</label><input id="pool-timezone" placeholder="e.g. US Eastern, 9am-5pm"></div>
-      </div>
-      <div class="field"><label>Skills</label><input id="pool-skills" placeholder="e.g. calendar management, QuickBooks, Clio"></div>
-      <div class="field"><label>English level</label><input id="pool-english" placeholder="e.g. Fluent, C1"></div>
-      <div class="field"><label>Short bio</label><textarea id="pool-bio"></textarea></div>
-      <div class="field">
-        <label>Resume</label>
-        <input type="file" id="pool-resume" accept=".pdf,.doc,.docx">
-        <div class="file-hint">PDF or Word, under 4MB.</div>
-      </div>
-      <div class="field"><label>Portfolio link (optional)</label><input id="pool-portfolio" placeholder="https://"></div>
-      <button type="submit" class="btn btn-secondary" style="width:100%;">Join the Pool</button>
-      <div class="form-msg" id="pool-msg"></div>
-    </form>
-  </div>
-</div>
-
-<script>
-const CATEGORY_COLORS = {
-  'Virtual Assistant': { bg:'rgba(232,184,75,.22)', fg:'#C99A2E' },
-  'Executive Assistant': { bg:'rgba(127,178,201,.18)', fg:'#4F8DA6' },
-  'Personal Assistant': { bg:'rgba(199,165,135,.25)', fg:'#A6825F' },
-  'Legal Assistant': { bg:'rgba(143,188,148,.2)', fg:'#5E9A69' },
-  'Other': { bg:'rgba(62,54,44,.08)', fg:'#6B6153' },
-};
-
-let ALL_JOBS = [];
-let ACTIVE_FILTER = 'All';
-
-async function loadJobs() {
-  try {
-    const res = await fetch('jobs.json', { cache: 'no-store' });
-    const data = await res.json();
-    ALL_JOBS = (data.jobs || []).filter(j => j.status !== 'closed');
-    const updated = data.generated_at ? new Date(data.generated_at).toLocaleDateString(undefined, { month:'long', day:'numeric', year:'numeric' }) : null;
-    document.getElementById('jobs-updated').textContent = updated
-      ? `${ALL_JOBS.length} open roles — last updated ${updated}`
-      : `${ALL_JOBS.length} open roles`;
-    renderFilters();
-    renderJobs();
-  } catch (e) {
-    document.getElementById('jobs-updated').textContent = 'Listings are temporarily unavailable.';
-    document.getElementById('job-list').innerHTML = '<div class="job-empty">Check back shortly.</div>';
+async function adminLogin(request, env) {
+  let body;
+  try { body = await request.json(); } catch { body = {}; }
+  if (!env.ADMIN_KEY || body.key !== env.ADMIN_KEY) {
+    return json({ error: 'Wrong key.' }, 401);
   }
-}
-
-function renderFilters() {
-  const cats = ['All', ...new Set(ALL_JOBS.map(j => j.category || 'Other'))];
-  const el = document.getElementById('filters');
-  el.innerHTML = cats.map(c =>
-    `<button class="chip ${c === ACTIVE_FILTER ? 'active' : ''}" onclick="setFilter('${c.replace(/'/g,"\\'")}')">${c}</button>`
-  ).join('');
-}
-
-function setFilter(cat) {
-  ACTIVE_FILTER = cat;
-  renderFilters();
-  renderJobs();
-}
-
-function renderJobs() {
-  const list = ACTIVE_FILTER === 'All' ? ALL_JOBS : ALL_JOBS.filter(j => (j.category || 'Other') === ACTIVE_FILTER);
-  const el = document.getElementById('job-list');
-  if (!list.length) { el.innerHTML = '<div class="job-empty">No roles in this category right now — try Join Our Pool below.</div>'; return; }
-  el.innerHTML = list.map(j => {
-    const c = CATEGORY_COLORS[j.category] || CATEGORY_COLORS.Other;
-    return `
-    <div class="job">
-      <div class="job-main">
-        <div class="job-title">${escapeHtml(j.title)}</div>
-        <div class="job-meta">
-          <span>${escapeHtml(j.company)}</span>
-          <span class="dot">•</span>
-          <span>${escapeHtml(j.location || 'Remote')}</span>
-          <span class="dot">•</span>
-          <span class="job-tag" style="background:${c.bg};color:${c.fg};">${escapeHtml(j.category || 'Other')}</span>
-        </div>
-      </div>
-      <div style="display:flex; gap:10px;">
-        <button class="btn btn-primary btn-sm" onclick='openApplyModal(${JSON.stringify(j).replace(/'/g,"&#39;")})'>Apply</button>
-      </div>
-    </div>`;
-  }).join('');
-}
-
-function escapeHtml(s) {
-  return String(s || '').replace(/[&<>"']/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]));
-}
-
-/* ---------- modal open/close ---------- */
-function closeModal(id) { document.getElementById(id).classList.remove('open'); }
-document.querySelectorAll('.overlay').forEach(o => {
-  o.addEventListener('click', e => { if (e.target === o) o.classList.remove('open'); });
-});
-
-let currentApplyJob = null;
-function openApplyModal(job) {
-  currentApplyJob = job;
-  document.getElementById('apply-modal-sub').textContent = `${job.title} at ${job.company}`;
-  document.getElementById('apply-msg').className = 'form-msg';
-  document.getElementById('apply-overlay').classList.add('open');
-}
-
-function openEmployerModal(tier) {
-  document.getElementById('emp-tier').value = tier;
-  document.getElementById('employer-modal-title').textContent = tier === 'team' ? 'Hire a Team' : 'Post a Role';
-  document.getElementById('employer-modal-sub').textContent = tier === 'team'
-    ? "Tell us about the roles you're building out — we'll follow up with a plan and pricing."
-    : "Tell us about the hire — we'll follow up with matched candidates.";
-  document.getElementById('emp-team-size-field').style.display = tier === 'team' ? 'grid' : 'none';
-  document.getElementById('emp-timeline-solo-field').style.display = tier === 'team' ? 'none' : 'grid';
-  document.getElementById('employer-msg').className = 'form-msg';
-  document.getElementById('employer-payment').style.display = 'none';
-  document.getElementById('employer-overlay').classList.add('open');
-}
-
-function openPoolModal() {
-  document.getElementById('pool-msg').className = 'form-msg';
-  document.getElementById('pool-overlay').classList.add('open');
-}
-
-/* ---------- file -> data URL, capped at ~4MB ---------- */
-function fileToDataUrl(input) {
-  return new Promise((resolve, reject) => {
-    const file = input.files && input.files[0];
-    if (!file) return resolve(null);
-    if (file.size > 4 * 1024 * 1024) return reject(new Error('Resume file is too large (max 4MB).'));
-    const reader = new FileReader();
-    reader.onload = () => resolve(reader.result);
-    reader.onerror = () => reject(new Error('Could not read the file.'));
-    reader.readAsDataURL(file);
+  return json({ ok: true }, 200, {
+    'set-cookie': `bd_admin=${env.ADMIN_KEY}; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=43200`,
   });
 }
 
-/* ---------- form submissions ---------- */
-document.getElementById('apply-form').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const msg = document.getElementById('apply-msg');
-  try {
-    const resumeUrl = await fileToDataUrl(document.getElementById('apply-resume'));
-    const res = await fetch('/api/apply', {
-      method: 'POST', headers: { 'content-type':'application/json' },
-      body: JSON.stringify({
-        job_id: currentApplyJob?.id, job_title: currentApplyJob?.title, company: currentApplyJob?.company,
-        category: currentApplyJob?.category,
-        name: document.getElementById('apply-name').value,
-        email: document.getElementById('apply-email').value,
-        phone: document.getElementById('apply-phone').value,
-        resume_url: resumeUrl,
-        cover_note: document.getElementById('apply-note').value,
-      }),
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || 'Something went wrong.');
-    msg.textContent = `Application sent! Reference: ${data.ref}`;
-    msg.className = 'form-msg show ok';
-    e.target.reset();
-  } catch (err) {
-    msg.textContent = err.message;
-    msg.className = 'form-msg show err';
-  }
-});
-
-document.getElementById('employer-form').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const msg = document.getElementById('employer-msg');
-  const tier = document.getElementById('emp-tier').value;
-  const roles = Array.from(document.querySelectorAll('#employer-form input[type=checkbox]:checked')).map(c => c.value);
-  try {
-    const res = await fetch('/api/employer', {
-      method: 'POST', headers: { 'content-type':'application/json' },
-      body: JSON.stringify({
-        tier, company: document.getElementById('emp-company').value,
-        contact_name: document.getElementById('emp-contact').value,
-        email: document.getElementById('emp-email').value,
-        phone: document.getElementById('emp-phone').value,
-        roles_needed: roles,
-        team_size: document.getElementById('emp-team-size').value,
-        budget_range: document.getElementById('emp-budget').value,
-        timeline: tier === 'team' ? document.getElementById('emp-timeline').value : document.getElementById('emp-timeline-solo').value,
-        notes: document.getElementById('emp-notes').value,
-      }),
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || 'Something went wrong.');
-    msg.textContent = `Request received! Reference: ${data.ref}`;
-    msg.className = 'form-msg show ok';
-    const box = document.getElementById('employer-payment');
-    box.innerHTML = data.payment_url
-      ? `<p style="margin:0 0 4px;font-weight:600;">${data.message}</p>
-         <a class="btn btn-gold" href="${data.payment_url}" target="_blank" rel="noopener">Pay Placement Deposit via Wise</a>`
-      : `<p style="margin:0;font-weight:600;">${data.message}</p>`;
-    box.style.display = 'block';
-    e.target.reset();
-  } catch (err) {
-    msg.textContent = err.message;
-    msg.className = 'form-msg show err';
-  }
-});
-
-document.getElementById('pool-form').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const msg = document.getElementById('pool-msg');
-  try {
-    const resumeUrl = await fileToDataUrl(document.getElementById('pool-resume'));
-    const res = await fetch('/api/pool', {
-      method: 'POST', headers: { 'content-type':'application/json' },
-      body: JSON.stringify({
-        name: document.getElementById('pool-name').value,
-        email: document.getElementById('pool-email').value,
-        phone: document.getElementById('pool-phone').value,
-        category: document.getElementById('pool-category').value,
-        years_experience: document.getElementById('pool-years').value,
-        rate_expectation: document.getElementById('pool-rate').value,
-        availability: document.getElementById('pool-availability').value,
-        timezone_overlap: document.getElementById('pool-timezone').value,
-        skills: document.getElementById('pool-skills').value,
-        english_level: document.getElementById('pool-english').value,
-        bio: document.getElementById('pool-bio').value,
-        resume_url: resumeUrl,
-        portfolio_url: document.getElementById('pool-portfolio').value,
-      }),
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.error || 'Something went wrong.');
-    msg.textContent = `You're in the pool! Reference: ${data.ref}`;
-    msg.className = 'form-msg show ok';
-    e.target.reset();
-  } catch (err) {
-    msg.textContent = err.message;
-    msg.className = 'form-msg show err';
-  }
-});
-
-/* ---------- world clock ---------- */
-const CLOCK_CITIES = [
-  { label: 'New York, US', tz: 'America/New_York' },
-  { label: 'London, UK', tz: 'Europe/London' },
-  { label: 'Toronto, Canada', tz: 'America/Toronto' },
-  { label: 'Mexico City, LATAM', tz: 'America/Mexico_City' },
-  { label: 'Singapore', tz: 'Asia/Singapore' },
-  { label: 'Kuala Lumpur, Malaysia', tz: 'Asia/Kuala_Lumpur' },
-  { label: 'Sydney, Australia', tz: 'Australia/Sydney' },
-];
-
-function renderClocks() {
-  const row = document.getElementById('clock-row');
-  if (!row) return;
-  let inHours = 0;
-  row.innerHTML = CLOCK_CITIES.map(c => {
-    const now = new Date();
-    const parts = new Intl.DateTimeFormat('en-US', { timeZone: c.tz, hour: 'numeric', minute: '2-digit', hour12: true, hourCycle: 'h12' }).formatToParts(now);
-    const hourPart = parts.find(p => p.type === 'hour');
-    const minPart = parts.find(p => p.type === 'minute');
-    const dayPart = parts.find(p => p.type === 'dayPeriod');
-    const hour24 = parseInt(new Intl.DateTimeFormat('en-US', { timeZone: c.tz, hour: 'numeric', hourCycle: 'h23' }).format(now), 10);
-    const businessHours = hour24 >= 9 && hour24 < 18;
-    if (businessHours) inHours++;
-    const cls = businessHours ? 'in-hours' : 'off-hours';
-    return `
-      <div class="clock-tile">
-        <div class="clock-city">${escapeHtml(c.label)}</div>
-        <div class="clock-time ${cls}">${hourPart.value}:${minPart.value}<br>${dayPart.value}</div>
-      </div>`;
-  }).join('');
-  const el = document.getElementById('clock-in-hours');
-  if (el) el.textContent = `${inHours} of ${CLOCK_CITIES.length} in business hours`;
+function requireAdmin(request, env) {
+  if (!env.DB) return json({ error: 'No database configured.' }, 503);
+  if (!adminAuthed(request, env)) return json({ error: 'unauthorised' }, 401);
+  return null;
 }
-renderClocks();
-setInterval(renderClocks, 30000);
 
-loadJobs();
-</script>
-</body>
-</html>
+/* ==========================================================================
+   PUBLIC: click tracking
+   ========================================================================== */
+async function recordClick(request, env) {
+  if (!env.DB) return new Response(null, { status: 204 });
+  let body;
+  try { body = await request.json(); } catch { return new Response(null, { status: 204 }); }
+  try {
+    await env.DB.prepare(
+      'insert into job_clicks (job_id, job_title, company) values (?1, ?2, ?3)'
+    ).bind(clean(body.job_id, 200), clean(body.job_title, 200), clean(body.company, 200)).run();
+  } catch { /* tracking is best-effort, never blocks the click-through */ }
+  return new Response(null, { status: 204 });
+}
+
+/* ==========================================================================
+   PUBLIC: candidate applies to a specific job listing
+   ========================================================================== */
+async function receiveApplication(request, env) {
+  if (!env.DB) return json({ error: 'No database configured.' }, 503);
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+
+  const name = clean(body.name, 200);
+  const email = clean(body.email, 200);
+  if (!name || !isEmail(email)) return json({ error: 'Name and a valid email are required.' }, 400);
+
+  const ref = makeRef('BD');
+  await env.DB.prepare(
+    `insert into applications
+      (ref, job_id, job_title, company, category, name, email, phone, resume_url, cover_note)
+     values (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10)`
+  ).bind(
+    ref, clean(body.job_id, 200), clean(body.job_title, 200), clean(body.company, 200),
+    clean(body.category, 60), name, email, clean(body.phone, 60),
+    clean(body.resume_url, 500), clean(body.cover_note, 4000)
+  ).run();
+
+  return json({ ok: true, ref });
+}
+
+/* ==========================================================================
+   PUBLIC: "Join our Pool" — general candidate intake, not tied to one job
+   ========================================================================== */
+async function joinPool(request, env) {
+  if (!env.DB) return json({ error: 'No database configured.' }, 503);
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+
+  const name = clean(body.name, 200);
+  const email = clean(body.email, 200);
+  if (!name || !isEmail(email)) return json({ error: 'Name and a valid email are required.' }, 400);
+
+  const ref = makeRef('POOL');
+  await env.DB.prepare(
+    `insert into pool_candidates
+      (ref, name, email, phone, category, years_experience, skills, rate_expectation,
+       availability, timezone_overlap, english_level, bio, resume_url, portfolio_url)
+     values (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12,?13,?14)`
+  ).bind(
+    ref, name, email, clean(body.phone, 60),
+    clean(body.category, 60), clean(body.years_experience, 60), clean(body.skills, 1000),
+    clean(body.rate_expectation, 120), clean(body.availability, 200), clean(body.timezone_overlap, 200),
+    clean(body.english_level, 120), clean(body.bio, 4000), clean(body.resume_url, 500), clean(body.portfolio_url, 500)
+  ).run();
+
+  return json({ ok: true, ref });
+}
+
+/* ==========================================================================
+   PUBLIC: employer intake — single hire or Hire-a-Team (which now also
+   covers a fully managed 24/7 team, anchored by a Senior EA, employed by
+   BridgeDesk rather than the client).
+   No fee-agreement gate. The response hands back a payment link directly.
+   ========================================================================== */
+async function employerIntake(request, env) {
+  if (!env.DB) return json({ error: 'No database configured.' }, 503);
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+
+  const company = clean(body.company, 200);
+  const contactName = clean(body.contact_name, 200);
+  const email = clean(body.email, 200);
+  const tier = body.tier === 'team' ? 'team' : 'single';
+  if (!company || !contactName || !isEmail(email)) {
+    return json({ error: 'Company, contact name, and a valid email are required.' }, 400);
+  }
+
+  const ref = makeRef('EMP');
+  const teamSize = tier === 'team' ? Math.max(2, parseInt(body.team_size, 10) || 2) : null;
+  const rolesNeeded = Array.isArray(body.roles_needed) ? body.roles_needed.join(', ') : clean(body.roles_needed, 300);
+
+  await env.DB.prepare(
+    `insert into employer_requests
+      (ref, tier, company, contact_name, email, phone, roles_needed, team_size, budget_range, timeline, notes)
+     values (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11)`
+  ).bind(
+    ref, tier, company, contactName, email, clean(body.phone, 60),
+    rolesNeeded, teamSize, clean(body.budget_range, 120), clean(body.timeline, 200), clean(body.notes, 2000)
+  ).run();
+
+  const paymentUrl = env.WISE_LINK || 'https://wise.com/pay/business/bridgedesk';
+  return json({
+    ok: true,
+    ref,
+    tier,
+    payment_url: paymentUrl,
+    message: tier === 'team'
+      ? "Team request received — we'll contact you via email with next steps. Send the placement deposit below to begin sourcing your team."
+      : "Request received — we'll contact you via email with next steps. Send the placement deposit below and we will start matching candidates right away.",
+  });
+}
+
+/* ==========================================================================
+   ADMIN: list / update applications
+   ========================================================================== */
+async function listApplications(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  const url = new URL(request.url);
+  const status = url.searchParams.get('status');
+  const sql = status
+    ? 'select * from applications where status = ?1 order by created_at desc limit 500'
+    : 'select * from applications order by created_at desc limit 500';
+  const rows = status
+    ? await env.DB.prepare(sql).bind(status).all()
+    : await env.DB.prepare(sql).all();
+  return json({ applications: rows.results || [] });
+}
+
+async function updateApplication(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+  if (!body.ref) return json({ error: 'ref is required.' }, 400);
+  await env.DB.prepare(
+    'update applications set status = ?1, decline_reason = ?2 where ref = ?3'
+  ).bind(clean(body.status, 40) || 'new', clean(body.decline_reason, 300), clean(body.ref, 20)).run();
+  return json({ ok: true });
+}
+
+/* ==========================================================================
+   ADMIN: list / update pool candidates
+   ========================================================================== */
+async function listPool(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  const url = new URL(request.url);
+  const category = url.searchParams.get('category');
+  const sql = category
+    ? 'select * from pool_candidates where category = ?1 order by created_at desc limit 500'
+    : 'select * from pool_candidates order by created_at desc limit 500';
+  const rows = category
+    ? await env.DB.prepare(sql).bind(category).all()
+    : await env.DB.prepare(sql).all();
+  return json({ candidates: rows.results || [] });
+}
+
+async function updatePool(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+  if (!body.ref) return json({ error: 'ref is required.' }, 400);
+  await env.DB.prepare('update pool_candidates set status = ?1 where ref = ?2')
+    .bind(clean(body.status, 40) || 'new', clean(body.ref, 20)).run();
+  return json({ ok: true });
+}
+
+/* ==========================================================================
+   ADMIN: list / update employer requests
+   ========================================================================== */
+async function listEmployers(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  const rows = await env.DB.prepare('select * from employer_requests order by created_at desc limit 500').all();
+  return json({ employers: rows.results || [] });
+}
+
+async function updateEmployer(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+  if (!body.ref) return json({ error: 'ref is required.' }, 400);
+  await env.DB.prepare(
+    'update employer_requests set status = coalesce(?1, status), payment_status = coalesce(?2, payment_status) where ref = ?3'
+  ).bind(clean(body.status, 40), clean(body.payment_status, 40), clean(body.ref, 20)).run();
+  return json({ ok: true });
+}
+
+/* ==========================================================================
+   ADMIN: matching engine
+   ---------------------------------------------------------------------------
+   Transparent, heuristic, and conservative — the same philosophy as the
+   scraper: a wrong-but-confident score is worse than an honest partial one,
+   so every component of the score is visible in `rationale` rather than
+   hidden inside a single opaque number.
+   ========================================================================== */
+function parseMoney(s) {
+  const nums = String(s || '').match(/\d[\d,]*(\.\d+)?/g);
+  if (!nums) return null;
+  return nums.map((n) => parseFloat(n.replace(/,/g, '')));
+}
+
+function parseYears(s) {
+  const m = String(s || '').match(/(\d+(\.\d+)?)/);
+  return m ? parseFloat(m[1]) : null;
+}
+
+function scoreCandidate(candidate, employer) {
+  const notes = [];
+  let score = 0;
+
+  // Category fit — the single most important signal. No overlap, no match.
+  const wanted = String(employer.roles_needed || '').toLowerCase();
+  const fits = candidate.category && wanted.includes(String(candidate.category).toLowerCase());
+  if (fits) { score += 40; notes.push(`+40 category fit (${candidate.category})`); }
+  else { notes.push('+0 category — not one of the roles requested'); }
+
+  // Rate fit — best-effort, conservative. No numbers on either side: neutral.
+  const candRate = parseMoney(candidate.rate_expectation);
+  const budget = parseMoney(employer.budget_range);
+  if (candRate && budget) {
+    const candMax = Math.max(...candRate);
+    const budgetMax = Math.max(...budget);
+    if (candMax <= budgetMax) { score += 20; notes.push('+20 rate within stated budget'); }
+    else if (candMax <= budgetMax * 1.15) { score += 10; notes.push('+10 rate slightly above budget'); }
+    else notes.push('+0 rate — above stated budget');
+  } else {
+    score += 10; notes.push('+10 rate — not enough detail on one side to compare');
+  }
+
+  // Experience — more is better, capped, never penalised for "too senior".
+  const years = parseYears(candidate.years_experience);
+  if (years !== null) {
+    const pts = Math.min(20, Math.round(years * 4));
+    score += pts; notes.push(`+${pts} experience (${years} yrs stated)`);
+  } else {
+    notes.push('+0 experience — not stated');
+  }
+
+  // Timezone overlap — the employer could now be anywhere, not just the US,
+  // so this rewards any specific, checkable overlap language rather than
+  // only US zone names. A named zone or region (in any part of the world)
+  // scores highest; a vague "flexible hours" mention scores partial; nothing
+  // stated scores zero.
+  const tz = String(candidate.timezone_overlap || '').toLowerCase();
+  const namedZone = /\b(gmt|utc|[a-z]{2,4}t\b|eastern|pacific|central|mountain|cet|cest|bst|ist|sgt|myt|aest|aedt|jst|kst|hkt)\b|[+-]\d{1,2}(:\d{2})?\s*(gmt|utc)?/;
+  if (namedZone.test(tz)) {
+    score += 20; notes.push('+20 timezone overlap stated (named zone/region)');
+  } else if (tz) {
+    score += 10; notes.push('+10 timezone — some overlap language, unclear how much');
+  } else {
+    notes.push('+0 timezone — not stated');
+  }
+
+  return { score: Math.min(100, score), rationale: notes.join('; ') };
+}
+
+async function runMatch(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+  const employerRef = clean(body.employer_ref, 20);
+  if (!employerRef) return json({ error: 'employer_ref is required.' }, 400);
+
+  const employer = await env.DB.prepare('select * from employer_requests where ref = ?1').bind(employerRef).first();
+  if (!employer) return json({ error: 'No employer request with that ref.' }, 404);
+
+  const pool = await env.DB.prepare(
+    "select * from pool_candidates where status != 'placed' order by created_at desc limit 300"
+  ).all();
+  const candidates = pool.results || [];
+
+  const scored = candidates.map((c) => ({ candidate: c, ...scoreCandidate(c, employer) }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 10); // top ten, so the admin console isn't flooded with 0-fit rows
+
+  const inserted = [];
+  for (const s of scored) {
+    const res = await env.DB.prepare(
+      'insert into matches (candidate_id, employer_request_id, score, rationale) values (?1,?2,?3,?4)'
+    ).bind(s.candidate.id, employer.id, s.score, s.rationale).run();
+    inserted.push({ match_id: res.meta.last_row_id, candidate_ref: s.candidate.ref, candidate_name: s.candidate.name, score: s.score, rationale: s.rationale });
+  }
+
+  return json({ ok: true, employer_ref: employerRef, matches: inserted });
+}
+
+async function listMatches(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  const url = new URL(request.url);
+  const employerRef = url.searchParams.get('employer_ref');
+  let sql = `
+    select m.id, m.score, m.rationale, m.status, m.created_at,
+           p.ref as candidate_ref, p.name as candidate_name, p.category as candidate_category, p.email as candidate_email,
+           e.ref as employer_ref, e.company as employer_company
+    from matches m
+    join pool_candidates p on p.id = m.candidate_id
+    join employer_requests e on e.id = m.employer_request_id`;
+  const binds = [];
+  if (employerRef) { sql += ' where e.ref = ?1'; binds.push(employerRef); }
+  sql += ' order by m.score desc limit 500';
+  const rows = binds.length
+    ? await env.DB.prepare(sql).bind(...binds).all()
+    : await env.DB.prepare(sql).all();
+  return json({ matches: rows.results || [] });
+}
+
+async function updateMatch(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+  if (!body.id) return json({ error: 'id is required.' }, 400);
+  await env.DB.prepare('update matches set status = ?1 where id = ?2')
+    .bind(clean(body.status, 40) || 'suggested', parseInt(body.id, 10)).run();
+  return json({ ok: true });
+}
+
+/* ==========================================================================
+   ROUTER
+   ========================================================================== */
+export default {
+  async fetch(request, env) {
+    const { pathname } = new URL(request.url);
+    const method = request.method;
+
+    if (pathname === '/api/click' && method === 'POST') return recordClick(request, env);
+    if (pathname === '/api/apply' && method === 'POST') return receiveApplication(request, env);
+    if (pathname === '/api/pool' && method === 'POST') return joinPool(request, env);
+    if (pathname === '/api/employer' && method === 'POST') return employerIntake(request, env);
+
+    if (pathname === '/api/admin/login' && method === 'POST') return adminLogin(request, env);
+    if (pathname === '/api/admin/applications' && method === 'GET') return listApplications(request, env);
+    if (pathname === '/api/admin/applications' && method === 'POST') return updateApplication(request, env);
+    if (pathname === '/api/admin/pool' && method === 'GET') return listPool(request, env);
+    if (pathname === '/api/admin/pool' && method === 'POST') return updatePool(request, env);
+    if (pathname === '/api/admin/employers' && method === 'GET') return listEmployers(request, env);
+    if (pathname === '/api/admin/employers' && method === 'POST') return updateEmployer(request, env);
+    if (pathname === '/api/admin/match' && method === 'POST') return runMatch(request, env);
+    if (pathname === '/api/admin/matches' && method === 'GET') return listMatches(request, env);
+    if (pathname === '/api/admin/matches' && method === 'POST') return updateMatch(request, env);
+
+    // Everything else is the static site.
+    return env.ASSETS.fetch(request);
+  },
+};
