@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T08:36:33.496Z",
+  "generated_at": "2026-08-29T08:39:21.432Z",
   "count": 8,
   "sources_ok": 10,
   "sources_failed": 2,
@@ -23,7 +23,7 @@
       "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T14:13:52-04:00",
-      "scraped_at": "2026-08-29T08:36:32.348Z",
+      "scraped_at": "2026-08-29T08:39:20.055Z",
       "status": "open"
     },
     {
@@ -45,7 +45,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-08-26T13:00:27-04:00",
-      "scraped_at": "2026-08-29T08:36:31.695Z",
+      "scraped_at": "2026-08-29T08:39:19.270Z",
       "status": "open"
     },
     {
@@ -67,7 +67,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-08-29T08:36:31.695Z",
+      "scraped_at": "2026-08-29T08:39:19.270Z",
       "status": "open"
     },
     {
@@ -177,7 +177,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-29T08:36:31.668Z",
+      "scraped_at": "2026-08-29T08:39:19.364Z",
       "status": "open"
     }
   ]
