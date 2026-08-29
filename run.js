@@ -145,16 +145,38 @@ function parseComp(text) {
 }
 
 /**
- * Which assistant category a posting belongs to. These are the buckets the
- * board filters by and the buckets the matching engine scores candidates
- * against, so keep them few and stable.
+ * Which assistant/VA-niche category a posting belongs to. These are the
+ * buckets the board filters by (dynamically, from whatever shows up in
+ * jobs.json) and the buckets the matching engine's free-text category fit
+ * scores against, so a title should land in exactly one specific bucket
+ * rather than a vague catch-all. Order matters: more specific niches are
+ * checked before the general "Virtual Assistant" fallback so e.g. a
+ * "Social Media Virtual Assistant" title lands in Social Media Manager,
+ * not the generic bucket.
  */
 function categorise(title = '') {
   const t = title.toLowerCase();
   if (/\b(legal assistant|paralegal|legal secretary|contracts? (assistant|coordinator|admin))\b/.test(t)) return 'Legal Assistant';
   if (/\b(executive assistant|\bea\b|chief of staff|assistant to the (ceo|founder|president|cfo|coo|cto))\b/.test(t)) return 'Executive Assistant';
   if (/\b(personal assistant|\bpa\b|household|family assistant|lifestyle (assistant|manager))\b/.test(t)) return 'Personal Assistant';
-  if (/\b(virtual assistant|\bva\b|admin(istrative)? (assistant|associate|coordinator|support)|office (assistant|coordinator|manager)|operations? (assistant|coordinator)|customer (support|success) (assistant|associate))\b/.test(t)) return 'Virtual Assistant';
+  if (/\b(administrative assistant|admin assistant|admin(istrative)? (associate|coordinator|support)|office (assistant|coordinator|manager))\b/.test(t)) return 'Administrative Assistant';
+  if (/\b(social media (manager|assistant|coordinator|specialist|strategist))\b/.test(t)) return 'Social Media Manager';
+  if (/\b(graphic designer|graphic artist|visual designer)\b/.test(t)) return 'Graphic Designer';
+  if (/\b(content writer|content creator|copywriter|blog writer)\b/.test(t)) return 'Content Writer';
+  if (/\b(customer (support|service) (assistant|associate|specialist|representative|agent|coordinator)|customer success (assistant|associate))\b/.test(t)) return 'Customer Support';
+  if (/\b(data entry (clerk|specialist|assistant|associate|operator))\b/.test(t)) return 'Data Entry Specialist';
+  if (/\b(bookkeeper|bookkeeping (assistant|associate|clerk))\b/.test(t)) return 'Bookkeeping Assistant';
+  if (/\b(seo (specialist|assistant|associate))\b/.test(t)) return 'SEO Specialist';
+  if (/\b(email marketing (assistant|specialist|coordinator))\b/.test(t)) return 'Email Marketing Specialist';
+  if (/\b((e-?commerce|amazon) (assistant|specialist|coordinator|virtual assistant))\b/.test(t)) return 'E-commerce Assistant';
+  if (/\bcommunity manager\b/.test(t)) return 'Community Manager';
+  if (/\bvideo editor\b/.test(t)) return 'Video Editor';
+  if (/\btranscriptionist\b/.test(t)) return 'Transcriptionist';
+  if (/\b(appointment setter|scheduling assistant|scheduler)\b/.test(t)) return 'Appointment Setter';
+  if (/\bproject coordinator\b/.test(t)) return 'Project Coordinator';
+  if (/\bpodcast (manager|editor|producer)\b/.test(t)) return 'Podcast Manager';
+  if (/\blead generation (specialist|assistant)\b/.test(t)) return 'Lead Generation Specialist';
+  if (/\b(virtual assistant|\bva\b|operations? (assistant|coordinator))\b/.test(t)) return 'Virtual Assistant';
   return 'Other';
 }
 
@@ -175,16 +197,28 @@ const segmentOf = (company) => company.segment || (company.hub === 'legal' ? 'Le
  * A posting that doesn't match is dropped, not miscategorised as "Other" —
  * "Other" is reserved for genuine near-misses a human should still see.
  */
+/**
+ * Every remote VA niche this board accepts, not just the core four. Kept as
+ * one list so isAssistantRole and categorise can't quietly drift apart —
+ * if a niche belongs on the board, it needs a matching bucket in categorise()
+ * too, or it scrapes in and immediately falls into "Other".
+ */
+const NICHE_TITLES = /\b(virtual assistant|\bva\b|executive assistant|\bea\b|personal assistant|\bpa\b|legal assistant|paralegal|legal secretary|administrative assistant|admin assistant|admin(?:istrative)? (?:associate|coordinator|support)|office (?:manager|coordinator|assistant)|operations? (?:assistant|coordinator)|chief of staff|assistant to the|social media (?:manager|assistant|coordinator|specialist|strategist)|graphic designer|graphic artist|visual designer|content writer|content creator|copywriter|blog writer|customer (?:support|service) (?:assistant|associate|specialist|representative|agent|coordinator)|customer success (?:assistant|associate)|data entry (?:clerk|specialist|assistant|associate|operator)|bookkeeper|bookkeeping (?:assistant|associate|clerk)|seo (?:specialist|assistant|associate)|email marketing (?:assistant|specialist|coordinator)|(?:e-?commerce|amazon) (?:assistant|specialist|coordinator|virtual assistant)|community manager|video editor|transcriptionist|appointment setter|scheduling assistant|scheduler|project coordinator|podcast (?:manager|editor|producer)|lead generation (?:specialist|assistant))\b/;
+
+/**
+ * A handful of terms that, if present, mean this is almost certainly a
+ * different (often much more senior or unrelated) role that happens to share
+ * a word with one of the niches above — e.g. "Product Designer" contains no
+ * niche term and is already excluded by NICHE_TITLES not matching it, but
+ * "UX Designer, Client Success Assistant Program" is the kind of compound
+ * title this list guards against. Kept short and specific deliberately: a
+ * missing VA posting is worse than one extra "Other" row a human can ignore.
+ */
 function isAssistantRole(title = '') {
   const t = title.toLowerCase();
-  const positive = /\b(virtual assistant|\bva\b|executive assistant|\bea\b|personal assistant|\bpa\b|legal assistant|paralegal|legal secretary|administrative assistant|admin assistant|office (manager|coordinator|assistant)|operations? (assistant|coordinator)|chief of staff|assistant to the)\b/;
-  const exclude = /\b(sales|account executive|engineer|developer|designer|marketing|recruiter|recruiting|scientist|analyst(?! .*assistant)|product manager)\b/;
-  if (!positive.test(t)) return false;
-  // A title can legitimately contain both ("Sales Assistant" is fine, but
-  // "Account Executive" alone should not slip in through a stray "assistant"
-  // elsewhere in a long title) — the exclude list only applies when the
-  // positive match is weak (i.e. the generic "assistant" fallback).
-  if (exclude.test(t) && !/\b(virtual assistant|executive assistant|personal assistant|legal assistant|paralegal)\b/.test(t)) return false;
+  if (!NICHE_TITLES.test(t)) return false;
+  const exclude = /\b(account executive|software engineer|(?:senior |staff |principal )?(?:backend|frontend|full[- ]?stack) developer|product designer|ux designer|ui designer|marketing manager|marketing director|product marketing|growth marketing|brand marketing|recruiter|recruiting|data scientist|business analyst|financial analyst|product manager)\b/;
+  if (exclude.test(t)) return false;
   return true;
 }
 
