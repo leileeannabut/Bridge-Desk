@@ -1,879 +1,331 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Command Center — BridgeDesk</title>
-<meta name="robots" content="noindex, nofollow" />
-<link rel="icon" href="favicon.svg" type="image/svg+xml" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<meta charset="utf-8">
+<title>Admin — BridgeDesk</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <style>
-/* ==========================================================================
-   Command Center — the applicant pipeline.
-   Same palette as the board, but denser: this is a working tool, not a shop
-   window. Nothing here is public — the page is noindex and every request needs
-   the admin key.
-   ========================================================================== */
 :root{
-  --void:#FAF6ED; --panel:#FFFFFF; --panel-2:#F1ECDF;
-  --line:rgba(36,50,44,.12); --line-2:rgba(36,50,44,.22);
-  --ink:#24322C; --ink-soft:#55645C; --ink-dim:#8A968F;
-  --green:#3F5C43; --purple:#3E7C93; --purple-text:#28556A;
-  --cyan:#3E7C93; --pink:#93743B; --amber:#D6A93B; --red:#B4553F;
-  --head:'Fraunces',Georgia,serif;
-  --body:'Work Sans',system-ui,sans-serif;
-  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --cream:#FAF6EF; --cream-deep:#F2EBDD; --paper:#FFFFFF;
+  --tan:#C7A587; --tan-deep:#A6825F;
+  --sky:#7FB2C9; --sky-deep:#4F8DA6;
+  --sage:#8FBC94; --sage-deep:#5E9A69;
+  --gold:#E8B84B; --gold-deep:#C99A2E;
+  --ink:#4A4238; --ink-soft:#6B6153; --ink-dim:#8A7F6E;
+  --line:#E7DECB;
+  --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,sans-serif;
+  --mono:'SFMono-Regular',Consolas,'Liberation Mono',monospace;
 }
-*{box-sizing:border-box;margin:0;padding:0}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:14px;}
+a{color:var(--sky-deep);}
+header{background:var(--paper);border-bottom:1px solid var(--line);padding:14px 22px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10;}
+header .brand{font-weight:700;font-size:16px;display:flex;align-items:center;gap:8px;}
+header .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--sage-deep);}
+header .status{font-size:12px;color:var(--ink-dim);}
+main{max-width:1180px;margin:0 auto;padding:22px;}
 
-/* The hidden attribute works through display:none in the browser's default
-   stylesheet, and ANY author display rule outranks it — .gate below sets
-   display:grid, so `gate.hidden = true` had no visual effect at all. The gate
-   stayed on screen through every successful sign-in, which looked exactly like
-   a button that did nothing. */
-[hidden]{display:none !important}
-body{
-  background:
-    radial-gradient(1100px 620px at 82% -8%, rgba(62,124,147,.10), transparent 62%),
-    radial-gradient(900px 520px at 4% 104%, rgba(110,143,114,.10), transparent 60%),
-    var(--void);
-  color:var(--ink);font-family:var(--body);min-height:100vh;
-  -webkit-font-smoothing:antialiased;
-}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:1400px;margin:0 auto;padding:38px 30px 90px}
+#login-screen{max-width:360px;margin:80px auto;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:28px;}
+#login-screen h1{font-size:18px;margin:0 0 4px;}
+#login-screen p{color:var(--ink-dim);font-size:13px;margin:0 0 16px;}
+#login-screen input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;margin-bottom:10px;}
+#login-screen button{width:100%;padding:10px;border:0;border-radius:8px;background:var(--sky-deep);color:#fff;font-weight:600;cursor:pointer;}
+#login-err{color:#B3453C;font-size:13px;min-height:18px;}
 
-/* ---------- sign in ---------- */
-.gate{min-height:100vh;display:grid;place-items:center;padding:24px}
-.gate-card{
-  width:100%;max-width:420px;padding:38px 34px;border-radius:20px;
-  background:linear-gradient(150deg,rgba(255,255,255,.9),rgba(241,236,223,.9));
-  border:1px solid var(--line-2);box-shadow:0 30px 70px rgba(36,50,44,.18);
-}
-.gate h1{font-family:var(--head);font-size:26px;margin-bottom:8px}
-.gate p{color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:22px}
-.gate input{
-  width:100%;padding:14px 16px;border-radius:11px;margin-bottom:14px;
-  background:rgba(255,255,255,.9);border:1px solid var(--line-2);color:var(--ink);
-  font-family:var(--mono);font-size:14px;
-}
-.gate input:focus{outline:none;border-color:var(--purple)}
-.gate button{
-  width:100%;padding:14px;border-radius:11px;border:0;cursor:pointer;
-  background:linear-gradient(135deg,var(--purple),#5A2FA8);color:#fff;
-  font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
-}
-.gate .err{color:var(--red);font-size:13px;min-height:18px;margin-top:10px}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-bottom:18px;flex-wrap:wrap;}
+.tab{padding:9px 16px;border-radius:8px 8px 0 0;cursor:pointer;font-weight:600;color:var(--ink-dim);border:1px solid transparent;}
+.tab.active{color:var(--ink);background:var(--paper);border-color:var(--line);border-bottom-color:var(--paper);margin-bottom:-1px;}
+.tab .count{display:inline-block;margin-left:6px;background:var(--cream-deep);border-radius:10px;padding:1px 7px;font-size:11px;color:var(--ink-soft);}
 
-/* ---------- header ---------- */
-.eyebrow{
-  display:flex;align-items:center;gap:9px;
-  font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;
-  color:var(--purple-text);margin-bottom:10px;
-}
-.eyebrow::before{content:"";width:9px;height:9px;background:var(--purple);transform:rotate(45deg)}
-.top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:34px}
-h1.title{
-  font-family:var(--head);font-size:clamp(34px,5vw,54px);font-weight:700;
-  letter-spacing:-.02em;line-height:1;text-transform:uppercase;
-  background:linear-gradient(96deg,#F4F3FA 8%,var(--purple-text) 52%,var(--cyan) 96%);
-  -webkit-background-clip:text;background-clip:text;color:transparent;
-}
-.btn{
-  padding:11px 20px;border-radius:11px;cursor:pointer;
-  border:1px solid var(--line-2);background:rgba(255,255,255,.85);color:var(--ink-soft);
-  font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;
-  transition:border-color .2s,color .2s,transform .15s;
-}
-.btn:hover{border-color:var(--purple);color:var(--ink);transform:translateY(-1px)}
+.panel{display:none;}
+.panel.active{display:block;}
 
-/* ---------- stat cards ---------- */
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-bottom:26px}
-.stat{
-  padding:22px 24px;border-radius:16px;position:relative;overflow:hidden;
-  background:linear-gradient(150deg,rgba(255,255,255,.95),rgba(241,236,223,.85));
-  border:1px solid var(--line);transition:border-color .25s,transform .25s;
-}
-.stat:hover{transform:translateY(-2px)}
-.stat[data-tone="total"]{--tone:var(--purple-text)}
-.stat[data-tone="new"]{--tone:var(--green)}
-.stat[data-tone="interview"]{--tone:var(--cyan)}
-.stat[data-tone="offer"]{--tone:var(--pink)}
-.stat::before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:2px;background:var(--tone);opacity:.6}
-.stat-k{
-  display:flex;align-items:center;gap:9px;
-  font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--ink-dim);margin-bottom:14px;
-}
-.stat-k svg{width:15px;height:15px;color:var(--tone)}
-.stat-v{font-family:var(--head);font-size:40px;font-weight:700;line-height:1;color:var(--tone)}
-.stat-sub{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink-dim);margin-top:8px}
+.toolbar{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap;}
+.toolbar select, .toolbar input{padding:7px 10px;border:1px solid var(--line);border-radius:7px;font-size:13px;background:var(--paper);}
+.toolbar button.refresh{padding:7px 12px;border:1px solid var(--line);border-radius:7px;background:var(--paper);cursor:pointer;font-size:13px;}
 
-/* ---------- filters ---------- */
-.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
-.chip{
-  padding:9px 16px;border-radius:100px;cursor:pointer;
-  border:1px solid var(--line);background:rgba(255,255,255,.85);color:var(--ink-dim);
-  font-family:var(--mono);font-size:11px;letter-spacing:.11em;text-transform:uppercase;
-  transition:all .2s;
-}
-.chip:hover{color:var(--ink-soft);border-color:var(--line-2)}
-.chip.on{background:rgba(127,77,224,.2);border-color:var(--purple);color:var(--ink)}
-
-/* ---------- table ---------- */
-.panel{
-  border-radius:18px;overflow:hidden;
-  background:linear-gradient(160deg,rgba(255,255,255,.97),rgba(241,236,223,.9));
-  border:1px solid var(--line);
-}
-.panel-head{
-  padding:20px 26px;border-bottom:1px solid var(--line);
-  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
-}
-.panel-head h2{font-family:var(--head);font-size:19px;font-weight:600}
-.count{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--ink-dim)}
-table{width:100%;border-collapse:collapse}
-th{
-  text-align:left;padding:13px 18px;
-  font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--ink-dim);border-bottom:1px solid var(--line);white-space:nowrap;
-}
-td{padding:15px 18px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:middle}
-tr.row{cursor:pointer;transition:background .18s}
-tr.row:hover{background:rgba(62,124,147,.08)}
-.who b{display:block;font-weight:600}
-.who span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
-.role b{display:block;font-weight:500;font-size:13.5px}
-.role span{display:block;font-size:12px;color:var(--ink-dim);margin-top:2px}
-.ref{font-family:var(--mono);font-size:11px;color:var(--ink-dim)}
-.score{
-  font-family:var(--mono);font-size:13px;font-weight:500;
-  display:inline-grid;place-items:center;width:44px;height:32px;border-radius:9px;
-  border:1px solid currentColor;
-}
-.score.hi{color:var(--green)} .score.mid{color:var(--amber)} .score.lo{color:var(--ink-dim)}
-.pill{
-  font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
-  padding:5px 11px;border-radius:100px;border:1px solid currentColor;white-space:nowrap;
-}
-.pill.new{color:var(--green)} .pill.reviewing{color:var(--cyan)}
-.pill.interview{color:var(--purple-text)} .pill.offer{color:var(--pink)}
-.pill.hired{color:var(--green)} .pill.passed{color:var(--ink-dim)}
-.sent{font-size:15px}
-.sent.ok{color:var(--green)} .sent.no{color:var(--red)}
-.empty{padding:74px 20px;text-align:center;color:var(--ink-dim);font-size:14.5px}
-
-/* ---------- detail drawer ---------- */
-.scrim{position:fixed;inset:0;background:rgba(36,50,44,.42);backdrop-filter:blur(4px);z-index:60}
-.drawer{
-  position:fixed;top:0;right:0;bottom:0;width:min(640px,100%);z-index:61;
-  background:linear-gradient(160deg,#FFFFFF,#FAF6ED);border-left:1px solid var(--line-2);
-  display:flex;flex-direction:column;box-shadow:-30px 0 80px rgba(36,50,44,.22);
-}
-.dr-top{padding:26px 30px;border-bottom:1px solid var(--line);position:relative}
-.dr-top h3{font-family:var(--head);font-size:25px;font-weight:700;margin-bottom:5px}
-.dr-top p{color:var(--ink-dim);font-size:14px}
-.dr-close{
-  position:absolute;top:22px;right:24px;width:34px;height:34px;border-radius:9px;cursor:pointer;
-  border:1px solid var(--line-2);background:rgba(255,255,255,.9);color:var(--ink-soft);font-size:15px;
-}
-.dr-body{padding:26px 30px;overflow-y:auto;flex:1}
-.dr-sec{margin-bottom:26px}
-.dr-sec h4{
-  font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--ink-dim);margin-bottom:11px;
-}
-.dr-sec p,.dr-sec li{font-size:14.5px;line-height:1.68;color:var(--ink-soft)}
-.dr-sec ul{padding-left:19px}
-.dr-sec li{margin-bottom:7px}
-.bg-text{white-space:pre-wrap;border-left:2px solid var(--line-2);padding-left:15px}
-.dr-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border-radius:12px;overflow:hidden;margin-bottom:26px}
-.dr-fact{background:var(--panel);padding:15px 18px}
-.dr-fact dt{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-dim);margin-bottom:5px}
-.dr-fact dd{font-size:14px;font-weight:500}
-.dr-foot{padding:20px 30px;border-top:1px solid var(--line);display:flex;gap:9px;flex-wrap:wrap}
-.dr-send{padding:18px 30px 24px;border-top:1px solid var(--line);background:rgba(127,77,224,.06)}
-.dr-decline{padding:18px 30px 24px;border-top:1px solid var(--line);background:rgba(255,107,107,.05)}
-.dr-decline h4{
-  font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--ink-dim);margin-bottom:11px;
-}
-.dr-decline textarea{min-height:58px;margin-bottom:11px}
-.dl-check{
-  display:flex;align-items:center;gap:9px;margin-bottom:13px;
-  font-size:13px;color:var(--ink-soft);cursor:pointer;
-}
-.dl-check input{width:15px;height:15px;accent-color:var(--purple);cursor:pointer}
-.send-note{font-size:12.5px;line-height:1.6;color:var(--ink-dim);margin-bottom:14px}
-.send-note b{color:var(--ink-soft)}
-.send-row{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:10px}
-.btn.send{border-color:var(--purple);color:var(--ink)}
-.btn.send.danger{border-color:rgba(180,85,63,.5);color:var(--red)}
-.btn.send.danger:hover{border-color:var(--red);background:rgba(255,107,107,.1)}
-.send-warn{color:var(--amber);display:block;margin-top:6px;font-size:12px}
-.send-status{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink-dim)}
-.dr-foot .btn.act{border-color:var(--purple);color:var(--ink)}
-textarea{
-  width:100%;min-height:90px;padding:13px 15px;border-radius:11px;resize:vertical;
-  background:rgba(255,255,255,.9);border:1px solid var(--line-2);color:var(--ink);
-  font-family:var(--body);font-size:14px;line-height:1.6;
-}
-textarea:focus{outline:none;border-color:var(--purple)}
-@media(max-width:760px){
-  .dr-grid{grid-template-columns:1fr}
-  th.hide,td.hide{display:none}
-}
+table{width:100%;border-collapse:collapse;background:var(--paper);border:1px solid var(--line);border-radius:10px;overflow:hidden;}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-size:13px;vertical-align:top;}
+th{background:var(--cream-deep);color:var(--ink-soft);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.03em;}
+tr:last-child td{border-bottom:0;}
+tr:hover td{background:rgba(143,188,148,.06);}
+.pill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:600;}
+.pill.new{background:rgba(127,178,201,.18);color:var(--sky-deep);}
+.pill.reviewed,.pill.link_sent{background:rgba(199,165,135,.25);color:var(--tan-deep);}
+.pill.shortlisted,.pill.matching,.pill.suggested{background:rgba(232,184,75,.22);color:var(--gold-deep);}
+.pill.introduced,.pill.matched,.pill.placed,.pill.accepted,.pill.paid{background:rgba(143,188,148,.22);color:var(--sage-deep);}
+.pill.declined,.pill.closed{background:rgba(179,69,60,.12);color:#B3453C;}
+.pill.sent{background:rgba(127,178,201,.18);color:var(--sky-deep);}
+.score{font-weight:700;font-family:var(--mono);}
+.score.hi{color:var(--sage-deep);}
+.score.mid{color:var(--gold-deep);}
+.score.lo{color:var(--ink-dim);}
+.rationale{font-size:11px;color:var(--ink-dim);max-width:320px;}
+select.status-select{padding:5px 8px;border:1px solid var(--line);border-radius:6px;font-size:12px;background:var(--paper);}
+button.small{padding:6px 11px;border-radius:7px;border:1px solid var(--line);background:var(--paper);font-size:12px;cursor:pointer;font-weight:600;}
+button.small.primary{background:var(--sky-deep);border-color:var(--sky-deep);color:#fff;}
+.empty{padding:40px;text-align:center;color:var(--ink-dim);background:var(--paper);border:1px solid var(--line);border-radius:10px;}
+.note{font-size:12px;color:var(--ink-dim);margin:0 0 12px;}
+.mono{font-family:var(--mono);font-size:12px;}
 </style>
 </head>
 <body>
 
-<!-- Sign in. The key is exchanged for an HttpOnly cookie rather than living in
-     the URL: this page shows names, emails and career histories, and a ?key= in
-     the address bar leaks into history, bookmarks and referer headers. -->
-<div class="gate" id="gate">
-  <div class="gate-card">
-    <h1>Command Center</h1>
-    <p>Enter your admin key to see the applicant pipeline.</p>
-    <input type="password" id="key" placeholder="Admin key" autocomplete="current-password" />
-    <button type="button" id="signin">Sign in</button>
-    <div class="err" id="gate-err"></div>
-  </div>
+<div id="login-screen">
+  <h1>BridgeDesk Admin</h1>
+  <p>Enter the admin key to continue.</p>
+  <input type="password" id="login-key" placeholder="Admin key" autocomplete="off">
+  <button onclick="doLogin()">Sign in</button>
+  <div id="login-err"></div>
 </div>
 
-<div class="wrap" id="app" hidden>
-  <div class="top">
-    <div>
-      <div class="eyebrow">Command Center</div>
-      <h1 class="title" id="title">Pipeline</h1>
+<div id="app" style="display:none;">
+  <header>
+    <div class="brand"><span class="dot"></span> BridgeDesk Admin</div>
+    <div class="status" id="status-line"></div>
+  </header>
+  <main>
+    <div class="tabs">
+      <div class="tab active" data-tab="applications" onclick="switchTab('applications')">Applications <span class="count" id="count-applications">–</span></div>
+      <div class="tab" data-tab="pool" onclick="switchTab('pool')">Pool <span class="count" id="count-pool">–</span></div>
+      <div class="tab" data-tab="employers" onclick="switchTab('employers')">Employers <span class="count" id="count-employers">–</span></div>
+      <div class="tab" data-tab="matches" onclick="switchTab('matches')">Matches <span class="count" id="count-matches">–</span></div>
     </div>
-    <div style="display:flex;gap:9px">
-      <button class="btn" type="button" id="refresh">Refresh</button>
-      <button class="btn" type="button" id="signout">Sign out</button>
-      <a class="btn" href="/">← Board</a>
-    </div>
-  </div>
 
-  <div class="filters" style="margin-bottom:22px">
-    <button class="chip on" type="button" id="tab-pipeline">Pipeline</button>
-    <button class="chip" type="button" id="tab-matching">Matching</button>
-  </div>
-
-  <div id="view-pipeline">
-    <div class="stats" id="stats"></div>
-
-    <div class="filters" id="filters"></div>
-
-    <div class="panel">
-      <div class="panel-head">
-        <h2>All Applicants</h2>
-        <span class="count" id="count"></span>
+    <!-- APPLICATIONS -->
+    <div class="panel active" id="panel-applications">
+      <p class="note">Candidates who applied to a specific scraped job listing.</p>
+      <div class="toolbar">
+        <select id="app-status-filter" onchange="loadApplications()">
+          <option value="">All statuses</option>
+          <option value="new">New</option>
+          <option value="reviewed">Reviewed</option>
+          <option value="shortlisted">Shortlisted</option>
+          <option value="introduced">Introduced</option>
+          <option value="declined">Declined</option>
+        </select>
+        <button class="refresh" onclick="loadApplications()">Refresh</button>
       </div>
-      <div id="table-wrap"><div class="empty">Loading…</div></div>
+      <div id="applications-table"></div>
     </div>
-  </div>
 
-  <div id="view-matching" hidden>
-    <div class="panel" style="margin-bottom:18px">
-      <div class="panel-head">
-        <h2>Employer requests</h2>
-        <span class="count" id="employer-count"></span>
+    <!-- POOL -->
+    <div class="panel" id="panel-pool">
+      <p class="note">Candidates who joined the general talent pool via "Join Our Pool" — matched against employer requests below.</p>
+      <div class="toolbar">
+        <select id="pool-category-filter" onchange="loadPool()">
+          <option value="">All categories</option>
+          <option value="Virtual Assistant">Virtual Assistant</option>
+          <option value="Executive Assistant">Executive Assistant</option>
+          <option value="Personal Assistant">Personal Assistant</option>
+          <option value="Legal Assistant">Legal Assistant</option>
+        </select>
+        <button class="refresh" onclick="loadPool()">Refresh</button>
       </div>
-      <div id="employer-table-wrap"><div class="empty">Loading…</div></div>
+      <div id="pool-table"></div>
     </div>
-    <div class="panel" id="matches-panel" hidden>
-      <div class="panel-head">
-        <h2 id="matches-title">Matches</h2>
-        <span class="count" id="matches-count"></span>
+
+    <!-- EMPLOYERS -->
+    <div class="panel" id="panel-employers">
+      <p class="note">Employer / Hire-a-Team requests. No fee-agreement gate — each submission already received a payment link. Click "Run Match" to score the current pool against a request.</p>
+      <div class="toolbar">
+        <button class="refresh" onclick="loadEmployers()">Refresh</button>
       </div>
-      <div id="matches-wrap"></div>
+      <div id="employers-table"></div>
     </div>
-  </div>
+
+    <!-- MATCHES -->
+    <div class="panel" id="panel-matches">
+      <p class="note">Every score is a transparent sum of category fit, rate fit, experience, and timezone overlap — see the rationale column for the breakdown.</p>
+      <div class="toolbar">
+        <input type="text" id="match-employer-filter" placeholder="Filter by employer ref, e.g. EMP-7K2M" oninput="loadMatches()">
+        <button class="refresh" onclick="loadMatches()">Refresh</button>
+      </div>
+      <div id="matches-table"></div>
+    </div>
+  </main>
 </div>
 
 <script>
-const $ = (id) => document.getElementById(id);
-let ALL = [], COUNTS = {}, filterCat = 'all', filterStatus = 'all', openRef = null;
+let ADMIN_KEY = null;
 
-/* The admin key, held in memory for this tab only. Sent as a header on every
-   request rather than relying on a cookie: a cookie can be blocked or dropped
-   by the browser with no visible error, which is impossible to diagnose from
-   the outside. sessionStorage keeps a refresh from logging you out, and is
-   cleared when the tab closes. */
-/* The key is remembered for this tab, but not indefinitely: this page shows
-   names, emails and career histories, and an unattended laptop should not leave
-   them open. After IDLE_MINUTES without a request the key is dropped and the
-   gate returns. */
-const IDLE_MINUTES = 60;
-
-let ADMIN_KEY = '';
-try {
-  const saved = sessionStorage.getItem('ff_admin_key');
-  const at = Number(sessionStorage.getItem('ff_admin_at') || 0);
-  if (saved && at && (Date.now() - at) < IDLE_MINUTES * 60000) ADMIN_KEY = saved;
-  else sessionStorage.removeItem('ff_admin_key');
-} catch (_) { /* storage blocked */ }
-
-/** Called on every authenticated request, so the hour counts from last use. */
-function touchSession() {
-  try { sessionStorage.setItem('ff_admin_at', String(Date.now())); } catch (_) {}
-}
-
-/** Drops the key and returns to the gate. */
-function signOut(message) {
-  ADMIN_KEY = '';
-  try { sessionStorage.removeItem('ff_admin_key'); sessionStorage.removeItem('ff_admin_at'); } catch (_) {}
-  $('app').hidden = true;
-  $('gate').hidden = false;
-  $('key').value = '';
-  if (message) $('gate-err').textContent = message;
-}
-const authHeaders = () => (ADMIN_KEY ? { 'X-Admin-Key': ADMIN_KEY } : {});
-
-/* What each stored status is called on screen. 'passed' is the value in the
-   database; "Declined" is what it means. */
-const STATUS_LABEL = {
-  new: 'New', reviewing: 'Reviewing', interview: 'Interview',
-  offer: 'Offer', hired: 'Hired', passed: 'Declined',
-};
-
-const ICONS = {
-  total: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h12"/></svg>',
-  new: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>',
-  interview: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
-  offer: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>',
-};
-
-const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) =>
-  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-
-const ago = (iso) => {
-  const then = Date.parse((iso || '').replace(' ', 'T') + 'Z');
-  if (Number.isNaN(then)) return '';
-  const mins = Math.floor((Date.now() - then) / 60000);
-  if (mins < 60) return mins + 'm ago';
-  const h = Math.floor(mins / 60);
-  if (h < 24) return h + 'h ago';
-  const d = Math.floor(h / 24);
-  return d < 30 ? d + 'd ago' : Math.floor(d / 30) + 'mo ago';
-};
-
-/* ---------- sign in ---------- */
-async function signIn() {
-  // The whole body is wrapped: any throw at all — a parse failure, blocked
-  // sessionStorage, a render bug — becomes a visible message instead of
-  // leaving the button stuck on "Checking…" with nothing to see.
+async function doLogin(){
+  const key = document.getElementById('login-key').value.trim();
+  const errEl = document.getElementById('login-err');
+  errEl.textContent = '';
+  if (!key) { errEl.textContent = 'Enter a key.'; return; }
   try {
-    const key = $('key').value.trim();
-    if (!key) { $('gate-err').textContent = 'Enter your key.'; return; }
-
-    $('gate-err').textContent = 'Checking…';
+    const res = await fetch('/api/admin/login', {
+      method: 'POST', headers: {'content-type':'application/json'},
+      body: JSON.stringify({ key }),
+    });
+    if (!res.ok) { errEl.textContent = 'Wrong key.'; return; }
     ADMIN_KEY = key;
-
-    // One request. If the key is right this returns the applications directly,
-    // so there is no separate login step to go wrong.
-    const res = await fetch('/api/applications', { headers: { 'X-Admin-Key': key } });
-
-    touchSession();
-
-  if (res.status === 401) {
-      ADMIN_KEY = '';
-      $('gate-err').textContent = 'That key was not accepted.';
-      return;
-    }
-
-    // Read as text first. If the API route is missing, Cloudflare's fallback
-    // answers with index.html and a 200 — calling res.json() on that throws.
-    const raw = await res.text();
-    let body = null;
-    try { body = JSON.parse(raw); } catch (_) { /* not JSON */ }
-
-    if (body === null) {
-      ADMIN_KEY = '';
-      $('gate-err').textContent = raw.trim().startsWith('<')
-        ? 'The API returned a page instead of data — worker.js may not be deployed.'
-        : 'The server sent something unexpected (' + res.status + ').';
-      return;
-    }
-
-    if (!res.ok) {
-      $('gate-err').textContent = body.error || ('Server returned ' + res.status);
-      return;
-    }
-
-    // Storage is a nicety, not a requirement — some browsers block it.
-    try { sessionStorage.setItem('ff_admin_key', key); } catch (_) {}
-    touchSession();
-
-    ALL = body.applications || [];
-    COUNTS = body.counts || {};
-    $('gate-err').textContent = '';
-    $('gate').hidden = true;
-    $('app').hidden = false;
-    render();
-
-  } catch (err) {
-    console.error('[admin] sign-in failed:', err);
-    $('gate-err').textContent = 'Sign-in error: ' + (err && err.message ? err.message : String(err));
-  }
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    loadAll();
+  } catch { errEl.textContent = 'Could not reach the server.'; }
 }
 
-$('signin').addEventListener('click', signIn);
-$('key').addEventListener('keydown', (e) => { if (e.key === 'Enter') signIn(); });
-
-/* ---------- data ---------- */
-/** Returns null on success, or a sentence explaining what went wrong. */
-async function load() {
-  let res;
-  try {
-    res = await fetch('/api/applications', { headers: authHeaders() });
-  } catch (err) {
-    return 'Could not reach the server. Check your connection and try again.';
-  }
-
-  if (res.status === 401) {
-    // The cookie did not come back. Almost always a browser blocking cookies,
-    // or the site being served over http where a Secure cookie is dropped.
-    $('app').hidden = true; $('gate').hidden = false;
-    return 'Your session expired. Sign in again.';
-  }
-
-  // Same defensive parse as signIn: if the API route is missing, the SPA
-  // fallback answers with index.html and a 200, and res.json() would throw.
-  const raw = await res.text();
-  let body = null;
-  try { body = JSON.parse(raw); } catch (_) { /* not JSON */ }
-  if (body === null) {
-    const msg = raw.trim().startsWith('<')
-      ? 'The API returned a page instead of data — worker.js may not be deployed.'
-      : 'The server sent something unexpected.';
-    $('table-wrap').innerHTML = '<div class="empty">' + esc(msg) + '</div>';
-    return msg;
-  }
-
-  if (!res.ok) {
-    const msg = body.error || ('Server returned ' + res.status);
-    $('table-wrap').innerHTML = '<div class="empty">' + esc(msg) + '</div>';
-    return msg;
-  }
-
-  ALL = body.applications || [];
-  COUNTS = body.counts || {};
-  render();
-  return null;
-}
-$('refresh').addEventListener('click', () => load());
-$('signout').addEventListener('click', () => signOut('Signed out.'));
-
-/* Expire the session while the tab sits open, not only on reload. */
-setInterval(() => {
-  if (!ADMIN_KEY || $('app').hidden) return;
-  let at = 0;
-  try { at = Number(sessionStorage.getItem('ff_admin_at') || 0); } catch (_) {}
-  if (at && (Date.now() - at) > IDLE_MINUTES * 60000) {
-    signOut('Session expired after ' + IDLE_MINUTES + ' minutes. Sign in again.');
-  }
-}, 60000);
-
-/* ---------- render ---------- */
-function visible() {
-  return ALL.filter((a) =>
-    (filterCat === 'all' || a.category === filterCat) &&
-    (filterStatus === 'all' || a.status === filterStatus));
+function authHeaders(){
+  return { 'content-type': 'application/json', 'x-admin-key': ADMIN_KEY || '' };
 }
 
-function render() {
-  try { renderInner(); }
-  catch (err) {
-    console.error('[admin] render failed:', err);
-    $('table-wrap').innerHTML = '<div class="empty">Could not draw the table: ' + esc(err.message) + '</div>';
-  }
+function esc(s){
+  return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+function fmtDate(s){
+  if (!s) return '—';
+  try { return new Date(s.replace(' ', 'T') + 'Z').toLocaleString(undefined, {month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
+  catch { return s; }
 }
 
-function renderInner() {
-  const n = (s) => ALL.filter((a) => a.status === s).length;
-  $('title').textContent = filterCat === 'all' ? 'Pipeline' : filterCat + ' Pipeline';
-
-  $('stats').innerHTML = [
-    ['total', 'Total', ALL.length, 'all time'],
-    ['new', 'New', n('new'), 'awaiting review'],
-    ['interview', 'Interview', n('interview'), 'in process'],
-    ['offer', 'Offers', n('offer') + n('hired'), n('hired') + ' hired'],
-  ].map(([tone, label, value, sub]) => `
-    <div class="stat" data-tone="${tone}">
-      <div class="stat-k">${ICONS[tone]}${label}</div>
-      <div class="stat-v">${value}</div>
-      <div class="stat-sub">${esc(sub)}</div>
-    </div>`).join('');
-
-  $('filters').innerHTML = [
-    ['cat', 'all', 'All roles'], ['cat', 'Virtual Assistant', 'Virtual Assistant'],
-    ['cat', 'Executive Assistant', 'Executive Assistant'], ['cat', 'Personal Assistant', 'Personal Assistant'],
-    ['cat', 'Legal Assistant', 'Legal Assistant'],
-    ['status', 'all', 'Any status'], ['status', 'new', 'New'], ['status', 'reviewing', 'Reviewing'],
-    ['status', 'interview', 'Interview'], ['status', 'offer', 'Offer'],
-    ['status', 'hired', 'Hired'], ['status', 'passed', 'Declined'],
-  ].map(([kind, val, label]) => {
-    const on = (kind === 'cat' ? filterCat : filterStatus) === val;
-    return `<button class="chip${on ? ' on' : ''}" data-kind="${kind}" data-val="${val}">${label}</button>`;
-  }).join('');
-
-  const rows = visible();
-  $('count').textContent = rows.length + (rows.length === 1 ? ' application' : ' applications');
-
-  if (!rows.length) {
-    $('table-wrap').innerHTML = '<div class="empty">' +
-      (ALL.length ? 'Nothing matches that filter.' : 'No applications yet.') + '</div>';
-    return;
-  }
-
-  $('table-wrap').innerHTML = `
-    <table>
-      <thead><tr>
-        <th>Candidate</th><th>Role</th><th class="hide">Match</th>
-        <th>Status</th><th class="hide">Sent</th><th class="hide">Applied</th>
-      </tr></thead>
-      <tbody>${rows.map((a) => {
-        const band = a.score >= 75 ? 'hi' : a.score >= 50 ? 'mid' : 'lo';
-        return `<tr class="row" data-ref="${esc(a.ref)}">
-          <td class="who">
-            <b>${esc([a.first_name, a.middle_initial, a.last_name].filter(Boolean).join(' '))}</b>
-            <span>${esc(a.ref)} · ${esc(a.email)}</span>
-          </td>
-          <td class="role">
-            <b>${esc(a.job_title || '')}</b>
-            <span>${esc(a.company || '')}${a.location ? ' · ' + esc(a.location) : ''}</span>
-          </td>
-          <td class="hide">${a.score != null ? `<span class="score ${band}">${a.score}</span>` : '—'}</td>
-          <td><span class="pill ${esc(a.status)}">${esc(STATUS_LABEL[a.status] || a.status)}</span></td>
-          <td class="hide sent ${a.sent_to_employer_at ? 'ok' : 'no'}"
-              title="${a.sent_to_employer_at ? 'Sent to employer' : esc(a.send_error || 'Not sent')}">
-            ${a.sent_to_employer_at ? '✓' : '—'}
-          </td>
-          <td class="hide"><span class="ref">${ago(a.created_at)}</span></td>
-        </tr>`;
-      }).join('')}</tbody>
-    </table>`;
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
+  document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'panel-' + name));
+  if (name === 'applications') loadApplications();
+  if (name === 'pool') loadPool();
+  if (name === 'employers') loadEmployers();
+  if (name === 'matches') loadMatches();
 }
 
-document.addEventListener('click', (e) => {
-  const chip = e.target.closest('.chip');
-  if (chip) {
-    if (chip.dataset.kind === 'cat') filterCat = chip.dataset.val;
-    else filterStatus = chip.dataset.val;
-    render();
-    return;
-  }
-  const row = e.target.closest('tr.row');
-  if (row) openDrawer(row.dataset.ref);
-});
-
-/* ---------- detail ---------- */
-function openDrawer(ref) {
-  const a = ALL.find((x) => x.ref === ref);
-  if (!a) return;
-  openRef = ref;
-  closeDrawer();
-
-  const scrim = document.createElement('div');
-  scrim.className = 'scrim';
-  scrim.addEventListener('click', closeDrawer);
-
-  const d = document.createElement('div');
-  d.className = 'drawer';
-  const list = (items) => items.length
-    ? '<ul>' + items.map((x) => `<li>${esc(x)}</li>`).join('') + '</ul>'
-    : '<p style="color:var(--ink-dim)">None recorded.</p>';
-
-  d.innerHTML = `
-    <div class="dr-top">
-      <button class="dr-close" type="button" aria-label="Close">✕</button>
-      <h3>${esc([a.first_name, a.middle_initial, a.last_name].filter(Boolean).join(' '))}</h3>
-      <p>${esc(a.job_title || '')} · ${esc(a.company || '')}</p>
-    </div>
-    <div class="dr-body">
-      <div class="dr-grid">
-        <div class="dr-fact"><dt>Reference</dt><dd>${esc(a.ref)}</dd></div>
-        <div class="dr-fact"><dt>Match score</dt><dd>${a.score != null ? a.score + '/100' : '—'} <span style="color:var(--ink-dim);font-size:11px">${a.reviewed_by === 'ai' ? '(AI)' : '(keyword)'}</span></dd></div>
-        <div class="dr-fact"><dt>Email</dt><dd><a href="mailto:${esc(a.email)}">${esc(a.email)}</a></dd></div>
-        <div class="dr-fact"><dt>Phone</dt><dd>${esc(a.phone || '—')}</dd></div>
-        <div class="dr-fact"><dt>Currently</dt><dd>${esc(a.current_position || '—')}${a.current_company ? ' · ' + esc(a.current_company) : ''}</dd></div>
-        <div class="dr-fact"><dt>Sent to employer</dt><dd>${a.sent_to_employer_at ? 'Yes' : '<span style="color:var(--red)">No</span>'}</dd></div>
-      </div>
-      ${a.linkedin ? `<div class="dr-sec"><h4>LinkedIn</h4><p><a href="${esc(a.linkedin)}" target="_blank" rel="noopener" style="color:var(--cyan)">${esc(a.linkedin)}</a></p></div>` : ''}
-      ${a.send_error ? `<div class="dr-sec"><h4>Delivery problem</h4><p style="color:var(--red)">${esc(a.send_error)}</p></div>` : ''}
-      <div class="dr-sec"><h4>Strengths</h4>${list(a.strengths || [])}</div>
-      <div class="dr-sec"><h4>Gaps</h4>${list(a.gaps || [])}</div>
-      <div class="dr-sec"><h4>Background</h4><p class="bg-text">${esc(a.background || '')}</p></div>
-      <div class="dr-sec"><h4>Your notes</h4><textarea id="notes" placeholder="Anything worth remembering about this candidate…">${esc(a.notes || '')}</textarea></div>
-    </div>
-    <div class="dr-foot">
-      ${['reviewing', 'interview', 'offer', 'hired', 'passed']
-        .map((s) => `<button class="btn${a.status === s ? ' act' : ''}" type="button" data-status="${s}">${STATUS_LABEL[s] || s}</button>`).join('')}
-      <button class="btn act" type="button" id="save-notes">Save notes</button>
-    </div>
-    <div class="dr-send">
-      <p class="send-note">
-        Nothing reaches the employer until you send it. A <b>teaser</b> shows the role, score,
-        strengths and gaps with no contact details — enough to create interest, not enough to
-        go around you. <b>Full details</b> includes the candidate's contact info and payment
-        instructions (Wise) for the placement fee.
-      </p>
-      <div class="send-row">
-        <button class="btn send" type="button" data-send="teaser">Send teaser</button>
-        <button class="btn send danger" type="button" data-send="full">Send full details</button>
-      </div>
-      <div class="send-status" id="send-status">${a.sent_to_employer_at
-        ? 'Sent ' + esc(ago(a.sent_to_employer_at))
-        : a.send_error ? 'Last attempt failed: ' + esc(a.send_error) : 'Not sent'}</div>
-    </div>
-
-    <!-- Declining. Silence is the norm in recruiting and the thing candidates
-         resent most; a short honest note costs nothing and keeps them in the
-         network for the next role. -->
-    <div class="dr-decline">
-      <h4>Not a fit</h4>
-      <textarea id="decline-reason" rows="2"
-        placeholder="Optional — one line the candidate will see. e.g. 'This role needed direct multifamily lease-up experience.'"></textarea>
-      <label class="dl-check">
-        <input type="checkbox" id="decline-notify" checked />
-        Email ${esc(a.first_name || 'the candidate')} to let them know
-      </label>
-      <div class="send-row">
-        <button class="btn danger" type="button" id="decline-btn">Decline application</button>
-      </div>
-      <div class="send-status" id="decline-status">${a.status === 'passed'
-        ? (a.declined_at ? 'Declined ' + esc(ago(a.declined_at)) : 'Marked passed')
-        : ''}</div>
-    </div>`;
-
-  d.querySelector('.dr-close').addEventListener('click', closeDrawer);
-  d.querySelectorAll('[data-status]').forEach((b) =>
-    b.addEventListener('click', () => update(ref, { status: b.dataset.status })));
-  d.querySelector('#save-notes').addEventListener('click', () =>
-    update(ref, { notes: d.querySelector('#notes').value }));
-
-  d.querySelector('#decline-btn')?.addEventListener('click', async () => {
-    const status = d.querySelector('#decline-status');
-    const reason = d.querySelector('#decline-reason').value.trim();
-    const notify = d.querySelector('#decline-notify').checked;
-
-    if (!confirm(notify
-      ? 'Decline this application and email the candidate?'
-      : 'Decline this application without telling the candidate?')) return;
-
-    status.textContent = 'Declining…';
-    try {
-      const res = await fetch('/api/decline', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', ...authHeaders() },
-        body: JSON.stringify({ ref, reason: reason || undefined, notify }),
-      });
-      const body = await res.json().catch(() => ({}));
-      if (!res.ok) { status.textContent = 'Failed: ' + (body.error || res.status); return; }
-
-      status.textContent = body.notified
-        ? 'Declined, candidate emailed.'
-        : 'Declined. ' + (body.error || 'No email sent.');
-
-      const rec = ALL.find((x) => x.ref === ref);
-      if (rec) { rec.status = 'passed'; rec.declined_at = new Date().toISOString(); }
-      render();
-    } catch (err) {
-      status.textContent = 'Failed: ' + err.message;
-    }
-  });
-
-  d.querySelectorAll('[data-send]').forEach((b) =>
-    b.addEventListener('click', () => introduce(ref, b.dataset.send, d)));
-
-  document.body.append(scrim, d);
-  document.addEventListener('keydown', escClose);
+function loadAll(){
+  loadApplications(); loadPool(); loadEmployers(); loadMatches();
 }
 
-function escClose(e) { if (e.key === 'Escape') closeDrawer(); }
-function closeDrawer() {
-  document.querySelector('.scrim')?.remove();
-  document.querySelector('.drawer')?.remove();
-  document.removeEventListener('keydown', escClose);
+/* ---------- APPLICATIONS ---------- */
+async function loadApplications(){
+  const status = document.getElementById('app-status-filter').value;
+  const url = '/api/admin/applications' + (status ? '?status=' + encodeURIComponent(status) : '');
+  const res = await fetch(url, { headers: authHeaders() });
+  const data = await res.json();
+  const rows = data.applications || [];
+  document.getElementById('count-applications').textContent = rows.length;
+  const el = document.getElementById('applications-table');
+  if (!rows.length) { el.innerHTML = '<div class="empty">No applications yet.</div>'; return; }
+  el.innerHTML = `<table><thead><tr>
+    <th>Candidate</th><th>Applied for</th><th>Category</th><th>Resume</th><th>Status</th><th>Received</th>
+  </tr></thead><tbody>${rows.map(a => `
+    <tr>
+      <td><strong>${esc(a.name)}</strong><br><span class="mono">${esc(a.email)}</span>${a.phone ? '<br>' + esc(a.phone) : ''}</td>
+      <td>${esc(a.job_title)}<br><span style="color:var(--ink-dim)">${esc(a.company)}</span></td>
+      <td>${esc(a.category)}</td>
+      <td>${a.resume_url ? `<a href="${esc(a.resume_url)}" target="_blank" rel="noopener">View</a>` : '—'}</td>
+      <td>
+        <select class="status-select" onchange="setAppStatus('${esc(a.ref)}', this.value)">
+          ${['new','reviewed','shortlisted','introduced','declined'].map(s =>
+            `<option value="${s}" ${a.status === s ? 'selected' : ''}>${s}</option>`).join('')}
+        </select>
+      </td>
+      <td>${fmtDate(a.created_at)}</td>
+    </tr>`).join('')}</tbody></table>`;
+}
+async function setAppStatus(ref, status){
+  await fetch('/api/admin/applications', { method:'POST', headers: authHeaders(), body: JSON.stringify({ ref, status }) });
 }
 
-/** Forward a candidate. Full details ask first — it is not undoable. */
-async function introduce(ref, mode, drawer) {
-  const status = drawer.querySelector('#send-status');
-
-  if (mode === 'full' && !confirm(
-    'Send this candidate\u2019s full contact details and background to the employer?\n\n' +
-    'The email tells them where to send the placement fee (Wise / bank transfer). Once they have ' +
-    'these details they can hire directly.')) return;
-
-  status.textContent = 'Sending…';
-  try {
-    const res = await fetch('/api/forward', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({ ref, mode }),
-    });
-    const body = await res.json().catch(() => ({}));
-
-    if (!res.ok) { status.textContent = 'Failed: ' + (body.error || res.status); return; }
-
-    status.textContent = (mode === 'full' ? 'Full details sent just now' : 'Teaser sent just now') +
-      (body.to ? ' to ' + body.to : '') +
-      (mode === 'full' ? ' \u00b7 payment instructions included (Wise)' : '');
-
-    const a = ALL.find((x) => x.ref === ref);
-    if (a) a.sent_to_employer_at = new Date().toISOString();
-    render();
-  } catch (err) {
-    status.textContent = 'Failed: ' + err.message;
-  }
+/* ---------- POOL ---------- */
+async function loadPool(){
+  const category = document.getElementById('pool-category-filter').value;
+  const url = '/api/admin/pool' + (category ? '?category=' + encodeURIComponent(category) : '');
+  const res = await fetch(url, { headers: authHeaders() });
+  const data = await res.json();
+  const rows = data.candidates || [];
+  document.getElementById('count-pool').textContent = rows.length;
+  const el = document.getElementById('pool-table');
+  if (!rows.length) { el.innerHTML = '<div class="empty">No pool candidates yet.</div>'; return; }
+  el.innerHTML = `<table><thead><tr>
+    <th>Candidate</th><th>Category</th><th>Rate / Experience</th><th>Timezone</th><th>Resume</th><th>Status</th><th>Joined</th>
+  </tr></thead><tbody>${rows.map(c => `
+    <tr>
+      <td><strong>${esc(c.name)}</strong><br><span class="mono">${esc(c.email)}</span></td>
+      <td>${esc(c.category) || '—'}</td>
+      <td>${esc(c.rate_expectation) || '—'}<br><span style="color:var(--ink-dim)">${esc(c.years_experience) || '—'} yrs</span></td>
+      <td>${esc(c.timezone_overlap) || '—'}</td>
+      <td>${c.resume_url ? `<a href="${esc(c.resume_url)}" target="_blank" rel="noopener">View</a>` : '—'}</td>
+      <td>
+        <select class="status-select" onchange="setPoolStatus('${esc(c.ref)}', this.value)">
+          ${['new','reviewed','matched','placed'].map(s =>
+            `<option value="${s}" ${c.status === s ? 'selected' : ''}>${s}</option>`).join('')}
+        </select>
+      </td>
+      <td>${fmtDate(c.created_at)}</td>
+    </tr>`).join('')}</tbody></table>`;
+}
+async function setPoolStatus(ref, status){
+  await fetch('/api/admin/pool', { method:'POST', headers: authHeaders(), body: JSON.stringify({ ref, status }) });
 }
 
-async function update(ref, patch) {
-  const res = await fetch('/api/applications', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...authHeaders() },
-    body: JSON.stringify({ ref, ...patch }),
-  });
-  if (!res.ok) return;
-  const a = ALL.find((x) => x.ref === ref);
-  if (a) Object.assign(a, patch);
-  render();
-  if (patch.status) closeDrawer(); else openDrawer(ref);
+/* ---------- EMPLOYERS ---------- */
+async function loadEmployers(){
+  const res = await fetch('/api/admin/employers', { headers: authHeaders() });
+  const data = await res.json();
+  const rows = data.employers || [];
+  document.getElementById('count-employers').textContent = rows.length;
+  const el = document.getElementById('employers-table');
+  if (!rows.length) { el.innerHTML = '<div class="empty">No employer requests yet.</div>'; return; }
+  el.innerHTML = `<table><thead><tr>
+    <th>Company</th><th>Tier</th><th>Roles needed</th><th>Budget / Timeline</th><th>Payment</th><th>Status</th><th></th>
+  </tr></thead><tbody>${rows.map(e => `
+    <tr>
+      <td><strong>${esc(e.company)}</strong><br>${esc(e.contact_name)}<br><span class="mono">${esc(e.email)}</span></td>
+      <td>${e.tier === 'team' ? `Hire a Team (${esc(e.team_size)})` : 'Single hire'}</td>
+      <td>${esc(e.roles_needed) || '—'}</td>
+      <td>${esc(e.budget_range) || '—'}<br><span style="color:var(--ink-dim)">${esc(e.timeline) || '—'}</span></td>
+      <td><span class="pill ${esc(e.payment_status)}">${esc(e.payment_status)}</span></td>
+      <td>
+        <select class="status-select" onchange="setEmployerStatus('${esc(e.ref)}', this.value)">
+          ${['new','reviewed','matching','placed','closed'].map(s =>
+            `<option value="${s}" ${e.status === s ? 'selected' : ''}>${s}</option>`).join('')}
+        </select>
+      </td>
+      <td><button class="small primary" onclick="runMatch('${esc(e.ref)}')">Run Match</button></td>
+    </tr>`).join('')}</tbody></table>`;
+}
+async function setEmployerStatus(ref, status){
+  await fetch('/api/admin/employers', { method:'POST', headers: authHeaders(), body: JSON.stringify({ ref, status }) });
+}
+async function runMatch(employerRef){
+  const res = await fetch('/api/admin/match', { method:'POST', headers: authHeaders(), body: JSON.stringify({ employer_ref: employerRef }) });
+  if (!res.ok) { alert('Could not run matching for that request.'); return; }
+  document.getElementById('match-employer-filter').value = employerRef;
+  switchTab('matches');
 }
 
-/* ==========================================================================
-   Matching tab — employer requests + ranked candidate matches
-   ========================================================================== */
-let POOL_EMPLOYERS = [], POOL_CANDIDATES = [], OPEN_EMPLOYER_REF = null;
-
-$('tab-pipeline').addEventListener('click', () => {
-  $('tab-pipeline').classList.add('on'); $('tab-matching').classList.remove('on');
-  $('view-pipeline').hidden = false; $('view-matching').hidden = true;
-});
-$('tab-matching').addEventListener('click', () => {
-  $('tab-matching').classList.add('on'); $('tab-pipeline').classList.remove('on');
-  $('view-pipeline').hidden = true; $('view-matching').hidden = false;
-  if (!POOL_EMPLOYERS.length && !POOL_CANDIDATES.length) loadPool();
-});
-
-async function loadPool() {
-  try {
-    const res = await fetch('/api/admin/pool', { headers: authHeaders() });
-    const body = await res.json().catch(() => ({}));
-    if (!res.ok) { $('employer-table-wrap').innerHTML = '<div class="empty">' + esc(body.error || 'Could not load.') + '</div>'; return; }
-    POOL_EMPLOYERS = body.employers || [];
-    POOL_CANDIDATES = body.candidates || [];
-    renderEmployerTable();
-  } catch (err) {
-    $('employer-table-wrap').innerHTML = '<div class="empty">Could not reach the server.</div>';
-  }
+/* ---------- MATCHES ---------- */
+async function loadMatches(){
+  const filter = document.getElementById('match-employer-filter').value.trim();
+  const url = '/api/admin/matches' + (filter ? '?employer_ref=' + encodeURIComponent(filter) : '');
+  const res = await fetch(url, { headers: authHeaders() });
+  const data = await res.json();
+  const rows = data.matches || [];
+  document.getElementById('count-matches').textContent = rows.length;
+  const el = document.getElementById('matches-table');
+  if (!rows.length) { el.innerHTML = '<div class="empty">No matches yet — run matching from the Employers tab.</div>'; return; }
+  el.innerHTML = `<table><thead><tr>
+    <th>Score</th><th>Candidate</th><th>Employer</th><th>Rationale</th><th>Status</th>
+  </tr></thead><tbody>${rows.map(m => {
+    const cls = m.score >= 70 ? 'hi' : (m.score >= 40 ? 'mid' : 'lo');
+    return `<tr>
+      <td><span class="score ${cls}">${m.score}</span>/100</td>
+      <td><strong>${esc(m.candidate_name)}</strong><br><span style="color:var(--ink-dim)">${esc(m.candidate_category)}</span></td>
+      <td>${esc(m.employer_company)}<br><span class="mono">${esc(m.employer_ref)}</span></td>
+      <td class="rationale">${esc(m.rationale)}</td>
+      <td>
+        <select class="status-select" onchange="setMatchStatus(${m.id}, this.value)">
+          ${['suggested','sent','accepted','declined'].map(s =>
+            `<option value="${s}" ${m.status === s ? 'selected' : ''}>${s}</option>`).join('')}
+        </select>
+      </td>
+    </tr>`;
+  }).join('')}</tbody></table>`;
+}
+async function setMatchStatus(id, status){
+  await fetch('/api/admin/matches', { method:'POST', headers: authHeaders(), body: JSON.stringify({ id, status }) });
 }
 
-function renderEmployerTable() {
-  $('employer-count').textContent = POOL_EMPLOYERS.length + (POOL_EMPLOYERS.length === 1 ? ' request' : ' requests');
-  if (!POOL_EMPLOYERS.length) {
-    $('employer-table-wrap').innerHTML = '<div class="empty">No employer requests yet.</div>';
-    return;
-  }
-  $('employer-table-wrap').innerHTML = `
-    <table>
-      <thead><tr><th>Company</th><th>Looking for</th><th class="hide">Team size</th><th class="hide">Budget</th><th class="hide">Received</th></tr></thead>
-      <tbody>${POOL_EMPLOYERS.map((e) => `
-        <tr class="row" data-eref="${esc(e.ref)}">
-          <td class="who"><b>${esc(e.company)}</b><span>${esc(e.ref)}${e.contact_email ? ' · ' + esc(e.contact_email) : ''}</span></td>
-          <td class="role"><b>${esc((e.categories || []).join(', ') || '—')}</b><span>${esc((e.must_have_skills || []).slice(0, 4).join(', '))}</span></td>
-          <td class="hide">${e.team_size || 1}</td>
-          <td class="hide">${e.budget_min || e.budget_max ? '$' + (e.budget_min || '?') + '–' + (e.budget_max || '?') + '/' + esc(e.budget_basis || 'hourly') : '—'}</td>
-          <td class="hide"><span class="ref">${ago(e.created_at)}</span></td>
-        </tr>`).join('')}</tbody>
-    </table>`;
-  $('employer-table-wrap').querySelectorAll('tr.row').forEach((row) =>
-    row.addEventListener('click', () => loadMatches(row.dataset.eref)));
-}
-
-async function loadMatches(employerRef) {
-  OPEN_EMPLOYER_REF = employerRef;
-  $('matches-panel').hidden = false;
-  $('matches-wrap').innerHTML = '<div class="empty">Finding matches…</div>';
-  try {
-    const res = await fetch('/api/admin/pool/matches?employer_ref=' + encodeURIComponent(employerRef), { headers: authHeaders() });
-    const body = await res.json().catch(() => ({}));
-    if (!res.ok) { $('matches-wrap').innerHTML = '<div class="empty">' + esc(body.error || 'Could not load matches.') + '</div>'; return; }
-    renderMatches(body);
-  } catch (err) {
-    $('matches-wrap').innerHTML = '<div class="empty">Could not reach the server.</div>';
-  }
-}
-
-function renderMatches(body) {
-  const { employer, matches } = body;
-  $('matches-title').textContent = 'Matches for ' + (employer?.company || '');
-  $('matches-count').textContent = matches.length + (matches.length === 1 ? ' candidate' : ' candidates');
-  if (!matches.length) {
-    $('matches-wrap').innerHTML = '<div class="empty">No candidates in the pool yet.</div>';
-    return;
-  }
-  $('matches-wrap').innerHTML = `
-    <table>
-      <thead><tr><th>Candidate</th><th class="hide">Skills</th><th>Score</th><th class="hide">Why</th><th>Résumé</th><th>Notify</th></tr></thead>
-      <tbody>${matches.map((m) => {
-        const band = m.score >= 75 ? 'hi' : m.score >= 50 ? 'mid' : 'lo';
-        return `<tr>
-          <td class="who"><b>${esc([m.first_name, m.last_name].filter(Boolean).join(' '))}</b><span>${esc(m.ref)} · ${esc((m.categories || []).join(', '))}</span></td>
-          <td class="hide">${esc((m.skills || []).slice(0, 5).join(', ')) || '—'}</td>
-          <td><span class="score ${band}">${m.score}</span></td>
-          <td class="hide" style="max-width:260px;white-space:normal;font-size:12.5px;color:var(--ink-dim)">${esc(m.ai_rationale || (m.reasons || []).join(' · '))}</td>
-          <td>${m.has_resume ? `<button class="btn" type="button" data-resume="${esc(m.ref)}" style="padding:6px 12px;font-size:10.5px">Download</button>` : '—'}</td>
-          <td><button class="btn" type="button" data-notify="${esc(m.ref)}" style="padding:6px 12px;font-size:10.5px">Notify</button></td>
-        </tr>`;
-      }).join('')}</tbody>
-    </table>`;
-
-  $('matches-wrap').querySelectorAll('[data-resume]').forEach((btn) =>
-    btn.addEventListener('click', () => downloadResume(btn.dataset.resume)));
-  $('matches-wrap').querySelectorAll('[data-notify]').forEach((btn) =>
-    btn.addEventListener('click', () => notifyCandidate(btn.dataset.notify, btn)));
-}
-
-async function downloadResume(candidateRef) {
-  try {
-    const res = await fetch('/api/admin/resume?ref=' + encodeURIComponent(candidateRef), { headers: authHeaders() });
-    if (!res.ok) { alert('No résumé on file, or it could not be fetched.'); return; }
-    const blob = await res.blob();
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url; a.download = candidateRef + '-resume';
-    document.body.append(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 10000);
-  } catch (err) {
-    alert('Could not download: ' + err.message);
-  }
-}
-
-async function notifyCandidate(candidateRef, btn) {
-  if (!confirm('Let this candidate know they\u2019ve been matched to an opportunity?')) return;
-  btn.textContent = '…'; btn.disabled = true;
-  try {
-    const res = await fetch('/api/admin/pool/notify', {
-      method: 'POST', headers: { 'Content-Type': 'application/json', ...authHeaders() },
-      body: JSON.stringify({ candidate_ref: candidateRef, employer_ref: OPEN_EMPLOYER_REF }),
-    });
-    const body = await res.json().catch(() => ({}));
-    btn.textContent = res.ok && body.emailed ? 'Notified ✓' : res.ok ? 'Marked (no email)' : 'Failed';
-  } catch (err) {
-    btn.textContent = 'Failed';
-  }
-}
-
-/* Already signed in this tab? Skip the gate. */
-if (ADMIN_KEY) {
-  fetch('/api/applications', { headers: authHeaders() })
-    .then((r) => { if (r.ok) { $('gate').hidden = true; $('app').hidden = false; load(); } })
-    .catch(() => {});
-}
+document.getElementById('login-key').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
 </script>
 </body>
 </html>
