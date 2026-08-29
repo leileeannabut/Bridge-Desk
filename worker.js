@@ -167,6 +167,87 @@ async function joinPool(request, env) {
 }
 
 /* ==========================================================================
+   PUBLIC: testimonial / rating / improvement-survey submission
+   ---------------------------------------------------------------------------
+   Every submission starts as 'pending' — the public GET below never returns
+   anything else. A public testimonial wall that shows whatever anyone typed,
+   unmoderated, is a spam and reputational risk, so publishing always goes
+   through an admin approval step (see listAdminTestimonials/updateTestimonial).
+   improvement_feedback is deliberately never exposed by the public endpoint —
+   it's for BridgeDesk's own use, not a public quote.
+   ========================================================================== */
+async function submitTestimonial(request, env) {
+  if (!env.DB) return json({ error: 'No database configured.' }, 503);
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+
+  const name = clean(body.name, 200);
+  if (!name) return json({ error: 'Name is required.' }, 400);
+  const email = clean(body.email, 200);
+  if (email && !isEmail(email)) return json({ error: 'That email address looks off.' }, 400);
+
+  const rating = Math.max(0, Math.min(5, parseInt(body.rating, 10) || 0));
+  if (!rating) return json({ error: 'A rating from 1-5 is required.' }, 400);
+
+  const role = ['candidate', 'employer'].includes(body.role) ? body.role : null;
+  const ref = makeRef('FB');
+
+  await env.DB.prepare(
+    `insert into testimonials
+      (ref, name, email, role, company_or_title, rating, quote, improvement_feedback, status)
+     values (?1,?2,?3,?4,?5,?6,?7,?8,'pending')`
+  ).bind(
+    ref, name, email, role, clean(body.company_or_title, 200), rating,
+    clean(body.quote, 1000), clean(body.improvement_feedback, 2000)
+  ).run();
+
+  return json({ ok: true, ref });
+}
+
+/** Public. Only ever selects status in ('approved','featured') — there is no
+    parameter or code path here that can return a pending submission. */
+async function listPublicTestimonials(request, env) {
+  if (!env.DB) return json({ testimonials: [] });
+  const rows = await env.DB.prepare(
+    `select ref, name, role, company_or_title, rating, quote, created_at
+     from testimonials
+     where status in ('approved', 'featured')
+     order by (status = 'featured') desc, created_at desc
+     limit 24`
+  ).all();
+  return json({ testimonials: rows.results || [] });
+}
+
+/* ==========================================================================
+   ADMIN: moderate testimonials
+   ========================================================================== */
+async function listAdminTestimonials(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  const url = new URL(request.url);
+  const status = url.searchParams.get('status');
+  const sql = status
+    ? 'select * from testimonials where status = ?1 order by created_at desc limit 500'
+    : 'select * from testimonials order by created_at desc limit 500';
+  const rows = status
+    ? await env.DB.prepare(sql).bind(status).all()
+    : await env.DB.prepare(sql).all();
+  return json({ testimonials: rows.results || [] });
+}
+
+async function updateTestimonial(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+  if (!body.ref) return json({ error: 'ref is required.' }, 400);
+  const status = ['pending', 'approved', 'featured', 'rejected'].includes(body.status) ? body.status : 'pending';
+  await env.DB.prepare('update testimonials set status = ?1 where ref = ?2')
+    .bind(status, clean(body.ref, 20)).run();
+  return json({ ok: true });
+}
+
+/* ==========================================================================
    PUBLIC: employer intake — single hire or Hire-a-Team (which now also
    covers a fully managed 24/7 team, anchored by a Senior EA, employed by
    BridgeDesk rather than the client).
@@ -766,6 +847,8 @@ export default {
     if (pathname === '/api/pool' && method === 'POST') return joinPool(request, env);
     if (pathname === '/api/employer' && method === 'POST') return employerIntake(request, env);
     if (pathname === '/api/unsubscribe' && method === 'GET') return unsubscribeOutreach(request, env);
+    if (pathname === '/api/testimonial' && method === 'POST') return submitTestimonial(request, env);
+    if (pathname === '/api/testimonials' && method === 'GET') return listPublicTestimonials(request, env);
 
     if (pathname === '/api/admin/login' && method === 'POST') return adminLogin(request, env);
     if (pathname === '/api/admin/applications' && method === 'GET') return listApplications(request, env);
@@ -776,6 +859,8 @@ export default {
     if (pathname === '/api/admin/outreach/import' && method === 'POST') return importOutreachContacts(request, env);
     if (pathname === '/api/admin/outreach' && method === 'GET') return listOutreachContacts(request, env);
     if (pathname === '/api/admin/outreach/send' && method === 'POST') return sendOutreachCampaign(request, env);
+    if (pathname === '/api/admin/testimonials' && method === 'GET') return listAdminTestimonials(request, env);
+    if (pathname === '/api/admin/testimonials' && method === 'POST') return updateTestimonial(request, env);
     if (pathname === '/api/admin/employers' && method === 'GET') return listEmployers(request, env);
     if (pathname === '/api/admin/employers' && method === 'POST') return updateEmployer(request, env);
     if (pathname === '/api/admin/match' && method === 'POST') return runMatch(request, env);
