@@ -41,6 +41,18 @@ function clean(value, max = 400) {
   return String(value).slice(0, max).trim() || null;
 }
 
+// resume_url is a base64 data: URL, not a short field, so it needs far more
+// than the 500-char cap this used to have — but not unlimited either.
+// Cloudflare D1 enforces a hard 2,000,000-byte max size for any single
+// string/BLOB/row. The front end caps uploads at 1MB, which becomes ~1.4MB
+// of base64 — this cap matches that with a little headroom, so a resume
+// that slips past client-side validation still fails safely (truncated,
+// not silently rejected by D1) instead of blowing the row limit.
+const MAX_RESUME_CHARS = 1_800_000;
+function cleanResumeUrl(value) {
+  return clean(value, MAX_RESUME_CHARS);
+}
+
 function isEmail(s) {
   return typeof s === 'string' && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
 }
@@ -120,7 +132,7 @@ async function receiveApplication(request, env) {
   ).bind(
     ref, clean(body.job_id, 200), clean(body.job_title, 200), clean(body.company, 200),
     clean(body.category, 60), name, email, clean(body.phone, 60),
-    clean(body.resume_url, 500), clean(body.cover_note, 4000)
+    cleanResumeUrl(body.resume_url), clean(body.cover_note, 4000)
   ).run();
 
   return json({ ok: true, ref });
@@ -148,14 +160,16 @@ async function joinPool(request, env) {
     ref, name, email, clean(body.phone, 60),
     clean(body.category, 60), clean(body.years_experience, 60), clean(body.skills, 1000),
     clean(body.rate_expectation, 120), clean(body.availability, 200), clean(body.timezone_overlap, 200),
-    clean(body.english_level, 120), clean(body.bio, 4000), clean(body.resume_url, 500), clean(body.portfolio_url, 500)
+    clean(body.english_level, 120), clean(body.bio, 4000), cleanResumeUrl(body.resume_url), clean(body.portfolio_url, 500)
   ).run();
 
   return json({ ok: true, ref });
 }
 
 /* ==========================================================================
-   PUBLIC: employer intake — single hire or Hire-a-Team.
+   PUBLIC: employer intake — single hire or Hire-a-Team (which now also
+   covers a fully managed 24/7 team, anchored by a Senior EA, employed by
+   BridgeDesk rather than the client).
    No fee-agreement gate. The response hands back a payment link directly.
    ========================================================================== */
 async function employerIntake(request, env) {
@@ -191,8 +205,8 @@ async function employerIntake(request, env) {
     tier,
     payment_url: paymentUrl,
     message: tier === 'team'
-      ? 'Team request received. Send the placement deposit below to begin sourcing your team.'
-      : 'Request received. Send the placement deposit below and we will start matching candidates right away.',
+      ? "Team request received — we'll contact you via email with next steps. Send the placement deposit below to begin sourcing your team."
+      : "Request received — we'll contact you via email with next steps. Send the placement deposit below and we will start matching candidates right away.",
   });
 }
 
@@ -251,6 +265,138 @@ async function updatePool(request, env) {
   await env.DB.prepare('update pool_candidates set status = ?1 where ref = ?2')
     .bind(clean(body.status, 40) || 'new', clean(body.ref, 20)).run();
   return json({ ok: true });
+}
+
+/* ==========================================================================
+   ADMIN: AI resume review
+   ---------------------------------------------------------------------------
+   Reviews a pool candidate's uploaded resume with Claude and stores the
+   result back on the candidate row, where scoreCandidate() picks it up as
+   one more signal (see the "resume AI review" component above). Requires
+   an ANTHROPIC_API_KEY secret (wrangler secret put ANTHROPIC_API_KEY) and
+   three columns on pool_candidates that a fresh schema.sql won't have yet —
+   see the migration note in DEPLOY.md.
+   ========================================================================== */
+
+/** Split a "data:<mime>;base64,<data>" string into its parts, or null. */
+function parseDataUrl(dataUrl) {
+  const m = /^data:([^;,]+)(?:;charset=[^;,]+)?;base64,([\s\S]*)$/.exec(String(dataUrl || ''));
+  if (!m) return null;
+  return { mediaType: m[1].toLowerCase(), base64: m[2] };
+}
+
+/**
+ * Turn a parsed resume into a Claude API content block. Claude's Messages
+ * API can read a PDF directly as a document block, or plain text inline —
+ * it can't parse .doc/.docx binary, so those come back as null and the
+ * caller reports that plainly rather than sending garbage to the model.
+ */
+function buildResumeContentBlock({ mediaType, base64 }) {
+  if (mediaType === 'application/pdf') {
+    return { type: 'document', source: { type: 'base64', media_type: 'application/pdf', data: base64 } };
+  }
+  if (/^image\/(png|jpeg|jpg|gif|webp)$/.test(mediaType)) {
+    const normalised = mediaType === 'image/jpg' ? 'image/jpeg' : mediaType;
+    return { type: 'image', source: { type: 'base64', media_type: normalised, data: base64 } };
+  }
+  if (mediaType === 'text/plain') {
+    let text = '';
+    try { text = atob(base64); } catch { return null; }
+    return { type: 'text', text: text.slice(0, 20000) };
+  }
+  return null;
+}
+
+async function reviewResume(request, env) {
+  const denied = requireAdmin(request, env);
+  if (denied) return denied;
+  if (!env.ANTHROPIC_API_KEY) {
+    return json({ error: 'ANTHROPIC_API_KEY is not set. Run: wrangler secret put ANTHROPIC_API_KEY' }, 503);
+  }
+
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+  const ref = clean(body.ref, 20);
+  if (!ref) return json({ error: 'ref is required.' }, 400);
+
+  const candidate = await env.DB.prepare('select * from pool_candidates where ref = ?1').bind(ref).first();
+  if (!candidate) return json({ error: 'No pool candidate with that ref.' }, 404);
+  if (!candidate.resume_url) return json({ error: 'This candidate has no resume on file.' }, 400);
+
+  const parsed = parseDataUrl(candidate.resume_url);
+  if (!parsed) return json({ error: 'resume_url is not a data: URL — nothing to review.' }, 400);
+
+  const block = buildResumeContentBlock(parsed);
+  if (!block) {
+    return json({
+      error: `Can't read a ${parsed.mediaType || 'this'} resume yet — PDF, plain text, or an image of the resume work today. Ask the candidate to re-upload as a PDF.`,
+    }, 422);
+  }
+
+  const prompt = `You are screening a resume for a remote ${candidate.category || 'assistant'} role, for a job board that places Filipino virtual/executive/personal/legal assistants and related remote support niches with employers worldwide.
+
+Candidate's self-reported details:
+- Category: ${candidate.category || 'not stated'}
+- Years of experience (self-reported): ${candidate.years_experience || 'not stated'}
+- Skills (self-reported): ${candidate.skills || 'not stated'}
+- English level (self-reported): ${candidate.english_level || 'not stated'}
+
+Review the attached resume and respond with ONLY a JSON object — no markdown fences, no prose outside the JSON — in exactly this shape:
+{"fit_score": <integer 0-100>, "estimated_years_experience": <number or null>, "strengths": [<short strings>], "concerns": [<short strings>], "summary": "<2-3 sentence plain-language summary for a recruiter>"}
+
+fit_score should reflect overall fit for professional remote assistant/support work in general — resume clarity, relevant experience, and any red flags — not only whether it matches the stated category exactly.`;
+
+  let apiRes;
+  try {
+    apiRes = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-5',
+        max_tokens: 1024,
+        messages: [{ role: 'user', content: [block, { type: 'text', text: prompt }] }],
+      }),
+    });
+  } catch (err) {
+    return json({ error: `Could not reach the Claude API: ${err.message}` }, 502);
+  }
+
+  if (!apiRes.ok) {
+    const errText = await apiRes.text().catch(() => '');
+    return json({ error: `Claude API error (${apiRes.status}): ${errText.slice(0, 300)}` }, 502);
+  }
+
+  const apiData = await apiRes.json();
+  const textBlock = (apiData.content || []).find((b) => b.type === 'text');
+  if (!textBlock) return json({ error: 'Claude API returned no text content.' }, 502);
+
+  let review;
+  try {
+    review = JSON.parse(textBlock.text.trim().replace(/^```(?:json)?\s*|\s*```$/g, ''));
+  } catch {
+    return json({ error: 'Could not parse the AI review as JSON.', raw: textBlock.text.slice(0, 2000) }, 502);
+  }
+
+  const fitScore = Math.max(0, Math.min(100, Math.round(Number(review.fit_score) || 0)));
+  const summary = clean(review.summary, 2000);
+
+  await env.DB.prepare(
+    'update pool_candidates set ai_review_score = ?1, ai_review_summary = ?2, ai_reviewed_at = ?3 where ref = ?4'
+  ).bind(fitScore, summary, new Date().toISOString(), ref).run();
+
+  return json({
+    ok: true,
+    ref,
+    fit_score: fitScore,
+    summary,
+    strengths: Array.isArray(review.strengths) ? review.strengths.slice(0, 10) : [],
+    concerns: Array.isArray(review.concerns) ? review.concerns.slice(0, 10) : [],
+    estimated_years_experience: review.estimated_years_experience ?? null,
+  });
 }
 
 /* ==========================================================================
@@ -341,6 +487,19 @@ function scoreCandidate(candidate, employer) {
     notes.push('+0 timezone — not stated');
   }
 
+  // Resume AI review — only contributes once an admin has actually run one
+  // (see reviewResume / POST /api/admin/review-resume). Deliberately a
+  // smaller weight than category fit: it's a useful second opinion on a
+  // resume's quality and red flags, not a replacement for the candidate's
+  // own stated fit.
+  if (candidate.ai_review_score != null && candidate.ai_review_score !== '') {
+    const reviewScore = Math.max(0, Math.min(100, Number(candidate.ai_review_score)));
+    const pts = Math.round((reviewScore / 100) * 15);
+    score += pts; notes.push(`+${pts} resume AI review (${reviewScore}/100 fit)`);
+  } else {
+    notes.push('+0 resume AI review — not yet run');
+  }
+
   return { score: Math.min(100, score), rationale: notes.join('; ') };
 }
 
@@ -425,6 +584,7 @@ export default {
     if (pathname === '/api/admin/applications' && method === 'POST') return updateApplication(request, env);
     if (pathname === '/api/admin/pool' && method === 'GET') return listPool(request, env);
     if (pathname === '/api/admin/pool' && method === 'POST') return updatePool(request, env);
+    if (pathname === '/api/admin/review-resume' && method === 'POST') return reviewResume(request, env);
     if (pathname === '/api/admin/employers' && method === 'GET') return listEmployers(request, env);
     if (pathname === '/api/admin/employers' && method === 'POST') return updateEmployer(request, env);
     if (pathname === '/api/admin/match' && method === 'POST') return runMatch(request, env);
