@@ -489,7 +489,7 @@ export const COMPANIES = [
   // Australia (additional)
   { id: "atlassian", name: "Atlassian", hub: "saas", careersUrl: "https://www.atlassian.com/company/careers", website: "https://www.atlassian.com", segment: "Collaboration Software (Jira, Trello)", country: "Australia", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "deputy", name: "Deputy", hub: "saas", careersUrl: "https://www.deputy.com/careers", website: "https://www.deputy.com", segment: "Workforce Management Software", country: "Australia", verified: false, method: null, atsSlug: null, active: true },
-  { id: "employment-hero", name: "Employment Hero", hub: "hr-tech", careersUrl: "https://employmenthero.com/careers/", website: "https://employmenthero.com", segment: "HR & Payroll Platform", country: "Australia", verified: false, method: null, atsSlug: null, active: true },
+  { id: "employment-hero", name: "Employment Hero", hub: "hr-tech", careersUrl: "https://employmenthero.com/careers/", website: "https://employmenthero.com", segment: "HR & Payroll Platform", country: "Australia", verified: false, method: "dom", atsSlug: null, active: true },
 
   // India
   { id: "zomato", name: "Zomato", hub: "business", careersUrl: "https://www.zomato.com/careers", website: "https://www.zomato.com", segment: "Food Delivery Platform", country: "India", verified: false, method: null, atsSlug: null, active: true },
