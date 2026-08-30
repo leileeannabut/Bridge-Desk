@@ -902,6 +902,83 @@ async function updateMatch(request, env) {
 /* ==========================================================================
    ROUTER
    ========================================================================== */
+/* ==========================================================================
+   PUBLIC: Role DNA — AI analysis of one job's complexity/pace/autonomy/
+   communication load, generated fresh on every request (no caching) per
+   explicit choice: a candidate opening the same job twice gets two live
+   Claude calls, not a cached result. That is a real cost tradeoff worth
+   being aware of at scale — see the note in DEPLOY.md.
+   ========================================================================== */
+async function roleDNA(request, env) {
+  if (!env.ANTHROPIC_API_KEY) {
+    return json({ error: 'ANTHROPIC_API_KEY is not set. Run: wrangler secret put ANTHROPIC_API_KEY' }, 503);
+  }
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'Bad request body.' }, 400); }
+
+  const title = clean(body.title, 300);
+  const company = clean(body.company, 200);
+  const description = clean(body.description, 6000); // cap what we send — cost and prompt-injection surface both scale with input size
+  if (!title) return json({ error: 'title is required.' }, 400);
+
+  const prompt = `You are analysing a single remote job posting for a candidate deciding whether to apply. Score it honestly from the text alone — if the description does not say enough to judge a dimension, use your best estimate from context (title, seniority language, industry) and lean toward the middle of the scale rather than guessing at an extreme.
+
+Job title: ${title}
+Company: ${company || 'not stated'}
+Description:
+${description || '(no description text was scraped for this posting — infer only from the title and company)'}
+
+Respond with ONLY a JSON object — no markdown fences, no prose outside the JSON — in exactly this shape:
+{"job_complexity": <integer 1-5>, "pace_pressure": <integer 1-5>, "autonomy_level": <integer 1-5>, "communication_load": <integer 1-5>, "insight": "<2-4 sentence plain-language summary of what makes this role easy or demanding, written for the candidate, not the employer>"}
+
+1 = low/easy end of that dimension, 5 = high/demanding end. job_complexity: how varied/technical the work is. pace_pressure: how fast-moving or deadline-driven. autonomy_level: how much independent ownership vs. close direction. communication_load: how much of the role is meetings/collaboration vs. heads-down work.`;
+
+  let apiRes;
+  try {
+    apiRes = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-5',
+        max_tokens: 512,
+        messages: [{ role: 'user', content: prompt }],
+      }),
+    });
+  } catch (err) {
+    return json({ error: `Could not reach the Claude API: ${err.message}` }, 502);
+  }
+
+  if (!apiRes.ok) {
+    const errText = await apiRes.text().catch(() => '');
+    return json({ error: `Claude API error (${apiRes.status}): ${errText.slice(0, 300)}` }, 502);
+  }
+
+  const apiData = await apiRes.json();
+  const textBlock = (apiData.content || []).find((b) => b.type === 'text');
+  if (!textBlock) return json({ error: 'Claude API returned no text content.' }, 502);
+
+  let dna;
+  try {
+    dna = JSON.parse(textBlock.text.trim().replace(/^```(?:json)?\s*|\s*```$/g, ''));
+  } catch {
+    return json({ error: 'Could not parse the AI analysis as JSON.', raw: textBlock.text.slice(0, 1000) }, 502);
+  }
+
+  const dim = (v) => Math.max(1, Math.min(5, Math.round(Number(v) || 3)));
+  return json({
+    ok: true,
+    job_complexity: dim(dna.job_complexity),
+    pace_pressure: dim(dna.pace_pressure),
+    autonomy_level: dim(dna.autonomy_level),
+    communication_load: dim(dna.communication_load),
+    insight: clean(dna.insight, 1000) || 'No additional insight was returned for this role.',
+  });
+}
+
 export default {
   async fetch(request, env) {
     const { pathname } = new URL(request.url);
@@ -912,6 +989,7 @@ export default {
     if (pathname === '/api/apply' && method === 'POST') return receiveApplication(request, env);
     if (pathname === '/api/pool' && method === 'POST') return joinPool(request, env);
     if (pathname === '/api/employer' && method === 'POST') return employerIntake(request, env);
+    if (pathname === '/api/role-dna' && method === 'POST') return roleDNA(request, env);
     if (pathname === '/api/unsubscribe' && method === 'GET') return unsubscribeOutreach(request, env);
     if (pathname === '/api/testimonial' && method === 'POST') return submitTestimonial(request, env);
     if (pathname === '/api/testimonials' && method === 'GET') return listPublicTestimonials(request, env);
