@@ -233,6 +233,40 @@ footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
 }
 .modal h3{font-size:22px; margin-bottom:6px;}
 .modal .sub{color:var(--ink-soft); font-size:14.5px; margin-bottom:22px;}
+.modal-wide{max-width:640px; max-height:86vh; overflow-y:auto;}
+.detail-description{
+  font-size:14.5px; line-height:1.65; color:var(--ink-soft); white-space:pre-wrap;
+  max-height:180px; overflow-y:auto; padding:14px 16px; background:var(--cream);
+  border:1px solid var(--line); border-radius:10px; margin-bottom:22px;
+}
+.dna-card{background:var(--cream); border:1px solid var(--line); border-radius:14px; padding:20px;}
+.dna-card h4{font-size:17px; margin:0 0 4px;}
+.dna-sub{font-size:13px; color:var(--ink-dim); margin:0 0 16px;}
+.dna-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+@media (max-width:520px){.dna-grid{grid-template-columns:1fr;}}
+.dna-metric{background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:14px 16px;}
+.dna-metric-head{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px;}
+.dna-metric-head strong{font-size:14.5px;}
+.dna-metric-score{font-weight:700; color:var(--sky-deep); font-size:14.5px;}
+.dna-metric-labels{display:flex; justify-content:space-between; font-size:11.5px; color:var(--ink-dim); margin-bottom:6px;}
+.dna-bar{display:flex; gap:4px;}
+.dna-bar span{flex:1; height:7px; border-radius:4px; background:var(--line);}
+.dna-bar span.fill-1{background:var(--sage-deep);}
+.dna-bar span.fill-2{background:#8FBC94;}
+.dna-bar span.fill-3{background:var(--gold);}
+.dna-bar span.fill-4{background:var(--tan-deep);}
+.dna-bar span.fill-5{background:#B3453C;}
+.dna-insight{
+  display:flex; gap:12px; margin-top:16px; padding:14px 16px; border-radius:12px;
+  background:rgba(127,178,201,.12); border:1px solid rgba(127,178,201,.3);
+}
+.dna-insight .icon{font-size:18px; line-height:1;}
+.dna-insight strong{display:block; font-size:13.5px; margin-bottom:4px;}
+.dna-insight p{margin:0; font-size:13.5px; line-height:1.6; color:var(--ink-soft);}
+.dna-loading{padding:20px; text-align:center; color:var(--ink-dim); font-size:13.5px;}
+.dna-error{padding:14px; text-align:center; color:#B3453C; font-size:13.5px;}
+.job-title{cursor:pointer;}
+.job-title:hover{text-decoration:underline;}
 .field{margin-bottom:16px;}
 .field label{display:block; font-size:13px; font-weight:600; margin-bottom:6px; color:var(--ink-soft);}
 .field input, .field select, .field textarea{
@@ -523,6 +557,28 @@ footer{border-top:1px solid var(--line); padding:40px 0; margin-top:40px;}
 </div>
 
 <!-- Job application -->
+<!-- Job detail (Role DNA) -->
+<div class="overlay" id="detail-overlay">
+  <div class="modal modal-wide">
+    <button class="modal-close" onclick="closeModal('detail-overlay')">✕</button>
+    <span class="job-tag" id="detail-category" style="margin-bottom:10px;"></span>
+    <h3 id="detail-title" style="margin-bottom:4px;"></h3>
+    <p class="sub" id="detail-meta"></p>
+
+    <div id="detail-description" class="detail-description"></div>
+
+    <div class="dna-card">
+      <h4>Role DNA</h4>
+      <p class="dna-sub">A quick view of the complexity, pace, ownership and collaboration implied by the job description.</p>
+      <div id="dna-body">
+        <div class="dna-loading" id="dna-loading">Analyzing this role…</div>
+      </div>
+    </div>
+
+    <button class="btn btn-gold" style="width:100%; margin-top:18px;" onclick="applyFromDetail()">Apply for this role</button>
+  </div>
+</div>
+
 <div class="overlay" id="apply-overlay">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('apply-overlay')">✕</button>
@@ -872,7 +928,7 @@ function jobCardHtml(j, status) {
       ${badge}
       <div class="job-main">
         <span class="job-tag" style="background:${c.bg};color:${c.fg};">${escapeHtml(j.category || 'Other')}</span>
-        <div class="job-title">${escapeHtml(j.title)}</div>
+        <div class="job-title" onclick='openDetailModal(${JSON.stringify(j).replace(/'/g,"&#39;")})'>${escapeHtml(j.title)}</div>
         <div class="job-meta">
           <span>${escapeHtml(j.company)}</span>
           <span>${escapeHtml(j.location || 'Remote')}</span>
@@ -900,6 +956,69 @@ function openApplyModal(job) {
   document.getElementById('apply-overlay').classList.add('open');
   trackInteraction(job, 'viewed');
   if (!VIEWING_HISTORY) renderJobs();   // reflect the new "Viewed" badge right away
+}
+
+/* ---------- job detail + Role DNA ---------- */
+let currentDetailJob = null;
+const DNA_DIMENSIONS = [
+  { key: 'job_complexity', label: 'Job Complexity', low: 'Easy', high: 'Hard' },
+  { key: 'pace_pressure', label: 'Pace & Pressure', low: 'Relaxed', high: 'Fast-paced' },
+  { key: 'autonomy_level', label: 'Autonomy Level', low: 'Guided', high: 'Full ownership' },
+  { key: 'communication_load', label: 'Communication Load', low: 'Independent', high: 'Collaborative' },
+];
+
+function openDetailModal(job) {
+  currentDetailJob = job;
+  const c = CATEGORY_COLORS[job.category] || CATEGORY_COLORS.Other;
+  const cat = document.getElementById('detail-category');
+  cat.textContent = job.category || 'Other';
+  cat.style.background = c.bg; cat.style.color = c.fg;
+  document.getElementById('detail-title').textContent = job.title;
+  document.getElementById('detail-meta').textContent = `${job.company} • ${job.location || 'Remote'}`;
+  document.getElementById('detail-description').textContent = job.description || job.summary || 'No description was captured for this posting — see the original listing for full details.';
+  document.getElementById('detail-overlay').classList.add('open');
+  trackInteraction(job, 'viewed');
+  if (!VIEWING_HISTORY) renderJobs();
+
+  fetchRoleDNA(job);
+}
+
+function applyFromDetail() {
+  if (!currentDetailJob) return;
+  closeModal('detail-overlay');
+  openApplyModal(currentDetailJob);
+}
+
+async function fetchRoleDNA(job) {
+  const bodyEl = document.getElementById('dna-body');
+  bodyEl.innerHTML = '<div class="dna-loading" id="dna-loading">Analyzing this role…</div>';
+  try {
+    const res = await fetch('/api/role-dna', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ title: job.title, company: job.company, description: job.description || job.summary || '' }),
+    });
+    const data = await res.json();
+    if (!res.ok || !data.ok) {
+      bodyEl.innerHTML = `<div class="dna-error">Couldn't analyze this role right now${data.error ? ': ' + escapeHtml(data.error) : '.'}</div>`;
+      return;
+    }
+    bodyEl.innerHTML = `
+      <div class="dna-grid">
+        ${DNA_DIMENSIONS.map(d => `
+          <div class="dna-metric">
+            <div class="dna-metric-head"><strong>${d.label}</strong><span class="dna-metric-score">${data[d.key]}/5</span></div>
+            <div class="dna-metric-labels"><span>${d.low}</span><span>${d.high}</span></div>
+            <div class="dna-bar">${[1,2,3,4,5].map(n => `<span class="${n <= data[d.key] ? 'fill-' + n : ''}"></span>`).join('')}</div>
+          </div>`).join('')}
+      </div>
+      <div class="dna-insight">
+        <span class="icon">💡</span>
+        <div><strong>AI insight</strong><p>${escapeHtml(data.insight)}</p></div>
+      </div>`;
+  } catch (err) {
+    bodyEl.innerHTML = `<div class="dna-error">Couldn't reach the analysis service. Try again in a moment.</div>`;
+  }
 }
 
 function openEmployerModal(tier) {
