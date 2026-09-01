@@ -1,10 +1,76 @@
 {
-  "generated_at": "2026-08-31T14:41:34.828Z",
+  "generated_at": "2026-09-01T12:16:34.997Z",
   "count": 100,
-  "total_open": 128,
-  "sources_ok": 53,
-  "sources_failed": 21,
+  "total_open": 133,
+  "sources_ok": 52,
+  "sources_failed": 22,
   "jobs": [
+    {
+      "id": "agg:jobicy:152290",
+      "hub": "business",
+      "title": "Senior Implementation Specialist",
+      "company": "Karbon",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Senior",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 90000,
+      "comp_max": 107500,
+      "summary": "About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms.",
+      "description": "About Karbon\n\nKarbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work more efficiently and collaboratively every day. With customers in 40 countries, we have grown into a globally distributed team across the US, Australia, New Zealand, Canada, the United Kingdom, and the Philippines. We are well-funded, ranked #1 on G2, growing rapidly, and have a people-first culture that is recognized with Great Place To Work® certification and on Fortune magazine's Best Small Workplaces™ List.\n\nAbout the Role:\n\nAs a Senior Implementation Specialist at Karbon, you’ll serve as the trusted guide for our largest customers, leading them through onboarding, data migration, implementation, and training. You’ll act as the project manager, consultant, and change management coach, ensuring customers achieve rapid time-to-value and long-term success on the Karbon platform.\n\nAs a Senior Implementation Specialist, you will...\n\n- Own the customer implementation journey: Act as the project manager for enterprise accounts, building and maintaining detailed project plans, tracking milestones, and ensuring all deliverables are completed on time.\n\n- Communicate across multiple stakeholders: Partner with executive sponsors, firm administrators, and end users to align priorities, clarify responsibilities, and drive accountability.\n\n- Facilitate structured onboarding: Lead kickoff meetings, consultative process reviews, configuration workshops, and training sessions tailored to firm needs.\n\n- Provide professional guidance: Advise customers on best practices in workflow design, firm operations, and change management to maximize adoption and business impact.\n\n- Coach through change management: Help firms prepare their teams for new processes, encouraging adoption and managing resistance.\n\n- Ensure data integrity: Support customers in importing contacts and work items, leveraging Excel and other tools to ensure accuracy and completeness.\n\n- Identify and mitigate risks: Spot early warning signs of delays or adoption issues and proactively intervene to keep projects on track.\n\n- Collaborate internally: Partner with Sales, Customer Success, Product, and Support teams to ensure seamless customer handoffs and capture valuable feedback.\n\n- Deliver measurable value: Drive outcomes that demonstrate ROI for customers and set them up for long-term success with Karbon.\n\n- Use AI in day-to-day implementation work, including ChatGPT licenses and AI-driven workflow automations, to support project planning, customer communications, and process optimization.\n\nAbout You\n\n- You have 3-5+ years of experience in B2B SaaS Implementations\n\n- You have 2+ years of end-to-end technical implementation experience\n\n- You are experienced in project management and comfortable managing multiple customer projects simultaneously.\n\n- You thrive in customer-facing environments, facilitating workshops and executive-level conversations with confidence.\n\n- You have excellent communication and presentation skills, capable of translating technical concepts into clear, actionable steps.\n\n- You are consultative by nature, with the humility to listen and the confidence to challenge firms to rethink their processes.\n\n- You have a strong attention to detail and pride yourself on accuracy and follow-through.\n\n- You enjoy working with data and systems, ensuring integrity throughout migrations and configuration.\n\n- You are resilient and adaptable, thriving in dynamic environments where change is constant.\n\n- You are comfortable working remotely and managing your time independently.\n\nBonus points if you have:\n\n- Experience in the accounting or tax industry.\n\n- Previous experience with workflow, accounting, or project management software.\n\n- Background in software onboarding or enterprise implementations.\n\n- Knowledge of change management frameworks.\n\n- Experience in a startup or high-growth SaaS environment.\n\n- Deep knowledge and hands-on experience using Karbon.\n\nWhy work at Karbon?\n\n- Gain global experience across the USA, Australia, New Zealand, UK, Canada and the Philippines\n\n- Excellent benefits package including:\n\n- Paid Flexible Time Off with an encouraged 3 weeks use per year\n\n- Company paid medical for you and eligible spouse/partner and dependents\n\n- Company paid dental and vision and eligible spouse/partner and dependents\n\n- Fully company funded short and long term disability\n\n- Fully company paid life insurance\n\n- 401(k) with company matching\n\n- Flexible Spending Account\n\n- Up to 8 weeks paid parental leave\n\n- Work-from-home stipend\n\n- Work with (and learn from) an experienced, high-performing team\n\n- A collaborative, team-oriented culture that embraces diversity, invests in development and provides consistent feedback\n\n- Be part of a fast-growing company that firmly believes in promoting high performers from within\n\nAs we hire across various locations within the USA we are required by law to include a reasonable estimate of the compensation range for this role.\n\nThe range provided is broad and takes into consideration a wide range of factors that are reviewed when making a hiring decision, such as physical location/cost of living in that location, years of experience, skills, and other business needs.\n\nIt is not typical for a candidate to be hired at or near the top of the pay range and each compensation decision is dependent on each individual case. The base salary is one component of the total compensation package, which for some roles may include a target bonus, for some roles very competitive equity grant, and very generous benefits. While we believe competitive compensation is a critical aspect of you deciding to join us, we do hope you also spend time considering why our mission, purpose and values are right for you. We are creating something transformational here, and we hope you are as excited about the future as we are!\n\nThe estimated base salary range for this role is:\n\n$90,000—$107,500 USD\n\nPlease be aware that Karbon will only contact you via email from our domain, karbonhq.com. If you receive an email from any other domain, please do not click any of those links.\n\nKarbon embraces diversity and inclusion, aligning with our values as a business. Research has shown that women and underrepresented groups are less likely to apply to jobs unless they meet every single criteria. If you've made it this far in the job description but your past experience doesn't perfectly align, we do encourage you to still apply. You could still be the right person for the role!\n\nWe recruit and reward people based on capability and performance. We don’t discriminate based on race, gender, sexual orientation, gender identity or expression, lifestyle, age, educational background, national origin, religion, physical or cognitive ability, and other diversity dimensions that may hinder inclusion in the organization.\n\nGenerally, if you are a good person, we want to talk to you.\n\nIf there are any adjustments or accommodations that we can make to assist you during the recruitment process, and your journey at Karbon, contact us at people.support@karbonhq.com for a confidential discussion.\n\nAt this time, we request that agency referrals are not submitted for this position. We appreciate your understanding and encourage direct applications from interested candidates. Thank you!",
+      "apply_url": "https://jobicy.com/jobs/152290-senior-implementation-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-09-01T05:14:23.000Z",
+      "scraped_at": "2026-09-01T12:16:34.627Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152280",
+      "hub": "business",
+      "title": "Implementation Specialist",
+      "company": "Karbon",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "UK",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms.",
+      "description": "About Karbon\n\nKarbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work more efficiently and collaboratively every day. With customers in 40 countries, we have grown into a globally distributed team across the US, Australia, New Zealand, Canada, the United Kingdom, and the Philippines. We are well-funded, ranked #1 on G2, growing rapidly, and have a people-first culture that is recognized with Great Place To Work® certification and on Fortune magazine's Best Small Workplaces™ List.\n\nAbout the Role:\n\nAs an Implementation Specialist, you will lead customers through onboarding, data migration, implementation, and training for small to mid-sized firms. You’ll act as a trusted partner during the implementation phase, supporting customers as they adopt Karbon and ensuring they achieve rapid time-to-value and long-term success on the Karbon platform.\n\nAs an Implementation Specialist, you will...\n\n- Own the customer implementation journey: Manage end-to-end implementation projects for small to mid-sized accounts, building and maintaining project plans, tracking milestones, and ensuring deliverables are completed on time, escalating complexity as needed.\n\n- Communicate across multiple stakeholders: Partner primarily with firm administrators and key users to align priorities, clarify responsibilities, and maintain momentum throughout the implementation.\n\n- Facilitate structured onboarding: Lead kickoff meetings, configuration sessions, and training sessions using established frameworks and playbooks, adapting delivery to customer needs.\n\n- Provide professional guidance: Guide customers on Karbon best practices for workflow setup and day-to-day usage, helping firms establish efficient and repeatable processes.\n\n- Coach through change management: Help customers prepare their teams for new processes, reinforce adoption, and address common questions or resistance during implementation.\n\n- Ensure data integrity: Support customers in importing contacts and work items, leveraging Excel and other tools to ensure accuracy and completeness.\n\n- Identify and mitigate risks: Monitor project progress and flag potential delays or adoption challenges early, escalating risks to senior team members when appropriate.\n\n- Collaborate internally: Partner with Sales, Customer Success, Product, and Support teams to ensure seamless customer handoffs and capture valuable feedback.\n\n- Deliver measurable value: Help customers achieve early wins and milestones that demonstrate value and set the foundation for long-term success with Karbon.\n\n- Use AI in day-to-day implementation work, including ChatGPT licenses and AI-driven workflow automations, to support project planning, customer communications, and process optimization.\n\nAbout You\n\n- You have 2-4+ years of experience in B2B SaaS Implementations\n\n- You have experience with end-to-end technical implementations\n\n- You are comfortable managing multiple customer projects simultaneously with clear priorities and organization.\n\n- You enjoy customer-facing work and are confident in facilitating meetings and training sessions with administrators and end users.\n\n- You have strong communication and presentation skills and can translate technical concepts into clear, actionable guidance.\n\n- You are consultative and curious, open to feedback, and eager to grow your implementation and advisory skills.\n\n- You have strong attention to detail and pride yourself on accuracy and follow-through.\n\n- You enjoy working with data and systems, ensuring integrity throughout migrations and configuration.\n\n- You are adaptable and resilient, thriving in environments where processes and priorities continue to evolve.\n\n- You are comfortable working remotely and managing your time independently.\n\nBonus points if you have:\n\n- Experience in the accounting or tax industry.\n\n- Previous experience with workflow, accounting, or project management software.\n\n- Background in software onboarding or enterprise implementations.\n\n- Knowledge of change management frameworks.\n\n- Experience in a startup or high-growth SaaS environment.\n\n- Deep knowledge and hands-on experience using Karbon.\n\nWhy work at Karbon?\n\n- Gain global experience across the USA, Australia, New Zealand, UK, Canada and the Philippines\n\n- Flexible work hours\n\n- Commuter & work from home benefits\n\n- Home office equipment menu for you to choose how you deck out your home office\n\n- Cultural and offsite events\n\n- Learning and development opportunities\n\n- Generous parental leave\n\n- Performance based and globally benchmarked pay\n\n- Employee Assistance Program\n\n- Up to 10 wellness days (because you don't need to be \"sick\" to stay well)\n\n- Karbon Fun / Social Club!\n\n- Up to 5 weeks paid vacation\n\n- Work with (and learn from) an experienced, high-performing team\n\n- A collaborative, team-oriented culture that embraces diversity, invests in development and provides consistent feedback\n\n- Be part of a fast-growing company that firmly believes in promoting high performers from within\n\n -\n\nPlease be aware that Karbon will only contact you via email from our domain, karbonhq.com. If you receive an email from any other domain, please do not click any of those links.\n\nKarbon embraces diversity and inclusion, aligning with our values as a business. Research has shown that women and underrepresented groups are less likely to apply to jobs unless they meet every single criteria. If you've made it this far in the job description but your past experience doesn't perfectly align, we do encourage you to still apply. You could still be the right person for the role!\n\nWe recruit and reward people based on capability and performance. We don’t discriminate based on race, gender, sexual orientation, gender identity or expression, lifestyle, age, educational background, national origin, religion, physical or cognitive ability, and other diversity dimensions that may hinder inclusion in the organization.\n\nGenerally, if you are a good person, we want to talk to you.\n\nIf there are any adjustments or accommodations that we can make to assist you during the recruitment process, and your journey at Karbon, contact us at people.support@karbonhq.com for a confidential discussion.\n\nAt this time, we request that agency referrals are not submitted for this position. We appreciate your understanding and encourage direct applications from interested candidates. Thank you!",
+      "apply_url": "https://jobicy.com/jobs/152280-implementation-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-09-01T05:11:36.000Z",
+      "scraped_at": "2026-09-01T12:16:34.627Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:tide-uk:7862926003",
+      "hub": "fintech",
+      "title": "Platform Operations Specialist",
+      "company": "Tide",
+      "company_id": "tide-uk",
+      "priority": false,
+      "category": "Other",
+      "segment": "Business Banking",
+      "level": "Mid",
+      "location": "Berlin, Germany",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensiv…",
+      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members: 900,000 UK and 1,100,000 in India and growing rapidly\n\n- Over $300 million raised in funding\n\n- Over 2,800 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE TEAM:\n\nYou will become part of a dedicated and dynamic team that drives Tide's market success in Germany. The Tide Germany team is in an exciting growth phase and unites experts with profound knowledge in the fields of financial services, technology, and local market understanding. As part of this expanding team, you will receive the unique opportunity to help shape Tide's presence in Germany and jointly deliver innovative solutions for small businesses. Partner Credit Services is Tide's SME loan platform. By collaborating with credit partners, Partner Credit Services connects business owners with the appropriate financing – for founders who want to take their business to the next level, for entrepreneurs who are holding their own in a difficult market, and for executives who want to adapt their strategy.\n\nABOUT THE ROLE:\n\n- As a Senior Platform Operations Specialist, you will be the operational backbone of Tide's SME loan platform and the bridge between our sales, product, and engineering teams. Our platform works to match business owners with the most appropriate lenders for their finance applications, and its performance depends on the integrations behind it working reliably and converting effectively.\n\n- You will own platform-driven revenue and the relationships with the lenders integrated into it. That means knowing our conversion numbers better than anyone, spotting where the platform is leaking value, and turning that insight into product changes and new initiatives that grow revenue and improve the customer experience. It also means owning the operational detail - monthly revenue reconciliation, incident response, and the reporting that leadership relies on to make decisions.\n\nYOUR RESPONSIBILITIES INCLUDE:\n\n- Revenue Ownership: You own the performance of platform-driven revenue and will play a key role in us achieving the revenue target.\n\n- Lender Relationship Management: You work hand-in-hand with the partnerships team to manage day-to-day relationships with the lenders integrated with the platform and work with them to improve conversion, decisioning and payout performance.\n\n- Platform Improvement: You identify any areas of focus, build the case for change, and work with Product and Engineering to turn those ideas into shipped improvements.\n\n- Revenue Reconciliation: You support the monthly reconciliation of all platform and sales revenue, ensuring accuracy and resolving discrepancies with lenders and Finance.\n\n- Reporting and Insight: You report and present platform performance from our Salesforce CRM to the commercial team and senior stakeholders, with a clear view of what is driving the numbers.\n\n- Dashboards and Tracking: You build effective dashboards and performance tracking tools that guide business decisions rather than just describe the past.\n\n- Process Optimisation: You identify and implement process improvements that increase operational efficiency and conversion rates.\n\n- Incident Management and Resolution: You monitor, diagnose and troubleshoot complex platform issues, drive them to resolution with Product and Engineering, and support post-incident reviews and root cause analysis.\n\n- Cross-functional Collaboration: You work closely with Sales, Product, Engineering, Partnerships, Finance and Member Support to keep the platform commercially and operationally healthy.\n\nWHAT WE ARE LOOKING FOR:\n\n- At least 4 years of experience in a platform operations, revenue operations or business operations role, ideally within financial services, lending or fintech.\n\n- Strong Salesforce CRM skills - you can build reports and dashboards, understand the underlying data model, and maintain data quality without waiting for someone else to do it.\n\n- Experience working directly with Product and Engineering teams: writing clear requirements, prioritising, and a basic understanding of how integrations and APIs behave in practice.\n\n- Comfortable diagnosing and troubleshooting operational and technical issues, and running or supporting root cause analysis.\n\n- Highly numerate and analytical, with strong attention to detail - reconciliation accuracy matters in this role.\n\n- Excellent communication skills, able to influence lenders, internal stakeholders and senior leadership with equal credibility.\n\n- Fluent German and English are a must.\n\n- A proactive, self-motivated approach, always working backwards from the goal to ensure effective implementation.\n\n- Strong problem-solving skills and the ability to work effectively through ambiguity and competing priorities.\n\nWHAT YOU’LL GET IN RETURN:\n\n- DeutschlandTicket\n\n- Urban Sports Club Membership M\n\n- 25 days paid vacation per year\n\n- Additional 3 days paid leave for voluntary work or further education\n\n- We invest in your professional development with a dedicated budget\n\n- Extended parental leave\n\n- 4 weeks sabbatical (after 3 years of tenure)\n\n- Mental health support through Plumm\n\n- One-time home office budget\n\nTIDEAN WAYS OF WORKING\n\nAt Tide, we champion a flexible workplace model that supports both in-person and remote work to cater to the specific needs of our different teams.\n\nWhile remote work is supported, we believe in the power of face-to-face interactions to foster team spirit and collaboration. Our offices are designed as hubs for innovation and team-building, where we encourage regular in-person gatherings to foster a strong sense of community.\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
+      "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
+      "source": "greenhouse",
+      "posted_at": "2026-09-01T01:42:29-04:00",
+      "scraped_at": "2026-09-01T12:16:20.998Z",
+      "status": "open"
+    },
     {
       "id": "greenhouse:smartly-io:6115272004",
       "hub": "saas",
@@ -24,7 +90,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-08-31T14:41:24.261Z",
+      "scraped_at": "2026-09-01T12:16:26.900Z",
       "status": "open"
     },
     {
@@ -46,7 +112,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-08-31T14:41:24.261Z",
+      "scraped_at": "2026-09-01T12:16:26.900Z",
       "status": "open"
     },
     {
@@ -68,7 +134,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126662004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-08-31T14:41:24.261Z",
+      "scraped_at": "2026-09-01T12:16:26.900Z",
       "status": "open"
     },
     {
@@ -90,7 +156,7 @@
       "apply_url": "https://jobicy.com/jobs/152123-customer-service-representative-mandarin-required-3",
       "source": "Jobicy",
       "posted_at": "2026-08-30T17:07:22.000Z",
-      "scraped_at": "2026-08-31T14:41:34.459Z",
+      "scraped_at": "2026-09-01T12:16:34.627Z",
       "status": "open"
     },
     {
@@ -112,7 +178,7 @@
       "apply_url": "https://jobicy.com/jobs/152077-customer-support-specialist-6",
       "source": "Jobicy",
       "posted_at": "2026-08-30T14:59:11.000Z",
-      "scraped_at": "2026-08-31T14:41:34.459Z",
+      "scraped_at": "2026-09-01T12:16:34.627Z",
       "status": "open"
     },
     {
@@ -134,7 +200,7 @@
       "apply_url": "https://jobicy.com/jobs/142189-customer-service-representative-spanish-bilingual",
       "source": "Jobicy",
       "posted_at": "2026-08-30T14:40:14.000Z",
-      "scraped_at": "2026-08-31T14:41:34.459Z",
+      "scraped_at": "2026-09-01T12:16:34.627Z",
       "status": "open"
     },
     {
@@ -156,7 +222,7 @@
       "apply_url": "https://jobicy.com/jobs/151977-solutions-engineering-integration-specialist",
       "source": "Jobicy",
       "posted_at": "2026-08-29T10:56:14.000Z",
-      "scraped_at": "2026-08-31T14:41:34.459Z",
+      "scraped_at": "2026-09-01T12:16:34.627Z",
       "status": "open"
     },
     {
@@ -178,7 +244,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-french-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-08-29T07:31:19.000Z",
-      "scraped_at": "2026-08-31T14:41:32.260Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -200,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/142101-lifecycle-specialist-time-and-attendance-emea",
       "source": "Jobicy",
       "posted_at": "2026-08-29T04:35:05.000Z",
-      "scraped_at": "2026-08-31T14:41:34.459Z",
+      "scraped_at": "2026-09-01T12:16:34.627Z",
       "status": "open"
     },
     {
@@ -222,7 +288,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7980283003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T08:58:32-04:00",
-      "scraped_at": "2026-08-31T14:41:18.312Z",
+      "scraped_at": "2026-09-01T12:16:20.998Z",
       "status": "open"
     },
     {
@@ -244,7 +310,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7685198003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-31T14:41:18.312Z",
+      "scraped_at": "2026-09-01T12:16:20.998Z",
       "status": "open"
     },
     {
@@ -266,7 +332,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7598880003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-31T14:41:18.312Z",
+      "scraped_at": "2026-09-01T12:16:20.998Z",
       "status": "open"
     },
     {
@@ -288,29 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7081017003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-31T14:41:18.312Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:tide-uk:7862926003",
-      "hub": "fintech",
-      "title": "Senior Platform Operations Specialist",
-      "company": "Tide",
-      "company_id": "tide-uk",
-      "priority": false,
-      "category": "Other",
-      "segment": "Business Banking",
-      "level": "Senior",
-      "location": "Berlin, Germany",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensiv…",
-      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members: 900,000 UK and 1,100,000 in India and growing rapidly\n\n- Over $300 million raised in funding\n\n- Over 2,800 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE TEAM:\n\nYou will become part of a dedicated and dynamic team that drives Tide's market success in Germany. The Tide Germany team is in an exciting growth phase and unites experts with profound knowledge in the fields of financial services, technology, and local market understanding. As part of this expanding team, you will receive the unique opportunity to help shape Tide's presence in Germany and jointly deliver innovative solutions for small businesses. Partner Credit Services is Tide's SME loan platform. By collaborating with credit partners, Partner Credit Services connects business owners with the appropriate financing – for founders who want to take their business to the next level, for entrepreneurs who are holding their own in a difficult market, and for executives who want to adapt their strategy.\n\nABOUT THE ROLE:\n\n- As a Senior Platform Operations Specialist, you will be the operational backbone of Tide's SME loan platform and the bridge between our sales, product, and engineering teams. Our platform works to match business owners with the most appropriate lenders for their finance applications, and its performance depends on the integrations behind it working reliably and converting effectively.\n\n- You will own platform-driven revenue and the relationships with the lenders integrated into it. That means knowing our conversion numbers better than anyone, spotting where the platform is leaking value, and turning that insight into product changes and new initiatives that grow revenue and improve the customer experience. It also means owning the operational detail - monthly revenue reconciliation, incident response, and the reporting that leadership relies on to make decisions.\n\nYOUR RESPONSIBILITIES INCLUDE:\n\n- Revenue Ownership: You own the performance of platform-driven revenue and will play a key role in us achieving the revenue target.\n\n- Lender Relationship Management: You work hand-in-hand with the partnerships team to manage day-to-day relationships with the lenders integrated with the platform and work with them to improve conversion, decisioning and payout performance.\n\n- Platform Improvement: You identify any areas of focus, build the case for change, and work with Product and Engineering to turn those ideas into shipped improvements.\n\n- Revenue Reconciliation: You support the monthly reconciliation of all platform and sales revenue, ensuring accuracy and resolving discrepancies with lenders and Finance.\n\n- Reporting and Insight: You report and present platform performance from our Salesforce CRM to the commercial team and senior stakeholders, with a clear view of what is driving the numbers.\n\n- Dashboards and Tracking: You build effective dashboards and performance tracking tools that guide business decisions rather than just describe the past.\n\n- Process Optimisation: You identify and implement process improvements that increase operational efficiency and conversion rates.\n\n- Incident Management and Resolution: You monitor, diagnose and troubleshoot complex platform issues, drive them to resolution with Product and Engineering, and support post-incident reviews and root cause analysis.\n\n- Cross-functional Collaboration: You work closely with Sales, Product, Engineering, Partnerships, Finance and Member Support to keep the platform commercially and operationally healthy.\n\nWHAT WE ARE LOOKING FOR:\n\n- At least 4 years of experience in a platform operations, revenue operations or business operations role, ideally within financial services, lending or fintech.\n\n- Strong Salesforce CRM skills - you can build reports and dashboards, understand the underlying data model, and maintain data quality without waiting for someone else to do it.\n\n- Experience working directly with Product and Engineering teams: writing clear requirements, prioritising, and a basic understanding of how integrations and APIs behave in practice.\n\n- Comfortable diagnosing and troubleshooting operational and technical issues, and running or supporting root cause analysis.\n\n- Highly numerate and analytical, with strong attention to detail - reconciliation accuracy matters in this role.\n\n- Excellent communication skills, able to influence lenders, internal stakeholders and senior leadership with equal credibility.\n\n- Fluent German and English are a must.\n\n- A proactive, self-motivated approach, always working backwards from the goal to ensure effective implementation.\n\n- Strong problem-solving skills and the ability to work effectively through ambiguity and competing priorities.\n\nWHAT YOU’LL GET IN RETURN:\n\n- DeutschlandTicket\n\n- Urban Sports Club Membership M\n\n- 25 days paid vacation per year\n\n- Additional 3 days paid leave for voluntary work or further education\n\n- We invest in your professional development with a dedicated budget\n\n- Extended parental leave\n\n- 4 weeks sabbatical (after 3 years of tenure)\n\n- Mental health support through Plumm\n\n- One-time home office budget\n\nTIDEAN WAYS OF WORKING\n\nAt Tide, we champion a flexible workplace model that supports both in-person and remote work to cater to the specific needs of our different teams.\n\nWhile remote work is supported, we believe in the power of face-to-face interactions to foster team spirit and collaboration. Our offices are designed as hubs for innovation and team-building, where we encourage regular in-person gatherings to foster a strong sense of community.\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
-      "source": "greenhouse",
-      "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-31T14:41:18.312Z",
+      "scraped_at": "2026-09-01T12:16:20.998Z",
       "status": "open"
     },
     {
@@ -332,7 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-08-31T14:41:18.312Z",
+      "scraped_at": "2026-09-01T12:16:20.998Z",
       "status": "open"
     },
     {
@@ -354,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155589",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:19:36-04:00",
-      "scraped_at": "2026-08-31T14:41:10.571Z",
+      "scraped_at": "2026-09-01T12:16:11.676Z",
       "status": "open"
     },
     {
@@ -376,7 +420,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155588",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:19:11-04:00",
-      "scraped_at": "2026-08-31T14:41:10.570Z",
+      "scraped_at": "2026-09-01T12:16:11.676Z",
       "status": "open"
     },
     {
@@ -398,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155586",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:18:46-04:00",
-      "scraped_at": "2026-08-31T14:41:10.571Z",
+      "scraped_at": "2026-09-01T12:16:11.676Z",
       "status": "open"
     },
     {
@@ -420,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8143567",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:18:27-04:00",
-      "scraped_at": "2026-08-31T14:41:10.570Z",
+      "scraped_at": "2026-09-01T12:16:11.676Z",
       "status": "open"
     },
     {
@@ -442,7 +486,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6122010004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T17:24:50-04:00",
-      "scraped_at": "2026-08-31T14:41:00.815Z",
+      "scraped_at": "2026-09-01T12:16:03.711Z",
       "status": "open"
     },
     {
@@ -464,7 +508,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-08-31T14:41:18.376Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -486,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/carelock-com-behavioral-health-integration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-26T17:26:29.000Z",
-      "scraped_at": "2026-08-31T14:41:32.260Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -508,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-08-26T13:00:27-04:00",
-      "scraped_at": "2026-08-31T14:41:00.814Z",
+      "scraped_at": "2026-09-01T12:16:03.710Z",
       "status": "open"
     },
     {
@@ -530,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8138520",
       "source": "greenhouse",
       "posted_at": "2026-08-25T06:58:32-04:00",
-      "scraped_at": "2026-08-31T14:41:11.684Z",
+      "scraped_at": "2026-09-01T12:16:13.091Z",
       "status": "open"
     },
     {
@@ -552,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-08-24T08:23:58-04:00",
-      "scraped_at": "2026-08-31T14:41:11.684Z",
+      "scraped_at": "2026-09-01T12:16:13.091Z",
       "status": "open"
     },
     {
@@ -574,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8105783",
       "source": "greenhouse",
       "posted_at": "2026-08-24T04:19:41-04:00",
-      "scraped_at": "2026-08-31T14:41:10.638Z",
+      "scraped_at": "2026-09-01T12:16:11.729Z",
       "status": "open"
     },
     {
@@ -596,7 +640,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/customer-io-contract-legal-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-08-23T07:30:51.000Z",
-      "scraped_at": "2026-08-31T14:41:32.260Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -618,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-08-31T14:41:00.815Z",
+      "scraped_at": "2026-09-01T12:16:03.712Z",
       "status": "open"
     },
     {
@@ -640,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6138978004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:34:49-04:00",
-      "scraped_at": "2026-08-31T14:41:00.815Z",
+      "scraped_at": "2026-09-01T12:16:03.712Z",
       "status": "open"
     },
     {
@@ -684,7 +728,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:38:17.000Z",
-      "scraped_at": "2026-08-31T14:41:32.261Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -706,7 +750,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/pearl-product-cad-packaging-production-specialist-a341",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:37:13.000Z",
-      "scraped_at": "2026-08-31T14:41:32.260Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -728,7 +772,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
       "source": "greenhouse",
       "posted_at": "2026-08-19T08:40:20-04:00",
-      "scraped_at": "2026-08-31T14:41:10.638Z",
+      "scraped_at": "2026-09-01T12:16:11.729Z",
       "status": "open"
     },
     {
@@ -750,7 +794,7 @@
       "apply_url": "https://job-boards.greenhouse.io/eve/jobs/4341655009",
       "source": "greenhouse",
       "posted_at": "2026-08-18T19:42:23-04:00",
-      "scraped_at": "2026-08-31T14:41:10.548Z",
+      "scraped_at": "2026-09-01T12:16:11.695Z",
       "status": "open"
     },
     {
@@ -772,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-account-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-08-18T07:30:35.000Z",
-      "scraped_at": "2026-08-31T14:41:32.260Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -860,7 +904,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8082783",
       "source": "greenhouse",
       "posted_at": "2026-08-12T01:18:05-04:00",
-      "scraped_at": "2026-08-31T14:41:10.571Z",
+      "scraped_at": "2026-09-01T12:16:11.676Z",
       "status": "open"
     },
     {
@@ -882,7 +926,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-08-11T20:18:02.000Z",
-      "scraped_at": "2026-08-31T14:41:32.773Z",
+      "scraped_at": "2026-09-01T12:16:34.183Z",
       "status": "open"
     },
     {
@@ -904,29 +948,29 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-08-31T14:41:32.260Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
-      "id": "greenhouse:ifood:8521806002",
+      "id": "lever:octopus-energy:0b14cde9-0c0d-47a2-a064-799b51e372af",
       "hub": "business",
-      "title": "Threat Intelligence Specialist (Lead-Level)",
-      "company": "iFood",
-      "company_id": "ifood",
+      "title": "Chief of Staff (m/w/d)",
+      "company": "Octopus Energy",
+      "company_id": "octopus-energy",
       "priority": false,
-      "category": "Other",
-      "segment": "Food Delivery Platform",
-      "level": "Senior",
-      "location": "Remoto",
+      "category": "Executive Assistant",
+      "segment": "Energy Retailer & Tech",
+      "level": "Mid",
+      "location": "Munich (DE)",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Nosso Modo de Fazer no Time: Transforme sua carreira com o iFood! Somos uma empresa brasileira de tecnologia referência na América Latina.",
-      "description": "Nosso Modo de Fazer no Time:\n\nTransforme sua carreira com o iFood! Somos uma empresa brasileira de tecnologia referência na América Latina. Por meio de soluções inovadoras, conectamos milhares de restaurantes a milhões de consumidores diariamente com uma média de 100 milhões de pedidos mensais. Além do delivery de comida, também somos Mercado, Farmácia e Pet. Temos também o iFood Pago, nossa Fintech, que engloba o iFood Benefícios, o vale alimentação e refeição do iFood e o próprio iFood Pago, o banco do restaurante. Junte-se a nós e faça parte de uma equipe que está sempre à frente com tecnologia de ponta e inovação constante.\n\nSeu Cardápio Diário:\n\n- Atuar como especialista técnico mais sênior do time de Threat Intelligence, desenhando frameworks de coleta, metodologias de análise e práticas de inteligência que elevem a qualidade e o rigor dos produtos entregues.\n\n- Liderar investigações complexas e de longa duração sobre os atores de ameaça mais sofisticados que têm como alvo o setor de serviços financeiros.\n\n- Produzir relatórios de investigação aprofundados, expondo infraestrutura, TTPs, motivações e hipóteses de atribuição dos adversários com profundidade e nível de confiança claramente comunicados.\n\n- Desenvolver e manter uma base de conhecimento de threat actors específica do ecossistema bancário e de pagamentos, acompanhando a evolução de banking trojans, famílias de malware financeiro, ofertas de fraud-as-a-service e mercados criminosos.\n\n- Desenhar e implementar capacidades avançadas de coleta, incluindo extração de indicadores técnicos, infraestrutura customizada de scraping e pipelines de fusão de dados.\n\n- Combinar telemetria interna com inteligência de fornecedores para gerar visibilidade diferenciada sobre ameaças emergentes.\n\n- Estabelecer padrões de qualidade, processos de peer review e templates analíticos, garantindo consistência, precisão e integridade nos produtos do time.\n\n- Orientar analistas juniores em técnicas de análise estruturada e pensamento crítico.\n\n- Atuar diretamente com Incident Response e Fraud Prevention em investigações ativas, fornecendo contexto de ameaça, hipóteses de atribuição, mapeamento de infraestrutura e inteligência preditiva.\n\n- Identificar novos vetores de ataque e técnicas de fraude relevantes à stack tecnológica, às plataformas de pagamento e às aplicações voltadas aos clientes.\n\n- Conduzir a inovação em ferramentas e automações de inteligência, construindo ou customizando pipelines de processamento, enriquecimento e visualização.\n\n- Representar a capacidade de inteligência da empresa em fóruns do setor, grupos de compartilhamento e conferências técnicas, contribuindo com pesquisas originais.\n\n- Atuar como ponto de escalonamento técnico para os problemas analíticos mais desafiadores do time.\n\nIngredientes Que Buscamos:\n\n- Conhecimento especializado do cenário de ameaças financeiras, com experiência prática no acompanhamento de campanhas de banking trojans como Grandoreiro, Mekotio e Guildma, malware bancário mobile, overlay attacks e ecossistemas cibercriminosos brasileiros e latino-americanos.\n\n- Domínio avançado de técnicas de análise de inteligência, incluindo link analysis, adversary modeling, Diamond Model, acompanhamento de campanhas e métodos estruturados como ACH, SWOT e FMEA.\n\n- Conhecimento prático de fundamentos de análise de malware, com capacidade de extrair indicadores, compreender comportamentos e mapear TTPs ao MITRE ATT&CK.\n\n- Domínio de técnicas de coleta OSINT, incluindo enumeração de infraestrutura, análise de domínios e certificados, monitoramento de redes sociais, scraping de fóruns e boas práticas de segurança operacional.\n\n- Experiência com fontes de dark web e inteligência de fontes fechadas.\n\n- Proficiência em scripting e automação para processamento de inteligência, utilizando Python, PowerShell e Bash.\n\n- Experiência com TIPs, APIs de enriquecimento, data lakes e ferramentas de visualização para fusão de dados de fontes distintas.\n\n- Conhecimento sólido de telemetria de rede, hosts e fraude em pagamentos, com capacidade de identificar padrões e separar ruído de atividade relevante.\n\n- Conhecimento avançado de perfilamento e atribuição de threat actors, incluindo análise de infraestrutura, classificação de famílias de malware, indicadores linguísticos e culturais, padrões de targeting e avaliação de confiança.\n\n- Familiaridade profunda com fluxos de Incident Response e investigação de fraude.\n\n- Excelente comunicação escrita e verbal, com capacidade de produzir relatórios tecnicamente rigorosos e resumos acionáveis para públicos não técnicos.\n\n- Experiência em desenhar e ensinar práticas de inteligência a profissionais juniores.\n\nPara Realçar o Sabor:\n\n- Experiência com pesquisa de ameaças financeiras, malware bancário ou fraude digital na América Latina.\n\n- Vivência com infraestrutura de scraping customizada e pipelines de fusão de dados.\n\n- Experiência com publicação de pesquisas, participação em conferências ou contribuição para a comunidade de Threat Intelligence.\n\n- Conhecimento de STIX/TAXII, MISP, data lakes ou outras estruturas para operacionalização e compartilhamento de inteligência.\n\n- Experiência com investigação de ameaças envolvendo mobile banking malware, overlay attacks e fraud-as-a-service.\n\nBuscamos uma pessoa apaixonada por segurança cibernética, que esteja sempre em busca de novos aprendizados e que goste de desafios em um ambiente dinâmico e inovador. Se você se identifica com este perfil, adoraríamos conhecer você!",
-      "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521806002",
-      "source": "greenhouse",
-      "posted_at": "2026-08-07T11:40:30-04:00",
-      "scraped_at": "2026-08-31T14:41:20.422Z",
+      "summary": "Wir sind nicht der lokale Stromanbieter um die Ecke. Wir sind das globale EnerTech-Unternehmen, das den Energiemarkt revolutionieren wird.",
+      "description": "Wir sind nicht der lokale Stromanbieter um die Ecke. Wir sind das globale EnerTech-Unternehmen, das den Energiemarkt revolutionieren wird. Wir haben kein geringeres Ziel, als die global benötigte Energie 100% nachhaltig zu gestalten. Global, agil und zukunftsorientiert verändern wir den Energiemarkt mit neuer Technologie zum Besseren.\n \nDabei sind unsere Ökostromtarife nur die Basis. Bereits seit 2022 installieren wir Wärmepumpen-Komplettlösungen mit eigenen Fachkräften. Außerdem arbeiten wir aktiv an der flächendeckenden Einführung von Smart Metern, Elektromobilitätslösungen und der eigenen Stromerzeugung aus Wind- und Sonnenenergie.\n \nDas schaffen wir allerdings nicht alleine, sondern dazu brauchen wir dich! Werde Teil unseres Teams und fordere den Status Quo heraus. Mit Energie, die gut für den Planeten ist und gut für dein Karma. 💚  Finde jetzt deinen Traumjob und werde Teil der Energierevolution von Octopus Energy Germany.\n\nBusiness Development, Strategie, Projektmanagement – und das alles am liebsten gleichzeitig? Dann suchen wir genau dich. Als Chief of Staff (m/w/d) wirst du zur rechten Hand unserer CFO und zum Motor abteilungsübergreifender Projekte. Kein Tag wie der andere, kein Problem zu groß.\n\n- Als Chief of Staff (m/w/d) arbeitest du eng mit unserer CFO und dem gesamten Management Team zusammen. Du diskutierst und hinterfragst strategische Entscheidungen, koordinierst nachhaltige Effizienzsteigerungen und steuerst abteilungsübergreifende Projekte oder stößt diese an\n\n- Du leitest funktionsübergreifende Initiativen, um die rechtzeitige Durchführung und den erfolgreichen Abschluss von Projekten sicherzustellen. Der Schwerpunkt liegt hierbei auf Wachstum, Skalierung und Innovation\n\n- Als Bindeglied zwischen Mitarbeiter*innen und Führungskräften hast du immer ein offenes Ohr. Über alle Teams und Hierarchie-Ebenen hinweg sorgst du mit direkter Kommunikation und einem regelmäßigen Austausch für ein produktives Arbeitsklima\n\n- Zusammen mit unseren leitenden Angestellten behältst du die KPIs im Blick, um das Erreichen der Unternehmensziele sicherzustellen\n\n- Arbeite funktionsübergreifend über unsere Business Units hinweg um Herausforderungen zu identifizieren, Lösungsansätze zu formulieren und Veränderungen voranzutreiben\n\n- Du unterstützt bei einer Vielzahl an Themen, einschließlich End-to-End Projektmanagement, für unsere wichtigsten Geschäftsprioritäten. Du bist für strategische Schlüsselprojekte verantwortlich und hilfst dabei, die Gesamtstrategie des Unternehmens zu definieren\n\n- Dein wirtschaftswissenschaftliches Studium oder eine vergleichbare Ausbildung bilden die Basis deiner fachlichen Kompetenz\n\n- Du hast mehrjährige Berufserfahrung (idealerweise als Chief of Staff) sowie fundierte Fachkenntnisse im Business Development oder in der Strategieentwicklung\n\n- Du besitzt StartUp-Mentalität, fühlst dich in der dazugehörigen Arbeitsweise wohl und bist durch ein agiles und dynamisches Arbeitsumfeld beflügelt\n\n- Neben deiner hohen Durchsetzungs- und Umsetzungsfähigkeit, verfolgst du einen proaktiven wie strukturierten Arbeitsansatz\n\n- Du hast ein ausgeprägtes Organisationstalent, starke Führungsqualitäten und die Fähigkeit, Teams zu inspirieren\n\n- Neben ausgeprägtem analytischem und konzeptionellem Denkvermögen, zeichnen dich zudem deine hohe Kommunikationsfähigkeit sowie dein gesunder Pragmatismus aus\n\n- Du hast Erfahrung in der Analyse von komplexen Themengebieten und in der Erstellung von Entscheidungsvorlagen für das Management\n\n- Du verfügst über ausgezeichnete kommunikative und zwischenmenschliche Fähigkeiten sowie dem außergewöhnlichen Geschick, mit divergierenden Interessen der Stakeholder*innen umzugehen\n\n- Du bringst Flexibilität und Reisebereitschaft mit und bist bereit Projekte in München, Berlin oder einem unserer anderen Standorte umzusetzen\n\n- Du bringst fließende Deutsch- und Englischkenntnisse mit",
+      "apply_url": "https://jobs.lever.co/octoenergy/0b14cde9-0c0d-47a2-a064-799b51e372af",
+      "source": "lever",
+      "posted_at": "2026-08-06T13:57:16.813Z",
+      "scraped_at": "2026-09-01T12:16:22.507Z",
       "status": "open"
     },
     {
@@ -948,7 +992,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-08-31T14:41:18.376Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -970,7 +1014,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-content-creator-video-producer",
       "source": "We Work Remotely",
       "posted_at": "2026-08-04T22:47:08.000Z",
-      "scraped_at": "2026-08-31T14:41:32.261Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -992,7 +1036,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/88d09213-d4fe-4c85-92ce-954901559d92",
       "source": "lever",
       "posted_at": "2026-08-04T14:32:11.323Z",
-      "scraped_at": "2026-08-31T14:41:18.376Z",
+      "scraped_at": "2026-09-01T12:16:22.509Z",
       "status": "open"
     },
     {
@@ -1014,7 +1058,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/the-humane-league-temporary-us-corporate-relations-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-03T17:34:26.000Z",
-      "scraped_at": "2026-08-31T14:41:32.261Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -1036,7 +1080,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-08-02T20:00:46.000Z",
-      "scraped_at": "2026-08-31T14:41:32.773Z",
+      "scraped_at": "2026-09-01T12:16:34.183Z",
       "status": "open"
     },
     {
@@ -1058,7 +1102,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-08-31T14:41:32.261Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -1080,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1102,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4cc16c3e-f07c-435a-9f16-f162400ee703",
       "source": "lever",
       "posted_at": "2026-07-21T08:48:59.916Z",
-      "scraped_at": "2026-08-31T14:41:18.376Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1124,7 +1168,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8545100002",
       "source": "greenhouse",
       "posted_at": "2026-07-16T07:52:07-04:00",
-      "scraped_at": "2026-08-31T14:41:20.421Z",
+      "scraped_at": "2026-09-01T12:16:23.951Z",
       "status": "open"
     },
     {
@@ -1146,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/2c549930-f851-4077-9fef-8f4291ee7649",
       "source": "lever",
       "posted_at": "2026-07-07T12:09:13.992Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1168,7 +1212,29 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
+      "status": "open"
+    },
+    {
+      "id": "lever:octopus-energy:1ec2d65d-c382-46d9-a0e6-4e82af26b3ed",
+      "hub": "business",
+      "title": "Sales Specialist B2C (Valencia)",
+      "company": "Octopus Energy",
+      "company_id": "octopus-energy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Energy Retailer & Tech",
+      "level": "Mid",
+      "location": "Valencia (ES)",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "🌍 Revolucionamos la energía para cambiar el mundo En Octopus Energy, no somos una eléctrica tradicional.",
+      "description": "🌍 Revolucionamos la energía para cambiar el mundo\n\nEn Octopus Energy, no somos una eléctrica tradicional. Somos un equipo de personas apasionadas que trabaja cada día para hacer que la energía sea 100% renovable, accesible y justa para todos.\n\nCreemos en la tecnología y la innovación como motores del cambio. Queremos transformar la forma en que el mundo consume energía, eliminando barreras, simplificando procesos y ofreciendo un servicio más humano y transparente.\n\nPor esto mismo, nuestro compromiso es claro: la energía limpia debe ser la norma, no la excepción. Para lograrlo, combinamos sostenibilidad con un enfoque centrado en las personas, impulsando un servicio excepcional y construyendo un equipo increíble que comparte nuestra visión.\n\n💡 Pero nada de esto sería posible sin personas como tú. Para seguir creciendo y transformando el mercado, buscamos talento con ganas de marcar la diferencia. Si quieres formar parte de este cambio, aportar tu energía y ayudar a construir un futuro más verde.\n\n¿Qué estamos buscando?\n \nBuscamos un/a Técnico/a de Ventas para incorporarse a nuestro equipo de Valencia y contribuir activamente a nuestra misión de seguir revolucionando el sector energético. La persona seleccionada tendrá un papel clave en la comercialización de soluciones energéticas sostenibles, especialmente en el ámbito de la fotovoltaica u otras tecnologías afines.\n \nSi cuentas con experiencia en ventas técnicas, te motiva trabajar en un entorno dinámico, innovador y en constante crecimiento, y además sientes una verdadera pasión por la sostenibilidad y las energías renovables, queremos conocerte. Esta es una excelente oportunidad para desarrollarte profesionalmente y formar parte de un proyecto con impacto real en la transición energética.\n \n🐙 Lo llamamos el ‘Efecto Octopus’\n \nTrabajar en Octopus Energy significa formar parte de una compañía donde la cultura y las personas son lo más importante.\n \n💜 Apostamos por la flexibilidad y la conciliación. \n🚀 Queremos que desarrolles tu potencial al máximo. \n🌱 Creemos en un modelo energético más justo y sostenible.\n \n¡Te estamos esperando! 🚀🐙\n\n- Prospección y captación de nuevos clientes que hayan mostrado interés por las energías renovables, paneles solares, cargadores de vehículos eléctricos y/o aerotermia.\n\n- Promoción de nuevos productos.\n\n- Mantenimiento y seguimiento de clientes.\n\n- Involucrar a los clientes en la oferta y los beneficios de la energía solar.\n\n- Cierre de venta y recopilación de documentación para la gestión de la venta.\n\n- Identificar nuevas oportunidades (Canales, comunidades, noticias, RRSS…).\n\n- Generación de reporting y métricas y KPI´s para tener una mejora continua.\n\n- Optimización y creación de nuevas estrategias de ventas.\n\n- Al menos 1 año de experiencia en ventas y asesoramiento telefónico.\n\n- Un enfoque hacia atención al cliente.\n\n- Capacidad para adaptarse a los cambios y trabajar en un equipo dinámico.\n\nSe valorará positivamente:\n\n- Experiencia en ventas relacionada con el sector energético, especialmente en el sector de energías renovables en España.\n\n- Conocimiento en energías renovables.\n\n- Experiencia en el sector de energía.\n\n- Nivel de inglés avanzado.\n\n- 📍 Ubicación: Valencia\n\n- ⏳ Horario: 40h semanales - Jornada Completa\n\n📈 Beneficios extra:\n\n- 💰 Share options de Octopus Energy\n\n- ☕ Desayuno y fruta en la oficina\n\n- 🏥 Retribución flexible (comida, transporte, guardería, seguro médico...)\n\n- 🚘 Ayudas para la compra de vehículos eléctricos\n\n- 🏦 Plan de pensiones\n\n- 🎓 Formación en producto y desarrollo profesional\n\n- 🎉 Ambiente dinámico, cercano y divertido\n\n- 🍽️ Eventos: Family Dinner y muchas más experiencias en equipo\n\n- En Octopus Energy, hacemos las cosas diferentes. Creemos en un entorno laboral donde puedas ser tú mismo/a, desarrollarte profesionalmente y sentirte parte de un equipo que realmente quiere cambiar el mundo.\n\n- 🏆 ¡Somos un Great Place to Work! En Glassdoor, hemos sido reconocidos como una de las 50 mejores empresas para trabajar y nuestra cultura ha sido destacada en múltiples ocasiones.\n\n- 🎙️ Si quieres conocer más sobre cómo trabajamos, escucha a nuestro CEO en este podcast sobre nuestra cultura y valores.",
+      "apply_url": "https://jobs.lever.co/octoenergy/1ec2d65d-c382-46d9-a0e6-4e82af26b3ed",
+      "source": "lever",
+      "posted_at": "2026-06-22T14:00:51.567Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1190,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.507Z",
       "status": "open"
     },
     {
@@ -1212,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/221e6a7a-4e02-4dd4-83d7-babe5361f21a",
       "source": "lever",
       "posted_at": "2026-06-12T10:36:34.244Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.507Z",
       "status": "open"
     },
     {
@@ -1230,11 +1296,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "OEGen is a specialist energy investment manager overseeing more than £8 billion of assets under management.",
-      "description": "OEGen is a specialist energy investment manager overseeing more than £8 billion of assets under management. Our mission is to accelerate the transition to a net zero energy system by investing in clean energy infrastructure and energy transition businesses across multiple jurisdictions.\nAs our international portfolio continues to grow, we are looking to strengthen our in-house tax capability with the addition of a commercially minded tax professional who is keen to develop within a fast-paced investment environment.\nThe Role\nWe are looking for a Tax Assistant Manager (or emerging Tax Manager) to join the OEGen Tax Team, reporting directly to the Funds & Deals Tax Lead.\nThis is an excellent opportunity for someone with around 4–5 years’ experience who is looking to step into a broader international role and continue developing their technical, commercial, and project management skills within a growing infrastructure investment platform.\nThe role will support a portfolio of OEGen funds and associated holding structures across multiple jurisdictions. You will work closely with investment teams, finance teams, portfolio companies, and external advisors on a wide range of tax matters, including compliance oversight, reporting, transactions, and structuring support.\nThe position offers broad exposure to international investment structures and cross-border transactions, while working as part of a collaborative and hands-on in-house tax team.\n\n- Support the management of tax matters across OEGen funds and associated holding structures.\n\n- Coordinate international tax compliance processes with local advisors across multiple jurisdictions.\n\n- Assist with tax reporting, tax provisioning, and financial statement disclosures.\n\n- Support tax workstreams on acquisitions, restructurings, refinancings, and other transactions.\n\n- Review transaction and financing documentation from a tax perspective, with support from senior team members where needed.\n\n- Monitor tax risks and support ongoing governance and compliance processes.\n\n- Work closely with investment, finance, legal, and external advisory teams across the business.\n\n- Contribute to the continuous improvement of internal tax processes and documentation.\n\n- Around 4–5 years’ experience in corporate tax.\n\n- CTA, ACA, or equivalent qualification (or close to qualification).\n\n- Experience gained in a Big 4 firm, international advisory firm, law firm, or in-house tax team.\n\n- Good grounding in tax compliance, reporting, and tax accounting.\n\n- Exposure to cross-border structures or international tax matters is helpful, but deep expertise is not expected.\n\n- An interest in infrastructure, energy, or investment management is a plus.\n\n- Foreign language skills (particularly German, French, Spanish, or Italian) would be beneficial but are not required.\n\n- Most importantly, we are looking for someone with strong reasoning skills, good commercial awareness, and a willingness to learn. This role would suit someone looking to grow into a broader international tax management role over time, working closely with experienced senior stakeholders in a supportive and collaborative environment.",
+      "description": "OEGen is a specialist energy investment manager overseeing more than £8 billion of assets under management. Our mission is to accelerate the transition to a net zero energy system by investing in clean energy infrastructure and energy transition businesses across multiple jurisdictions.\nAs our international portfolio continues to grow, we are looking to strengthen our in-house tax capability with the addition of a commercially minded tax professional who is keen to develop within a fast-paced investment environment.\n\nThe Role\n\nWe are looking for a Tax Assistant Manager / emerging Tax Manager to join the OEGen Tax Team, reporting directly to the Funds & Deals Tax Lead. The successful candidate will join the tax function at Sky Generation, the UK clean energy infrastructure platform of the Sky Fund, which owns and manages a number of international operating platforms. These businesses are active across Europe and beyond, developing, investing in and managing renewable energy and broader energy transition assets.\nThis is a strong opportunity for someone with around 4–5 years’ experience who is looking to step into a broader international role and continue developing their technical, commercial and project management capabilities within a growing infrastructure investment environment.\n\nThe role will support the Sky Fund’s portfolio and associated holding structures across multiple jurisdictions. You will work closely with investment teams, finance teams, portfolio companies and external advisers on a broad range of tax matters, including tax compliance oversight, reporting, transactions, structuring and ongoing portfolio support.\nThe position offers wide exposure to international investment structures, cross-border transactions and the full lifecycle of infrastructure investments, while working within a collaborative, hands-on and growing in-house tax team.\n\n- Support the management of tax matters across OEGen funds and associated holding structures.\n\n- Coordinate international tax compliance processes with local advisors across multiple jurisdictions.\n\n- Assist with tax reporting, tax provisioning, and financial statement disclosures.\n\n- Support tax workstreams on acquisitions, restructurings, refinancings, and other transactions.\n\n- Review transaction and financing documentation from a tax perspective, with support from senior team members where needed.\n\n- Monitor tax risks and support ongoing governance and compliance processes.\n\n- Work closely with investment, finance, legal, and external advisory teams across the business.\n\n- Contribute to the continuous improvement of internal tax processes and documentation.\n\n- Around 4–5 years’ experience in corporate tax.\n\n- CTA, ACA, or equivalent qualification (or close to qualification).\n\n- Experience gained in a Big 4 firm, international advisory firm, law firm, or in-house tax team.\n\n- Good grounding in tax compliance, reporting, and tax accounting.\n\n- Exposure to cross-border structures or international tax matters is helpful, but deep expertise is not expected.\n\n- An interest in infrastructure, energy, or investment management is a plus.\n\n- Foreign language skills (particularly German, French, Spanish, or Italian) would be beneficial but are not required.\n\n- Most importantly, we are looking for someone with strong reasoning skills, good commercial awareness, and a willingness to learn. This role would suit someone looking to grow into a broader international tax management role over time, working closely with experienced senior stakeholders in a supportive and collaborative environment.",
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-08-31T14:41:18.376Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1256,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1278,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1300,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-08-31T14:41:18.376Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1322,7 +1388,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-08-31T14:41:32.261Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -1344,7 +1410,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-08-31T14:41:32.261Z",
+      "scraped_at": "2026-09-01T12:16:33.692Z",
       "status": "open"
     },
     {
@@ -1366,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1388,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-08-31T14:41:18.376Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1410,7 +1476,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-08-31T14:41:18.375Z",
+      "scraped_at": "2026-09-01T12:16:22.508Z",
       "status": "open"
     },
     {
@@ -1432,7 +1498,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-08-31T14:41:15.466Z",
+      "scraped_at": "2026-09-01T12:16:15.697Z",
       "status": "open"
     },
     {
@@ -1454,7 +1520,7 @@
       "apply_url": "https://jobs.lever.co/webfx/a8e8ff2a-a53f-4770-b2ea-b3df91d4d175",
       "source": "lever",
       "posted_at": "2020-03-11T18:25:55.023Z",
-      "scraped_at": "2026-08-31T14:41:29.428Z",
+      "scraped_at": "2026-09-01T12:16:31.569Z",
       "status": "open"
     },
     {
@@ -1476,7 +1542,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:00.761Z",
+      "scraped_at": "2026-09-01T12:16:03.731Z",
       "status": "open"
     },
     {
@@ -1498,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Santiago/Customer-Training-Specialist_REQ-5042",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.516Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1520,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Payroll-Specialist--EMEA_REQ-5254",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1542,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1564,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Support-Specialist--APAC_REQ-5338",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1586,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1608,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Support-Specialist--New-Grads-_REQ-5019",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1630,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1652,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Onboarding-Specialist_REQ-5252",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1674,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1696,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1718,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1740,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Talent-Sourcer_REQ-4291",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1762,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Senior-IT-Specialist_BF-REQ-4111",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1784,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1806,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/London/Assistant-Editor_REQ-4387",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1828,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1850,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/People-Systems---Analytics-Specialist--Workday-_REQ-4449",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1872,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Sales-Operations-Specialist_REQ-4510",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1894,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1916,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Global-Benefits---Leaves-Specialist_REQ-4569",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1938,7 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-IT-Specialist_REQ-4964",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1960,7 +2026,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -1982,7 +2048,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist_REQ-4441",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -2004,7 +2070,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Systems-Specialist--FP-A_BF-REQ-3834",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -2026,7 +2092,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -2048,7 +2114,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Customer-Training-Specialist_REQ-5239-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -2070,7 +2136,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/Workplace-Experience-Specialist_REQ-4507",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -2092,7 +2158,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -2114,7 +2180,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     },
     {
@@ -2136,73 +2202,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4919",
-      "hub": "legal",
-      "title": "Junior Renewals Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Entry",
-      "location": "Santiago",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Junior Renewals Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Santiago/Account-Management_REQ-4919",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4902",
-      "hub": "legal",
-      "title": "Customer Support Specialist (Spanish Speaking)",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Dublin",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Customer Support Specialist (Spanish Speaking) at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Support-Specialist--EMEA_REQ-4902",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4307",
-      "hub": "legal",
-      "title": "Talent Acquisition Specialist, EMEA: 1 Year Fixed Term Contract",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Dublin",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Talent Acquisition Specialist, EMEA: 1 Year Fixed Term Contract at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Talent-Acquisition-Specialist--EMEA--1-Year-Fixed-Term-Contract_REQ-4307",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-08-31T14:41:07.517Z",
+      "scraped_at": "2026-09-01T12:16:10.430Z",
       "status": "open"
     }
   ]
