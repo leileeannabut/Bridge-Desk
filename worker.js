@@ -66,6 +66,16 @@ function makeRef(prefix) {
   return `${prefix}-${s}`;
 }
 
+/** "Maria Santos Dela Cruz" -> "Maria S." — first name plus one initial,
+ *  used only in the pre-payment teaser. Never applied anywhere a paying
+ *  employer's admin console or a candidate's own view would see the name. */
+function maskCandidateName(fullName) {
+  const parts = String(fullName || '').trim().split(/\s+/).filter(Boolean);
+  if (!parts.length) return 'A candidate';
+  if (parts.length === 1) return parts[0];
+  return `${parts[0]} ${parts[1][0].toUpperCase()}.`;
+}
+
 /* ==========================================================================
    ADMIN AUTH
    Same pattern throughout: header first (never appears in browser history),
@@ -345,11 +355,43 @@ async function employerIntake(request, env) {
   ).run();
 
   const paymentUrl = env.WISE_LINK || 'https://wise.com/pay/business/bridgedesk';
+
+  // Teaser preview — a redacted look at the top-matching candidates, shown
+  // to the employer before they pay. Full name, email, phone, and resume
+  // stay hidden until the deposit is in; this is a taste of fit, not an
+  // introduction. Computed live from the current pool, not persisted to the
+  // `matches` table — that table is the admin's official run, kept separate
+  // so a teaser preview never masquerades as a real match record.
+  let previewMatches = [];
+  try {
+    const pool = await env.DB.prepare(
+      "select * from pool_candidates where status != 'placed' order by created_at desc limit 300"
+    ).all();
+    const fakeEmployer = { roles_needed: rolesNeeded, budget_range: clean(body.budget_range, 120) };
+    previewMatches = (pool.results || [])
+      .map((c) => ({ candidate: c, ...scoreCandidate(c, fakeEmployer) }))
+      .filter((s) => s.score >= 40) // category-fit floor — don't tease a non-match
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 3)
+      .map((s) => ({
+        score: s.score,
+        category: s.candidate.category,
+        years_experience: s.candidate.years_experience,
+        rate_expectation: s.candidate.rate_expectation,
+        timezone_overlap: s.candidate.timezone_overlap,
+        english_level: s.candidate.english_level,
+        // First name + last-initial only — enough to feel real, not enough to
+        // find or contact them directly before paying.
+        display_name: maskCandidateName(s.candidate.name),
+      }));
+  } catch { /* teaser is best-effort — a DB hiccup here should never block the intake itself */ }
+
   return json({
     ok: true,
     ref,
     tier,
     payment_url: paymentUrl,
+    preview_matches: previewMatches,
     message: tier === 'team'
       ? "Team request received — we'll contact you via email with next steps. Send the placement deposit below to begin sourcing your team."
       : "Request received — we'll contact you via email with next steps. Send the placement deposit below and we will start matching candidates right away.",
