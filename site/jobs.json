@@ -1,10 +1,186 @@
 {
-  "generated_at": "2026-09-03T11:52:51.327Z",
+  "generated_at": "2026-09-04T11:55:53.976Z",
   "count": 100,
-  "total_open": 131,
+  "total_open": 136,
   "sources_ok": 54,
   "sources_failed": 20,
   "jobs": [
+    {
+      "id": "greenhouse:tide-uk:6234225003",
+      "hub": "fintech",
+      "title": "Customer Support Associate - L2",
+      "company": "Tide",
+      "company_id": "tide-uk",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Business Banking",
+      "level": "Entry",
+      "location": "India, Hyderabad",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensiv…",
+      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members: 900,000 UK and 1,100,000 in India and growing rapidly\n\n- Over $300 million raised in funding\n\n- Over 2,800 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE TEAM\n\nAs a Customer Support Associate, you will be helping businesses all across the UK to become success stories. You’ll love talking to people and have an empathetic and proactive nature along with a passion for solving member issues. You will play a crucial part in helping Tide expand by providing round-the-clock support every day of the year. As part of the Customer Support team, you will build on the relationship with members who use our products to grow their business further. You will gain valuable insight into their needs as well as recognize opportunities.\n\nABOUT THE ROLE\n\n- Juggling priorities to ensure that members get a level 2 support experience - means time is of the essence, and detailed product knowledge is vital.\n\n- Spotting and noting patterns is second nature to you, and you’re always ready to highlight areas that can be improved in terms of product or member experience.\n\n- Getting to grips with brand new features which will streamline payment processing for members and their clients.\n\n- Delivering valuable feedback to Product and Operations Managers on a consistent basis.\n\n- Exploring data and aiding with reporting to track the performance of products and services.\n\n- Helping demonstrate your values to new team members, supporting them with your wisdom and experience, and assisting with everyday back-office tasks.\n\n- Being ready to assist all Level 1 colleagues when they have queries\n\nWHAT MAKES YOU A GREAT FIT\n\n- You have exceptional spoken and written English skills.\n\n- You are comfortable using industry tools like ticketing CRMs, GSuite, Jira, and Excel.\n\n- You are confident talking with our members (over all channels - phone, chat, email) to help them get the most from their business current accounts and products and suggest others that they might benefit from.\n\n- You enjoy finding innovative ways to solve complex problems.\n\n- You are always on the lookout for recurring issues and help create new workflows to solve them.\n\n- You have excellent organisational skills and take responsibility for your workload.\n\n- You have experience working in Customer Service for the finance industry.\n\n- You have some experience working in startups/scaleups.\n\nWHAT YOU'LL GET IN RETURN\n\n- Self & Family Health Insurance\n\n- Term & Life Insurance\n\n- OPD Benefits\n\n- Mental wellbeing through Plumm\n\n- Learning & Development Budget\n\n- WFH Setup allowance\n\n- Family & Friendly Leaves\n\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
+      "apply_url": "https://job-boards.greenhouse.io/tide/jobs/6234225003",
+      "source": "greenhouse",
+      "posted_at": "2026-09-04T06:01:37-04:00",
+      "scraped_at": "2026-09-04T11:55:39.238Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:150148",
+      "hub": "business",
+      "title": "Helpdesk Support Agent",
+      "company": "LevelUp",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Company Overview LevelUp is a specialist agency that provides outsourcing solutions to agencies, software vendors, and website owners.",
+      "description": "Company Overview\nLevelUp is a specialist agency that provides outsourcing solutions to agencies, software vendors, and website owners. For over seven years, we have successfully collaborated with a variety of companies, providing valuable technical, operational, and back-office support. We boast a large team of skilled and passionate professionals who are committed to delivering high-quality work for our clients.\n \nPosition Overview\nThe Helpdesk Support Agent serves as the primary line of internal support, responsible for troubleshooting business applications, managing user access, and ensuring smooth sales operations via live chat platforms like Slack and Zendesk. Essential to this role is proven, extensive experience with Salesforce and NetSuite, alongside 2–3 years of live chat customer service experience to resolve issues, document workflows, and escalate complex tickets to specialized engineering and business teams. promptly and efficiently.\n \nReference: 2631-407585\nResponsibilities\n\n- Provide guidance and troubleshooting support to internal teams on business applications usage.\n\n- Manage system access requests and resolve issues via Slack, Zendesk, and admin tools.\n\n- Escalate complex issues to relevant departments, such as Product Management, Order to Cash, Deal Desk, and Systems Engineering.\n\n- Document and tag interactions to support process improvement and reporting.\n\n- Collaborate with internal teams to ensure a seamless support experience.\n\n- Stay updated with system changes and best practices through training and ongoing learning.\n\nRequirements (Must-haves)\n\n- Critical Requirement: Proven experience working extensively within Salesforce and NetSuite is essential for this role.\n\n- 2-3 years of live chat customer service experience\n\n- Familiarity with sales processes and business applications.\n\n- Proficiency with Zendesk, Slack, and admin tools for troubleshooting and issue resolution.\n\n- Strong analytical and problem-solving skills.\n\n- Excellent written and verbal communication abilities.\n\n- Ability to prioritize tasks and handle multiple issues efficiently.\n\n- Experience in documenting and tagging support interactions for reporting and process optimization.\n\n \nNice-to-haves\n\n- Data & Analysis: Experience with SQL and/or BigQuery to support reporting, data\n\n- Experience working in a SaaS, technology, or sales-driven environment.\n\n- Familiarity with CRMs and order management systems.\n\n- Familiarity with Jira for issue tracking and workflow management.\n\n- Previous experience in an internal IT or business applications support role.\n\n- Typing speed of at least 60 words per minute (WPM)\n\n \n\nMore Information:\n\n- This is a fully remote position with a standard 40-hour fixed-schedule work week.\n\n- This is shifting schedule. The exact work schedule depends on the client that you are assigned to but is often an afternoon or night schedule and so having flexibility when it comes to schedule is important.\n\n- We have a company culture that focuses on the well-being of its team members, with a good work life balance and respectful work environment.\n\n- This role follows the US Central Time\n\n- Equipment provided\n\n- HMO + 13th month pay",
+      "apply_url": "https://jobicy.com/jobs/150148-helpdesk-support-agent",
+      "source": "Jobicy",
+      "posted_at": "2026-09-04T05:20:10.000Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152471",
+      "hub": "business",
+      "title": "Tier 1 Business Support Specialist",
+      "company": "LevelUp",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Company Overview LevelUp is a specialist agency that provides outsourcing solutions to agencies, software vendors, and website owners.",
+      "description": "Company Overview\n\nLevelUp is a specialist agency that provides outsourcing solutions to agencies, software vendors, and website owners. For over seven years, we have successfully collaborated with a variety of companies, providing valuable technical, operational, and back-office support. We boast a large team of skilled and passionate professionals who are committed to delivering high-quality work for our clients.\n\nPosition Overview\n\nWe are seeking a Tier-1 Business Systems Support Specialist with hands-on administrator experience in both Salesforce and NetSuite. In this role, you will serve as the primary internal systems expert—going beyond basic data entry or end-user support to actively troubleshoot system configurations, manage user permissions, and resolve complex application workflows. Communicating live via Slack and Zendesk, you will keep sales and business operations running smoothly while bridging the gap between frontline teams and engineering.\n\nReference: 2631-407585\n\nResponsibilities\n\n- Admin-Level Systems Support: Act as the internal admin to troubleshoot, configure, and resolve functional issues within Salesforce and NetSuite.\n\n- Access & Permission Management: Manage user roles, access requests, profile permissions, and security controls across business applications.\n\n- Live Operations Support: Provide rapid technical troubleshooting to internal sales and operations teams via Slack, Zendesk, and administrative toolsets.\n\n- Cross-Functional Escalation: Efficiently diagnose and route high-level technical bugs and system dependencies to Product Management, Systems Engineering, Deal Desk, and Order-to-Cash teams.\n\n- Documentation & Process Optimization: Maintain clear administrative workflows, update system documentation, and tag support interactions to identify recurring issues.\n\nRequirements (Must-haves)\n\n- Salesforce & NetSuite Admin Experience: Hands-on experience troubleshooting, configuring, and maintaining both Salesforce and NetSuite as an admin (not just as a daily end-user).\n\n- 2–3 Years Technical Customer Support: Proven track record supporting users in real-time via live chat (Slack, Zendesk, or similar platforms).\n\n- Deep Business Application Knowledge: Strong understanding of sales processes, CRM architecture, and order-to-cash workflows within ERP systems.\n\n- Problem-Solving Skills: Demonstrated ability to trace workflow errors, diagnose application logs, and resolve user access conflicts promptly.\n\n- Communication: Exceptional written and verbal English skills to translate complex technical fixes to non-technical teams.\n\nNice-to-haves\n\n- Hands-on experience with SQL, BigQuery, or data reporting tools.\n\n- Familiarity with Jira for issue tracking, escalation, and ticket management.\n\n- Technical experience within a SaaS, technology, or high-volume sales environment\n\nMore Information:\n\n- This is a fully remote position with a standard 40-hour fixed-schedule work week.\n\n- This is shifting schedule. The exact work schedule depends on the client that you are assigned to but is often an afternoon or night schedule and so having flexibility when it comes to schedule is important.\n\n- We have a company culture that focuses on the well-being of its team members, with a good work life balance and respectful work environment.\n\n- This role follows the US Central Time\n\n- Equipment provided\n\n- HMO + 13th month pay\n\nCompensation\n\nAdditional Information",
+      "apply_url": "https://jobicy.com/jobs/152471-tier-1-business-support-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-09-03T18:58:22.000Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152460",
+      "hub": "business",
+      "title": "L1 Hosting Tech Support Agent",
+      "company": "LevelUp",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": 35000,
+      "comp_max": 40000,
+      "summary": "Company Overview LevelUp is a specialist agency providing outsourcing solutions to agencies, software vendors, and website owners.",
+      "description": "Company Overview\n\nLevelUp is a specialist agency providing outsourcing solutions to agencies, software vendors, and website owners. For over seven years, we have successfully collaborated with various companies, delivering valuable technical, operational, and back-office support. We boast a large team of skilled and passionate professionals committed to producing high-quality work for our clients.\n\nPosition Overview\n\nWe are seeking a highly motivated, detail-oriented L1 Hosting Tech Support Agent to join our team. In this critical, frontline, customer-facing role, you will serve as the primary point of contact for clients seeking technical assistance with their hosting environments and WordPress websites.\n\nLeveraging your passion for customer service and solid foundational knowledge of web hosting, you will troubleshoot and resolve a broad spectrum of technical issues via live chat and ticket-based support. Since stellar client experiences are highly valued, you will be expected to multitask efficiently by managing two to three concurrent live chat channels during busy periods while maintaining excellent response times, a high-quality assurance (QA) score, and top-tier Customer Satisfaction (CSAT).\n\nThis is a full-time, long-term opportunity embedded in an active, supportive team. If you thrive in fast-paced environments, love solving technical puzzles, and enjoy delivering empathetic, world-class customer service, we would love to have you on board! This fully remote position requires working a fixed mid-shift or night-shift Monday through Friday with no schedule flexibility, observing standard Philippine holidays.\n\nReference: 2634-323775\n\nResponsibilities\n\n- Provide world-class technical support to hosting customers via live chat (managing 2 concurrent chats, scaling up to 3 during high-volume periods) and ticket-based support via Zendesk.\n\n- Diagnose and resolve common web hosting and WordPress issues, identifying root causes to solve customer inquiries on the first contact whenever possible.\n\n- Assist customers with general WordPress tasks, including troubleshooting issues related to core files, plugins, themes, and configuration errors.\n\n- Answer server-side queries, inspect DNS records, check and update SSL certificates, and troubleshoot website accessibility issues.\n\n- Handle basic database queries and migrations (MySQL) to resolve backend errors and facilitate site movement.\n\n- Utilize basic Linux command-line tools to diagnose, navigate, and troubleshoot server-side issues.\n\n- Meticulously document issues and escalate complex, tier-2 technical problems to senior teams to ensure service continuity.\n\n- Actively meet and exceed key performance indicators (KPIs) such as Customer Satisfaction (CSAT), Average Handling Time (AHT), QA scores, Acceptance Rate, and Average Customer Wait Time.\n\n- Maintain an active, highly responsive online presence via Slack and Zendesk during your entire shift.\n\nRequirements\n\n- 1 to 2 years of solid technical support experience specifically working in a web hosting environment.\n\n- Basic to intermediate knowledge of WordPress, with a demonstrated ability to identify and troubleshoot plugin, theme, and configuration conflicts.\n\n- Proven experience with FTP/SFTP, cPanel, or custom web hosting dashboards.\n\n- Strong understanding of DNS zone files (A records, CNAME, TXT) and SSL setup.\n\n- Basic knowledge of HTTP response status codes (e.g., 500, 404, 403, 502, 504).\n\n- Experience with MySQL databases, including running simple queries or basic site migrations.\n\n- Excellent multitasking capabilities, specifically the capacity to handle 2 to 3 concurrent live chat windows smoothly and accurately.\n\n- Outstanding written and verbal English communication skills, with a conversational, natural flow and minimal grammatical errors.\n\n- A warm, empathetic customer support style that prioritizes active listening, rapport-building, and customer advocacy.\n\n- Practical experience navigating files and running basic diagnostic commands via Linux CLI.\n\n- A bachelor's degree in information technology, Computer Science, or a related field is preferred (nice-to-have), but equivalent hands-on experience will be highly considered.\n\nMore Information\n\n- This is a fully remote position with a standard 40-hour fixed-schedule work week.\n\n- The exact work schedule depends on the client that you are assigned to but is often an afternoon or night schedule and so having flexibility when it comes to schedule is important.\n\n- We have a company culture that focuses on the well-being of its team members, with a good work life balance and respectful work environment.\n\n- Equipment provided\n\n- HMO + 13th month pay and other government-mandated benefits\n\nCompensation\n\nAdditional Information",
+      "apply_url": "https://jobicy.com/jobs/152460-l1-hosting-tech-support-agent",
+      "source": "Jobicy",
+      "posted_at": "2026-09-03T18:54:49.000Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152457",
+      "hub": "business",
+      "title": "Customer Support Representative (Night Shift, Weekdays)",
+      "company": "Nextiva",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Ukraine",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Redefine the future of customer experiences. One conversation at a time. At Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collab…",
+      "description": "Redefine the future of customer experiences. One conversation at a time.\n\nAt Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collaboration on a single, conversation centric platform. Powered by AI, driven by human innovation.\n\nOur culture is forward thinking, customer obsessed and built on the belief that meaningful connections drive better business outcomes. Whether it’s through our signature Amazing Service®, the technology we create, or the experiences we cultivate, connection is at the core of who we are.\n\nIf you’re ready to collaborate with incredible people, make an impact, and help businesses everywhere deliver truly amazing experiences, this is where you belong.\n\nHow You’ll Make an Impact\n\nAs a Technical Support Representative at Nextiva, you’ll be on the front lines of delivering exceptional customer experiences. You’re not just solving issues, you’re uncovering the “why,” guiding customers to the right solutions, and making their day easier.\n\nAs a Technical Support Representative, you will deliver Amazing Service® through high-quality technical support services by processing and resolving requests received across various communication channels; while continuously growing your skills in a fast-paced, learning environment. You’ll leverage modern tools, including AI, to work smarter, move faster, and deliver even better outcomes for customers.\n\nWhat You’ll Do\n\n- Solve What Matters: Troubleshoot customer issues across hardware, software, and networking systems, quickly identifying root causes and driving resolution\n\n- Deliver Great Experiences: Communicate clearly and professionally to ensure every interaction is positive and productive\n\n- Stay on the Details: Document customer interactions, issues, and resolutions with accuracy and consistency\n\n- Keep Systems Running: Provide, maintain, and update systems to ensure optimal performance for customers; managing multiple requests simultaneously in a fast-paced, high-volume environment\n\n- Own the Outcome: Take full ownership of customer issues, following through until resolution while meeting daily and monthly performance metrics\n\n- Continuous Learning: Continuously build technical knowledge of Nextiva products, systems, and troubleshooting processes to provide better service. Explore new tools and ways of working to improve performance\n\n- Work Smarter:\n\n- Leverage AI tools (e.g., ChatGPT, Copilot, or similar) to support daily workflows, such as summarizing customer interactions, identifying key action items, and improving response quality\n\n- Apply clear and structured inputs when using AI tools to generate accurate and relevant outputs; iterating and refining your approach when the responses aren't perfect (persistence is key!)\n\nAbout You:\n\n- 2+ years of customer service experience, preferably in technical support or help desk environment\n\n- Working knowledge of PC and Mac operating systems and Microsoft Office applications; hardware and/or networking knowledge preferred\n\n- Advanced English fluency required (spoken and written).\n\n- Ability to work remotely in Ukraine and regularly work shifts aligned with US business hours (between 12:00pm-4:00am Monday through Friday)\n\n- Curiosity and enthusiasm for learning new technologies\n\n- Comfort working in fast-paced environments with evolving tools and processes\n\nCore Competencies:\n\n- Customer First: Patient, conscientious and professional; providing great customer experiences with a focus on accuracy\n\n- Problem Solver: Strong troubleshooting and analytical skills with a persistent, solution-oriented mindset; able to overcome setbacks and willing to try multiple paths to reach the right solution\n\n- Detail-Oriented: Ability to manage multiple tasks or conversations simultaneously; strong attention to detail in both technical work and documentation\n\n- AI-Forward Mindset: Curiosity and willingness to experiment with AI & automation tools (e.g., ChatGPT, Microsoft Copilot); exposure to similar tools in a professional environment preferred\n\n- Team-Driven: You collaborate, share knowledge, and contribute to a positive team environment\n\nWhy Nextiva?\n\n- Impact: Join a company trusted by over a million users, helping businesses deliver better customer experiences every day\n\n- Innovation: Be part of a team building AI-powered solutions that drive efficiency and smarter customer engagement\n\n- Growth: Thrive in a culture focused on continuous learning, development, and career progression\n\n- Culture: Work alongside a supportive, high-energy team committed to Amazing Service® and meaningful connections\n\nNextiva DNA (Core Competencies)\n\nNextiva’s most successful team members share common traits and behaviors:\n\n- Drives Results: Action-oriented problem solvers who quickly bring clarity and simplicity to ambiguity, challenge the status quo, and lead meaningful change; celebrating wins to fuel momentum. They act swiftly and pragmatically, learning and improving as they go.\n\n- Critical Thinker: Data-driven, forward-thinking individuals who identify key drivers, anticipate risks, and deliver clear recommendations. They confidently leverage AI and automation to reduce friction, improve decision-making, and focus on higher-value work.\n\n- Right Attitude: Collaborative, competitive, and resilient team players who jump in to solve tough problems, learn from setbacks, and foster a culture of service, respect, and care for customers and teammates.\n\nTotal Rewards\n\nOur Total Rewards offerings are designed to allow Nexties to take care of themselves and their families so they can do their best.\n\nOur compensation packages are tailored to each role and candidate's qualifications. We consider a wide range of factors, including skills, experience, training, and certifications, when determining compensation. We aim to offer competitive salaries or wages that reflect the value you bring to our team. Depending on the position, compensation may include base salary, incentives, or bonuses.\n\n- Health – Comprehensive medical coverage, individual limit on exclusions and dental care\n\n- Insurance – Life, disability, traumatic injuries and critical diseases\n\n- Work-Life Balance ⚖️ – PTO for all employees, Paid Sick leave (official document required), paid parental leave and paid holidays\n\n- Wellness ‍ – Employee Assistance Program and wellness initiatives\n\n- Growth – Access to ongoing learning and development opportunities and career advancement\n\nAt Nextiva, we're committed to supporting our employees' health, well-being, and professional growth. Join us and build a rewarding career!\n\n#LI-AL1 #LI-Remote\n\nFounded in 2008, Nextiva has grown into a global leader trusted by over 100,000 businesses and 1M+ users worldwide. Headquartered in Scottsdale, Arizona, and with teams across the globe, we're the future of customer experience and team collaboration through our AI-powered, conversation-centric platform.\n\nWant to see what life at Nextiva is all about? Connect with us on Instagram, Instagram MX, YouTube, LinkedIn, and the Nextiva Blog.",
+      "apply_url": "https://jobicy.com/jobs/152457-customer-support-representative-night-shift-weekdays",
+      "source": "Jobicy",
+      "posted_at": "2026-09-03T18:53:47.000Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152456",
+      "hub": "business",
+      "title": "Helpdesk Support Agent 6-Month Fixed-Term Contract",
+      "company": "LevelUp",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": 30000,
+      "comp_max": 35000,
+      "summary": "Company Overview LevelUp is a specialist agency that provides outsourcing solutions to agencies, software vendors, and website owners.",
+      "description": "Company Overview\n\nLevelUp is a specialist agency that provides outsourcing solutions to agencies, software vendors, and website owners. For over seven years, we have successfully collaborated with a variety of companies, providing valuable technical, operational, and back-office support. We have a large team of skilled and passionate professionals who are committed to delivering high-quality work for our clients.\n\nPosition Overview\n\nWe are seeking a highly reliable, proactive, and detail-oriented Helpdesk Support Agent to join our team at LevelUp for a 6-month fixed-term contract. In this role, you will serve as the first point of contact for internal teams of LevelUp's clients, providing critical first-line support for core business applications.\n\nYour primary mission will be to ensure that internal operations and sales processes run seamlessly and without disruption. Operating in a fast-paced but methodical remote environment, you will troubleshoot user issues, manage access requests, and resolve support tickets through Slack, Zendesk, and other internal admin tools. Because you will be supporting internal stakeholders across various business units, maintaining high responsiveness, outstanding written communication, and an active online presence throughout your shift is essential for success.\n\nThis contract is an excellent opportunity to deepen your technical expertise in enterprise-grade platforms such as Salesforce and NetSuite while working within a collaborative, structured, and fast-growing team. Please note that this is a 6-month fixed-term contract with no guarantee of conversion to a permanent position.\n\nReference: 2632-304138\n\nResponsibilities\n\n- First-Line Application Support: Provide dependable, timely support and troubleshooting for business applications, primarily focusing on user requests within Salesforce and NetSuite.\n\n- Access & Ticket Management: Process and manage user access requests, permission updates, and support inquiries arriving via Slack, Zendesk, and specialized admin tools.\n\n- Meticulous Documentation: Document, categorize, and tag all support interactions and tickets accurately to maintain high-quality system records and enable continuous process improvement.\n\n- Effective Escalations: Investigate complex technical or process-related issues, gather necessary details, and escalate them efficiently to Product Management, Order to Cash, Deal Desk, and Systems Engineering.\n\n- Proactive Collaboration: Work closely with cross-functional teams and the immediate Help Desk team to coordinate prompt issue resolution and ensure alignment.\n\n- Continuous Learning: Stay fully updated on new system features, operational updates, and documented best practices through ongoing training and knowledge-sharing sessions.\n\n- Ad Hoc Operations Support: Assist with testing new processes or system updates, contribute to knowledge base documentation, and support user onboarding and access setups as required.\n\nRequirements\n\n- Experience: A minimum of 2–3 years of experience in live chat customer service, technical customer support, or internal helpdesk environments.\n\n- Salesforce Proficiency: Critical hands-on experience supporting users, managing records, and troubleshooting basic permissions and issues within Salesforce.\n\n- NetSuite Proficiency: Strong familiarity and hands-on experience resolving user support issues and navigating business workflows in NetSuite.\n\n- Ticketing Tools: Experience managing and prioritizing support queues in Zendesk or similar ticketing platforms, ensuring strict adherence to ticket hygiene and tagging standards.\n\n- Uncompromising Reliability: A proven track record of dependability. You must maintain an active online presence and be consistently responsive during scheduled working hours, with zero tolerance for going missing in action (MIA) or abandoning active support chats.\n\n- Communication Skills: Strong, professional, and service-oriented written English. Ability to communicate complex troubleshooting steps clearly via text-based platforms (Slack, Zendesk).\n\n- Work Schedule: Absolute commitment to working standard US Central Time hours (8:00 AM – 5:00 PM CT), Monday to Friday.\n\n- Location/Holiday Alignment: Must be based in the Philippines and aligned with observing Philippines Holidays.\n\n- Nice-to-Have - SQL Knowledge: Basic SQL querying capabilities for troubleshooting and data-related analysis.\n\n- Nice-to-Have - Data Analysis: Experience with BigQuery or general reporting platforms.\n\n- Nice-to-Have - Task Management: Familiarity with Jira for issue tracking and development workflows.\n\n- Nice-to-Have - Operational Workflows: Experience or familiarity with sales workflows, Deal Desk, or Order-to-Cash (O2C) processes.\n\nAdditional Information\n\n- This is a fully remote position with a standard 40-hour fixed-schedule work week.\n\n- This is shifting schedule. The exact work schedule depends on the client that you are assigned to but is often an afternoon or night schedule and so having flexibility when it comes to schedule is important.\n\n- We have a company culture that focuses on the well-being of its team members, with a good work life balance and respectful work environment.\n\n- This role follows the US Central Time\n\n- Equipment provided\n\n- HMO + 13th month pay\n\nCompensation\n\nAdditional Information",
+      "apply_url": "https://jobicy.com/jobs/152456-helpdesk-support-agent-6-month-fixed-term-contract",
+      "source": "Jobicy",
+      "posted_at": "2026-09-03T18:53:30.000Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:ifood:8659519002",
+      "hub": "business",
+      "title": "IA Engineer Specialist",
+      "company": "iFood",
+      "company_id": "ifood",
+      "priority": false,
+      "category": "Other",
+      "segment": "Food Delivery Platform",
+      "level": "Mid",
+      "location": "Brasil",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Nosso Modo de Fazer no Time: Transforme sua carreira com o iFood! Somos uma empresa brasileira de tecnologia referência na América Latina.",
+      "description": "Nosso Modo de Fazer no Time:\n\nTransforme sua carreira com o iFood! Somos uma empresa brasileira de tecnologia referência na América Latina. Por meio de soluções inovadoras, conectamos milhares de restaurantes a milhões de consumidores diariamente com uma média de 100 milhões de pedidos mensais. Além do delivery de comida, também somos Mercado, Farmácia e Pet. Temos também o iFood Pago, nossa Fintech, que engloba o iFood Benefícios, o vale alimentação e refeição do iFood e o próprio iFood Pago, o banco do restaurante. Junte-se a nós e faça parte de uma equipe que está sempre à frente com tecnologia de ponta e inovação constante.\n\nSeu Cardápio Diário:\n\n* Ser referência na construção e orquestração de agentes multi modelo com LangGraph;\n* Projetar e implementar pipelines de middleware e sistemas de skills com engenharia de contexto;\n* Desenvolver serviços assíncronos em Python usando FastAPI e boas práticas de concorrência e resiliência;\n* Integrar e operar camada de persistência e cache com PostgreSQL e Redis;\n* Construir integrações assíncronas com SQS e SNS e gerenciar armazenamento em S3;\n* Implementar observabilidade e tracing para agentes e pipelines usando Langfuse e Datadog;\n* Multiplicar conhecimento mentorando engenheiros mais juniores e estabelecendo padrões e boas práticas;\n* Colaborar com parceiros iFood para operacionalizar agente CRIS DE e garantir entrega de valor.\n\nSeu Cardápio Diário:\n\n* Forte domínio de Python assíncrono e desenvolvimento de APIs com FastAPI;\n* Experiência prática com LangGraph e orquestração de agentes multi modelo;\n* Familiaridade com LLMs como Gemini, GPT e DeepSeek e uso em pipelines de inferência;\n* Capacidade de projetar pipelines de middleware e sistemas de skills focados em contexto e engenharia de prompts;\n* Conhecimento em PostgreSQL, Redis, SQS, SNS e S3 para arquiteturas multi camada;\n* Prática com observabilidade, tracing e monitoramento aplicados a sistemas de IA em produção, incluindo Langfuse e Datadog;\n* Perfil hands on com prioridade em entrega de valor, experimentação rápida e iteração baseada em dados;\n\nPara Realçar o Sabor:\n\n* Experiência com orquestração de inferência e otimização de custos de modelos em produção;\n* Vivência em projetos de agentes multi modelo em ambiente de produção;\n* Contribuições em open source ou publicações técnicas relacionadas a agentes ou pipelines de LLMs;\n* Familiaridade com práticas de segurança e privacidade aplicadas a dados e modelos.",
+      "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8659519002",
+      "source": "greenhouse",
+      "posted_at": "2026-09-03T16:55:04-04:00",
+      "scraped_at": "2026-09-04T11:55:41.221Z",
+      "status": "open"
+    },
+    {
+      "id": "lever:octopus-energy:dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
+      "hub": "business",
+      "title": "Customer Onboarding Specialist",
+      "company": "Octopus Energy",
+      "company_id": "octopus-energy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Energy Retailer & Tech",
+      "level": "Mid",
+      "location": "Manchester (GB)",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "We're making energy fair, clean, and simple for all using technology. Octopus Energy started with a bold idea: to build Britain’s first truly digital energy supplier.",
+      "description": "We're making energy fair, clean, and simple for all using technology. \nOctopus Energy started with a bold idea: to build Britain’s first truly digital energy supplier. By combining world-class tech with brilliant humans who care deeply about customers and driving the renewable energy transition, we made it happen and in 2025, we became Britain’s largest energy supplier. \n\nOctopus Energy Group is a global energy transition collective. 10 businesses working across 4 continents to tackle energy transformation at nearly every front.\n\nAnd we constantly push to make energy better. Tirelessly campaigning for fair protections for customers. And building innovative technologies that forge a path to a green energy system.\n\nWe’re made up of 10,000+ authentic, committed people working around the world on stuff you'd never expect. We're united by a shared goal: to drive the global green energy revolution. Read our Spotlight series to meet some of the team.\n\nAbout the role:\n \nWant a soul destroying call centre job? \nYeah, neither do we.\n \nWe’re not here to read scripts or tick boxes. We’re here to shake things up, to make energy better for our customers and the planet. That means real conversations, real problem-solving, and real impact. Your team? The best bunch of people you’ve ever worked with - curious, driven, and just as passionate about changing the industry as you are. No egos, no corporate nonsense - just a group of brilliant minds tackling challenges together.\n \nIt’s not always easy, but it’s worth it. We move fast. Things change. Just when you think you’ve nailed it...BOOM! Something new to learn! But if you love a challenge and thrive in a fast-paced environment, we’ll have your back every step of the way.\n\n- Make switching to us easy, cut through the noise and help customers select the best Gas and Electricity tariffs\n\n- Get to know the products! As you'll guide customers on the first steps to adopting our Low Carbon Technology (LCT), including Heat Pumps and Solar\n\n- Initiate the exciting journey for Electric Vehicle charger (EVC) customers, answering initial installation questions and ensuring a seamless handover to our specialist installation teams\n\n- Problem solve, so no more endless transfers, whether it's a supplier switch or an EV installation, you'll take full ownership of the query and find the right solution fast\n\n- Go above and beyond and treat every customer with the care and kindness you’d give your own friends and family. We believe in warmth, real conversations, and going the extra mile\n\n- Think on your feet so no robotic responses! Listen, understand, and deliver solutions that genuinely make sense. Get ready for a continuous learning curve\n\n- Passionate about delivering great customer service that makes someone's day just a little bit better\n\n- Adaptability and a love for change. Things move fast here - you’ll embrace learning new things and rolling with the punches\n\n- A curiosity for learning and a love of growth are key, as you'll get to dive into new challenges, projects, and areas of focus along the way\n\n- Clear communication, great attention to detail, and a focus on listening\n\n- A background in a fast-paced customer service or operations environment is a bonus, but we prioritise attitude and aptitude\n\n- A genuine care for the planet. We're fighting climate change, and we want people who share our passion\n\n- Salary: £26,600\n\n- 🎉 Octopus Energy Group is a unique culture. An organisation where people learn, decide, and build quicker. Where people work with autonomy, alongside a wide range of amazing co-owners, on projects that break new ground. We want your hard work to be rewarded with perks you actually care about! We won best company to work for in 2022, on Glassdoor we were voted 50 best places to work in 2022 and our Group CEO, Greg has recorded a podcast about our culture and how we empower our people. We’ve also been placed in the top 10 companies for senior leadership\n\n- 🎁 Visit our UK perks hub - Octopus Employee Benefits",
+      "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
+      "source": "lever",
+      "posted_at": "2026-09-03T14:02:41.885Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
+      "status": "open"
+    },
     {
       "id": "agg:weworkremotely:ellipsis-executive-assistant-remote-uk-eu-38k-43k-year",
       "hub": "business",
@@ -24,7 +200,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/ellipsis-executive-assistant-remote-uk-eu-38k-43k-year",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T10:49:23.000Z",
-      "scraped_at": "2026-09-03T11:52:45.566Z",
+      "scraped_at": "2026-09-04T11:55:51.744Z",
       "status": "open"
     },
     {
@@ -46,7 +222,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ebab81a7-1a8e-4d69-b814-29b33bdb70a9",
       "source": "lever",
       "posted_at": "2026-09-03T09:58:06.088Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.364Z",
       "status": "open"
     },
     {
@@ -68,7 +244,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e1de05f5-39fe-4cb8-a632-d98f30a3816f",
       "source": "lever",
       "posted_at": "2026-09-03T09:53:17.920Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -90,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/151883-customer-support-associate",
       "source": "Jobicy",
       "posted_at": "2026-09-03T06:05:03.000Z",
-      "scraped_at": "2026-09-03T11:52:50.957Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -112,7 +288,7 @@
       "apply_url": "https://jobicy.com/jobs/150090-customer-service-specialist-3",
       "source": "Jobicy",
       "posted_at": "2026-09-03T06:00:15.000Z",
-      "scraped_at": "2026-09-03T11:52:50.957Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -134,7 +310,7 @@
       "apply_url": "https://jobicy.com/jobs/150096-customer-service-specialist-4",
       "source": "Jobicy",
       "posted_at": "2026-09-03T06:00:09.000Z",
-      "scraped_at": "2026-09-03T11:52:50.957Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -156,7 +332,29 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gohighlevel-crm-sales-appointment-setter-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T01:35:18.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:remotive:1749306",
+      "hub": "business",
+      "title": "Freelance Copywriter",
+      "company": "Coalition Technologies ",
+      "company_id": "agg:remotive",
+      "priority": false,
+      "category": "Content Writer",
+      "segment": "Remotive",
+      "level": "Mid",
+      "location": "Worldwide",
+      "employment_type": "full-time",
+      "comp_min": 20000,
+      "comp_max": 35000,
+      "summary": "CT Marketing Agency is seeking skilled Freelance Copywriters to write high-quality, SEO-driven content for eCommerce and lead generation websites.",
+      "description": "CT Marketing Agency is seeking skilled Freelance Copywriters to write high-quality, SEO-driven content for eCommerce and lead generation websites. This is a freelance, project-based writing role.\n\n \n\nThe ideal candidate has excellent English writing skills, strong research ability, and experience writing content that follows detailed, client-specific guidelines. Projects commonly include category pages, product descriptions, blog posts, SEO landing pages, and website copy.\n\n \n\nAbout the Role\n\nOur client base is constantly evolving, and writers may create content across a wide range of industries, including:\n\n- Fashion, including mass-market and luxury brands\n\n- Skincare and beauty\n\n- Tech and software\n\n- Finance and investing\n\n- Law, including family law, divorce, and product liability\n\n- Education\n\n- Home improvement\n\n- Automobiles and motorcycles\n\n- Health and wellness\n\n- Medical and clinical fields\n\n- Digital marketing\n\n- SEO, PR, advertising, and marketing\n\nWriters with experience in highly specialized industries such as tech, finance, law, health, medical, SEO, PR, advertising, or marketing are strongly encouraged to apply.\n\nResponsibilities\n\n- Write clear, engaging, SEO-friendly content for eCommerce and lead generation websites\n\n- Create category pages, product descriptions, blog posts, landing pages, and website copy\n\n- Research client industries, products, services, audiences, and competitors\n\n- Follow detailed client guidelines and adapt to different brand voices\n\n- Blend SEO best practices with brand priorities and conversion-focused writing\n\n- Complete assignments by deadline and communicate professionally with the team\n\nQualifications\n\n- Excellent English writing, grammar, editing, and proofreading skills\n\n- 2 to 4 years of professional, non-academic writing experience preferred\n\n- Strong understanding of SEO writing best practices\n\n- Ability to research unfamiliar industries and technical topics\n\n- Ability to write creative, engaging, accurate, and ROI-focused content\n\n- Portfolio featuring published work preferred\n\n- Experience in specialized industries strongly preferred\n\nCompensation\n\nWriters are paid on a per-word basis. Rates are assessed according to our KPI rubric.\n\nInitial compensation is up to $0.06 per word, with $0.034 per word being the most typical rate\n\nThis equals approximately $30 or $17 per 500-word page\n\nAfter 400 live pages, the top rate increases to $0.064 per word, with $0.038 per word being the most typical rate\n\nAfter 800 live pages, the top rate increases to $0.07 per word, with $0.044 per word being the most typical rate\n\n \n\nApplication Process\n\nCandidates should be prepared to provide a portfolio featuring published work. Once an offer is extended, writers will complete a brief training course.",
+      "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
+      "source": "Remotive",
+      "posted_at": "2026-09-02T19:59:53.000Z",
+      "scraped_at": "2026-09-04T11:55:52.269Z",
       "status": "open"
     },
     {
@@ -178,7 +376,7 @@
       "apply_url": "https://jobicy.com/jobs/152388-associate-product-support-specialist-remote-uk",
       "source": "Jobicy",
       "posted_at": "2026-09-02T19:34:04.000Z",
-      "scraped_at": "2026-09-03T11:52:50.957Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -200,7 +398,7 @@
       "apply_url": "https://jobicy.com/jobs/152379-saas-onboarding-specialist",
       "source": "Jobicy",
       "posted_at": "2026-09-02T12:37:09.000Z",
-      "scraped_at": "2026-09-03T11:52:50.958Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -222,7 +420,7 @@
       "apply_url": "https://jobicy.com/jobs/152374-client-onboarding-specialist",
       "source": "Jobicy",
       "posted_at": "2026-09-02T12:35:19.000Z",
-      "scraped_at": "2026-09-03T11:52:50.958Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -244,7 +442,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/bitwarden-billing-specialist-us-weekend",
       "source": "We Work Remotely",
       "posted_at": "2026-09-02T07:31:09.000Z",
-      "scraped_at": "2026-09-03T11:52:45.566Z",
+      "scraped_at": "2026-09-04T11:55:51.744Z",
       "status": "open"
     },
     {
@@ -266,7 +464,7 @@
       "apply_url": "https://jobicy.com/jobs/150027-customer-support-specialist-2",
       "source": "Jobicy",
       "posted_at": "2026-09-02T04:59:16.000Z",
-      "scraped_at": "2026-09-03T11:52:50.958Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -288,7 +486,7 @@
       "apply_url": "https://jobicy.com/jobs/150068-chat-support-agent-remote-15-18-hr",
       "source": "Jobicy",
       "posted_at": "2026-09-02T04:55:03.000Z",
-      "scraped_at": "2026-09-03T11:52:50.958Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -310,7 +508,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6178977004",
       "source": "greenhouse",
       "posted_at": "2026-09-02T01:19:27-04:00",
-      "scraped_at": "2026-09-03T11:52:38.973Z",
+      "scraped_at": "2026-09-04T11:55:43.870Z",
       "status": "open"
     },
     {
@@ -332,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/big-bear-vacations-owner-retention-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-01T20:45:07.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -354,7 +552,7 @@
       "apply_url": "https://jobicy.com/jobs/152351-network-it-specialist",
       "source": "Jobicy",
       "posted_at": "2026-09-01T14:56:22.000Z",
-      "scraped_at": "2026-09-03T11:52:50.958Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -376,7 +574,7 @@
       "apply_url": "https://jobicy.com/jobs/152336-customer-experience-specialist-6",
       "source": "Jobicy",
       "posted_at": "2026-09-01T14:48:06.000Z",
-      "scraped_at": "2026-09-03T11:52:50.958Z",
+      "scraped_at": "2026-09-04T11:55:53.605Z",
       "status": "open"
     },
     {
@@ -398,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8734158002",
       "source": "greenhouse",
       "posted_at": "2026-09-01T09:15:21-04:00",
-      "scraped_at": "2026-09-03T11:52:36.566Z",
+      "scraped_at": "2026-09-04T11:55:41.221Z",
       "status": "open"
     },
     {
@@ -420,7 +618,7 @@
       "apply_url": "https://jobicy.com/jobs/152290-senior-implementation-specialist",
       "source": "Jobicy",
       "posted_at": "2026-09-01T05:14:23.000Z",
-      "scraped_at": "2026-09-03T11:52:50.958Z",
+      "scraped_at": "2026-09-04T11:55:53.606Z",
       "status": "open"
     },
     {
@@ -442,7 +640,7 @@
       "apply_url": "https://jobicy.com/jobs/152280-implementation-specialist",
       "source": "Jobicy",
       "posted_at": "2026-09-01T05:11:36.000Z",
-      "scraped_at": "2026-09-03T11:52:50.958Z",
+      "scraped_at": "2026-09-04T11:55:53.606Z",
       "status": "open"
     },
     {
@@ -464,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
       "source": "greenhouse",
       "posted_at": "2026-09-01T01:42:29-04:00",
-      "scraped_at": "2026-09-03T11:52:34.360Z",
+      "scraped_at": "2026-09-04T11:55:39.238Z",
       "status": "open"
     },
     {
@@ -486,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-03T11:52:38.973Z",
+      "scraped_at": "2026-09-04T11:55:43.870Z",
       "status": "open"
     },
     {
@@ -508,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-03T11:52:38.973Z",
+      "scraped_at": "2026-09-04T11:55:43.870Z",
       "status": "open"
     },
     {
@@ -530,7 +728,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126662004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-03T11:52:38.973Z",
+      "scraped_at": "2026-09-04T11:55:43.870Z",
       "status": "open"
     },
     {
@@ -552,7 +750,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-french-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-08-29T07:31:19.000Z",
-      "scraped_at": "2026-09-03T11:52:45.566Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -574,7 +772,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7980283003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T08:58:32-04:00",
-      "scraped_at": "2026-09-03T11:52:34.360Z",
+      "scraped_at": "2026-09-04T11:55:39.238Z",
       "status": "open"
     },
     {
@@ -596,7 +794,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7685198003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-03T11:52:34.360Z",
+      "scraped_at": "2026-09-04T11:55:39.238Z",
       "status": "open"
     },
     {
@@ -618,7 +816,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7598880003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-03T11:52:34.360Z",
+      "scraped_at": "2026-09-04T11:55:39.238Z",
       "status": "open"
     },
     {
@@ -640,7 +838,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7081017003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-03T11:52:34.360Z",
+      "scraped_at": "2026-09-04T11:55:39.238Z",
       "status": "open"
     },
     {
@@ -662,7 +860,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-03T11:52:34.361Z",
+      "scraped_at": "2026-09-04T11:55:39.239Z",
       "status": "open"
     },
     {
@@ -684,7 +882,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155589",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:19:36-04:00",
-      "scraped_at": "2026-09-03T11:52:26.152Z",
+      "scraped_at": "2026-09-04T11:55:31.063Z",
       "status": "open"
     },
     {
@@ -706,7 +904,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155588",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:19:11-04:00",
-      "scraped_at": "2026-09-03T11:52:26.152Z",
+      "scraped_at": "2026-09-04T11:55:31.063Z",
       "status": "open"
     },
     {
@@ -728,7 +926,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8155586",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:18:46-04:00",
-      "scraped_at": "2026-09-03T11:52:26.152Z",
+      "scraped_at": "2026-09-04T11:55:31.063Z",
       "status": "open"
     },
     {
@@ -750,7 +948,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8143567",
       "source": "greenhouse",
       "posted_at": "2026-08-27T19:18:27-04:00",
-      "scraped_at": "2026-09-03T11:52:26.152Z",
+      "scraped_at": "2026-09-04T11:55:31.063Z",
       "status": "open"
     },
     {
@@ -772,7 +970,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6122010004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T17:24:50-04:00",
-      "scraped_at": "2026-09-03T11:52:19.250Z",
+      "scraped_at": "2026-09-04T11:55:23.019Z",
       "status": "open"
     },
     {
@@ -794,7 +992,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.364Z",
       "status": "open"
     },
     {
@@ -816,7 +1014,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/carelock-com-behavioral-health-integration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-26T17:26:29.000Z",
-      "scraped_at": "2026-09-03T11:52:45.566Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -838,7 +1036,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-08-26T13:00:27-04:00",
-      "scraped_at": "2026-09-03T11:52:19.249Z",
+      "scraped_at": "2026-09-04T11:55:23.018Z",
       "status": "open"
     },
     {
@@ -860,7 +1058,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8138520",
       "source": "greenhouse",
       "posted_at": "2026-08-25T06:58:32-04:00",
-      "scraped_at": "2026-09-03T11:52:28.067Z",
+      "scraped_at": "2026-09-04T11:55:32.396Z",
       "status": "open"
     },
     {
@@ -882,7 +1080,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-08-24T08:23:58-04:00",
-      "scraped_at": "2026-09-03T11:52:28.067Z",
+      "scraped_at": "2026-09-04T11:55:32.396Z",
       "status": "open"
     },
     {
@@ -904,7 +1102,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8105783",
       "source": "greenhouse",
       "posted_at": "2026-08-24T04:19:41-04:00",
-      "scraped_at": "2026-09-03T11:52:26.205Z",
+      "scraped_at": "2026-09-04T11:55:31.107Z",
       "status": "open"
     },
     {
@@ -926,7 +1124,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-09-03T11:52:19.250Z",
+      "scraped_at": "2026-09-04T11:55:23.019Z",
       "status": "open"
     },
     {
@@ -948,7 +1146,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6138978004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:34:49-04:00",
-      "scraped_at": "2026-09-03T11:52:19.250Z",
+      "scraped_at": "2026-09-04T11:55:23.019Z",
       "status": "open"
     },
     {
@@ -992,7 +1190,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:38:17.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -1014,7 +1212,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/pearl-product-cad-packaging-production-specialist-a341",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:37:13.000Z",
-      "scraped_at": "2026-09-03T11:52:45.566Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -1036,29 +1234,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
       "source": "greenhouse",
       "posted_at": "2026-08-19T08:40:20-04:00",
-      "scraped_at": "2026-09-03T11:52:26.205Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:eve-legal:4341655009",
-      "hub": "legaltech",
-      "title": "Demand Generation Specialist",
-      "company": "Eve",
-      "company_id": "eve-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "AI Platform for Plaintiff Law Firms",
-      "level": "Mid",
-      "location": "Remote - US",
-      "employment_type": "full-time",
-      "comp_min": 95000,
-      "comp_max": 110000,
-      "summary": "About Eve Eve is redefining legal technology for plaintiff law firms, and we're building the team that will take us there.",
-      "description": "About Eve\n\nEve is redefining legal technology for plaintiff law firms, and we're building the team that will take us there. We help firms handle more cases, recover more for clients, and grow with AI that works across every stage of a case, from intake through resolution. The next generation of great plaintiff firms will be AI-Native, and Eve is how they get there. But what makes Eve different isn't just the product. It's how we build it. If you're someone who takes ownership, stays curious, and wants to build AI that's already changing how law is practiced, this is where you belong.\n\nProduct-market fit: Eve is trusted by over 1000+ law firms, and we’re growing fast.\nBacked by top investors: We’ve raised over $160M from world-class partners including Spark Capital, Andreessen Horowitz(A16z), Menlo Ventures, and Lightspeed.\nBuilt by a world-class team: Engineers, designers, and operators from places like Scale, Meta, Airbnb, Cruise, Square, Rubrik, and Lyft are building Eve from the ground up.\nAI-Native from day one: We’re on the bleeding edge of AI, collaborating directly with teams at OpenAI and Anthropic to build best-in-class AI workflows tailored for legal work.\nExplosive growth: We are growing 2X revenue Quarter over Quarter.\n\nAbout This Role\n\nEve's Demand Generation Strategist helps us reach, engage, and convert prospects across the channels that make sense for the audience, including email, paid search, and paid social, with AI woven into the workflow. No batch and blast. This role supports strategy, execution, measurement, and optimization of campaigns based on real performance data. You'll help design multi-touch programs, including nurture streams, lifecycle emails, webinar and newsletter promotion, and paid channel touches, working closely with the revenue marketing team on positioning, tone, and strategy. The role blends demand generation fundamentals, channel versatility, and growing AI fluency.\n\nWhat You Will Accomplish\n\n- Support the design and execution of multi-touch demand generation campaigns targeting plaintiff law firms, potentially spanning email, outbound, paid search, and paid social, from ICP definition through sequence design and reply handling.\n\n- Help build demand gen programs across whichever channels fit the audience (email, paid social, paid search, etc.) that move leads from first touch to booked meeting.\n\n- Help fuel demand programs: align audiences, offers, and landing pages with nurture sequences, support webinar and event registrations, provide pre-event air cover and post-event retargeting, and contribute to account-based plays against high-value firm segments.\n\n- Help monitor deliverability, list health, and segmentation, and support performance tracking across other channels in play so every audience gets a relevant message.\n\n- Help run structured tests on subject lines, copy, cadence, send timing, and channel mix, and contribute to playbooks the whole team can use.\n\n- Work with Sales and RevOps and the revenue marketing team to align messaging across channels with pipeline goals, and report clearly on what is working.\n\nWhat We Are Looking For\n\n- 2-3 years in demand generation, email marketing, or performance marketing, ideally in B2B SaaS.\n\n- Solid fundamentals: deliverability, segmentation, lifecycle strategy, and testing discipline.\n\n- Experience integrating demand motions promoting webinars and events, feeding nurture programs, or supporting ABM plays.\n\n- Growing AI fluency: you're comfortable using AI tools, learning how to prompt them well, and understanding where automation ends and human craft begins.\n\n- Fluency in funnel metrics and you optimize for pipeline, not vanity numbers.\n\n- Comfort with data: you use reply rates, conversion rates, and pipeline to guide decisions, not gut feel\n\nNice to Have\n\n- Experience marketing to legal, professional services, or another relationship-driven vertical.\n\n- Hands-on time with tools like Clay, HubSpot, Apollo, or similar enrichment, sequencing, or paid channel platforms (e.g. LinkedIn Ads, Google Ads)\n\n- Exposure to building AI-assisted workflows, beyond just using out-of-the-box features\n\nFor sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role. This salary range may be inclusive of several career levels at Eve and will be narrowed during the interview process based on a number of factors, including the candidate’s experience, qualifications, and location.\n\nUS Salary Range\n$95,000—$110,000 USD\n\nBenefits\n\n💰 Competitive Salary & Equity\n💹 401(k) Program with Employer Matching\n⚕️ Health, Dental, Vision and Life Insurance\n🩼 Short Term and Long Term Disability\n🚗 Commuter Benefits*\n🧑‍💻 Autonomous Work Environment\n🖥️ Workplace Setup Reimbursement\n🏠 Telecomm Stipend\n🏝 Flexible Time Off (FTO) + Holidays\n🚀 Quarterly Team Gatherings\n🥪 In office Perks*\n\n*In office employees only\n\nEve Legal is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex (including pregnancy, sexual orientation, or gender identity), national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance and/or a reasonable accommodation during the application process, reach out to your recruiter.\n\nWe may use artificial intelligence (AI) tools to support parts of the hiring process. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
-      "apply_url": "https://job-boards.greenhouse.io/eve/jobs/4341655009",
-      "source": "greenhouse",
-      "posted_at": "2026-08-18T19:42:23-04:00",
-      "scraped_at": "2026-09-03T11:52:26.119Z",
+      "scraped_at": "2026-09-04T11:55:31.107Z",
       "status": "open"
     },
     {
@@ -1080,7 +1256,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-account-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-08-18T07:30:35.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -1168,7 +1344,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-08-11T20:18:02.000Z",
-      "scraped_at": "2026-09-03T11:52:46.096Z",
+      "scraped_at": "2026-09-04T11:55:52.269Z",
       "status": "open"
     },
     {
@@ -1190,7 +1366,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -1212,29 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-09-03T11:52:34.599Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:weworkremotely:porkbun-content-creator-video-producer",
-      "hub": "business",
-      "title": "Content Creator & Video Producer",
-      "company": "Porkbun",
-      "company_id": "agg:weworkremotely",
-      "priority": false,
-      "category": "Content Writer",
-      "segment": "We Work Remotely",
-      "level": "Mid",
-      "location": "Anywhere in the World, Oregon, 🇺🇸 United States of America",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Headquarters: Oregon USA URL: https://porkbun.com Content Creator & Video Producer — Full-Time — $60,000/year + Benefits (Location: Remote, U.S.-based; Portland, Oregon preferred)…",
-      "description": "Headquarters: Oregon USA\n\nURL: https://porkbun.com\n\nContent Creator & Video Producer — Full-Time — $60,000/year + Benefits (Location: Remote, U.S.-based; Portland, Oregon preferred)\n\nIt's time to hire another amazing individual again. You could be the pick of the litter! This time we're hiring a Content Creator & Video Producer to help Porkbun become the brand people stop scrolling for. Are you the kind of creator who instinctively knows why one video gets 5 million views while another gets 50? Do you get excited about writing hooks, telling stories, and making domain names — yes, domain names — unexpectedly entertaining? Then please read on and apply!\n\nPorkbun is a fully remote domain name registrar. We're looking to add a U.S.-based, full-time Content Creator & Video Producer. We are hiring from within the United States, with a preference for candidates in or around Portland, Oregon, since IRL team collaboration is encouraged.\n\nFrom .com to .pizza to .plumbing, Porkbun sells more than 500 domain extensions directly to consumers. Our no-nonsense interface and super-affordable prices mean we're adding new customers at a fantastic rate. We've become the go-to registrar for tech-savvy individuals such as developers, while bargain-hunters are thrilled to learn that we offer incredible support despite our industry-low prices.\n\nWe've spent years getting really good at buying attention. Now we want to build something more valuable: our own audience — and this role owns that. Porkbun has a uniquely committed and interested fan-base, and we know that our brand is well-positioned to share content that new and existing customers stop scrolling for.\n\nWhat you'll do:\n\nYou'll own video content on organic channels from concept to publication — brainstorming ideas, writing scripts and hooks, filming (cameras, phones, mics, screen recordings), starring or creative casting, editing short- and long-form video, designing thumbnails and titles, publishing, and reading the numbers the next morning so the next one is better. One great idea shouldn't become one video: you'll turn a single concept into YouTube Shorts, TikToks, Reels, LinkedIn posts, newsletter and landing-page content, product-education videos, customer and founder interviews, and registry partner campaign assets. You’ll create both polished, educational knowledge base infotainment and scrappier organic social content that carries the brand’s unique personality.\n\nYou'll work closely with the marketing team to publish and optimize content, collaborate with creators and influencers, and support partner campaigns. You'll continually explore and experiment with emerging AI tools for ideation, editing, animation, voiceovers, localization, and video production, helping us discover new ways to create better content more efficiently.\n\nYour work will span everything from short-form social videos and longer educational content to customer interviews, product explainers, behind-the-scenes stories, and creative campaign assets. As this is a brand-new role, you'll have the opportunity to grow our content strategy in a new direction. As you succeed, you will be positioned to lead and hire a team to start turning this giant personal responsibility list into a super team within the marketing department.\n\nSuccess won't be measured by views alone. We'll measure it by your ability to build our audience, strengthen the Porkbun brand, create content people genuinely enjoy, and help move our marketing forward.\n\nImportant skills and experience:\n\n• A portfolio that shows your work and potential\n\n• Strong instincts for brand stories and engaging content\n\n• Comfort with the full pipeline: ideation, filming, editing, publishing, and analysis\n\n• Fluency in both short-form social content and longer educational / infotainment formats\n\n• You edit “one more version” because you know it'll be better, and you know AI makes creative people more versatile, not less relevant\n\nBonus points for experience with any of: Adobe Premiere Pro, CapCut, DaVinci Resolve, Descript, Canva, motion graphics or animation, photography, podcast production, YouTube SEO, creator partnerships, marketing tech or SaaS, and AI tools like Runway, Veo, ChatGPT, Claude, Midjourney, or ElevenLabs.\n\nIf the above describes you, or you can make a strong case for why we should hire you anyway, please follow the instructions below EXACTLY and respond accurately — failure to do so means we will filter out your application.\n\n• Attach your resume as a .pdf and include links to your portfolio, website, YouTube, TikTok, Instagram, or anywhere else you've created content\n\n• Address your email with the subject line “Content Creator & Video Producer”\n\n• Begin your email body by copying, pasting, and responding to the qualifying questions below. If you answer NO, we're sorry, but you are not eligible for the role:\n\n- Are you based in the USA and eligible for employment (Yes/No)?\n\n- Do you have a portfolio or body of content work you can share (Yes/No)?\n\n• Even better than a written intro: record a quick video telling us why you'd be a great fit. We are, after all, hiring a creator.\n\n• Send that email to careers@porkbun.com\n\nStarting pay: $60,000/year + benefits. Applicants with multiple years of notable professional experience creating video and social content are eligible for a higher starting salary.\n\nThis position offers full medical, dental, and vision benefits (single) starting after 90 days, and 50% medical insurance contribution for family or spousal benefits, and a Simple IRA plan with a matching 3% company contribution after the first year. It also includes paid parental leave, two weeks of paid vacation to start, paid federal holidays plus bonus days around Thanksgiving and Christmas, and a budget for creative tools and professional development.\n\nTo apply: https://weworkremotely.com/remote-jobs/porkbun-content-creator-video-producer",
-      "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-content-creator-video-producer",
-      "source": "We Work Remotely",
-      "posted_at": "2026-08-04T22:47:08.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:39.364Z",
       "status": "open"
     },
     {
@@ -1256,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/88d09213-d4fe-4c85-92ce-954901559d92",
       "source": "lever",
       "posted_at": "2026-08-04T14:32:11.323Z",
-      "scraped_at": "2026-09-03T11:52:34.599Z",
+      "scraped_at": "2026-09-04T11:55:39.364Z",
       "status": "open"
     },
     {
@@ -1278,7 +1432,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/the-humane-league-temporary-us-corporate-relations-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-03T17:34:26.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -1300,7 +1454,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -1322,7 +1476,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1344,7 +1498,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4cc16c3e-f07c-435a-9f16-f162400ee703",
       "source": "lever",
       "posted_at": "2026-07-21T08:48:59.916Z",
-      "scraped_at": "2026-09-03T11:52:34.599Z",
+      "scraped_at": "2026-09-04T11:55:39.364Z",
       "status": "open"
     },
     {
@@ -1366,29 +1520,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1d86bd08-10a0-4973-80e5-56b26b63b65c",
       "source": "lever",
       "posted_at": "2026-07-20T16:16:35.695Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:ifood:8545100002",
-      "hub": "business",
-      "title": "Specialist IA Engineer - Delivery  Intelligence  | TECH",
-      "company": "iFood",
-      "company_id": "ifood",
-      "priority": false,
-      "category": "Other",
-      "segment": "Food Delivery Platform",
-      "level": "Mid",
-      "location": "Brasil",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Nosso Modo de Fazer no Time: Transforme sua carreira com o iFood! Somos uma empresa brasileira de tecnologia referência na América Latina.",
-      "description": "Nosso Modo de Fazer no Time:\n\nTransforme sua carreira com o iFood! Somos uma empresa brasileira de tecnologia referência na América Latina. Por meio de soluções inovadoras, conectamos milhares de restaurantes a milhões de consumidores diariamente com uma média de 100 milhões de pedidos mensais. Além do delivery de comida, também somos Mercado, Farmácia e Pet. Temos também o iFood Pago, nossa Fintech, que engloba o iFood Benefícios, o vale alimentação e refeição do iFood e o próprio iFood Pago, o banco do restaurante. Junte-se a nós e faça parte de uma equipe que está sempre à frente com tecnologia de ponta e inovação constante.\n\nSeu Cardápio Diário:\n\n- Avaliar, identificar e melhorar rigorosamente a qualidade dos dados—perfilando, limpando, removendo duplicatas e transformando grandes conjuntos de dados, principalmente usando Spark SQL e Python.\n\n- Projetar e executar experimentos com LLMs.\n\n- Projetar e construir pipelines de ingestão e processamento de dados para aplicações IA/ GenIA.\n\n- Curar e desenvolver corpora de alta qualidade para treinamento, validação e teste para pipelines de LLM; isso inclui gerar dados sintéticos quando a cobertura é baixa ou quando é necessário aumentar os dados.\n\n- Avaliar performance de modelos e resultados experimentais e iterar rapidamente com base nos achados.\n\n- Desenvolver soluções de IA com agents, integrando modelos, ferramentas e fluxos de trabalho automatizados.\n\n- Apresentar descobertas, insights orientados por dados e recomendações acionáveis para próximos passos tanto para audiências técnicas quanto não-técnicas.\n\n- Contribuir com ideias para novos sinais de dados, métodos inovadores de avaliação e funcionalidades de produto que aproveitam as capacidades dos LLMs.\n\nIngredientes Que Buscamos:\n\n- Fundamentos sólidos de ciência da computação e machine learning.\n\n- Sólida base em engenharia de software (desenvolvimento, versionamento, testes, CI/CD), garantindo qualidade e manutenibilidade do código em ambiente produtivo.\n\n- Habilidade para projetar sistemas escaláveis que integram modelos de IA com aplicações de negócio, incluindo design de APIs e microsserviços.\n\n- Gerenciamento de deployments em ambientes Kubernetes.\n\n- Experiência com LLMs, RAG, engenharia de prompts e orquestração de agentes.\n\n- Capacidade de instanciar, fazer deploy e manter modelos de machine learning em ambientes produtivos de alta escala.\n\n- Habilidade para construir pipelines de dados sólidos que alimentem seus modelos com qualidade e confiabilidade.\n\nPara realçar o sabor:\n\n- Experiência com projetos de otimização logística, roteirização ou supply chain com IA.\n\n- Vivência em ambientes de alta escala com dados em tempo real (streaming, event-driven architectures).\n\n- Experiência com metodologias de data science (data analysis, evals ou técnicas avançadas de análise estatística)\n\n- Experiência machine learning (e.g. inferência e treinamento de modelos de ML).\n\n.",
-      "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8545100002",
-      "source": "greenhouse",
-      "posted_at": "2026-07-16T07:52:07-04:00",
-      "scraped_at": "2026-09-03T11:52:36.566Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1410,7 +1542,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/2c549930-f851-4077-9fef-8f4291ee7649",
       "source": "lever",
       "posted_at": "2026-07-07T12:09:13.992Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1432,7 +1564,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1454,7 +1586,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1ec2d65d-c382-46d9-a0e6-4e82af26b3ed",
       "source": "lever",
       "posted_at": "2026-06-22T14:00:51.567Z",
-      "scraped_at": "2026-09-03T11:52:34.599Z",
+      "scraped_at": "2026-09-04T11:55:39.364Z",
       "status": "open"
     },
     {
@@ -1476,7 +1608,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1498,7 +1630,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/221e6a7a-4e02-4dd4-83d7-babe5361f21a",
       "source": "lever",
       "posted_at": "2026-06-12T10:36:34.244Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1520,7 +1652,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-09-03T11:52:34.599Z",
+      "scraped_at": "2026-09-04T11:55:39.364Z",
       "status": "open"
     },
     {
@@ -1542,7 +1674,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1564,7 +1696,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1586,7 +1718,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-09-03T11:52:34.599Z",
+      "scraped_at": "2026-09-04T11:55:39.364Z",
       "status": "open"
     },
     {
@@ -1608,7 +1740,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -1630,7 +1762,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-09-03T11:52:45.567Z",
+      "scraped_at": "2026-09-04T11:55:51.745Z",
       "status": "open"
     },
     {
@@ -1652,7 +1784,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1674,7 +1806,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1696,7 +1828,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-09-03T11:52:34.598Z",
+      "scraped_at": "2026-09-04T11:55:39.363Z",
       "status": "open"
     },
     {
@@ -1718,7 +1850,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-09-03T11:52:31.807Z",
+      "scraped_at": "2026-09-04T11:55:36.094Z",
       "status": "open"
     },
     {
@@ -1740,7 +1872,7 @@
       "apply_url": "https://jobs.lever.co/webfx/a8e8ff2a-a53f-4770-b2ea-b3df91d4d175",
       "source": "lever",
       "posted_at": "2020-03-11T18:25:55.023Z",
-      "scraped_at": "2026-09-03T11:52:43.557Z",
+      "scraped_at": "2026-09-04T11:55:48.954Z",
       "status": "open"
     },
     {
@@ -1762,7 +1894,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:19.363Z",
+      "scraped_at": "2026-09-04T11:55:23.104Z",
       "status": "open"
     },
     {
@@ -1784,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Santiago/Customer-Training-Specialist_REQ-5042",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.446Z",
       "status": "open"
     },
     {
@@ -1806,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Graphic-Designer_REQ-5220",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.446Z",
       "status": "open"
     },
     {
@@ -1828,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Payroll-Specialist--EMEA_REQ-5254",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.446Z",
       "status": "open"
     },
     {
@@ -1850,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.446Z",
       "status": "open"
     },
     {
@@ -1872,7 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Support-Specialist--APAC_REQ-5338",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -1894,7 +2026,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -1916,7 +2048,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Support-Specialist--New-Grads-_REQ-5019",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -1938,7 +2070,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -1960,7 +2092,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Onboarding-Specialist_REQ-5252",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -1982,7 +2114,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -2004,7 +2136,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -2026,7 +2158,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -2048,7 +2180,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Talent-Sourcer_REQ-4291",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     },
     {
@@ -2070,139 +2202,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5082",
-      "hub": "legal",
-      "title": "Graphic Designer (5 Month Contract)",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Graphic Designer",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Remote - Canada",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Graphic Designer (5 Month Contract) at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4449",
-      "hub": "legal",
-      "title": "Senior People Systems Specialist (Workday)",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "Dublin",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior People Systems Specialist (Workday) at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/People-Systems---Analytics-Specialist--Workday-_REQ-4449",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4510",
-      "hub": "legal",
-      "title": "Senior Channel Sales Operations Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "5 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Channel Sales Operations Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Sales-Operations-Specialist_REQ-4510",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5167",
-      "hub": "legal",
-      "title": "Senior Executive Assistant",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "Dublin",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Executive Assistant at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4569",
-      "hub": "legal",
-      "title": "Senior Global Benefits & Leaves Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "4 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Global Benefits & Leaves Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Global-Benefits---Leaves-Specialist_REQ-4569",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:BF-REQ-3129",
-      "hub": "legal",
-      "title": "Senior R&D Operations Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "Toronto",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior R&D Operations Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-09-03T11:52:24.918Z",
+      "scraped_at": "2026-09-04T11:55:28.447Z",
       "status": "open"
     }
   ]
