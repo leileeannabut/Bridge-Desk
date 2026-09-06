@@ -1,10 +1,98 @@
 {
-  "generated_at": "2026-09-05T11:05:33.104Z",
+  "generated_at": "2026-09-06T11:28:42.673Z",
   "count": 100,
-  "total_open": 131,
-  "sources_ok": 53,
-  "sources_failed": 21,
+  "total_open": 129,
+  "sources_ok": 54,
+  "sources_failed": 20,
   "jobs": [
+    {
+      "id": "agg:jobicy:142094",
+      "hub": "business",
+      "title": "Customer Support Representative",
+      "company": "1840 &#038; Company",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "APAC",
+      "employment_type": "full-time",
+      "comp_min": 3,
+      "comp_max": 4,
+      "summary": "We are seeking a dedicated and detail-oriented Customer Support Representative to join our team.",
+      "description": "We are seeking a dedicated and detail-oriented Customer Support Representative to join our team. The ideal candidate will be responsible for managing customer inquiries and ensuring timely and effective resolutionsthrough various communication channels. This is a part time employment only. Shift Schedule: EST\n\nKey Responsibilities:\n\n- Respond promptly to customer inquiries via email, messaging platforms, website chat, and social media messages.\n\n- Manage and resolve customer issues through our ticketing system, Zendesk, ensuring all communications are logged accurately.\n\n- Provide professional and empathetic support to customers, addressing product inquiries, order updates, troubleshooting, and general questions.\n\n- Collaborate with other departments to resolve complex issues and escalate cases when necessary.\n\n- Monitor and manage social media messages and comments, providing timely responses that align with the company’s tone and values.\n\n- Assist with processing returns, exchanges, and refunds, adhering to company policies.\n\n- Identify recurring issues and suggest process improvements to enhance the customer experience.\n\n- Maintain up-to-date knowledge of the products and services to provide accurate information to customers.\n\nRequirements:\n\n- 2-3 years of proven experience in customer support, using Zendesk as a ticketing system.\n\n- Excellent written communication skills with a professional and empathetic tone.\n\n- Ability to multitask and manage multiple communication channels simultaneously.\n\n- Strong problem-solving skills and attention to detail.\n\n- Familiarity with social media platforms and online chat systems.\n\n- Self-motivated and able to work independently in a remote environment.\n\n- Availability to work full-time, including occasional weekends or holidays if required.\n\nPreferred Qualifications:\n\n- Experience in e-commerce or retail customer support.\n\n- Knowledge of timepieces or a passion for creative and artistic products.\n\n- Familiarity with social media management tools.\n\nWhat We Offer:\n\n- Flexible remote work environment.\n\n- Opportunities for professional growth and development.\n\n- A supportive and collaborative team culture\n\nAbout 1840 & Company\n1840 & Company is a global leader in Business Process Outsourcing (BPO) and remote talent solutions, dedicated to propelling businesses forward through our comprehensive suite of services. We specialize in connecting companies with world-class freelance professionals and delivering top-tier outsourcing services, across over 150 countries worldwide.\nOur mission is to empower growth for forward-thinking businesses, seamlessly bridging any skill or resource gaps with our expertly vetted talent pool. We firmly believe in fostering an environment where exceptional individuals can achieve an optimal work-life balance, working remotely from any location, while maximizing their professional growth and earning potential.\nWe are headquartered in Overland Park, KS, USA with service delivery facilities in the Philippines, India, Ukraine, South Africa and Argentina. We invite you to explore the opportunities we offer and consider joining our exclusive network of global freelance talent. Visit www.1840andco.com to learn more about us. To explore a wealth of career opportunities and find a role that suits your unique skills and aspirations, please visit our dedicated jobs portal at jobs.1840andco.com.",
+      "apply_url": "https://jobicy.com/jobs/142094-customer-support-representative-3",
+      "source": "Jobicy",
+      "posted_at": "2026-09-06T05:47:47.000Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:148512",
+      "hub": "business",
+      "title": "Technical Support Specialist (Remote) - Entry Level, No Degree Required, 15 - 18",
+      "company": "NoGigiddy",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Entry",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 30000,
+      "comp_max": 36000,
+      "summary": "Job Description: Are you a tech-savvy individual looking to start a career in technical support without the need for a degree or prior experience? NoGigiddy is seeking enthusiastic…",
+      "description": "Job Description:\n\nAre you a tech-savvy individual looking to start a career in technical support without the need for a degree or prior experience? NoGigiddy is seeking enthusiastic and dedicated individuals to join our team as Technical Support Specialists. In this entry-level role, you will be the first point of contact for our users, providing expert technical assistance and ensuring a seamless experience for all.\n\nResponsibilities:\n\n\t•\tRespond to technical inquiries via chat, email, and phone in a timely and professional manner\n\t•\tDiagnose and troubleshoot software and hardware issues\n\t•\tProvide step-by-step guidance to users to resolve technical problems\n\t•\tAssist users with navigating our platform and utilizing its features effectively\n\t•\tMaintain a high level of customer satisfaction through excellent communication and problem-solving skills\n\t•\tCollaborate with team members to continuously improve support processes and user experience\n\t•\tDocument and escalate complex technical issues to the appropriate departments when necessary\n\t•\tParticipate in training sessions to stay updated on product knowledge and technical support best practices\n\nRequirements:\n\n\t•\tNo degree required\n\t•\tNo prior experience needed; we will provide comprehensive training\n\t•\tStrong technical aptitude and problem-solving abilities\n\t•\tExcellent written and verbal communication skills\n\t•\tAbility to work independently and as part of a team\n\t•\tReliable internet connection and a quiet workspace\n\t•\tPositive attitude and a willingness to learn\n\nBenefits:\n\n\t•\tCompetitive hourly pay ($15-$18/hr)\n\t•\tFlexible work-from-home schedule\n\t•\tComprehensive training program\n\t•\tOpportunities for growth and advancement within the company\n\t•\tSupportive team environment\n\t•\tAccess to exclusive gig opportunities\n\nHow to Apply:\n\nReady to join the NoGigiddy team and start your career in technical support? Apply now by sending your resume and a brief cover letter explaining why you’re the perfect fit for this role to support@nogigiddy.com.\n\nEqual Opportunity Employer:\n\nNoGigiddy is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.\n\nJoin NoGigiddy today and take the first step towards a rewarding career in technical support!",
+      "apply_url": "https://jobicy.com/jobs/148512-technical-support-specialist-remote-entry-level-no-degree-required-15-18",
+      "source": "Jobicy",
+      "posted_at": "2026-09-06T05:25:07.000Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:148515",
+      "hub": "business",
+      "title": "Chat Support Agent (Remote) - Entry Level, No Degree Required - 15 - 18 per Hour",
+      "company": "NoGigiddy",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Entry",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 30000,
+      "comp_max": 36000,
+      "summary": "About NoGigiddy: NoGigiddy is a premier on-demand staffing app that connects gig workers with flexible job opportunities across various industries.",
+      "description": "About NoGigiddy:\n\nNoGigiddy is a premier on-demand staffing app that connects gig workers with flexible job opportunities across various industries. Our platform specializes in offering work that fits your schedule, providing you with the flexibility and convenience you need. We are committed to helping you find the right gigs to match your skills and lifestyle.\n\nJob Description:\n\nAre you looking to kickstart your career in customer support without the need for a degree or prior experience? Look no further! NoGigiddy is seeking enthusiastic and dedicated individuals to join our team as Chat Support Agents. In this entry-level role, you will be the first point of contact for our users, providing top-notch support and ensuring a seamless experience for all.\n\nResponsibilities:\n\n\t•\tRespond to customer inquiries via chat in a timely and professional manner\n\t•\tProvide accurate information about NoGigiddy services and job opportunities\n\t•\tAssist users with navigating our platform and resolving any issues they encounter\n\t•\tMaintain a high level of customer satisfaction through excellent communication and problem-solving skills\n\t•\tCollaborate with team members to continuously improve support processes\n\t•\tDocument and escalate complex issues to the appropriate departments when necessary\n\t•\tParticipate in training sessions to stay updated on product knowledge and customer service best practices\n\nRequirements:\n\n\t•\tNo degree required\n\t•\tNo prior experience needed; we will provide comprehensive training\n\t•\tExcellent written communication skills\n\t•\tStrong problem-solving abilities and attention to detail\n\t•\tAbility to work independently and as part of a team\n\t•\tReliable internet connection and a quiet workspace\n\t•\tPositive attitude and a willingness to learn\n\nBenefits:\n\n\t•\tCompetitive hourly pay ($15-$18/hr)\n\t•\tFlexible work-from-home schedule\n\t•\tComprehensive training program\n\t•\tOpportunities for growth and advancement within the company\n\t•\tSupportive team environment\n\t•\tAccess to exclusive gig opportunities\n\nEqual Opportunity Employer:\n\nNoGigiddy is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.\n\nJoin NoGigiddy today and take the first step towards a rewarding career in customer support!",
+      "apply_url": "https://jobicy.com/jobs/148515-chat-support-agent-remote-entry-level-no-degree-required-15-18-per-hour",
+      "source": "Jobicy",
+      "posted_at": "2026-09-06T05:25:04.000Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152592",
+      "hub": "business",
+      "title": "Support Representative I",
+      "company": "Paytient",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 17,
+      "comp_max": 20,
+      "summary": "About Paytient: We’re on a mission to help people better access and afford care. Every day, millions of people, and their loved ones, need to see a doctor.",
+      "description": "About Paytient:\nWe’re on a mission to help people better access and afford care.\n\nEvery day, millions of people, and their loved ones, need to see a doctor. For most of us, that moment is an uncertain one - we’re unsure of what’s wrong, who to go to, how long it’ll take to be seen, when we’ll feel better, and what it’ll cost.\n\nPaytient partners with thoughtful employers and health plans who understand the impact of that moment and want to ensure that every one of their plan members are easily able to access and afford care. Our clients understand that an improved ability to self-pay for care changes patient behavior and creates value for the health plan. This founding belief is becoming an emerging standard of care in health plan design and is now, in fact, a mandatory capability in some governmental health plans. Founded in 2018, Paytient is now part of nearly 6,000 employer health plans and providing certainty that people are better able to access and afford care.\n\nWe’re looking for passionate, collaborative builders to join our team and help us create a future where everyone can more easily access and afford care.\n\nThe Mission: Why Paytient Exists\n\nAt Paytient, we believe that the cost of care should never be the reason someone goes without it. We are a healthcare-focused company building a world where people can access and pay for the care they need without the burden of high-interest debt.\n\nAs a Support Representative, you are on the front lines of this mission. You aren’t just resolving tickets; you are ensuring a senior can afford their life-saving medication and a family can pay for a doctor’s visit. You provide the technical expertise and human empathy required to make the healthcare system work better for everyone.\n\nThe Role: Advocate Support & Member Care\n\nWe support a dual ecosystem: Advocates (the professionals at our health plan partners who help seniors navigate benefits) and Paytients (the members actually using our cards to pay for care).\n\nYour Journey:\n\n- M3P Specialist: You will start by supporting our Medicare Prescription Payment Plan (M3P). You’ll be the technical expert for partners who use our digital portals to assist Medicare members.\n\n- HPA Evolution: Once you have mastered the M3P product, you will train to support our Health Payment Account (HPA) product, working directly with members to manage their interest-free payment plans and resolve transaction issues.\n\nWhat You’ll Do:\n\n- Technical Problem Solving: You’ll dig into the \"why\" behind transaction declines, portal login issues, and dashboard errors. You are the detective who investigates a problem and sees it through to the finish.\n\n- Mission-Driven Support: Provide clear, professional, and empathetic guidance via phone and email. We prioritize quality and kindness over \"call volume.\"\n\n- Collaboration: Document issues in Jira and use Confluence to stay updated on work instructions. You’ll work closely with our Product Technical Support (PTS) team to escalate bugs and improve our tools.\n\n- Attention to Detail: In healthcare, accuracy matters. You’ll ensure member plans are structured correctly and data is handled with the highest level of integrity.\n\nWho You Are\n\n- Technically Savvy: You navigate digital tools with ease. You are comfortable troubleshooting across multiple platforms and explaining technical steps to others. If you’ve ever been the \"tech support\" for your family, you’ll fit right in.\n\n- Healthcare Heart: You are passionate about helping people navigate the often-confusing world of healthcare costs.\n\n- Detail-Oriented: You take pride in \"getting it right the first time\" and ensuring nothing falls through the cracks.\n\n- Resourceful: You are a proactive learner who enjoys finding the root cause of an issue.\n\nThe Logistics\n\nRemote with Roots: We believe in the flexibility of remote work balanced by the \"roots\" of our Columbia, MO community.\n\n-\nWork Location: Columbia Office. Candidates must reside within a 30-mile radius of our office.\n\n-\nShift Time: Monday - Friday 1:30 PM – 10:00 PM CST with rotating weekends (every 3rd weekend). In office work is required 3x a week.\n\n-\nWeekend Rotation: You will work a weekend shift every 3rd weekend (Saturday and Sunday). Weekend shifts are either 7:00 AM - 3:30 PM, 9:30 AM - 6:00 PM, and 1:30 PM - 10:00 PM. For security and safety, all weekend shifts and any shift ending after 6:00 PM CST are 100% remote.\n\n-\nDays Off: On weeks where you work the weekend, your two days off during the week will be scheduled based on business needs (can fall on any weekday).\n\nTraining Schedule\n\n-\n\n-\nDuration: Approximately 4 weeks.\n\n-\nTraining Hours: Monday – Friday, 8:30 AM – 5:00 PM CST (includes a 30-minute unpaid lunch break).\n\n-\nFull attendance during the training period is required.\n\nWhy Paytient?\n\nIf you want to use your technical skills to solve real-world healthcare problems, you belong here. We are a growing team dedicated to making care more accessible, one transaction at a time.\n\nCompensation Target: $17.00 - $20.00 per hour\n\nBenefits We Offer for Full-Time Roles:\n\n- Medical, dental and vision insurance\n\n- $4,400 annual HSA contribution\n\n- Paytient Health Payment Account (HPA)\n\n- Monthly lifestyle spending stipend\n\n- Five weeks of annual PTO\n\n- Week-long fully paid 'summer break' for all employees!\n\n- Ten weeks of bonding leave for new parents\n\n- Two weeks of caregiver leave\n\n- Employer paid short-term and long-term disability\n\n- 401k plan access with a 4% employer match\n\n- Stock options in Paytient\n\n- ...and more!\n\nPaytient is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.\n\n⚠️ Important Notice ⚠️ Please note that all official Paytient recruiting emails come from @paytient.com. If you receive emails from any domain other than @paytient.com, do not respond and report it to us immediately.",
+      "apply_url": "https://jobicy.com/jobs/152592-support-representative-i",
+      "source": "Jobicy",
+      "posted_at": "2026-09-05T11:25:58.000Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
+      "status": "open"
+    },
     {
       "id": "agg:weworkremotely:porkbun-live-technical-support-representative-full-time-40-000-year-benefits-sat",
       "hub": "business",
@@ -24,7 +112,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-40-000-year-benefits-sat-sun-required-location-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -46,7 +134,7 @@
       "apply_url": "https://jobicy.com/jobs/152536-customer-service-representative-5",
       "source": "Jobicy",
       "posted_at": "2026-09-04T17:03:20.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
       "status": "open"
     },
     {
@@ -68,7 +156,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-04T15:24:42-04:00",
-      "scraped_at": "2026-09-05T11:04:44.616Z",
+      "scraped_at": "2026-09-06T11:28:12.988Z",
       "status": "open"
     },
     {
@@ -90,7 +178,7 @@
       "apply_url": "https://jobicy.com/jobs/152525-customer-success-associate-sustainability",
       "source": "Jobicy",
       "posted_at": "2026-09-04T13:33:56.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
       "status": "open"
     },
     {
@@ -112,7 +200,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8734158002",
       "source": "greenhouse",
       "posted_at": "2026-09-04T10:32:45-04:00",
-      "scraped_at": "2026-09-05T11:05:12.653Z",
+      "scraped_at": "2026-09-06T11:28:30.430Z",
       "status": "open"
     },
     {
@@ -134,7 +222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/6234225003",
       "source": "greenhouse",
       "posted_at": "2026-09-04T06:01:37-04:00",
-      "scraped_at": "2026-09-05T11:05:02.597Z",
+      "scraped_at": "2026-09-06T11:28:27.857Z",
       "status": "open"
     },
     {
@@ -156,7 +244,7 @@
       "apply_url": "https://jobicy.com/jobs/150148-helpdesk-support-agent",
       "source": "Jobicy",
       "posted_at": "2026-09-04T05:20:10.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
       "status": "open"
     },
     {
@@ -178,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/152471-tier-1-business-support-specialist",
       "source": "Jobicy",
       "posted_at": "2026-09-03T18:58:22.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
       "status": "open"
     },
     {
@@ -200,7 +288,7 @@
       "apply_url": "https://jobicy.com/jobs/152460-l1-hosting-tech-support-agent",
       "source": "Jobicy",
       "posted_at": "2026-09-03T18:54:49.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
       "status": "open"
     },
     {
@@ -222,7 +310,7 @@
       "apply_url": "https://jobicy.com/jobs/152457-customer-support-representative-night-shift-weekdays",
       "source": "Jobicy",
       "posted_at": "2026-09-03T18:53:47.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
       "status": "open"
     },
     {
@@ -244,7 +332,7 @@
       "apply_url": "https://jobicy.com/jobs/152456-helpdesk-support-agent-6-month-fixed-term-contract",
       "source": "Jobicy",
       "posted_at": "2026-09-03T18:53:30.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.302Z",
       "status": "open"
     },
     {
@@ -266,7 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8659519002",
       "source": "greenhouse",
       "posted_at": "2026-09-03T16:55:04-04:00",
-      "scraped_at": "2026-09-05T11:05:12.653Z",
+      "scraped_at": "2026-09-06T11:28:30.430Z",
       "status": "open"
     },
     {
@@ -288,7 +376,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -310,7 +398,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/ellipsis-executive-assistant-remote-uk-eu-38k-43k-year",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T10:49:23.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.541Z",
       "status": "open"
     },
     {
@@ -332,7 +420,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ebab81a7-1a8e-4d69-b814-29b33bdb70a9",
       "source": "lever",
       "posted_at": "2026-09-03T09:58:06.088Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -354,7 +442,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e1de05f5-39fe-4cb8-a632-d98f30a3816f",
       "source": "lever",
       "posted_at": "2026-09-03T09:53:17.920Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -376,7 +464,7 @@
       "apply_url": "https://jobicy.com/jobs/151883-customer-support-associate",
       "source": "Jobicy",
       "posted_at": "2026-09-03T06:05:03.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.303Z",
       "status": "open"
     },
     {
@@ -398,7 +486,7 @@
       "apply_url": "https://jobicy.com/jobs/150090-customer-service-specialist-3",
       "source": "Jobicy",
       "posted_at": "2026-09-03T06:00:15.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:42.303Z",
       "status": "open"
     },
     {
@@ -420,7 +508,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gohighlevel-crm-sales-appointment-setter-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T01:35:18.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -442,73 +530,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-09-02T19:59:53.000Z",
-      "scraped_at": "2026-09-05T11:05:32.290Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:152388",
-      "hub": "business",
-      "title": "Associate Product Support Specialist (Remote - UK)",
-      "company": "Fleetio",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Entry",
-      "location": "UK",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "A little about us…Fleetio is a modern software platform that helps thousands of organizations worldwide manage their fleet operations.",
-      "description": "A little about us…Fleetio is a modern software platform that helps thousands of organizations worldwide manage their fleet operations. Transportation technology is a hot market, and we’re leading the charge with raving fans and new customers signing up every day. We raised $450M in our Series D funding round in March of 2025 and are on an exciting trajectory as a company. Fleetio is also a proud founding member of the Rails Foundation!\n\nMore about our team and company:\n\n- Fleetio overview video: https://www.youtube.com/watch?v=YoXyXTFWbkg\n\n- Our careers page: https://www.fleetio.com/careers\n\nThe Customer Support team is seeking a knowledgeable and customer-focused individual to join our team as an Associate Customer Support Specialist in the United Kingdom! As an Associate Customer Support Specialist, you will be the first point of contact for our fleet management software, providing basic technical support and product knowledge to our customers. You will play a critical role in ensuring customer satisfaction, resolving complex technical issues, and delivering exceptional support experiences. This position requires a deep understanding of fleet management software, strong problem-solving skills, and the ability to communicate technical concepts effectively.\n\nWho you are\n\nThe ideal candidate for this role has served as the primary point of contact for basic technical support and product-related inquiries from customers in the software space. You've provided exceptional customer service through various channels, including phone and email while maintaining a high level of professionalism and empathy. The ideal candidate can demonstrate comprehensive knowledge of our fleet management software to customers, including a basic understanding of its features, functionalities, and integrations. Excelling in collaborative team environments, you will work closely with our Support Specialists and Shift Leads teams to escalate customer issues to the appropriate team. You continuously identify opportunities to improve the customer support process, including streamlining workflows, enhancing documentation, and implementing customer-focused initiatives. This role will report to our Customer Support Manager. The schedule for this role is Monday through Friday 10am - 7pm BST.\n\nResponsibilities:\n\n- Serve as the primary point of contact for basic technical support and product-related inquiries from customers using Fleetio.\n\n- Provide exceptional customer service for tier 1 tickets via phone calls while maintaining a high level of professionalism and empathy.\n\n- Demonstrate comprehensive knowledge of our fleet management software, including a basic understanding of its features, functionalities, and integrations.\n\n- Investigate complex software issues reported by customers, collaborating with Support Specialists, SME’s, Shift Leads, and Support Engineering teams to identify and escalate customer issues to the appropriate team.\n\n- Continuously identify opportunities to improve the customer support process, including streamlining workflows, enhancing documentation, and implementing customer-focused initiatives.\n\nYour experience\n\n- Previous experience in a customer support or technical support role, preferably in the software industry.\n\n- In-depth knowledge of fleet management software and related technologies is a plus!\n\n- Strong analytical and problem-solving skills, with the ability to troubleshoot complex technical issues effectively.\n\n- Excellent communication skills, both verbal and written, with the ability to convey technical concepts to customers clearly and concisely.\n\n- Customer-centric mindset with a passion for delivering exceptional support experiences.\n\n- Strong organizational skills and the ability to prioritize and manage multiple tasks simultaneously.\n\n- Proficiency in using customer support tools and software, including ticketing systems, CRM software, and remote support tools.\n\n- Flexibility to work occasional evenings or weekends to accommodate customer needs.\n\nBenefits\n\n- Multiple health/dental coverage options (100% coverage for employee, 50% for family)\n\n- Vision insurance\n\n- Incentive stock options\n\n- 401(k) match of 4%\n\n- PTO - 4 weeks (increases at year two!)\n\n- 12 company holidays + 2 floating holidays\n\n- Parental leave - birthing parent (16 weeks paid) non-birthing (4 weeks paid)\n\n- FSA & HSA options\n\n- Short and long term disability (short term 100% paid)\n\n- Community service funds\n\n- Professional development funds\n\n- Wellbeing fund - $150 quarterly\n\n- Business expense stipend - $125 quarterly\n\n- Mac laptop + new hire equipment stipend\n\n- Fully stocked kitchen with tons of drinks & snacks (BHM only)\n\n- Remote working friendly since 2012 #LI-Remote\n\nFleetio provides equal employment opportunities to all employees and applicants and prohibits discrimination and harassment. We celebrate diversity and are committed to creating an inclusive environment for all. All employment is decided on the basis of qualifications, merit and business need.\n\nThis application is not intended to and does not create a contract or offer of employment. Employment with Fleetio is at will.\n\nIf you have a disability or a special need that requires an accommodation to fill out the online application, please let us know by calling (205) 718-7500.",
-      "apply_url": "https://jobicy.com/jobs/152388-associate-product-support-specialist-remote-uk",
-      "source": "Jobicy",
-      "posted_at": "2026-09-02T19:34:04.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:152379",
-      "hub": "business",
-      "title": "SaaS Onboarding Specialist",
-      "company": "Housecall Pro",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Mexico",
-      "employment_type": "full-time",
-      "comp_min": 25450,
-      "comp_max": 28500,
-      "summary": "Why Housecall Pro? Help us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service profession…",
-      "description": "Why Housecall Pro?\n\nHelp us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support America’s 100 million homes. We’re all about the Pro, and dedicate our days to helping them streamline operations, scale their businesses, and—ultimately—save time so they can be with their families and live well.\n\nWhile our headquarters are based in Denver, Colorado, our team spans the globe, with teammates across Brazil, Poland, the Philippines, Mexico, and beyond. We care deeply about our customers and foster a culture where our company, people and Pros grow and succeed together—no matter where they’re based. Leadership is as focused on growing team members’ careers as they expect their teams to be on creating solutions for Pros.\n\nWe also offer:\n\n- Paid holidays and flexible, take-it-as-you-need-it scheduled time off\n\n- A culture built on innovation that values big ideas, no matter where they come from\n\nRole Overview:\n\nAs a Specialist, Onboarding, you are a professional who thrives in ensuring a seamless and positive onboarding experience for our service professionals (our Pros) to our platform. You are responsible for coordinating and facilitating customer onboarding, while providing exceptional customer service and answering Pros' questions and concerns.\n\nAs the dedicated and primary point of contact during the most critical window post-enrollment, you take ownership of the Pro experience, guiding them through early adoption, building confidence, and ensuring they realize value quickly. You bring a proactive approach to addressing challenges, empathy, and problem-solving skills to help better our team and improve the lives of our Pros. You operate with an ownership mindset, acting as a continuation of the sales experience by reinforcing the value of HCP and ensuring Pros feel confident they made the right decision.\n\nOur team is passionate, empathetic, hard working, and above all else focused on improving the lives of our Pros. Our success is their success.\n\nWhat You Do Each Day:\n\n- Own relationship during initial onboarding phase for new Pros including account activation and transition, adoption and product utilization, relationship building, and delivery of product and service value\n\n- Serve as the primary and dedicated resource for Pros during their early lifecycle, ensuring a smooth transition from sales through onboarding\n\n- Reinforce and “resell” the value of HCP, helping Pros build confidence in their decision and driving early product adoption\n\n- Effectively communicate client information, trends, and feedback across teams (i.e. Sales, Marketing, Engineering, and Tech Support)\n\n- Partner cross-functionally to support Pro success, especially collaborating with Account Managers to mitigate risk, drive retention, and ensure long-term growth\n\n- Develop, prepare, and nurture our Pros for advocacy, using a consultative and empathetic approach\n\n- Identify opportunities for expansion, recommend areas for improvement, and proactively look for ways to better our Pros experience\n\n- Manage details, timelines, and action to drive efficiency\n\n- Improve our Pros opportunities by leveraging qualitative and quantitative analysis\n\n- Develop processes that distinguish our brand by exceeding customer expectations in support delivery\n\n- Eloquently troubleshoot technical issues, have deep product knowledge, and think outside the box for solutions\n\nQualifications:\n\n- 1-3+ years experience in full-time customer success, implementation or sales\n\n- Bachelor's degree or equivalent experience in a related field\n\n- Proven success in developing relationships with new customers and exceeding success metrics\n\n- Ability to work the scheduled shifts: Monday - Friday 11am-8pm PST\n\n- Advanced English proficiency\n\nWhat Will Help You Succeed:\n\n- Self-starter with motivation, drive, and ability to work in a fast paced environment\n\n- Strong problem solving skills\n\n- Excellent written and verbal communication skills\n\n- Prompt attention to detail\n\n- Strong time management and organizational skills\n\n- Experience using AI tools to increase quality and efficiency of work\n\n- A natural curiosity backed by action; you are multi-dimensional (volunteering, creative outlets, side projects, hobbies, athletics), with a proven ability to successfully start over, learn from scratch, and thrive in new environments\n\nLocation Dependent Information\n\nThis role is open to candidates and the expected compensation range for this role is $25,450-$28,500 annual OTE (includes range of $19,750-$22,800 base plus variable bonus). The specific rate for the successful candidate will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location. Housecall Pro is growing fast and we’re scaling our team to help enable and accelerate our growth.\n\nFounded in 2013, Housecall Pro helps home service professionals (Pros) streamline every aspect of their business. With easy-to-use tools for scheduling, dispatching, payments, and more, Housecall Pro enables Pros to save time, grow profitably, and provide best-in-class service.\n\nHousecall Pro’s brand portfolio includes Business Coaching by Housecall Pro, a business coaching solution for home services businesses. Our brands are united by a singular mission to champion our Pros to success.\n\nWe support more than 50,000 businesses and have over 2,000 ambitious, mission-driven, genuinely fun-loving teammates across the globe. If you want to do work that impacts real people, supported by a team that will invest in you every step of the way, we’d love to hear from you.\n\nHousecall Pro celebrates diversity and we are committed to creating an inclusive environment. We are an equal opportunity employer and do not discriminate on the basis of gender, race, religion, national origin, ethnicity, disability, gender identity/expression, sexual orientation, veteran or military status, or any other category protected under the law. #LI-Remote\n\nPrivacy Notice for California Job Candidates - Housecall Pro\n\nUse of Artificial Intelligence in Hiring and Engagement Processes: we may use artificial intelligence (AI)-powered tools to support the review and evaluation of employment and independent contractor applications, including screening and qualification assessments. All final hiring and engagement decisions are made by human representatives, not AI tools.",
-      "apply_url": "https://jobicy.com/jobs/152379-saas-onboarding-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-09-02T12:37:09.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:152374",
-      "hub": "business",
-      "title": "Client Onboarding Specialist",
-      "company": "Housecall Pro",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Mexico",
-      "employment_type": "full-time",
-      "comp_min": 25450,
-      "comp_max": 28500,
-      "summary": "Why Housecall Pro? Help us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service profession…",
-      "description": "Why Housecall Pro?\n\nHelp us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support America’s 100 million homes. We’re all about the Pro, and dedicate our days to helping them streamline operations, scale their businesses, and—ultimately—save time so they can be with their families and live well.\n\nWhile our headquarters are based in Denver, Colorado, our team spans the globe, with teammates across Brazil, Poland, the Philippines, Mexico, and beyond. We care deeply about our customers and foster a culture where our company, people and Pros grow and succeed together—no matter where they’re based. Leadership is as focused on growing team members’ careers as they expect their teams to be on creating solutions for Pros.\n\nWe also offer:\n\n- Paid holidays and flexible, take-it-as-you-need-it scheduled time off\n\n- A culture built on innovation that values big ideas, no matter where they come from\n\nRole Overview:\n\nAs a Specialist, Onboarding, you are a professional who thrives in ensuring a seamless and positive onboarding experience for our service professionals (our Pros) to our platform. You are responsible for coordinating and facilitating customer onboarding, while providing exceptional customer service and answering Pros' questions and concerns.\n\nAs the dedicated and primary point of contact during the most critical window post-enrollment, you take ownership of the Pro experience, guiding them through early adoption, building confidence, and ensuring they realize value quickly. You bring a proactive approach to addressing challenges, empathy, and problem-solving skills to help better our team and improve the lives of our Pros. You operate with an ownership mindset, acting as a continuation of the sales experience by reinforcing the value of HCP and ensuring Pros feel confident they made the right decision.\n\nOur team is passionate, empathetic, hard working, and above all else focused on improving the lives of our Pros. Our success is their success.\n\nWhat You Do Each Day:\n\n- Own relationship during initial onboarding phase for new Pros including account activation and transition, adoption and product utilization, relationship building, and delivery of product and service value\n\n- Serve as the primary and dedicated resource for Pros during their early lifecycle, ensuring a smooth transition from sales through onboarding\n\n- Reinforce and “resell” the value of HCP, helping Pros build confidence in their decision and driving early product adoption\n\n- Effectively communicate client information, trends, and feedback across teams (i.e. Sales, Marketing, Engineering, and Tech Support)\n\n- Partner cross-functionally to support Pro success, especially collaborating with Account Managers to mitigate risk, drive retention, and ensure long-term growth\n\n- Develop, prepare, and nurture our Pros for advocacy, using a consultative and empathetic approach\n\n- Identify opportunities for expansion, recommend areas for improvement, and proactively look for ways to better our Pros experience\n\n- Manage details, timelines, and action to drive efficiency\n\n- Improve our Pros opportunities by leveraging qualitative and quantitative analysis\n\n- Develop processes that distinguish our brand by exceeding customer expectations in support delivery\n\n- Eloquently troubleshoot technical issues, have deep product knowledge, and think outside the box for solutions\n\nQualifications:\n\n- 1-3+ years experience in full-time customer success, implementation or sales\n\n- Bachelor's degree or equivalent experience in a related field\n\n- Proven success in developing relationships with new customers and exceeding success metrics\n\n- Ability to work the scheduled shifts: Monday - Friday 11am-8pm PST\n\n- Advanced English proficiency\n\nWhat Will Help You Succeed:\n\n- Self-starter with motivation, drive, and ability to work in a fast paced environment\n\n- Strong problem solving skills\n\n- Excellent written and verbal communication skills\n\n- Prompt attention to detail\n\n- Strong time management and organizational skills\n\n- Experience using AI tools to increase quality and efficiency of work\n\n- A natural curiosity backed by action; you are multi-dimensional (volunteering, creative outlets, side projects, hobbies, athletics), with a proven ability to successfully start over, learn from scratch, and thrive in new environments\n\nLocation Dependent Information\n\nThis role is open to candidates and the expected compensation range for this role is $25,450-$28,500 annual OTE (includes range of $19,750-$22,800 base plus variable bonus). The specific rate for the successful candidate will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location. Housecall Pro is growing fast and we’re scaling our team to help enable and accelerate our growth.\n\nFounded in 2013, Housecall Pro helps home service professionals (Pros) streamline every aspect of their business. With easy-to-use tools for scheduling, dispatching, payments, and more, Housecall Pro enables Pros to save time, grow profitably, and provide best-in-class service.\n\nHousecall Pro’s brand portfolio includes Business Coaching by Housecall Pro, a business coaching solution for home services businesses. Our brands are united by a singular mission to champion our Pros to success.\n\nWe support more than 50,000 businesses and have over 2,000 ambitious, mission-driven, genuinely fun-loving teammates across the globe. If you want to do work that impacts real people, supported by a team that will invest in you every step of the way, we’d love to hear from you.\n\nHousecall Pro celebrates diversity and we are committed to creating an inclusive environment. We are an equal opportunity employer and do not discriminate on the basis of gender, race, religion, national origin, ethnicity, disability, gender identity/expression, sexual orientation, veteran or military status, or any other category protected under the law. #LI-Remote\n\nPrivacy Notice for California Job Candidates - Housecall Pro\n\nUse of Artificial Intelligence in Hiring and Engagement Processes: we may use artificial intelligence (AI)-powered tools to support the review and evaluation of employment and independent contractor applications, including screening and qualification assessments. All final hiring and engagement decisions are made by human representatives, not AI tools.",
-      "apply_url": "https://jobicy.com/jobs/152374-client-onboarding-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-09-02T12:35:19.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
+      "scraped_at": "2026-09-06T11:28:41.066Z",
       "status": "open"
     },
     {
@@ -530,51 +552,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/bitwarden-billing-specialist-us-weekend",
       "source": "We Work Remotely",
       "posted_at": "2026-09-02T07:31:09.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:150027",
-      "hub": "business",
-      "title": "Customer Support Specialist",
-      "company": "Juniper Square",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Canada,  USA",
-      "employment_type": "full-time",
-      "comp_min": 60000,
-      "comp_max": 70000,
-      "summary": "About Juniper Square Private markets are one of the largest, most complex, and most underserved corners of global finance.",
-      "description": "About Juniper Square\nPrivate markets are one of the largest, most complex, and most underserved corners of global finance. Our mission at Juniper Square is to unlock their full potential. We’re the Operations Partner trusted by 2,300+ GPs, unifying technology, data, and fund administration services into a single platform that helps GPs move faster, make better decisions, and scale with precision. With $300B+ under administration and 700,000+ LPs on platform, we’ve built the scale to match our ambition. And with JunieAI, our purpose-built AI platform, we’re reimagining how private markets operate, embedding intelligence across every workflow. Founder-led since 2014, backed by $350M+ in funding, and now 1,000+ employees strong, we’re building a company designed to shape the future of private markets for decades to come.\nOur culture is built for people who want to do ambitious, meaningful work alongside exceptionally talented teammates. We think like owners, move with urgency, and take pride in solving hard problems that truly matter to our customers and the future of private markets. We believe the best ideas come from open debate, deep collaboration, and diverse perspectives, which is why we believe transparency is the default and feedback makes us stronger. If you’re energized by high standards, rapid growth, and the opportunity to help define a category at a pivotal moment, come join us!\nJuniper Square offers employees a variety of ways to work, ranging from a fully remote experience to working full-time in one of our physical offices. We invest heavily in digital-first operations, allowing our teams to collaborate effectively across 27 U.S. states, 2 Canadian Provinces, India, Luxembourg, and England. We also have physical offices in San Francisco, New York City, Mumbai and Bangalore for employees who prefer to work in an office some or all of the time.\n\nAbout your role\nAre you an exceptional problem solver who loves to learn new technologies and serve as an expert who teaches others? Are you an animal lover who would adore seeing furry friends join team Zoom calls? If so, we want you to join our team as a Customer Support Specialist at Juniper Square. As a member of our tight-knit Customer Support team, you will become a valuable partner to our growing base of private equity customers who use our software. You will serve as a product expert, troubleshoot complex issues, and collaborate cross-functionally to deliver great customer experiences.\nWe believe in creating a culture of continuous learning and growth, where you can develop your communication, problem-solving, and project management skills. If you’re considering a future in Customer Success, Technical Consulting, Sales, or Customer Enablement, this role is the beginning of your journey.\n\nWhat you’ll do\n- Deliver outstanding technical assistance to our customers via phone, email, and chat while taking ownership of timely solutions\n\n- Build knowledge of our evolving software and the private markets industry in order to be a go-to expert who can share best practices and guide customers to success\n\n- Build valuable B2B customer-facing skills by developing strong relationships with customers and acting as their trusted advisor\n\n- Work closely with Customer Success Managers, Product Managers, and Software Engineers to identify and implement solutions for our customers\n\n- Advocate by sharing customer feedback to inform product development and software improvements\n\n- Contribute towards cross-functional initiatives and strategic projects\n\n- Develop and refine internal documentation, processes, and procedures\n\n- Contribute to our positive and inclusive team culture by supporting your colleagues and sharing your knowledge and expertise\n\nQualifications\n- Bachelor’s degree (Finance, Accounting, Economics, MIS, or business-related degree preferred)\n\n- 2+ years of professional experience in relevant setting\n\n- Excellent written and verbal communication skills\n\n- Demonstrate assertiveness and perseverance when resolving customer requests\n\n- Team-first attitude, high level of empathy, and passion for helping others\n\n- Strong troubleshooting, problem-solving, and analytical ability\n\n- Excellent time management and organizational skills\n\n- Strong technical aptitude and a desire to learn and develop new skills\n\nAt Juniper Square, we believe building a diverse workforce and an inclusive culture makes us a better company. If you think this job sounds like a fit, we encourage you to apply even if you don’t meet all the qualifications.\n\nCompensation\nCompensation for this position includes a base salary, equity, and a variety of benefits. The U.S. base salary range for this role is $60,000 - $70,000. Actual base salaries will be based on candidate-specific factors, including experience, skillset, and location, and local minimum pay requirements as applicable.\n\nBenefits include:\n- Health, dental, and vision care for you and your family\n\n- Life insurance and disability coverage\n\n- Mental wellness coverage\n\n- Fertility and growing family support\n\n- Flex Time Off in addition to company-paid holidays\n\n- Paid family leave, medical leave, and bereavement leave policies\n\n- 401k retirement savings plan\n\n- Healthcare FSA and commuter benefits programs\n\n- Allowance to customize your work and technology setup at home\n\n- Annual professional development stipend\n\nYour recruiter can provide additional details about compensation and benefits.\n\n#LI-Remote\n#LI-AM",
-      "apply_url": "https://jobicy.com/jobs/150027-customer-support-specialist-2",
-      "source": "Jobicy",
-      "posted_at": "2026-09-02T04:59:16.000Z",
-      "scraped_at": "2026-09-05T11:05:32.734Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:150068",
-      "hub": "business",
-      "title": "Chat Support Agent - 15-18/hr",
-      "company": "NoGigiddy",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "NoGigiddy, a leading company in the on demand staffing and recruiting industry, is seeking a dedicated and passionate Chat Support Agent to join our remote team.",
-      "description": "NoGigiddy, a leading company in the on demand staffing and recruiting industry, is seeking a dedicated and passionate Chat Support Agent to join our remote team. In this role, you will play a vital role in ensuring a positive gig worker experience by providing top-notch customer support through our chat system. With our innovative platform connecting gig workers to various staffing local businesses, you will have the opportunity to make a real impact in revolutionizing the gig staffing industry.\nAt NoGigiddy, we prioritize our gig workers and aim to promote flexibility and convenience. Our dedication to improving the gig worker experience sets us apart, as we constantly explore new ways to create even more earning opportunities for gig workers. By joining our GigSquad, you will be part of a team that values your contribution and offers various paths for growth and development.\n\nResponsibilities\n - Respond promptly to gig workers' inquiries and provide accurate and helpful information through our chat support system.\n - Address and resolve gig workers' concerns, issues, or complaints with empathy and professionalism.\n - Collaborate with other team members to ensure a seamless and efficient chat support experience for gig workers.\n - Stay up-to-date with the features and functionalities of the NoGigiddy platform and our partner staffing apps.\n - Assist gig workers in navigating the NoGigiddy platform and troubleshoot any technical issues they may encounter.\n - Actively promote the benefits and features of NoGigiddy to gig workers to encourage engagement and participation.\n - Document and escalate complex or unresolved queries to the appropriate departments for further assistance.\n Requirements\n - Proven experience as a customer support agent or similar role, preferably in the gig economy or staffing industry.\n - Excellent written and verbal communication skills, with the ability to communicate clearly and concisely.\n - Strong multitasking and problem-solving skills, with the ability to navigate between multiple chat conversations efficiently.\n - Empathetic and customer-oriented mindset, with a genuine desire to help gig workers succeed.\n - Proficient computer skills, including the ability to navigate software applications and work with chat support tools.\n - Ability to work independently and remotely while maintaining a high level of productivity and focus.\n - Flexibility to work during peak hours, including evenings and weekends, to provide support as needed.",
-      "apply_url": "https://jobicy.com/jobs/150068-chat-support-agent-remote-15-18-hr",
-      "source": "Jobicy",
-      "posted_at": "2026-09-02T04:55:03.000Z",
-      "scraped_at": "2026-09-05T11:05:32.735Z",
+      "scraped_at": "2026-09-06T11:28:40.541Z",
       "status": "open"
     },
     {
@@ -596,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6178977004",
       "source": "greenhouse",
       "posted_at": "2026-09-02T01:19:27-04:00",
-      "scraped_at": "2026-09-05T11:05:24.247Z",
+      "scraped_at": "2026-09-06T11:28:32.697Z",
       "status": "open"
     },
     {
@@ -618,29 +596,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/big-bear-vacations-owner-retention-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-01T20:45:07.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:152351",
-      "hub": "business",
-      "title": "Network IT Specialist",
-      "company": "Rockbot",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 60000,
-      "comp_max": 75000,
-      "summary": "As the Network IT Specialist at Rockbot, you'll serve as the technical backbone of Rockbot's escalation function — the person the team turns to when issues are complex, environment…",
-      "description": "As the Network IT Specialist at Rockbot, you'll serve as the technical backbone of Rockbot's escalation function — the person the team turns to when issues are complex, environments are nuanced, or recurring problems require durable, systemic solutions.\n\nThis is a deeply hands-on technical support role for someone who enjoys solving hard problems, improving systems, and making the entire support organization stronger over time.\n\nYou'll own Rockbot's most advanced support scenarios across networking, firewall configuration, hardware, player setup, connectivity, and enterprise environments while also serving as a key partner in evolving our AI-enabled support operations.\n\nWith the rollout of Zendesk AI Co-Pilot and related automation tooling, you'll help optimize how support operates at scale — improving triage, workflows, agent efficiency, self-service experiences, and data quality. Just as importantly, you'll help close the loop: identifying patterns, improving documentation, influencing product and operational improvements, and reducing future support volume through scalable fixes.\n\nThe ideal candidate combines deep technical troubleshooting skills with systems thinking, operational maturity, and strong customer instincts. You'll partner closely with the Director of Support and cross-functional teams in Product, Engineering, Customer Success, and Sales, bringing a practitioner's perspective to configuring and optimizing the systems the team relies on.\n\nWhat You'll Do\n\nTier 2 Escalation & Technical Resolution\n\n- Own escalated Tier 2 technical cases across networking, firewall configuration, hardware troubleshooting, player setup, connectivity failures, and platform-level issues\n\n- Diagnose root cause through systematic troubleshooting and isolation techniques in complex customer environments\n\n- Escalate issues to Product and Engineering with clear reproduction steps, technical context, impact assessment, and supporting data\n\n- Identify recurring hardware or platform failure patterns and proactively surface trends and recommendations\n\n- Maintain clear, proactive communication with customers and internal stakeholders on status, timelines, and resolution paths\n\n- Meet SLA commitments for escalated tickets while proactively identifying and escalating risks\n\n- Participate in on-call rotation and provide occasional after-hours, weekend, and holiday coverage for enterprise escalations\n\nEnterprise & Strategic Account Support\n\n- Serve as a technical resource for enterprise and high-touch accounts with complex or customized environments\n\n- Support pilot and trial customers through technical validation, troubleshooting, and implementation guidance\n\n- Participate in customer calls, Slack channels, and cross-functional account reviews as needed\n\n- Partner with Customer Success and Sales to proactively identify technical risks and improve customer health\n\nAI Tooling, Support Operations & Workflow Optimization\n\n- Partner on the rollout, optimization, and administration of Zendesk AI Co-Pilot and related support tooling\n\n- Improve workflows related to intelligent triage, agent assist, automation, self-service, and support data hygiene\n\n- Bring a practitioner's perspective to support operations, tooling decisions, workflow design, and process scalability\n\n- Help define how AI can improve both customer experience and internal team efficiency\n\nKnowledge Management & Team Enablement\n\n- Build and maintain internal troubleshooting guides, escalation procedures, and operational playbooks\n\n- Author and improve Help Center content focused on high-volume technical issues\n\n- Act as a go-to technical resource for Tier 1 support\n\n- Coach team members through escalated cases by teaching diagnostic thinking and troubleshooting methodology — not just resolutions\n\nData, Insights & Product Advocacy\n\n- Analyze escalation trends, technical themes, and failure patterns to identify product and operational improvement opportunities\n\n- Contribute insights and metrics to monthly Support reporting\n\n- Advocate for customer-impacting fixes and operational improvements with data-driven recommendations\n\n- Monitor proactively for emerging issue clusters before they create large-scale customer impact\n\nWho You Are\n\n- 3+ years in a Tier 2, escalation, or advanced technical support role within SaaS, IoT, AV, media technology, or related environments\n\n- Strong networking fundamentals, including TCP/IP, VLANs, firewall configuration, and connectivity troubleshooting (required)\n\n- Hands-on experience troubleshooting hardware and device-level issues\n\n- Skilled at structured problem solving and systematic root-cause analysis\n\n- Strong written and verbal communication skills with both technical and non-technical audiences\n\n- Experience with Zendesk or similar support platforms, including workflow configuration or administration\n\n- Comfortable operating in fast-paced environments with shifting priorities and cross-functional collaboration\n\n- Experience supporting enterprise or high-touch customer environments\n\n- Exposure to AI-enabled support tooling, automation workflows, or Copilot-style systems\n\n- Strong operational instincts with experience improving documentation, workflows, or support processes\n\n- Consistent track record of strong productivity, quality, and customer satisfaction performance\n\n- Exposure to audio engineering and/or AV installation is a plus, not required\n\n- Exposure to network rack installation is a plus, not required\n\nOccasional holiday coverage and on-call responsibilities are required.\n\nAbout Rockbot:\n\nRockbot is an omnichannel media platform committed to elevating customer and employee experiences while fostering stronger connections in real-world spaces. Rockbot addresses the challenges businesses face in media management with integrated solutions spanning music, TV, digital signage, and advertising. Its mission is to enrich on-premise experiences with media technology, where every interaction is elevated and memorable.\n\nFrom independent local businesses to large national brands - across nearly every industry, including restaurants, bars, retailers, and more, Rockbot provides all the tools and licensed content businesses need. Backed by leading investors including Google and Universal Music Group, Rockbot is the future of out-of-home media. For more information visit www.rockbot.com.\n\nCompensation:\n\nRockbot takes a market-based approach to pay, and pay may vary depending on your location in the U.S. The successful candidate’s starting pay will be determined based on job-related skills, experience, qualifications, work location, and market conditions. These ranges may be modified in the future.\n\nThe base compensation band for this role is $60k-$75k, as well as equity, and benefits for all team members.\n\nOur Values:\n\n- Drive: We pursue our mission with relentless tenacity, passion, and optimism and inspire those around us to do the same. We love the journey and are on offense all the time. Yesterday was good enough for yesterday, but today we have to do even better.\n\n- Accountability: We take ownership of our promises, responsibilities, behaviors, and products, and we expect the same of others. Standing behind our mistakes, communicating honestly, and making things right creates trust and strong relationships.\n\n- Curiosity: We are hungry to learn and continually deepen our knowledge, skills, and understandings. We have a growth mindset and are intellectually curious. We challenge our beliefs and seek feedback and insights from others. The “Why” and “How” always matters.\n\n- Empathy: We embrace that no two people or businesses are the same. We strive to understand others as deeply as possible and feel their pains and passions.\n\n- Ingenuity: We work hard but we think smart. We bring creativity, technology, and practicality together to solve tough challenges.\n\n- Integrity: We say what we mean, and do what we say, simply, clearly, honestly.\n\nRockbot is an Equal Opportunity Employer, but that’s just the start. We believe different perspectives help us grow and achieve more. That’s why we’re dedicated to hiring and developing the most talented and diverse team – which includes individuals with different backgrounds, abilities, identities and experiences.",
-      "apply_url": "https://jobicy.com/jobs/152351-network-it-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-09-01T14:56:22.000Z",
-      "scraped_at": "2026-09-05T11:05:32.735Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -662,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
       "source": "greenhouse",
       "posted_at": "2026-09-01T01:42:29-04:00",
-      "scraped_at": "2026-09-05T11:05:02.597Z",
+      "scraped_at": "2026-09-06T11:28:27.857Z",
       "status": "open"
     },
     {
@@ -684,7 +640,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-05T11:05:24.247Z",
+      "scraped_at": "2026-09-06T11:28:32.697Z",
       "status": "open"
     },
     {
@@ -706,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-05T11:05:24.247Z",
+      "scraped_at": "2026-09-06T11:28:32.697Z",
       "status": "open"
     },
     {
@@ -728,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126662004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-05T11:05:24.247Z",
+      "scraped_at": "2026-09-06T11:28:32.697Z",
       "status": "open"
     },
     {
@@ -750,7 +706,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-french-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-08-29T07:31:19.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.541Z",
       "status": "open"
     },
     {
@@ -772,7 +728,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7980283003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T08:58:32-04:00",
-      "scraped_at": "2026-09-05T11:05:02.597Z",
+      "scraped_at": "2026-09-06T11:28:27.857Z",
       "status": "open"
     },
     {
@@ -794,7 +750,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7685198003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-05T11:05:02.596Z",
+      "scraped_at": "2026-09-06T11:28:27.857Z",
       "status": "open"
     },
     {
@@ -816,7 +772,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7598880003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-05T11:05:02.596Z",
+      "scraped_at": "2026-09-06T11:28:27.857Z",
       "status": "open"
     },
     {
@@ -838,7 +794,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7081017003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-05T11:05:02.597Z",
+      "scraped_at": "2026-09-06T11:28:27.857Z",
       "status": "open"
     },
     {
@@ -860,7 +816,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-05T11:05:02.597Z",
+      "scraped_at": "2026-09-06T11:28:27.857Z",
       "status": "open"
     },
     {
@@ -882,7 +838,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6122010004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T17:24:50-04:00",
-      "scraped_at": "2026-09-05T11:04:44.618Z",
+      "scraped_at": "2026-09-06T11:28:12.989Z",
       "status": "open"
     },
     {
@@ -904,7 +860,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -926,7 +882,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/carelock-com-behavioral-health-integration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-26T17:26:29.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.541Z",
       "status": "open"
     },
     {
@@ -948,7 +904,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8138520",
       "source": "greenhouse",
       "posted_at": "2026-08-25T06:58:32-04:00",
-      "scraped_at": "2026-09-05T11:04:53.858Z",
+      "scraped_at": "2026-09-06T11:28:20.914Z",
       "status": "open"
     },
     {
@@ -970,7 +926,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-08-24T08:23:58-04:00",
-      "scraped_at": "2026-09-05T11:04:53.858Z",
+      "scraped_at": "2026-09-06T11:28:20.914Z",
       "status": "open"
     },
     {
@@ -992,7 +948,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8105783",
       "source": "greenhouse",
       "posted_at": "2026-08-24T04:19:41-04:00",
-      "scraped_at": "2026-09-05T11:04:52.465Z",
+      "scraped_at": "2026-09-06T11:28:19.352Z",
       "status": "open"
     },
     {
@@ -1014,7 +970,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-09-05T11:04:44.618Z",
+      "scraped_at": "2026-09-06T11:28:12.990Z",
       "status": "open"
     },
     {
@@ -1036,7 +992,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6138978004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:34:49-04:00",
-      "scraped_at": "2026-09-05T11:04:44.618Z",
+      "scraped_at": "2026-09-06T11:28:12.990Z",
       "status": "open"
     },
     {
@@ -1080,7 +1036,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:38:17.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -1102,7 +1058,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/pearl-product-cad-packaging-production-specialist-a341",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:37:13.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.541Z",
       "status": "open"
     },
     {
@@ -1124,7 +1080,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
       "source": "greenhouse",
       "posted_at": "2026-08-19T08:40:20-04:00",
-      "scraped_at": "2026-09-05T11:04:52.465Z",
+      "scraped_at": "2026-09-06T11:28:19.352Z",
       "status": "open"
     },
     {
@@ -1146,7 +1102,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-account-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-08-18T07:30:35.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -1234,7 +1190,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-08-11T20:18:02.000Z",
-      "scraped_at": "2026-09-05T11:05:32.290Z",
+      "scraped_at": "2026-09-06T11:28:41.066Z",
       "status": "open"
     },
     {
@@ -1256,7 +1212,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -1278,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -1300,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/88d09213-d4fe-4c85-92ce-954901559d92",
       "source": "lever",
       "posted_at": "2026-08-04T14:32:11.323Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -1322,7 +1278,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/the-humane-league-temporary-us-corporate-relations-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-03T17:34:26.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -1344,7 +1300,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -1366,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1388,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4cc16c3e-f07c-435a-9f16-f162400ee703",
       "source": "lever",
       "posted_at": "2026-07-21T08:48:59.916Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -1410,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1d86bd08-10a0-4973-80e5-56b26b63b65c",
       "source": "lever",
       "posted_at": "2026-07-20T16:16:35.695Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1432,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/2c549930-f851-4077-9fef-8f4291ee7649",
       "source": "lever",
       "posted_at": "2026-07-07T12:09:13.992Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1454,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1476,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1ec2d65d-c382-46d9-a0e6-4e82af26b3ed",
       "source": "lever",
       "posted_at": "2026-06-22T14:00:51.567Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -1498,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1520,7 +1476,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/221e6a7a-4e02-4dd4-83d7-babe5361f21a",
       "source": "lever",
       "posted_at": "2026-06-12T10:36:34.244Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1542,7 +1498,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -1564,7 +1520,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1586,7 +1542,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1608,7 +1564,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.013Z",
       "status": "open"
     },
     {
@@ -1630,7 +1586,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -1652,7 +1608,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-09-05T11:05:31.806Z",
+      "scraped_at": "2026-09-06T11:28:40.542Z",
       "status": "open"
     },
     {
@@ -1674,7 +1630,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1696,7 +1652,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-09-05T11:05:02.696Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1718,7 +1674,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1740,7 +1696,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b3174af4-de6f-471b-81e3-de8cfd500b18",
       "source": "lever",
       "posted_at": "2023-01-23T15:42:17.587Z",
-      "scraped_at": "2026-09-05T11:05:02.695Z",
+      "scraped_at": "2026-09-06T11:28:28.012Z",
       "status": "open"
     },
     {
@@ -1762,7 +1718,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-09-05T11:04:59.489Z",
+      "scraped_at": "2026-09-06T11:28:25.445Z",
       "status": "open"
     },
     {
@@ -1784,7 +1740,7 @@
       "apply_url": "https://jobs.lever.co/webfx/a8e8ff2a-a53f-4770-b2ea-b3df91d4d175",
       "source": "lever",
       "posted_at": "2020-03-11T18:25:55.023Z",
-      "scraped_at": "2026-09-05T11:05:29.009Z",
+      "scraped_at": "2026-09-06T11:28:37.891Z",
       "status": "open"
     },
     {
@@ -1806,7 +1762,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:44.821Z",
+      "scraped_at": "2026-09-06T11:28:13.078Z",
       "status": "open"
     },
     {
@@ -1828,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Santiago/Customer-Training-Specialist_REQ-5042",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -1850,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist_REQ-4441",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -1872,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Graphic-Designer_REQ-5220",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -1894,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Payroll-Specialist--EMEA_REQ-5254",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -1916,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -1938,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Support-Specialist--APAC_REQ-5338",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -1960,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -1982,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Support-Specialist--New-Grads-_REQ-5019",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2004,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2026,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Onboarding-Specialist_REQ-5252",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2048,7 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2070,7 +2026,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2092,7 +2048,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2114,7 +2070,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Talent-Sourcer_REQ-4291",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2136,7 +2092,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2158,7 +2114,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2180,7 +2136,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/People-Systems---Analytics-Specialist--Workday-_REQ-4449",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     },
     {
@@ -2202,7 +2158,51 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-05T11:04:50.863Z",
+      "scraped_at": "2026-09-06T11:28:18.059Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-4569",
+      "hub": "legal",
+      "title": "Senior Global Benefits & Leaves Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Senior",
+      "location": "4 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Global Benefits & Leaves Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Global-Benefits---Leaves-Specialist_REQ-4569",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-09-06T11:28:18.059Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:BF-REQ-3129",
+      "hub": "legal",
+      "title": "Senior R&D Operations Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Senior",
+      "location": "Toronto",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior R&D Operations Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-09-06T11:28:18.059Z",
       "status": "open"
     }
   ]
