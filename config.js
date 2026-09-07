@@ -423,7 +423,7 @@ export const COMPANIES = [
   { id: "docplanner", name: "Docplanner", hub: "business", careersUrl: "https://www.docplanner.com/careers", website: "https://www.docplanner.com", segment: "Healthcare Booking Platform", country: "Poland", verified: false, method: null, atsSlug: null, active: true },
 
   // Brazil
-  { id: "nubank", name: "Nubank", hub: "fintech", careersUrl: "https://nubank.com.br/en/carreiras/", website: "https://nubank.com.br", segment: "Digital Bank", country: "Brazil", verified: false, method: null, atsSlug: null, active: true },
+  { id: "nubank", name: "Nubank", hub: "fintech", careersUrl: "https://nubank.com.br/en/carreiras/", website: "https://nubank.com.br", segment: "Digital Bank", country: "Brazil", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "loft-br", name: "Loft", hub: "business", careersUrl: "https://www.loft.com.br/carreiras", website: "https://www.loft.com.br", segment: "Real Estate Platform", country: "Brazil", verified: false, method: null, atsSlug: null, active: true },
 
   // Mexico
