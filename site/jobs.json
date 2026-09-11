@@ -1,10 +1,32 @@
 {
-  "generated_at": "2026-09-10T12:00:21.943Z",
+  "generated_at": "2026-09-11T11:59:07.453Z",
   "count": 100,
-  "total_open": 112,
+  "total_open": 113,
   "sources_ok": 54,
-  "sources_failed": 21,
+  "sources_failed": 22,
   "jobs": [
+    {
+      "id": "agg:jobicy:152989",
+      "hub": "business",
+      "title": "Technical Support Specialist - German Speaking",
+      "company": "Synthesia",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "UK",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100.",
+      "description": "Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100. Founded in 2017, the company is headquartered in London, with offices and teams across Europe and the US.\n\nAs AI continues to shape the way we live and work, Synthesia develops products to enhance visual communication and enterprise skill development, helping people work better and stay at the center of successful organizations.\n\nFollowing our recent Series E funding round, where we raised $200 million, our valuation stands at $4 billion. Our total funding exceeds $530 million from premier investors including Accel, NVentures (Nvidia's VC arm), Kleiner Perkins, GV, and Evantic Capital, alongside the founders and operators of Stripe, Datadog, Miro, and Webflow.\n\nTechnical Support Specialist\n\nAs a Technical Support Specialist, you’ll play a key role in ensuring Synthesia\n\ndelivers a reliable and consistent experience for our customers. You’ll be the go-to\n\nteam for internal technical escalations and play a key part in Synthesia’s technical\n\nSuccess.\n\nYou’ll investigate complex platform issues, apply technical fixes where possible,\n\nand escalate clearly to Engineering when required. You’ll own cases end to end,\n\nreproducing problems, analysing logs and data, validating workarounds or\n\npatches, and confirming resolution with the customer.\n\nRole Responsibilities:\n\n-\nInvestigate and troubleshoot complex technical issues across the Synthesia\n\n-\nplatform\n\n-\nApply fixes, configuration changes, or validated workarounds where possible\n\n-\nEscalate to Engineering with clear diagnostic details and impact assessments\n\n-\nReproduce reported issues in internal environments to identify root causes\n\n-\nAnalyse logs, data, and customer configurations to support investigations\n\n-\nValidate fixes or patches and confirm resolution with the customer\n\n-\nDocument findings, solutions, and technical procedures for future reference\n\n-\nCollaborate with Product and Engineering teams to report bugs and suggest\n\n-\nimprovements\n\nAbout You:\n\n-\nMinimum 5 years of experience in a technical support or similar customer-facing technical role\n\n-\nStrong troubleshooting and problem-solving skills, with a logical and analytical approach\n\n-\nConfident communicator with clear, concise verbal and written skills\n\n-\nSolid technical foundation and curiosity to learn new systems and tools\n\n-\nExperienced in diagnosing and resolving technical issues remotely\n\n-\nAble to prioritise and manage workload in a fast-paced environment\n\n-\nComfortable working both independently and collaboratively across teams\n\nTechnical Experience:\n\n-\nSSO / WorkOS configuration and troubleshooting\n\n-\nREST APIs and Postman for testing and validation\n\n-\nMonitoring and debugging using Datadog\n\n-\nSaaS platform support and administration\n\n-\nAnalysing HAR files and network traffic for issue reproduction\n\nAt Synthesia we expect everyone to...\n\n-\nPut the Customer First\n\n-\nOwn it & Go Direct\n\n-\nBe Fast & Experimental\n\n-\nMake the Journey Fun\n\nThe good stuff...\n\nIn addition to being a part of a great team, working in a fun and innovative environment, we offer:\n\n-\nA competitive salary + stock options in our fast-growing Series D startup\n\n-\nPaid parental leave\n\n-\n25 days of annual leave + public holidays + paid sick leave\n\n-\nFun culture with regular socials\n\n-\nA generous referral scheme\n\n-\nA brand new computer + monitor",
+      "apply_url": "https://jobicy.com/jobs/152989-technical-support-specialist-german-speaking",
+      "source": "Jobicy",
+      "posted_at": "2026-09-10T19:40:47.000Z",
+      "scraped_at": "2026-09-11T11:59:06.845Z",
+      "status": "open"
+    },
     {
       "id": "greenhouse:gocardless:8127296",
       "hub": "fintech",
@@ -24,7 +46,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-09-10T04:35:34-04:00",
-      "scraped_at": "2026-09-10T11:59:56.591Z",
+      "scraped_at": "2026-09-11T11:58:33.653Z",
       "status": "open"
     },
     {
@@ -46,7 +68,7 @@
       "apply_url": "https://jobicy.com/jobs/152926-implementation-specialist-2",
       "source": "Jobicy",
       "posted_at": "2026-09-09T16:39:24.000Z",
-      "scraped_at": "2026-09-10T12:00:21.406Z",
+      "scraped_at": "2026-09-11T11:59:06.845Z",
       "status": "open"
     },
     {
@@ -68,7 +90,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-09T15:17:17.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -90,7 +112,7 @@
       "apply_url": "https://jobicy.com/jobs/152869-coordinator-payroll-client-services-emea",
       "source": "Jobicy",
       "posted_at": "2026-09-09T07:06:11.000Z",
-      "scraped_at": "2026-09-10T12:00:21.406Z",
+      "scraped_at": "2026-09-11T11:59:06.845Z",
       "status": "open"
     },
     {
@@ -112,7 +134,7 @@
       "apply_url": "https://jobicy.com/jobs/152868-coordinator-payroll-client-services-apac",
       "source": "Jobicy",
       "posted_at": "2026-09-09T07:05:51.000Z",
-      "scraped_at": "2026-09-10T12:00:21.406Z",
+      "scraped_at": "2026-09-11T11:59:06.845Z",
       "status": "open"
     },
     {
@@ -134,7 +156,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/assignr-llc-customer-support-specialist-2",
       "source": "We Work Remotely",
       "posted_at": "2026-09-08T20:46:38.000Z",
-      "scraped_at": "2026-09-10T12:00:20.390Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -156,7 +178,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8734158002",
       "source": "greenhouse",
       "posted_at": "2026-09-08T14:35:51-04:00",
-      "scraped_at": "2026-09-10T12:00:04.498Z",
+      "scraped_at": "2026-09-11T11:58:44.586Z",
       "status": "open"
     },
     {
@@ -178,7 +200,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
       "source": "greenhouse",
       "posted_at": "2026-09-08T13:42:17-04:00",
-      "scraped_at": "2026-09-10T11:59:54.656Z",
+      "scraped_at": "2026-09-11T11:58:31.959Z",
       "status": "open"
     },
     {
@@ -200,7 +222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8105783",
       "source": "greenhouse",
       "posted_at": "2026-09-08T13:42:17-04:00",
-      "scraped_at": "2026-09-10T11:59:54.656Z",
+      "scraped_at": "2026-09-11T11:58:31.960Z",
       "status": "open"
     },
     {
@@ -222,7 +244,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/43830805-2fbe-4ca5-9553-7e2b87dc7b79",
       "source": "lever",
       "posted_at": "2026-09-08T08:42:57.754Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -244,7 +266,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/squarespace-customer-support-associate-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-08T07:31:00.000Z",
-      "scraped_at": "2026-09-10T12:00:20.390Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -266,7 +288,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7608569003",
       "source": "greenhouse",
       "posted_at": "2026-09-07T08:56:23-04:00",
-      "scraped_at": "2026-09-10T12:00:02.664Z",
+      "scraped_at": "2026-09-11T11:58:41.595Z",
       "status": "open"
     },
     {
@@ -288,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-40-000-year-benefits-sat-sun-required-location-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-09-10T12:00:20.390Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -310,7 +332,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-04T15:24:42-04:00",
-      "scraped_at": "2026-09-10T11:59:48.028Z",
+      "scraped_at": "2026-09-11T11:58:24.505Z",
       "status": "open"
     },
     {
@@ -332,7 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8659519002",
       "source": "greenhouse",
       "posted_at": "2026-09-03T16:55:04-04:00",
-      "scraped_at": "2026-09-10T12:00:04.498Z",
+      "scraped_at": "2026-09-11T11:58:44.586Z",
       "status": "open"
     },
     {
@@ -354,7 +376,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.074Z",
       "status": "open"
     },
     {
@@ -376,7 +398,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/ellipsis-executive-assistant-remote-uk-eu-38k-43k-year",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T10:49:23.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -398,7 +420,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gohighlevel-crm-sales-appointment-setter-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T01:35:18.000Z",
-      "scraped_at": "2026-09-10T12:00:20.390Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -420,7 +442,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-09-02T19:59:53.000Z",
-      "scraped_at": "2026-09-10T12:00:20.910Z",
+      "scraped_at": "2026-09-11T11:59:06.368Z",
       "status": "open"
     },
     {
@@ -442,7 +464,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/d826d628-f554-4dbe-bd2f-24a73f9d47d7",
       "source": "lever",
       "posted_at": "2026-09-02T16:17:04.959Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.074Z",
       "status": "open"
     },
     {
@@ -464,7 +486,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/bitwarden-billing-specialist-us-weekend",
       "source": "We Work Remotely",
       "posted_at": "2026-09-02T07:31:09.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -486,7 +508,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6178977004",
       "source": "greenhouse",
       "posted_at": "2026-09-02T01:19:27-04:00",
-      "scraped_at": "2026-09-10T12:00:06.986Z",
+      "scraped_at": "2026-09-11T11:58:56.157Z",
       "status": "open"
     },
     {
@@ -508,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/big-bear-vacations-owner-retention-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-01T20:45:07.000Z",
-      "scraped_at": "2026-09-10T12:00:20.390Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -530,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
       "source": "greenhouse",
       "posted_at": "2026-09-01T01:42:29-04:00",
-      "scraped_at": "2026-09-10T12:00:02.664Z",
+      "scraped_at": "2026-09-11T11:58:41.596Z",
       "status": "open"
     },
     {
@@ -552,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-10T12:00:06.986Z",
+      "scraped_at": "2026-09-11T11:58:56.157Z",
       "status": "open"
     },
     {
@@ -574,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-10T12:00:06.986Z",
+      "scraped_at": "2026-09-11T11:58:56.157Z",
       "status": "open"
     },
     {
@@ -596,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126662004",
       "source": "greenhouse",
       "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-10T12:00:06.986Z",
+      "scraped_at": "2026-09-11T11:58:56.157Z",
       "status": "open"
     },
     {
@@ -618,7 +640,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-french-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-08-29T07:31:19.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -640,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7980283003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T08:58:32-04:00",
-      "scraped_at": "2026-09-10T12:00:02.664Z",
+      "scraped_at": "2026-09-11T11:58:41.596Z",
       "status": "open"
     },
     {
@@ -662,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7598880003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-10T12:00:02.664Z",
+      "scraped_at": "2026-09-11T11:58:41.595Z",
       "status": "open"
     },
     {
@@ -684,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7081017003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-10T12:00:02.664Z",
+      "scraped_at": "2026-09-11T11:58:41.595Z",
       "status": "open"
     },
     {
@@ -706,7 +728,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-08-28T06:01:23-04:00",
-      "scraped_at": "2026-09-10T12:00:02.664Z",
+      "scraped_at": "2026-09-11T11:58:41.596Z",
       "status": "open"
     },
     {
@@ -728,7 +750,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6122010004",
       "source": "greenhouse",
       "posted_at": "2026-08-27T17:24:50-04:00",
-      "scraped_at": "2026-09-10T11:59:48.029Z",
+      "scraped_at": "2026-09-11T11:58:24.506Z",
       "status": "open"
     },
     {
@@ -750,7 +772,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -772,7 +794,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/carelock-com-behavioral-health-integration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-26T17:26:29.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -794,7 +816,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-09-10T11:59:48.030Z",
+      "scraped_at": "2026-09-11T11:58:24.506Z",
       "status": "open"
     },
     {
@@ -816,7 +838,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6138978004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T14:34:49-04:00",
-      "scraped_at": "2026-09-10T11:59:48.030Z",
+      "scraped_at": "2026-09-11T11:58:24.506Z",
       "status": "open"
     },
     {
@@ -860,7 +882,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:38:17.000Z",
-      "scraped_at": "2026-09-10T12:00:20.390Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -882,7 +904,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/pearl-product-cad-packaging-production-specialist-a341",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:37:13.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -970,7 +992,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-08-11T20:18:02.000Z",
-      "scraped_at": "2026-09-10T12:00:20.910Z",
+      "scraped_at": "2026-09-11T11:59:06.368Z",
       "status": "open"
     },
     {
@@ -992,7 +1014,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -1014,7 +1036,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -1036,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/88d09213-d4fe-4c85-92ce-954901559d92",
       "source": "lever",
       "posted_at": "2026-08-04T14:32:11.323Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -1058,7 +1080,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/the-humane-league-temporary-us-corporate-relations-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-03T17:34:26.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -1080,7 +1102,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -1102,29 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
-      "status": "open"
-    },
-    {
-      "id": "lever:octopus-energy:1d86bd08-10a0-4973-80e5-56b26b63b65c",
-      "hub": "business",
-      "title": "Business Onboarding Specialist",
-      "company": "Octopus Energy",
-      "company_id": "octopus-energy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Energy Retailer & Tech",
-      "level": "Mid",
-      "location": "London (GB)",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "We’re making electric vehicle charging as smart and as simple as possible by building the giant, virtual charging platform of the future.",
-      "description": "We’re making electric vehicle charging as smart and as simple as possible by building the giant, virtual charging platform of the future.\nIn just four years, Octopus Electroverse has grown to become one of the largest eMobility players globally, with over 1.4 million connected electric vehicle chargers and a customer ecosystem spanning web, iOS, Android, CarPlay, Android Auto & Automotive OS, and more. \nBut it’s just the start: we’re busy expanding internationally, working with more automotive and tech partners, building exciting new features at scale, and creating the integrated charging experiences of the future - all in the name of making public EV charging super simple for customers.\nOctopus Fleet is our business offering, a multifunctional team made up of product, development, commercial, operations, marketing, partnerships and more - all focused on simplifying operations across mixed and fully electrified vehicle fleets.\nAbout the Role\nWe are looking for a highly detail-oriented and enthusiastic Business Onboarding Specialist to join the Octopus Fleet team. In this pivotal new role, you will support new businesses joining Electroverse, guiding them through a smooth, compliant onboarding process as they transition to sustainable EV energy.\nThis is an excellent opportunity for someone with great communication skills and a passion for customer service to learn the operational ropes of a high-growth scale-up.\n\n-\nOwn the onboarding process by managing and executing the end-to-end journey for bringing new business customers onto the Octopus Fleet platform, ensuring a positive and efficient start.\n\n-\nProvide responsive customer support as the first line of contact for new and existing business clients, answering operational queries and delivering a high-quality service experience.\n\n-\nHandle compliance and verification by accurately completing administrative tasks related to vetting new business sign-ups and conducting Know Your Business (KYB) checks.\n\n-\nManage documentation and reporting by maintaining accurate client records and onboarding progress in our CRM systems, as well as assisting with basic status reporting.\n\n-\nDrive the internal feedback loop by channeling customer insights and common operational friction points to product and tech teams to continually refine our tools and processes.\n\n-\nA strong customer focus driven by genuine enthusiasm for delivering exceptional client experiences and a passion for driving sustainability and EV adoption.\n\n-\nTop-tier communication skills, both written and verbal, with the ability to clearly explain processes and professionally interact with business contacts.\n\n-\nSolid organisational ability to manage multiple administrative tasks and customer priorities simultaneously in a fast-paced environment.\n\n-\nMeticulous attention to detail and a desire to ensure every step of the process (especially compliance checks) is completed accurately and thoroughly.\n\n-\nAdaptability and resourcefulness to thrive in an environment where things are constantly improving, alongside a proactive approach to problem-solving.\n\n- Prior experience in a customer service, administrative, or operations support role is a strong plus.",
-      "apply_url": "https://jobs.lever.co/octoenergy/1d86bd08-10a0-4973-80e5-56b26b63b65c",
-      "source": "lever",
-      "posted_at": "2026-07-20T16:16:35.695Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -1146,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/2c549930-f851-4077-9fef-8f4291ee7649",
       "source": "lever",
       "posted_at": "2026-07-07T12:09:13.992Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.074Z",
       "status": "open"
     },
     {
@@ -1168,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.074Z",
       "status": "open"
     },
     {
@@ -1190,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1ec2d65d-c382-46d9-a0e6-4e82af26b3ed",
       "source": "lever",
       "posted_at": "2026-06-22T14:00:51.567Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -1212,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.074Z",
       "status": "open"
     },
     {
@@ -1234,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -1256,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.074Z",
       "status": "open"
     },
     {
@@ -1278,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -1300,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -1322,7 +1322,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-09-10T12:00:20.390Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -1344,7 +1344,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-09-10T12:00:20.389Z",
+      "scraped_at": "2026-09-11T11:59:05.879Z",
       "status": "open"
     },
     {
@@ -1366,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.074Z",
       "status": "open"
     },
     {
@@ -1388,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-09-10T12:00:02.587Z",
+      "scraped_at": "2026-09-11T11:58:43.075Z",
       "status": "open"
     },
     {
@@ -1410,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-09-10T12:00:02.586Z",
+      "scraped_at": "2026-09-11T11:58:43.074Z",
       "status": "open"
     },
     {
@@ -1432,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-09-10T12:00:00.131Z",
+      "scraped_at": "2026-09-11T11:58:37.334Z",
       "status": "open"
     },
     {
@@ -1454,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/webfx/a8e8ff2a-a53f-4770-b2ea-b3df91d4d175",
       "source": "lever",
       "posted_at": "2020-03-11T18:25:55.023Z",
-      "scraped_at": "2026-09-10T12:00:12.840Z",
+      "scraped_at": "2026-09-11T11:59:03.089Z",
       "status": "open"
     },
     {
@@ -1476,7 +1476,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:48.044Z",
+      "scraped_at": "2026-09-11T11:58:24.566Z",
       "status": "open"
     },
     {
@@ -1498,7 +1498,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Santiago/Customer-Training-Specialist_REQ-5042",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1520,7 +1520,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1542,7 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist_REQ-4441",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1564,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Graphic-Designer_REQ-5220",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1586,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Payroll-Specialist--EMEA_REQ-5254",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1608,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1630,29 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5019",
-      "hub": "legal",
-      "title": "Customer Support Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Toronto",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Customer Support Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Support-Specialist--New-Grads-_REQ-5019",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1674,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1696,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1718,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1740,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1762,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1784,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/People-Systems---Analytics-Specialist--Workday-_REQ-4449",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1806,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1828,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Global-Benefits---Leaves-Specialist_REQ-4569",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1850,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1872,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1894,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Customer-Training-Specialist_REQ-5239-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1916,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/Workplace-Experience-Specialist_REQ-4507",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1938,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1960,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -1982,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:53.452Z",
+      "scraped_at": "2026-09-11T11:58:30.677Z",
       "status": "open"
     },
     {
@@ -2004,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/7a5a1cfa-bd48-4731-8b14-f4f22747dd7f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:56.151Z",
+      "scraped_at": "2026-09-11T11:58:33.230Z",
       "status": "open"
     },
     {
@@ -2026,7 +2004,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:56.151Z",
+      "scraped_at": "2026-09-11T11:58:33.230Z",
       "status": "open"
     },
     {
@@ -2048,7 +2026,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:56.151Z",
+      "scraped_at": "2026-09-11T11:58:33.230Z",
       "status": "open"
     },
     {
@@ -2070,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/05224546-e164-419e-b0f2-b42e6bf61212/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:56.151Z",
+      "scraped_at": "2026-09-11T11:58:33.230Z",
       "status": "open"
     },
     {
@@ -2092,7 +2070,29 @@
       "apply_url": "https://www.filevine.com/jobs/ba34f952-d53e-4ef2-86cf-381cfe88671f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:56.151Z",
+      "scraped_at": "2026-09-11T11:58:33.230Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
+      "hub": "legaltech",
+      "title": "Partner Onboarding Specialist",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Case Management Software",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Partner Onboarding Specialist at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-09-11T11:58:33.230Z",
       "status": "open"
     },
     {
@@ -2114,29 +2114,29 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:56.151Z",
+      "scraped_at": "2026-09-11T11:58:33.230Z",
       "status": "open"
     },
     {
-      "id": "dom:wise-plc:https://wise.jobs/job/customer-support-specialist-in-hyderabad-jid-4138",
+      "id": "dom:wise-plc:https://wise.jobs/job/card-disputes-specialist-in-hyderabad-jid-4016",
       "hub": "fintech",
-      "title": "Customer Support Specialist",
+      "title": "Card Disputes Specialist",
       "company": "Wise",
       "company_id": "wise-plc",
       "priority": false,
-      "category": "Customer Support",
+      "category": "Other",
       "segment": "International Money Transfer",
       "level": "Mid",
       "location": "See posting",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Customer Support Specialist at Wise.",
+      "summary": "Card Disputes Specialist at Wise.",
       "description": "",
-      "apply_url": "https://wise.jobs/job/customer-support-specialist-in-hyderabad-jid-4138",
+      "apply_url": "https://wise.jobs/job/card-disputes-specialist-in-hyderabad-jid-4016",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:57.084Z",
+      "scraped_at": "2026-09-11T11:58:34.365Z",
       "status": "open"
     },
     {
@@ -2158,7 +2158,7 @@
       "apply_url": "https://www.getyourguide.careers/jobs/7571066",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-10T11:59:58.725Z",
+      "scraped_at": "2026-09-11T11:58:37.353Z",
       "status": "open"
     },
     {
@@ -2180,7 +2180,7 @@
       "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Nairobi/Specialist--Asset-Management_R-00529",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T12:00:11.029Z",
+      "scraped_at": "2026-09-11T11:59:01.001Z",
       "status": "open"
     },
     {
@@ -2202,7 +2202,7 @@
       "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Quezon-City/Executive-Partner_EJR-015",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-10T12:00:11.029Z",
+      "scraped_at": "2026-09-11T11:59:01.001Z",
       "status": "open"
     }
   ]

@@ -642,7 +642,7 @@ export const COMPANIES = [
   { id: "directive-consulting", name: "Directive Consulting", hub: "business", careersUrl: "https://directiveconsulting.com/careers/", website: "https://directiveconsulting.com", segment: "B2B Marketing Agency", country: "United States", verified: false, method: null, atsSlug: null, active: true },
 
   // DTC e-commerce brands (classic Filipino VA client base — order support, content, ads ops)
-  { id: "gymshark", name: "Gymshark", hub: "business", careersUrl: "https://careers.gymshark.com/", website: "https://www.gymshark.com", segment: "Fitness Apparel DTC Brand", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
+  { id: "gymshark", name: "Gymshark", hub: "business", careersUrl: "https://careers.gymshark.com/", website: "https://www.gymshark.com", segment: "Fitness Apparel DTC Brand", country: "United Kingdom", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "allbirds", name: "Allbirds", hub: "business", careersUrl: "https://www.allbirds.com/pages/careers", website: "https://www.allbirds.com", segment: "Sustainable Footwear DTC Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
   { id: "ridge-wallet", name: "Ridge", hub: "business", careersUrl: "https://ridge.com/pages/careers", website: "https://ridge.com", segment: "DTC Accessories Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
   { id: "beardbrand", name: "Beardbrand", hub: "business", careersUrl: "https://www.beardbrand.com/pages/careers", website: "https://www.beardbrand.com", segment: "Men's Grooming DTC Brand", country: "United States", verified: false, method: null, atsSlug: null, active: true },
