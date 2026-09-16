@@ -1,10 +1,142 @@
 {
-  "generated_at": "2026-09-15T12:24:19.530Z",
+  "generated_at": "2026-09-16T12:21:25.150Z",
   "count": 100,
-  "total_open": 122,
-  "sources_ok": 54,
-  "sources_failed": 22,
+  "total_open": 117,
+  "sources_ok": 55,
+  "sources_failed": 21,
   "jobs": [
+    {
+      "id": "greenhouse:smartly-io:6178977004",
+      "hub": "saas",
+      "title": "Paid Social Specialist",
+      "company": "Smartly.io",
+      "company_id": "smartly-io",
+      "priority": false,
+      "category": "Other",
+      "segment": "Social Advertising Automation",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Do you have a passion for learning and being at the forefront of Digital Advertising? Do you want to be able to contribute to real customer performance and have an immediate impact…",
+      "description": "Do you have a passion for learning and being at the forefront of Digital Advertising? Do you want to be able to contribute to real customer performance and have an immediate impact on a growing and dynamic team?\n\nSmartly.io is looking for a Paid Social Specialist. In this role you will learn social media advertising and client communications from the ground-up.\n\nAs a Paid Social Specialist you will...\n\n- Set-up, optimise and report on paid social media campaigns for our customers, across multiple channels including Facebook & Instagram, Pinterest & Snap\n\n- Conduct campaign analysis and insights and provide recommendations to the customer\n\n- Support in weekly syncs and work with team members to execute customer requests\n\n- Perform daily optimizations and execute against testing roadmaps\n\n- Learn the 'ins and outs' of the Smartly's leading creative and automation tools to help social media advertisers\n\n- Be a direct line to our product and engineering teams to help them better develop both existing and new parts of the tool\n\nWe are looking for you if you...\n\n- Are a driven, focused, and creative individual that has a strong desire to learn and make an impact early on in their tenure at Smartly.io\n\n- Have a strong interest in social media advertising, and shaping the way our company leads the charge to new platforms\n\n- Some experience with media buying\n\n- Have a data focused mindset with the ability distill down difficult concepts into bite-sized bits\n\n- Have strong communication and teamwork skills\n\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
+      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6178977004",
+      "source": "greenhouse",
+      "posted_at": "2026-09-16T06:17:24-04:00",
+      "scraped_at": "2026-09-16T12:21:12.928Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:smartly-io:6115272004",
+      "hub": "saas",
+      "title": "Senior Technical Support Specialist",
+      "company": "Smartly.io",
+      "company_id": "smartly-io",
+      "priority": false,
+      "category": "Other",
+      "segment": "Social Advertising Automation",
+      "level": "Senior",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "As a Senior Technical Support Specialist, you are the first line of defence in solving customer problems for Smartly products.",
+      "description": "As a Senior Technical Support Specialist, you are the first line of defence in solving customer problems for Smartly products. You'll become a part of an internal Support Operations team, working with some of the largest and most sophisticated online performance marketers globally. In addition, you’ll be a vital component in ensuring outstanding service to our customers.\n\nThis role comes with great responsibility and requires a variety of skills: you’ll serve as a crucial link, translator and communicator between customers and our equally extraordinary product development team. Ideally, you love solving new problems and thrive in situations where there are several unknowns. Your heart beats for the customer and serves them with understanding and care. You will have the opportunity to work closely with the Engineering team that develops our web application, Customer teams that serve our clients, and directly with end customers through our 24/7 in-app support chat. Your major responsibility will be making sure that the problems you address will not resurface. As a result, you’ll make the customer’s life easier as well as improve our core product. None of your days will be quite alike – exciting times guaranteed!\n\nAs a Senior Technical Support Specialist, at Smartly, you will...\n\n- Drive Smartly’s reputation for best-in-class customer service by consistently delivering high-quality, impactful support experiences.\n\n- Act as a trusted technical advisor and primary point of contact for complex customer inquiries related to the Smartly platform.\n\n- Lead the resolution of advanced technical issues, including performance concerns, integrations, and product defects, ensuring timely and sustainable outcomes.\n\n- Develop and maintain deep expertise in Marketing APIs (Meta, Snapchat, Google, TikTok, Pinterest), applying this knowledge to solve sophisticated customer challenges.\n\n- Proactively engage with the technical ecosystems of large-scale advertisers, identifying patterns, risks, and optimization opportunities.\n\n- Play a key role in product launches by participating in Alpha and Beta programs, validating features, and ensuring actionable feedback reaches Product and Engineering teams.\n\n- Take ownership of complex troubleshooting by reproducing, analyzing, prioritizing, and clearly documenting issues, driving them through to resolution.\n\n- Collaborate cross-functionally with Product, Engineering, and Customer teams globally, often acting as the bridge between technical and non-technical stakeholders.\n\n- Identify recurring issues and advocate for long-term solutions, contributing to product improvements and reducing support volume over time.\n\n- Mentor and support peers by sharing knowledge, improving processes, and contributing to internal best practices and documentation.\n\n- Elevate customer education by enhancing both internal and external documentation, enabling more scalable support.\n\nWe're definitely looking for you, if you have...\n\n- Strong ownership and accountability, with the ability to operate independently and drive complex issues to resolution.\n\n- A proven track record of solving ambiguous, high-impact technical problems in a customer-facing SaaS environment.\n\n- 4+ years of technical support experience (or equivalent), ideally within ad tech or online marketing ecosystems.\n\n- Advanced troubleshooting and analytical skills, with the ability to break down complex systems, identify root causes, and communicate findings clearly.\n\n- Solid working knowledge of APIs, including hands-on experience with HTTP, REST, and debugging integrations.\n\n- Practical experience with tools and concepts such as JSON, SQL, logs analysis, and system debugging.\n\n- Strong understanding of web technologies and architectures (e.g., databases, MVC, distributed systems concepts).\n\n- Excellent communication skills, with the ability to translate technical details into clear, actionable insights for different audiences.\n\n- A proactive mindset with a passion for continuous learning, staying up to date with evolving technologies and industry trends.\n\n- Experience collaborating across global teams and influencing stakeholders at different levels of the organization.\n\n- Willingness to work EMEA hours.\n\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
+      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
+      "source": "greenhouse",
+      "posted_at": "2026-09-16T06:17:24-04:00",
+      "scraped_at": "2026-09-16T12:21:12.928Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:smartly-io:5808193004",
+      "hub": "saas",
+      "title": "Solutions Specialist",
+      "company": "Smartly.io",
+      "company_id": "smartly-io",
+      "priority": false,
+      "category": "Other",
+      "segment": "Social Advertising Automation",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About the Role The Solutions Specialist solves operational and technical workflow challenges by designing, building, and maintaining scalable automations and custom solutions withi…",
+      "description": "About the Role\n\nThe Solutions Specialist solves operational and technical workflow challenges by designing, building, and maintaining scalable automations and custom solutions within the Smartly platform and Google Apps Script environment. This person partners with internal teams and clients to translate business requirements into reliable workflows, scripts, integrations, and platform configurations that improve efficiency, accuracy, and scalability. In the first 12 months, this hire will be accountable for reducing manual work, improving implementation quality and stability, and expanding regional delivery capacity through faster, more standardized technical solutioning. They will also help strengthen troubleshooting, QA, documentation, and knowledge sharing across the team.\n\nAs a Solutions Specialist at Smartly, you will …\n\n- Partner with internal stakeholders and clients to understand business, workflow, and technical requirements.\n\n- Translate requirements into technical specifications, Smartly configurations, scripts, automations, and scalable process improvements.\n\n- Build, test, deploy, and maintain Smartly workflows, templates, rules, and custom automations.\n\n- Develop and optimize Google Apps Script solutions for data processing, validation, reporting, and operational efficiency.\n\n- Research, design, and implement bespoke solutions using APIs, JSON-based data flows, and scripting to solve customer use cases.\n\n- Troubleshoot and resolve issues across scripts, APIs, integrations, and Smartly workflows, including cases with incomplete or ambiguous information.\n\n- Perform QA and monitoring to ensure reliability, performance, stability, and appropriate error handling of custom implementations.\n\n- Document bugs, implementation details, and best practices, and contribute to internal tools, documentation, and scalable team knowledge sharing.\n\nWe're definitely looking for you, if you have...\n\n- Proficiency in JavaScript and Google Apps Script.\n\n- Experience working with APIs, JSON structures, and data workflows.\n\n- Strong analytical, troubleshooting, and debugging skills in automation or API-driven environments.\n\n- Ability to translate business requirements into technical solutions and scalable workflows.\n\n- Strong verbal and written English communication skills.\n\n- Ability to explain technical concepts clearly to non-technical stakeholders.\n\n- Structured, logical problem-solving approach with strong attention to detail and quality assurance.\n\n- Willingness to work flexible hours to support global or cross-regional collaboration.\n\n- Familiarity with Smartly platform workflows, templates, and rules.\n\n- Experience supporting integrations with Meta, Google Ads, YouTube, DV360, or Campaign Manager 360.\n\n- Familiarity with Git, AWS, or Google Cloud Platform.\n\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
+      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
+      "source": "greenhouse",
+      "posted_at": "2026-09-16T06:17:24-04:00",
+      "scraped_at": "2026-09-16T12:21:12.928Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:146322",
+      "hub": "business",
+      "title": "Customer Support Representative (M-F/Night Shift)",
+      "company": "Nextiva",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Ukraine",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Redefine the future of customer experiences. One conversation at a time. At Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collab…",
+      "description": "Redefine the future of customer experiences. One conversation at a time.\n\nAt Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collaboration on a single, conversation centric platform. Powered by AI, driven by human innovation.\n\nOur culture is forward thinking, customer obsessed and built on the belief that meaningful connections drive better business outcomes. Whether it’s through our signature Amazing Service®, the technology we create, or the experiences we cultivate, connection is at the core of who we are.\n\nIf you’re ready to collaborate with incredible people, make an impact, and help businesses everywhere deliver truly amazing experiences, this is where you belong.\n\nHow You’ll Make an Impact\nAs a Technical Support Representative at Nextiva, you’ll be on the front lines of delivering exceptional customer experiences. You’re not just solving issues, you’re uncovering the “why,” guiding customers to the right solutions, and making their day easier.\nAs a Technical Support Representative, you will deliver Amazing Service® through high-quality technical support services by processing and resolving requests received across various communication channels; while continuously growing your skills in a fast-paced, learning environment. You’ll leverage modern tools, including AI, to work smarter, move faster, and deliver even better outcomes for customers.\nWhat You’ll Do\n\n- Solve What Matters: Troubleshoot customer issues across hardware, software, and networking systems, quickly identifying root causes and driving resolution\n\n- Deliver Great Experiences: Communicate clearly and professionally to ensure every interaction is positive and productive\n\n- Stay on the Details: Document customer interactions, issues, and resolutions with accuracy and consistency\n\n- Keep Systems Running: Provide, maintain, and update systems to ensure optimal performance for customers; managing multiple requests simultaneously in a fast-paced, high-volume environment\n\n- Own the Outcome: Take full ownership of customer issues, following through until resolution while meeting daily and monthly performance metrics\n\n- Continuous Learning: Continuously build technical knowledge of Nextiva products, systems, and troubleshooting processes to provide better service. Explore new tools and ways of working to improve performance\n\n- Work Smarter:\n\n- Leverage AI tools (e.g., ChatGPT, Copilot, or similar) to support daily workflows, such as summarizing customer interactions, identifying key action items, and improving response quality\n\n- Apply clear and structured inputs when using AI tools to generate accurate and relevant outputs; iterating and refining your approach when the responses aren't perfect (persistence is key!)\n\nAbout You:\n\n- 2+ years of customer service experience, preferably in technical support or help desk environment\n\n- Working knowledge of PC and Mac operating systems and Microsoft Office applications; hardware and/or networking knowledge preferred\n\n- Advanced English fluency required (spoken and written).\n\n- Ability to work remotely in Ukraine and regularly work shifts aligned with US business hours (between 12:00pm-4:00am Monday through Friday)\n\n- Curiosity and enthusiasm for learning new technologies\n\n- Comfort working in fast-paced environments with evolving tools and processes\n\nCore Competencies:\n\n- Customer First: Patient, conscientious and professional; providing great customer experiences with a focus on accuracy\n\n- Problem Solver: Strong troubleshooting and analytical skills with a persistent, solution-oriented mindset; able to overcome setbacks and willing to try multiple paths to reach the right solution\n\n- Detail-Oriented: Ability to manage multiple tasks or conversations simultaneously; strong attention to detail in both technical work and documentation\n\n- AI-Forward Mindset: Curiosity and willingness to experiment with AI & automation tools (e.g., ChatGPT, Microsoft Copilot); exposure to similar tools in a professional environment preferred\n\n- Team-Driven: You collaborate, share knowledge, and contribute to a positive team environment\n\nWhy Nextiva?\n\n- Impact: Join a company trusted by over a million users, helping businesses deliver better customer experiences every day\n\n- Innovation: Be part of a team building AI-powered solutions that drive efficiency and smarter customer engagement\n\n- Growth: Thrive in a culture focused on continuous learning, development, and career progression\n\n- Culture: Work alongside a supportive, high-energy team committed to Amazing Service® and meaningful connections\n\nNextiva DNA (Core Competencies)\nNextiva’s most successful team members share common traits and behaviors:\n\n- Drives Results: Action-oriented problem solvers who quickly bring clarity and simplicity to ambiguity, challenge the status quo, and lead meaningful change; celebrating wins to fuel momentum. They act swiftly and pragmatically, learning and improving as they go.\n\n- Critical Thinker: Data-driven, forward-thinking individuals who identify key drivers, anticipate risks, and deliver clear recommendations. They confidently leverage AI and automation to reduce friction, improve decision-making, and focus on higher-value work.\n\n- Right Attitude: Collaborative, competitive, and resilient team players who jump in to solve tough problems, learn from setbacks, and foster a culture of service, respect, and care for customers and teammates.\n\nTotal Rewards\nOur Total Rewards offerings are designed to allow Nexties to take care of themselves and their families so they can do their best.\nOur compensation packages are tailored to each role and candidate's qualifications. We consider a wide range of factors, including skills, experience, training, and certifications, when determining compensation. We aim to offer competitive salaries or wages that reflect the value you bring to our team. Depending on the position, compensation may include base salary, incentives, or bonuses.\n\n- Health – Comprehensive medical coverage, individual limit on exclusions and dental care\n\n- Insurance – Life, disability, traumatic injuries and critical diseases\n\n- Work-Life Balance ⚖️ – PTO for all employees, Paid Sick leave (official document required), paid parental leave and paid holidays\n\n- Wellness ‍ – Employee Assistance Program and wellness initiatives\n\n- Growth – Access to ongoing learning and development opportunities and career advancement\n\nAt Nextiva, we're committed to supporting our employees' health, well-being, and professional growth. Join us and build a rewarding career!\n#LI-AL1 #LI-Remote\n\nFounded in 2008, Nextiva has grown into a global leader trusted by over 100,000 businesses and 1M+ users worldwide. Headquartered in Scottsdale, Arizona, and with teams across the globe, we're the future of customer experience and team collaboration through our AI-powered, conversation-centric platform.\n\nWant to see what life at Nextiva is all about? Connect with us on Instagram, Instagram MX, YouTube, LinkedIn, and the Nextiva Blog.",
+      "apply_url": "https://jobicy.com/jobs/146322-customer-support-representative-m-f-night-shift-2",
+      "source": "Jobicy",
+      "posted_at": "2026-09-16T04:35:21.000Z",
+      "scraped_at": "2026-09-16T12:21:24.468Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:149313",
+      "hub": "business",
+      "title": "Technical Adoption Specialist, Civil 3D, French speaking",
+      "company": "Autodesk",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Poland,  Spain",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Job Requisition ID # 26WD99616 Position overview Autodesk Customer Success is looking for highly motivated trusted advisors to help our customers optimize their product investment…",
+      "description": "Job Requisition ID #\n\n26WD99616\n\nPosition overview\nAutodesk Customer Success is looking for highly motivated trusted advisors to help our customers optimize their product investment and achieve measurable business outcomes.\n\nWe are looking for a professional from Civil Engineering experience, supporting a broad range of technologies in large-scale environments. This person will work closely with medium and large enterprise customers worldwide.\n\nYou will join the Technical Adoption and Success group within the Customer Technical Success team as part of our Customer Success organization – a team that values professional development and rewards high performance.\n\nThe Technical Adoption Specialist group is responsible for maximizing the success of and return on investment for our strategic customers. We do this by helping our customers achieve their business goals while maximizing the use and adoption of our solutions\n\nResponsibilities \n- Deliver live coaching sessions to drive adoption of Autodesk Solutions\n\n- Act as a technical trusted advisor to customers, demonstrating thought leadership and product expertise to help customers adopt and achieve business outcomes using Autodesk technology\n\n- Build, maintain and deliver packaged service offerings to increase customer success and new product adoption\n\n- Deliver digital content via 1:Many webinars for end users to drive successful adoption of Autodesk solutions\n\n- Develop and update digital content adhering to the CTS standards of quality and consistency, that solves specific customer challenges\n\nMinimum Qualifications\n- Fluency in English + either advanced level of French\n\n- Expert knowledge of Autodesk Civil 3D and Autodesk AutoCAD in a production environment\n\n- 5 – 6 years Civil Engineering or related field experience\n\n- Advanced knowledge of the industry needs and workflows\n\n- Bachelor’s degree in civil engineering \n\n- Public speaking/presentation skills\n\n- Additional knowledge of Autodesk Construction Cloud, Autodesk Map 3D, and GIS is beneficial\n\n#LI-AS1\n\nLearn More\n\nAbout Autodesk\nWelcome to Autodesk! Amazing things are created every day with our software – from the greenest buildings and cleanest cars to the smartest factories and biggest hit movies. We help innovators turn their ideas into reality, transforming not only how things are made, but what can be made.\n\nWe take great pride in our culture here at Autodesk – it’s at the core of everything we do. Our culture guides the way we work and treat each other, informs how we connect with customers and partners, and defines how we show up in the world.\n\nWhen you’re an Autodesker, you can do meaningful work that helps build a better world designed and made for all. Ready to shape the world and your future? Join us!\n\nSalary transparency\nSalary is one part of Autodesk’s competitive compensation package. Offers are based on the candidate’s experience and geographic location. In addition to base salaries, our compensation package may include annual cash bonuses, commissions for sales roles, stock grants, and a comprehensive benefits package.\n\nBelonging\nWe take pride in cultivating a culture of belonging where everyone can thrive. Learn more here: https://www.autodesk.com/company/global-belonging\n\nAre you an existing contractor or consultant with Autodesk?\nPlease search for open jobs and apply internally (not on this external site).",
+      "apply_url": "https://jobicy.com/jobs/149313-technical-adoption-specialist-civil-3d-french-speaking",
+      "source": "Jobicy",
+      "posted_at": "2026-09-16T04:30:14.000Z",
+      "scraped_at": "2026-09-16T12:21:24.468Z",
+      "status": "open"
+    },
+    {
+      "id": "lever:octopus-energy:086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
+      "hub": "business",
+      "title": "Partner Operations Specialist",
+      "company": "Octopus Energy",
+      "company_id": "octopus-energy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Energy Retailer & Tech",
+      "level": "Mid",
+      "location": "Houston (US)",
+      "employment_type": "full-time",
+      "comp_min": 80000,
+      "comp_max": 90000,
+      "summary": "Welcome to the future of energy Octopus is a tech-powered energy company. We believe technology has the power to address our greatest challenge, climate change, while also deliveri…",
+      "description": "Welcome to the future of energy\n\nOctopus is a tech-powered energy company. We believe technology has the power to address our greatest challenge, climate change, while also delivering incredible service and customer experience.\n\nWe are changing the way people interact with their energy company - by making it approachable, low cost, easy-to-understand, and most importantly, 100% renewable.\n\nHEADING 3 - Insert Overview\n\n-\nOwn partner onboarding & setup: Manage and execute the end-to-end journey for bringing new brokers, aggregators, and digital partners onto the Octopus platform—handling administrative setup, rate sheets/EFL coordination, and API technical onboarding workflows alongside our Product and Engineering teams.\n\n-\nProvide responsive partner support: Serve as the primary operational point of contact for active commercial partners, answering integration queries, resolving statement discrepancies, and delivering a high-quality partner experience.\n\n-\nDefine & audit commission logic: Translate complex commercial deal structures (residuals, volume tiers, look-back clawbacks, retro-payments) into logic for our data engineering team, auditing monthly Databricks payout runs before passing clean files to Finance.\n\n-\nDrive conversion analytics: Build and maintain daily conversion reporting and dashboards using Databricks Genie to track funnel health and identify enrollment drop-offs (pending statuses, credit failures, uncollected deposits).\n\n-\nDrive the internal feedback loop: Channel partner insights, API bugs, and common operational friction points to internal Product, Data, and Engineering teams to continually refine our tools and enrollment pipelines.\n\n-\nUnstick enrollment pipelines: Partner directly with Retail Operations to troubleshoot root causes of stuck customer orders and optimize customer flow to active supply.\n\n-\nAutomate documentation & reporting: Deliver clear, automated weekly and monthly enrollment, conversion, and commission statements to our external partner network.\n\n-\nAnalytical confidence & coding basics: Comfortable working with data in SQL and directly within the Databricks UI and Databricks Genie ecosystem to query datasets, build reports, and audit numbers.\n\n-\nERCOT / Retail energy fluency: Solid grasp of Texas retail electric market mechanics, TDSPs, ESI IDs, and customer switch workflows.\n\n-\nTop-tier communication & partner focus: Ability to clearly explain technical processes, manage project timelines, and professionally interact with commercial business contacts.\n\n-\nMeticulous attention to detail: A strong desire to ensure every step of a commercial contract, commission calculation, or onboarding workflow is completed accurately.\n\n-\nAI-native mindset: Hands-on experience actively leveraging modern AI tools—specifically the Gemini AI suite and Claude Code—to accelerate SQL query writing, analyze data anomalies, automate operational workflows, and build documentation, paired with the discipline to double-check and validate every output.\n\n-\nAdaptability & self-starter mindset: Comfortable operating autonomously through fast growth with light supervision, but humble enough to raise your hand when stuck.\n\n-\nPrior experience in a Partner Operations, Revenue Operations, Commercial Analytics, or Account Management role at a Retail Electric Provider (REP) or energy tech company.\n\n-\nDirect experience handling retail energy commission structures, settlements, or billing exception logic.\n\n-\nA track record of taking a broken or manual reporting process and turning it into an automated workflow.\n\n-\nReal autonomy & ownership: A flat structure where you own your domain and move fast with a team that backs you.\n\n-\nImpactful mission: Accelerating the shift to a cheaper, greener grid with one of the world's most disruptive climate-tech companies.\n\n-\nEquity Options: Every Octopus employee owns part of the business.\n\n- Salary: The expected salary range for this role is between $80,000 – $90,000 annually depending on the candidate's background & level of experience, but just ask us on your initial call—we always maintain flexibility to match experience with the right fit!\n\n-\nHealth & Wellness: Fully paid medical, dental, and vision insurance for employees & their families.\n\n-\nTime Off: 20 days of paid vacation and 8 paid sick days annually.\n\n-\nRetirement: 401(k) plan with employer match (100% on the first 3%, 50% from 3–5%).\n\n-\nFlexible working environment: Our team works out of our Downtown Houston office 3 days a week with genuine flexibility for real work/life balance.",
+      "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
+      "source": "lever",
+      "posted_at": "2026-09-15T19:07:45.528Z",
+      "scraped_at": "2026-09-16T12:21:08.927Z",
+      "status": "open"
+    },
     {
       "id": "greenhouse:gocardless:7996723",
       "hub": "fintech",
@@ -20,11 +152,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
-      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nThe Fraud Risk Management team ensures that GoCardless adopts, implements and maintains innovative and appropriate controls as we have a duty to banking partners, regulators, schemes, merchants and their customers to review and monitor accounts and transactions with the utmost care.\n\nAs a Fraud Investigation Specialist you’ll be working as part of a small, close-knit team, conducting fraud investigations, with the aim of protecting GoCardless from fraud, financial and reputational risk.\n\nOn a daily basis you will:\n\n- Monitor the risk alert queue and identify high risk behaviour within the business portfolio\n\n- Conduct fraud investigations within service level agreements to reduce potential revenue losses\n\n- Attain a thorough understanding of GoCardless’ product, policies and processes\n\n- Lead on customer-facing correspondence and work with various teams across the business to ensure we provide a seamless merchant experience\n\nWhat excites you\n\n- The opportunity to work in a high performing team and make important daily decisions that can make an impact on GoCardless’s future success\n\n- Having the opportunity to learn more about data and how to use it to make informative decisions across the business\n\n- Working in a global fraud team where you can share experiences and learn from other team members who come from a variety of industries\n\nWhat excites us\n\n- You have hands-on experience in a fraud investigations role or similar and are looking for your next challenge\n\n- You use logic and reasoning to separate legitimate behaviour from suspected illicit activity\n\n- You are comfortable with making accurate, fast decisions depending on the evidence at hand\n\n- You understand the implications of new information for both current and future problem-solving and decision-making\n\n- You use your written English skills to strike the right tone with internal and external stakeholders.\n\n- You’re driven by initiative, and understand the impact of every decision you make on our merchants\n\n- Results-focused: You can prioritise, organise, and show initiative and willing to get the job done\n\nWe don’t expect you to meet every requirement. If you’re excited by this role, we encourage you to apply.\n\nBase salary range: €1,867 - €2,800 (gross).\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (€1,867 - €2,333) of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Working this way creates the GC magic- the reason we all love showing up to work.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nThe Fraud Risk Management team ensures that GoCardless adopts, implements and maintains innovative and appropriate controls as we have a duty to banking partners, regulators, schemes, merchants and their customers to review and monitor accounts and transactions with the utmost care.\n\nAs a Fraud Investigation Specialist you’ll be working as part of a small, close-knit team, conducting fraud investigations, with the aim of protecting GoCardless from fraud, financial and reputational risk.\n\nThe reason why we have this role open in an additional headcount - we are looking for an extra set of hands!\n\nOn a daily basis you will:\n\n- Monitor the risk alert queue and identify high risk behaviour within the business portfolio\n\n- Conduct fraud investigations within service level agreements to reduce potential revenue losses\n\n- Attain a thorough understanding of GoCardless’ product, policies and processes\n\n- Lead on customer-facing correspondence and work with various teams across the business to ensure we provide a seamless merchant experience\n\nWhat excites you\n\n- The opportunity to work in a high performing team and make important daily decisions that can make an impact on GoCardless’s future success\n\n- Having the opportunity to learn more about data and how to use it to make informative decisions across the business\n\n- Working in a global fraud team where you can share experiences and learn from other team members who come from a variety of industries\n\nWhat excites us\n\n- You have hands-on experience in a fraud investigations role or similar and are looking for your next challenge\n\n- You use logic and reasoning to separate legitimate behaviour from suspected illicit activity\n\n- You are comfortable with making accurate, fast decisions depending on the evidence at hand\n\n- You understand the implications of new information for both current and future problem-solving and decision-making\n\n- You use your written English skills to strike the right tone with internal and external stakeholders.\n\n- You’re driven by initiative, and understand the impact of every decision you make on our merchants\n\n- Results-focused: You can prioritise, organise, and show initiative and willing to get the job done\n\nWe don’t expect you to meet every requirement. If you’re excited by this role, we encourage you to apply.\n\nBase salary range: €1,867 - €2,800 (gross).\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (€1,867 - €2,333) of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Working this way creates the GC magic- the reason we all love showing up to work.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
-      "posted_at": "2026-09-15T07:20:38-04:00",
-      "scraped_at": "2026-09-15T12:23:45.972Z",
+      "posted_at": "2026-09-15T08:32:30-04:00",
+      "scraped_at": "2026-09-16T12:21:00.945Z",
       "status": "open"
     },
     {
@@ -46,13 +178,13 @@
       "apply_url": "https://jobicy.com/jobs/150642-sales-customer-service-representative-insurance-or-bank-exp-wfh-dayshift",
       "source": "Jobicy",
       "posted_at": "2026-09-15T04:30:06.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.468Z",
       "status": "open"
     },
     {
       "id": "lever:ro-health:a0894bae-18f7-4b8c-9b83-f1c527983aaa",
       "hub": "business",
-      "title": "Full-Time Virtual Medical Assistant / Patient Advocate",
+      "title": "Full-Time, Virtual Medical Assistant / Patient Advocate",
       "company": "Ro",
       "company_id": "ro-health",
       "priority": false,
@@ -64,11 +196,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "Ro is a direct-to-patient healthcare company with a mission of helping patients achieve their health goals by delivering the easiest, most effective care possible.",
-      "description": "Ro is a direct-to-patient healthcare company with a mission of helping patients achieve their health goals by delivering the easiest, most effective care possible. Ro is the only company to offer nationwide telehealth, labs, and pharmacy services. This is enabled by Ro's vertically integrated platform that helps patients achieve their goals through a convenient, end-to-end healthcare experience spanning from diagnosis, to delivery of medication, to ongoing care. Since 2017, Ro has helped millions of patients in nearly every single county in the United States, including 99% of primary care deserts.\n \nRo is consistently recognized as a top workplace in Health Care, in New York, and for Women and Parents—earning more than 20 honors from Fortune, Great Place to Work, and PEOPLE since 2021. In 2025 alone, we ranked top 5 among medium workplaces in Health Care and New York, and top 50 nationwide.\n\nPatient Advocates are part of the Care Delivery team, supporting our patients and network of providers as the non-clinically licensed members of a patient’s healthcare team. Working alongside Registered Nurses and Practitioners, Patient Advocates provide non-clinical administrative support to providers and empathetic, high-touch service to patients. Patient Advocates serve as a connection point between patients, providers, pharmacies, and insurance partners, helping patients navigate their care experience and resolve non-clinical needs. They answer patient questions, investigate more complex issues, communicate clear next steps, and provide additional support when patients need help moving through the treatment journey. Through proactive problem-solving, clear communication, and patient advocacy, Patient Advocates help create a seamless, supportive healthcare experience at Ro.\n\n- Provide empathetic, high-touch support to patients anticipating needs, answering non-clinical questions, and proactively helping patients navigate their care experience\n\n- Support providers with non-clinical administrative tasks in the Care Center (our Electronic Medical Record), including triaging, reassigning, and resolving patient messages accurately and efficiently\n\n- Investigate and navigate complex patient situations, working with clinical, pharmacy, insurance, and operational teams to resolve issues and translate complex information into clear, actionable next steps for patients\n\n- Contact pharmacies and insurance providers to assist patients with non-clinical prescription needs or issues, including benefits verification and prior authorizations\n\n- Partner with cross-functional team mates within the organization and medical practice to balance patient needs, share knowledge, and contribute to team service, quality, and operational goals\n\n- Surface recurring patient, provider, or workflow issues and provide feedback to help improve the patient experience and team operations\n\n- Participate in pilots and new initiatives that improve patient support, expand retention opportunities, or optimize operations\n\n- 1–2 years of experience in a patient-facing administrative, healthcare, customer service, or operations role\n\n- Strong written and verbal communication skills, with the ability to communicate complex information clearly and empathetically\n\n- Strong problem-solving skills and attention to detail, with the ability to investigate issues, identify next steps, and follow through to resolution\n\n- Excellent time management and organizational skills, with the ability to work independently and manage multiple priorities in a fast-paced, asynchronous environment\n\n- Demonstrated proficiency and comfort utilizing diverse technological tools and platforms to research and resolve patient inquiries; prior experience with EHR systems is strongly preferred\n\n- Comfort working with internally-approved LLM-based message systems, ability to critically review LLM-generated content for accuracy\n\n- Comfort utilizing internally-approved AI-based tooling for day-to-day workflows, comfort prompting AI tooling\n\n- Comfort working toward defined service, productivity, and quality expectations and metrics\n\n- Experience with health insurance plans, benefits verification, and/or prior authorizations preferred\nPatient-facing Medical Assistant or other relevant healthcare experience preferred\n\n- Bachelor's Degree preferred\n\n- Proficiency with collaboration and productivity tools such as Google Workspace and Slack\n\n- Adaptability and a proactive approach to working in a rapidly changing environment\n\n- Patients need support every day of the year, and that includes holidays. You will participate in a holiday work rotation.\n\n- Sunday–Wednesday: 1:00 PM - 11:00 PM ET\n\n- Wednesday–Saturday: 1:00 PM - 11:00 PM ET\n\n- Monday, Tuesday, Thursday, Friday: 1:00 PM - 11:00 PM ET\n\nThese 4x10 shifts are not available to candidates residing in California. While we try our best to accommodate schedule preferences whenever possible, schedules will be assigned based on the needs of the business.\n\n- Full medical, dental, and vision insurance + OneMedical membership\n\n- Healthcare and Dependent Care FSA\n\n- 401(k) with company match\n\n- Flexible PTO\n\n- Wellbeing stipend\n\n- Paid parental leave + Fertility benefits\n\n- Pet insurance\n\n- Student loan refinancing\n\n- Virtual resources for mindfulness, counseling, and fitness",
+      "description": "Ro is a direct-to-patient healthcare company with a mission of helping patients achieve their health goals by delivering the easiest, most effective care possible. Ro is the only company to offer nationwide telehealth, labs, and pharmacy services. This is enabled by Ro's vertically integrated platform that helps patients achieve their goals through a convenient, end-to-end healthcare experience spanning from diagnosis, to delivery of medication, to ongoing care. Since 2017, Ro has helped millions of patients in nearly every single county in the United States, including 99% of primary care deserts.\n \nRo is consistently recognized as a top workplace in Health Care, in New York, and for Women and Parents—earning more than 20 honors from Fortune, Great Place to Work, and PEOPLE since 2021. In 2025 alone, we ranked top 5 among medium workplaces in Health Care and New York, and top 50 nationwide.\n\nPatient Advocates are part of the Care Delivery team, supporting our patients and network of providers as the non-clinically licensed members of a patient’s healthcare team. Working alongside Registered Nurses and Practitioners, Patient Advocates provide non-clinical administrative support to providers and empathetic, high-touch service to patients. Patient Advocates serve as a connection point between patients, providers, pharmacies, and insurance partners, helping patients navigate their care experience and resolve non-clinical needs. They answer patient questions, investigate more complex issues, communicate clear next steps, and provide additional support when patients need help moving through the treatment journey. Through proactive problem-solving, clear communication, and patient advocacy, Patient Advocates help create a seamless, supportive healthcare experience at Ro.\n\n- Provide empathetic, high-touch support to patients anticipating needs, answering non-clinical questions, and proactively helping patients navigate their care experience\n\n- Support providers with non-clinical administrative tasks in the Care Center (our Electronic Medical Record), including triaging, reassigning, and resolving patient messages accurately and efficiently\n\n- Investigate and navigate complex patient situations, working with clinical, pharmacy, insurance, and operational teams to resolve issues and translate complex information into clear, actionable next steps for patients\n\n- Contact pharmacies and insurance providers to assist patients with non-clinical prescription needs or issues, including benefits verification and prior authorizations\n\n- Partner with cross-functional team mates within the organization and medical practice to balance patient needs, share knowledge, and contribute to team service, quality, and operational goals\n\n- Surface recurring patient, provider, or workflow issues and provide feedback to help improve the patient experience and team operations\n\n- Participate in pilots and new initiatives that improve patient support, expand retention opportunities, or optimize operations\n\n- 1–2 years of experience in a patient-facing administrative, healthcare, customer service, or operations role\n\n- Strong written and verbal communication skills, with the ability to communicate complex information clearly and empathetically\n\n- Strong problem-solving skills and attention to detail, with the ability to investigate issues, identify next steps, and follow through to resolution\n\n- Excellent time management and organizational skills, with the ability to work independently and manage multiple priorities in a fast-paced, asynchronous environment\n\n- Demonstrated proficiency and comfort utilizing diverse technological tools and platforms to research and resolve patient inquiries; prior experience with EHR systems is strongly preferred\n\n- Comfort working with internally-approved LLM-based message systems, ability to critically review LLM-generated content for accuracy\n\n- Comfort utilizing internally-approved AI-based tooling for day-to-day workflows, comfort prompting AI tooling\n\n- Comfort working toward defined service, productivity, and quality expectations and metrics\n\n- Experience with health insurance plans, benefits verification, and/or prior authorizations preferred\nPatient-facing Medical Assistant or other relevant healthcare experience preferred\n\n- Bachelor's Degree preferred\n\n- Proficiency with collaboration and productivity tools such as Google Workspace and Slack\n\n- Adaptability and a proactive approach to working in a rapidly changing environment\n\n- Patients need support every day of the year, and that includes holidays. You will participate in a holiday work rotation.\n\n- Sunday–Wednesday: 1:00 PM - 11:30 PM ET\n\n- Wednesday–Saturday: 1:00 PM - 11:30 PM ET\n\n- Monday, Tuesday, Thursday, Friday: 1:00 PM - 11:30 PM ET\n\nThese 4x10 shifts are not available to candidates residing in California.\n\nWhile we try our best to accommodate schedule preferences whenever possible, schedules will be assigned based on the needs of the business.\n\nThis is a full-time role with an estimated 40 hours/week. Schedules will include a 30-minute unpaid lunch break.\n\n- Full medical, dental, and vision insurance + OneMedical membership\n\n- Healthcare and Dependent Care FSA\n\n- 401(k) with company match\n\n- Flexible PTO\n\n- Wellbeing stipend\n\n- Paid parental leave + Fertility benefits\n\n- Pet insurance\n\n- Student loan refinancing\n\n- Virtual resources for mindfulness, counseling, and fitness",
       "apply_url": "https://jobs.lever.co/ro/a0894bae-18f7-4b8c-9b83-f1c527983aaa",
       "source": "lever",
       "posted_at": "2026-09-14T21:35:44.163Z",
-      "scraped_at": "2026-09-15T12:24:15.850Z",
+      "scraped_at": "2026-09-16T12:21:22.117Z",
       "status": "open"
     },
     {
@@ -90,7 +222,7 @@
       "apply_url": "https://jobicy.com/jobs/153284-tier-2-member-support-agent-offshore-philippines",
       "source": "Jobicy",
       "posted_at": "2026-09-14T14:14:18.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -112,7 +244,7 @@
       "apply_url": "https://jobicy.com/jobs/153224-technical-support-specialist-night-shift",
       "source": "Jobicy",
       "posted_at": "2026-09-14T06:17:07.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -134,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/153214-customer-support-representative-brazil",
       "source": "Jobicy",
       "posted_at": "2026-09-14T06:11:05.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -156,7 +288,7 @@
       "apply_url": "https://jobicy.com/jobs/150338-bilingual-print-customer-success-specialist-contract",
       "source": "Jobicy",
       "posted_at": "2026-09-14T05:48:40.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -178,7 +310,7 @@
       "apply_url": "https://jobicy.com/jobs/146036-technical-success-manager-autodesk-forma-construction-specialist",
       "source": "Jobicy",
       "posted_at": "2026-09-14T05:08:20.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -200,29 +332,7 @@
       "apply_url": "https://jobicy.com/jobs/149217-customer-success-specialist-3",
       "source": "Jobicy",
       "posted_at": "2026-09-14T05:05:29.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:monzo:8121572",
-      "hub": "fintech",
-      "title": "Chief of Staff, Product",
-      "company": "Monzo",
-      "company_id": "monzo",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Digital Bank",
-      "level": "Mid",
-      "location": "London",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking.",
-      "description": "🚀 We’re on a mission to make money work for everyone.\n\nWe’re waving goodbye to the complicated and confusing ways of traditional banking.\n\nAfter starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us.\n\nWith our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical moments for our customers!\n\nWe’re not about selling products - we want to solve problems and change lives through Monzo ❤️\n\n📍London | 💰£100,000 - £150,000 + Incentive Awards tied to your performance + Benefits ✨\n\nOur Product team ⭐\n\nWe’re waving goodbye to the complicated and confusing ways of traditional banking. Over the last 10 years, Monzo has grown from a prepaid card into a much broader range of products, including personal and business bank accounts, joint accounts, accounts for 16 - 17 year olds, a free kids account and credit cards - with plenty more to come.\n\nProduct is at the heart of Monzo’s long-term success and our ambition to change people’s relationship with money. Working closely with Engineering, Design, Research, Data and teams across the business, our Product team sets Monzo’s product vision and strategy and drives its execution.\n\nWe’re a scaling team with lots to accomplish and some big questions to answer. As Chief of Staff to our Chief Product Officer, you’ll work closely with our CPO and Product Leadership Team, helping shape our product vision and strategy, seed new initiatives and build effective ways of working that help our Product organisation thrive.\n\n🔑 You’ll play a key role by...\n\n- Helping formulate and drive key projects for our Chief Product Officer, from structuring our product roadmap and setting organisational goals to evolving our product strategy.\n\n- Leading strategic and ad-hoc projects for the CPO and Product Leadership Team, including initiatives that improve how effectively and quickly our teams can deliver.\n\n- Staying close to our performance data, understanding the underlying drivers and creating a regular cadence for reporting, including coordinating our monthly business reviews.\n\n- Collaborating across Monzo to unblock complex challenges around priorities, dependencies and headcount, and helping teams make better decisions when there are competing priorities and stakeholders.\n\n- Conceiving, executing and supporting initiatives across Product team engagement, performance management and discipline progression.\n\n- Making sure our CPO is brilliantly prepared for key meetings and interactions with regulators, investors, journalists, Board members and employee forums.\n\n- Preparing and sharing major communications, and at times representing the CPO in key forums across Monzo.\n\n🤩 We’d love to hear from you if…\n\n- You’re comfortable operating with a high degree of autonomy and ambiguity, and you’re great at turning complexity into clarity.\n\n- You’re an excellent project manager who can move comfortably between strategic priorities and tactical execution, keeping the important details on track.\n\n- You’re highly analytical and quantitative, comfortable working with spreadsheets, Looker or similar tools, and use data to inform decisions wherever possible.\n\n- You’re brilliant at collaboration and stakeholder management. You can thoughtfully challenge others, build alignment and act as a bridge between Product, Engineering, Design, Data and senior leadership.\n\n- You have experience in Product, a high-growth company or the technology sector, and you’re excited by the challenges that come with scaling a Product organisation.\n\n- You’re a curious, proactive problem solver and excellent communicator who enjoys context switching, takes initiative and knows how to focus yourself and others on the highest-leverage work.\n\nNot ticking every box? That’s totally okay! Studies show that women and people of colour might hesitate to apply unless they meet every single requirement. At Monzo, we’re dedicated to creating a diverse and welcoming team. If you’re passionate about this role and keen to learn and grow with us, we encourage you to apply— even if you don’t have everything that's listed just yet. Drop us your application, we’d love to hear from you!\n\n🙌 What’s in it for you\n\n💰 £100,000 - £150,000 ➕ Incentive Awards tied to your performance.\n\n📍 This role is based in our London office and will require you to be in the office 2–3 days a week.\n\n⏰ We offer flexible working hours and trust you to work enough hours to do your job well, and at times that suit you and your team.\n\n📚 £1,000 learning budget each year to use on books, training courses and conferences.\n\n🏡 We will set you up to work from home; all employees are given MacBooks.\n\n➕ Plus lots more! Read our full list of benefits.\n\n🌈 The application journey has 4 key steps\n\n- Recruiter Call (30 mins) – Once you apply, if your application is aligned, one of our Hiring team will reach out for an introductory conversation.\n\n- Initial Chat (30 mins)\n\n- Chat with our CPO, Andy (30 mins) – A conversation with our CPO to learn more about your experience and how you’d approach the role.\n\n- Experience Loop (~2.5 hours) – This stage consists of three separate interviews that usually happen across 1–3 days: a Case Study, Leadership and Values interview, and a practical task (with no take-home preparation). If you reach this stage, your Recruiter will have a 15-minute chat with you beforehand to help you prepare.\n\nThis process should take around 4–6 weeks – your schedule is really important to us, so we promise to be as flexible as possible!\n\nWe have some guidelines on using Artificial Intelligence (AI) to ace an application and interview at Monzo. You can read them here.\n\nWe’ll only close this role once we have enough applications for the next stage. Please submit your application as soon as possible to make sure you don’t miss out.\n\n#LI-OS1\n\nEqual opportunities for everyone\n\nDiversity and inclusion are a priority for us and we’re making sure we have lots of support for all of our people to grow at Monzo. At Monzo, we’re embracing diversity by fostering an inclusive environment for all people to do the best work of their lives with us. This is integral to our mission of making money work for everyone. You can read more in our blog, 2026 Diversity and Inclusion Report and 2025 Gender Pay Gap Report.\n\nWe’re an equal opportunity employer. All applicants will be considered for employment without attention to age, ethnicity, religion, sex, sexual orientation, gender identity, family or parental status, national origin, or veteran, neurodiversity or disability status.\n\nIf you have a preferred name, please use it to apply. We don't need full or birth names at application stage 😊",
-      "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8121572",
-      "source": "greenhouse",
-      "posted_at": "2026-09-14T04:54:11-04:00",
-      "scraped_at": "2026-09-15T12:23:44.480Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -244,7 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
       "source": "greenhouse",
       "posted_at": "2026-09-14T04:37:47-04:00",
-      "scraped_at": "2026-09-15T12:23:52.451Z",
+      "scraped_at": "2026-09-16T12:21:07.860Z",
       "status": "open"
     },
     {
@@ -266,29 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7980283003",
       "source": "greenhouse",
       "posted_at": "2026-09-14T04:37:40-04:00",
-      "scraped_at": "2026-09-15T12:23:52.451Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:tide-uk:7608569003",
-      "hub": "fintech",
-      "title": "Customer Support Associate",
-      "company": "Tide",
-      "company_id": "tide-uk",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Business Banking",
-      "level": "Entry",
-      "location": "India, Hyderabad",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensiv…",
-      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members: 900,000 UK and 1,100,000 in India and growing rapidly\n\n- Over $300 million raised in funding\n\n- Over 2,800 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE TEAM\n\nAs a Premium Accounts Manager, you will be part of an exclusive team that delivers high-level support to our Premium members. This is not a standard customer service role—our Premium team serves as both trusted advisors and dedicated account managers, ensuring a seamless, personalized, and exceptional member experience at every interaction.\n\nABOUT THE ROLE\n\n- Provide high-touch, tailored support to Premium members primarily over phone, with additional interactions via chat and email when required.\n\n- Manage complex and sensitive cases with ownership, accuracy, and a solutions-first mindset.\n\n- Deliver a 5-star experience aligned with Premium standards, measured by CSAT, TPH, and QA excellence.\n\n- Build long-term relationships with members by demonstrating in-depth product and process knowledge and anticipating their needs.\n\n- Serve as a knowledge hub and mentor for colleagues, sharing expertise and guiding new joiners through best practices\n\n- Contribute to the continuous improvement of Premium processes by sharing feedback, identifying gaps, and helping shape workflows.\n\n- Stay aligned with industry trends and member expectations to reinforce Premium as a supreme-class service offering.\n\n- Work flexible shifts (including weekends and holidays) while maintaining top-level performance and professionalism.\n\nWHAT WE'RE LOOKING FOR:\n\n- Min. 3 years of experience in premium support, account management, or client-facing roles where service excellence is/was a priority.\n\n- Strong problem-solving skills with the ability to navigate complex cases and think beyond standard procedures.\n\n- Exceptional communication skills (written and verbal) with near-native or native-level English.\n\n- High attention to detail and ability to manage multiple tasks while maintaining top-class service standards.\n\n- A proactive, empathetic, and professional attitude that represents our Premium brand promise.\n\n- Proven ability to work collaboratively in a high-performance environment.\n\nIt would be considered as an asset if you have:\n\n- Background in FinTech, SaaS, or fast-paced technology companies.\n\n- Experience with membership-based services or subscription models.\n\n- Exposure to analytics or reporting, enabling insights into member behavior and engagement.\n\nWHY JOIN THE PREMIUM TEAM?\n\n- Work in an elite, high-performing team serving our most valued members.\n\n- Be empowered to act as a trusted advisor, not just a support agent.\n\n- Gain exposure to advanced cases, processes, and account management practices.\n\n- Grow your expertise through dedicated training, coaching, and leadership opportunities.\n\n- Contribute directly to shaping Premium service standards and mentoring new talent.\n\nWHAT YOU'll GET IN RETURN:\n\n- Self & Family Health Insurance\n\n- Term & Life Insurance\n\n- OPD Benefits\n\n- Mental wellbeing through Plumm\n\n- Learning & Development Budget\n\n- WFH Setup allowance\n\n- Family & Friendly Leaves\n\nTIDEAN WAYS OF WORKING\n\nAt Tide, we champion a flexible workplace model that supports both in-person and remote work to cater to the specific needs of our different teams.\n\nWhile remote work is supported, we believe in the power of face-to-face interactions to foster team spirit and collaboration. Our offices are designed as hubs for innovation and team-building, where we encourage regular in-person gatherings to foster a strong sense of community.\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7608569003",
-      "source": "greenhouse",
-      "posted_at": "2026-09-14T04:37:36-04:00",
-      "scraped_at": "2026-09-15T12:23:52.451Z",
+      "scraped_at": "2026-09-16T12:21:07.860Z",
       "status": "open"
     },
     {
@@ -310,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-14T04:37:36-04:00",
-      "scraped_at": "2026-09-15T12:23:52.451Z",
+      "scraped_at": "2026-09-16T12:21:07.860Z",
       "status": "open"
     },
     {
@@ -332,7 +420,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7081017003",
       "source": "greenhouse",
       "posted_at": "2026-09-14T04:37:30-04:00",
-      "scraped_at": "2026-09-15T12:23:52.451Z",
+      "scraped_at": "2026-09-16T12:21:07.860Z",
       "status": "open"
     },
     {
@@ -354,7 +442,7 @@
       "apply_url": "https://jobicy.com/jobs/153186-product-support-specialist-2",
       "source": "Jobicy",
       "posted_at": "2026-09-13T11:56:43.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -376,7 +464,7 @@
       "apply_url": "https://jobicy.com/jobs/153160-customer-success-specialist-5",
       "source": "Jobicy",
       "posted_at": "2026-09-13T11:53:06.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -398,29 +486,7 @@
       "apply_url": "https://jobicy.com/jobs/150575-data-support-specialist-i-cds-operations",
       "source": "Jobicy",
       "posted_at": "2026-09-13T11:47:42.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:153121",
-      "hub": "business",
-      "title": "Customer Service Representative",
-      "company": "Insurify",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 40000,
-      "comp_max": 53000,
-      "summary": "Warning: Fraudulent Job Adverts Beware of fraudulent activities claiming to represent Insurify. We are not associated with any entities soliciting personal information or payment.",
-      "description": "Warning: Fraudulent Job Adverts Beware of fraudulent activities claiming to represent Insurify. We are not associated with any entities soliciting personal information or payment. The safety of our job seekers is a top priority, and we actively work to prevent such incidents. Insurify will never request sensitive information or payment during the hiring process. Be cautious of text-only interviews, interviews conducted through Microsoft Teams, or suspicious offer letters.\n\nWhy us?\n\nInsurify is one of America’s fastest-growing MIT FinTech startups and has been recognized as one of Inc. 5,000’s fastest-growing private companies in America in 2025, 2024, 2023, 2022 and 2021, Forbes Fintech 50 List for 2023, 2022, and 2021, Forbes Next Billion Dollar Startups of 2022 global and Top 100 InsurTech company. We’re changing the way millions of people compare, buy and manage insurance with artificial intelligence, technology, and superior product design.\n\nOur company vision is to be recognized as the preeminent and most trusted digital agent for insurance comparison, purchase, and management. Our team is critical to achieving our vision and fostering the right culture is essential to our team’s success.\n\nJoin us if you like\n\n- $1.3 Trillion market opportunity\n\n- MIT alumni founders\n\n- Female-led startup\n\n- $130M total funding\n\n- Strong leadership team with experience from many successful startups around the world\n\nHow you will make an impact\n\n- Expertly assess and evaluate the best path of resolution for customer issues including coverage challenges, complaints, and payment issues during incoming calls, ensuring that customers receive timely and effective solutions.\n\n- Contribute to a smooth and successful customer experiences through the coordination of onboarding documents (insurance policies, supporting documentation) needed for sale finalization\n\n- Apply problem-solving skills and understanding of insurance industry workflows to navigate complex situations, ensuring that customers receive the best possible outcomes\n\n- Ensuring the information is accurate and verifying customers' coverage. Often may need to deliver proof of insurance paperwork and resolve billing and general issues to ensure customer satisfaction.\n\n- Assist in the development of new processes for the onboarding and retention of customers. Provide feedback for improvements of existing processes.\n\n- Play a crucial role in resolving carriers and customers complaints by presenting well-considered solutions and alternatives within the timeframes set, and follow up to ensure that any issue has been fully resolved.\n\n- Ensure no client is overlooked by entering into carrier portals and pulling lists of clients and initiating timely follow-ups.Proactively educate customers on how to avoid potential policy interruptions and premium increases, helping them to maintain stable and affordable coverage.\n\nWho you are\n\n- Experience in Customer Support via phone, email and chat.\n\n- Excellent communication skills.\n\n- Phenomenal phone skills.\n\n- Well-organized and self-driven.\n\n- Licensed in Property & Casualty Insurance required\n\n- Bilingual is a plus.\n\n- Must be located in one of the following states: AL, AR, AZ, CO, FL, GA, IA, IL, MA, MI, MN, MO, NC, NH, NJ, NY, OH, PA, RI, TN, TX, UT, VA, VT\n\nBenefits\n\n- Competitive compensation\n\n- Health, Dental Coverages\n\n- 401K plan with match\n\n- Paid Family Leave\n\nInsurify is committed to offering a fair, competitive, and transparent compensation program that supports our mission to attract, retain, and motivate top talent. Our compensation philosophy is guided by several factors including a candidate’s relevant experience, education/training, job-related skills, and location.\n\nIn addition to the base salary our total compensation package includes health coverage, retirement contributions, and additional wellbeing benefits.\n\nBelow is the base compensation range for US locations:\n\n$40,000-$53,000\n\nWe are proud to be an Equal Employment Opportunity and Affirmative Action employer.",
-      "apply_url": "https://jobicy.com/jobs/153121-customer-service-representative-6",
-      "source": "Jobicy",
-      "posted_at": "2026-09-12T16:50:01.000Z",
-      "scraped_at": "2026-09-15T12:24:19.157Z",
+      "scraped_at": "2026-09-16T12:21:24.469Z",
       "status": "open"
     },
     {
@@ -442,7 +508,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-09-11T20:16:48.000Z",
-      "scraped_at": "2026-09-15T12:24:17.705Z",
+      "scraped_at": "2026-09-16T12:21:23.852Z",
       "status": "open"
     },
     {
@@ -464,7 +530,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/bd1feaa0-8f3d-407b-a4f2-f129b4b743d3",
       "source": "lever",
       "posted_at": "2026-09-11T12:05:49.753Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -486,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-09-10T04:35:34-04:00",
-      "scraped_at": "2026-09-15T12:23:45.972Z",
+      "scraped_at": "2026-09-16T12:21:00.946Z",
       "status": "open"
     },
     {
@@ -508,7 +574,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-09T15:17:17.000Z",
-      "scraped_at": "2026-09-15T12:24:17.271Z",
+      "scraped_at": "2026-09-16T12:21:23.380Z",
       "status": "open"
     },
     {
@@ -530,7 +596,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/assignr-llc-customer-support-specialist-2",
       "source": "We Work Remotely",
       "posted_at": "2026-09-08T20:46:38.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -552,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8734158002",
       "source": "greenhouse",
       "posted_at": "2026-09-08T14:35:51-04:00",
-      "scraped_at": "2026-09-15T12:23:55.351Z",
+      "scraped_at": "2026-09-16T12:21:10.515Z",
       "status": "open"
     },
     {
@@ -574,7 +640,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/43830805-2fbe-4ca5-9553-7e2b87dc7b79",
       "source": "lever",
       "posted_at": "2026-09-08T08:42:57.754Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -596,7 +662,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/squarespace-customer-support-associate-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-08T07:31:00.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -618,7 +684,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-40-000-year-benefits-sat-sun-required-location-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -640,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-04T15:24:42-04:00",
-      "scraped_at": "2026-09-15T12:23:37.191Z",
+      "scraped_at": "2026-09-16T12:20:49.537Z",
       "status": "open"
     },
     {
@@ -662,7 +728,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8659519002",
       "source": "greenhouse",
       "posted_at": "2026-09-03T16:55:04-04:00",
-      "scraped_at": "2026-09-15T12:23:55.351Z",
+      "scraped_at": "2026-09-16T12:21:10.515Z",
       "status": "open"
     },
     {
@@ -684,7 +750,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -706,7 +772,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/ellipsis-executive-assistant-remote-uk-eu-38k-43k-year",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T10:49:23.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -728,7 +794,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gohighlevel-crm-sales-appointment-setter-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T01:35:18.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -750,29 +816,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-09-02T19:59:53.000Z",
-      "scraped_at": "2026-09-15T12:24:17.705Z",
-      "status": "open"
-    },
-    {
-      "id": "lever:octopus-energy:d826d628-f554-4dbe-bd2f-24a73f9d47d7",
-      "hub": "business",
-      "title": "Customer Operations Specialist",
-      "company": "Octopus Energy",
-      "company_id": "octopus-energy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Energy Retailer & Tech",
-      "level": "Mid",
-      "location": "London (GB)",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "We're making energy fair, clean, and simple for all using technology. Octopus Energy started with a bold idea: to build Britain’s first truly digital energy supplier.",
-      "description": "We're making energy fair, clean, and simple for all using technology. \nOctopus Energy started with a bold idea: to build Britain’s first truly digital energy supplier. By combining world-class tech with brilliant humans who care deeply about customers and driving the renewable energy transition, we made it happen and in 2025, we became Britain’s largest energy supplier. \nOctopus Energy Group is a global energy transition collective. 10 businesses working across 4 continents to tackle energy transformation at nearly every front.\nAnd we constantly push to make energy better. Tirelessly campaigning for fair protections for customers. And building innovative technologies that forge a path to a green energy system.\nWe’re made up of 10,000+ authentic, committed people working around the world on stuff you'd never expect. We're united by a shared goal: to drive the global green energy revolution. Read our Spotlight series to meet some of the team.\nAbout Octopus Electroverse\nWe’re making electric vehicle ownership as smart and as simple as possible by building the giant, virtual charging platform of the future.\nIn just four years, Octopus Electroverse has grown to become one of the largest eMobility players globally, with over 1 million connected electric vehicle chargers and a customer ecosystem spanning web, iOS, Android, CarPlay, Android Auto & Automotive OS, and more. \nBut it’s just the start: we’re busy expanding internationally, working with more automotive and tech partners, building exciting new features at scale, and creating the integrated charging experiences of the future - all in the name of making public EV charging super simple for customers.\nElectroverse is a multifunctional team made up of product, development, commercial, operations, marketing, partnerships and more - all focused together on making Octopus the go-to name in EV charging. \nAbout the role\nWe’re looking for a Customer Specialist to join our operations team and delight our customers as we grow Electroverse. You’ll speak to our customers over email and online chat and get stuck in with operational processes. \nThis role is based in the London office, with the option to work from home 2 days a week, with the standard of 9am - 5.30pm Monday to Friday.\n\n-\nTake a leading role looking after Electroverse customers: from sign-up questions, card requests, app feedback and more, you’ll be the voice of our growing brand\n\n-\nDeliver high-quality care and support for EV drivers. Octopus is known for its amazing customer service in energy, and we provide that same quality for our EV customers\n\n-\nDig in to the technical side of the product as you solve customer queries\n\n-\nGet to grips with social media management and brand tone of voice as you help represent Electroverse on social platforms\n\n-\nAs a core part of the team, you’ll stay up to date with the latest Electroverse features and new releases and be able to talk about these with customers\n\n-\nWork with the wider team to deeply understand the customer ecosystem and suggest ways in which we can improve as we grow\n\n- To get real energy from talking to customers and helping figure out solutions\n\n-\nHave fantastic written communication skills, able to vary your tone and intended outcome based on who you’re speaking to\n\n-\nTake an organised approach to keeping an eye on day-to-day communications and operations, whilst being willing to turn your attention to new tasks: Octopus Electroverse is growing fast, and we need someone willing to jump on new problems and opportunities as part of the wider team\n\n-\nNot afraid to get a bit technical - for example, you might be pulling data from our admin portal and reporting it to the wider team\n\n-\nPrior knowledge of EVs & EV tech isn’t required (we’re pushing new boundaries after all!), but an interest in and desire to know more about the industry is important",
-      "apply_url": "https://jobs.lever.co/octoenergy/d826d628-f554-4dbe-bd2f-24a73f9d47d7",
-      "source": "lever",
-      "posted_at": "2026-09-02T16:17:04.959Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:23.852Z",
       "status": "open"
     },
     {
@@ -794,29 +838,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/bitwarden-billing-specialist-us-weekend",
       "source": "We Work Remotely",
       "posted_at": "2026-09-02T07:31:09.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:smartly-io:6178977004",
-      "hub": "saas",
-      "title": "Paid Social Specialist",
-      "company": "Smartly.io",
-      "company_id": "smartly-io",
-      "priority": false,
-      "category": "Other",
-      "segment": "Social Advertising Automation",
-      "level": "Mid",
-      "location": "Philippines",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Do you have a passion for learning and being at the forefront of Digital Advertising? Do you want to be able to contribute to real customer performance and have an immediate impact…",
-      "description": "Do you have a passion for learning and being at the forefront of Digital Advertising? Do you want to be able to contribute to real customer performance and have an immediate impact on a growing and dynamic team?\n\nSmartly.io is looking for a Paid Social Specialist. In this role you will learn social media advertising and client communications from the ground-up.\n\nAs a Paid Social Specialist you will...\n\n- Set-up, optimise and report on paid social media campaigns for our customers, across multiple channels including Facebook & Instagram, Pinterest & Snap\n\n- Conduct campaign analysis and insights and provide recommendations to the customer\n\n- Support in weekly syncs and work with team members to execute customer requests\n\n- Perform daily optimizations and execute against testing roadmaps\n\n- Learn the 'ins and outs' of the Smartly's leading creative and automation tools to help social media advertisers\n\n- Be a direct line to our product and engineering teams to help them better develop both existing and new parts of the tool\n\nWe are looking for you if you...\n\n- Are a driven, focused, and creative individual that has a strong desire to learn and make an impact early on in their tenure at Smartly.io\n\n- Have a strong interest in social media advertising, and shaping the way our company leads the charge to new platforms\n\n- Some experience with media buying\n\n- Have a data focused mindset with the ability distill down difficult concepts into bite-sized bits\n\n- Have strong communication and teamwork skills\n\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6178977004",
-      "source": "greenhouse",
-      "posted_at": "2026-09-02T01:19:27-04:00",
-      "scraped_at": "2026-09-15T12:24:06.705Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -838,51 +860,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/big-bear-vacations-owner-retention-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-01T20:45:07.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:smartly-io:6115272004",
-      "hub": "saas",
-      "title": "Senior Technical Support Specialist",
-      "company": "Smartly.io",
-      "company_id": "smartly-io",
-      "priority": false,
-      "category": "Other",
-      "segment": "Social Advertising Automation",
-      "level": "Senior",
-      "location": "Philippines",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "As a Senior Technical Support Specialist, you are the first line of defence in solving customer problems for Smartly products.",
-      "description": "As a Senior Technical Support Specialist, you are the first line of defence in solving customer problems for Smartly products. You'll become a part of an internal Support Operations team, working with some of the largest and most sophisticated online performance marketers globally. In addition, you’ll be a vital component in ensuring outstanding service to our customers.\n\nThis role comes with great responsibility and requires a variety of skills: you’ll serve as a crucial link, translator and communicator between customers and our equally extraordinary product development team. Ideally, you love solving new problems and thrive in situations where there are several unknowns. Your heart beats for the customer and serves them with understanding and care. You will have the opportunity to work closely with the Engineering team that develops our web application, Customer teams that serve our clients, and directly with end customers through our 24/7 in-app support chat. Your major responsibility will be making sure that the problems you address will not resurface. As a result, you’ll make the customer’s life easier as well as improve our core product. None of your days will be quite alike – exciting times guaranteed!\n\nAs a Senior Technical Support Specialist, at Smartly, you will...\n\n- Drive Smartly’s reputation for best-in-class customer service by consistently delivering high-quality, impactful support experiences.\n\n- Act as a trusted technical advisor and primary point of contact for complex customer inquiries related to the Smartly platform.\n\n- Lead the resolution of advanced technical issues, including performance concerns, integrations, and product defects, ensuring timely and sustainable outcomes.\n\n- Develop and maintain deep expertise in Marketing APIs (Meta, Snapchat, Google, TikTok, Pinterest), applying this knowledge to solve sophisticated customer challenges.\n\n- Proactively engage with the technical ecosystems of large-scale advertisers, identifying patterns, risks, and optimization opportunities.\n\n- Play a key role in product launches by participating in Alpha and Beta programs, validating features, and ensuring actionable feedback reaches Product and Engineering teams.\n\n- Take ownership of complex troubleshooting by reproducing, analyzing, prioritizing, and clearly documenting issues, driving them through to resolution.\n\n- Collaborate cross-functionally with Product, Engineering, and Customer teams globally, often acting as the bridge between technical and non-technical stakeholders.\n\n- Identify recurring issues and advocate for long-term solutions, contributing to product improvements and reducing support volume over time.\n\n- Mentor and support peers by sharing knowledge, improving processes, and contributing to internal best practices and documentation.\n\n- Elevate customer education by enhancing both internal and external documentation, enabling more scalable support.\n\nWe're definitely looking for you, if you have...\n\n- Strong ownership and accountability, with the ability to operate independently and drive complex issues to resolution.\n\n- A proven track record of solving ambiguous, high-impact technical problems in a customer-facing SaaS environment.\n\n- 4+ years of technical support experience (or equivalent), ideally within ad tech or online marketing ecosystems.\n\n- Advanced troubleshooting and analytical skills, with the ability to break down complex systems, identify root causes, and communicate findings clearly.\n\n- Solid working knowledge of APIs, including hands-on experience with HTTP, REST, and debugging integrations.\n\n- Practical experience with tools and concepts such as JSON, SQL, logs analysis, and system debugging.\n\n- Strong understanding of web technologies and architectures (e.g., databases, MVC, distributed systems concepts).\n\n- Excellent communication skills, with the ability to translate technical details into clear, actionable insights for different audiences.\n\n- A proactive mindset with a passion for continuous learning, staying up to date with evolving technologies and industry trends.\n\n- Experience collaborating across global teams and influencing stakeholders at different levels of the organization.\n\n- Willingness to work EMEA hours.\n\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
-      "source": "greenhouse",
-      "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-15T12:24:06.705Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:smartly-io:5808193004",
-      "hub": "saas",
-      "title": "Solutions Specialist",
-      "company": "Smartly.io",
-      "company_id": "smartly-io",
-      "priority": false,
-      "category": "Other",
-      "segment": "Social Advertising Automation",
-      "level": "Mid",
-      "location": "Philippines",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "About the Role The Solutions Specialist solves operational and technical workflow challenges by designing, building, and maintaining scalable automations and custom solutions withi…",
-      "description": "About the Role\n\nThe Solutions Specialist solves operational and technical workflow challenges by designing, building, and maintaining scalable automations and custom solutions within the Smartly platform and Google Apps Script environment. This person partners with internal teams and clients to translate business requirements into reliable workflows, scripts, integrations, and platform configurations that improve efficiency, accuracy, and scalability. In the first 12 months, this hire will be accountable for reducing manual work, improving implementation quality and stability, and expanding regional delivery capacity through faster, more standardized technical solutioning. They will also help strengthen troubleshooting, QA, documentation, and knowledge sharing across the team.\n\nAs a Solutions Specialist at Smartly, you will …\n\n- Partner with internal stakeholders and clients to understand business, workflow, and technical requirements.\n\n- Translate requirements into technical specifications, Smartly configurations, scripts, automations, and scalable process improvements.\n\n- Build, test, deploy, and maintain Smartly workflows, templates, rules, and custom automations.\n\n- Develop and optimize Google Apps Script solutions for data processing, validation, reporting, and operational efficiency.\n\n- Research, design, and implement bespoke solutions using APIs, JSON-based data flows, and scripting to solve customer use cases.\n\n- Troubleshoot and resolve issues across scripts, APIs, integrations, and Smartly workflows, including cases with incomplete or ambiguous information.\n\n- Perform QA and monitoring to ensure reliability, performance, stability, and appropriate error handling of custom implementations.\n\n- Document bugs, implementation details, and best practices, and contribute to internal tools, documentation, and scalable team knowledge sharing.\n\nWe're definitely looking for you, if you have...\n\n- Proficiency in JavaScript and Google Apps Script.\n\n- Experience working with APIs, JSON structures, and data workflows.\n\n- Strong analytical, troubleshooting, and debugging skills in automation or API-driven environments.\n\n- Ability to translate business requirements into technical solutions and scalable workflows.\n\n- Strong verbal and written English communication skills.\n\n- Ability to explain technical concepts clearly to non-technical stakeholders.\n\n- Structured, logical problem-solving approach with strong attention to detail and quality assurance.\n\n- Willingness to work flexible hours to support global or cross-regional collaboration.\n\n- Familiarity with Smartly platform workflows, templates, and rules.\n\n- Experience supporting integrations with Meta, Google Ads, YouTube, DV360, or Campaign Manager 360.\n\n- Familiarity with Git, AWS, or Google Cloud Platform.\n\nAbout Smartly\n\nSmartly is the AI-powered advertising technology company transforming ad experiences for brands and their consumers. Our comprehensive advertising platform seamlessly integrates the capabilities of media, creative, and intelligence to power more than 800 billion impressions and generate more than 300 billion creatives annually, delivering tangible business outcomes for brands and advertisers.\n\nSmartly is the only company in the industry recognized as a Leader in The Forrester Wave: Creative Advertising Technologies with PwC validating the results it delivers for brands. We manage creative and media for 700+ brands worldwide and $6B in ad spend across the largest media platforms, including Facebook, Google, Instagram, Pinterest, Snap, and TikTok. Our end-to-end technology, unmatched access to media platforms and exceptional customer service help Fortune 500 brands to reach and engage consumers and learn what performs best.Smartly is a multinational and diverse team of 750+ Smartlies from 60+ nationalities, working in 13 countries. Together, we want to create and maintain an inclusive environment where everyone feels respected and heard. Our Diversity, Equity & Inclusion approach is at the heart of it.\n\nVisit Smartly to learn more.\n\nThe processing of your information is described in our Candidate Privacy Notice.",
-      "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
-      "source": "greenhouse",
-      "posted_at": "2026-08-31T07:13:39-04:00",
-      "scraped_at": "2026-09-15T12:24:06.705Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -904,7 +882,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-french-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-08-29T07:31:19.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -926,7 +904,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.927Z",
       "status": "open"
     },
     {
@@ -948,7 +926,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/carelock-com-behavioral-health-integration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-26T17:26:29.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -970,7 +948,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-09-15T12:23:37.191Z",
+      "scraped_at": "2026-09-16T12:20:49.537Z",
       "status": "open"
     },
     {
@@ -1014,7 +992,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/blue-whale-lending-llc-graphic-design-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:38:17.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -1036,7 +1014,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/pearl-product-cad-packaging-production-specialist-a341",
       "source": "We Work Remotely",
       "posted_at": "2026-08-19T20:37:13.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -1124,7 +1102,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -1146,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-09-15T12:23:53.576Z",
+      "scraped_at": "2026-09-16T12:21:08.927Z",
       "status": "open"
     },
     {
@@ -1168,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/88d09213-d4fe-4c85-92ce-954901559d92",
       "source": "lever",
       "posted_at": "2026-08-04T14:32:11.323Z",
-      "scraped_at": "2026-09-15T12:23:53.576Z",
+      "scraped_at": "2026-09-16T12:21:08.927Z",
       "status": "open"
     },
     {
@@ -1190,7 +1168,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/the-humane-league-temporary-us-corporate-relations-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-03T17:34:26.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -1212,7 +1190,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -1234,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1256,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/2c549930-f851-4077-9fef-8f4291ee7649",
       "source": "lever",
       "posted_at": "2026-07-07T12:09:13.992Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1278,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1300,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1ec2d65d-c382-46d9-a0e6-4e82af26b3ed",
       "source": "lever",
       "posted_at": "2026-06-22T14:00:51.567Z",
-      "scraped_at": "2026-09-15T12:23:53.576Z",
+      "scraped_at": "2026-09-16T12:21:08.927Z",
       "status": "open"
     },
     {
@@ -1322,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1344,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-09-15T12:23:53.576Z",
+      "scraped_at": "2026-09-16T12:21:08.927Z",
       "status": "open"
     },
     {
@@ -1366,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1388,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1410,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-09-15T12:23:53.576Z",
+      "scraped_at": "2026-09-16T12:21:08.927Z",
       "status": "open"
     },
     {
@@ -1432,7 +1410,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -1454,7 +1432,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-09-15T12:24:17.272Z",
+      "scraped_at": "2026-09-16T12:21:23.381Z",
       "status": "open"
     },
     {
@@ -1476,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1498,7 +1476,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1520,7 +1498,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.927Z",
       "status": "open"
     },
     {
@@ -1542,7 +1520,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-09-15T12:23:53.575Z",
+      "scraped_at": "2026-09-16T12:21:08.926Z",
       "status": "open"
     },
     {
@@ -1564,7 +1542,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-09-15T12:23:48.826Z",
+      "scraped_at": "2026-09-16T12:21:04.138Z",
       "status": "open"
     },
     {
@@ -1586,7 +1564,7 @@
       "apply_url": "https://jobs.lever.co/webfx/a8e8ff2a-a53f-4770-b2ea-b3df91d4d175",
       "source": "lever",
       "posted_at": "2020-03-11T18:25:55.023Z",
-      "scraped_at": "2026-09-15T12:24:14.890Z",
+      "scraped_at": "2026-09-16T12:21:21.091Z",
       "status": "open"
     },
     {
@@ -1608,7 +1586,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:37.157Z",
+      "scraped_at": "2026-09-16T12:20:49.673Z",
       "status": "open"
     },
     {
@@ -1630,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Intermediate-Customer-Onboarding-Specialist_REQ-5424",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.356Z",
+      "scraped_at": "2026-09-16T12:20:56.265Z",
       "status": "open"
     },
     {
@@ -1652,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.265Z",
       "status": "open"
     },
     {
@@ -1674,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Support-Specialist--New-Grads-_REQ-5019",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1696,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1718,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist_REQ-4441",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1740,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Graphic-Designer_REQ-5220",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1762,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Payroll-Specialist--EMEA_REQ-5254",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1784,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1806,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1828,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1850,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1872,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1894,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1916,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/People-Systems---Analytics-Specialist--Workday-_REQ-4449",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1938,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1960,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Global-Benefits---Leaves-Specialist_REQ-4569",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -1982,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -2004,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -2026,29 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Customer-Training-Specialist_REQ-5239-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4507",
-      "hub": "legal",
-      "title": "Workplace Experience Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Barcelona",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Workplace Experience Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/Workplace-Experience-Specialist_REQ-4507",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -2070,7 +2026,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -2092,7 +2048,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -2114,7 +2070,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:43.357Z",
+      "scraped_at": "2026-09-16T12:20:56.266Z",
       "status": "open"
     },
     {
@@ -2136,7 +2092,7 @@
       "apply_url": "https://www.filevine.com/jobs/7a5a1cfa-bd48-4731-8b14-f4f22747dd7f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:45.555Z",
+      "scraped_at": "2026-09-16T12:20:58.328Z",
       "status": "open"
     },
     {
@@ -2158,7 +2114,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:45.555Z",
+      "scraped_at": "2026-09-16T12:20:58.328Z",
       "status": "open"
     },
     {
@@ -2180,7 +2136,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:45.555Z",
+      "scraped_at": "2026-09-16T12:20:58.328Z",
       "status": "open"
     },
     {
@@ -2202,7 +2158,51 @@
       "apply_url": "https://www.filevine.com/jobs/ba34f952-d53e-4ef2-86cf-381cfe88671f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-15T12:23:45.555Z",
+      "scraped_at": "2026-09-16T12:20:58.328Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
+      "hub": "legaltech",
+      "title": "Partner Onboarding Specialist",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Case Management Software",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Partner Onboarding Specialist at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-09-16T12:20:58.328Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
+      "hub": "legaltech",
+      "title": "Technical Support (Email Specialist)",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Case Management Software",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Technical Support (Email Specialist) at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-09-16T12:20:58.328Z",
       "status": "open"
     }
   ]
