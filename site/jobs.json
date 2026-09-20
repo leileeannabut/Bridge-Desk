@@ -1,10 +1,120 @@
 {
-  "generated_at": "2026-09-19T11:44:42.316Z",
+  "generated_at": "2026-09-20T11:57:16.538Z",
   "count": 100,
-  "total_open": 115,
-  "sources_ok": 54,
-  "sources_failed": 22,
+  "total_open": 114,
+  "sources_ok": 55,
+  "sources_failed": 21,
   "jobs": [
+    {
+      "id": "agg:jobicy:151242",
+      "hub": "business",
+      "title": "Bilingual Client Retention Specialist",
+      "company": "Beyond Finance",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 19,
+      "comp_max": 21,
+      "summary": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future.",
+      "description": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future. Through compassionate, individualized care, a culture focused on compliance and ethics, supportive user-centric technology, and customized financial solutions, we've helped over 1 million clients on their path to a brighter future.\n\nWhile we're proud of what we've already accomplished, we're searching for new collaborators to help us get to the next level! If you're looking to join a forward-thinking, rapidly growing organization with helping people as its number one goal, we want to hear from you.\n\nAbout The Role\n\nOur Customer Success Team serves as the primary point of contact for valued customers enrolled in Beyond Finance’s financial hardship programs. Our Retention Specialists play a critical role in ensuring the continued loyalty of our Beyond customer base. As a Retention Specialist, your primary responsibility will be to educate and assist clients who are facing financial hardship and exploring options to become debt-free. You will play a crucial role in retaining clients within our financial hardship debt program. In this position, you will interact with clients primarily through inbound phone calls and be responsible for deescalating upset clients, empathizing with their financial difficulties, and helping them navigate the program. Their primary focus is on our at-risk customers who are struggling with the use and/or value of their enrolled program, requiring creative problem solving to help them better realize and understand the value of their decision.\n\nKey Responsibilities:\n\n- Educate Clients: Provide comprehensive information about Beyond Finance financial hardship debt program to clients, ensuring they have a clear understanding of the benefits, process, and available options.\n\n- Empathize and Deescalate: Display empathy and active listening skills to understand and deescalate upset clients, addressing their concerns and alleviating their stress regarding their financial situation.\n\n- Navigate CRM System: Effectively use our Customer Relationship Management (CRM) system to quickly access and comprehend client information, including their current financial status and program progress. Maintain accurate and detailed records of all client interactions and program progress in the CRM system.\n\n- Analyze Financial Situation: Assess the client's current financial situation and determine the most appropriate options to help them achieve their goal of becoming debt-free.\n\n- Retain Clients: Collaborate with clients to develop customized solutions that align with their financial goals, and encourage them to remain in the Beyond Finance program.\n\n- Achieve Retention Goals: Meet or exceed retention targets and earn commissions based on your ability to enable clients to achieve their financial objectives.\n\n- Above all else, provide a best-in-class customer service experience over the phone and through various communication tools responding to client requests and anticipating unstated needs\n\nWhat We Look For\n\n- Bilingual Spanish Required\n\n- Required - Experience in Retention, Sales, or Collections\n\n- High school diploma or equivalent (Associate's or Bachelor's degree is a plus)\n\n- Ability to work in a fast-paced environment and handle high call volumes\n\n- Resilient and able to remain calm under pressure\n\n- Demonstrated ability to negotiate and deescalate client issues effectively\n\n- Tech saavy and proficiency with a Client Relationship Management system (CRM)\n\n- Strong customer focus and adaptability to different personality types\n\n- Strong verbal and written communication skills along with active listening\n\n- Supports team/department collaboration & inclusion\n\n- Troubleshooting and problem solving skills\n\n- Ability to multi-task, set priorities and manage time effectively\n\n- Willingness to adapt to a changing environment and learn about new financial solutions.\n\n#LI-ST1\n\nThe base salary range represents the low and high end of the anticipated salary range for this position. The actual base salary offered will depend on numerous factors including the individual’s skills, experience, performance, and the location where work is performed.\n\nBase Pay Range\n\n$19—$21 USD\n\nWhy Join Us?\n\nWhile you make a difference for others, we’ll work to make a difference for you, providing an uplifting, collaborative work environment and benefits that reflect your value to us. For eligible full-time employees, we offer:\n\n- Considerable employer contributions for health, dental, and vision programs\n\n- Generous PTO, paid holidays, and paid parental leave\n\n- 401(k) matching program\n\n- Merit advancement opportunities\n\n- Career development & training\n\nAnd finally, our team spirit and culture! We cultivate an environment of community, connection, and belonging across our entire organization.\n\nBeyond Finance does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job positions. No fee will be paid to their parties who submit unsolicited candidates directly to Beyond Finance employees or the Beyond Finance HR team. No placement fee will be paid to any third party unless such a request has been made by the Beyond HR team.",
+      "apply_url": "https://jobicy.com/jobs/151242-bilingual-client-retention-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-09-20T04:55:16.000Z",
+      "scraped_at": "2026-09-20T11:57:16.130Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:151252",
+      "hub": "business",
+      "title": "Client Retention Specialist",
+      "company": "Beyond Finance",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 19,
+      "comp_max": 20,
+      "summary": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future.",
+      "description": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future. Through compassionate, individualized care, a culture focused on compliance and ethics, supportive user-centric technology, and customized financial solutions, we've helped over 1 million clients on their path to a brighter future.\n\nWhile we're proud of what we've already accomplished, we're searching for new collaborators to help us get to the next level! If you're looking to join a forward-thinking, rapidly growing organization with helping people as its number one goal, we want to hear from you.\n\nAbout The Role\n\nOur Customer Success Team serves as the primary point of contact for valued customers enrolled in Beyond Finance’s financial hardship programs. Our Retention Specialists play a critical role in ensuring the continued loyalty of our Beyond customer base. As a Retention Specialist, your primary responsibility will be to educate and assist clients who are facing financial hardship and exploring options to become debt-free. You will play a crucial role in retaining clients within the Beyond Finance financial hardship debt program. In this position, you will interact with clients primarily through inbound phone calls and be responsible for deescalating upset clients, empathizing with their financial difficulties, and helping them navigate the Beyond Finance program. Their primary focus is on our at-risk customers who are struggling with the use and/or value of their enrolled program, requiring creative problem solving to help them better realize and understand the value of their decision.\n\nKey Responsibilities:\n\n- Educate Clients: Provide comprehensive information about the Beyond Finance financial hardship debt program to clients, ensuring they have a clear understanding of the benefits, process, and available options.\n\n- Empathize and Deescalate: Display empathy and active listening skills to understand and deescalate upset clients, addressing their concerns and alleviating their stress regarding their financial situation.\n\n- Navigate CRM System: Effectively use our Customer Relationship Management (CRM) system to quickly access and comprehend client information, including their current financial status and program progress. Maintain accurate and detailed records of all client interactions and program progress in the CRM system.\n\n- Analyze Financial Situation: Assess the client's current financial situation and determine the most appropriate options to help them achieve their goal of becoming debt-free.\n\n- Retain Clients: Collaborate with clients to develop customized solutions that align with their financial goals, and encourage them to remain in the Beyond Finance program.\n\n- Achieve Retention Goals: Meet or exceed retention targets and earn commissions based on your ability to enable clients to achieve their financial objectives.\n\n- Above all else, provide a best-in-class customer service experience over the phone and through various communication tools responding to client requests and anticipating unstated needs\n\nWhat We Look For\n\n- Required - Experience in Retention, Sales, or Collections\n\n- High school diploma or equivalent (Associate's or Bachelor's degree is a plus)\n\n- Ability to work in a fast-paced environment and handle high call volumes\n\n- Resilient and able to remain calm under pressure\n\n- Demonstrated ability to negotiate and deescalate client issues effectively\n\n- Tech saavy and proficiency with a Client Relationship Management system (CRM)\n\n- Strong customer focus and adaptability to different personality types\n\n- Strong verbal and written communication skills along with active listening\n\n- Supports team/department collaboration & inclusion\n\n- Troubleshooting and problem solving skills\n\n- Ability to multi-task, set priorities and manage time effectively\n\n- Willingness to adapt to a changing environment and learn about new financial solutions.\n\n#LI-ST1\n\nThe base salary range represents the low and high end of the anticipated salary range for this position. The actual base salary offered will depend on numerous factors including the individual’s skills, experience, performance, and the location where work is performed.\n\nBase Pay Range\n\n$19—$20 USD\n\nWhy Join Us?\n\nWhile you make a difference for others, we’ll work to make a difference for you, providing an uplifting, collaborative work environment and benefits that reflect your value to us. For eligible full-time employees, we offer:\n\n- Considerable employer contributions for health, dental, and vision programs\n\n- Generous PTO, paid holidays, and paid parental leave\n\n- 401(k) matching program\n\n- Merit advancement opportunities\n\n- Career development & training\n\nAnd finally, our team spirit and culture! We cultivate an environment of community, connection, and belonging across our entire organization.\n\nBeyond Finance does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job positions. No fee will be paid to their parties who submit unsolicited candidates directly to Beyond Finance employees or the Beyond Finance HR team. No placement fee will be paid to any third party unless such a request has been made by the Beyond HR team.",
+      "apply_url": "https://jobicy.com/jobs/151252-client-retention-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-09-20T04:50:21.000Z",
+      "scraped_at": "2026-09-20T11:57:16.130Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:151247",
+      "hub": "business",
+      "title": "Bilingual Customer Service Representative",
+      "company": "Beyond Finance",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future.",
+      "description": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future. Through compassionate, individualized care, a culture focused on compliance and ethics, supportive user-centric technology, and customized financial solutions, we've helped over 1 million clients on their path to a brighter future.\n\nWhile we're proud of what we've already accomplished, we're searching for new collaborators to help us get to the next level! If you're looking to join a forward-thinking, rapidly growing organization with helping people as its number one goal, we want to hear from you.\n\nAbout The Role\n\nOur Customer Service Representatives (CSR) serve as the primary point of contact for clients enrolled in Beyond Finance’s financial hardship programs. They are Beyond’s voice to the client and provide the connection between our Sales and Operations teams. Our CSRs possess a “second-to-none” work ethic and an upbeat, positive and passionate attitude about customer service. By responding promptly to client requests, and possessing an acute awareness that allows them to anticipate the client’s needs and exceed expectations, our Client Success Department is critical to the success of helping maintain Beyond’s exemplary customer brand.\n\nAs a Customer Service Representative, you will complete a 4 week training program to become an expert in Beyond's financial hardship programs. After you successfully complete training, you will be responsible for providing superior customer service and a positive experience to our clients. The Client Success Representative role is a remote position.\n\nOur call center is open 7 days a week. The hours are M-F 7:00am-10:00pm CST and Sat/Sun 7:00am-9:00pm CST.\n\nWhat You’ll Do\n\n- Above all else, provide a best-in-class customer service experience over the phone by responding to client requests, anticipating unstated needs, and educating them on our programs\n\n- Through demonstrated effective listening, analyze client problems and provide information and solutions in a timely and efficient manner\n\n- Employs strong interpersonal skills to handle difficult calls courteously and professionally\n\n- Thoroughly documents request outcomes for accurate tracking and analysis\n\n- Work efficiently and effectively to independently resolve client requests, both as a team and independently\n\n- Develops and maintains positive client relations and coordinates with other departments within the company to ensure client requests and questions are handled appropriately and in a timely manner\n\n- Operates a desktop computer to obtain and extract information; documents information, activities and changes in the CRM database (Client Relationship Management System) for client accounts\n\n- Utilizes appropriate resource materials to effectively and accurately interpret‚ respond and resolve client inquiries and problems\n\n- Handle a high volume of clients in a work from home call center environment\n\nWhat We Look For\n\n- 1 year call center experience (Required)\n\n- Bilingual - Spanish (Required)\n\n- Reliable, High Speed, Internet connection (Required)\n\n- Technical proficiency with Client Relationship Management system (CRM)\n\n- Strong customer service orientation\n\n- Strong communicator: Includes listening, verbal & written communication, courteous and professional active listening skills is a must\n\n- Effective problem solver\n\n- Effective at time management, planning & organizing tasks and time\n\n- Ability to understand and empathize with customer issue(s)\n\n- Ability to work from home in a distraction free environment\n\n#LI-NA1\n\nWhy Join Us?\n\nWhile you make a difference for others, we’ll work to make a difference for you, providing an uplifting, collaborative work environment and benefits that reflect your value to us. For eligible full-time employees, we offer:\n\n- Considerable employer contributions for health, dental, and vision programs\n\n- Generous PTO, paid holidays, and paid parental leave\n\n- 401(k) matching program\n\n- Merit advancement opportunities\n\n- Career development & training\n\nAnd finally, our team spirit and culture! We cultivate an environment of community, connection, and belonging across our entire organization.\n\nBeyond Finance does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job positions. No fee will be paid to their parties who submit unsolicited candidates directly to Beyond Finance employees or the Beyond Finance HR team. No placement fee will be paid to any third party unless such a request has been made by the Beyond HR team.",
+      "apply_url": "https://jobicy.com/jobs/151247-bilingual-customer-service-representative-2",
+      "source": "Jobicy",
+      "posted_at": "2026-09-20T04:50:19.000Z",
+      "scraped_at": "2026-09-20T11:57:16.130Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:150972",
+      "hub": "business",
+      "title": "Customer Onboarding Specialist",
+      "company": "Planet Labs Inc.",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "LATAM",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Welcome to Planet. We believe in using space to help life on Earth. Planet designs, builds, and operates the largest constellation of imaging satellites in history.",
+      "description": "Welcome to Planet. We believe in using space to help life on Earth.\n\nPlanet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platform to authoritative figures in commercial, environmental, and humanitarian sectors. We are both a space company and data company all rolled into one.\n\nCustomers and users across the globe use Planet's data to develop new technologies, drive revenue, power research, and solve our world’s toughest obstacles.\n\nAs we control every component of hardware design, manufacturing, data processing, and software engineering, our office is a truly inspiring mix of experts from a variety of domains.\n\nWe have a people-centric approach toward culture and community and we strive to iterate in a way that puts our team members first and prepares our company for growth. Join Planet and be a part of our mission to change the way people see the world.\n\nPlanet is a global company with employees working remotely world wide and joining us from offices in San Francisco, Washington DC, Germany, Austria, Slovenia, and The Netherlands.\n\nAbout the Role:\nThe Customer Onboarding Specialist is responsible for delivering high-quality technical onboarding experiences that reduce time-to-value and help customers successfully adopt Planet data, tools, and workflows.\nSitting within the Education & Enablement team, this role works closely with Customer Success, Technical Support, Professional Services, Product, and Revenue Operations to deliver a consistent, scalable onboarding experience across customer segments. The Onboarding Specialist leads the coordination of technical onboarding activities, contributes to live onboarding delivery, and supports the continuous improvement of onboarding content, campaigns, and processes.\nIn partnership with Customer Success, this role also provides ongoing technical enablement for strategic customers across Latin America, helping customers continue building technical proficiency, adopt new capabilities, and maximize value from Planet products throughout their customer journey. This role serves as a trusted technical partner for customers, supporting long-term adoption through technical guidance, education, and enablement.\nThis is a full-time, remote position based in Latin America. If located near an office, you are expected to work from that office 3 days per week.\nImpact You’ll Own:\n\n- Deliver tailored technical onboarding experiences that help customers successfully adopt Planet's products, data, and workflows while reducing time-to-value.\n\n- Lead onboarding kickoff calls, coordinate onboarding activities, and deliver live onboarding sessions, technical training, and workshops for customers across Latin America.\n\n- Partner closely with Customer Success Managers to provide ongoing technical enablement that helps strategic customers expand their use of Planet products, workflows, and capabilities beyond initial onboarding.\n\n- Build trusted technical relationships with customers by providing continued education, guidance, and best practices that support long-term adoption and customer success.\n\n- Design, maintain, and continuously improve onboarding resources, customer education content, and learning materials across Planet's education platforms.\n\n- Coordinate onboarding activities across Education, Customer Success, Technical Support, Professional Services, Product, and Revenue Operations to ensure a seamless customer experience.\n\n- Monitor onboarding engagement and customer feedback, contributing insights that improve onboarding experiences, customer adoption, and future education initiatives.\n\nWhat You Bring:\n\n- 4+ years of experience in customer onboarding, customer education, technical training, technical support, customer success, or a similar customer-facing role.\n\n- Bachelor's degree in a related field.\n\n- Professional fluency in English, Spanish, and Portuguese, with the ability to confidently deliver customer onboarding and technical training in all three languages.\n\n- Technical aptitude with the ability to understand complex customer workflows, explain technical concepts clearly to both technical and non-technical audiences, and deliver engaging customer training and enablement.\n\n- Experience working with GIS, remote sensing, or geospatial data platforms. \n\n- Hands-on experience with coding or scripting (preferably Python) sufficient to understand customer workflows, troubleshoot issues, and support technical onboarding.\n\n- Familiarity with adult learning principles and best practices for customer education and technical enablement.\n\n- Ability to coordinate cross-functional customer onboarding activities while balancing organization, collaboration, stakeholder alignment, and customer needs.\n\nWhat Makes You Stand Out:\n\n- Experience working in a SaaS, data, or developer-focused product environment.\n\n- Experience working with Learning Management Systems (LMS), customer education platforms, or documentation systems.\n\n- Experience supporting both live and scaled (self-service or automated) customer onboarding and enablement programs.\n\n- Exposure to onboarding automation, customer engagement platforms, or lifecycle communications.\n\n- Experience working with multilingual or cross-cultural customer audiences.\n\nApplication Deadline:\nNovember 10, 2026 at 11:59p PT\nBenefits While Working at Planet:\nThese offerings are dependent on employment type and geographical location, based upon applicable law or company policy.\n\n- Paid time off including vacation, holidays and company-wide days off \n\n- Supplemental Medical and Dental Coverage\n\n- Employee Wellness Program \n\n- Home Office Reimbursement\n\n- Monthly Phone and Internet Reimbursement\n\n- Tuition Reimbursement and access to LinkedIn Learning\n\n- Volunteering Paid Time Off\n\n#LI-REMOTE\nSan Francisco Fair Chance Ordinance\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\nWhy we care so much about Belonging. \nWe’re dedicated to helping the whole Planet, and to do that we must strive to represent all of it within each of our offices and on all of our teams. That’s why Planet is guided by an ultimate north star of Belonging—dreaming big as we approach our ongoing work. If this job intrigues you, but you’re thinking you might not have all the qualifications, please... do apply! At Planet, we are looking for well-rounded people from around the world who can contribute to more ways than just what is listed in this job description. We don’t just fill positions, we aspire to fulfill people’s careers, most excited about folks who are motivated by our underlying humanitarian efforts. We are a few orbits around the sun before we get to where we want to be, so we hope you’re excited to come along for the ride. \n\nEEO statement:\nPlanet is committed to building a community where everyone belongs and we invite people from all backgrounds to apply. Planet is an equal opportunity employer, and committed to providing employment opportunities regardless of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, pregnancy, childbirth and breastfeeding, age, sexual orientation, military or veteran status, or any other protected classification, in accordance with applicable federal, state, and local laws. Know Your Rights.\n\nAccommodations: \nPlanet is an inclusive community and we know that everyone has their own needs. If you have a disability or special need that requires accommodation during the hiring process, please reach out to accommodations@planet.com or contact your recruiter with your request. Your message will be confidential and we will be happy to assist you.\n\nPrivacy Policy: By clicking \"Apply Now\" at the top of this job posting, I acknowledge that I have read the Planet Data Privacy Notice for California Staff Members and Applicants, and hereby consent to the collection, processing, use, and storage of my personal information as described therein.\n\nPrivacy Policy (European Applicants): By clicking \"Apply Now\" at the top of this job posting, I acknowledge that I have read the Candidate Privacy Notice GDPR Planet Labs Europe, and hereby consent to the collection, processing, use, and storage of my personal information as described therein.\n\nAI in Our Interviewing Process: Planet is committed to providing an exceptional interview experience for all candidates. We currently use Metaview to better focus on candidates and less on trying to capture notes. As such, with the candidate's consent, select interviews may be recorded and include a \"Planet AI Notetaker\" for transcription and summarization purposes. Should an interview involve use of AI interview technologies, the candidate will receive notification and have the ability to opt out both in advance and/or real-time. Opting out will not affect one's candidacy.\n\nCandidate AI Policy: Planet embraces Artificial Intelligence (AI) tools, and we encourage its responsible use. We understand that candidates may use various resources, including AI tools, to prepare for interviews and assessments. However, during any live interview stage or when actively completing assessments for this position, the use of AI tools—e.g. Large Language Models (LLMs), deep fake technology, etc.—is strictly prohibited unless explicitly prompted by an interviewer or assessment instructions. If you are unsure about acceptable use, please contact your recruiter for clarification. If an AI tool or similar technology is desired as an accommodation, please contact accommodations@planet.com with your request for assistance. Your message will be confidential, and we will be happy to assist you. Violation of this policy may result in disqualification of your application.",
+      "apply_url": "https://jobicy.com/jobs/150972-customer-onboarding-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-09-19T08:50:21.000Z",
+      "scraped_at": "2026-09-20T11:57:16.130Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:150967",
+      "hub": "business",
+      "title": "Customer Support Representative",
+      "company": "Palmstreet",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Mexico",
+      "employment_type": "full-time",
+      "comp_min": 16000,
+      "comp_max": 20000,
+      "summary": "About Palmstreet: Palmsteet is a community-obsessed live shopping platform connecting over 2 million passionate collectors and sellers.",
+      "description": "About Palmstreet:\nPalmsteet is a community-obsessed live shopping platform connecting over 2 million passionate collectors and sellers. Starting with plants in 2020, we've evolved to include handmade crafts, collectible toys, and unique finds from talented sellers worldwide.\nBacked by top Silicon Valley VCs (a16z, Craft Ventures, Headline), we're building the 'World's Online Main Street'—bringing authentic personal connections and the thrill of discovering one-of-a-kind treasures to social online experiences.\nWith explosive growth over the past 24 months, we're scaling rapidly and looking for exceptional talent to join us in shaping the future of social commerce.\nThe Opportunity:\nPalmstreet is looking for a Customer Support Representative who thrives in a fast-paced environment, has excellent customer service skills and has a strong desire to provide top-tier service!\nThis is an exciting opportunity to build relationships with Palmstreet users by assisting them with their needs, reinforcing our community standards and promoting Palmstreet as the top live-selling app in the marketplace!\nThe right candidate must be based in Mexico.\nResponsibilities:\n- Respond to user inquiries on our mobile app and desktop.\n\n- Thoughtfully and courteously respond to all questions and issues in a timely and efficient manner.\n\n- Track and record issues and data to inform the company of problems and requests for improvements.\n\n- Contribute to the SOPs to enhance overall team efficiency.\n\n- Collect, organize and summarize various customer cases to identify trends and potential system bugs.\n\n- Ensure customer issues are resolved promptly through high-quality service.\n\n- Continuously learn and adapt to new knowledge so you can provide the highest level of service.\n\n- Perform other duties as assigned.\n\nQualifications:\n- Reliable computer, smart phone and reliable high-speed internet connection.\n\n- Excellent American English reading and writing skills.\n\n- 2-3 years of customer service experience and able to handle multiple customer issues simultaneously.\n\n- Team player who works well with others\n\n- Courteous and detailed written communication skills.\n\n- Strong learning ability and initiative.\n\n- Excellent technical skills – phone app technical skills are vital in this role.\n\n- Native English speaking, writing and listening skills.\n\n- Experience working in e-commerce platforms.\n\n- Practical experience in summarizing and optimizing SOPs.\n\n- Time spent living in the US preferred.\n\n- An interest in plants and/or crafts.\n\n- This position is fully remote, and candidate must be based in Mexico\n\nCompensation:\n- The hourly compensation range for this role is $8-$10/hr USD\n\n- Shifts will vary, but will generally fall between 8AM-8PM ET, and will include a Saturday or a Sunday.\n\nWhy Join Us?\n- Join a fast-paced startup culture where creativity and curiosity are valued.\n\n- Collaborate with a passionate, nimble team and work directly with sellers of unique products.\n\n- Be part of an exciting evolution in commerce, while helping shape what live shopping becomes next.\n\nOur Commitment to Diversity and Inclusion\nPalmstreet is proud to be an equal opportunity employer. We celebrate diversity and encourage applications from everyone—especially those whose identities are traditionally underrepresented in tech. We do not discriminate on race, religion, color, gender expression or identity, sexual orientation, ancestry, national origin, citizenship, age, marital status, veteran status, disability status, political belief, or any other characteristic protected by law.\nFor roles in Canada, we also comply with the Employment Equity Act.\n\nApplication Process\nWe’re excited to review your application! If your experience aligns with what we’re looking for, our hiring team will reach out to schedule an initial screening call and walk you through the next steps of our interview process.\nWhile we try our best to respond to everyone, the high volume of applications may mean we’re unable to provide individual updates if we decide not to move forward.\nTo stay connected and explore future opportunities, follow us on LinkedIn or visit us at https://palmstreet.app/careers.",
+      "apply_url": "https://jobicy.com/jobs/150967-customer-support-representative",
+      "source": "Jobicy",
+      "posted_at": "2026-09-19T08:50:19.000Z",
+      "scraped_at": "2026-09-20T11:57:16.130Z",
+      "status": "open"
+    },
     {
       "id": "lever:octopus-energy:dcbd9c2c-2845-4e46-8108-45cdf1d8e801",
       "hub": "business",
@@ -24,7 +134,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dcbd9c2c-2845-4e46-8108-45cdf1d8e801",
       "source": "lever",
       "posted_at": "2026-09-18T15:53:46.846Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -46,7 +156,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7862926003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-09-19T11:44:18.691Z",
+      "scraped_at": "2026-09-20T11:56:59.214Z",
       "status": "open"
     },
     {
@@ -68,7 +178,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7980283003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-09-19T11:44:18.691Z",
+      "scraped_at": "2026-09-20T11:56:59.214Z",
       "status": "open"
     },
     {
@@ -90,7 +200,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-09-19T11:44:18.691Z",
+      "scraped_at": "2026-09-20T11:56:59.214Z",
       "status": "open"
     },
     {
@@ -112,7 +222,7 @@
       "apply_url": "https://jobicy.com/jobs/153522-customer-care-specialist",
       "source": "Jobicy",
       "posted_at": "2026-09-17T16:13:01.000Z",
-      "scraped_at": "2026-09-19T11:44:41.947Z",
+      "scraped_at": "2026-09-20T11:57:16.130Z",
       "status": "open"
     },
     {
@@ -134,7 +244,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8659519002",
       "source": "greenhouse",
       "posted_at": "2026-09-17T14:07:35-04:00",
-      "scraped_at": "2026-09-19T11:44:20.709Z",
+      "scraped_at": "2026-09-20T11:57:01.296Z",
       "status": "open"
     },
     {
@@ -156,7 +266,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -178,7 +288,7 @@
       "apply_url": "https://jobicy.com/jobs/146330-customer-support-specialist-iii-2",
       "source": "Jobicy",
       "posted_at": "2026-09-17T05:30:06.000Z",
-      "scraped_at": "2026-09-19T11:44:41.947Z",
+      "scraped_at": "2026-09-20T11:57:16.130Z",
       "status": "open"
     },
     {
@@ -200,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/true-publicity-undergrad-student-remote-part-time-flexible-hours-assistant-and-content-manager-1",
       "source": "We Work Remotely",
       "posted_at": "2026-09-16T23:02:36.000Z",
-      "scraped_at": "2026-09-19T11:44:40.980Z",
+      "scraped_at": "2026-09-20T11:57:14.190Z",
       "status": "open"
     },
     {
@@ -222,7 +332,7 @@
       "apply_url": "https://jobs.lever.co/ro/d763d6d5-03cc-41ff-81ee-d324a00ad3a5",
       "source": "lever",
       "posted_at": "2026-09-16T18:21:16.992Z",
-      "scraped_at": "2026-09-19T11:44:40.111Z",
+      "scraped_at": "2026-09-20T11:57:13.562Z",
       "status": "open"
     },
     {
@@ -244,7 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T16:09:14-04:00",
-      "scraped_at": "2026-09-19T11:44:02.549Z",
+      "scraped_at": "2026-09-20T11:56:44.274Z",
       "status": "open"
     },
     {
@@ -266,7 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6178977004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-09-19T11:44:32.252Z",
+      "scraped_at": "2026-09-20T11:57:03.898Z",
       "status": "open"
     },
     {
@@ -288,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6115272004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-09-19T11:44:32.252Z",
+      "scraped_at": "2026-09-20T11:57:03.898Z",
       "status": "open"
     },
     {
@@ -310,51 +420,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-09-19T11:44:32.252Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:146322",
-      "hub": "business",
-      "title": "Customer Support Representative (M-F/Night Shift)",
-      "company": "Nextiva",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Ukraine",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Redefine the future of customer experiences. One conversation at a time. At Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collab…",
-      "description": "Redefine the future of customer experiences. One conversation at a time.\n\nAt Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collaboration on a single, conversation centric platform. Powered by AI, driven by human innovation.\n\nOur culture is forward thinking, customer obsessed and built on the belief that meaningful connections drive better business outcomes. Whether it’s through our signature Amazing Service®, the technology we create, or the experiences we cultivate, connection is at the core of who we are.\n\nIf you’re ready to collaborate with incredible people, make an impact, and help businesses everywhere deliver truly amazing experiences, this is where you belong.\n\nHow You’ll Make an Impact\nAs a Technical Support Representative at Nextiva, you’ll be on the front lines of delivering exceptional customer experiences. You’re not just solving issues, you’re uncovering the “why,” guiding customers to the right solutions, and making their day easier.\nAs a Technical Support Representative, you will deliver Amazing Service® through high-quality technical support services by processing and resolving requests received across various communication channels; while continuously growing your skills in a fast-paced, learning environment. You’ll leverage modern tools, including AI, to work smarter, move faster, and deliver even better outcomes for customers.\nWhat You’ll Do\n\n- Solve What Matters: Troubleshoot customer issues across hardware, software, and networking systems, quickly identifying root causes and driving resolution\n\n- Deliver Great Experiences: Communicate clearly and professionally to ensure every interaction is positive and productive\n\n- Stay on the Details: Document customer interactions, issues, and resolutions with accuracy and consistency\n\n- Keep Systems Running: Provide, maintain, and update systems to ensure optimal performance for customers; managing multiple requests simultaneously in a fast-paced, high-volume environment\n\n- Own the Outcome: Take full ownership of customer issues, following through until resolution while meeting daily and monthly performance metrics\n\n- Continuous Learning: Continuously build technical knowledge of Nextiva products, systems, and troubleshooting processes to provide better service. Explore new tools and ways of working to improve performance\n\n- Work Smarter:\n\n- Leverage AI tools (e.g., ChatGPT, Copilot, or similar) to support daily workflows, such as summarizing customer interactions, identifying key action items, and improving response quality\n\n- Apply clear and structured inputs when using AI tools to generate accurate and relevant outputs; iterating and refining your approach when the responses aren't perfect (persistence is key!)\n\nAbout You:\n\n- 2+ years of customer service experience, preferably in technical support or help desk environment\n\n- Working knowledge of PC and Mac operating systems and Microsoft Office applications; hardware and/or networking knowledge preferred\n\n- Advanced English fluency required (spoken and written).\n\n- Ability to work remotely in Ukraine and regularly work shifts aligned with US business hours (between 12:00pm-4:00am Monday through Friday)\n\n- Curiosity and enthusiasm for learning new technologies\n\n- Comfort working in fast-paced environments with evolving tools and processes\n\nCore Competencies:\n\n- Customer First: Patient, conscientious and professional; providing great customer experiences with a focus on accuracy\n\n- Problem Solver: Strong troubleshooting and analytical skills with a persistent, solution-oriented mindset; able to overcome setbacks and willing to try multiple paths to reach the right solution\n\n- Detail-Oriented: Ability to manage multiple tasks or conversations simultaneously; strong attention to detail in both technical work and documentation\n\n- AI-Forward Mindset: Curiosity and willingness to experiment with AI & automation tools (e.g., ChatGPT, Microsoft Copilot); exposure to similar tools in a professional environment preferred\n\n- Team-Driven: You collaborate, share knowledge, and contribute to a positive team environment\n\nWhy Nextiva?\n\n- Impact: Join a company trusted by over a million users, helping businesses deliver better customer experiences every day\n\n- Innovation: Be part of a team building AI-powered solutions that drive efficiency and smarter customer engagement\n\n- Growth: Thrive in a culture focused on continuous learning, development, and career progression\n\n- Culture: Work alongside a supportive, high-energy team committed to Amazing Service® and meaningful connections\n\nNextiva DNA (Core Competencies)\nNextiva’s most successful team members share common traits and behaviors:\n\n- Drives Results: Action-oriented problem solvers who quickly bring clarity and simplicity to ambiguity, challenge the status quo, and lead meaningful change; celebrating wins to fuel momentum. They act swiftly and pragmatically, learning and improving as they go.\n\n- Critical Thinker: Data-driven, forward-thinking individuals who identify key drivers, anticipate risks, and deliver clear recommendations. They confidently leverage AI and automation to reduce friction, improve decision-making, and focus on higher-value work.\n\n- Right Attitude: Collaborative, competitive, and resilient team players who jump in to solve tough problems, learn from setbacks, and foster a culture of service, respect, and care for customers and teammates.\n\nTotal Rewards\nOur Total Rewards offerings are designed to allow Nexties to take care of themselves and their families so they can do their best.\nOur compensation packages are tailored to each role and candidate's qualifications. We consider a wide range of factors, including skills, experience, training, and certifications, when determining compensation. We aim to offer competitive salaries or wages that reflect the value you bring to our team. Depending on the position, compensation may include base salary, incentives, or bonuses.\n\n- Health – Comprehensive medical coverage, individual limit on exclusions and dental care\n\n- Insurance – Life, disability, traumatic injuries and critical diseases\n\n- Work-Life Balance ⚖️ – PTO for all employees, Paid Sick leave (official document required), paid parental leave and paid holidays\n\n- Wellness ‍ – Employee Assistance Program and wellness initiatives\n\n- Growth – Access to ongoing learning and development opportunities and career advancement\n\nAt Nextiva, we're committed to supporting our employees' health, well-being, and professional growth. Join us and build a rewarding career!\n#LI-AL1 #LI-Remote\n\nFounded in 2008, Nextiva has grown into a global leader trusted by over 100,000 businesses and 1M+ users worldwide. Headquartered in Scottsdale, Arizona, and with teams across the globe, we're the future of customer experience and team collaboration through our AI-powered, conversation-centric platform.\n\nWant to see what life at Nextiva is all about? Connect with us on Instagram, Instagram MX, YouTube, LinkedIn, and the Nextiva Blog.",
-      "apply_url": "https://jobicy.com/jobs/146322-customer-support-representative-m-f-night-shift-2",
-      "source": "Jobicy",
-      "posted_at": "2026-09-16T04:35:21.000Z",
-      "scraped_at": "2026-09-19T11:44:41.947Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:149313",
-      "hub": "business",
-      "title": "Technical Adoption Specialist, Civil 3D, French speaking",
-      "company": "Autodesk",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Poland,  Spain",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Job Requisition ID # 26WD99616 Position overview Autodesk Customer Success is looking for highly motivated trusted advisors to help our customers optimize their product investment…",
-      "description": "Job Requisition ID #\n\n26WD99616\n\nPosition overview\nAutodesk Customer Success is looking for highly motivated trusted advisors to help our customers optimize their product investment and achieve measurable business outcomes.\n\nWe are looking for a professional from Civil Engineering experience, supporting a broad range of technologies in large-scale environments. This person will work closely with medium and large enterprise customers worldwide.\n\nYou will join the Technical Adoption and Success group within the Customer Technical Success team as part of our Customer Success organization – a team that values professional development and rewards high performance.\n\nThe Technical Adoption Specialist group is responsible for maximizing the success of and return on investment for our strategic customers. We do this by helping our customers achieve their business goals while maximizing the use and adoption of our solutions\n\nResponsibilities \n- Deliver live coaching sessions to drive adoption of Autodesk Solutions\n\n- Act as a technical trusted advisor to customers, demonstrating thought leadership and product expertise to help customers adopt and achieve business outcomes using Autodesk technology\n\n- Build, maintain and deliver packaged service offerings to increase customer success and new product adoption\n\n- Deliver digital content via 1:Many webinars for end users to drive successful adoption of Autodesk solutions\n\n- Develop and update digital content adhering to the CTS standards of quality and consistency, that solves specific customer challenges\n\nMinimum Qualifications\n- Fluency in English + either advanced level of French\n\n- Expert knowledge of Autodesk Civil 3D and Autodesk AutoCAD in a production environment\n\n- 5 – 6 years Civil Engineering or related field experience\n\n- Advanced knowledge of the industry needs and workflows\n\n- Bachelor’s degree in civil engineering \n\n- Public speaking/presentation skills\n\n- Additional knowledge of Autodesk Construction Cloud, Autodesk Map 3D, and GIS is beneficial\n\n#LI-AS1\n\nLearn More\n\nAbout Autodesk\nWelcome to Autodesk! Amazing things are created every day with our software – from the greenest buildings and cleanest cars to the smartest factories and biggest hit movies. We help innovators turn their ideas into reality, transforming not only how things are made, but what can be made.\n\nWe take great pride in our culture here at Autodesk – it’s at the core of everything we do. Our culture guides the way we work and treat each other, informs how we connect with customers and partners, and defines how we show up in the world.\n\nWhen you’re an Autodesker, you can do meaningful work that helps build a better world designed and made for all. Ready to shape the world and your future? Join us!\n\nSalary transparency\nSalary is one part of Autodesk’s competitive compensation package. Offers are based on the candidate’s experience and geographic location. In addition to base salaries, our compensation package may include annual cash bonuses, commissions for sales roles, stock grants, and a comprehensive benefits package.\n\nBelonging\nWe take pride in cultivating a culture of belonging where everyone can thrive. Learn more here: https://www.autodesk.com/company/global-belonging\n\nAre you an existing contractor or consultant with Autodesk?\nPlease search for open jobs and apply internally (not on this external site).",
-      "apply_url": "https://jobicy.com/jobs/149313-technical-adoption-specialist-civil-3d-french-speaking",
-      "source": "Jobicy",
-      "posted_at": "2026-09-16T04:30:14.000Z",
-      "scraped_at": "2026-09-19T11:44:41.947Z",
+      "scraped_at": "2026-09-20T11:57:03.898Z",
       "status": "open"
     },
     {
@@ -376,7 +442,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -398,95 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-09-19T11:44:11.326Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:150642",
-      "hub": "business",
-      "title": "Sales Customer Service Representative (Insurance or Bank Exp) - WFH / Dayshift",
-      "company": "Twoconnect",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Philippines",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "The Sales Customer Service Representative is responsible for up-selling and cross-selling the company’s products and services to existing customers via telephone.",
-      "description": "The Sales Customer Service Representative is responsible for up-selling and cross-selling the company’s products and services to existing customers via telephone. This role involves both inbound and outbound calls, utilizing established systems and processes to achieve sales targets while maintaining excellent customer service.\n\n- Up-sell and cross-sell products and services to existing customers through inbound and outbound telephone calls.\n- Leverage the company’s systems and tools to meet sales targets within established service times.\n- Follow up on leads generated on the website. • Identify sales opportunities from existing client quotes within 4–6-week campaigns.\n- Maintain accurate and detailed records of sales activities and customer interactions.\n- Inform management of potential areas for growth in product, service, and education sales.\n- Answer customer claims queries.\nRequirements\n- Proven experience in a Customer Service/ Sales environment.\n- Demonstrated ability to identify and meet customer needs through effective sales techniques.\n- Excellent oral and written communication skills to interact with customers and internal teams effectively.\n- Proficient in using computer systems and software to record sales activities and access customer information.\n- Strong interpersonal and teamwork skills to collaborate with colleagues and maintain positive customer relationships.\n- Ability to learn new information (product and company knowledge).\n\nNote: The official job title of the role is Retention Customer Service Officer.\nBenefits\nWhy Join Twoconnect?\n\nWe offer more than just a job — we offer a supportive and rewarding career experience. Here’s what you can expect from this opportunity: \n- Permanent work from home\n- Monday–Friday: 6:00 AM - 3:00 PM PHT (adjustments will be made for daylight saving time)\n- HMO with 2 free dependents and medical reimbursements\n- Government-mandated benefits\n- Opportunities to work with leading companies in Australia and beyond\n- Training programmes for career development\n- Engaging company outings, team activities and wellness sessions\n- Supportive, inclusive culture\n- Dedicated managers focused on your growth and success\n\nTwoconnect connects highly skilled Filipino professionals with established companies in Australia, New Zealand, the United States, the United Kingdom and Europe, providing direct access to global careers and long-term opportunities. We offer competitive pay and benefits, additional entitlements and structured career development programs that make employment both financially rewarding and professionally sustainable. Our industry-leading retention rate demonstrates our commitment to a people-first culture that prioritizes stability, growth and genuine care for every employee.\n\nTwoconnect is an equal opportunity employer. We value cultural diversity and foster an inclusive workplace where every employee is respected and supported as part of a growing global team.",
-      "apply_url": "https://jobicy.com/jobs/150642-sales-customer-service-representative-insurance-or-bank-exp-wfh-dayshift",
-      "source": "Jobicy",
-      "posted_at": "2026-09-15T04:30:06.000Z",
-      "scraped_at": "2026-09-19T11:44:41.947Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:153284",
-      "hub": "business",
-      "title": "Tier 2 - Member Support Agent (Offshore - Philippines)",
-      "company": "PadSplit",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Philippines",
-      "employment_type": "full-time",
-      "comp_min": 16200,
-      "comp_max": 16200,
-      "summary": "PadSplit is a pioneering real estate platform operating in the shared housing industry, committed to providing affordable housing accommodations for low-income earners.",
-      "description": "PadSplit is a pioneering real estate platform operating in the shared housing industry, committed to providing affordable housing accommodations for low-income earners. We are dedicated to helping solve the affordable housing crisis while leveraging housing as a vehicle for financial empowerment for our members. Our principles are Care, Show it, Prove it, and we’ve been proving it through our actions since 2018.\n\nWe are on a mission to change the world – one room at a time. Join us!\n\nLearn more about PadSplit here\n\nThe Role We Need:\n\nAs a member of the escalations team, you are considered a senior member of the Customer Experience organization. This role involves handling more complex or escalated inquiries that require a higher level of expertise and customer service finesse. Advocates in this position need to be proactive problem-solvers equipped with a strong understanding of our policies, procedures, and the unique needs of our members. By collaborating closely with other departments and utilizing feedback, they contribute to refining our support processes and enhancing the overall member experience.\n\nThe Person We Are Looking For:\n\nThe ideal person should have a knack for problem-solving, especially in situations that require thoughtful analysis and a careful approach. Exceptional communication skills are essential, as the role involves conveying information clearly and confidently to our members while resolving their issues. We're looking for someone who thrives in a collaborative environment, works well across teams, and can actively contribute to improving our support processes. Above all, the ideal candidate is committed to creating a positive experience that builds trust and satisfaction among our members.\n\nHere’s What You’ll Do Day-To-Day:\n\n- Act as the main escalation point for complex Member support issues that need effective critical thinking, research, and problem-solving abilities.\n\n- Manage a range of complex cases, such as policy-related inquiries, financial disputes, platform issues, and membership matters.\n\n- Assume responsibility for cases from beginning to end, ensuring a prompt and satisfactory resolution.\n\n- Serve as the representative of PadSplit, ensuring that all interactions are conducted with empathy, professionalism, and efficiency.\n\n- Develop innovative solutions for the unique challenges that arise, balancing both member needs and company policies.\n\n- Assist and educate members about our platform, policies, and product offerings, ensuring they fully understand their options.\n\n- Maintain an in-depth understanding of our ever-evolving web and mobile products, processes, and policies.\n\n- Identify recurring issues and trends, offering insights and suggestions for process and policy improvements to enhance the Member experience.\n\n- Serve as the voice of the customer, advocating for members’ needs and supporting ongoing improvements in our Customer Experience (CX) operations.\n\n- Collaborate closely with other teams, such as Product, Operations, and Host Support, to guarantee a seamless experience for our Members.\n\n- Assume responsibility for special projects within the Customer Experience team, contributing to process enhancements and operational efficiency.\n\nHere’s What You’ll Need To Be Successful:\n\n- Comfortable working in a fast-paced, ever-evolving environment where priorities can shift quickly.\n\n- Able to stay composed under pressure while handling complex Member interactions.\n\n- Strong verbal and written communication skills, ensuring clarity and professionalism in every interaction.\n\n- Ability to break down complex topics and explain them in a clear, concise, and empathetic manner.\n\n- A natural problem-solver who can analyze information, investigate issues, and think critically to resolve complex Member concerns.\n\n- Ability to develop creative solutions while balancing Member needs and company policies.\n\n- Energized by customer interactions, with a genuine passion for helping others and enhancing the Member experience.\n\n- Skilled at balancing empathy with firmness, ensuring fair and effective resolutions.\n\n- Ability to prioritize multiple tasks, manage workloads efficiently, and meet response time expectations.\n\n- Highly detail-oriented and capable of tracking cases through resolution.\n\n- Comfortable navigating multiple systems, online platforms, and support tools.\n\n- Able to quickly adapt to new technologies, processes, and policy changes.\n\n- Possesses a strong sense of intellectual curiosity, eager to learn, adapt, and improve.\n\n- A collaborative team player with a positive, \"can-do\" attitude, always ready to support colleagues and contribute to team success.\n\nThe Interview Process:\n\n- Your application will be reviewed for possible next steps by the Hiring Manager.\n\n- If you meet eligibility requirements, the next step would be a video interview with a member of the PeopleOps team for about thirty (30) minutes.\n\n- If warranted, the next step would be a video panel interview with our Tier 2 Member Support Team Leads at PadSplit for one (1) hour. For this interview, the candidate would execute a live writing assessment.\n\n- If warranted, the next step would be a video interview with our Manager of T2 Member Support for forty (40) minutes. For this interview, we will assess your overall fit with a set of role-related questions.\n\n- If warranted, we move to offer!\n\nCompensation\n\nCompensation is based on the role's scope, national market benchmarks, the person's expertise and experience, and the impact of their contributions to our business goals.\n\nAdditional Information\n\nNotice to Applicants:\n\nPadSplit participates in E-Verify. All new employees are required to complete an I-9 form and be authorized to work in the United States. Employment is contingent upon successful completion of the E-Verify process.\n\nWe are interested in every qualified candidate who is eligible to work in the United States. However, we are not able to sponsor visas.\n\nPadSplit is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran.",
-      "apply_url": "https://jobicy.com/jobs/153284-tier-2-member-support-agent-offshore-philippines",
-      "source": "Jobicy",
-      "posted_at": "2026-09-14T14:14:18.000Z",
-      "scraped_at": "2026-09-19T11:44:41.947Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:153224",
-      "hub": "business",
-      "title": "Technical Support Specialist (Night Shift)",
-      "company": "Nextiva",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Ukraine",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Redefine the future of customer experiences. One conversation at a time. At Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collab…",
-      "description": "Redefine the future of customer experiences. One conversation at a time.\n\nAt Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collaboration on a single, conversation centric platform. Powered by AI, driven by human innovation.\n\nOur culture is forward thinking, customer obsessed and built on the belief that meaningful connections drive better business outcomes. Whether it’s through our signature Amazing Service®, the technology we create, or the experiences we cultivate, connection is at the core of who we are.\n\nIf you’re ready to collaborate with incredible people, make an impact, and help businesses everywhere deliver truly amazing experiences, this is where you belong.\n\nHow You’ll Make an Impact\n\nAs a Technical Support Specialist at Nextiva, you’ll be on the front lines of delivering exceptional customer experiences. You’re not just solving issues, you’re uncovering the “why,” guiding customers to the right solutions, and making their day easier.\n\nAs a Technical Support Representative, you will deliver Amazing Service® through high-quality technical support services by processing and resolving requests received across various communication channels; while continuously growing your skills in a fast-paced, learning environment. You’ll leverage modern tools, including AI, to work smarter, move faster, and deliver even better outcomes for customers.\n\nWhat You’ll Do\n\n- Solve What Matters: Troubleshoot customer issues across hardware, software, and networking systems, quickly identifying root causes and driving resolution\n\n- Deliver Great Experiences: Communicate clearly and professionally to ensure every interaction is positive and productive\n\n- Stay on the Details: Document customer interactions, issues, and resolutions with accuracy and consistency\n\n- Keep Systems Running: Provide, maintain, and update systems to ensure optimal performance for customers; managing multiple requests simultaneously in a fast-paced, high-volume environment\n\n- Own the Outcome: Take full ownership of customer issues, following through until resolution while meeting daily and monthly performance metrics\n\n- Continuous Learning: Continuously build technical knowledge of Nextiva products, systems, and troubleshooting processes to provide better service. Explore new tools and ways of working to improve performance\n\n- Work Smarter:\n\n- Leverage AI tools (e.g., ChatGPT, Copilot, or similar) to support daily workflows, such as summarizing customer interactions, identifying key action items, and improving response quality\n\n- Apply clear and structured inputs when using AI tools to generate accurate and relevant outputs; iterating and refining your approach when the responses aren't perfect (persistence is key!)\n\nAbout You:\n\n- 2+ years of customer service experience, preferably in technical support or help desk environment\n\n- Working knowledge of PC and Mac operating systems and Microsoft Office applications; hardware and/or networking knowledge preferred\n\n- Advanced English fluency required (spoken and written).\n\n- Ability to work remotely in Ukraine and regularly work shifts aligned with US business hours (between 12:00pm-4:00am Monday through Friday)\n\n- Curiosity and enthusiasm for learning new technologies\n\n- Comfort working in fast-paced environments with evolving tools and processes\n\nCore Competencies:\n\n- Customer First: Patient, conscientious and professional; providing great customer experiences with a focus on accuracy\n\n- Problem Solver: Strong troubleshooting and analytical skills with a persistent, solution-oriented mindset; able to overcome setbacks and willing to try multiple paths to reach the right solution\n\n- Detail-Oriented: Ability to manage multiple tasks or conversations simultaneously; strong attention to detail in both technical work and documentation\n\n- AI-Forward Mindset: Curiosity and willingness to experiment with AI & automation tools (e.g., ChatGPT, Microsoft Copilot); exposure to similar tools in a professional environment preferred\n\n- Team-Driven: You collaborate, share knowledge, and contribute to a positive team environment\n\nWhy Nextiva?\n\n- Impact: Join a company trusted by over a million users, helping businesses deliver better customer experiences every day\n\n- Innovation: Be part of a team building AI-powered solutions that drive efficiency and smarter customer engagement\n\n- Growth: Thrive in a culture focused on continuous learning, development, and career progression\n\n- Culture: Work alongside a supportive, high-energy team committed to Amazing Service® and meaningful connections\n\nNextiva DNA (Core Competencies)\n\nNextiva’s most successful team members share common traits and behaviors:\n\n- Drives Results: Action-oriented problem solvers who quickly bring clarity and simplicity to ambiguity, challenge the status quo, and lead meaningful change; celebrating wins to fuel momentum. They act swiftly and pragmatically, learning and improving as they go.\n\n- Critical Thinker: Data-driven, forward-thinking individuals who identify key drivers, anticipate risks, and deliver clear recommendations. They confidently leverage AI and automation to reduce friction, improve decision-making, and focus on higher-value work.\n\n- Right Attitude: Collaborative, competitive, and resilient team players who jump in to solve tough problems, learn from setbacks, and foster a culture of service, respect, and care for customers and teammates.\n\nTotal Rewards\n\nOur Total Rewards offerings are designed to allow Nexties to take care of themselves and their families so they can do their best.\n\nOur compensation packages are tailored to each role and candidate's qualifications. We consider a wide range of factors, including skills, experience, training, and certifications, when determining compensation. We aim to offer competitive salaries or wages that reflect the value you bring to our team. Depending on the position, compensation may include base salary, incentives, or bonuses.\n\n- Health – Comprehensive medical coverage, individual limit on exclusions and dental care\n\n- Insurance – Life, disability, traumatic injuries and critical diseases\n\n- Work-Life Balance ⚖️ – PTO for all employees, Paid Sick leave (official document required), paid parental leave and paid holidays\n\n- Wellness ‍ – Employee Assistance Program and wellness initiatives\n\n- Growth – Access to ongoing learning and development opportunities and career advancement\n\nAt Nextiva, we're committed to supporting our employees' health, well-being, and professional growth. Join us and build a rewarding career!\n\n#LI-AL1 #LI-Remote\n\nFounded in 2008, Nextiva has grown into a global leader trusted by over 100,000 businesses and 1M+ users worldwide. Headquartered in Scottsdale, Arizona, and with teams across the globe, we're the future of customer experience and team collaboration through our AI-powered, conversation-centric platform.\n\nWant to see what life at Nextiva is all about? Connect with us on Instagram, Instagram MX, YouTube, LinkedIn, and the Nextiva Blog.",
-      "apply_url": "https://jobicy.com/jobs/153224-technical-support-specialist-night-shift",
-      "source": "Jobicy",
-      "posted_at": "2026-09-14T06:17:07.000Z",
-      "scraped_at": "2026-09-19T11:44:41.947Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:153214",
-      "hub": "business",
-      "title": "Customer Support Representative - Brazil",
-      "company": "Palmstreet",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Brazil",
-      "employment_type": "full-time",
-      "comp_min": 8,
-      "comp_max": 10,
-      "summary": "About Palmstreet: Palmsteet is a community-obsessed live shopping platform connecting over 2 million passionate collectors and sellers.",
-      "description": "About Palmstreet:\n\nPalmsteet is a community-obsessed live shopping platform connecting over 2 million passionate collectors and sellers. Starting with plants in 2020, we've evolved to include handmade crafts, collectible toys, and unique finds from talented sellers worldwide.\n\nBacked by top Silicon Valley VCs (a16z, Craft Ventures, Headline), we're building the 'World's Online Main Street'—bringing authentic personal connections and the thrill of discovering one-of-a-kind treasures to social online experiences.\n\nWith explosive growth over the past 24 months, we're scaling rapidly and looking for exceptional talent to join us in shaping the future of social commerce.\n\nThe Opportunity:\n\nPalmstreet is looking for a Customer Support Representative who thrives in a fast-paced environment, has excellent customer service skills and has a strong desire to provide top-tier service!\n\nThis is an exciting opportunity to build relationships with Palmstreet users by assisting them with their needs, reinforcing our community standards and promoting Palmstreet as the top live-selling app in the marketplace!\n\nThe right candidate must be based in Brazil.\n\nResponsibilities:\n\n-\nRespond to user inquiries on our mobile app and desktop.\n\n-\nThoughtfully and courteously respond to all questions and issues in a timely and efficient manner.\n\n-\nTrack and record issues and data to inform the company of problems and requests for improvements.\n\n-\nContribute to the SOPs to enhance overall team efficiency.\n\n-\nCollect, organize and summarize various customer cases to identify trends and potential system bugs.\n\n-\nEnsure customer issues are resolved promptly through high-quality service.\n\n-\nContinuously learn and adapt to new knowledge so you can provide the highest level of service.\n\n-\nPerform other duties as assigned.\n\nQualifications:\n\n-\nReliable computer, smart phone and reliable high-speed internet connection.\n\n-\nExcellent American English reading and writing skills.\n\n-\n2-3 years of customer service experience and able to handle multiple customer issues simultaneously.\n\n-\nTeam player who works well with others\n\n-\nCourteous and detailed written communication skills.\n\n-\nStrong learning ability and initiative.\n\n-\nExcellent technical skills – phone app technical skills are vital in this role.\n\n-\nNative English speaking, writing and listening skills.\n\n-\nExperience working in e-commerce platforms.\n\n-\nPractical experience in summarizing and optimizing SOPs.\n\n-\nTime spent living in the US preferred.\n\n-\nAn interest in plants and/or crafts.\n\n-\nThis position is fully remote, and candidate must be based in Brazil.\n\nCompensation:\n\n-\nThe hourly compensation range for this role is $8-$10/hr USD\n\n-\nShifts will vary, but will generally fall between 8AM-8PM ET, and will include a Saturday or a Sunday.\n\nWhy Join Us?\n\n-\nJoin a fast-paced startup culture where creativity and curiosity are valued.\n\n-\nCollaborate with a passionate, nimble team and work directly with sellers of unique products.\n\n-\nBe part of an exciting evolution in commerce, while helping shape what live shopping becomes next.\n\nOur Commitment to Diversity and Inclusion\n\nPalmstreet is proud to be an equal opportunity employer. We celebrate diversity and encourage applications from everyone—especially those whose identities are traditionally underrepresented in tech. We do not discriminate on race, religion, color, gender expression or identity, sexual orientation, ancestry, national origin, citizenship, age, marital status, veteran status, disability status, political belief, or any other characteristic protected by law.\n\nFor roles in Canada, we also comply with the Employment Equity Act.\n\nApplication Process\n\nWe’re excited to review your application! If your experience aligns with what we’re looking for, our hiring team will reach out to schedule an initial screening call and walk you through the next steps of our interview process.\n\nWhile we try our best to respond to everyone, the high volume of applications may mean we’re unable to provide individual updates if we decide not to move forward.\n\nTo stay connected and explore future opportunities, follow us on LinkedIn or visit us at https://palmstreet.app/careers.",
-      "apply_url": "https://jobicy.com/jobs/153214-customer-support-representative-brazil",
-      "source": "Jobicy",
-      "posted_at": "2026-09-14T06:11:05.000Z",
-      "scraped_at": "2026-09-19T11:44:41.947Z",
+      "scraped_at": "2026-09-20T11:56:52.780Z",
       "status": "open"
     },
     {
@@ -508,7 +486,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-09-11T20:16:48.000Z",
-      "scraped_at": "2026-09-19T11:44:41.486Z",
+      "scraped_at": "2026-09-20T11:57:14.795Z",
       "status": "open"
     },
     {
@@ -530,7 +508,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/bd1feaa0-8f3d-407b-a4f2-f129b4b743d3",
       "source": "lever",
       "posted_at": "2026-09-11T12:05:49.753Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -552,7 +530,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-09-10T04:35:34-04:00",
-      "scraped_at": "2026-09-19T11:44:11.326Z",
+      "scraped_at": "2026-09-20T11:56:52.780Z",
       "status": "open"
     },
     {
@@ -574,7 +552,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-09T15:17:17.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.190Z",
       "status": "open"
     },
     {
@@ -596,7 +574,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/assignr-llc-customer-support-specialist-2",
       "source": "We Work Remotely",
       "posted_at": "2026-09-08T20:46:38.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.191Z",
       "status": "open"
     },
     {
@@ -618,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8734158002",
       "source": "greenhouse",
       "posted_at": "2026-09-08T14:35:51-04:00",
-      "scraped_at": "2026-09-19T11:44:20.709Z",
+      "scraped_at": "2026-09-20T11:57:01.296Z",
       "status": "open"
     },
     {
@@ -640,7 +618,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/43830805-2fbe-4ca5-9553-7e2b87dc7b79",
       "source": "lever",
       "posted_at": "2026-09-08T08:42:57.754Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -662,7 +640,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-40-000-year-benefits-sat-sun-required-location-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.191Z",
       "status": "open"
     },
     {
@@ -684,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-04T15:24:42-04:00",
-      "scraped_at": "2026-09-19T11:44:02.548Z",
+      "scraped_at": "2026-09-20T11:56:44.273Z",
       "status": "open"
     },
     {
@@ -706,7 +684,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -728,7 +706,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/ellipsis-executive-assistant-remote-uk-eu-38k-43k-year",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T10:49:23.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.190Z",
       "status": "open"
     },
     {
@@ -750,7 +728,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gohighlevel-crm-sales-appointment-setter-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T01:35:18.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.191Z",
       "status": "open"
     },
     {
@@ -772,7 +750,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-09-02T19:59:53.000Z",
-      "scraped_at": "2026-09-19T11:44:41.486Z",
+      "scraped_at": "2026-09-20T11:57:14.795Z",
       "status": "open"
     },
     {
@@ -794,7 +772,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/bitwarden-billing-specialist-us-weekend",
       "source": "We Work Remotely",
       "posted_at": "2026-09-02T07:31:09.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.190Z",
       "status": "open"
     },
     {
@@ -816,7 +794,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/big-bear-vacations-owner-retention-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-01T20:45:07.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.191Z",
       "status": "open"
     },
     {
@@ -838,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-french-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-08-29T07:31:19.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.190Z",
       "status": "open"
     },
     {
@@ -860,7 +838,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -882,7 +860,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6110742004",
       "source": "greenhouse",
       "posted_at": "2026-08-21T16:20:50-04:00",
-      "scraped_at": "2026-09-19T11:44:02.549Z",
+      "scraped_at": "2026-09-20T11:56:44.274Z",
       "status": "open"
     },
     {
@@ -992,7 +970,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.190Z",
       "status": "open"
     },
     {
@@ -1014,7 +992,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1036,7 +1014,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/88d09213-d4fe-4c85-92ce-954901559d92",
       "source": "lever",
       "posted_at": "2026-08-04T14:32:11.323Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.524Z",
       "status": "open"
     },
     {
@@ -1058,7 +1036,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/the-humane-league-temporary-us-corporate-relations-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-03T17:34:26.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.190Z",
       "status": "open"
     },
     {
@@ -1080,7 +1058,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.191Z",
       "status": "open"
     },
     {
@@ -1102,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1124,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1146,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/2c549930-f851-4077-9fef-8f4291ee7649",
       "source": "lever",
       "posted_at": "2026-07-07T12:09:13.992Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1168,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1190,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1ec2d65d-c382-46d9-a0e6-4e82af26b3ed",
       "source": "lever",
       "posted_at": "2026-06-22T14:00:51.567Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.524Z",
       "status": "open"
     },
     {
@@ -1212,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1234,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.524Z",
       "status": "open"
     },
     {
@@ -1256,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1278,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1300,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.524Z",
       "status": "open"
     },
     {
@@ -1322,7 +1300,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.191Z",
       "status": "open"
     },
     {
@@ -1344,7 +1322,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-09-19T11:44:40.981Z",
+      "scraped_at": "2026-09-20T11:57:14.191Z",
       "status": "open"
     },
     {
@@ -1366,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1388,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1410,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-09-19T11:44:18.785Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1432,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-09-19T11:44:18.784Z",
+      "scraped_at": "2026-09-20T11:56:59.523Z",
       "status": "open"
     },
     {
@@ -1454,7 +1432,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:02.653Z",
+      "scraped_at": "2026-09-20T11:56:44.502Z",
       "status": "open"
     },
     {
@@ -1476,7 +1454,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.646Z",
       "status": "open"
     },
     {
@@ -1498,7 +1476,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Intermediate-Customer-Onboarding-Specialist_REQ-5424",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1520,7 +1498,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1542,7 +1520,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1564,7 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist_REQ-4441",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1586,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Graphic-Designer_REQ-5220",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1608,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Payroll-Specialist--EMEA_REQ-5254",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1630,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1652,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1674,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1696,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1718,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1740,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1762,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/People-Systems---Analytics-Specialist--Workday-_REQ-4449",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1784,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1806,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Global-Benefits---Leaves-Specialist_REQ-4569",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1828,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1850,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1872,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Customer-Training-Specialist_REQ-5239-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1894,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1916,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1938,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:08.436Z",
+      "scraped_at": "2026-09-20T11:56:49.647Z",
       "status": "open"
     },
     {
@@ -1960,7 +1938,7 @@
       "apply_url": "https://www.filevine.com/jobs/7a5a1cfa-bd48-4731-8b14-f4f22747dd7f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:10.873Z",
+      "scraped_at": "2026-09-20T11:56:52.359Z",
       "status": "open"
     },
     {
@@ -1982,7 +1960,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:10.873Z",
+      "scraped_at": "2026-09-20T11:56:52.359Z",
       "status": "open"
     },
     {
@@ -2004,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:10.873Z",
+      "scraped_at": "2026-09-20T11:56:52.359Z",
       "status": "open"
     },
     {
@@ -2026,7 +2004,7 @@
       "apply_url": "https://www.filevine.com/jobs/ba34f952-d53e-4ef2-86cf-381cfe88671f/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:10.873Z",
+      "scraped_at": "2026-09-20T11:56:52.359Z",
       "status": "open"
     },
     {
@@ -2048,7 +2026,7 @@
       "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:10.873Z",
+      "scraped_at": "2026-09-20T11:56:52.359Z",
       "status": "open"
     },
     {
@@ -2070,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/2031b8ba-8691-4b71-b21e-627923da5d4e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:10.873Z",
+      "scraped_at": "2026-09-20T11:56:52.359Z",
       "status": "open"
     },
     {
@@ -2092,7 +2070,7 @@
       "apply_url": "https://www.filevine.com/jobs/c5ef27a9-85ae-4cdf-8337-c70cfa8a4ef3/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:10.873Z",
+      "scraped_at": "2026-09-20T11:56:52.359Z",
       "status": "open"
     },
     {
@@ -2114,7 +2092,7 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:10.873Z",
+      "scraped_at": "2026-09-20T11:56:52.359Z",
       "status": "open"
     },
     {
@@ -2136,7 +2114,7 @@
       "apply_url": "https://wise.jobs/job/customer-support-specialist-spanish-speaker-in-sao-paulo-jid-4056",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:12.522Z",
+      "scraped_at": "2026-09-20T11:56:53.965Z",
       "status": "open"
     },
     {
@@ -2158,7 +2136,7 @@
       "apply_url": "https://www.getyourguide.careers/jobs/8207660",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:15.104Z",
+      "scraped_at": "2026-09-20T11:56:56.069Z",
       "status": "open"
     },
     {
@@ -2180,7 +2158,7 @@
       "apply_url": "https://www.getyourguide.careers/jobs/7571066",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:15.104Z",
+      "scraped_at": "2026-09-20T11:56:56.069Z",
       "status": "open"
     },
     {
@@ -2202,7 +2180,29 @@
       "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Nairobi/Specialist--Asset-Management_R-00529",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-09-19T11:44:36.559Z",
+      "scraped_at": "2026-09-20T11:57:09.728Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:athena:EJR-015",
+      "hub": "business",
+      "title": "Executive Assistant",
+      "company": "Athena",
+      "company_id": "athena",
+      "priority": false,
+      "category": "Executive Assistant",
+      "segment": "Executive Assistant Staffing & Training",
+      "level": "Mid",
+      "location": "Quezon City",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Executive Assistant at Athena.",
+      "description": "",
+      "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Quezon-City/Executive-Partner_EJR-015",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-09-20T11:57:09.728Z",
       "status": "open"
     }
   ]
