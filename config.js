@@ -401,7 +401,7 @@ export const COMPANIES = [
   { id: "adyen", name: "Adyen", hub: "fintech", careersUrl: "https://www.adyen.com/careers", website: "https://www.adyen.com", segment: "Payments Platform", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
   { id: "mollie", name: "Mollie", hub: "fintech", careersUrl: "https://www.mollie.com/careers", website: "https://www.mollie.com", segment: "Payments Platform", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
   { id: "bunq", name: "Bunq", hub: "fintech", careersUrl: "https://www.bunq.com/careers", website: "https://www.bunq.com", segment: "Digital Bank", country: "Netherlands", verified: false, method: "dom", atsSlug: null, active: true },
-  { id: "bird", name: "Bird (MessageBird)", hub: "saas", careersUrl: "https://bird.com/careers", website: "https://bird.com", segment: "Customer Communications Platform", country: "Netherlands", verified: false, method: null, atsSlug: null, active: true },
+  { id: "bird", name: "Bird (MessageBird)", hub: "saas", careersUrl: "https://bird.com/careers", website: "https://bird.com", segment: "Customer Communications Platform", country: "Netherlands", verified: false, method: "dom", atsSlug: null, active: true },
 
   // France
   { id: "qonto", name: "Qonto", hub: "fintech", careersUrl: "https://qonto.com/en/careers", website: "https://qonto.com", segment: "Business Banking", country: "France", verified: false, method: "lever", atsSlug: "qonto", active: true },
