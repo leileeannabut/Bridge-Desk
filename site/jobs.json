@@ -1,10 +1,54 @@
 {
-  "generated_at": "2026-10-01T14:04:02.777Z",
+  "generated_at": "2026-10-02T13:24:35.555Z",
   "count": 100,
-  "total_open": 117,
+  "total_open": 118,
   "sources_ok": 55,
   "sources_failed": 23,
   "jobs": [
+    {
+      "id": "agg:jobicy:152280",
+      "hub": "business",
+      "title": "Implementation Specialist",
+      "company": "Karbon",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "UK",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms.",
+      "description": "About Karbon\n\nKarbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work more efficiently and collaboratively every day. With customers in 40 countries, we have grown into a globally distributed team across the US, Australia, New Zealand, Canada, the United Kingdom, and the Philippines. We are well-funded, ranked #1 on G2, growing rapidly, and have a people-first culture that is recognized with Great Place To Work® certification and on Fortune magazine's Best Small Workplaces™ List.\n\nAbout the Role:\n\nAs an Implementation Specialist, you will lead customers through onboarding, data migration, implementation, and training for small to mid-sized firms. You’ll act as a trusted partner during the implementation phase, supporting customers as they adopt Karbon and ensuring they achieve rapid time-to-value and long-term success on the Karbon platform.\n\nAs an Implementation Specialist, you will...\n\n- Own the customer implementation journey: Manage end-to-end implementation projects for small to mid-sized accounts, building and maintaining project plans, tracking milestones, and ensuring deliverables are completed on time, escalating complexity as needed.\n\n- Communicate across multiple stakeholders: Partner primarily with firm administrators and key users to align priorities, clarify responsibilities, and maintain momentum throughout the implementation.\n\n- Facilitate structured onboarding: Lead kickoff meetings, configuration sessions, and training sessions using established frameworks and playbooks, adapting delivery to customer needs.\n\n- Provide professional guidance: Guide customers on Karbon best practices for workflow setup and day-to-day usage, helping firms establish efficient and repeatable processes.\n\n- Coach through change management: Help customers prepare their teams for new processes, reinforce adoption, and address common questions or resistance during implementation.\n\n- Ensure data integrity: Support customers in importing contacts and work items, leveraging Excel and other tools to ensure accuracy and completeness.\n\n- Identify and mitigate risks: Monitor project progress and flag potential delays or adoption challenges early, escalating risks to senior team members when appropriate.\n\n- Collaborate internally: Partner with Sales, Customer Success, Product, and Support teams to ensure seamless customer handoffs and capture valuable feedback.\n\n- Deliver measurable value: Help customers achieve early wins and milestones that demonstrate value and set the foundation for long-term success with Karbon.\n\n- Use AI in day-to-day implementation work, including ChatGPT licenses and AI-driven workflow automations, to support project planning, customer communications, and process optimization.\n\nAbout You\n\n- You have 2-4+ years of experience in B2B SaaS Implementations\n\n- You have experience with end-to-end technical implementations\n\n- You are comfortable managing multiple customer projects simultaneously with clear priorities and organization.\n\n- You enjoy customer-facing work and are confident in facilitating meetings and training sessions with administrators and end users.\n\n- You have strong communication and presentation skills and can translate technical concepts into clear, actionable guidance.\n\n- You are consultative and curious, open to feedback, and eager to grow your implementation and advisory skills.\n\n- You have strong attention to detail and pride yourself on accuracy and follow-through.\n\n- You enjoy working with data and systems, ensuring integrity throughout migrations and configuration.\n\n- You are adaptable and resilient, thriving in environments where processes and priorities continue to evolve.\n\n- You are comfortable working remotely and managing your time independently.\n\nBonus points if you have:\n\n- Experience in the accounting or tax industry.\n\n- Previous experience with workflow, accounting, or project management software.\n\n- Background in software onboarding or enterprise implementations.\n\n- Knowledge of change management frameworks.\n\n- Experience in a startup or high-growth SaaS environment.\n\n- Deep knowledge and hands-on experience using Karbon.\n\nWhy work at Karbon?\n\n- Gain global experience across the USA, Australia, New Zealand, UK, Canada and the Philippines\n\n- Flexible work hours\n\n- Commuter & work from home benefits\n\n- Home office equipment menu for you to choose how you deck out your home office\n\n- Cultural and offsite events\n\n- Learning and development opportunities\n\n- Generous parental leave\n\n- Performance based and globally benchmarked pay\n\n- Employee Assistance Program\n\n- Up to 10 wellness days (because you don't need to be \"sick\" to stay well)\n\n- Karbon Fun / Social Club!\n\n- Up to 5 weeks paid vacation\n\n- Work with (and learn from) an experienced, high-performing team\n\n- A collaborative, team-oriented culture that embraces diversity, invests in development and provides consistent feedback\n\n- Be part of a fast-growing company that firmly believes in promoting high performers from within\n\n -\n\nPlease be aware that Karbon will only contact you via email from our domain, karbonhq.com. If you receive an email from any other domain, please do not click any of those links.\n\nKarbon embraces diversity and inclusion, aligning with our values as a business. Research has shown that women and underrepresented groups are less likely to apply to jobs unless they meet every single criteria. If you've made it this far in the job description but your past experience doesn't perfectly align, we do encourage you to still apply. You could still be the right person for the role!\n\nWe recruit and reward people based on capability and performance. We don’t discriminate based on race, gender, sexual orientation, gender identity or expression, lifestyle, age, educational background, national origin, religion, physical or cognitive ability, and other diversity dimensions that may hinder inclusion in the organization.\n\nGenerally, if you are a good person, we want to talk to you.\n\nIf there are any adjustments or accommodations that we can make to assist you during the recruitment process, and your journey at Karbon, contact us at people.support@karbonhq.com for a confidential discussion.\n\nAt this time, we request that agency referrals are not submitted for this position. We appreciate your understanding and encourage direct applications from interested candidates. Thank you!",
+      "apply_url": "https://jobicy.com/jobs/152280-implementation-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-10-02T03:35:09.000Z",
+      "scraped_at": "2026-10-02T13:24:35.176Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152290",
+      "hub": "business",
+      "title": "Senior Implementation Specialist",
+      "company": "Karbon",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Senior",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 90000,
+      "comp_max": 107500,
+      "summary": "About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms.",
+      "description": "About Karbon\n\nKarbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work more efficiently and collaboratively every day. With customers in 40 countries, we have grown into a globally distributed team across the US, Australia, New Zealand, Canada, the United Kingdom, and the Philippines. We are well-funded, ranked #1 on G2, growing rapidly, and have a people-first culture that is recognized with Great Place To Work® certification and on Fortune magazine's Best Small Workplaces™ List.\n\nAbout the Role:\n\nAs a Senior Implementation Specialist at Karbon, you’ll serve as the trusted guide for our largest customers, leading them through onboarding, data migration, implementation, and training. You’ll act as the project manager, consultant, and change management coach, ensuring customers achieve rapid time-to-value and long-term success on the Karbon platform.\n\nAs a Senior Implementation Specialist, you will...\n\n- Own the customer implementation journey: Act as the project manager for enterprise accounts, building and maintaining detailed project plans, tracking milestones, and ensuring all deliverables are completed on time.\n\n- Communicate across multiple stakeholders: Partner with executive sponsors, firm administrators, and end users to align priorities, clarify responsibilities, and drive accountability.\n\n- Facilitate structured onboarding: Lead kickoff meetings, consultative process reviews, configuration workshops, and training sessions tailored to firm needs.\n\n- Provide professional guidance: Advise customers on best practices in workflow design, firm operations, and change management to maximize adoption and business impact.\n\n- Coach through change management: Help firms prepare their teams for new processes, encouraging adoption and managing resistance.\n\n- Ensure data integrity: Support customers in importing contacts and work items, leveraging Excel and other tools to ensure accuracy and completeness.\n\n- Identify and mitigate risks: Spot early warning signs of delays or adoption issues and proactively intervene to keep projects on track.\n\n- Collaborate internally: Partner with Sales, Customer Success, Product, and Support teams to ensure seamless customer handoffs and capture valuable feedback.\n\n- Deliver measurable value: Drive outcomes that demonstrate ROI for customers and set them up for long-term success with Karbon.\n\n- Use AI in day-to-day implementation work, including ChatGPT licenses and AI-driven workflow automations, to support project planning, customer communications, and process optimization.\n\nAbout You\n\n- You have 3-5+ years of experience in B2B SaaS Implementations\n\n- You have 2+ years of end-to-end technical implementation experience\n\n- You are experienced in project management and comfortable managing multiple customer projects simultaneously.\n\n- You thrive in customer-facing environments, facilitating workshops and executive-level conversations with confidence.\n\n- You have excellent communication and presentation skills, capable of translating technical concepts into clear, actionable steps.\n\n- You are consultative by nature, with the humility to listen and the confidence to challenge firms to rethink their processes.\n\n- You have a strong attention to detail and pride yourself on accuracy and follow-through.\n\n- You enjoy working with data and systems, ensuring integrity throughout migrations and configuration.\n\n- You are resilient and adaptable, thriving in dynamic environments where change is constant.\n\n- You are comfortable working remotely and managing your time independently.\n\nBonus points if you have:\n\n- Experience in the accounting or tax industry.\n\n- Previous experience with workflow, accounting, or project management software.\n\n- Background in software onboarding or enterprise implementations.\n\n- Knowledge of change management frameworks.\n\n- Experience in a startup or high-growth SaaS environment.\n\n- Deep knowledge and hands-on experience using Karbon.\n\nWhy work at Karbon?\n\n- Gain global experience across the USA, Australia, New Zealand, UK, Canada and the Philippines\n\n- Excellent benefits package including:\n\n- Paid Flexible Time Off with an encouraged 3 weeks use per year\n\n- Company paid medical for you and eligible spouse/partner and dependents\n\n- Company paid dental and vision and eligible spouse/partner and dependents\n\n- Fully company funded short and long term disability\n\n- Fully company paid life insurance\n\n- 401(k) with company matching\n\n- Flexible Spending Account\n\n- Up to 8 weeks paid parental leave\n\n- Work-from-home stipend\n\n- Work with (and learn from) an experienced, high-performing team\n\n- A collaborative, team-oriented culture that embraces diversity, invests in development and provides consistent feedback\n\n- Be part of a fast-growing company that firmly believes in promoting high performers from within\n\nAs we hire across various locations within the USA we are required by law to include a reasonable estimate of the compensation range for this role.\n\nThe range provided is broad and takes into consideration a wide range of factors that are reviewed when making a hiring decision, such as physical location/cost of living in that location, years of experience, skills, and other business needs.\n\nIt is not typical for a candidate to be hired at or near the top of the pay range and each compensation decision is dependent on each individual case. The base salary is one component of the total compensation package, which for some roles may include a target bonus, for some roles very competitive equity grant, and very generous benefits. While we believe competitive compensation is a critical aspect of you deciding to join us, we do hope you also spend time considering why our mission, purpose and values are right for you. We are creating something transformational here, and we hope you are as excited about the future as we are!\n\nThe estimated base salary range for this role is:\n\n$90,000—$107,500 USD\n\nPlease be aware that Karbon will only contact you via email from our domain, karbonhq.com. If you receive an email from any other domain, please do not click any of those links.\n\nKarbon embraces diversity and inclusion, aligning with our values as a business. Research has shown that women and underrepresented groups are less likely to apply to jobs unless they meet every single criteria. If you've made it this far in the job description but your past experience doesn't perfectly align, we do encourage you to still apply. You could still be the right person for the role!\n\nWe recruit and reward people based on capability and performance. We don’t discriminate based on race, gender, sexual orientation, gender identity or expression, lifestyle, age, educational background, national origin, religion, physical or cognitive ability, and other diversity dimensions that may hinder inclusion in the organization.\n\nGenerally, if you are a good person, we want to talk to you.\n\nIf there are any adjustments or accommodations that we can make to assist you during the recruitment process, and your journey at Karbon, contact us at people.support@karbonhq.com for a confidential discussion.\n\nAt this time, we request that agency referrals are not submitted for this position. We appreciate your understanding and encourage direct applications from interested candidates. Thank you!",
+      "apply_url": "https://jobicy.com/jobs/152290-senior-implementation-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-10-02T03:30:28.000Z",
+      "scraped_at": "2026-10-02T13:24:35.176Z",
+      "status": "open"
+    },
     {
       "id": "agg:weworkremotely:limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "hub": "business",
@@ -24,7 +68,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
       "status": "open"
     },
     {
@@ -46,7 +90,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-01T14:04:00.139Z",
+      "scraped_at": "2026-10-02T13:24:33.521Z",
       "status": "open"
     },
     {
@@ -68,7 +112,7 @@
       "apply_url": "https://jobicy.com/jobs/154325-onboarding-support-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-01T04:40:03.000Z",
-      "scraped_at": "2026-10-01T14:04:02.404Z",
+      "scraped_at": "2026-10-02T13:24:35.176Z",
       "status": "open"
     },
     {
@@ -90,7 +134,7 @@
       "apply_url": "https://jobicy.com/jobs/142189-customer-service-representative-spanish-bilingual",
       "source": "Jobicy",
       "posted_at": "2026-10-01T03:50:25.000Z",
-      "scraped_at": "2026-10-01T14:04:02.404Z",
+      "scraped_at": "2026-10-02T13:24:35.176Z",
       "status": "open"
     },
     {
@@ -112,7 +156,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
       "source": "greenhouse",
       "posted_at": "2026-09-30T11:52:29-04:00",
-      "scraped_at": "2026-10-01T14:03:49.465Z",
+      "scraped_at": "2026-10-02T13:24:23.940Z",
       "status": "open"
     },
     {
@@ -134,7 +178,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-01T14:03:45.038Z",
+      "scraped_at": "2026-10-02T13:24:19.403Z",
       "status": "open"
     },
     {
@@ -156,29 +200,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-01T14:03:36.433Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:142101",
-      "hub": "business",
-      "title": "Lifecycle Specialist, Time and Attendance - EMEA",
-      "company": "Remote",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "EMEA",
-      "employment_type": "full-time",
-      "comp_min": 29750,
-      "comp_max": 67000,
-      "summary": "About Remote Remote is solving modern organizations’ biggest challenge – navigating global employment compliantly with ease.",
-      "description": "About Remote\nRemote is solving modern organizations’ biggest challenge – navigating global employment compliantly with ease. We make it possible for businesses of all sizes to recruit, pay, and manage international teams. With our core values at heart and future focused work culture, our team works tirelessly on ambitious problems, asynchronously, around the world. You can find Remoters working from 6 different continents (Antarctica left to go!) and all of our positions are fully remote.\nWith Innovation as one of the core values, we have built Automation and AI capabilities into the requirements for every role.\nWe encourage every member of the Remote team to bring their talents, experiences and culture to the table to help us build the best-in-class HR platform. If you are energetic, curious, motivated and ambitious, be part of our world. Apply now and define the future of work!\nThis is not an active job opening, but a way for us to connect with talent as we plan for future opportunities. If you prefer to interview only for currently open roles, we kindly ask that you wait until an active position aligns with your career goals.\nWe’re always looking for exceptional talent to join us in our mission to make work accessible for everyone, everywhere. While this specific role isn’t currently open, we’re planning for strategic growth in 2026 and beyond. This posting is part of our future opening pipeline initiative, which helps us connect with outstanding professionals early on.\nBy expressing your interest in this role, you’ll have the opportunity to start a conversation with us about your expertise and learn more about Remote’s vision and goals. It’s also a chance to explore how your career goals might fit into Remote’s exciting journey of global growth. We’ll keep your information on file for 1 year and be in touch if we see a match in that time.\nWhat this job can offer you\nThe Time & Attendance Specialist will play an essential role in ensuring the accurate and efficient management of Time & Attendance activities for Remote's external employees and clients. This individual contributor position places a strong emphasis on legal compliance and delivering an exceptional employee experience while maintaining efficient processes.\nWhen joining the Time & Attendance team you will be reporting to the Time & Attendance Manager.\nWhat you bring\n\n- Demonstrate proven experience with a strong background in managing employee lifecycle events with care, sensitivity and legal compliance; and providing comprehensive HR support and guidance on employment laws and regulations, spanning various jurisdictions.\n\n- Display excellent communication, influencing, conflict management, and negotiation skills, with the ability to confidently lead difficult conversations to a positive outcome, often where parties have conflicting interests, maintaining professionalism and strict confidentiality.\n\n- Possess advanced proficiency in written and spoken English at a business level, with additional languages considered a plus.\n\n- Show an an aptitude and enthusiasm for innovating and optimizing processes, consistently identifying and implementing opportunities for automation and promoting best practices.\n\n- Demonstrate efficiency in operations, with an awareness of the importance of thorough documentation and data integrity.\n\n- Be Tech-savvy, with the ability to successfully collaborate asynchronously on various tools, and adapt to new and evolving systems.\n\n- Capable of working independently and cohesively in an international team in a fast-paced, asynchronous, remote environment with multiple priorities. Willingness to work flexible hours as needed.\n\n- Familiar with communication, documentation, and project management tools such as Notion, Slack, Zendesk and G-suite.\n\n- Show enthusiasm for AI with a foundational understanding of its practical applications in operations and automation.\n\nKey Responsibilities \nEmployee Relations Management\n\n- Serve as an expert on Time & Attendance matters, and assist Senior Specialists and Experts on complex projects, including implementing and advising clients and employees on employment law changes from Collective Bargaining Agreement updates.\n\n- Be case manager for all employee lifecycle leave and working hours matters with accuracy and attention to detail for both internal and external employees of Remote through out the employee lifecycle including but not limited to Family Leave, Sick Leave, Time Tracking, Public Holidays, Working Time.\n\n- Advise on employment legislation and provide guidance on both basic and complex legal interpretations as outlined in employment agreements and labor law as a trusted consultant to clients and employees.\n\nTeam and Operational Excellence\n\n- Collaborate with and coordinate various internal and external stakeholders to ensure compliance in employee lifecycle activities, including but not limited to payroll, legal counsel and government bodies.\n\n- Assist Senior Specialists to manage critical initiatives that impact numerous employees across multiple countries and support HR and financial audits to ensure compliance with local employment regulations.\n\n- Develop and update global internal documentation pertaining to Time & Attendance, based on legislative changes, referenced by all internal teams. Proactively address internal and external inquiries on all employment matters in collaboration with Lifecycle’s internal stakeholders.\n\n- Actively identify opportunities for and contribute to process improvements, automation, product development and overall customer and employee experience through the employee lifecycle process.\n\n- Safely manage and maintain employee data and confidential information, adhering to established protocols, and ensuring utmost professionalism and discretion in handling and accessing such information\n\n- Promote and exemplify Remote's values both internally and externally, actively contributing to the success of the Lifecycle team's goals.\n\nPracticals\n\n- You'll report to: Manager, Lifecycle Time & Attendance\n\n- Team: EOR Operations\n\n- Location: For this position we welcome everyone to apply, but we will prioritize applications from the following locations as we encourage our teams to diversify; EMEA\n\n- Start date: As soon as possible\n\nApplication process\n\n- Interview with recruiter\n\n- Interview with future manager\n\n- Interview with team members\n\n- Interview with Senior Manager\n\n- Bar Raiser Interview\n\n- Prior employment verification check \n\nRemote's Total Rewards philosophy is to ensure fair, unbiased compensation and fair equity pay along with competitive benefits in all locations in which we operate. We do not agree to or encourage cheap-labor practices and therefore we ensure to pay above in-location rates. We hope to inspire other companies to support global talent-hiring and bring local wealth to developing countries.\nAt first glance our salary bands seem quite wide - here is some context. At Remote we have international operations and a globally distributed workforce. We use geo ranges to consider geographic pay differentials as part of our global compensation strategy to remain competitive in various markets while we hiring globally.\nOur salary ranges are determined by role, level and location, and our job titles may span more than one career level. The actual base pay for the successful candidate in this role is dependent upon many factors such as location, transferable or job-related skills, work experience, relevant training, business needs, and market demands. The base salary range may be subject to change.\nAt Remote, we foster internal mobility as a key element of our culture of employee growth and development, supported by a compensation philosophy that guarantees pay equity and fairness. Therefore, all compensation changes associated with an internal move will be reviewed by the Total Rewards & People Enablement team on a case by case basis.\nThe annual salary range for this full-time position is$29,750—$67,000 USD\nBenefits\nOur full benefits & perks are explained in our handbook at remote.com/r/benefits. As a global company, each country works differently, but some benefits/perks are for all Remoters:\n- work from anywhere\n\n- flexible paid time off\n\n- flexible working hours (we are async)\n\n- 16 weeks paid parental leave\n\n- mental health support services\n\n- stock options\n\n- learning budget\n\n- home office budget & IT equipment\n\n- budget for local in-person social events or co-working spaces\n\nHow you’ll plan your day (and life)\nWe work async at Remote which means you can plan your schedule around your life (and not around meetings). Read more at remote.com/async.\nYou will be empowered to take ownership and be proactive. When in doubt you will default to action instead of waiting. Your life-work balance is important and you will be encouraged to put yourself and your family first, and fit work around your needs.\nIf that sounds like something you want, apply now!\nHow to apply\n\n- Please fill out the form below and upload your CV with a PDF format.\n\n- We kindly ask you to submit your application and CV in English, as this is the standardised language we use here at Remote.\n\n- If you don’t have an up to date CV but you are still interested in talking to us, please feel free to add a copy of your LinkedIn profile instead.\n\nNot only do we encourage folks from all ethnic groups, genders, sexuality, age, abilities, disability status and any other under-represented group to apply, but we prioritize a sense of belonging. We have 4 ERGs (Women, Disability, Queer, Minorities in Tech) who meet regularly with the People team. During your interviews and beyond, we ask & encourage anybody who needs an accommodation to request one from their recruiter.\nWe will ask you to voluntarily tell us your pronouns at interview stage, and you will have the option to answer our anonymous demographic questionnaire when you apply below. As an equal employment opportunity employer it’s important to us that our workforce reflects people of all backgrounds, identities, and experiences and this data will help us to stay accountable. We thank you for providing this data, if you chose to.\nAt Remote, we embrace AI as a valuable tool while prioritizing human creativity and authenticity. We look forward to meeting candidates who balance innovation with genuine expertise and experience. To learn more about Remote's AI guidelines check see here. \nPlease note we accept applications on an ongoing basis.",
-      "apply_url": "https://jobicy.com/jobs/142101-lifecycle-specialist-time-and-attendance-emea",
-      "source": "Jobicy",
-      "posted_at": "2026-09-30T04:00:22.000Z",
-      "scraped_at": "2026-10-01T14:04:02.404Z",
+      "scraped_at": "2026-10-02T13:24:11.411Z",
       "status": "open"
     },
     {
@@ -200,7 +222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-01T14:03:19.480Z",
+      "scraped_at": "2026-10-02T13:23:56.343Z",
       "status": "open"
     },
     {
@@ -222,7 +244,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-01T14:03:19.481Z",
+      "scraped_at": "2026-10-02T13:23:56.343Z",
       "status": "open"
     },
     {
@@ -244,7 +266,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-01T14:03:19.481Z",
+      "scraped_at": "2026-10-02T13:23:56.344Z",
       "status": "open"
     },
     {
@@ -266,7 +288,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:05-04:00",
-      "scraped_at": "2026-10-01T14:03:19.480Z",
+      "scraped_at": "2026-10-02T13:23:56.342Z",
       "status": "open"
     },
     {
@@ -288,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
       "status": "open"
     },
     {
@@ -310,7 +332,29 @@
       "apply_url": "https://jobicy.com/jobs/154236-operations-service-specialist-western",
       "source": "Jobicy",
       "posted_at": "2026-09-29T17:54:47.000Z",
-      "scraped_at": "2026-10-01T14:04:02.404Z",
+      "scraped_at": "2026-10-02T13:24:35.176Z",
+      "status": "open"
+    },
+    {
+      "id": "lever:octopus-energy:caec47a9-304e-498d-858e-9f7a568fe81e",
+      "hub": "business",
+      "title": "Sales Specialist B2C (Electric Vehicles) (m/w/d)",
+      "company": "Octopus Energy",
+      "company_id": "octopus-energy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Energy Retailer & Tech",
+      "level": "Mid",
+      "location": "Munich (DE)",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Was wir tun. Elektroauto via Entgeltumwandlung Warum wir es tun. Grüner. Fairer. Zukunftsorientierter.",
+      "description": "Was wir tun. Elektroauto via Entgeltumwandlung\nWarum wir es tun. Grüner. Fairer. Zukunftsorientierter.\n\nDeine Mission:\nBei Octopus Electric Vehicles (OEV) Germany gestalten wir die Mobilität der Zukunft direkt am Arbeitsplatz. Dafür suchen wir Menschen, die gerne beraten, Verantwortung übernehmen und Freude daran haben, gemeinsam etwas Neues aufzubauen.\nDu bist die Verbindung zwischen unseren Firmenkund*innen und ihren Mitarbeitenden. Du berätst Mitarbeitende unserer Partnerunternehmen persönlich und auf Augenhöhe von der ersten Frage zu Elektrofahrzeugen und Ladetechnologie bis hin zur Bestellung. Du zeigst ihnen, was das für ihr Nettoeinkommen bedeutet und findest mit ihnen das passende Auto.\nWir bauen Octopus EV in Deutschland gerade auf. Du gestaltest also von Anfang an mit, wie gute Beratung bei uns aussieht. Dabei entwickelst du unseren Beratungsprozess weiter, bringst deine Ideen ein und sorgst dafür, dass die Erfahrung für unsere Kund*innen einfach, persönlich und gut wird.\n\nIndividuelle Beratung von Mitarbeitenden: Du berätst Mitarbeitende persönlich zu Elektrofahrzeugen, Ladetechnologien und den steuerlichen Vorteilen ihres Arbeitgebermodells. Dabei begleitest du sie empathisch und kompetent von der ersten unverbindlichen Anfrage bis zur Bestellung ihres Wunschautos.\n\nVertrieb und Prozesse weiterentwickeln: Du bringst deine Erfahrungen aus den Beratungsgesprächen ein, um unsere Vertriebsprozesse und Beratungstools für den deutschen Markt kontinuierlich zu verbessern. Du erkennst, was Mitarbeitenden wichtig ist und hilfst uns dabei, unsere Abläufe entsprechend weiterzuentwickeln.\n\nWissen teilen und Verantwortung übernehmen: Mit dem Wachstum von OEV kannst du Verantwortung für neue Kolleg*innen übernehmen, dein Wissen über die Bedürfnisse von Firmenmitarbeitenden weitergeben und dabei helfen, unsere B2C-Teams für weiteres Wachstum aufzustellen.\n\nBegeistern und präsentieren: Du behältst deine Gespräche und Kontakte im CRM im Blick und führst überzeugende virtuelle Informationsveranstaltungen für Mitarbeitende durch.\n\nBeratung mit Fingerspitzengefühl: Du kannst komplexe Themen wie Versteuerung und Reichweite verständlich und anschaulich erklären. Du hörst aufmerksam zu, stellst die richtigen Fragen und findest gemeinsam mit Kund*innen die passende Lösung ohne ihnen etwas „aufschwatzen“ zu wollen.\n\nLust auf Neues: Du fühlst dich in einem dynamischen Umfeld wohl und packst gerne mit an. Wenn noch nicht alles perfekt organisiert ist, findest du pragmatische Lösungen und hilfst dabei, unsere Abläufe weiterzuentwickeln.\n\nHoher Anspruch an Service: Du weißt, dass du nicht einfach ein Auto vermittelst, sondern einen besonderen Mitarbeitenden-Benefit begleitest. Vertrauen, Verlässlichkeit und eine persönliche Beratung sind dir wichtig.\n\nBegeisterung für nachhaltige Mobilität: Du interessierst dich für E-Mobilität und kannst deine Begeisterung authentisch mit anderen teilen. Dabei musst du kein Technikprofi sein. Wichtiger ist uns deine Neugier und dein Interesse an nachhaltiger Mobilität.\n\nSprachen: Du verfügst über sehr gute Deutschkenntnisse (mindestens C1) in Wort und Schrift, da du direkt mit Mitarbeitenden unserer deutschen Partnerunternehmen kommunizierst. Sehr gute Englischkenntnisse für den Austausch mit unserem internationalen Team.\n\nFixum: 45.000 - 55.000 €/Jahr Brutto\nProvision: 7.500 - 15.000 €/Jahr Brutto",
+      "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
+      "source": "lever",
+      "posted_at": "2026-09-29T15:29:41.113Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -332,29 +376,29 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-09-29T09:23:55-04:00",
-      "scraped_at": "2026-10-01T14:03:49.465Z",
+      "scraped_at": "2026-10-02T13:24:23.940Z",
       "status": "open"
     },
     {
-      "id": "agg:jobicy:151977",
+      "id": "lever:octopus-energy:02e3e1c1-b503-4072-892b-b3e749e183f5",
       "hub": "business",
-      "title": "Solutions Engineering Integration Specialist",
-      "company": "Echodyne",
-      "company_id": "agg:jobicy",
+      "title": "Marketing Operations Specialist",
+      "company": "Octopus Energy",
+      "company_id": "octopus-energy",
       "priority": false,
       "category": "Other",
-      "segment": "Jobicy",
+      "segment": "Energy Retailer & Tech",
       "level": "Mid",
-      "location": "USA",
+      "location": "London (GB)",
       "employment_type": "full-time",
-      "comp_min": 100000,
-      "comp_max": 120000,
-      "summary": "Radar Reinvented. Echodyne offers the world’s first compact solid-state true beam-steering radar for a wide range of industries and applications.",
-      "description": "Radar Reinvented.\n\nEchodyne offers the world’s first compact solid-state true beam-steering radar for a wide range of industries and applications. Our high-performance radars work in all weather and are designed for autonomous vehicles, uncrewed aircraft & drones, and security of borders, critical infrastructure, and smart cities. The company combines the patented technology of metamaterials with powerful software to create a radar sensor with unprecedented performance at commercial price points. Echodyne offers its radars to companies working in Automotive, Transportation, Critical Infrastructure Protection, Border Security, Smart Cities, Uncrewed Aircraft Systems (UAS), and Airspace Management including Urban Air Mobility (UTM).\n\nEchodyne is seeking a Solutions Engineering Integration Specialist to join our fast-growing team!\n\nRESPONSIBILITIES\n\n- Support the formation of customer and partner relationships by presenting the value that our radar products bring to their solutions and applications.\n\n- Support the integration of Echodyne’s solutions with 3rd party integrators, to include Command and Control (C2) platforms, Video Management Platforms (VMS), autonomous platforms, etc.\n\n- Lead installation planning and integrations, execute deployment configuration and system tuning, and provide ongoing technical support and troubleshooting\n\n- Participate in post-demo data analysis and report creation.\n\n- Support the scaling of Echodyne’s customer and partner bases by developing and maintaining training materials, including application notes and user manuals.\n\n- Help improve Echodyne’s products by regularly collecting customer feedback and interfacing with Echodyne product managers and engineers.\n\n- Up to 50% travel may be required.\n\nREQUIRED SKILLS / EXPERIENCE\n\n- Proven track record of learning a technical product and conveying the value of that product to potential customers.\n\n- An entrepreneurial spirit and a customer-first orientation. Willingness to roll up your sleeves and do whatever it takes to get the job done.\n\n- Personal integrity, trustworthiness, and respect while representing Echodyne, demonstrating the product, answering questions, and effectively communicating the product and company value propositions.\n\n- Ability to multi-task, work independently, prioritize tasks, honor rules of engagement, and follow policies, processes, and procedures.\n\n- Resiliency with a positive attitude, as well as analytical, reasoning, and problem-solving skills.\n\n- Organized and detail-oriented with excellent follow-up and decision-making skills.\n\n- Enthusiastic with outstanding customer-communication skills, including the ability to convey high-level overviews and deeply detailed explanations.\n\n- Must be able to regularly lift, carry and move equipment, occasionally up to 50 pounds.\n\nDESIRED SKILLS / EXPERIENCE\n(Looking for one or more as a complement to the core skills)\n\n- Experienced in coordinating efforts across teams and organizations.\n\n- Experience deploying or operating radar systems, especially Electronically Scanning Array radars.\n\n- Experience with Linux operating systems and using a Command Line Interface.\n\n- Basic understanding of digital signal processing functions and application to various sensor modalities. Direct experience with radar signal processing a plus.\n\n- Comfortable troubleshooting both hardware and software issues and working with customers to determine root causes of issues.\n\n- Experience conducting basic data plotting and analysis.\n\n- Experience with basic networking and Wireshark.\n\n- Experience with scripting in one or more of the following: C/C++, Python, C#.\n\nQUALIFICATIONS\n\n- 5+ years of experience supporting field deployed sensors/hardware\n\n- 3+ years of experience in a quota-carrying technical role (Pre or post-sales)\n\n- 2+ years of experience with software APIs\n\n- TRAVEL: Travel as required, both air and ground; up to 50%\n\nEchodyne’s technology is export controlled by the U.S. Government and we must evaluate an applicant’s eligibility to handle export-controlled information or obtain required Government authorizations.  Therefore, we will ask you as part of the application process to identify whether you are a U.S. Citizen or green card holder, or have asylum/refugee status in the U.S.\n\nWHAT WE OFFER\n\nThis is an exempt position.\n\nThe pay range is from $100,000 to $120,000 base plus commission.\n\nIf your skills generally align but not perfectly, please apply anyway. There may be another role that’s a great fit for you!\n\nWe offer competitive compensation and benefits to our full-time, US-based employees, including:\n\n- RSU (Restricted Stock Units)\n\n- Generous Benefits:\n\n- Fully-paid medical, dental, and vision insurance premiums for you\n\n- Choice of PPO or HDHP/HSA\n\n- Virtual Care – 98Point6\n\n- Employee Assistance Program\n\n- Mental Health coverage through Springhealth & Talkspace (Premera)\n\n- Travel Assistance Insurance\n\n- Company Paid Life Insurance\n\n- Company Paid Short & Long Term Disability\n\n- Flexible PTO (exempt) / 15 days per year (non-exempt)\n\n- 401(k) match\n\n- Pet Insurance\n\n- Prepaid Legal Program\n\n- Commuter Benefits\n\n- Paid Company Holidays\n\nAll qualified applicants receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, status as a protected veteran or any other characteristic protected by law.",
-      "apply_url": "https://jobicy.com/jobs/151977-solutions-engineering-integration-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-09-29T03:30:18.000Z",
-      "scraped_at": "2026-10-01T14:04:02.404Z",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "In just five years, Octopus Electroverse has grown to become one of the largest eMobility players in Europe, with over 1.4 million connected electric vehicle chargers and a custome…",
+      "description": "In just five years, Octopus Electroverse has grown to become one of the largest eMobility players in Europe, with over 1.4 million connected electric vehicle chargers and a customer ecosystem spanning web, iOS, Android, CarPlay, Android Auto & Automotive OS, and more. But that’s just the start: we’re busy launching new products, working with more automotive and tech partners, building exciting new features at scale, and creating the integrated charging experiences of the future - all in the name of making the electric transition super simple for individual drivers and fleets.\nElectroverse is a multifunctional team comprising product, development, commercial, operations, marketing, partnerships and more - all focused on making Octopus the go-to name in EV charging. And we’re looking for smart individuals with an interest in the space who can help us make it happen.\nAbout the role\nWe’re looking for a detail-oriented Marketing Operations Specialist to technically support our B2C & B2B communications and marketing campaigns. This is an entry-level role, ideal for someone looking to build a career in marketing operations. You’ll assist in scheduling, testing and reporting on marketing and transactional emails. You’ll also gain hands-on experience with customer engagement tools, data segmentation, and campaign performance analysis. Being a part of the Octopus Group, there are a few things you should know…We don’t do things the traditional way. No agencies, no bureaucratic sign-off processes, and no unnecessary meetings. We have an incredible in-house team of marketers, developers, designers, product and commercial teams, and we all work together to create a product that transforms the e-mobility space.\n\n-\nGet stuck into building and nurturing bespoke customer journeys across B2C, B2B, and OEM partner ecosystems in OneSignal - crafting multi-language emails, push notifications, in-app messages, and quick HTML tweaks.\n\n-\nRigorously test and QA every touchpoint across our international base to make sure every subject line, link, and layout delivers an outrageously good experience.\n\n-\nKeep our ecosystem squeaky clean through smart segmentation, suppression management, and deliverability best practices to protect our domain health.\n\n-\nKeep a pulse on what makes our audience tick, tracking key engagement metrics and turning performance insights into wins and new growth opportunities.\n\n-\nTeam up with Product, Design, Ops, and Marketing leads to ensure transactional messaging drops seamlessly and campaign journeys map straight back to our big growth ambitions.\n\n-\nBe a true guardian (and passionate champion!) of the distinct, warm, and human Octopus Electroverse and Octopus Fleet tone of voice.\n\n-\nRoll up your sleeves and jump into wider initiatives as we roll out Electroverse and Octopus Fleet into exciting new international markets!\n\n-\nHave a genuine interest in the technical side of email marketing and customer journeys\n\n-\nLove paying attention to detail and grammar. If there’s a missing link or an out-of-place\n\ncomma, you’ll notice it!\n\n-\nNot essential, but a basic knowledge of email marketing campaigns is a plus\n\n-\nAre a people person and enjoy engaging and working with a diverse group of individuals\n\n-\nAre genuinely passionate about building a green product, in pursuit of Octopus’s wider goal of decarbonising our planet\n\n-\nAn interest and desire to know more about the e-mobility industry is essential!",
+      "apply_url": "https://jobs.lever.co/octoenergy/02e3e1c1-b503-4072-892b-b3e749e183f5",
+      "source": "lever",
+      "posted_at": "2026-09-29T08:58:54.489Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -376,29 +420,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:154159",
-      "hub": "business",
-      "title": "Technical Onboarding Specialist (Night Shift)",
-      "company": "Nextiva",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Ukraine",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Redefine the future of customer experiences. One conversation at a time. At Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collab…",
-      "description": "Redefine the future of customer experiences. One conversation at a time.\n\nAt Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collaboration on a single, conversation centric platform. Powered by AI, driven by human innovation.\n\nOur culture is forward thinking, customer obsessed and built on the belief that meaningful connections drive better business outcomes. Whether it’s through our signature Amazing Service®, the technology we create, or the experiences we cultivate, connection is at the core of who we are.\n\nIf you’re ready to collaborate with incredible people, make an impact, and help businesses everywhere deliver truly amazing experiences, this is where you belong.\n\nThe Technical Onboarding Specialist / Onboarding Technician is responsible for guiding new customers through the setup, configuration, and successful adoption of Nextiva’s platform. This role combines customer support, technical configuration, and product training to ensure a seamless onboarding experience.\n\nKey Responsibilities\n\n- Assist customers with initial account setup via phone and screen share\n\n- Guide customers through login, configuration, and product functionality\n\n- Configure accounts, call flows, and devices with accuracy and attention to detail\n\n- Perform network checks and basic troubleshooting\n\n- Test configurations to ensure successful implementation\n\n- Deliver customer training on features and product usage\n\n- Meet daily productivity and performance metrics (appointments, call handling, completion rates)\n\n- Handle both inbound onboarding calls and scheduled appointments\n\n- Cross-functional collaboration: Partner with teams such as Sales, Product Support, CRM, and other internal groups to improve the overall customer experience\n\nAI & Future-Focused Responsibilities\n\n- Demonstrate interest in AI tools and automation in customer support/onboarding workflows\n\n- Collaborate with AI-driven onboarding systems by handling escalations or edge cases AI cannot resolve\n\n- Contribute insights to improve AI onboarding agents based on real customer scenarios\n\n- Adapt to a future-state environment where onboarding is increasingly AI-assisted and backend-focused\n\nQualifications\n\n- Proficient English (written and verbal communication)\n\n- Experience in a customer-facing or support role\n\n- Strong problem-solving and troubleshooting skills\n\n- Strong communication and active listening skills\n\n- Commitment to delivering amazing customer service\n\n- Attention to detail and time management\n\n- Basic technical aptitude (software support, device setup, networking fundamentals)\n\n- Ability to work evening/night shifts aligned to U.S. business hours (Mon–Fri 4:00 pm – 3:00 am)\n\nPreferred\n\n- Experience with CRM tools\n\n- Microsoft Office proficiency\n\n- VoIP experience preferred\n\n- Basic networking knowledge\n\n- Exposure to or curiosity about AI tools, automation, or prompt-based systems\n\nNextiva DNA (Core Competencies)\n\nNextiva’s most successful team members share common traits and behaviors:\n\n- Drives Results: Action-oriented problem solvers who quickly bring clarity and simplicity to ambiguity, challenge the status quo, and lead meaningful change; celebrating wins to fuel momentum. They act swiftly and pragmatically, learning and improving as they go.\n\n- Critical Thinker: Data-driven, forward-thinking individuals who identify key drivers, anticipate risks, and deliver clear recommendations. They confidently leverage AI and automation to reduce friction, improve decision-making, and focus on higher-value work.\n\n- Right Attitude: Collaborative, competitive, and resilient team players who jump in to solve tough problems, learn from setbacks, and foster a culture of service, respect, and care for customers and teammates.\n\nTotal Rewards\n\nOur Total Rewards offerings are designed to allow Nexties to take care of themselves and their families so they can do their best.\n\nOur compensation packages are tailored to each role and candidate's qualifications. We consider a wide range of factors, including skills, experience, training, and certifications, when determining compensation. We aim to offer competitive salaries or wages that reflect the value you bring to our team. Depending on the position, compensation may include base salary, incentives, or bonuses.\n\n- Health – Comprehensive medical coverage, individual limit on exclusions and dental care\n\n- Insurance – Life, disability, traumatic injuries and critical diseases\n\n- Work-Life Balance ⚖️ – PTO for all employees, Paid Sick leave (official document required), paid parental leave and paid holidays\n\n- Wellness ‍ – Employee Assistance Program and wellness initiatives\n\n- Growth – Access to ongoing learning and development opportunities and career advancement\n\nAt Nextiva, we're committed to supporting our employees' health, well-being, and professional growth. Join us and build a rewarding career!\n\n#LI-SP1 #LI-REMOTE\n\nFounded in 2008, Nextiva has grown into a global leader trusted by over 100,000 businesses and 1M+ users worldwide. Headquartered in Scottsdale, Arizona, and with teams across the globe, we're the future of customer experience and team collaboration through our AI-powered, conversation-centric platform.\n\nWant to see what life at Nextiva is all about? Connect with us on Instagram, Instagram MX, YouTube, LinkedIn, and the Nextiva Blog.",
-      "apply_url": "https://jobicy.com/jobs/154159-technical-onboarding-specialist-night-shift",
-      "source": "Jobicy",
-      "posted_at": "2026-09-28T18:09:09.000Z",
-      "scraped_at": "2026-10-01T14:04:02.404Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
       "status": "open"
     },
     {
@@ -420,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-01T14:03:53.749Z",
+      "scraped_at": "2026-10-02T13:24:26.451Z",
       "status": "open"
     },
     {
@@ -442,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/eve/jobs/4414168009",
       "source": "greenhouse",
       "posted_at": "2026-09-22T14:27:25-04:00",
-      "scraped_at": "2026-10-01T14:03:33.300Z",
+      "scraped_at": "2026-10-02T13:24:09.387Z",
       "status": "open"
     },
     {
@@ -464,7 +486,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -486,7 +508,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dcbd9c2c-2845-4e46-8108-45cdf1d8e801",
       "source": "lever",
       "posted_at": "2026-09-18T15:53:46.846Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -508,7 +530,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-01T14:03:45.038Z",
+      "scraped_at": "2026-10-02T13:24:19.403Z",
       "status": "open"
     },
     {
@@ -530,7 +552,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -552,7 +574,7 @@
       "apply_url": "https://jobs.lever.co/ro/d763d6d5-03cc-41ff-81ee-d324a00ad3a5",
       "source": "lever",
       "posted_at": "2026-09-16T18:21:16.992Z",
-      "scraped_at": "2026-10-01T14:03:58.912Z",
+      "scraped_at": "2026-10-02T13:24:31.441Z",
       "status": "open"
     },
     {
@@ -574,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-10-01T14:03:53.737Z",
+      "scraped_at": "2026-10-02T13:24:26.486Z",
       "status": "open"
     },
     {
@@ -596,7 +618,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -618,7 +640,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-01T14:03:36.433Z",
+      "scraped_at": "2026-10-02T13:24:11.411Z",
       "status": "open"
     },
     {
@@ -640,7 +662,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-09-11T20:16:48.000Z",
-      "scraped_at": "2026-10-01T14:04:00.591Z",
+      "scraped_at": "2026-10-02T13:24:34.038Z",
       "status": "open"
     },
     {
@@ -662,7 +684,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-01T14:03:46.361Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -684,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-09-10T04:35:34-04:00",
-      "scraped_at": "2026-10-01T14:03:36.433Z",
+      "scraped_at": "2026-10-02T13:24:11.411Z",
       "status": "open"
     },
     {
@@ -706,7 +728,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-09T15:17:17.000Z",
-      "scraped_at": "2026-10-01T14:04:00.139Z",
+      "scraped_at": "2026-10-02T13:24:33.521Z",
       "status": "open"
     },
     {
@@ -728,7 +750,29 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
+      "status": "open"
+    },
+    {
+      "id": "lever:octopus-energy:dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
+      "hub": "business",
+      "title": "Customer Onboarding Specialist",
+      "company": "Octopus Energy",
+      "company_id": "octopus-energy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Energy Retailer & Tech",
+      "level": "Mid",
+      "location": "Manchester (GB)",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "We're making energy fair, clean, and simple for all using technology. Octopus Energy started with a bold idea: to build Britain’s first truly digital energy supplier.",
+      "description": "We're making energy fair, clean, and simple for all using technology. \nOctopus Energy started with a bold idea: to build Britain’s first truly digital energy supplier. By combining world-class tech with brilliant humans who care deeply about customers and driving the renewable energy transition, we made it happen and in 2025, we became Britain’s largest energy supplier. \n\nOctopus Energy Group is a global energy transition collective. 10 businesses working across 4 continents to tackle energy transformation at nearly every front.\n\nAnd we constantly push to make energy better. Tirelessly campaigning for fair protections for customers. And building innovative technologies that forge a path to a green energy system.\n\nWe’re made up of 10,000+ authentic, committed people working around the world on stuff you'd never expect. We're united by a shared goal: to drive the global green energy revolution. Read our Spotlight series to meet some of the team.\n\nAbout the role:\n \nWant a soul destroying call centre job? \nYeah, neither do we.\n \nWe’re not here to read scripts or tick boxes. We’re here to shake things up, to make energy better for our customers and the planet. That means real conversations, real problem-solving, and real impact. Your team? The best bunch of people you’ve ever worked with - curious, driven, and just as passionate about changing the industry as you are. No egos, no corporate nonsense - just a group of brilliant minds tackling challenges together.\n \nIt’s not always easy, but it’s worth it. We move fast. Things change. Just when you think you’ve nailed it...BOOM! Something new to learn! But if you love a challenge and thrive in a fast-paced environment, we’ll have your back every step of the way.\n\n- Make switching to us easy, cut through the noise and help customers select the best Gas and Electricity tariffs\n\n- Get to know the products! As you'll guide customers on the first steps to adopting our Low Carbon Technology (LCT), including Heat Pumps and Solar\n\n- Initiate the exciting journey for Electric Vehicle charger (EVC) customers, answering initial installation questions and ensuring a seamless handover to our specialist installation teams\n\n- Problem solve, so no more endless transfers, whether it's a supplier switch or an EV installation, you'll take full ownership of the query and find the right solution fast\n\n- Go above and beyond and treat every customer with the care and kindness you’d give your own friends and family. We believe in warmth, real conversations, and going the extra mile\n\n- Think on your feet so no robotic responses! Listen, understand, and deliver solutions that genuinely make sense. Get ready for a continuous learning curve\n\n- Passionate about delivering great customer service that makes someone's day just a little bit better\n\n- Adaptability and a love for change. Things move fast here - you’ll embrace learning new things and rolling with the punches\n\n- A curiosity for learning and a love of growth are key, as you'll get to dive into new challenges, projects, and areas of focus along the way\n\n- Clear communication, great attention to detail, and a focus on listening\n\n- A background in a fast-paced customer service or operations environment is a bonus, but we prioritise attitude and aptitude\n\n- A genuine care for the planet. We're fighting climate change, and we want people who share our passion\n\n- Salary: £26,600\n\n- 🎉 Octopus Energy Group is a unique culture. An organisation where people learn, decide, and build quicker. Where people work with autonomy, alongside a wide range of amazing co-owners, on projects that break new ground. We want your hard work to be rewarded with perks you actually care about! We won best company to work for in 2022, on Glassdoor we were voted 50 best places to work in 2022 and our Group CEO, Greg has recorded a podcast about our culture and how we empower our people. We’ve also been placed in the top 10 companies for senior leadership\n\n- 🎁 Visit our UK perks hub - Octopus Employee Benefits",
+      "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
+      "source": "lever",
+      "posted_at": "2026-09-03T14:02:41.885Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -750,7 +794,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/ellipsis-executive-assistant-remote-uk-eu-38k-43k-year",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T10:49:23.000Z",
-      "scraped_at": "2026-10-01T14:04:00.139Z",
+      "scraped_at": "2026-10-02T13:24:33.521Z",
       "status": "open"
     },
     {
@@ -772,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gohighlevel-crm-sales-appointment-setter-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-09-03T01:35:18.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
       "status": "open"
     },
     {
@@ -794,51 +838,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-09-02T19:59:53.000Z",
-      "scraped_at": "2026-10-01T14:04:00.591Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:weworkremotely:bitwarden-billing-specialist-us-weekend",
-      "hub": "business",
-      "title": "Billing Specialist (US Weekend)",
-      "company": "Bitwarden",
-      "company_id": "agg:weworkremotely",
-      "priority": false,
-      "category": "Other",
-      "segment": "We Work Remotely",
-      "level": "Mid",
-      "location": "Anywhere in the World",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Headquarters: US Remote Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage an…",
-      "description": "Headquarters: US Remote\n\nBitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and share sensitive information anywhere. Bitwarden makes it easy for all users to extend robust security across their devices with password management, secrets management, and passwordless and passkey innovations. The company is headquartered in Santa Barbara, California. Learn more at bitwarden.com.\n\nWe truly care about our Bitwarden users and want them to have the best experience while accessing their sensitive information online. Our Billing Support team helps people as quickly as possible through our email support system with the majority of inquiries being resolved the same day received. Team members must have excellent writing skills: stellar grammar, attention to detail, and the ability to explain complicated things simply. Success is measured in swiftness, accuracy, and clarity.\n\nWe are searching for an attentive and analytical Billing Support Specialist to assist with resolving billing related customer inquiries, order processing, and account administration. You will advocate for our customers and partner with internal support staff to ensure the client’s specific needs are met to the best of our ability, accounts are billed appropriately, and processes are operating as expected. For this role, we are looking for candidates located in the U.S.\n\nRESPONSIBILITIES\n\n- Manage customer accounts, generate invoices, collect payments, and update accounts to reflect changes\n\n- Answer customer questions about billing and account status\n\n- Accurately identify and resolve any billing and account errors or issues\n\n- Review incoming Purchase Orders for accuracy and adherence to sales and finance guidelines\n\n- Generate invoices for new orders as well as renewal invoices and assure they are calculated and recognized correctly\n\n- Setup and maintain customer accounts in the billing system\n\n- Assist with other accounting duties and participate in departmental projects to meet business needs\n\nWHAT YOU BRING TO BITWARDEN\n\n- A passion for helping Bitwarden users\n\n- A strong sense of empathy and the ability to advocate for others\n\n- Experience with customer service and communicating billing issues with customers and other internal departments\n\n- Understanding the sensitivity of working with confidential, billing, and accounting information\n\n- Superb organization, attention to detail, and time management skills\n\n- Excellent written and verbal communication skills\n\n- Creative problem-solving skills, good judgment, logic, and ability to learn new things quickly\n\n- Strong work ethic\n\n- Experience multitasking in a cross-functional, fast-paced environment\n\n- Working knowledge of Google G Suite and/or Microsoft Office applications\n\n- Experience with cloud and/or web-based applications is a plus\n\n- Experience working with Stripe is a plus\n\n- Experience in retail or other fast-paced customer facing environments is a plus\n\nWHAT TO EXPECT IN THE INTERVIEW PROCESS\n\n- Screening call with Recruiting Manager\n\n- Interview with Billing Support Manager\n\n- Interview with Director\n\nA FEW REASONS TO WORK WITH US\n\n- Our user community loves us and we love them. Come to work each day with a sense of purpose as we bring a more secure internet experience to everyone from our friends and family to the world’s largest organizations.\n\n- Become an expert. You’ll get immersed in the prominent technology markets of security and open source software.\n\n- We are dedicated to building a diverse and talented team. Work remotely with motivated and supportive team members across the world.\n\n- Learn and grow. Take on new challenges with the support of your team, and continue personal and professional development.\n\nTo apply: https://weworkremotely.com/remote-jobs/bitwarden-billing-specialist-us-weekend",
-      "apply_url": "https://weworkremotely.com/remote-jobs/bitwarden-billing-specialist-us-weekend",
-      "source": "We Work Remotely",
-      "posted_at": "2026-09-02T07:31:09.000Z",
-      "scraped_at": "2026-10-01T14:04:00.139Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:weworkremotely:big-bear-vacations-owner-retention-specialist",
-      "hub": "business",
-      "title": "Owner Retention Specialist",
-      "company": "Big Bear Vacations",
-      "company_id": "agg:weworkremotely",
-      "priority": false,
-      "category": "Other",
-      "segment": "We Work Remotely",
-      "level": "Mid",
-      "location": "Anywhere in the World, Alabama, 🇦🇷 Argentina, 🇧🇴 Bolivia (Plurinational State of), 🇨🇱 Chile, 🇨🇴 Colombia, 🇨🇷 Costa Rica, 🇪🇨 Ecuador, 🇬🇹 Guatemala, 🇲🇽 Mexico, 🇳🇮 Nicaragua, 🇵🇦 Panama, 🇵🇪 Peru, 🇵🇾 Paraguay, 🇸🇻 El Salvador, 🇺🇾 Uruguay, and 🇻🇪 Venezuela (Bolivarian Republic of)",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Headquarters: Big Bear Lake, California, USA URL: https://www.bigbearvacations.com/ OWNER EXPERIENCE SPECIALIST Department: Owner Relations / Owner Experience Market: Puerto Vallar…",
-      "description": "Headquarters: Big Bear Lake, California, USA\n\nURL: https://www.bigbearvacations.com/\n\nOWNER EXPERIENCE SPECIALIST\n\nDepartment: Owner Relations / Owner Experience\nMarket: Puerto Vallarta & Nuevo Vallarta, Mexico\nReports To: Director of Owner Relations\nEmployment Type: Contractor\nWork Arrangement: 100% Remote / Monday - Saturday\nCompensation: USD $1,200 monthly\nLanguages: Fluent English and Spanish, written and spoken — required\n\nPosition Purpose\n\nThe Owner Experience Specialist is the primary point of contact between Naya Homes and our homeowners in Puerto Vallarta and Nuevo Vallarta.\n\nThis role is responsible for building and maintaining strong, consistent, and proactive relationships with homeowners in order to support owner satisfaction and retention. Rather than simply reacting to problems after they occur, the Specialist is expected to identify potential concerns early and address them before they become reasons for an owner to consider terminating their relationship with Naya Homes.\n\nThe Specialist owns three key outcomes: executing the required owner communication cadence under the 33-Touch Relationship Model; providing homeowners with clear visibility into the condition and performance of their properties; and capturing property content that supports marketing efforts, social media, and owner communication.\n\nThe successful candidate will be highly organized, proactive, customer-focused, and comfortable managing a high volume of daily communication while maintaining accurate documentation and consistent follow-up.\n\nFluency in both English and Spanish, written and spoken, is an indispensable requirement for this position. The Specialist will communicate with homeowners and internal teams in both languages.\n\nBecause this is a remote contractor position, the primary focus is on achieving established goals, service standards, and KPIs. The schedule may be flexible as needed to ensure objectives are met, while maintaining the required availability and responsiveness for homeowners and the business.\n\nCore Responsibilities\n\n1. Owner Relationship Management & Communication\n\n-\nExecute 20–25 documented owner interactions per day through calls, email, and text.\n\n-\nMaintain 100% completion of required monthly touches for every assigned owner under the 33-Touch Relationship Model.\n\n-\nMaintain a balance across the three touch types:\n\n-\nProperty Visibility: condition updates, inspection findings, photos, and property content.\n\n-\nPersonal Relationship: relationship-building communication not directly related to a transaction or problem.\n\n-\nInformative / Value-Driven: performance, pricing, market conditions, and seasonal outlook.\n\n-\nEnter every interaction with a clear purpose and conclude it with a defined next step.\n\n-\nComplete scheduled owner check-in calls on the day they are due and rebook any rescheduled calls before the end of the same business day.\n\n-\nMaintain clear communication regarding availability, support, and expected response times so owners always know who to contact and when they can expect an answer.\n\n-\nBuild trust and maintain professional, long-term relationships with homeowners.\n\n2. Property Visibility & Owner Updates\n\n-\nCollect property updates from Operations, Housekeeping, Maintenance, and inspection reports.\n\n-\nReview condition notes and available photos before communicating with owners to ensure updates are specific and accurate.\n\n-\nTranslate operational findings into clear, plain-language owner updates, including what was found, what action is being taken, associated costs, and expected resolution timelines.\n\n-\nRespond to all open owner conversations regarding work orders.\n\n-\nEnsure that no work order is dispatched to an owner's property without documented owner approval.\n\n-\nEnsure that every unresolved property issue has a clearly assigned next action and responsible person.\n\n-\nProvide owners with meaningful visibility into the work being performed on their property.\n\n3. Escalation & Churn Risk Identification\n\n-\nIdentify early signs of owner dissatisfaction or potential churn, including declining sentiment, slow or short responses, revenue complaints, recurring property condition issues, questions regarding contract terms, or references to other management companies.\n\n-\nEscalate concerns on the same business day.\n\n-\nAdd applicable owners to the Owner Churn Board and keep records current as situations develop.\n\n-\nConfirm ownership of the next action for every escalation and ensure each open case has a clearly assigned responsible person.\n\n-\nCommunicate potential risks early rather than waiting for issues to escalate.\n\n4. Documentation & CRM Discipline\n\n-\nLog every owner interaction in Monday.com on the same day it occurs.\n\n-\nMaintain the Owner Churn Board on a daily basis.\n\n-\nSchedule all future owner touches and follow-ups before closing out the day.\n\n-\nPrepare a clear next-day action list before logging off.\n\n-\nComplete a weekly CRM documentation self-audit and correct any gaps identified.\n\n-\nMaintain accurate, complete, and timely records of all owner communications.\n\nDaily Operating Rhythm\n\nStart of Day\n\n-\nLog into RingCentral and Monday.com.\n\n-\nReview the Owner Engagement Tracker.\n\n-\nIdentify owners due for required touches.\n\n-\nReview notes from inspections, maintenance, turnovers, and operations.\n\n-\nFlag owners with open concerns, negative or declining sentiment, or recent performance or condition issues.\n\nDuring the Day\n\n-\nComplete scheduled owner check-in calls.\n\n-\nSend required emails and text messages.\n\n-\nComplete scheduled property-content activities remotely or through available internal resources.\n\n-\nCollect and communicate relevant property updates.\n\n-\nRespond to open work order conversations.\n\n-\nEscalate concerns on the same business day.\n\n-\nMaintain consistent follow-up with assigned homeowners.\n\nEnd of Day\n\n-\nEnsure all owner interactions are documented in Monday.com.\n\n-\nUpdate the Owner Churn Board.\n\n-\nSchedule future touches and follow-ups.\n\n-\nConfirm that there are zero undocumented conversations.\n\n-\nPrepare the next-day action list.\n\nWeekly Close\n\n-\nMaintain 100% progress toward required monthly owner touches.\n\n-\nEnsure there are no missed follow-ups.\n\n-\nComplete the CRM documentation self-audit.\n\n-\nReview owner sentiment trends.\n\n-\nIdentify unresolved owner issues requiring attention.\n\n-\nIdentify owners requiring proactive outreach during the following week.\n\nPerformance Standards & KPIs\n\nPerformance will be measured monthly against the following targets:\n\n-\nDaily owner touches: 20–25 per day.\n\n-\nRequired monthly touch completion: 100%.\n\n-\nDocumentation accuracy: 95% or higher.\n\n-\nUndocumented conversations: Zero.\n\n-\nSame-day escalation compliance: 100%.\n\n-\nOverdue escalations beyond SLA: Zero.\n\n-\nOwner sentiment trend: Stable or improving.\n\n-\nOverall KPI attainment: 90% or higher.\n\n-\nRetention saves: Tracked and reviewed through the Owner Churn Board.\n\nSustained performance below the established targets may result in a documented coaching plan.\n\nAccountability Standards\n\n-\nMissed follow-ups are considered a performance issue.\n\n-\nUndocumented conversations are considered a performance issue.\n\n-\nDispatching a work order without documented owner approval is considered a performance issue.\n\n-\nEarly escalation is considered a positive behavior and is recognized accordingly.\n\n-\nProactive communication is an expectation of the role, not an additional benefit or optional activity.\n\n-\nThe Specialist is expected to take ownership of assigned conversations, follow-ups, and open issues through resolution or appropriate escalation.\n\nQualifications\n\nRequired\n\n-\nFluent English and Spanish, both written and spoken — indispensable.\n\n-\n2+ years of experience in client-facing account management, hospitality, property management, customer success, or a related field.\n\n-\nDemonstrated experience working independently and managing responsibilities in a remote environment.\n\n-\nStrong CRM discipline and a proven track record of documenting work consistently without requiring constant follow-up.\n\n-\nComfortable initiating a high volume of outbound calls and handling difficult conversations directly and professionally.\n\n-\nExcellent written and verbal communication skills in both English and Spanish.\n\n-\nStrong interpersonal skills and the ability to build trust with clients and maintain long-term relationships.\n\n-\nHighly organized and detail-oriented, with the ability to manage multiple conversations, follow-ups, and priorities simultaneously.\n\n-\nProactive approach to identifying potential dissatisfaction and escalating concerns appropriately.\n\n-\nAbility to shoot and edit short-form vertical video using a phone and tools such as CapCut, Instagram, or equivalent.\n\n-\nStrong computer skills and ability to work independently with digital communication, CRM, and collaboration tools.\n\n-\nReliable internet connection and a suitable home-office environment for remote work.\n\nPreferred\n\n-\nPrevious experience in short-term rentals, vacation rentals, hospitality, or property management.\n\n-\nWorking knowledge of Streamline VRS, Monday.com, or comparable PMS/CRM platforms.\n\n-\nExperience producing content for Instagram, TikTok, Airbnb, or other property marketing platforms.\n\n-\nUnderstanding of owner statements, management fees, and short-term rental revenue basics.\n\n-\nFamiliarity with the Puerto Vallarta / Nuevo Vallarta vacation rental market.\n\nKey Attributes\n\nThe ideal candidate will be:\n\n-\nReliable and consistent: Able to perform repetitive activities consistently and accurately.\n\n-\nCalm and professional: Comfortable dealing with frustrated homeowners without becoming defensive or over-promising.\n\n-\nHighly organized: Capable of managing 20–25 daily conversations while maintaining complete follow-up.\n\n-\nProactive: Identifies potential issues early and takes action before they escalate.\n\n-\nAccountable: Communicates problems honestly and takes ownership of mistakes.\n\n-\nRelationship-oriented: Genuinely interested in understanding homeowners, their properties, and their needs.\n\n-\nAdaptable: Comfortable working independently in a remote environment and managing priorities without constant supervision.\n\n-\nStrong communicator: Able to communicate clearly and professionally in both English and Spanish.\n\nFirst 90 Days\n\nDays 1–30\n\n-\nComplete access and onboarding for Monday.com, Streamline, RingCentral, and the Owner Engagement Tracker.\n\n-\nBecome confident using the required systems and communication tools.\n\n-\nReview the assigned owner portfolio.\n\n-\nMake introductory contact with assigned homeowners.\n\n-\nComplete shadowing and initial training.\n\nDays 31–60\n\n-\nExecute the full daily communication volume of 20–25 owner touches.\n\n-\nMaintain 100% documentation compliance.\n\n-\nDemonstrate consistent follow-up and proactive communication.\n\n-\nBegin independently identifying and escalating owner concerns.\n\nDays 61–90\n\n-\nAchieve overall KPI attainment of 90% or higher.\n\n-\nOwn at least one owner retention case from identification through resolution or successful escalation.\n\n-\nDemonstrate consistent owner relationship management and CRM discipline.\n\n-\nContribute repeatable content formats or communication practices that can be adopted by other Specialists.\n\nThis job description outlines the primary duties and standards of the role and is not an exhaustive list of all responsibilities. Duties may be adjusted according to business needs. Workload structure, escalation pathways, and coaching practices will be administered in accordance with applicable company policies and requirements.\n\nTo apply: https://weworkremotely.com/remote-jobs/big-bear-vacations-owner-retention-specialist",
-      "apply_url": "https://weworkremotely.com/remote-jobs/big-bear-vacations-owner-retention-specialist",
-      "source": "We Work Remotely",
-      "posted_at": "2026-09-01T20:45:07.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:34.038Z",
       "status": "open"
     },
     {
@@ -860,7 +860,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -970,7 +970,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.521Z",
       "status": "open"
     },
     {
@@ -992,7 +992,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -1014,7 +1014,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/the-humane-league-temporary-us-corporate-relations-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-03T17:34:26.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
       "status": "open"
     },
     {
@@ -1036,7 +1036,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
       "status": "open"
     },
     {
@@ -1058,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -1080,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -1102,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -1124,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-01T14:03:46.361Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -1146,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -1168,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-01T14:03:46.361Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -1190,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -1212,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -1234,7 +1234,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
       "status": "open"
     },
     {
@@ -1256,7 +1256,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-01T14:04:00.140Z",
+      "scraped_at": "2026-10-02T13:24:33.522Z",
       "status": "open"
     },
     {
@@ -1278,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -1300,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-01T14:03:46.361Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -1322,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-01T14:03:46.362Z",
+      "scraped_at": "2026-10-02T13:24:20.789Z",
       "status": "open"
     },
     {
@@ -1344,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-01T14:03:46.361Z",
+      "scraped_at": "2026-10-02T13:24:20.788Z",
       "status": "open"
     },
     {
@@ -1366,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-10-01T14:03:42.688Z",
+      "scraped_at": "2026-10-02T13:24:16.280Z",
       "status": "open"
     },
     {
@@ -1388,7 +1388,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:19.487Z",
+      "scraped_at": "2026-10-02T13:23:56.348Z",
       "status": "open"
     },
     {
@@ -1410,7 +1410,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Enterprise-Customer-Support-Specialist_REQ-5431-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.756Z",
+      "scraped_at": "2026-10-02T13:24:01.849Z",
       "status": "open"
     },
     {
@@ -1432,7 +1432,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.757Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1454,7 +1454,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Onboarding-Specialist_REQ-5463",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1476,7 +1476,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1498,7 +1498,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Onboarding-Specialist_REQ-5462",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1520,7 +1520,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Social-Media-Specialist_REQ-4490",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1542,7 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1564,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1586,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1608,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1630,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Graphic-Designer_REQ-5220",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1652,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1674,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1696,29 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5221",
-      "hub": "legal",
-      "title": "Senior Systems Specialist, FP&A",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "4 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Systems Specialist, FP&A at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1740,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1762,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1784,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1806,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1828,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Customer-Training-Specialist_REQ-5239-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1850,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1872,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1894,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:25.758Z",
+      "scraped_at": "2026-10-02T13:24:01.850Z",
       "status": "open"
     },
     {
@@ -1916,7 +1894,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:35.492Z",
+      "scraped_at": "2026-10-02T13:24:10.966Z",
       "status": "open"
     },
     {
@@ -1938,7 +1916,51 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:35.492Z",
+      "scraped_at": "2026-10-02T13:24:10.966Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/05da65c3-f97f-4ccc-ab2b-88cf94bd5db8/",
+      "hub": "legaltech",
+      "title": "Event Operations Coordinator",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Virtual Assistant",
+      "segment": "Legal Case Management Software",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Event Operations Coordinator at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/05da65c3-f97f-4ccc-ab2b-88cf94bd5db8/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-02T13:24:10.966Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/5fa61f67-6590-4bab-9308-357e1d0a2bb1/",
+      "hub": "legaltech",
+      "title": "Event Operations Coordinator",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Virtual Assistant",
+      "segment": "Legal Case Management Software",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Event Operations Coordinator at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/5fa61f67-6590-4bab-9308-357e1d0a2bb1/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-02T13:24:10.966Z",
       "status": "open"
     },
     {
@@ -1960,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:35.492Z",
+      "scraped_at": "2026-10-02T13:24:10.966Z",
       "status": "open"
     },
     {
@@ -1982,7 +2004,7 @@
       "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:35.492Z",
+      "scraped_at": "2026-10-02T13:24:10.966Z",
       "status": "open"
     },
     {
@@ -2004,7 +2026,7 @@
       "apply_url": "https://www.filevine.com/jobs/2031b8ba-8691-4b71-b21e-627923da5d4e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:35.492Z",
+      "scraped_at": "2026-10-02T13:24:10.966Z",
       "status": "open"
     },
     {
@@ -2026,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/c5ef27a9-85ae-4cdf-8337-c70cfa8a4ef3/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:35.492Z",
+      "scraped_at": "2026-10-02T13:24:10.966Z",
       "status": "open"
     },
     {
@@ -2048,29 +2070,7 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:35.492Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:wise-plc:https://wise.jobs/job/internal-audit-senior-specialist-technology-in-hyderabad-jid-4248",
-      "hub": "fintech",
-      "title": "Internal Audit Senior Specialist - Technology",
-      "company": "Wise",
-      "company_id": "wise-plc",
-      "priority": false,
-      "category": "Other",
-      "segment": "International Money Transfer",
-      "level": "Senior",
-      "location": "See posting",
-      "employment_type": "contract",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Internal Audit Senior Specialist - Technology at Wise.",
-      "description": "",
-      "apply_url": "https://wise.jobs/job/internal-audit-senior-specialist-technology-in-hyderabad-jid-4248",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:37.492Z",
+      "scraped_at": "2026-10-02T13:24:10.966Z",
       "status": "open"
     },
     {
@@ -2092,7 +2092,29 @@
       "apply_url": "https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-4236",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:37.492Z",
+      "scraped_at": "2026-10-02T13:24:12.258Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:wise-plc:https://wise.jobs/job/senior-executive-assistant-in-austin-jid-4253",
+      "hub": "fintech",
+      "title": "Senior Executive Assistant",
+      "company": "Wise",
+      "company_id": "wise-plc",
+      "priority": false,
+      "category": "Executive Assistant",
+      "segment": "International Money Transfer",
+      "level": "Senior",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Executive Assistant at Wise.",
+      "description": "",
+      "apply_url": "https://wise.jobs/job/senior-executive-assistant-in-austin-jid-4253",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-02T13:24:12.258Z",
       "status": "open"
     },
     {
@@ -2114,7 +2136,7 @@
       "apply_url": "https://wise.jobs/job/talent-development-specialist-in-austin-jid-3933",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:37.492Z",
+      "scraped_at": "2026-10-02T13:24:12.258Z",
       "status": "open"
     },
     {
@@ -2136,7 +2158,7 @@
       "apply_url": "https://www.getyourguide.careers/jobs/8207660",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:41.370Z",
+      "scraped_at": "2026-10-02T13:24:14.285Z",
       "status": "open"
     },
     {
@@ -2158,7 +2180,7 @@
       "apply_url": "https://www.getyourguide.careers/jobs/7571066",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:41.370Z",
+      "scraped_at": "2026-10-02T13:24:14.285Z",
       "status": "open"
     },
     {
@@ -2180,29 +2202,7 @@
       "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Quezon-City/Specialist--Growth-Conversion_R-00433",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:55.179Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:athena:R-00545",
-      "hub": "business",
-      "title": "Assistant Controller",
-      "company": "Athena",
-      "company_id": "athena",
-      "priority": false,
-      "category": "Other",
-      "segment": "Executive Assistant Staffing & Training",
-      "level": "Mid",
-      "location": "Wilmington",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Assistant Controller at Athena.",
-      "description": "",
-      "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Wilmington/Assistant-Controller_R-00545",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-01T14:03:55.179Z",
+      "scraped_at": "2026-10-02T13:24:27.968Z",
       "status": "open"
     }
   ]
