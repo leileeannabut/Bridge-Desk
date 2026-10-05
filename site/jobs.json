@@ -1,10 +1,76 @@
 {
-  "generated_at": "2026-10-04T12:59:28.854Z",
+  "generated_at": "2026-10-05T15:27:22.415Z",
   "count": 100,
-  "total_open": 122,
-  "sources_ok": 55,
-  "sources_failed": 23,
+  "total_open": 125,
+  "sources_ok": 54,
+  "sources_failed": 24,
   "jobs": [
+    {
+      "id": "agg:jobicy:154554",
+      "hub": "business",
+      "title": "Client Success Specialist",
+      "company": "Ataraxis AI",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About Ataraxis AI Ataraxis is a clinical AI research lab working at the intersection of multi-modal AI and precision medicine. Our goal is to make disease predictable.",
+      "description": "About Ataraxis AI\n\nAtaraxis is a clinical AI research lab working at the intersection of multi-modal AI and precision medicine. Our goal is to make disease predictable. To accomplish this, we develop new AI methods that predict patient outcomes and treatment response, and build clinical tools to assist physicians in selecting the most optimal treatments for their patients.\n\nOur AI research lab discovers and develops methods to recognize patterns and predict outcomes across complex, multi-modal clinical data. This spans our causality (Ataraxis™ Tau), foundation model (Falcon and Kestrel for digital pathology), and survival analysis research.\n\nOur first clinical products, such as Ataraxis™ Breast for breast cancer, already help patients get the most appropriate treatment across the best academic institutions and community clinics worldwide.\n\nAt Ataraxis, you will have a unique opportunity to shape not only the future of our company, but also the future of healthcare. You will join an exceptional team at the forefront of clinical AI research and deployment. Our advisors include AI pioneers such as our founding advisor, Yann LeCun, and distinguished oncologists from top cancer research institutions, all united by the mission to redefine precision medicine.\n\nAtaraxis has raised over $24 million in funding, including a $20 million Series A led by top venture capital funds such as Thiel Capital/Founders Fund (OpenAI, SpaceX, Palantir), Obvious Ventures (AMI Labs, Inceptive, Radical Numerics, Recursion), and AIX Ventures (Hugging Face, Perplexity).\n\nWe are an company with a flat organizational structure, where every team member is empowered to actively contribute. Leadership roles are earned by those who demonstrate initiative and consistently deliver exceptional results. Strong work ethic and the ability to prioritize ruthlessly are essential.\n\nResponsibilities\n\n-\nServe as the primary contact for physicians, labs, hospitals, patients, and internal teams, responding promptly and professionally to all inquiries via phone, email, or web.\n\n-\nDeliver an excellent customer experience by addressing questions about tests, services, billing, and order status with empathy, accuracy, and clear communication.\n\n-\nCollaborate with Sales and clients to resolve missing or incomplete data, ensuring smooth ordering process and and timely delivery of test results.\n\n-\nMaintain detailed and accurate documentation of all communications, actions, and follow-ups.\n\n-\nResearch and resolve escalated issues, identify root causes, and communicate outcomes clearly to both customers and internal stakeholders.\n\n-\nStay knowledgeable about Ataraxis oncology tests, including sample requirements, workflows, and documentation needs.\n\n-\nSupport process improvements and special projects that enhance efficiency, quality, or customer satisfaction.\n\nQualifications\n\n-\nBachelor’s degree preferred, or an equivalent mix of education and hands-on experience.\n\n-\n1-2+ years of client-facing or customer support experience, ideally within diagnostics, biotech, or healthcare.\n\n-\nProficient in Salesforce, Microsoft Office, and general data management or CRM systems.\n\n-\nExcellent written and verbal communication skills, with the ability to tailor messaging for physicians, patients, and internal teams.\n\n-\nStrong organizational and time management abilities; able to prioritize multiple tasks in a fast-paced environment.\n\n-\nDemonstrated problem-solving skills with sound judgment and attention to detail.\n\n-\nWorks effectively in cross-functional teams, maintaining professionalism and a positive attitude under pressure.\n\n-\nFlexible and adaptable to changing business priorities and operational demands.",
+      "apply_url": "https://jobicy.com/jobs/154554-client-success-specialist-2",
+      "source": "Jobicy",
+      "posted_at": "2026-10-05T08:02:56.000Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152525",
+      "hub": "business",
+      "title": "Customer Success Associate (Sustainability)",
+      "company": "Worldly",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Entry",
+      "location": "China,  Hong Kong,  Philippines,  Vietnam",
+      "employment_type": "full-time",
+      "comp_min": 15000,
+      "comp_max": 25000,
+      "summary": "Customer Success Associate (Sustainability) Location: Remote (China, Vietnam, Hong Kong, or Philippines) Reports to: Regional Lead, APAC About Worldly Worldly is the world's most c…",
+      "description": "Customer Success Associate (Sustainability)\n\nLocation: Remote (China, Vietnam, Hong Kong, or Philippines)\n\nReports to: Regional Lead, APAC\n\nAbout Worldly\n\nWorldly is the world's most comprehensive impact intelligence platform — delivering real data to businesses on impacts within their supply chain. Worldly is trusted by 40,000 global brands, retailers, and manufacturers to provide the single source of ESG intelligence they need to accelerate business and industry transformation.\n\nThrough strategic and meaningful customer relationships, Worldly provides key insights into supplier performance, product impact, trends analysis, and compliance. When a company wants to change how business is done, we enable that systemic shift.\n\nBacked by a dedicated global team of individuals aligned by values, Worldly proudly operates as a public benefit corporation with backing from mission-aligned investors.\n\nAbout The Role\n\nWorldly is seeking a Customer Success Associate to support the APAC Customer Success team across customer data operations, customer program delivery, training, and platform support. The role is responsible for managing customers' supplier lists and verifying data accuracy, supporting service cadences for customers in different subscriptions, delivering training to APAC customers, and handling platform/brand’s requirements enquiries. The role reports to the Regional Lead and works closely with other members of the Customer Success team across time zones.\n\nThe ideal candidate is detail-oriented, comfortable working with large data sets, a confident communicator in front of customers, and interested in retail supply chains and ESG reporting.\n\nWhat You'll Do\n\n1. Customer data operations\n\n-\nManage and maintain detailed record-keeping of customers' supplier lists; maintain and update supplier data by inputting text-based and numerical information from source documents within time limits on a recurring basis\n\n-\nCompile, verify accuracy, and sort information according to priorities to prepare source data for platform import\n\n-\nReview data for deficiencies or errors, correct any incompatibilities where possible, and check the output\n\n-\nImport data to the Worldly platform on behalf of customers\n\n-\nSend templated emails on behalf of customers\n\n-\nStore completed work in designated locations and perform backup operations\n\n-\nRespond to queries for information and access relevant files\n\n2. Customer program & cadence support\n\n-\nSupport facility list management, cadence setup & management, adoption emails, and reporting needs for ImpactService customers\n\n-\nIndependent service delivery to customers in Platform Access subscription\n\n-\nManage recurring customer deliverables (e.g., MWL updates) with CS Ninjas Team\n\n-\nManage email cadences in HubSpot for customer adoption programs\n\n-\nData / deck preparation for End-of-Cadence Meetings with assigned accounts\n\n-\nConsolidate and visualize platform data into presentation materials\n\n3. Training & events\n\n-\nDeliver training sessions and host office hours for APAC customers\n\n-\nManage training-related emails e.g., invitation and follow-up emails\n\n-\nHandle training/office hours follow-up: surveys, uploading recordings to the guidance site, collecting and answering Q&A, analyzing survey results\n\n-\nReport on training KPIs\n\n-\nSchedule training and office hours sessions in the CS Zoom account\n\n-\nRepresent Worldly at industry events in APAC\n\n4. Support & ticketing\n\n-\nAnswer platform/brand’s requirements enquiries — deadlines, verification booking for Higg FEM and Higg FSLM, especially accounts-related\n\n5. Translation & localization\n\n-\nOrganize translation of training and guidance content\n\n6. Team & workflow support\n\n-\nAssist Regional Lead in overseeing and shaping the CS Support Ninja workflow\n\n-\nSupport onboarding, training & supervising CS Support Ninjas\n\n-\nSupport UAT testing of (adoption, analytics, supply impacts)\n\n-\nFlexible to attend internal meetings in different time zones when required\n\nWe'd like To See\n\n-\nLarge data handling experience (preferred)Proficiency in data management tasks utilizing tools like Excel, Google Sheets, etc.\n\n-\nAccuracy and attention to detail — essential\n\n-\nPropensity to problem-solve proactively and find solutions for potential problems or errors that have been identified\n\n-\nAbility to concentrate for lengthy periods and perform accurately with adequate speed\n\n-\n\n-\nConfident presenter and communicator for customer-facing setup\n\n-\nAbility to collaborate with cross-functional teams\n\nIt Helps If You Have\n\n-\nExperience with HubSpot or other CRM technologies\n\n-\nExperience with Slack\n\n-\n1+ years of technical SaaS environment product support experience\n\n-\nBachelor's degree\n\n-\nKnowledge of retail supply chains\n\n-\nInterest in ESG reporting & similar with Higg Index Tools\n\n-\nExperience in customer service\n\n-\nFluency in English plus a regional language (e.g. Mandarin, Vietnamese)\n\nWhat We Can Offer You\n\n-\nComprehensive benefits offerings. 100% employee premium covered by Worldly.\n\n-\nGrowth Opportunities\n\n-\nEquipment Stipends\n\n-\nUnlimited PTO\n\n-\nPaid company holidays\n\nLife at Worldly\n\nOur team is motivated to transform the way products are made. By helping our customers succeed in a new era of sustainable production, we can build technology that makes a difference on a planetary level.\n\nOur team represents over 15 countries and brings unique experiences from technology to farming to the table. Surround yourself with kind, enthusiastic, and dedicated people who put collaboration and growth at the center of our shared goals.\n\nBenefits and perks\n\n-\nEarn a competitive salary and performance-based bonuses; healthcare and retirement matching\n\n-\nOffice stipend to get the supplies you need\n\n-\nFlexible time off — take the time you need to recharge; our culture encourages team members to explore and rest to be their best selves\n\n-\nWe're remote, not lonely — join the culture committee, coffee chats, or a variety of other interest groups\n\nTravel Notice\n\n​​Roles at Worldly may require occasional travel to support business needs, including but not limited to team collaboration, customer engagement, or company events.\n\nEquity Statement\n\nWe believe it’s essential to reflect the diversity of those we strive to serve. True innovation happens when everyone has room at the table, including the tools, resources, and opportunity to excel. We’re dedicated to building a culturally and experientially diverse team that leads and works with empathy and respect.\n\nCompensation\n\nAnnual Salary\n\n-\n$15,000 - $25,000 USD\n\nAnnual Bonus Plan\n\nWork-From-Home Stipends\n\n*Final compensation figures will be determined based on a wide variety of factors, including experience and location. These factors will be evaluated and considered by Worldly throughout the entirety of this process.\n\n**For candidates located outside the U.S., the salary range listed in USD will be paid in the local currency equivalent at the time of offer using the then-current exchange rate.",
+      "apply_url": "https://jobicy.com/jobs/152525-customer-success-associate-sustainability",
+      "source": "Jobicy",
+      "posted_at": "2026-10-05T04:55:16.000Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152536",
+      "hub": "business",
+      "title": "Customer Service Representative",
+      "company": "Beyond Finance",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 19,
+      "comp_max": 20,
+      "summary": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future.",
+      "description": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future. Through compassionate, individualized care, a culture focused on compliance and ethics, supportive user-centric technology, and customized financial solutions, we've helped over 1 million clients on their path to a brighter future.\n\nWhile we're proud of what we've already accomplished, we're searching for new collaborators to help us get to the next level! If you're looking to join a forward-thinking, rapidly growing organization with helping people as its number one goal, we want to hear from you.\n\nAbout The Role\n\nOur Customer Service Representative serves as the primary point of contact for clients enrolled in Beyond Finance’s financial hardship programs. They are Beyond’s caring voice to the client and guide them from enrollment through graduation. Our Customer Service Representative possesses a “second-to-none” work ethic and an upbeat, positive and passionate attitude about customer service. By responding promptly to client requests, and possessing an acute awareness that allows them to anticipate the client’s needs and exceed expectations, our Client Success Department is critical to the success of helping maintain Beyond’s white glove service standard.\n\nAs a Customer Service Representative, you will complete a four week training program to become an expert in Beyond's financial hardship programs. After you successfully complete training, you will be responsible for providing superior customer service and a positive experience to our clients. The Client Success Specialist role is a remote position.\n\nWhat You’ll Do\n\n- Above all else, provide a helpful and caring customer service experience over high volume inbound and outbound client phone calls of varying complexity by responding to client requests, anticipating unstated needs, and educating them on our programs in a remote call center environment\n\n- Proactively identify, analyze and resolve client issues by utilizing active listening and critical thinking to provide first call resolution with focus on the customer relationship\n\n- Exhibit strong written/verbal communication skills, excel at customer interaction, and deliver practical solutions\n\n- Develop and maintain positive client relations and work collaboratively with other departments within the company to ensure client requests and questions are appropriately handled in a timely manner\n\n- Work independently and with a team to drive retention of clients through bolstering product knowledge and providing best-in-class service at all times\n\n- Operate, navigate, and troubleshoot a desktop computer to obtain and extract information; research through multiple computer programs/systems simultaneously and document information, activities and changes in the CRM database (Client Relationship Management System) for client accounts. Apply various troubleshooting techniques to resolve complicated technical or configuration issues\n\n- Continuously learn, interpret and utilize company and industry knowledge, practices, and procedures to deliver accurate and up-to-date solutions.\n\n- Meet and exceed client centric performance expectations focused around quality of service and efficiency\n\n- Engage with feedback to leader and team to collaborate and streamline workflows\n\nWhat We Look For\n\n- Minimum 1 year relevant call center experience (Required)\n\n- Bilingual - Spanish (preferred / not required)\n\n- Reliable, high speed internet connection with ethernet (Required)\n\n- Strong computer technical skills with the ability to learn and navigate complex systems\n\n- Excellent communication skills (written, verbal, and listening)\n\n- You operate with understanding, active listening, patience, empathy and kindness to customers\n\n- Strong interpersonal skills and can independently handle routine and complex client inquiries\n\n- Have a people-focused approach and solution mindset, you’re an effective problem solver.\n\n- Effective at time management, planning & organizing tasks\n\n- Ability to work from home in a distraction free environment\n\n#LI-JS2\n\nThe base salary range represents the low and high end of the anticipated salary range for this position. The actual base salary offered will depend on numerous factors including the individual’s skills, experience, performance, and the location where work is performed.\n\nBase Pay Range\n\n$19—$20 USD\n\nWhy Join Us?\n\nWhile you make a difference for others, we’ll work to make a difference for you, providing an uplifting, collaborative work environment and benefits that reflect your value to us. For eligible full-time employees, we offer:\n\n- Considerable employer contributions for health, dental, and vision programs\n\n- Generous PTO, paid holidays, and paid parental leave\n\n- 401(k) matching program\n\n- Merit advancement opportunities\n\n- Career development & training\n\nAnd finally, our team spirit and culture! We cultivate an environment of community, connection, and belonging across our entire organization.\n\nBeyond Finance does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job positions. No fee will be paid to their parties who submit unsolicited candidates directly to Beyond Finance employees or the Beyond Finance HR team. No placement fee will be paid to any third party unless such a request has been made by the Beyond HR team.",
+      "apply_url": "https://jobicy.com/jobs/152536-customer-service-representative-5",
+      "source": "Jobicy",
+      "posted_at": "2026-10-05T04:48:55.000Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "status": "open"
+    },
     {
       "id": "agg:jobicy:152460",
       "hub": "business",
@@ -24,7 +90,7 @@
       "apply_url": "https://jobicy.com/jobs/152460-l1-hosting-tech-support-agent",
       "source": "Jobicy",
       "posted_at": "2026-10-04T04:35:24.000Z",
-      "scraped_at": "2026-10-04T12:59:28.488Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
       "status": "open"
     },
     {
@@ -46,7 +112,7 @@
       "apply_url": "https://jobicy.com/jobs/154077-inbound-support-coordinator",
       "source": "Jobicy",
       "posted_at": "2026-10-03T03:55:09.000Z",
-      "scraped_at": "2026-10-04T12:59:28.488Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
       "status": "open"
     },
     {
@@ -68,7 +134,7 @@
       "apply_url": "https://jobicy.com/jobs/150027-customer-support-specialist-2",
       "source": "Jobicy",
       "posted_at": "2026-10-03T03:35:11.000Z",
-      "scraped_at": "2026-10-04T12:59:28.488Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
       "status": "open"
     },
     {
@@ -90,7 +156,7 @@
       "apply_url": "https://jobicy.com/jobs/152374-client-onboarding-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-03T03:30:21.000Z",
-      "scraped_at": "2026-10-04T12:59:28.488Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
       "status": "open"
     },
     {
@@ -112,7 +178,7 @@
       "apply_url": "https://jobicy.com/jobs/152379-saas-onboarding-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-03T02:43:41.000Z",
-      "scraped_at": "2026-10-04T12:59:28.489Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
       "status": "open"
     },
     {
@@ -134,7 +200,7 @@
       "apply_url": "https://jobicy.com/jobs/150068-chat-support-agent-remote-15-18-hr",
       "source": "Jobicy",
       "posted_at": "2026-10-03T02:40:03.000Z",
-      "scraped_at": "2026-10-04T12:59:28.489Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
       "status": "open"
     },
     {
@@ -156,7 +222,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-04T12:59:28.026Z",
+      "scraped_at": "2026-10-05T15:27:20.388Z",
       "status": "open"
     },
     {
@@ -178,7 +244,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-04T12:59:27.558Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -200,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/152280-implementation-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-02T03:35:09.000Z",
-      "scraped_at": "2026-10-04T12:59:28.489Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
       "status": "open"
     },
     {
@@ -222,7 +288,7 @@
       "apply_url": "https://jobicy.com/jobs/152290-senior-implementation-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-02T03:30:28.000Z",
-      "scraped_at": "2026-10-04T12:59:28.489Z",
+      "scraped_at": "2026-10-05T15:27:22.051Z",
       "status": "open"
     },
     {
@@ -244,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-04T12:59:27.559Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -266,29 +332,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-04T12:59:27.558Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:142189",
-      "hub": "business",
-      "title": "Customer Service Representative (Spanish Bilingual)",
-      "company": "Snapscale",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Philippines",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Description Overview: Snapscale is seeking a skilled and experienced Spanish Bilingual Customer Service Representative to support US based clinics.",
-      "description": "Description\n\nOverview:\n\nSnapscale is seeking a skilled and experienced Spanish Bilingual Customer Service Representative to support US based clinics. This is a remote role where you will serve as a key point of contact for patients, assisting with administrative and patient coordination tasks while ensuring accurate documentation and excellent patient experience.\n\nThe ideal candidate is detail-oriented, organized, and confident in handling patient interactions in both Spanish and English, with experience in healthcare processes and EMR systems.\n\nResponsibilities:\n\n- Perform insurance verification (preferred but not required)\n- Handle new patient enrollment and intake processes\n- Answer incoming calls and assist patients with inquiries\n- Schedule and reschedule patient appointments efficiently\n- Respond to patient emails and text messages in a timely manner\n- Manage and update patient records using EMR systems\n- Ensure accurate documentation and maintain patient confidentiality \n\nPerks:\n\n- Health Maintenance Organization (HMO)\n- Competitive pay\n- Government-mandated benefits\n- 13th month pay\n- Night differential pay\n- Internet allowance\n- Opportunities for career growth and development\n\nRequirements\n\n- Proficient in both written and spoken Spanish and English\n- Minimum 6 months BPO experience in a Spanish bilingual account (required); healthcare account experience is a plus!\n- Comfortable supporting US based clinics and physicians\n- Willing and able to learn EMR/EHR systems, insurance verification, patient confirmation processes, and inbound/outbound calling\n- Demonstrates strong empathy and interpersonal skills when handling patient interactions\n- Highly organized, detail-oriented, and reliable.\n- ﻿Must have a stable internet connection and a quiet remote work environment",
-      "apply_url": "https://jobicy.com/jobs/142189-customer-service-representative-spanish-bilingual",
-      "source": "Jobicy",
-      "posted_at": "2026-10-01T03:50:25.000Z",
-      "scraped_at": "2026-10-04T12:59:28.489Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -310,7 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
       "source": "greenhouse",
       "posted_at": "2026-09-30T11:52:29-04:00",
-      "scraped_at": "2026-10-04T12:59:17.292Z",
+      "scraped_at": "2026-10-05T15:27:07.936Z",
       "status": "open"
     },
     {
@@ -332,7 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-04T12:59:13.770Z",
+      "scraped_at": "2026-10-05T15:27:02.432Z",
       "status": "open"
     },
     {
@@ -354,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-04T12:59:04.679Z",
+      "scraped_at": "2026-10-05T15:26:54.125Z",
       "status": "open"
     },
     {
@@ -376,7 +420,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-04T12:58:55.738Z",
+      "scraped_at": "2026-10-05T15:26:44.732Z",
       "status": "open"
     },
     {
@@ -398,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-04T12:58:55.739Z",
+      "scraped_at": "2026-10-05T15:26:44.733Z",
       "status": "open"
     },
     {
@@ -420,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-04T12:58:55.739Z",
+      "scraped_at": "2026-10-05T15:26:44.733Z",
       "status": "open"
     },
     {
@@ -442,7 +486,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:05-04:00",
-      "scraped_at": "2026-10-04T12:58:55.738Z",
+      "scraped_at": "2026-10-05T15:26:44.732Z",
       "status": "open"
     },
     {
@@ -464,7 +508,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-04T12:59:27.559Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -486,7 +530,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-04T12:59:13.892Z",
+      "scraped_at": "2026-10-05T15:27:04.818Z",
       "status": "open"
     },
     {
@@ -508,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-09-29T09:23:55-04:00",
-      "scraped_at": "2026-10-04T12:59:17.292Z",
+      "scraped_at": "2026-10-05T15:27:07.936Z",
       "status": "open"
     },
     {
@@ -530,7 +574,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/02e3e1c1-b503-4072-892b-b3e749e183f5",
       "source": "lever",
       "posted_at": "2026-09-29T08:58:54.489Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -552,7 +596,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-04T12:59:27.559Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -574,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-04T12:59:20.862Z",
+      "scraped_at": "2026-10-05T15:27:12.148Z",
       "status": "open"
     },
     {
@@ -596,7 +640,7 @@
       "apply_url": "https://job-boards.greenhouse.io/eve/jobs/4414168009",
       "source": "greenhouse",
       "posted_at": "2026-09-22T14:27:25-04:00",
-      "scraped_at": "2026-10-04T12:59:03.393Z",
+      "scraped_at": "2026-10-05T15:26:52.785Z",
       "status": "open"
     },
     {
@@ -618,7 +662,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -640,7 +684,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dcbd9c2c-2845-4e46-8108-45cdf1d8e801",
       "source": "lever",
       "posted_at": "2026-09-18T15:53:46.846Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -662,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-04T12:59:13.770Z",
+      "scraped_at": "2026-10-05T15:27:02.432Z",
       "status": "open"
     },
     {
@@ -684,7 +728,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -706,7 +750,7 @@
       "apply_url": "https://jobs.lever.co/ro/d763d6d5-03cc-41ff-81ee-d324a00ad3a5",
       "source": "lever",
       "posted_at": "2026-09-16T18:21:16.992Z",
-      "scraped_at": "2026-10-04T12:59:25.810Z",
+      "scraped_at": "2026-10-05T15:27:18.064Z",
       "status": "open"
     },
     {
@@ -728,7 +772,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-10-04T12:59:20.883Z",
+      "scraped_at": "2026-10-05T15:27:12.168Z",
       "status": "open"
     },
     {
@@ -750,7 +794,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-04T12:59:13.892Z",
+      "scraped_at": "2026-10-05T15:27:04.818Z",
       "status": "open"
     },
     {
@@ -772,7 +816,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-04T12:59:04.679Z",
+      "scraped_at": "2026-10-05T15:26:54.125Z",
       "status": "open"
     },
     {
@@ -794,7 +838,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-09-11T20:16:48.000Z",
-      "scraped_at": "2026-10-04T12:59:28.026Z",
+      "scraped_at": "2026-10-05T15:27:20.388Z",
       "status": "open"
     },
     {
@@ -816,7 +860,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -838,7 +882,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-09-10T04:35:34-04:00",
-      "scraped_at": "2026-10-04T12:59:04.679Z",
+      "scraped_at": "2026-10-05T15:26:54.125Z",
       "status": "open"
     },
     {
@@ -860,7 +904,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-09T15:17:17.000Z",
-      "scraped_at": "2026-10-04T12:59:27.558Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -882,7 +926,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-04T12:59:27.559Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -904,7 +948,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -926,7 +970,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-04T12:59:13.892Z",
+      "scraped_at": "2026-10-05T15:27:04.818Z",
       "status": "open"
     },
     {
@@ -1036,7 +1080,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-10-04T12:59:27.558Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -1058,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-04T12:59:13.892Z",
+      "scraped_at": "2026-10-05T15:27:04.818Z",
       "status": "open"
     },
     {
@@ -1080,7 +1124,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-04T12:59:27.558Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -1102,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1124,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1146,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1168,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1190,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-04T12:59:13.892Z",
+      "scraped_at": "2026-10-05T15:27:04.818Z",
       "status": "open"
     },
     {
@@ -1212,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1234,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1256,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-04T12:59:13.892Z",
+      "scraped_at": "2026-10-05T15:27:04.818Z",
       "status": "open"
     },
     {
@@ -1278,7 +1322,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-04T12:59:27.559Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -1300,7 +1344,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-04T12:59:27.559Z",
+      "scraped_at": "2026-10-05T15:27:19.888Z",
       "status": "open"
     },
     {
@@ -1322,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1344,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1366,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1388,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-04T12:59:13.891Z",
+      "scraped_at": "2026-10-05T15:27:04.817Z",
       "status": "open"
     },
     {
@@ -1410,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-10-04T12:59:10.015Z",
+      "scraped_at": "2026-10-05T15:26:57.830Z",
       "status": "open"
     },
     {
@@ -1432,7 +1476,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:58:55.788Z",
+      "scraped_at": "2026-10-05T15:26:44.869Z",
       "status": "open"
     },
     {
@@ -1454,7 +1498,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/New-York/Senior-Executive-Assistant_REQ-4506",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.108Z",
+      "scraped_at": "2026-10-05T15:26:51.143Z",
       "status": "open"
     },
     {
@@ -1476,7 +1520,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Enterprise-Customer-Support-Specialist_REQ-5431-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.108Z",
+      "scraped_at": "2026-10-05T15:26:51.143Z",
       "status": "open"
     },
     {
@@ -1498,7 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1520,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Onboarding-Specialist_REQ-5463",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1542,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1564,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Onboarding-Specialist_REQ-5462",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1586,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Social-Media-Specialist_REQ-4490",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1608,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1630,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1652,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1674,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1696,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Graphic-Designer_REQ-5220",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1718,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1740,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1762,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1784,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1806,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1828,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1850,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Customer-Training-Specialist_REQ-5239-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1872,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1894,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1916,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:02.109Z",
+      "scraped_at": "2026-10-05T15:26:51.144Z",
       "status": "open"
     },
     {
@@ -1938,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
@@ -1960,11 +2004,11 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/05da65c3-f97f-4ccc-ab2b-88cf94bd5db8/",
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "hub": "legaltech",
       "title": "Event Operations Coordinator",
       "company": "Filevine",
@@ -1979,32 +2023,10 @@
       "comp_max": null,
       "summary": "Event Operations Coordinator at Filevine.",
       "description": "",
-      "apply_url": "https://www.filevine.com/jobs/05da65c3-f97f-4ccc-ab2b-88cf94bd5db8/",
+      "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/5fa61f67-6590-4bab-9308-357e1d0a2bb1/",
-      "hub": "legaltech",
-      "title": "Event Operations Coordinator",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Virtual Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Event Operations Coordinator at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/5fa61f67-6590-4bab-9308-357e1d0a2bb1/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
@@ -2026,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
@@ -2048,7 +2070,7 @@
       "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
@@ -2070,7 +2092,7 @@
       "apply_url": "https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
@@ -2092,7 +2114,7 @@
       "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
@@ -2114,7 +2136,7 @@
       "apply_url": "https://www.filevine.com/jobs/2031b8ba-8691-4b71-b21e-627923da5d4e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
@@ -2136,7 +2158,7 @@
       "apply_url": "https://www.filevine.com/jobs/c5ef27a9-85ae-4cdf-8337-c70cfa8a4ef3/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
@@ -2158,13 +2180,13 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:04.250Z",
+      "scraped_at": "2026-10-05T15:26:53.702Z",
       "status": "open"
     },
     {
-      "id": "dom:wise-plc:https://wise.jobs/job/card-disputes-specialist-in-hyderabad-jid-4016",
+      "id": "dom:wise-plc:https://wise.jobs/job/workplace-specialist-in-tallinn-jid-4264",
       "hub": "fintech",
-      "title": "Card Disputes Specialist",
+      "title": "Workplace Specialist",
       "company": "Wise",
       "company_id": "wise-plc",
       "priority": false,
@@ -2175,34 +2197,12 @@
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Card Disputes Specialist at Wise.",
+      "summary": "Workplace Specialist at Wise.",
       "description": "",
-      "apply_url": "https://wise.jobs/job/card-disputes-specialist-in-hyderabad-jid-4016",
+      "apply_url": "https://wise.jobs/job/workplace-specialist-in-tallinn-jid-4264",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:06.057Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:wise-plc:https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-4236",
-      "hub": "fintech",
-      "title": "Sales Enablement Specialist, Enterprise",
-      "company": "Wise",
-      "company_id": "wise-plc",
-      "priority": false,
-      "category": "Other",
-      "segment": "International Money Transfer",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Sales Enablement Specialist, Enterprise at Wise.",
-      "description": "",
-      "apply_url": "https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-4236",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-04T12:59:06.057Z",
+      "scraped_at": "2026-10-05T15:26:54.837Z",
       "status": "open"
     }
   ]
