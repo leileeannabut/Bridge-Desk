@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T15:27:22.415Z",
+  "generated_at": "2026-10-06T13:49:43.896Z",
   "count": 100,
-  "total_open": 125,
+  "total_open": 118,
   "sources_ok": 54,
   "sources_failed": 24,
   "jobs": [
@@ -24,7 +24,7 @@
       "apply_url": "https://jobicy.com/jobs/154554-client-success-specialist-2",
       "source": "Jobicy",
       "posted_at": "2026-10-05T08:02:56.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -46,7 +46,7 @@
       "apply_url": "https://jobicy.com/jobs/152525-customer-success-associate-sustainability",
       "source": "Jobicy",
       "posted_at": "2026-10-05T04:55:16.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -68,7 +68,7 @@
       "apply_url": "https://jobicy.com/jobs/152536-customer-service-representative-5",
       "source": "Jobicy",
       "posted_at": "2026-10-05T04:48:55.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -90,7 +90,7 @@
       "apply_url": "https://jobicy.com/jobs/152460-l1-hosting-tech-support-agent",
       "source": "Jobicy",
       "posted_at": "2026-10-04T04:35:24.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -112,7 +112,7 @@
       "apply_url": "https://jobicy.com/jobs/154077-inbound-support-coordinator",
       "source": "Jobicy",
       "posted_at": "2026-10-03T03:55:09.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -134,7 +134,7 @@
       "apply_url": "https://jobicy.com/jobs/150027-customer-support-specialist-2",
       "source": "Jobicy",
       "posted_at": "2026-10-03T03:35:11.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -156,7 +156,7 @@
       "apply_url": "https://jobicy.com/jobs/152374-client-onboarding-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-03T03:30:21.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -178,7 +178,7 @@
       "apply_url": "https://jobicy.com/jobs/152379-saas-onboarding-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-03T02:43:41.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -200,7 +200,7 @@
       "apply_url": "https://jobicy.com/jobs/150068-chat-support-agent-remote-15-18-hr",
       "source": "Jobicy",
       "posted_at": "2026-10-03T02:40:03.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:43.428Z",
       "status": "open"
     },
     {
@@ -222,7 +222,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-05T15:27:20.388Z",
+      "scraped_at": "2026-10-06T13:49:42.982Z",
       "status": "open"
     },
     {
@@ -244,51 +244,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:152280",
-      "hub": "business",
-      "title": "Implementation Specialist",
-      "company": "Karbon",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "UK",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms.",
-      "description": "About Karbon\n\nKarbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work more efficiently and collaboratively every day. With customers in 40 countries, we have grown into a globally distributed team across the US, Australia, New Zealand, Canada, the United Kingdom, and the Philippines. We are well-funded, ranked #1 on G2, growing rapidly, and have a people-first culture that is recognized with Great Place To Work® certification and on Fortune magazine's Best Small Workplaces™ List.\n\nAbout the Role:\n\nAs an Implementation Specialist, you will lead customers through onboarding, data migration, implementation, and training for small to mid-sized firms. You’ll act as a trusted partner during the implementation phase, supporting customers as they adopt Karbon and ensuring they achieve rapid time-to-value and long-term success on the Karbon platform.\n\nAs an Implementation Specialist, you will...\n\n- Own the customer implementation journey: Manage end-to-end implementation projects for small to mid-sized accounts, building and maintaining project plans, tracking milestones, and ensuring deliverables are completed on time, escalating complexity as needed.\n\n- Communicate across multiple stakeholders: Partner primarily with firm administrators and key users to align priorities, clarify responsibilities, and maintain momentum throughout the implementation.\n\n- Facilitate structured onboarding: Lead kickoff meetings, configuration sessions, and training sessions using established frameworks and playbooks, adapting delivery to customer needs.\n\n- Provide professional guidance: Guide customers on Karbon best practices for workflow setup and day-to-day usage, helping firms establish efficient and repeatable processes.\n\n- Coach through change management: Help customers prepare their teams for new processes, reinforce adoption, and address common questions or resistance during implementation.\n\n- Ensure data integrity: Support customers in importing contacts and work items, leveraging Excel and other tools to ensure accuracy and completeness.\n\n- Identify and mitigate risks: Monitor project progress and flag potential delays or adoption challenges early, escalating risks to senior team members when appropriate.\n\n- Collaborate internally: Partner with Sales, Customer Success, Product, and Support teams to ensure seamless customer handoffs and capture valuable feedback.\n\n- Deliver measurable value: Help customers achieve early wins and milestones that demonstrate value and set the foundation for long-term success with Karbon.\n\n- Use AI in day-to-day implementation work, including ChatGPT licenses and AI-driven workflow automations, to support project planning, customer communications, and process optimization.\n\nAbout You\n\n- You have 2-4+ years of experience in B2B SaaS Implementations\n\n- You have experience with end-to-end technical implementations\n\n- You are comfortable managing multiple customer projects simultaneously with clear priorities and organization.\n\n- You enjoy customer-facing work and are confident in facilitating meetings and training sessions with administrators and end users.\n\n- You have strong communication and presentation skills and can translate technical concepts into clear, actionable guidance.\n\n- You are consultative and curious, open to feedback, and eager to grow your implementation and advisory skills.\n\n- You have strong attention to detail and pride yourself on accuracy and follow-through.\n\n- You enjoy working with data and systems, ensuring integrity throughout migrations and configuration.\n\n- You are adaptable and resilient, thriving in environments where processes and priorities continue to evolve.\n\n- You are comfortable working remotely and managing your time independently.\n\nBonus points if you have:\n\n- Experience in the accounting or tax industry.\n\n- Previous experience with workflow, accounting, or project management software.\n\n- Background in software onboarding or enterprise implementations.\n\n- Knowledge of change management frameworks.\n\n- Experience in a startup or high-growth SaaS environment.\n\n- Deep knowledge and hands-on experience using Karbon.\n\nWhy work at Karbon?\n\n- Gain global experience across the USA, Australia, New Zealand, UK, Canada and the Philippines\n\n- Flexible work hours\n\n- Commuter & work from home benefits\n\n- Home office equipment menu for you to choose how you deck out your home office\n\n- Cultural and offsite events\n\n- Learning and development opportunities\n\n- Generous parental leave\n\n- Performance based and globally benchmarked pay\n\n- Employee Assistance Program\n\n- Up to 10 wellness days (because you don't need to be \"sick\" to stay well)\n\n- Karbon Fun / Social Club!\n\n- Up to 5 weeks paid vacation\n\n- Work with (and learn from) an experienced, high-performing team\n\n- A collaborative, team-oriented culture that embraces diversity, invests in development and provides consistent feedback\n\n- Be part of a fast-growing company that firmly believes in promoting high performers from within\n\n -\n\nPlease be aware that Karbon will only contact you via email from our domain, karbonhq.com. If you receive an email from any other domain, please do not click any of those links.\n\nKarbon embraces diversity and inclusion, aligning with our values as a business. Research has shown that women and underrepresented groups are less likely to apply to jobs unless they meet every single criteria. If you've made it this far in the job description but your past experience doesn't perfectly align, we do encourage you to still apply. You could still be the right person for the role!\n\nWe recruit and reward people based on capability and performance. We don’t discriminate based on race, gender, sexual orientation, gender identity or expression, lifestyle, age, educational background, national origin, religion, physical or cognitive ability, and other diversity dimensions that may hinder inclusion in the organization.\n\nGenerally, if you are a good person, we want to talk to you.\n\nIf there are any adjustments or accommodations that we can make to assist you during the recruitment process, and your journey at Karbon, contact us at people.support@karbonhq.com for a confidential discussion.\n\nAt this time, we request that agency referrals are not submitted for this position. We appreciate your understanding and encourage direct applications from interested candidates. Thank you!",
-      "apply_url": "https://jobicy.com/jobs/152280-implementation-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-10-02T03:35:09.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:152290",
-      "hub": "business",
-      "title": "Senior Implementation Specialist",
-      "company": "Karbon",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Senior",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 90000,
-      "comp_max": 107500,
-      "summary": "About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms.",
-      "description": "About Karbon\n\nKarbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work more efficiently and collaboratively every day. With customers in 40 countries, we have grown into a globally distributed team across the US, Australia, New Zealand, Canada, the United Kingdom, and the Philippines. We are well-funded, ranked #1 on G2, growing rapidly, and have a people-first culture that is recognized with Great Place To Work® certification and on Fortune magazine's Best Small Workplaces™ List.\n\nAbout the Role:\n\nAs a Senior Implementation Specialist at Karbon, you’ll serve as the trusted guide for our largest customers, leading them through onboarding, data migration, implementation, and training. You’ll act as the project manager, consultant, and change management coach, ensuring customers achieve rapid time-to-value and long-term success on the Karbon platform.\n\nAs a Senior Implementation Specialist, you will...\n\n- Own the customer implementation journey: Act as the project manager for enterprise accounts, building and maintaining detailed project plans, tracking milestones, and ensuring all deliverables are completed on time.\n\n- Communicate across multiple stakeholders: Partner with executive sponsors, firm administrators, and end users to align priorities, clarify responsibilities, and drive accountability.\n\n- Facilitate structured onboarding: Lead kickoff meetings, consultative process reviews, configuration workshops, and training sessions tailored to firm needs.\n\n- Provide professional guidance: Advise customers on best practices in workflow design, firm operations, and change management to maximize adoption and business impact.\n\n- Coach through change management: Help firms prepare their teams for new processes, encouraging adoption and managing resistance.\n\n- Ensure data integrity: Support customers in importing contacts and work items, leveraging Excel and other tools to ensure accuracy and completeness.\n\n- Identify and mitigate risks: Spot early warning signs of delays or adoption issues and proactively intervene to keep projects on track.\n\n- Collaborate internally: Partner with Sales, Customer Success, Product, and Support teams to ensure seamless customer handoffs and capture valuable feedback.\n\n- Deliver measurable value: Drive outcomes that demonstrate ROI for customers and set them up for long-term success with Karbon.\n\n- Use AI in day-to-day implementation work, including ChatGPT licenses and AI-driven workflow automations, to support project planning, customer communications, and process optimization.\n\nAbout You\n\n- You have 3-5+ years of experience in B2B SaaS Implementations\n\n- You have 2+ years of end-to-end technical implementation experience\n\n- You are experienced in project management and comfortable managing multiple customer projects simultaneously.\n\n- You thrive in customer-facing environments, facilitating workshops and executive-level conversations with confidence.\n\n- You have excellent communication and presentation skills, capable of translating technical concepts into clear, actionable steps.\n\n- You are consultative by nature, with the humility to listen and the confidence to challenge firms to rethink their processes.\n\n- You have a strong attention to detail and pride yourself on accuracy and follow-through.\n\n- You enjoy working with data and systems, ensuring integrity throughout migrations and configuration.\n\n- You are resilient and adaptable, thriving in dynamic environments where change is constant.\n\n- You are comfortable working remotely and managing your time independently.\n\nBonus points if you have:\n\n- Experience in the accounting or tax industry.\n\n- Previous experience with workflow, accounting, or project management software.\n\n- Background in software onboarding or enterprise implementations.\n\n- Knowledge of change management frameworks.\n\n- Experience in a startup or high-growth SaaS environment.\n\n- Deep knowledge and hands-on experience using Karbon.\n\nWhy work at Karbon?\n\n- Gain global experience across the USA, Australia, New Zealand, UK, Canada and the Philippines\n\n- Excellent benefits package including:\n\n- Paid Flexible Time Off with an encouraged 3 weeks use per year\n\n- Company paid medical for you and eligible spouse/partner and dependents\n\n- Company paid dental and vision and eligible spouse/partner and dependents\n\n- Fully company funded short and long term disability\n\n- Fully company paid life insurance\n\n- 401(k) with company matching\n\n- Flexible Spending Account\n\n- Up to 8 weeks paid parental leave\n\n- Work-from-home stipend\n\n- Work with (and learn from) an experienced, high-performing team\n\n- A collaborative, team-oriented culture that embraces diversity, invests in development and provides consistent feedback\n\n- Be part of a fast-growing company that firmly believes in promoting high performers from within\n\nAs we hire across various locations within the USA we are required by law to include a reasonable estimate of the compensation range for this role.\n\nThe range provided is broad and takes into consideration a wide range of factors that are reviewed when making a hiring decision, such as physical location/cost of living in that location, years of experience, skills, and other business needs.\n\nIt is not typical for a candidate to be hired at or near the top of the pay range and each compensation decision is dependent on each individual case. The base salary is one component of the total compensation package, which for some roles may include a target bonus, for some roles very competitive equity grant, and very generous benefits. While we believe competitive compensation is a critical aspect of you deciding to join us, we do hope you also spend time considering why our mission, purpose and values are right for you. We are creating something transformational here, and we hope you are as excited about the future as we are!\n\nThe estimated base salary range for this role is:\n\n$90,000—$107,500 USD\n\nPlease be aware that Karbon will only contact you via email from our domain, karbonhq.com. If you receive an email from any other domain, please do not click any of those links.\n\nKarbon embraces diversity and inclusion, aligning with our values as a business. Research has shown that women and underrepresented groups are less likely to apply to jobs unless they meet every single criteria. If you've made it this far in the job description but your past experience doesn't perfectly align, we do encourage you to still apply. You could still be the right person for the role!\n\nWe recruit and reward people based on capability and performance. We don’t discriminate based on race, gender, sexual orientation, gender identity or expression, lifestyle, age, educational background, national origin, religion, physical or cognitive ability, and other diversity dimensions that may hinder inclusion in the organization.\n\nGenerally, if you are a good person, we want to talk to you.\n\nIf there are any adjustments or accommodations that we can make to assist you during the recruitment process, and your journey at Karbon, contact us at people.support@karbonhq.com for a confidential discussion.\n\nAt this time, we request that agency referrals are not submitted for this position. We appreciate your understanding and encourage direct applications from interested candidates. Thank you!",
-      "apply_url": "https://jobicy.com/jobs/152290-senior-implementation-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-10-02T03:30:28.000Z",
-      "scraped_at": "2026-10-05T15:27:22.051Z",
+      "scraped_at": "2026-10-06T13:49:42.461Z",
       "status": "open"
     },
     {
@@ -310,7 +266,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.461Z",
       "status": "open"
     },
     {
@@ -332,7 +288,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.461Z",
       "status": "open"
     },
     {
@@ -354,7 +310,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
       "source": "greenhouse",
       "posted_at": "2026-09-30T11:52:29-04:00",
-      "scraped_at": "2026-10-05T15:27:07.936Z",
+      "scraped_at": "2026-10-06T13:49:34.839Z",
       "status": "open"
     },
     {
@@ -376,7 +332,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-05T15:27:02.432Z",
+      "scraped_at": "2026-10-06T13:49:31.910Z",
       "status": "open"
     },
     {
@@ -398,7 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-05T15:26:54.125Z",
+      "scraped_at": "2026-10-06T13:49:22.835Z",
       "status": "open"
     },
     {
@@ -420,7 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-05T15:26:44.732Z",
+      "scraped_at": "2026-10-06T13:49:14.482Z",
       "status": "open"
     },
     {
@@ -442,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-05T15:26:44.733Z",
+      "scraped_at": "2026-10-06T13:49:14.483Z",
       "status": "open"
     },
     {
@@ -464,7 +420,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-05T15:26:44.733Z",
+      "scraped_at": "2026-10-06T13:49:14.483Z",
       "status": "open"
     },
     {
@@ -486,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:05-04:00",
-      "scraped_at": "2026-10-05T15:26:44.732Z",
+      "scraped_at": "2026-10-06T13:49:14.482Z",
       "status": "open"
     },
     {
@@ -508,7 +464,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.462Z",
       "status": "open"
     },
     {
@@ -530,7 +486,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-05T15:27:04.818Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -552,7 +508,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-09-29T09:23:55-04:00",
-      "scraped_at": "2026-10-05T15:27:07.936Z",
+      "scraped_at": "2026-10-06T13:49:34.839Z",
       "status": "open"
     },
     {
@@ -574,13 +530,13 @@
       "apply_url": "https://jobs.lever.co/octoenergy/02e3e1c1-b503-4072-892b-b3e749e183f5",
       "source": "lever",
       "posted_at": "2026-09-29T08:58:54.489Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
       "id": "agg:weworkremotely:mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-yo",
       "hub": "business",
-      "title": "Benefits Verification Specialist ( Call Center Agent- REMOTE)-Must have your own computer",
+      "title": "Benefits Verification Specialist ( Call Center Agent- REMOTE)-Must have your own computer MUST LIVE IN US",
       "company": "MMC Group",
       "company_id": "agg:weworkremotely",
       "priority": false,
@@ -591,12 +547,12 @@
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Headquarters: MMC Group URL: http://www.mmcgrp.com Benefits Verification Specialist – Remote Pay: $17.00/hour Schedule: Monday–Friday, 8:30 AM–5:30 PM EST Breaks: 1-hour unpaid lun…",
-      "description": "Headquarters: MMC Group\n\nURL: http://www.mmcgrp.com\n\nBenefits Verification Specialist – Remote\n\nPay: $17.00/hour\nSchedule: Monday–Friday, 8:30 AM–5:30 PM EST\nBreaks: 1-hour unpaid lunch + two paid 15-minute breaks\nWork Setup: Remote | BYOD\n\nPosition Summary\n\nWe are seeking a Benefits Verification Specialist to verify patient insurance benefits and accurately document coverage information.\n\nResponsibilities\n\n- Verify patient insurance benefits and eligibility.\n\n- Review coverage, cost share, provider options, and restrictions.\n\n- Contact insurance companies and document benefit details.\n\n- Assist with prior authorizations and claims appeals when needed.\n\n- Complete accurate data entry and quality reviews.\n\n- Identify and escalate missing information or reimbursement issues.\n\nRequirements\n\n- High school diploma/GED required.\n\n- 2+ years of related experience or a 2-year degree.\n\n- Healthcare, insurance, medical billing, or customer service experience preferred.\n\n- Benefits verification experience strongly preferred.\n\n- Strong computer, communication, problem-solving, and attention-to-detail skills.\n\n- Proficiency with Outlook, Word, and Excel.\n\nRemote BYOD position | $17/hour\n\nCan't Live in these states:\n\nCalifornia\n\nColorado\n\nConnecticut\n\nHawaii\n\nWashington DC\n\nIllinois\n\nIowa\n\nMaine\n\nMaryland\n\nMassachusetts\n\nMichigan\n\nMinnesota\n\nMontana\n\nNew Hampsire\n\nNew Mexico\n\nNevada\n\nNorth Dakota\n\nNew Jersey\n\nNew York\n\nOregon\n\nPennsylvania\n\nRhode Island\n\nSouth Dakota\n\nVermont\n\nWashington\n\nWest Virginia\n\nTo apply: https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer",
-      "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer",
+      "summary": "Headquarters: MMC Group URL: http://www.mmcgrp.com Please look over the states you can not live in order to be considered for this postion. You must also reside in the US.",
+      "description": "Headquarters: MMC Group\n\nURL: http://www.mmcgrp.com\n\nPlease look over the states you can not live in order to be considered for this postion. You must also reside in the US.\n\nBenefits Verification Specialist – Remote\n\nPay: $17.00/hour\nSchedule: Monday–Friday, 8:30 AM–5:30 PM EST\nBreaks: 1-hour unpaid lunch + two paid 15-minute breaks\nWork Setup: Remote | BYOD\n\nPosition Summary\n\nWe are seeking a Benefits Verification Specialist to verify patient insurance benefits and accurately document coverage information.\n\nResponsibilities\n\n- Verify patient insurance benefits and eligibility.\n\n- Review coverage, cost share, provider options, and restrictions.\n\n- Contact insurance companies and document benefit details.\n\n- Assist with prior authorizations and claims appeals when needed.\n\n- Complete accurate data entry and quality reviews.\n\n- Identify and escalate missing information or reimbursement issues.\n\nRequirements\n\n- High school diploma/GED required.\n\n- 2+ years of related experience or a 2-year degree.\n\n- Healthcare, insurance, medical billing, or customer service experience preferred.\n\n- Benefits verification experience strongly preferred.\n\n- Strong computer, communication, problem-solving, and attention-to-detail skills.\n\n- Proficiency with Outlook, Word, and Excel.\n\nRemote BYOD position | $17/hour\n\nCan't Live in these states:\n\nCalifornia\n\nColorado\n\nConnecticut\n\nHawaii\n\nWashington DC\n\nIllinois\n\nIowa\n\nMaine\n\nMaryland\n\nMassachusetts\n\nMichigan\n\nMinnesota\n\nMontana\n\nNew Hampsire\n\nNew Mexico\n\nNevada\n\nNorth Dakota\n\nNew Jersey\n\nNew York\n\nOregon\n\nPennsylvania\n\nRhode Island\n\nSouth Dakota\n\nVermont\n\nWashington\n\nWest Virginia\n\nTo apply: https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
+      "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.462Z",
       "status": "open"
     },
     {
@@ -618,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-05T15:27:12.148Z",
+      "scraped_at": "2026-10-06T13:49:36.322Z",
       "status": "open"
     },
     {
@@ -640,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/eve/jobs/4414168009",
       "source": "greenhouse",
       "posted_at": "2026-09-22T14:27:25-04:00",
-      "scraped_at": "2026-10-05T15:26:52.785Z",
+      "scraped_at": "2026-10-06T13:49:21.220Z",
       "status": "open"
     },
     {
@@ -662,7 +618,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -684,7 +640,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dcbd9c2c-2845-4e46-8108-45cdf1d8e801",
       "source": "lever",
       "posted_at": "2026-09-18T15:53:46.846Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -706,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-05T15:27:02.432Z",
+      "scraped_at": "2026-10-06T13:49:31.910Z",
       "status": "open"
     },
     {
@@ -728,29 +684,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
-      "status": "open"
-    },
-    {
-      "id": "lever:ro-health:d763d6d5-03cc-41ff-81ee-d324a00ad3a5",
-      "hub": "business",
-      "title": "Talent Coordinator (Temp)",
-      "company": "Ro",
-      "company_id": "ro-health",
-      "priority": false,
-      "category": "Other",
-      "segment": "Telehealth Platform",
-      "level": "Mid",
-      "location": "New York, NY or Remote",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Ro is a direct-to-patient healthcare company with a mission of helping patients achieve their health goals by delivering the easiest, most effective care possible.",
-      "description": "Ro is a direct-to-patient healthcare company with a mission of helping patients achieve their health goals by delivering the easiest, most effective care possible. Ro is the only company to offer nationwide telehealth, labs, and pharmacy services. This is enabled by Ro's vertically integrated platform that helps patients achieve their goals through a convenient, end-to-end healthcare experience spanning from diagnosis, to delivery of medication, to ongoing care. Since 2017, Ro has helped millions of patients in nearly every single county in the United States, including 99% of primary care deserts.\n \nRo is consistently recognized as a top workplace in Health Care, in New York, and for Women and Parents—earning more than 20 honors from Fortune, Great Place to Work, and PEOPLE since 2021. In 2025 alone, we ranked top 5 among medium workplaces in Health Care and New York, and top 50 nationwide.\n\nThe Role\nAs a Talent Coordinator, you'll be instrumental in helping us bring the very best talent to Ro. You will work closely with Recruiters and Hiring Managers to help scale our teams and create a seamless candidate experience. You will be an advocate for the Talent Team, providing an exceptional experience for both internal and external stakeholders.\n \nYou’re a relationship-driven individual with strong communication skills. You truly enjoy working with others. You love to plan, pay close attention to detail, and have excellent organizational and time management skills. You are resourceful. You think on your feet and adapt easily to changing situations. You show initiative and operate with a sense of urgency.\n \nThis will be a temp 6-month with the potential to extend.\n\n- Manage Ro’s interview and conference room calendars effectively, scheduling a high volume of phone, Google Meet, and onsite interviews with hiring teams\n\n- Manage full-cycle communication for the coordination process, from the initial outreach when a candidate applies and throughout the interview process\n\n- Engage candidates with regular, friendly, and timely updates to ensure a positive interview experience\n\n- Post new roles and make updates/changes to job postings in Lever (our Applicant Tracking System)\n\n- Ensure onsite interviews run smoothly by planning any necessary candidate travel, greeting candidates as they arrive, and making sure conference rooms are set up properly\n\n- Assist with ad-hoc Talent Team projects as needed\n\n- Experience with heavy calendaring for multiple individuals or teams, experience with Google Suite preferred\n\n- Exceptional writing and communication skills, and the ability to work with a spectrum of personalities\n\n- Ability to manage a high volume of candidates effectively\n\n- Interest in a career in Talent Acquisition\n\n- You are process-driven and a problem solver who is comfortable with ambiguity and balancing multiple priorities\n\n- You are passionate about candidate experience, as well as Ro’s mission\n\n- You are empathetic and understand how challenging interviewing is, so you do your best to ensure a great candidate experience\n\n- Experience with Lever or another ATS preferred",
-      "apply_url": "https://jobs.lever.co/ro/d763d6d5-03cc-41ff-81ee-d324a00ad3a5",
-      "source": "lever",
-      "posted_at": "2026-09-16T18:21:16.992Z",
-      "scraped_at": "2026-10-05T15:27:18.064Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -772,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-10-05T15:27:12.168Z",
+      "scraped_at": "2026-10-06T13:49:36.350Z",
       "status": "open"
     },
     {
@@ -794,7 +728,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-05T15:27:04.818Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -816,7 +750,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-05T15:26:54.125Z",
+      "scraped_at": "2026-10-06T13:49:22.835Z",
       "status": "open"
     },
     {
@@ -838,7 +772,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-09-11T20:16:48.000Z",
-      "scraped_at": "2026-10-05T15:27:20.388Z",
+      "scraped_at": "2026-10-06T13:49:42.982Z",
       "status": "open"
     },
     {
@@ -860,7 +794,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -882,7 +816,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8127296",
       "source": "greenhouse",
       "posted_at": "2026-09-10T04:35:34-04:00",
-      "scraped_at": "2026-10-05T15:26:54.125Z",
+      "scraped_at": "2026-10-06T13:49:22.835Z",
       "status": "open"
     },
     {
@@ -904,7 +838,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-09T15:17:17.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.461Z",
       "status": "open"
     },
     {
@@ -926,7 +860,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.462Z",
       "status": "open"
     },
     {
@@ -948,7 +882,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -970,7 +904,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-05T15:27:04.818Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -1062,28 +996,6 @@
       "status": "open"
     },
     {
-      "id": "agg:weworkremotely:nvidia-global-immigration-specialist",
-      "hub": "business",
-      "title": "Global Immigration Specialist",
-      "company": "NVIDIA",
-      "company_id": "agg:weworkremotely",
-      "priority": false,
-      "category": "Other",
-      "segment": "We Work Remotely",
-      "level": "Mid",
-      "location": "Anywhere in the World, California, 🇨🇦 Canada and 🇺🇸 United States of America",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Headquarters: Remote URL: https://www.nvidia.com/en-us/ NVIDIA has an opportunity for a Global Immigration Specialist to join our HR Compliance and Immigration Team.",
-      "description": "Headquarters: Remote\n\nURL: https://www.nvidia.com/en-us/\n\nNVIDIA has an opportunity for a Global Immigration Specialist to join our HR Compliance and Immigration Team. In this role you will support international immigration. You should understand current immigration requirements and remain abreast on new developments in EMEA and APAC regions. You will serve as the main point of contact for managers, new hires, existing employees, and the HR team on all immigration matters in jurisdictions outside the United States.\n\nWhat you'll be doing:\n\n-\nMaintain and enhance partnership with global vendors\n\n-\nGuide employees and managers on immigration policies and requirements while maintaining worldwide consistency and equity\n\n-\nAct as liaison between candidates, transfers and outside counsel to provide continuous support and coordination to effectively progress the immigration process\n\n-\nFacilitate assessment of new candidates and transfers as presented for eligibility of sponsorship\n\n-\nIdentify and mitigate risk\n\n-\nAnalyze complex immigration matters and effectively communicate solutions to internal clients in collaboration with outside immigration counsel\n\n-\nActively identify process improvements focusing on employee experience\n\n-\nMonitor and respond to global immigration matters via our shared immigration mailbox\n\n-\nEscalate and monitor issues while maintain communication with key stakeholders\n\n-\nPartner with immigration team members on projects aimed at enhancing process and improving employee experience\n\nWhat we need to see:\n\n-\nBachelor’s degree in HR or related area (or equivalent experience)\n\n-\nMinimum of 6 years of experience in corporate business immigration in EMEA, APAC and Canada\n\n-\nExcellent verbal and written communication skills\n\n-\nAbility to multitask using analytical skills within a rapidly changing environment with changing priorities\n\n-\nAbility to demonstrate attention to detail and strong organizational skills\n\n-\nEffective time management\n\n-\nMaintain a proven sense of integrity and confidentiality\n\n-\nAbility to tackle problems under tight deadlines\n\n-\nDemonstrate flexibility and initiative regarding assignments for self and team\n\n-\nMeet assigned deadlines and communicate case progress/status/issues to supervisor\n\n-\nClear and concise communicator with ability to tailor communications to the audience\n\nTo apply: https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
-      "apply_url": "https://weworkremotely.com/remote-jobs/nvidia-global-immigration-specialist",
-      "source": "We Work Remotely",
-      "posted_at": "2026-08-10T15:22:19.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
-      "status": "open"
-    },
-    {
       "id": "lever:octopus-energy:643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "hub": "business",
       "title": "People Operations Specialist",
@@ -1102,7 +1014,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-05T15:27:04.818Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -1124,7 +1036,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.461Z",
       "status": "open"
     },
     {
@@ -1146,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1168,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -1190,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1212,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1234,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-05T15:27:04.818Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -1256,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1278,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1300,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-05T15:27:04.818Z",
+      "scraped_at": "2026-10-06T13:49:32.311Z",
       "status": "open"
     },
     {
@@ -1322,7 +1234,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.462Z",
       "status": "open"
     },
     {
@@ -1344,7 +1256,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-05T15:27:19.888Z",
+      "scraped_at": "2026-10-06T13:49:42.461Z",
       "status": "open"
     },
     {
@@ -1366,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1388,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1410,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1432,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-05T15:27:04.817Z",
+      "scraped_at": "2026-10-06T13:49:32.310Z",
       "status": "open"
     },
     {
@@ -1454,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-10-05T15:26:57.830Z",
+      "scraped_at": "2026-10-06T13:49:29.244Z",
       "status": "open"
     },
     {
@@ -1476,7 +1388,29 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:44.869Z",
+      "scraped_at": "2026-10-06T13:49:14.576Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-5152",
+      "hub": "legal",
+      "title": "Senior Sales Enablement Specialist, Velocity",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Senior",
+      "location": "4 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Sales Enablement Specialist, Velocity at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---IL-USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1498,7 +1432,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/New-York/Senior-Executive-Assistant_REQ-4506",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.143Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1520,7 +1454,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Enterprise-Customer-Support-Specialist_REQ-5431-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.143Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1542,7 +1476,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1564,7 +1498,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Onboarding-Specialist_REQ-5463",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1586,7 +1520,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1608,29 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Onboarding-Specialist_REQ-5462",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4490",
-      "hub": "legal",
-      "title": "Social Media Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Social Media Manager",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "2 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Social Media Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Social-Media-Specialist_REQ-4490",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1652,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1674,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1696,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Customer-Success-Specialist_REQ-5090",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1718,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1740,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Graphic-Designer_REQ-5220",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1762,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1784,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1806,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1828,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1850,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1872,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1894,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Customer-Training-Specialist_REQ-5239-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1916,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1938,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1960,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:51.144Z",
+      "scraped_at": "2026-10-06T13:49:20.029Z",
       "status": "open"
     },
     {
@@ -1982,7 +1894,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2004,7 +1916,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2026,7 +1938,7 @@
       "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2048,7 +1960,7 @@
       "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2070,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2092,7 +2004,7 @@
       "apply_url": "https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2114,7 +2026,7 @@
       "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2136,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/2031b8ba-8691-4b71-b21e-627923da5d4e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2158,7 +2070,7 @@
       "apply_url": "https://www.filevine.com/jobs/c5ef27a9-85ae-4cdf-8337-c70cfa8a4ef3/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
@@ -2180,13 +2092,13 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:53.702Z",
+      "scraped_at": "2026-10-06T13:49:22.430Z",
       "status": "open"
     },
     {
-      "id": "dom:wise-plc:https://wise.jobs/job/workplace-specialist-in-tallinn-jid-4264",
+      "id": "dom:wise-plc:https://wise.jobs/job/baam-control-specialist-in-budapest-jid-4276",
       "hub": "fintech",
-      "title": "Workplace Specialist",
+      "title": "BAAM Control Specialist",
       "company": "Wise",
       "company_id": "wise-plc",
       "priority": false,
@@ -2197,12 +2109,100 @@
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Workplace Specialist at Wise.",
+      "summary": "BAAM Control Specialist at Wise.",
       "description": "",
-      "apply_url": "https://wise.jobs/job/workplace-specialist-in-tallinn-jid-4264",
+      "apply_url": "https://wise.jobs/job/baam-control-specialist-in-budapest-jid-4276",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-05T15:26:54.837Z",
+      "scraped_at": "2026-10-06T13:49:23.493Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:wise-plc:https://wise.jobs/job/payment-operations-specialist-global-processing-in-hyderabad-jid-3675",
+      "hub": "fintech",
+      "title": "Payment Operations Specialist - Global Processing",
+      "company": "Wise",
+      "company_id": "wise-plc",
+      "priority": false,
+      "category": "Other",
+      "segment": "International Money Transfer",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Payment Operations Specialist - Global Processing at Wise.",
+      "description": "",
+      "apply_url": "https://wise.jobs/job/payment-operations-specialist-global-processing-in-hyderabad-jid-3675",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-06T13:49:23.493Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:wise-plc:https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-4236",
+      "hub": "fintech",
+      "title": "Sales Enablement Specialist, Enterprise",
+      "company": "Wise",
+      "company_id": "wise-plc",
+      "priority": false,
+      "category": "Other",
+      "segment": "International Money Transfer",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Sales Enablement Specialist, Enterprise at Wise.",
+      "description": "",
+      "apply_url": "https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-4236",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-06T13:49:23.493Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:wise-plc:https://wise.jobs/job/senior-executive-assistant-in-austin-jid-4253",
+      "hub": "fintech",
+      "title": "Senior Executive Assistant",
+      "company": "Wise",
+      "company_id": "wise-plc",
+      "priority": false,
+      "category": "Executive Assistant",
+      "segment": "International Money Transfer",
+      "level": "Senior",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Executive Assistant at Wise.",
+      "description": "",
+      "apply_url": "https://wise.jobs/job/senior-executive-assistant-in-austin-jid-4253",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-06T13:49:23.493Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:wise-plc:https://wise.jobs/job/talent-development-specialist-in-austin-jid-3933",
+      "hub": "fintech",
+      "title": "Talent Development Specialist",
+      "company": "Wise",
+      "company_id": "wise-plc",
+      "priority": false,
+      "category": "Other",
+      "segment": "International Money Transfer",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Talent Development Specialist at Wise.",
+      "description": "",
+      "apply_url": "https://wise.jobs/job/talent-development-specialist-in-austin-jid-3933",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-06T13:49:23.493Z",
       "status": "open"
     }
   ]
