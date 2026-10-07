@@ -677,5 +677,5 @@ export const COMPANIES = [
   { id: "asos", name: "ASOS", hub: "business", careersUrl: "https://www.asoscareers.com/", website: "https://www.asos.com", segment: "Fashion E-commerce Retailer", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
   { id: "farfetch", name: "Farfetch", hub: "business", careersUrl: "https://www.farfetchcareers.com/", website: "https://www.farfetch.com", segment: "Luxury Fashion E-commerce", country: "United Kingdom", verified: false, method: null, atsSlug: null, active: true },
   { id: "trip-com", name: "Trip.com", hub: "business", careersUrl: "https://careers.trip.com/", website: "https://www.trip.com", segment: "Online Travel Agency", country: "China", verified: false, method: null, atsSlug: null, active: true },
-  { id: "agoda", name: "Agoda", hub: "business", careersUrl: "https://careersatagoda.com/", website: "https://www.agoda.com", segment: "Online Travel Agency", country: "Thailand", verified: false, method: null, atsSlug: null, active: true },
+  { id: "agoda", name: "Agoda", hub: "business", careersUrl: "https://careersatagoda.com/", website: "https://www.agoda.com", segment: "Online Travel Agency", country: "Thailand", verified: false, method: "dom", atsSlug: null, active: true },
 ];
