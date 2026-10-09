@@ -1,10 +1,54 @@
 {
-  "generated_at": "2026-10-08T14:17:07.284Z",
+  "generated_at": "2026-10-09T14:03:18.505Z",
   "count": 100,
   "total_open": 117,
-  "sources_ok": 54,
-  "sources_failed": 25,
+  "sources_ok": 55,
+  "sources_failed": 24,
   "jobs": [
+    {
+      "id": "agg:weworkremotely:affirm-administrative-assistant-iv",
+      "hub": "business",
+      "title": "Administrative Assistant IV",
+      "company": "Affirm",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Administrative Assistant",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World",
+      "employment_type": "full-time",
+      "comp_min": 115000,
+      "comp_max": 165000,
+      "summary": "Headquarters: Remote US At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs…",
+      "description": "Headquarters: Remote US\n\nAt Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nWe are looking for a resourceful, proactive, and detail-oriented Administrative Assistant to support two Senior Executives on our Engineering Teams. From calendar management and travel planning to coordinating team meetings and events, you will be responsible for making sure the leaders are using their time in the most efficient way possible.\n\nReporting to the lead Executive Assistant on the Engineering Team, you will partner with your leaders, collaborate closely with the Affirm Leadership Support Team, and be a valuable team specialist and individual contributor.\n\nWhat You’ll Do\n\n- Support two Senior Executives with their respective administrative needs\n\n- Calendar management, including scheduling meetings and deconflicting existing meetings, often across multiple time zones\n\n- Meeting preparation (such as calendar event creation, drafting agendas, creating slide decks, and communicating with meeting attendees in advance of the meeting)\n\n- Managing executive schedules to ensure sufficient time for task completion\n\n- Attend meetings when requested to manage Zoom, track action items, and follow up with meeting attendees on action items\n\n- Event coordination, including team operations for team building events and working onsite/offsite meetings\n\n- Build a strong working partnership with the Administrative Assistant supporting the Consumer Engineer Sr. Executives’ Product counterpart to proactively coordinate executive priorities, cross-functional meetings, strategic initiatives, and organizational planning.\n\n- Partner with the Leadership Support Team to coordinate needs across the wider Affirm team\n\n- Additional administrative functions such as submitting expense reports (via Navan), travel coordination (also via Navan), preparation of documents and presentations (using Google Suite and Microsoft Office), basic team travel and expense budget reconciliation and ad-hoc special projects\n\n- Demonstrates curiosity and a growth mindset toward emerging AI technologies, with a commitment to continuously learning and applying AI tools to improve productivity, streamline administrative processes, and enhance support for executives and teams.\n\n- Familiarity working with engineering teams is desirable, but not required\n\nWhat We Look For\n\n- 2-4 years of relevant administrative experience\n\n- Ability to work independently as well as across various teams\n\n- Experience at a rapidly growing company, with the ability to navigate and thrive in a fast-paced dynamic environment\n\n- Working knowledge of Google Suite, Microsoft Office, Navan, Zoom\n\n- Strong work ethic, professionalism, confidentiality, and good judgment\n\n- Ability to deal with conflict as well as give and receive feedback diplomatically\n\n- Demonstrates confidence and sound judgment by professionally challenging requests when appropriate, offering thoughtful alternatives, managing expectations, and ensuring decisions align with executive priorities and business objectives.\n\n- Highly organized and resourceful, able to juggle and multi-task, with acute attention to detail and follow through\n\nPay Grade - I\nEquity Grade - 3\n\nEmployees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.\n\nBase pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)\n\nUSA base pay range (CA, WA, NY, NJ, CT) per year: $115,000 - $165,000\nUSA base pay range (all other U.S. states) per year: $101,000 - $151,000\n\nPlease note that visa sponsorship is not available for this position.\n\nLI-Remote\n\nRemote-first with flexibility built in\nAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.\n\nBenefits designed for you\nOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:\n\n- Health coverage at no cost: We cover 100% of premiums for employees and their dependents.\n\n- Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.\n\n- Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.\n\n- Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.\n\nWe’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help.\n\nFor positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.\n\nBy clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.\n\nTo apply: https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
+      "apply_url": "https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-09T07:30:56.000Z",
+      "scraped_at": "2026-10-09T14:03:16.055Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:154862",
+      "hub": "business",
+      "title": "Senior Strategic Implementation Specialist - Americas (EST)",
+      "company": "Ashby",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Senior",
+      "location": "Canada,  USA",
+      "employment_type": "full-time",
+      "comp_min": 165000,
+      "comp_max": 185000,
+      "summary": "Senior Strategic Implementation Specialist, Americas (EST) Hi! I’m Morgan, the Manager of Strategic Implementations here at Ashby.",
+      "description": "Senior Strategic Implementation Specialist, Americas (EST)\n\nHi! I’m Morgan, the Manager of Strategic Implementations here at Ashby. Our customers are at the center of everything we do, and that’s especially true during implementation. We take pride in being responsive, collaborative partners who focus not just on delivery, but on doing things thoughtfully. This role plays a critical part in ensuring our new customers start off with a strong foundation and a clear path forward. I’m thrilled to be hiring our next Implementation Specialist, specifically in the EST time zone. As part of our growing Professional Services team within Ashby’s Customer Success organization, you’ll play a key role early in the customer journey—ultimately helping to elevate the entire customer experience.\n\nAbout this role:\n\nAs our Implementation Specialist, you will be responsible for managing and executing the end-to-end implementation of Ashby’s solution for many of our new customers. You will work directly with customers in our Strategic (predominantly Enterprise) segment, developing and executing implementation plans to ensure a positive customer experience and expedited time to value. Your goal is to support our customers, helping them get up and running swiftly with Ashby so they can achieve their desired outcomes.\n\nRole requirements:\n\n-\nImplementation & Project Management: You have extensive experience managing and executing several complex implementation and onboarding projects concurrently in a high-growth B2B SaaS org (defining the work, aligning with stakeholders, communicating the project plan, and ultimately delivering results in accordance with the agreed-upon expectations). You keep the team on track to ensure milestones are met. You work effectively in a remote-first setting, with the ability to travel Technical Proficiency: You have a strong understanding of complex, configurable B2B SaaS products and their technical intricacies. By \"complex\", we mean platforms with multi-step workflows, supporting several core workflows, and integrations with other systems. You're technically curious and creative. Ashby or ATS experience is a plus, not required.\n\n-\nCustomer Centricity: You deeply understand customer needs and tailor implementations to meet their specific requirements. You build strong customer relationships by maintaining high levels of engagement and communication; you’re the customer’s proactive guide and advocate throughout the implementation period.\n\n-\nChange Management: You are experienced in navigating change management processes and helping customers adapt to new systems and a refreshed approach.\n\n-\nBest Practices & Recommendations: You take pride in advising customers on best practices specific to their usage of software to ensure optimal value.\n\n-\nCritical Thinking & Solutions Orientation: You proactively address thematic customer opportunities and improve our processes accordingly. You don’t rely on ‘I’ve seen this done,’ but instead think critically to solve problems.\n\n-\nCross-functional Collaboration: You effectively partner with cross-functional stakeholders across Customer Success, Sales, Product, Engineering, and Operations to align and define progress.\n\nYou could be a great fit if:\n\n-\n You demonstrate clear communication. You ask clarifying questions with precision and can distill complex concepts into simple themes.\n\n-\n You are a great listener. You see your role as the voice of the customer to internal stakeholders so we can ensure that our offerings continue to evolve in accordance with customer needs.\n\n-\n You are a problem solver. You thrive at solving complex challenges with innovative, scalable solutions.\n\n-\n⚡️You know process matters. You are eager to improve processes and workflows to enhance efficiency and efficacy.\n\n-\n Your peers describe you as detail-oriented and technically proficient. You take pride in internal operations.\n\n-\n You are data-driven. You use metrics and analytics to inform decisions and measure success.\n\n-\n You are adaptable. You can navigate changes in a fast-paced, evolving environment.\n\n-\n‍ You love to coach. You see every teaching moment as an opportunity and are excited to help our customers grow.\n\nYou might not be a great fit if:\n\n-\nYou are not located in the Eastern Time Zone.\n\n-\nYou prefer an in-person role over remote.\n\n-\nYou are less interested in customer-facing roles that require both technical and interpersonal skills.\n\n-\nYou are accustomed to defining ideas and strategies, yet not responsible for their execution.\n\n-\nYou prefer working with a simple product (such as a point solution).\n\n-\nYou prefer exclusively to build (rather than build, iterate, optimize).\n\nOur Philosophy\n\nHere are a few key points (relevant to the go-to-market side) that should give you an idea of what it is like to work with us:\n\n-\nWe spend a lot of time building best-in-class products since we believe a highly differentiated product is a lot easier to sell.\n\n-\nWe want to offer deep expertise whenever we interact with prospects and customers.\n\n-\nWe strongly believe that small teams with very talented people (and the right work environment) deliver much better performance than teams with large headcount. We hire and compensate accordingly.\n\n-\nWe value a strong sense of ownership, principled thinking over experience, and thoughtful communication (we put a lot of effort into using the right communication channels) - we’ll get into these and other values during the hiring process.\n\nThe Interview\n\nAt Ashby, our team and interview process want to help you show your best self. Our interview process is structured to get to know you and your career as well as empower you with insight into our key focus areas. Here is the process in its entirety:\n\n-\n30 min - Recruiter Screen with Talent Team\n\n-\n45 min - Interview with Hiring Manager\n\n-\n60 min- Mock Call with 2 Implementation Specialists\n\n-\nFinal Round:\n\n-\n30 min - Customer Adoption with Head of Dedicated CS & one of our Strategic CSMs\n\n-\n30 min - Interview with VP of Customer Success & Head of PS\n\n-\n10 min - Closing Questions with Hiring Manager\n\nBenefits\n\n-\nYou’ll get the time to do things the right way; we put a lot of emphasis on high quality work and avoid quick hacks as much as possible.\n\n-\nYou get to sell a product that our prospects & customers are truly excited about.\n\n-\nCompetitive compensation is offered.\n\n-\n10-year exercise window for stock options. You shouldn’t feel pressure to purchase stock options if you leave Ashby —do it when you feel financially comfortable.\n\n-\nUnlimited PTO with four weeks is recommended per year. Expect “Vacation?” in our one-on-one agenda until you start taking it\n\n-\nTwelve weeks of fully paid family leave in the US. We plan to expand this to employees in other countries as situations arise.\n\n-\nGenerous equipment, software, and office furniture budget. Get what you need to be happy and productive!\n\n-\n$100/month education budget with more expensive items (like conferences) covered with manager approval\n\nAshby provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity, or gender expression. We are committed to a diverse and inclusive workforce and welcome people from all backgrounds, experiences, perspectives, and abilities.\n\nAshby is committed to a fair and transparent hiring process. We confirm that this advertisement is for an active, existing vacancy within our organization. Please be advised that we may use artificial intelligence-driven tools to assist our recruitment team in screening, assessing, and selecting candidates for this position.",
+      "apply_url": "https://jobicy.com/jobs/154862-senior-strategic-implementation-specialist-americas-est",
+      "source": "Jobicy",
+      "posted_at": "2026-10-08T17:08:55.000Z",
+      "scraped_at": "2026-10-09T14:03:18.133Z",
+      "status": "open"
+    },
     {
       "id": "agg:jobicy:154814",
       "hub": "business",
@@ -24,7 +68,7 @@
       "apply_url": "https://jobicy.com/jobs/154814-senior-strategic-implementation-specialist-americas-pst",
       "source": "Jobicy",
       "posted_at": "2026-10-08T10:40:21.000Z",
-      "scraped_at": "2026-10-08T14:17:06.781Z",
+      "scraped_at": "2026-10-09T14:03:18.133Z",
       "status": "open"
     },
     {
@@ -46,7 +90,7 @@
       "apply_url": "https://jobicy.com/jobs/154816-product-support-specialist-apac",
       "source": "Jobicy",
       "posted_at": "2026-10-08T10:40:20.000Z",
-      "scraped_at": "2026-10-08T14:17:06.781Z",
+      "scraped_at": "2026-10-09T14:03:18.133Z",
       "status": "open"
     },
     {
@@ -68,7 +112,7 @@
       "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4741212005",
       "source": "greenhouse",
       "posted_at": "2026-10-08T00:15:44-04:00",
-      "scraped_at": "2026-10-08T14:16:33.026Z",
+      "scraped_at": "2026-10-09T14:02:54.131Z",
       "status": "open"
     },
     {
@@ -90,7 +134,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-07T23:29:44-04:00",
-      "scraped_at": "2026-10-08T14:16:47.118Z",
+      "scraped_at": "2026-10-09T14:02:58.654Z",
       "status": "open"
     },
     {
@@ -112,7 +156,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5241598007",
       "source": "greenhouse",
       "posted_at": "2026-10-07T23:28:29-04:00",
-      "scraped_at": "2026-10-08T14:16:47.118Z",
+      "scraped_at": "2026-10-09T14:02:58.654Z",
       "status": "open"
     },
     {
@@ -134,7 +178,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5241601007",
       "source": "greenhouse",
       "posted_at": "2026-10-07T23:28:29-04:00",
-      "scraped_at": "2026-10-08T14:16:47.118Z",
+      "scraped_at": "2026-10-09T14:02:58.654Z",
       "status": "open"
     },
     {
@@ -156,7 +200,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1252b51c-b738-4283-815c-aa7d9e7b4845",
       "source": "lever",
       "posted_at": "2026-10-07T07:46:43.958Z",
-      "scraped_at": "2026-10-08T14:16:34.305Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -178,7 +222,7 @@
       "apply_url": "https://jobicy.com/jobs/148515-chat-support-agent-remote-entry-level-no-degree-required-15-18-per-hour",
       "source": "Jobicy",
       "posted_at": "2026-10-07T04:15:10.000Z",
-      "scraped_at": "2026-10-08T14:17:06.781Z",
+      "scraped_at": "2026-10-09T14:03:18.133Z",
       "status": "open"
     },
     {
@@ -200,7 +244,7 @@
       "apply_url": "https://jobicy.com/jobs/148512-technical-support-specialist-remote-entry-level-no-degree-required-15-18",
       "source": "Jobicy",
       "posted_at": "2026-10-07T04:15:08.000Z",
-      "scraped_at": "2026-10-08T14:17:06.781Z",
+      "scraped_at": "2026-10-09T14:03:18.133Z",
       "status": "open"
     },
     {
@@ -222,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/154748-customer-experience-specialist-french-bilingual",
       "source": "Jobicy",
       "posted_at": "2026-10-06T17:38:29.000Z",
-      "scraped_at": "2026-10-08T14:17:06.781Z",
+      "scraped_at": "2026-10-09T14:03:18.133Z",
       "status": "open"
     },
     {
@@ -244,7 +288,7 @@
       "apply_url": "https://jobs.lever.co/ro/5485b839-87f3-4976-aebe-a64821d790be",
       "source": "lever",
       "posted_at": "2026-10-06T16:09:43.504Z",
-      "scraped_at": "2026-10-08T14:17:01.951Z",
+      "scraped_at": "2026-10-09T14:03:13.630Z",
       "status": "open"
     },
     {
@@ -266,7 +310,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-08T14:17:05.346Z",
+      "scraped_at": "2026-10-09T14:03:16.720Z",
       "status": "open"
     },
     {
@@ -288,7 +332,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.055Z",
       "status": "open"
     },
     {
@@ -310,7 +354,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.055Z",
       "status": "open"
     },
     {
@@ -332,7 +376,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.055Z",
       "status": "open"
     },
     {
@@ -354,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
       "source": "greenhouse",
       "posted_at": "2026-09-30T11:52:29-04:00",
-      "scraped_at": "2026-10-08T14:16:47.070Z",
+      "scraped_at": "2026-10-09T14:02:58.536Z",
       "status": "open"
     },
     {
@@ -376,7 +420,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-08T14:16:34.121Z",
+      "scraped_at": "2026-10-09T14:02:55.334Z",
       "status": "open"
     },
     {
@@ -394,11 +438,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
-      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nAs a regulated payment provider, we must ensure we manage operational risk and our regulatory requirements correctly. We do this by having a robust control framework across some of our business-critical areas, like payments and billing.\n\nThis role will be central to ensuring our 1st line Operations teams continue to implement, manage, test and regularly update controls frameworks. You'll manage the end-to-end controls framework for our operational teams, including but not limited to Payments Operations, Billing and Credit Control. You will be a key point of contact for managing our annual Safeguarding and SOC1 audits, engaging with auditors and gathering and submitting evidence.\n\nThe role provides an excellent opportunity to work with the broader Enterprise Risk community and shape the controls environment for a fast-growing FinTech, putting your stamp on how controls are designed, implemented and managed.\n\nWhat excites you\n\n- Designing and implementing controls. Working with the Regulatory Compliance team to understand the complete picture of the control landscape and then collaborating with 1st line control owners in our Operation to implement relevant controls\n\n- Control assessment and reporting. Updating the safeguarding and SOC1 controls assessments on a regular cadence\n\n- Direct control management. Managing key controls within our Internal Operations teams\n\n- Understanding existing processes and re-designing controls to meet current and future business needs\n\n- Working with the Regulatory team to ensure audits are completed successfully, including explaining our first-line controls to auditors and regulators\n\n- Improving efficiency through the standardisation, automation or removal of controls\n\n- Building positive relationships with stakeholders across the different lines of defence to help develop a real understanding of our risk exposure, control environment, deficiencies and gaps\n\n- Autonomy to drive change from the ground up\n\nWhat excites us\n\n- Have worked in a regulated environment, preferably financial services or at a FinTech\n\n- Previous experience working in a similar role, such as Audit, you’re skilled in designing, implementing and testing the effectiveness of controls\n\n- You're a great communicator. You can simplify and clearly explain the what and why behind the controls you implement\n\n- You understand how to balance compliance and operational efficiency\n\n- You have a solid understanding of the three lines of defence and have experience working with Regulatory Compliance teams as well as external auditors\n\n- You have great attention to detail, you work in a structured manner and you’re comfortable with data\n\n- You’re comfortable working in a fast-paced environment where your responsibilities can evolve and change\n\n- You're a self-starter and can work independently with minimal supervision\n\nBase salary range: 2867 EUR/ months gross - 4300 EUR/ months gross\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Working this way creates the GC magic- the reason we all love showing up to work.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nAs a regulated payment provider, we must ensure we manage operational risk and our regulatory requirements correctly. We do this by having a robust control framework across some of our business-critical areas, like payments and billing.\n\nThis role will be central to ensuring our 1st line Operations teams continue to implement, manage, test and regularly update controls frameworks. You'll manage the end-to-end controls framework for our operational teams, including but not limited to Payments Operations, Billing and Credit Control. You will be a key point of contact for managing our annual Safeguarding and SOC1 audits, engaging with auditors and gathering and submitting evidence.\n\nThe role provides an excellent opportunity to work with the broader Enterprise Risk community and shape the controls environment for a fast-growing FinTech, putting your stamp on how controls are designed, implemented and managed.\n\nWhat excites you\n\n- Designing and implementing controls. Working with the Regulatory Compliance team to understand the complete picture of the control landscape and then collaborating with 1st line control owners in our Operation to implement relevant controls\n\n- Control assessment and reporting. Updating the safeguarding and SOC1 controls assessments on a regular cadence\n\n- Direct control management. Managing key controls within our Internal Operations teams\n\n- Understanding existing processes and re-designing controls to meet current and future business needs\n\n- Working with the Regulatory team to ensure audits are completed successfully, including explaining our first-line controls to auditors and regulators\n\n- Improving efficiency through the standardisation, automation or removal of controls\n\n- Building positive relationships with stakeholders across the different lines of defence to help develop a real understanding of our risk exposure, control environment, deficiencies and gaps\n\n- Autonomy to drive change from the ground up\n\nWhat excites us\n\n- Have worked in a regulated environment, preferably financial services or at a FinTech\n\n- Previous experience working in a similar role, such as Audit, you’re skilled in designing, implementing and testing the effectiveness of controls\n\n- You're a great communicator. You can simplify and clearly explain the what and why behind the controls you implement\n\n- You understand how to balance compliance and operational efficiency\n\n- You have a solid understanding of the three lines of defence and have experience working with Regulatory Compliance teams as well as external auditors\n\n- You have great attention to detail, you work in a structured manner and you’re comfortable with data\n\n- You’re comfortable working in a fast-paced environment where your responsibilities can evolve and change\n\n- You're a self-starter and can work independently with minimal supervision\n\nBase salary range: 2867 EUR/ months gross - 4300 EUR/ months gross\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-08T14:16:27.035Z",
+      "scraped_at": "2026-10-09T14:02:44.437Z",
       "status": "open"
     },
     {
@@ -420,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-08T14:16:17.264Z",
+      "scraped_at": "2026-10-09T14:02:33.791Z",
       "status": "open"
     },
     {
@@ -442,7 +486,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-08T14:16:17.264Z",
+      "scraped_at": "2026-10-09T14:02:33.791Z",
       "status": "open"
     },
     {
@@ -464,7 +508,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-08T14:16:17.265Z",
+      "scraped_at": "2026-10-09T14:02:33.792Z",
       "status": "open"
     },
     {
@@ -486,7 +530,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:05-04:00",
-      "scraped_at": "2026-10-08T14:16:17.263Z",
+      "scraped_at": "2026-10-09T14:02:33.790Z",
       "status": "open"
     },
     {
@@ -508,7 +552,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.056Z",
       "status": "open"
     },
     {
@@ -530,7 +574,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-08T14:16:34.305Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -552,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-09-29T09:23:55-04:00",
-      "scraped_at": "2026-10-08T14:16:47.070Z",
+      "scraped_at": "2026-10-09T14:02:58.536Z",
       "status": "open"
     },
     {
@@ -574,7 +618,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.056Z",
       "status": "open"
     },
     {
@@ -596,7 +640,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-08T14:16:52.484Z",
+      "scraped_at": "2026-10-09T14:03:03.142Z",
       "status": "open"
     },
     {
@@ -618,29 +662,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
-      "status": "open"
-    },
-    {
-      "id": "lever:octopus-energy:dcbd9c2c-2845-4e46-8108-45cdf1d8e801",
-      "hub": "business",
-      "title": "Operations & Disponent Specialist - Fokus Wärmepumpe (m/w/d)",
-      "company": "Octopus Energy",
-      "company_id": "octopus-energy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Energy Retailer & Tech",
-      "level": "Mid",
-      "location": "Berlin (DE)",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Wir sind nicht der lokale Stromanbieter um die Ecke. Wir sind das globale EnerTech-Unternehmen, das den Energiemarkt revolutionieren wird.",
-      "description": "Wir sind nicht der lokale Stromanbieter um die Ecke. Wir sind das globale EnerTech-Unternehmen, das den Energiemarkt revolutionieren wird. Wir haben kein geringeres Ziel, als die global benötigte Energie 100% nachhaltig zu gestalten. Global, agil und zukunftsorientiert verändern wir den Energiemarkt mit neuer Technologie zum Besseren.\n \nDabei sind unsere Ökostromtarife nur die Basis. Bereits seit 2022 installieren wir Wärmepumpen-Komplettlösungen mit eigenen Fachkräften. Außerdem arbeiten wir aktiv an der flächendeckenden Einführung von Smart Metern, Elektromobilitätslösungen und der eigenen Stromerzeugung aus Wind- und Sonnenenergie.\n \nDas schaffen wir allerdings nicht alleine, sondern dazu brauchen wir dich! Werde Teil unseres Teams und fordere den Status Quo heraus. Mit Energie, die gut für den Planeten ist und gut für dein Karma. 💚  Finde jetzt deinen Traumjob und werde Teil der Energierevolution von Octopus Energy Germany.\n \n\n-\nDisposition, Einsatzplanung & Wochenverdichtung\n\nDu verantwortest die vorausschauende, datengetriebene Routen- und Einsatzplanung unserer Vorbau- und Fertigbau-Teams. Bei Ausfällen oder Absagen steuerst du proaktiv gegen, verdichtest die Wochenpläne nach und sicherst so konsequent die Soll-Auslastung. In täglichen und wöchentlichen Check-Ins stimmst du Kapazitäten, Urlaube und Nacharbeiten eng mit den Gebietsleitern ab.\n\n-\nOperative Abwicklung & Logistik-Schnittstelle\n\nDu stellst die perfekte Synchronisation von Materialfluss und Montageterminen sicher, damit alle Komponenten rechtzeitig auf der Baustelle bereitstehen. Bei unvorhergesehenen Ereignissen, Wetterumschwüngen oder Verzögerungen reagierst du schnell, passt die Materiallogistik flexibel an und löst operative Herausforderungen souverän.\n\n-\nSchnittstellen & Kundenkommunikation\n\nAls zentrale Schaltstelle arbeitest du eng mit dem Betreuungsmanagement, Vertrieb, Lager und unseren Technikern zusammen. Müssen Termine im Rahmen der Wochenverdichtung angepasst werden, greifst du selbst zum Hörer und kommunizierst Änderungen transparent, lösungsorientiert und verbindlich direkt mit unseren Endkunden.\n\n-\nErfahrung & Expertise: Mehrjährige fundierte Berufserfahrung in der Disposition, Einsatzplanung, Tourenoptimierung, Logistik oder im operativen Ressourcenmanagement.\n\n-\nAnalytisch & Agil: Du arbeitest datengetrieben, behältst auch bei hoher Dynamik den Überblick und kannst blitzschnell Prioritäten setzen.\n\n-\nMacher-Mentalität & Drive: Du willst Dinge bewegen, Prozesse weiterentwickeln und hast die Motivation, aktiv am Erfolg mitzuarbeiten.\n\n-\nKommunikationsstärke & Stressresistenz: Du bist ein ehrlicher, aufgeweckter und durchsetzungsstarker Teamplayer. Du hörst Feedback gerne an, gibst es konstruktiv weiter und bleibst in hektischen Situationen gelassen.\n\n-\nFlexibilität & Teamspirit: Du hast Lust auf echten Teamzusammenhalt und scheust dich nicht davor, 1x im Monat an unseren Team-Tagen und gemeinsamen Events am Standort Heidelberg teilzunehmen.",
-      "apply_url": "https://jobs.lever.co/octoenergy/dcbd9c2c-2845-4e46-8108-45cdf1d8e801",
-      "source": "lever",
-      "posted_at": "2026-09-18T15:53:46.846Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -662,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-08T14:16:34.120Z",
+      "scraped_at": "2026-10-09T14:02:55.334Z",
       "status": "open"
     },
     {
@@ -684,7 +706,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.513Z",
       "status": "open"
     },
     {
@@ -706,7 +728,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-10-08T14:16:52.422Z",
+      "scraped_at": "2026-10-09T14:03:03.117Z",
       "status": "open"
     },
     {
@@ -728,7 +750,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -746,11 +768,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
-      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nThe Fraud Risk Management team ensures that GoCardless adopts, implements and maintains innovative and appropriate controls as we have a duty to banking partners, regulators, schemes, merchants and their customers to review and monitor accounts and transactions with the utmost care.\n\nAs a Fraud Investigation Specialist you’ll be working as part of a small, close-knit team, conducting fraud investigations, with the aim of protecting GoCardless from fraud, financial and reputational risk.\n\nThe reason why we have this role open in an additional headcount - we are looking for an extra set of hands!\n\nOn a daily basis you will:\n\n- Monitor the risk alert queue and identify high risk behaviour within the business portfolio\n\n- Conduct fraud investigations within service level agreements to reduce potential revenue losses\n\n- Attain a thorough understanding of GoCardless’ product, policies and processes\n\n- Lead on customer-facing correspondence and work with various teams across the business to ensure we provide a seamless merchant experience\n\nWhat excites you\n\n- The opportunity to work in a high performing team and make important daily decisions that can make an impact on GoCardless’s future success\n\n- Having the opportunity to learn more about data and how to use it to make informative decisions across the business\n\n- Working in a global fraud team where you can share experiences and learn from other team members who come from a variety of industries\n\nWhat excites us\n\n- You have hands-on experience in a fraud investigations role or similar and are looking for your next challenge\n\n- You use logic and reasoning to separate legitimate behaviour from suspected illicit activity\n\n- You are comfortable with making accurate, fast decisions depending on the evidence at hand\n\n- You understand the implications of new information for both current and future problem-solving and decision-making\n\n- You use your written English skills to strike the right tone with internal and external stakeholders.\n\n- You’re driven by initiative, and understand the impact of every decision you make on our merchants\n\n- Results-focused: You can prioritise, organise, and show initiative and willing to get the job done\n\nWe don’t expect you to meet every requirement. If you’re excited by this role, we encourage you to apply.\n\nBase salary range: €1,867 - €2,800 (gross).\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (€1,867 - €2,333) of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Working this way creates the GC magic- the reason we all love showing up to work.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nThe Fraud Risk Management team ensures that GoCardless adopts, implements and maintains innovative and appropriate controls as we have a duty to banking partners, regulators, schemes, merchants and their customers to review and monitor accounts and transactions with the utmost care.\n\nAs a Fraud Investigation Specialist you’ll be working as part of a small, close-knit team, conducting fraud investigations, with the aim of protecting GoCardless from fraud, financial and reputational risk.\n\nThe reason why we have this role open in an additional headcount - we are looking for an extra set of hands!\n\nOn a daily basis you will:\n\n- Monitor the risk alert queue and identify high risk behaviour within the business portfolio\n\n- Conduct fraud investigations within service level agreements to reduce potential revenue losses\n\n- Attain a thorough understanding of GoCardless’ product, policies and processes\n\n- Lead on customer-facing correspondence and work with various teams across the business to ensure we provide a seamless merchant experience\n\nWhat excites you\n\n- The opportunity to work in a high performing team and make important daily decisions that can make an impact on GoCardless’s future success\n\n- Having the opportunity to learn more about data and how to use it to make informative decisions across the business\n\n- Working in a global fraud team where you can share experiences and learn from other team members who come from a variety of industries\n\nWhat excites us\n\n- You have hands-on experience in a fraud investigations role or similar and are looking for your next challenge\n\n- You use logic and reasoning to separate legitimate behaviour from suspected illicit activity\n\n- You are comfortable with making accurate, fast decisions depending on the evidence at hand\n\n- You understand the implications of new information for both current and future problem-solving and decision-making\n\n- You use your written English skills to strike the right tone with internal and external stakeholders.\n\n- You’re driven by initiative, and understand the impact of every decision you make on our merchants\n\n- Results-focused: You can prioritise, organise, and show initiative and willing to get the job done\n\nWe don’t expect you to meet every requirement. If you’re excited by this role, we encourage you to apply.\n\nBase salary range: €1,867 - €2,800 (gross).\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (€1,867 - €2,333) of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-08T14:16:27.035Z",
+      "scraped_at": "2026-10-09T14:02:44.437Z",
       "status": "open"
     },
     {
@@ -772,7 +794,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-09-11T20:16:48.000Z",
-      "scraped_at": "2026-10-08T14:17:05.346Z",
+      "scraped_at": "2026-10-09T14:03:16.720Z",
       "status": "open"
     },
     {
@@ -794,7 +816,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.513Z",
       "status": "open"
     },
     {
@@ -816,7 +838,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-09-09T15:17:17.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.055Z",
       "status": "open"
     },
     {
@@ -838,7 +860,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.056Z",
       "status": "open"
     },
     {
@@ -860,7 +882,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.513Z",
       "status": "open"
     },
     {
@@ -882,7 +904,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -992,7 +1014,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1014,7 +1036,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.055Z",
       "status": "open"
     },
     {
@@ -1036,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1058,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1080,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1102,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-08T14:16:34.305Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1124,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-08T14:16:34.305Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1146,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.513Z",
       "status": "open"
     },
     {
@@ -1168,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1190,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-08T14:16:34.305Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1212,7 +1234,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.056Z",
       "status": "open"
     },
     {
@@ -1234,7 +1256,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-08T14:17:04.714Z",
+      "scraped_at": "2026-10-09T14:03:16.055Z",
       "status": "open"
     },
     {
@@ -1256,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1278,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-08T14:16:34.303Z",
+      "scraped_at": "2026-10-09T14:02:55.513Z",
       "status": "open"
     },
     {
@@ -1300,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-08T14:16:34.304Z",
+      "scraped_at": "2026-10-09T14:02:55.514Z",
       "status": "open"
     },
     {
@@ -1322,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-08T14:16:34.303Z",
+      "scraped_at": "2026-10-09T14:02:55.513Z",
       "status": "open"
     },
     {
@@ -1344,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-10-08T14:16:31.540Z",
+      "scraped_at": "2026-10-09T14:02:51.528Z",
       "status": "open"
     },
     {
@@ -1366,7 +1388,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:17.594Z",
+      "scraped_at": "2026-10-09T14:02:33.943Z",
       "status": "open"
     },
     {
@@ -1388,7 +1410,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Events---Partnerships-Coordinator_REQ-5503",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.750Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1410,7 +1432,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Support-Specialist_REQ-4525",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.750Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1432,7 +1454,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Australia/Customer-Support-Specialist--Enterprise_REQ-4526",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.750Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1454,7 +1476,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.750Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1476,7 +1498,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.750Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1498,7 +1520,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Senior-Accounts-Payable-Specialist_REQ-4616-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1520,7 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---IL-USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1542,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/New-York/Senior-Executive-Assistant_REQ-4506",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1564,29 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5463",
-      "hub": "legal",
-      "title": "Customer Onboarding Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "3 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Customer Onboarding Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Customer-Onboarding-Specialist_REQ-5463",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1608,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1630,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1652,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1674,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1696,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1718,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1740,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1762,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1784,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1806,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1828,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1850,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1872,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:23.751Z",
+      "scraped_at": "2026-10-09T14:02:40.495Z",
       "status": "open"
     },
     {
@@ -1894,7 +1894,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -1916,7 +1916,7 @@
       "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -1938,7 +1938,29 @@
       "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
+      "hub": "legaltech",
+      "title": "Customer Success Associate",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Legal Case Management Software",
+      "level": "Entry",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Customer Success Associate at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -1960,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -1982,7 +2004,7 @@
       "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -2004,7 +2026,7 @@
       "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -2026,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -2048,7 +2070,7 @@
       "apply_url": "https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -2070,7 +2092,7 @@
       "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
@@ -2092,13 +2114,13 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:26.603Z",
+      "scraped_at": "2026-10-09T14:02:43.984Z",
       "status": "open"
     },
     {
-      "id": "dom:wise-plc:https://wise.jobs/job/workplace-specialist-in-tallinn-jid-4264",
+      "id": "dom:wise-plc:https://wise.jobs/job/financial-crime-reporting-specialist-bahasa-indonesia-speaker-in-budapest-jid-4297",
       "hub": "fintech",
-      "title": "Workplace Specialist",
+      "title": "Financial Crime Reporting Specialist (Bahasa Indonesia speaker)",
       "company": "Wise",
       "company_id": "wise-plc",
       "priority": false,
@@ -2109,12 +2131,12 @@
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Workplace Specialist at Wise.",
+      "summary": "Financial Crime Reporting Specialist (Bahasa Indonesia speaker) at Wise.",
       "description": "",
-      "apply_url": "https://wise.jobs/job/workplace-specialist-in-tallinn-jid-4264",
+      "apply_url": "https://wise.jobs/job/financial-crime-reporting-specialist-bahasa-indonesia-speaker-in-budapest-jid-4297",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:28.193Z",
+      "scraped_at": "2026-10-09T14:02:44.973Z",
       "status": "open"
     },
     {
@@ -2136,7 +2158,7 @@
       "apply_url": "https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-4236",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:28.193Z",
+      "scraped_at": "2026-10-09T14:02:44.973Z",
       "status": "open"
     },
     {
@@ -2158,7 +2180,7 @@
       "apply_url": "https://wise.jobs/job/senior-executive-assistant-in-austin-jid-4253",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:28.193Z",
+      "scraped_at": "2026-10-09T14:02:44.973Z",
       "status": "open"
     },
     {
@@ -2180,29 +2202,7 @@
       "apply_url": "https://www.getyourguide.careers/jobs/8264075",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:29.931Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:getyourguide:https://www.getyourguide.careers/jobs/8207660",
-      "hub": "business",
-      "title": "People Operations Specialist APAC",
-      "company": "GetYourGuide",
-      "company_id": "getyourguide",
-      "priority": false,
-      "category": "Other",
-      "segment": "Travel Experiences Marketplace",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "People Operations Specialist APAC at GetYourGuide.",
-      "description": "",
-      "apply_url": "https://www.getyourguide.careers/jobs/8207660",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-08T14:16:29.931Z",
+      "scraped_at": "2026-10-09T14:02:50.306Z",
       "status": "open"
     }
   ]
