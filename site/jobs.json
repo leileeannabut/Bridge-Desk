@@ -1,10 +1,76 @@
 {
-  "generated_at": "2026-10-09T14:03:18.505Z",
+  "generated_at": "2026-10-10T13:11:44.720Z",
   "count": 100,
-  "total_open": 117,
-  "sources_ok": 55,
-  "sources_failed": 24,
+  "total_open": 115,
+  "sources_ok": 54,
+  "sources_failed": 25,
   "jobs": [
+    {
+      "id": "agg:weworkremotely:netlify-customer-success-associate-denver-co",
+      "hub": "business",
+      "title": "Customer Success Associate (Denver, CO)",
+      "company": "Netlify",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "We Work Remotely",
+      "level": "Entry",
+      "location": "Anywhere in the World",
+      "employment_type": "full-time",
+      "comp_min": 69000,
+      "comp_max": 80000,
+      "summary": "Headquarters: Remote About the Team Netlify's Customer Success team is responsible for making sure customers get real, lasting value from the platform - from onboarding through ren…",
+      "description": "Headquarters: Remote\n\nAbout the Team\n\nNetlify's Customer Success team is responsible for making sure customers get real, lasting value from the platform - from onboarding through renewal and beyond. The team works closely with Sales, Product, and Marketing to help customers grow their usage, see clear outcomes, and stay engaged over time. Every motion the team runs - whether it's a renewal conversation, a feature adoption push or customer escalation - is designed to build trust and relationships that compound.\n\nThis role exists because we have a growing book of SMB accounts that need a dedicated, consistent point of contact. As our Customer Success Associate, you’ll drive broad-stroke outreach and build the workflows to manage them well. You'll carry a book of 120+ accounts with roughly $2M in ARR, and your job is to make sure those customers are engaged, getting value, and set up for renewal. This is an entry-level role with real ownership from day one, and you'll have mentorship from senior teammates as you ramp into the commercial side of the work.\n\nWhat You'll Do\n\n- Own the day-to-day relationship for your book of accounts, serving as the primary point of contact and keeping customers informed, engaged, and successful on the platform\n\n- Contribute ideas to dashboards and workflows to track your book of business - renewal timelines, health signals, engagement levels, and expansion indicators - so nothing falls through the cracks\n\n- With guidance of leadership, drive outreach to customers ahead of renewal, lead those conversations, handle objections, and negotiate terms on flat renewals and smaller expansions, looping in Sales when a meaningful expansion opportunity emerges.\n\n- Track and forecast your renewal book on a rolling basis, proactively surfacing risks and creating plans to address them before they become problems\n\n- Use product usage data and customer outcomes to demonstrate value in renewal conversations and ongoing check-ins\n\n- Identify opportunities for feature adoption and product expansion within accounts, and flag those signals to the Sales team to build expansion pipeline\n\n- Gather and synthesize customer feedback and share it with Product and internal stakeholders to inform roadmap decisions and improve the customer experience\n\n- Work closely with senior CS teammates and your manager to develop your skills in account management, commercial negotiation, and customer communication\n\nWhat You'll Bring\n\n- Some experience in a customer-facing role - this could be internship work, customer service, sales support, retail, or anything that required you to build rapport and solve problems for people\n\n- Comfort working with data and spreadsheets, and a genuine interest in using that data to spot trends and make decisions\n\n- A track record of following through: when you commit to something, you close the loop\n\n- Clear written and verbal communication - you can explain things simply, listen well, and adapt your approach to different audiences\n\n- An interest in building a career in customer success, and curiosity about the commercial side of the business - including how renewals work, how contracts are structured, and how value gets communicated to customers\n\n- You’re based in the Denver, Colorado area and are comfortable working remotely while participating in occasional in-person meetings and engagement with Denver-based stakeholders.\n\nThis Role is a Great Fit If\n\n- You're energized by building relationships and want to be the person customers actually look forward to hearing from\n\n- You thrive when you have ownership over a defined body of work and the freedom to figure out how to make it run better\n\n- You enjoy the process of organizing complexity - tracking multiple accounts, spotting patterns, and keeping everything moving without things slipping\n\n- You're drawn to roles where you learn by doing, and you're comfortable asking questions and taking feedback as you develop your skills\n\n- You get excited about connecting customers to features or capabilities they didn't know they needed, and seeing that translate into real adoption\n\n- You work well within a team structure and are looking for mentorship, but you also want to take real ownership rather than just support someone else's book\n\nApplying\n\nNot sure you meet 100% of our qualifications? Please apply anyway!\n\nWhen applying please include:\n\nA resume or short listing of your job history & skills (link to a LinkedIn profile would be fine). We appreciate a cover letter explaining why you would enjoy working in this role at Netlify to get to know you a bit better, though this is not required and will not impact your application. Our mission is to “build a better web” and that cannot be done without a diversity of skill sets, backgrounds and thoughts.\n\nOf everything we've ever built at Netlify, we are most proud of our team. Netlify is an Equal Opportunity Employer. We are devoted to building a team of people with diverse backgrounds and lifestyles. Driving equality empowers our team, enables us to innovate, and helps us maintain a more inclusive environment. We don’t discriminate against employees or applicants based on gender identity or expression, sexual orientation, religion, age, race, military/veteran status, citizenship, pregnancy status, or any other differences. If we can do anything to provide a better interview, i.e. accommodate a disability, then please let us know by emailing accommodations@netlify.com.\n\nAbout Netlify\n\nNetlify is the most popular way to build, deploy, and scale modern web applications, empowering everyone from fast moving solo developers to enterprise teams. Millions of developers and organizations rely on Netlify as their platform of choice for composing web applications that are production ready, performant, and flexible. Now, as we embrace the next era of software development, we are embedding the same fluid, intuitive experience into the Agent Experience (AX), making it just as simple for intelligent agents to understand, interact with, and act on our platform as it is for developers. Whether your user is human or machine, Netlify ensures the path from idea to URL is seamless, fast, and deeply reliable.\n\nWe are a Series D company that has raised over $200M from investors such as Andreessen Horowitz, Kleiner Perkins, EQT, Bessemer, BOND, and Menlo Ventures. As a fully distributed company, we aim to create a company culture where the best idea can come from anywhere and strive to be thoughtful, compassionate, and collaborative in our work. If this sounds like something you’d like to be part of, we’re excited to connect with you!\n\nAt Netlify, we are committed to a compensation philosophy that prioritizes fairness and equity, positions our employee compensation competitively in the market, recognizes and rewards performance, and takes a comprehensive approach to our rewards package. We anchor our compensation philosophy on a market-based approach, therefore salary ranges may differ depending on the labor cost in a particular location. Because this role is eligible to participate in Netlify’s commission plan, our hiring range for Colorado is targeted at $69,000 - $80,000 in total on-target earnings. Candidates outside the US or in premium markets should consult with their Talent Acquisition partner regarding location-based ranges, as they may be higher or lower than the average US range listed. The starting pay will be determined based on multiple factors, including expertise and skills, market demands, experience, internal equity, and applicable geographic location. These compensation packages and ranges are subject to change and may be modified in the future.\n\nTo apply: https://weworkremotely.com/remote-jobs/netlify-customer-success-associate-denver-co",
+      "apply_url": "https://weworkremotely.com/remote-jobs/netlify-customer-success-associate-denver-co",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-10T07:31:08.000Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152926",
+      "hub": "business",
+      "title": "Implementation Specialist",
+      "company": "Double",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 80000,
+      "comp_max": 100000,
+      "summary": "About Double Bookkeepers today are stuck working in excel spreadsheets and homegrown project management solutions to support their clients. Double is on a mission to change that.",
+      "description": "About Double\n\nBookkeepers today are stuck working in excel spreadsheets and homegrown project management solutions to support their clients. Double is on a mission to change that.\n\nWith our all-in-one tool, bookkeepers can manage their work, communicate with clients, catch hard-to-find errors, and deliver reports to help their small business customers make smarter strategic decisions.\n\nFounded in 2021, Double has raised $12M in funding, backed by leading tech investors like Y Combinator and founders at top startups like Lattice, Front, Superhuman, Plaid, and more. Double currently helps thousands of bookkeepers and accountants manage the books for startups and small businesses across the US.\n\nWe're bringing on dozens of new customers each month – you will be the first point of contact for small to mid-sized firms looking to start their journey with Double.\n\nWhat You'll Do\n\n-\nConduct onboarding calls with prospective customers, train them to use the product, and help them realize value quickly\n\n-\nEnsure that all technical implementation and account set-up steps have been completed for each account that you onboard\n\n-\nCoordinate with Account Executives to identify any red flags that would hinder the prospect from subscribing to Double\n\n-\nMaintain a high renewal rate after initial three month implementation period (80-85%)\n\n-\nProactively reach out to accounts to ensure they're continuing to reach their goals and respond to any inbound support inquiries in a timely manner\n\n-\nCreate customer education materials: record video feature overviews, ensure product documentation is up to date, and write user guides when necessary\n\n-\nKeep your finger on the pulse of trending feature requests and areas within the product that could be improved, then document and share customer feedback with the rest of the team to inform our product roadmap\n\nWho You Are\n\n-\nAccounting/bookkeeping experience is required; exceptional candidates from adjacent fields who demonstrate a strong aptitude and genuine enthusiasm for the space will be considered.\n\n-\n2-3 years of experience in a customer-facing role at an early-stage SaaS startup\n\n-\nAbility to articulate complex concepts in a simple, straightforward manner, both in written and verbal communication\n\n-\nKeen attention to detail, thoughtfulness, and a customer-centric mindset\n\n-\nKnack and passion for process improvement, documentation, and increasing operational efficiencies\n\n-\nFamiliarity with modern SaaS technologies such as Slack, Notion, Hubspot and/or Salesforce\n\nBenefits\n\n-\nCompetitive pay and equity\n\n-\nUnlimited PTO\n\n-\nHealth, dental, and vision insurance\n\n-\n401k plan\n\nDouble provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity, or gender expression. We are committed to a diverse and inclusive workforce and welcome people from all backgrounds, experiences, perspectives, and abilities.",
+      "apply_url": "https://jobicy.com/jobs/152926-implementation-specialist-2",
+      "source": "Jobicy",
+      "posted_at": "2026-10-10T03:30:03.000Z",
+      "scraped_at": "2026-10-10T13:11:44.358Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:clara-mx:5230227007",
+      "hub": "fintech",
+      "title": "Territory Sales Expert (Expert de Vendas Locais) - Belém/PA (Hybrid/Remote)",
+      "company": "Clara",
+      "company_id": "clara-mx",
+      "priority": false,
+      "category": "Personal Assistant",
+      "segment": "Corporate Card & Spend Management",
+      "level": "Mid",
+      "location": "Belem / PA / Brazil",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation.",
+      "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others.\n\nWhat you'll do\n\nWe're looking for a Sales Expert to spearhead our growth in Belém. In this role, you will be instrumental in expanding Clara's footprint by identifying high-value business opportunities, nurturing strategic client relationships, and driving sustainable revenue growth. Your contributions will directly impact our mission to revolutionize spend management for companies across Latin America.\n\n- Drive Sales Growth in Pará: Own the end-to-end sales cycle, identifying and pursuing new business opportunities to expand Clara's client base across the region.\n\n- Tap Into Belém's Business Network: Utilize your existing relationships and deep understanding of the local ecosystem—specifically among finance and operations decision-makers in Pará—to generate high-quality leads.\n\n- Build and Manage a Healthy Pipeline: Oversee lead generation, qualification, and closing, ensuring a consistent and predictable flow of new partnerships.\n\n- Be a Trusted Advisor to Your Clients: Understand their complex financial needs and deliver tailored solutions via the Clara platform, building long-term relationships.\n\n- Connect Local Insights to Company Strategy: Work closely with Marketing and Product teams to bridge regional market dynamics with our broader growth agenda, using tools like HubSpot to track and optimize your impact.\n\n- Run a Tight Operation: Use Google Drive and automated workflows to maintain rigorous documentation and performance tracking.\n\nWho you are\n\nWe're looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- Minimum 5 years of experience in high-growth sales environments (SaaS or Fintech preferred).\n\n- Local Expertise: Currently based in Belém with a strong, active network among finance leaders and key influencers in the region.\n\n- Communication: Working proficiency in English and Portuguese.\n\n- Execution: Proven track record of exceeding sales targets and managing complex negotiations independently.\n\n- Adaptability: Ability to thrive in fast-changing environments and operate with high ownership.\n\n- Tech-Savvy: Experience or strong interest in using AI tools and automation (like N8N or Slack) to improve sales workflows.\n\nNice to haves:\n\n- Technical Skills: Independent analytical skills using spreadsheets, SQL, or Python.\n\n- Language: Basic proficiency in Spanish or a desire to learn.\n\n- Tools: Prior experience using Amplemarket or HubSpot for outbound prospecting.\n\n- A good sense of humor.\n\nHow we work in this territory\n\nBelém is an emerging territory for Clara — there's no office to go into, so this role works remotely from Belém day to day. You'll ramp up in person with the team, and come together in person for team moments, events and customer visits through the year.\nWhy Clara\n\n- A high talent-density team driven to make an impact in Latin America — low ego, high ownership.\n\n- Competitive salary and stock options (ESOP) from day one.\n\n- An annual learning budget and accelerated development paths.\n\n- English is our working language, with Spanish and Portuguese every day.\n\nHow we work\n\n- Clarity — Open and direct communication: we say what we mean and give context where it matters.\n\n- Simplicity — If it can be simpler, it should be.\n\n- Ownership — We own everything we do, end to end. When something needs to happen, we don't wait.\n\n- Pride — We hold ourselves to a high standard, and it shows in what we deliver.\n\n- ABC (Always Be Changing) — We adapt fast, embrace change, and keep learning.\n\n- Inclusivity — Diverse ideas, stories and perspectives build a better Clara.\n\nIf you meet the must-haves, apply — the nice-to-haves are a bonus, not a requirement.",
+      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
+      "source": "greenhouse",
+      "posted_at": "2026-10-09T20:00:39-04:00",
+      "scraped_at": "2026-10-10T13:11:32.957Z",
+      "status": "open"
+    },
     {
       "id": "agg:weworkremotely:affirm-administrative-assistant-iv",
       "hub": "business",
@@ -24,7 +90,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
       "source": "We Work Remotely",
       "posted_at": "2026-10-09T07:30:56.000Z",
-      "scraped_at": "2026-10-09T14:03:16.055Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -46,7 +112,7 @@
       "apply_url": "https://jobicy.com/jobs/154862-senior-strategic-implementation-specialist-americas-est",
       "source": "Jobicy",
       "posted_at": "2026-10-08T17:08:55.000Z",
-      "scraped_at": "2026-10-09T14:03:18.133Z",
+      "scraped_at": "2026-10-10T13:11:44.358Z",
       "status": "open"
     },
     {
@@ -68,7 +134,7 @@
       "apply_url": "https://jobicy.com/jobs/154814-senior-strategic-implementation-specialist-americas-pst",
       "source": "Jobicy",
       "posted_at": "2026-10-08T10:40:21.000Z",
-      "scraped_at": "2026-10-09T14:03:18.133Z",
+      "scraped_at": "2026-10-10T13:11:44.358Z",
       "status": "open"
     },
     {
@@ -90,7 +156,7 @@
       "apply_url": "https://jobicy.com/jobs/154816-product-support-specialist-apac",
       "source": "Jobicy",
       "posted_at": "2026-10-08T10:40:20.000Z",
-      "scraped_at": "2026-10-09T14:03:18.133Z",
+      "scraped_at": "2026-10-10T13:11:44.358Z",
       "status": "open"
     },
     {
@@ -112,73 +178,7 @@
       "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4741212005",
       "source": "greenhouse",
       "posted_at": "2026-10-08T00:15:44-04:00",
-      "scraped_at": "2026-10-09T14:02:54.131Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5230227007",
-      "hub": "fintech",
-      "title": "Territory Sales Expert (Expert de Vendas Locais) - Belém/PA (Hybrid/Remote)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Personal Assistant",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Belem / PA / Brazil",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation.",
-      "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others.\n\nWhat you'll do\n\nWe're looking for a Sales Expert to spearhead our growth in Belém. In this role, you will be instrumental in expanding Clara's footprint by identifying high-value business opportunities, nurturing strategic client relationships, and driving sustainable revenue growth. Your contributions will directly impact our mission to revolutionize spend management for companies across Latin America.\n\n- Drive Sales Growth in Pará: Own the end-to-end sales cycle, identifying and pursuing new business opportunities to expand Clara's client base across the region.\n\n- Tap Into Belém's Business Network: Utilize your existing relationships and deep understanding of the local ecosystem—specifically among finance and operations decision-makers in Pará—to generate high-quality leads.\n\n- Build and Manage a Healthy Pipeline: Oversee lead generation, qualification, and closing, ensuring a consistent and predictable flow of new partnerships.\n\n- Be a Trusted Advisor to Your Clients: Understand their complex financial needs and deliver tailored solutions via the Clara platform, building long-term relationships.\n\n- Connect Local Insights to Company Strategy: Work closely with Marketing and Product teams to bridge regional market dynamics with our broader growth agenda, using tools like HubSpot to track and optimize your impact.\n\n- Run a Tight Operation: Use Google Drive and automated workflows to maintain rigorous documentation and performance tracking.\n\nWho you are\n\nWe're looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- Minimum 5 years of experience in high-growth sales environments (SaaS or Fintech preferred).\n\n- Local Expertise: Currently based in Belém with a strong, active network among finance leaders and key influencers in the region.\n\n- Communication: Working proficiency in English and Portuguese.\n\n- Execution: Proven track record of exceeding sales targets and managing complex negotiations independently.\n\n- Adaptability: Ability to thrive in fast-changing environments and operate with high ownership.\n\n- Tech-Savvy: Experience or strong interest in using AI tools and automation (like N8N or Slack) to improve sales workflows.\n\nNice to haves:\n\n- Technical Skills: Independent analytical skills using spreadsheets, SQL, or Python.\n\n- Language: Basic proficiency in Spanish or a desire to learn.\n\n- Tools: Prior experience using Amplemarket or HubSpot for outbound prospecting.\n\n- A good sense of humor.\n\nHow we work in this territory\n\nBelém is an emerging territory for Clara — there's no office to go into, so this role works remotely from Belém day to day. You'll ramp up in person with the team, and come together in person for team moments, events and customer visits through the year.\nWhy Clara\n\n- A high talent-density team driven to make an impact in Latin America — low ego, high ownership.\n\n- Competitive salary and stock options (ESOP) from day one.\n\n- An annual learning budget and accelerated development paths.\n\n- English is our working language, with Spanish and Portuguese every day.\n\nHow we work\n\n- Clarity — Open and direct communication: we say what we mean and give context where it matters.\n\n- Simplicity — If it can be simpler, it should be.\n\n- Ownership — We own everything we do, end to end. When something needs to happen, we don't wait.\n\n- Pride — We hold ourselves to a high standard, and it shows in what we deliver.\n\n- ABC (Always Be Changing) — We adapt fast, embrace change, and keep learning.\n\n- Inclusivity — Diverse ideas, stories and perspectives build a better Clara.\n\nIf you meet the must-haves, apply — the nice-to-haves are a bonus, not a requirement.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
-      "source": "greenhouse",
-      "posted_at": "2026-10-07T23:29:44-04:00",
-      "scraped_at": "2026-10-09T14:02:58.654Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5241598007",
-      "hub": "fintech",
-      "title": "Customer Success Associate - Guadalajara (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Entry",
-      "location": "Guadalajara / JAL / Mexico",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation.",
-      "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others.\n\nWhat you'll do\n\nWe're looking for a Customer Success Associate to join our Mexico team and help build lasting partnerships with Clara’s clients. You’ll manage a portfolio of accounts, ensuring they get the most value from our platform while acting as their trusted advisor. This is a cross-functional role that requires a mix of relationship management, commercial drive, and product insight.\n\nYour mission will be to drive customer retention, identify growth opportunities, and deliver a seamless experience from onboarding through renewal. You’ll collaborate with Sales, Product, and Marketing to advocate for customer needs and contribute to Clara’s long-term success. At Clara, we value owners who take pride in the success of their customers and aren't afraid to dive deep into the data to solve complex problems.\n\nWho you are\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves\n\n-\n2–3 years of experience in Customer Success, Account Management, or Sales.\n\n-\nBackground in fintech, banking, SaaS, or financial services.\n\n-\nProficiency with CRM tools, specifically HubSpot.\n\n-\nExperience or interest in AI tools to automate workflows and improve response times.\n\n-\nWorking proficiency in English and Spanish.\n\n-\nExcellent verbal and written communication skills.\n\n-\nAdaptability to fast-changing environments and a proven track record of execution.\n\n-\nExperience identifying upsell or cross-sell opportunities to drive account expansion.\n\nNice to haves\n\n-\nIndependent analytical skills using spreadsheets or Metabase.\n\n-\nExperience collaborating closely with Sales, Marketing, and Product teams.\n\n-\nFamiliarity with product usage monitoring or customer health scoring.\n\n-\nStrategic thinking and an eye for process improvements.\n\n-\nA good sense of humor.\n\nHow we work in this territory\n\nGuadalajara is an emerging territory for Clara — there's no office to go into, so this role works remotely from Guadalajara day to day. You'll ramp up in person with the team, and come together in person for team moments, events and customer visits through the year.\nWhy Clara\n\n- A high talent-density team driven to make an impact in Latin America — low ego, high ownership.\n\n- Competitive salary and stock options (ESOP) from day one.\n\n- An annual learning budget and accelerated development paths.\n\n- English is our working language, with Spanish and Portuguese every day.\n\nHow we work\n\n- Clarity — Open and direct communication: we say what we mean and give context where it matters.\n\n- Simplicity — If it can be simpler, it should be.\n\n- Ownership — We own everything we do, end to end. When something needs to happen, we don't wait.\n\n- Pride — We hold ourselves to a high standard, and it shows in what we deliver.\n\n- ABC (Always Be Changing) — We adapt fast, embrace change, and keep learning.\n\n- Inclusivity — Diverse ideas, stories and perspectives build a better Clara.\n\nIf you meet the must-haves, apply — the nice-to-haves are a bonus, not a requirement.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5241598007",
-      "source": "greenhouse",
-      "posted_at": "2026-10-07T23:28:29-04:00",
-      "scraped_at": "2026-10-09T14:02:58.654Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5241601007",
-      "hub": "fintech",
-      "title": "Customer Success Associate - Monterrey (Hybrid)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Entry",
-      "location": "Monterrey / NLE / Mexico",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation.",
-      "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others.\n\nWhat you'll do\n\nWe're looking for a Customer Success Associate to join our Mexico team and help build lasting partnerships with Clara’s clients. You’ll manage a portfolio of accounts, ensuring they get the most value from our platform while acting as their trusted advisor. This is a cross-functional role that requires a mix of relationship management, commercial drive, and product insight.\n\nYour mission will be to drive customer retention, identify growth opportunities, and deliver a seamless experience from onboarding through renewal. You’ll collaborate with Sales, Product, and Marketing to advocate for customer needs and contribute to Clara’s long-term success. At Clara, we value owners who take pride in the success of their customers and aren't afraid to dive deep into the data to solve complex problems.\n\nWho you are\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves\n\n-\n2–3 years of experience in Customer Success, Account Management, or Sales.\n\n-\nBackground in fintech, banking, SaaS, or financial services.\n\n-\nProficiency with CRM tools, specifically HubSpot.\n\n-\nExperience or interest in AI tools to automate workflows and improve response times.\n\n-\nWorking proficiency in English and Spanish.\n\n-\nExcellent verbal and written communication skills.\n\n-\nAdaptability to fast-changing environments and a proven track record of execution.\n\n-\nExperience identifying upsell or cross-sell opportunities to drive account expansion.\n\nNice to haves\n\n-\nIndependent analytical skills using spreadsheets or Metabase.\n\n-\nExperience collaborating closely with Sales, Marketing, and Product teams.\n\n-\nFamiliarity with product usage monitoring or customer health scoring.\n\n-\nStrategic thinking and an eye for process improvements.\n\n-\nA good sense of humor.\n\nHow we work in this territory\n\nMonterrey is an emerging territory for Clara — there's no office to go into, so this role works remotely from Monterrey day to day. You'll ramp up in person with the team, and come together in person for team moments, events and customer visits through the year.\nWhy Clara\n\n- A high talent-density team driven to make an impact in Latin America — low ego, high ownership.\n\n- Competitive salary and stock options (ESOP) from day one.\n\n- An annual learning budget and accelerated development paths.\n\n- English is our working language, with Spanish and Portuguese every day.\n\nHow we work\n\n- Clarity — Open and direct communication: we say what we mean and give context where it matters.\n\n- Simplicity — If it can be simpler, it should be.\n\n- Ownership — We own everything we do, end to end. When something needs to happen, we don't wait.\n\n- Pride — We hold ourselves to a high standard, and it shows in what we deliver.\n\n- ABC (Always Be Changing) — We adapt fast, embrace change, and keep learning.\n\n- Inclusivity — Diverse ideas, stories and perspectives build a better Clara.\n\nIf you meet the must-haves, apply — the nice-to-haves are a bonus, not a requirement.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5241601007",
-      "source": "greenhouse",
-      "posted_at": "2026-10-07T23:28:29-04:00",
-      "scraped_at": "2026-10-09T14:02:58.654Z",
+      "scraped_at": "2026-10-10T13:11:17.977Z",
       "status": "open"
     },
     {
@@ -200,73 +200,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1252b51c-b738-4283-815c-aa7d9e7b4845",
       "source": "lever",
       "posted_at": "2026-10-07T07:46:43.958Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:148515",
-      "hub": "business",
-      "title": "Chat Support Agent (Remote) - Entry Level, No Degree Required - 15 - 18 per Hour",
-      "company": "NoGigiddy",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Entry",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 30000,
-      "comp_max": 36000,
-      "summary": "About NoGigiddy: NoGigiddy is a premier on-demand staffing app that connects gig workers with flexible job opportunities across various industries.",
-      "description": "About NoGigiddy:\n\nNoGigiddy is a premier on-demand staffing app that connects gig workers with flexible job opportunities across various industries. Our platform specializes in offering work that fits your schedule, providing you with the flexibility and convenience you need. We are committed to helping you find the right gigs to match your skills and lifestyle.\n\nJob Description:\n\nAre you looking to kickstart your career in customer support without the need for a degree or prior experience? Look no further! NoGigiddy is seeking enthusiastic and dedicated individuals to join our team as Chat Support Agents. In this entry-level role, you will be the first point of contact for our users, providing top-notch support and ensuring a seamless experience for all.\n\nResponsibilities:\n\n\t•\tRespond to customer inquiries via chat in a timely and professional manner\n\t•\tProvide accurate information about NoGigiddy services and job opportunities\n\t•\tAssist users with navigating our platform and resolving any issues they encounter\n\t•\tMaintain a high level of customer satisfaction through excellent communication and problem-solving skills\n\t•\tCollaborate with team members to continuously improve support processes\n\t•\tDocument and escalate complex issues to the appropriate departments when necessary\n\t•\tParticipate in training sessions to stay updated on product knowledge and customer service best practices\n\nRequirements:\n\n\t•\tNo degree required\n\t•\tNo prior experience needed; we will provide comprehensive training\n\t•\tExcellent written communication skills\n\t•\tStrong problem-solving abilities and attention to detail\n\t•\tAbility to work independently and as part of a team\n\t•\tReliable internet connection and a quiet workspace\n\t•\tPositive attitude and a willingness to learn\n\nBenefits:\n\n\t•\tCompetitive hourly pay ($15-$18/hr)\n\t•\tFlexible work-from-home schedule\n\t•\tComprehensive training program\n\t•\tOpportunities for growth and advancement within the company\n\t•\tSupportive team environment\n\t•\tAccess to exclusive gig opportunities\n\nEqual Opportunity Employer:\n\nNoGigiddy is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.\n\nJoin NoGigiddy today and take the first step towards a rewarding career in customer support!",
-      "apply_url": "https://jobicy.com/jobs/148515-chat-support-agent-remote-entry-level-no-degree-required-15-18-per-hour",
-      "source": "Jobicy",
-      "posted_at": "2026-10-07T04:15:10.000Z",
-      "scraped_at": "2026-10-09T14:03:18.133Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:148512",
-      "hub": "business",
-      "title": "Technical Support Specialist (Remote) - Entry Level, No Degree Required, 15 - 18",
-      "company": "NoGigiddy",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Entry",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 30000,
-      "comp_max": 36000,
-      "summary": "Job Description: Are you a tech-savvy individual looking to start a career in technical support without the need for a degree or prior experience? NoGigiddy is seeking enthusiastic…",
-      "description": "Job Description:\n\nAre you a tech-savvy individual looking to start a career in technical support without the need for a degree or prior experience? NoGigiddy is seeking enthusiastic and dedicated individuals to join our team as Technical Support Specialists. In this entry-level role, you will be the first point of contact for our users, providing expert technical assistance and ensuring a seamless experience for all.\n\nResponsibilities:\n\n\t•\tRespond to technical inquiries via chat, email, and phone in a timely and professional manner\n\t•\tDiagnose and troubleshoot software and hardware issues\n\t•\tProvide step-by-step guidance to users to resolve technical problems\n\t•\tAssist users with navigating our platform and utilizing its features effectively\n\t•\tMaintain a high level of customer satisfaction through excellent communication and problem-solving skills\n\t•\tCollaborate with team members to continuously improve support processes and user experience\n\t•\tDocument and escalate complex technical issues to the appropriate departments when necessary\n\t•\tParticipate in training sessions to stay updated on product knowledge and technical support best practices\n\nRequirements:\n\n\t•\tNo degree required\n\t•\tNo prior experience needed; we will provide comprehensive training\n\t•\tStrong technical aptitude and problem-solving abilities\n\t•\tExcellent written and verbal communication skills\n\t•\tAbility to work independently and as part of a team\n\t•\tReliable internet connection and a quiet workspace\n\t•\tPositive attitude and a willingness to learn\n\nBenefits:\n\n\t•\tCompetitive hourly pay ($15-$18/hr)\n\t•\tFlexible work-from-home schedule\n\t•\tComprehensive training program\n\t•\tOpportunities for growth and advancement within the company\n\t•\tSupportive team environment\n\t•\tAccess to exclusive gig opportunities\n\nHow to Apply:\n\nReady to join the NoGigiddy team and start your career in technical support? Apply now by sending your resume and a brief cover letter explaining why you’re the perfect fit for this role to support@nogigiddy.com.\n\nEqual Opportunity Employer:\n\nNoGigiddy is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.\n\nJoin NoGigiddy today and take the first step towards a rewarding career in technical support!",
-      "apply_url": "https://jobicy.com/jobs/148512-technical-support-specialist-remote-entry-level-no-degree-required-15-18",
-      "source": "Jobicy",
-      "posted_at": "2026-10-07T04:15:08.000Z",
-      "scraped_at": "2026-10-09T14:03:18.133Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:154748",
-      "hub": "business",
-      "title": "Customer Experience Specialist - French Bilingual",
-      "company": "Quince",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Canada",
-      "employment_type": "full-time",
-      "comp_min": 26,
-      "comp_max": 26,
-      "summary": "ABOUT QUINCE Quince is a destination for builders, creators, innovators, and operators who want to come together and challenge the status quo.",
-      "description": "ABOUT QUINCE\n\nQuince is a destination for builders, creators, innovators, and operators who want to come together and challenge the status quo. Our mission is simple: make really high quality essentials for really low prices, fairly and sustainably. We deliver on that mission through a unique manufacturer-to-consumer (M2C) model eliminating the layers of traditional retail that add cost and result in consumers paying more than they need to. We find, build relationships with, and work directly with the manufacturing partners behind some of the world’s finest products. From there, our teams design smart, efficient operational processes and build and deploy proprietary technology, AI, and analytics to help us scale fast.\n\nWhat began with a small assortment of elevated basics has quickly grown into a cross-category brand spanning apparel, accessories, home goods, and more. Today, tens of millions of people across a growing number of countries come – and return – to Quince because they trust us to deliver.\n\nOUR CULTURE\n\nQuince is a culture built for builders by builders. Our way of working starts with a blank sheet of paper. We question conventional thinking, use technology and data to uncover new opportunities, and move quickly to turn ideas into reality. We aren’t interested in replicating how others do retail. We’re building a better way – at a speed and scale unlike anything that’s been done before.\n\n- We dream big and chase the hard problems others shy away from. Rejecting long-held assumptions is part of our company's DNA. Where conventional wisdom says you have to choose – soft or durable, speed or rigor, quality or price – we ask why that trade-off has to exist in the first place.\n\n- Our pace is fast and the bar is high because our customers expect a lot from us and we refuse to let them down. We believe the best results come from challenging ourselves, learning from one another, and building on each other's strengths.\n\n- Here, responsibility is not determined by role, tenure, or seniority. Every team member - no matter their level - has the opportunity to drive our business and shape our trajectory.\n\nIf you’re someone who likes to imagine new possibilities and build better systems rather than plug-in to outdated ones, Quince is the place for you.\n\nTHE ROLE\n\nFrench Bilingual Customer Experience Specialist\n\nBe the heartbeat of Quince! Connect with customers via chat, email, phone, and social channels. Solve problems with empathy, guide them authentically, and share insights that improve our service. Grow your career with clear paths in specialization, leadership, and training while building trust and loyalty every day.\n\nResponsibilities\n\n- Own each customer interaction from start to finish, ensuring clarity, care, and confidence.\n\n- Resolve issues with empathy, turning challenges into positive experiences.\n\n- Navigate tools efficiently while keeping the human touch.\n\n- Share insights and recurring patterns to help improve the experience.\n\n- Become a product expert to guide customers authentically.\n\nWhat You Bring\n\n- Digital Intelligence: Comfortable adopting new tools to enhance service.\n\n- Empathy & Brand Ambassadorship: Builds loyalty through warm, polished, and authentic interactions.\n\n- Ownership: Takes full responsibility for outcomes and anticipates customer needs.\n\n- Adaptability: Thrives amid change while maintaining calm and consistency.\n\nGrowth Opportunities\n\n- Specialist Tracks: Category Expert (Home, Jewelry, Health/Wellness)\n\n- Leadership Tracks: Senior Associate → Team Lead → CX Manager\n\n- Enablement Tracks: Quality & Training or Workforce Management\n\nWhy You’ll Love Working Here\n\n- Impactful work shaping customer loyalty\n\n- Culture of ownership and autonomy\n\n- Continuous growth in a fast-paced, luxury-brand environment\n\n- Beautiful products, transparent pricing, and happy customers\n\nCompensation & Benefits\n\n- $26 CAD per hour with tenure based increases\n\n- Up to $1,300 CAD month performance bonus\n\n- 3-week paid training and onboarding\n\n- Set schedule with guaranteed hours\n\n- Hospital coverage, Paramedical, Dental, Vision & Prescription, Virtual Healthcare, Life and Disability, 401K and more.\n\n- Referral bonuses of up to $1,000.\n\nQualifications\n\n- High School diploma or GED\n\n- Bilingual in French and English - both written and spoken\n\n- Minimum 2 years of customer service experience\n\n- Proven ability to build relationships and resolve issues effectively in a remote environment while communicating clearly and professionally\n\n- Dedicated, quiet workspace and reliable high-speed internet (75+ Mbps download / 10+ Mbps upload)\n\n-\nSchedule options for this position is as follows:\n\n- 9am - 6pm EST on Sun, Mon, Thurs, Fri, Sat\n\n- 9am - 6pm EST on Sun, Mon, Tues, Fri, Sat\n\n- 9am - 6pm EST on Sun, Mon, Tues, Wed, Thurs\n\n- 9am - 6pm EST on Tues, Wed, Thurs, Fri, Sat\n\nNote: Every Customer Experience Specialist has a 90-day introductory period, and successful completion is required. Candidates within 50 km of Toronto must work on-site five (5) days per week; candidates beyond 50 km are eligible for remote work.\n\nThis posting is for an existing vacancy.\n\nWHY QUINCE?\n\nJoining Quince means being part of a mission-driven team reshaping retail. You will work alongside talented colleagues, tackle meaningful challenges, and contribute to building a more sustainable, accessible future for customers and partners alike.\n\nEQUAL OPPORTUNITY & HIRING INTEGRITY\n\nQuince provides equal employment opportunities to all employees and applications for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran or military status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws.\n\nQuince is committed to providing reasonable accommodations to qualified individuals with disabilities. If you need a reasonable accommodation to complete your application or to perform the essential functions of a role at Quince, please let us know by completing this accommodation form. We review all requests individually and will work with you to determine appropriate accommodations on a case-by-case basis.\n\nEmployment is contingent upon successful completion of a background check. Quince will conduct background checks in compliance with applicable federal, state, and local laws.\n\nSecurity Advisory: Beware of Frauds\n\nAt Quince, we're dedicated to recruiting top talent who share our drive for innovation. To safeguard candidates, Quince emphasizes legitimate recruitment practices. Initial communication is primarily via official Quince email addresses and LinkedIn; beware of deviations. Personal data and sensitive information will not be solicited during the application phase. Interviews are conducted via phone, in person, or through the approved platforms Google Meets or Zoom—never via messaging apps or other calling services. Offers are merit-based, communicated verbally, and followed up in writing. If personal information is requested to initiate the hiring process, rest assured it will be through secure and protected means.",
-      "apply_url": "https://jobicy.com/jobs/154748-customer-experience-specialist-french-bilingual",
-      "source": "Jobicy",
-      "posted_at": "2026-10-06T17:38:29.000Z",
-      "scraped_at": "2026-10-09T14:03:18.133Z",
+      "scraped_at": "2026-10-10T13:11:20.480Z",
       "status": "open"
     },
     {
@@ -288,7 +222,7 @@
       "apply_url": "https://jobs.lever.co/ro/5485b839-87f3-4976-aebe-a64821d790be",
       "source": "lever",
       "posted_at": "2026-10-06T16:09:43.504Z",
-      "scraped_at": "2026-10-09T14:03:13.630Z",
+      "scraped_at": "2026-10-10T13:11:40.501Z",
       "status": "open"
     },
     {
@@ -310,7 +244,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-09T14:03:16.720Z",
+      "scraped_at": "2026-10-10T13:11:42.938Z",
       "status": "open"
     },
     {
@@ -332,7 +266,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-09T14:03:16.055Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -354,7 +288,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-09T14:03:16.055Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -376,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-09T14:03:16.055Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -398,7 +332,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
       "source": "greenhouse",
       "posted_at": "2026-09-30T11:52:29-04:00",
-      "scraped_at": "2026-10-09T14:02:58.536Z",
+      "scraped_at": "2026-10-10T13:11:32.925Z",
       "status": "open"
     },
     {
@@ -420,7 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-09T14:02:55.334Z",
+      "scraped_at": "2026-10-10T13:11:19.174Z",
       "status": "open"
     },
     {
@@ -442,7 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-09T14:02:44.437Z",
+      "scraped_at": "2026-10-10T13:11:09.285Z",
       "status": "open"
     },
     {
@@ -464,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-09T14:02:33.791Z",
+      "scraped_at": "2026-10-10T13:11:00.416Z",
       "status": "open"
     },
     {
@@ -486,7 +420,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-09T14:02:33.791Z",
+      "scraped_at": "2026-10-10T13:11:00.417Z",
       "status": "open"
     },
     {
@@ -508,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-09T14:02:33.792Z",
+      "scraped_at": "2026-10-10T13:11:00.417Z",
       "status": "open"
     },
     {
@@ -530,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:05-04:00",
-      "scraped_at": "2026-10-09T14:02:33.790Z",
+      "scraped_at": "2026-10-10T13:11:00.416Z",
       "status": "open"
     },
     {
@@ -552,7 +486,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-09T14:03:16.056Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -574,7 +508,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.480Z",
       "status": "open"
     },
     {
@@ -596,7 +530,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-09-29T09:23:55-04:00",
-      "scraped_at": "2026-10-09T14:02:58.536Z",
+      "scraped_at": "2026-10-10T13:11:32.925Z",
       "status": "open"
     },
     {
@@ -618,7 +552,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-09T14:03:16.056Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -640,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-09T14:03:03.142Z",
+      "scraped_at": "2026-10-10T13:11:34.593Z",
       "status": "open"
     },
     {
@@ -662,7 +596,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -684,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-09T14:02:55.334Z",
+      "scraped_at": "2026-10-10T13:11:19.174Z",
       "status": "open"
     },
     {
@@ -706,7 +640,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-09T14:02:55.513Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -728,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-10-09T14:03:03.117Z",
+      "scraped_at": "2026-10-10T13:11:34.609Z",
       "status": "open"
     },
     {
@@ -750,7 +684,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -772,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-09T14:02:44.437Z",
+      "scraped_at": "2026-10-10T13:11:09.285Z",
       "status": "open"
     },
     {
@@ -794,7 +728,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-09-11T20:16:48.000Z",
-      "scraped_at": "2026-10-09T14:03:16.720Z",
+      "scraped_at": "2026-10-10T13:11:42.938Z",
       "status": "open"
     },
     {
@@ -816,29 +750,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-09T14:02:55.513Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:weworkremotely:toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
-      "hub": "business",
-      "title": "Senior Security Compliance Consultant (SOC 2 & GRC Specialist)",
-      "company": "Toptal",
-      "company_id": "agg:weworkremotely",
-      "priority": false,
-      "category": "Other",
-      "segment": "We Work Remotely",
-      "level": "Senior",
-      "location": "Anywhere in the World",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Headquarters: Summary We are seeking an elite, hands-on Senior Security Compliance Consultant (SOC 2 & GRC Specialist) to lead a critical, company-wide SOC 2 Type II audit readines…",
-      "description": "Headquarters:\n\nSummary\nWe are seeking an elite, hands-on Senior Security Compliance Consultant (SOC 2 & GRC Specialist) to lead a critical, company-wide SOC 2 Type II audit readiness initiative. In this strategic engagement, you will perform comprehensive gap analyses, assess existing security controls, design robust compliance workflows, and drive cross-functional teams toward audit completion.\nThe ideal candidate brings a proven track record in GRC frameworks, control mapping, evidence automation, and policy development. Utilizing automated compliance platforms such as Sprinto, you will build repeatable compliance processes, validate technical controls, and ensure a seamless audit experience across the entire organization.\nGeneral Information (About the Client)\nOur client is a fast-scaling, cloud-native technology platform committed to maintaining enterprise-grade trust, security, and data privacy. To support their rapid commercial growth and enterprise sales pipeline, they are establishing a formal, highly disciplined security governance model.\nThey operate a modern, cloud-first environment where compliance is treated not as a passive checklist, but as an active, automated operational advantage. By leveraging modern GRC platforms and fostering a security-conscious culture, they provide an empowering environment for compliance experts to drive real architectural and procedural improvements.\nTasks and Deliverables\nSOC 2 Readiness & Gap Analysis: Conduct a thorough assessment of existing technical and operational security controls, pinpointing compliance gaps and building an actionable remediation roadmap.\nControl Design & Implementation: Author, refine, and operationalize security controls, policies, and procedures aligned with SOC 2 Trust Services Criteria (TSC) and PCI DSS standards.\nAutomated Evidence Collection: Lead evidence-gathering workflows using automated GRC tooling (Sprinto), ensuring all technical artifacts, access logs, and policy attestations are validated and audit-ready.\nPCI DSS Guidance: Provide expert advisory on maintaining PCI DSS alignment alongside SOC 2, ensuring overlapping control requirements are mapped efficiently to reduce operational drag.\nCross-Functional Coordination: Collaborate with engineering, DevOps, HR, and IT teams to embed compliance workflows into daily operations without slowing down feature execution.\nAuditor Interface & Readiness: Serve as the primary liaison during the audit preparation phase, coordinating directly with external auditors to present evidence, resolve findings, and ensure a successful audit cycle.\nRequired Experience\nSOC 2 Mastery: Proven track record of leading end-to-end SOC 2 readiness, gap remediation, and audit preparation initiatives for cloud-native or B2B SaaS companies.\nGRC & PCI DSS Acumen: Deep familiarity with Governance, Risk, and Compliance (GRC) frameworks, risk assessment methodologies, and PCI DSS compliance requirements.\nTooling Proficiency (Sprinto): Direct, practical experience leveraging automated compliance and evidence-collection platforms, specifically Sprinto (or equivalent modern platforms like Vanta/Drata).\nPolicy & Control Mapping: Exceptional capability to author clear, enforceable security policies and translate abstract regulatory requirements into concrete engineering controls.\nCross-Functional Facilitation: Strong stakeholder management skills with a history of driving accountability across distributed engineering, product, and operations teams.\n\nTo apply: https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
-      "apply_url": "https://weworkremotely.com/remote-jobs/toptal-senior-security-compliance-consultant-soc-2-grc-specialist",
-      "source": "We Work Remotely",
-      "posted_at": "2026-09-09T15:17:17.000Z",
-      "scraped_at": "2026-10-09T14:03:16.055Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -860,7 +772,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-09T14:03:16.056Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -882,7 +794,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-10-09T14:02:55.513Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -904,7 +816,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1014,7 +926,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1036,7 +948,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-09T14:03:16.055Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -1058,7 +970,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1080,7 +992,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1102,7 +1014,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1124,7 +1036,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.480Z",
       "status": "open"
     },
     {
@@ -1146,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.480Z",
       "status": "open"
     },
     {
@@ -1168,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-09T14:02:55.513Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1190,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1212,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.480Z",
       "status": "open"
     },
     {
@@ -1234,7 +1146,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-09T14:03:16.056Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -1256,7 +1168,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-09T14:03:16.055Z",
+      "scraped_at": "2026-10-10T13:11:42.431Z",
       "status": "open"
     },
     {
@@ -1278,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1300,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-09T14:02:55.513Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1322,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-09T14:02:55.514Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1344,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-09T14:02:55.513Z",
+      "scraped_at": "2026-10-10T13:11:20.479Z",
       "status": "open"
     },
     {
@@ -1366,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-10-09T14:02:51.528Z",
+      "scraped_at": "2026-10-10T13:11:16.473Z",
       "status": "open"
     },
     {
@@ -1388,7 +1300,29 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:33.943Z",
+      "scraped_at": "2026-10-10T13:11:00.588Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-5487",
+      "hub": "legal",
+      "title": "Senior Talent Acquisition Specialist (12-Month Contract)",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Senior",
+      "location": "Vancouver",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Talent Acquisition Specialist (12-Month Contract) at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Talent-Acquisition-Specialist--12-Month-Contract-_REQ-5487",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1410,7 +1344,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Events---Partnerships-Coordinator_REQ-5503",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1432,7 +1366,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Support-Specialist_REQ-4525",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1454,7 +1388,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Australia/Customer-Support-Specialist--Enterprise_REQ-4526",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1476,7 +1410,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1498,7 +1432,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1520,7 +1454,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Senior-Accounts-Payable-Specialist_REQ-4616-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1542,7 +1476,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---IL-USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1564,7 +1498,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/New-York/Senior-Executive-Assistant_REQ-4506",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1586,7 +1520,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1608,7 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1630,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1652,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1674,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1696,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1718,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1740,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1762,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1784,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1806,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1828,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1850,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1872,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:40.495Z",
+      "scraped_at": "2026-10-10T13:11:06.468Z",
       "status": "open"
     },
     {
@@ -1894,7 +1828,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -1916,7 +1850,7 @@
       "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -1938,7 +1872,7 @@
       "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -1960,7 +1894,7 @@
       "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -1982,7 +1916,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -2004,7 +1938,7 @@
       "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -2026,7 +1960,7 @@
       "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -2048,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -2070,7 +2004,7 @@
       "apply_url": "https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -2092,7 +2026,51 @@
       "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/518f6c48-7977-4f35-83a4-e7794b61ca4c/",
+      "hub": "legaltech",
+      "title": "Sales Enablement Specialist",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Case Management Software",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Sales Enablement Specialist at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/518f6c48-7977-4f35-83a4-e7794b61ca4c/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/5a6f6c7c-fad0-4f53-882e-2b33e7a4c2bf/",
+      "hub": "legaltech",
+      "title": "Sales Enablement Specialist",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Case Management Software",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Sales Enablement Specialist at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/5a6f6c7c-fad0-4f53-882e-2b33e7a4c2bf/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-10T13:11:08.863Z",
       "status": "open"
     },
     {
@@ -2114,7 +2092,29 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:43.984Z",
+      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:wise-plc:https://wise.jobs/job/senior-specialist-non-financial-risks-in-sao-paulo-jid-3805",
+      "hub": "fintech",
+      "title": "Senior Specialist - Non-Financial Risks",
+      "company": "Wise",
+      "company_id": "wise-plc",
+      "priority": false,
+      "category": "Other",
+      "segment": "International Money Transfer",
+      "level": "Senior",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Specialist - Non-Financial Risks at Wise.",
+      "description": "",
+      "apply_url": "https://wise.jobs/job/senior-specialist-non-financial-risks-in-sao-paulo-jid-3805",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-10T13:11:09.775Z",
       "status": "open"
     },
     {
@@ -2136,51 +2136,7 @@
       "apply_url": "https://wise.jobs/job/financial-crime-reporting-specialist-bahasa-indonesia-speaker-in-budapest-jid-4297",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:44.973Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:wise-plc:https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-4236",
-      "hub": "fintech",
-      "title": "Sales Enablement Specialist, Enterprise",
-      "company": "Wise",
-      "company_id": "wise-plc",
-      "priority": false,
-      "category": "Other",
-      "segment": "International Money Transfer",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Sales Enablement Specialist, Enterprise at Wise.",
-      "description": "",
-      "apply_url": "https://wise.jobs/job/sales-enablement-specialist-enterprise-in-austin-jid-4236",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:44.973Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:wise-plc:https://wise.jobs/job/senior-executive-assistant-in-austin-jid-4253",
-      "hub": "fintech",
-      "title": "Senior Executive Assistant",
-      "company": "Wise",
-      "company_id": "wise-plc",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "International Money Transfer",
-      "level": "Senior",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Executive Assistant at Wise.",
-      "description": "",
-      "apply_url": "https://wise.jobs/job/senior-executive-assistant-in-austin-jid-4253",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:44.973Z",
+      "scraped_at": "2026-10-10T13:11:09.775Z",
       "status": "open"
     },
     {
@@ -2202,7 +2158,51 @@
       "apply_url": "https://www.getyourguide.careers/jobs/8264075",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-09T14:02:50.306Z",
+      "scraped_at": "2026-10-10T13:11:11.853Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:getyourguide:https://www.getyourguide.careers/jobs/8207660",
+      "hub": "business",
+      "title": "People Operations Specialist APAC",
+      "company": "GetYourGuide",
+      "company_id": "getyourguide",
+      "priority": false,
+      "category": "Other",
+      "segment": "Travel Experiences Marketplace",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "People Operations Specialist APAC at GetYourGuide.",
+      "description": "",
+      "apply_url": "https://www.getyourguide.careers/jobs/8207660",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-10T13:11:11.853Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:getyourguide:https://www.getyourguide.careers/jobs/7571066",
+      "hub": "business",
+      "title": "Senior Localization Specialist",
+      "company": "GetYourGuide",
+      "company_id": "getyourguide",
+      "priority": false,
+      "category": "Other",
+      "segment": "Travel Experiences Marketplace",
+      "level": "Senior",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Localization Specialist at GetYourGuide.",
+      "description": "",
+      "apply_url": "https://www.getyourguide.careers/jobs/7571066",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-10T13:11:11.853Z",
       "status": "open"
     }
   ]
