@@ -1,10 +1,76 @@
 {
-  "generated_at": "2026-10-10T13:11:44.720Z",
+  "generated_at": "2026-10-11T13:41:27.749Z",
   "count": 100,
-  "total_open": 115,
-  "sources_ok": 54,
-  "sources_failed": 25,
+  "total_open": 117,
+  "sources_ok": 55,
+  "sources_failed": 24,
   "jobs": [
+    {
+      "id": "agg:jobicy:154997",
+      "hub": "business",
+      "title": "CX Specialist (Temp)",
+      "company": "Atomic",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 25,
+      "comp_max": 30,
+      "summary": "About Golden Child Golden Child is redefining pet nutrition through an uncompromising focus on health, quality, and culinary craftsmanship.",
+      "description": "About Golden Child\n\nGolden Child is redefining pet nutrition through an uncompromising focus on health, quality, and culinary craftsmanship. A Miami-based startup, we've built a founding team of board-certified veterinary nutritionists, supply chain experts, and classically trained chefs to engineer a food system held to human-grade standards. Golden Child offers Our chef-crafted, science-backed Mains and functional Drizzles that are designed to support lifelong health. Because feeding your dog should be an expression of love, care, and taste.\n\nhttps://mygoldenchild.com/\n\nAbout the Role\n\nThe Temporary CX Specialist will keep our concierge-level customer experience running smoothly through the holiday season. This position reports directly to the Head of Customer Experience (CX). You will be the human in the loop for our AI support agent, own the conversations that need extra care, and make sure every customer gets a fast, warm, and accurate answer that reflects the Golden Child brand.\n\nThis is a hands-on, individual contributor role. It does not include managing people, setting strategy, or owning vendor relationships. The focus is quality, speed, and good judgment in the queue.\n\nDuration: Temporary, mid-November 2026 to mid-January 2027, with potential for extension based on business needs and performance.\n\nKey Responsibilities\n\n-\nOwning all aspects of monitoring and responding to email and SMS messages in Gorgias.\n\n-\nMonitor our AI tooling daily, reviewing AI-drafted and AI-sent replies to ensure they are accurate, on-brand, and aligned with our policies and brand tone.\n\n-\nCorrect AI errors before they reach customers, take over conversations the AI hands off, and flag recurring issues to the Head of CX.\n\n-\nLog gaps in AI knowledge or guidance so we can improve our automation after the holiday season.\n\n-\nOwn escalations and sensitive tickets, including delivery issues, damaged or missing boxes, billing and subscription questions, and unhappy customers.\n\n-\nRespond to and resolve customer inquiries in Gorgias with care and empathy across email, chat, and SMS.\n\n-\nResolve issues in Shopify and Recharge (order lookups, replacements, refunds, and subscription changes) within established guidelines.\n\n-\nRoute anything outside your scope, including pet health questions, to the right person quickly.\n\n-\nFollow standard processes so requests are resolved thoroughly and documented clearly, with accurate ticket tagging.\n\n-\nShare a short end-of-week summary covering volume, top customer issues, and AI quality observations.\n\nExperience and Competencies\n\n-\nMinimum 3 years of demonstrated success in customer support or client service within e-commerce/DTC, preferably in pet, consumables, or beauty.\n\n-\nHands-on experience with Gorgias and Shopify. Experience with Yuma.ai, or a similar AI support tool, is strongly required.\n\n-\nExceptional written communication skills, with a calm, professional, and empathetic tone, especially with frustrated customers.\n\n-\nStrong self-management skills, including prioritization and autonomous time management in a fully remote environment.\n\n-\nHighly organized, detail-oriented, with a consistent customer-first mindset.\n\n-\nAvailable weekdays for full engagement, including the weeks of Thanksgiving, Christmas, and New Year’s.\n\n-\nA love for pets and a passion for creating experiences that strengthen the bond between pets and their humans.\n\nWe are focused on building a diverse and inclusive workforce. If you’re excited about this role, but do not meet 100% of the qualifications listed above, we encourage you to apply.\n\n-----\n\nAtomic is an Equal Opportunity Employer and considers applicants for employment without regard to race, color, religion, sex, orientation, national origin, age, disability, genetics or any other basis forbidden under federal, state, or local law.\n\nPlease review our CCPA policies here.",
+      "apply_url": "https://jobicy.com/jobs/154997-cx-specialist-temp",
+      "source": "Jobicy",
+      "posted_at": "2026-10-11T06:01:33.000Z",
+      "scraped_at": "2026-10-11T13:41:27.382Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152989",
+      "hub": "business",
+      "title": "Technical Support Specialist - German Speaking",
+      "company": "Synthesia",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "UK",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100.",
+      "description": "Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100. Founded in 2017, the company is headquartered in London, with offices and teams across Europe and the US.\n\nAs AI continues to shape the way we live and work, Synthesia develops products to enhance visual communication and enterprise skill development, helping people work better and stay at the center of successful organizations.\n\nFollowing our recent Series E funding round, where we raised $200 million, our valuation stands at $4 billion. Our total funding exceeds $530 million from premier investors including Accel, NVentures (Nvidia's VC arm), Kleiner Perkins, GV, and Evantic Capital, alongside the founders and operators of Stripe, Datadog, Miro, and Webflow.\n\nTechnical Support Specialist\n\nAs a Technical Support Specialist, you’ll play a key role in ensuring Synthesia\n\ndelivers a reliable and consistent experience for our customers. You’ll be the go-to\n\nteam for internal technical escalations and play a key part in Synthesia’s technical\n\nSuccess.\n\nYou’ll investigate complex platform issues, apply technical fixes where possible,\n\nand escalate clearly to Engineering when required. You’ll own cases end to end,\n\nreproducing problems, analysing logs and data, validating workarounds or\n\npatches, and confirming resolution with the customer.\n\nRole Responsibilities:\n\n-\nInvestigate and troubleshoot complex technical issues across the Synthesia\n\n-\nplatform\n\n-\nApply fixes, configuration changes, or validated workarounds where possible\n\n-\nEscalate to Engineering with clear diagnostic details and impact assessments\n\n-\nReproduce reported issues in internal environments to identify root causes\n\n-\nAnalyse logs, data, and customer configurations to support investigations\n\n-\nValidate fixes or patches and confirm resolution with the customer\n\n-\nDocument findings, solutions, and technical procedures for future reference\n\n-\nCollaborate with Product and Engineering teams to report bugs and suggest\n\n-\nimprovements\n\nAbout You:\n\n-\nMinimum 5 years of experience in a technical support or similar customer-facing technical role\n\n-\nStrong troubleshooting and problem-solving skills, with a logical and analytical approach\n\n-\nConfident communicator with clear, concise verbal and written skills\n\n-\nSolid technical foundation and curiosity to learn new systems and tools\n\n-\nExperienced in diagnosing and resolving technical issues remotely\n\n-\nAble to prioritise and manage workload in a fast-paced environment\n\n-\nComfortable working both independently and collaboratively across teams\n\nTechnical Experience:\n\n-\nSSO / WorkOS configuration and troubleshooting\n\n-\nREST APIs and Postman for testing and validation\n\n-\nMonitoring and debugging using Datadog\n\n-\nSaaS platform support and administration\n\n-\nAnalysing HAR files and network traffic for issue reproduction\n\nAt Synthesia we expect everyone to...\n\n-\nPut the Customer First\n\n-\nOwn it & Go Direct\n\n-\nBe Fast & Experimental\n\n-\nMake the Journey Fun\n\nThe good stuff...\n\nIn addition to being a part of a great team, working in a fun and innovative environment, we offer:\n\n-\nA competitive salary + stock options in our fast-growing Series D startup\n\n-\nPaid parental leave\n\n-\n25 days of annual leave + public holidays + paid sick leave\n\n-\nFun culture with regular socials\n\n-\nA generous referral scheme\n\n-\nA brand new computer + monitor",
+      "apply_url": "https://jobicy.com/jobs/152989-technical-support-specialist-german-speaking",
+      "source": "Jobicy",
+      "posted_at": "2026-10-11T03:50:07.000Z",
+      "scraped_at": "2026-10-11T13:41:27.382Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:clara-mx:5230227007",
+      "hub": "fintech",
+      "title": "GTM/ Sales - Territory Sales Expert (Expert de Vendas Locais) - Belém/PA (Hybrid/Remote)",
+      "company": "Clara",
+      "company_id": "clara-mx",
+      "priority": false,
+      "category": "Personal Assistant",
+      "segment": "Corporate Card & Spend Management",
+      "level": "Mid",
+      "location": "Belem / PA / Brazil",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation.",
+      "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others.\n\nWhat you'll do\n\nWe're looking for a Sales Expert to spearhead our growth in Belém. In this role, you will be instrumental in expanding Clara's footprint by identifying high-value business opportunities, nurturing strategic client relationships, and driving sustainable revenue growth. Your contributions will directly impact our mission to revolutionize spend management for companies across Latin America.\n\n- Drive Sales Growth in Pará: Own the end-to-end sales cycle, identifying and pursuing new business opportunities to expand Clara's client base across the region.\n\n- Tap Into Belém's Business Network: Utilize your existing relationships and deep understanding of the local ecosystem—specifically among finance and operations decision-makers in Pará—to generate high-quality leads.\n\n- Build and Manage a Healthy Pipeline: Oversee lead generation, qualification, and closing, ensuring a consistent and predictable flow of new partnerships.\n\n- Be a Trusted Advisor to Your Clients: Understand their complex financial needs and deliver tailored solutions via the Clara platform, building long-term relationships.\n\n- Connect Local Insights to Company Strategy: Work closely with Marketing and Product teams to bridge regional market dynamics with our broader growth agenda, using tools like HubSpot to track and optimize your impact.\n\n- Run a Tight Operation: Use Google Drive and automated workflows to maintain rigorous documentation and performance tracking.\n\nWho you are\n\nWe're looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- Minimum 5 years of experience in high-growth sales environments (SaaS or Fintech preferred).\n\n- Local Expertise: Currently based in Belém with a strong, active network among finance leaders and key influencers in the region.\n\n- Communication: Working proficiency in English and Portuguese.\n\n- Execution: Proven track record of exceeding sales targets and managing complex negotiations independently.\n\n- Adaptability: Ability to thrive in fast-changing environments and operate with high ownership.\n\n- Tech-Savvy: Experience or strong interest in using AI tools and automation (like N8N or Slack) to improve sales workflows.\n\nNice to haves:\n\n- Technical Skills: Independent analytical skills using spreadsheets, SQL, or Python.\n\n- Language: Basic proficiency in Spanish or a desire to learn.\n\n- Tools: Prior experience using Amplemarket or HubSpot for outbound prospecting.\n\n- A good sense of humor.\n\nHow we work in this territory\n\nBelém is an emerging territory for Clara — there's no office to go into, so this role works remotely from Belém day to day. You'll ramp up in person with the team, and come together in person for team moments, events and customer visits through the year.\nWhy Clara\n\n- A high talent-density team driven to make an impact in Latin America — low ego, high ownership.\n\n- Competitive salary and stock options (ESOP) from day one.\n\n- An annual learning budget and accelerated development paths.\n\n- English is our working language, with Spanish and Portuguese every day.\n\nHow we work\n\n- Clarity — Open and direct communication: we say what we mean and give context where it matters.\n\n- Simplicity — If it can be simpler, it should be.\n\n- Ownership — We own everything we do, end to end. When something needs to happen, we don't wait.\n\n- Pride — We hold ourselves to a high standard, and it shows in what we deliver.\n\n- ABC (Always Be Changing) — We adapt fast, embrace change, and keep learning.\n\n- Inclusivity — Diverse ideas, stories and perspectives build a better Clara.\n\nIf you meet the must-haves, apply — the nice-to-haves are a bonus, not a requirement.",
+      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
+      "source": "greenhouse",
+      "posted_at": "2026-10-11T01:13:06-04:00",
+      "scraped_at": "2026-10-11T13:41:12.757Z",
+      "status": "open"
+    },
     {
       "id": "agg:weworkremotely:netlify-customer-success-associate-denver-co",
       "hub": "business",
@@ -24,7 +90,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/netlify-customer-success-associate-denver-co",
       "source": "We Work Remotely",
       "posted_at": "2026-10-10T07:31:08.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -46,29 +112,7 @@
       "apply_url": "https://jobicy.com/jobs/152926-implementation-specialist-2",
       "source": "Jobicy",
       "posted_at": "2026-10-10T03:30:03.000Z",
-      "scraped_at": "2026-10-10T13:11:44.358Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:clara-mx:5230227007",
-      "hub": "fintech",
-      "title": "Territory Sales Expert (Expert de Vendas Locais) - Belém/PA (Hybrid/Remote)",
-      "company": "Clara",
-      "company_id": "clara-mx",
-      "priority": false,
-      "category": "Personal Assistant",
-      "segment": "Corporate Card & Spend Management",
-      "level": "Mid",
-      "location": "Belem / PA / Brazil",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation.",
-      "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others.\n\nWhat you'll do\n\nWe're looking for a Sales Expert to spearhead our growth in Belém. In this role, you will be instrumental in expanding Clara's footprint by identifying high-value business opportunities, nurturing strategic client relationships, and driving sustainable revenue growth. Your contributions will directly impact our mission to revolutionize spend management for companies across Latin America.\n\n- Drive Sales Growth in Pará: Own the end-to-end sales cycle, identifying and pursuing new business opportunities to expand Clara's client base across the region.\n\n- Tap Into Belém's Business Network: Utilize your existing relationships and deep understanding of the local ecosystem—specifically among finance and operations decision-makers in Pará—to generate high-quality leads.\n\n- Build and Manage a Healthy Pipeline: Oversee lead generation, qualification, and closing, ensuring a consistent and predictable flow of new partnerships.\n\n- Be a Trusted Advisor to Your Clients: Understand their complex financial needs and deliver tailored solutions via the Clara platform, building long-term relationships.\n\n- Connect Local Insights to Company Strategy: Work closely with Marketing and Product teams to bridge regional market dynamics with our broader growth agenda, using tools like HubSpot to track and optimize your impact.\n\n- Run a Tight Operation: Use Google Drive and automated workflows to maintain rigorous documentation and performance tracking.\n\nWho you are\n\nWe're looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- Minimum 5 years of experience in high-growth sales environments (SaaS or Fintech preferred).\n\n- Local Expertise: Currently based in Belém with a strong, active network among finance leaders and key influencers in the region.\n\n- Communication: Working proficiency in English and Portuguese.\n\n- Execution: Proven track record of exceeding sales targets and managing complex negotiations independently.\n\n- Adaptability: Ability to thrive in fast-changing environments and operate with high ownership.\n\n- Tech-Savvy: Experience or strong interest in using AI tools and automation (like N8N or Slack) to improve sales workflows.\n\nNice to haves:\n\n- Technical Skills: Independent analytical skills using spreadsheets, SQL, or Python.\n\n- Language: Basic proficiency in Spanish or a desire to learn.\n\n- Tools: Prior experience using Amplemarket or HubSpot for outbound prospecting.\n\n- A good sense of humor.\n\nHow we work in this territory\n\nBelém is an emerging territory for Clara — there's no office to go into, so this role works remotely from Belém day to day. You'll ramp up in person with the team, and come together in person for team moments, events and customer visits through the year.\nWhy Clara\n\n- A high talent-density team driven to make an impact in Latin America — low ego, high ownership.\n\n- Competitive salary and stock options (ESOP) from day one.\n\n- An annual learning budget and accelerated development paths.\n\n- English is our working language, with Spanish and Portuguese every day.\n\nHow we work\n\n- Clarity — Open and direct communication: we say what we mean and give context where it matters.\n\n- Simplicity — If it can be simpler, it should be.\n\n- Ownership — We own everything we do, end to end. When something needs to happen, we don't wait.\n\n- Pride — We hold ourselves to a high standard, and it shows in what we deliver.\n\n- ABC (Always Be Changing) — We adapt fast, embrace change, and keep learning.\n\n- Inclusivity — Diverse ideas, stories and perspectives build a better Clara.\n\nIf you meet the must-haves, apply — the nice-to-haves are a bonus, not a requirement.",
-      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
-      "source": "greenhouse",
-      "posted_at": "2026-10-09T20:00:39-04:00",
-      "scraped_at": "2026-10-10T13:11:32.957Z",
+      "scraped_at": "2026-10-11T13:41:27.382Z",
       "status": "open"
     },
     {
@@ -90,7 +134,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
       "source": "We Work Remotely",
       "posted_at": "2026-10-09T07:30:56.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.171Z",
       "status": "open"
     },
     {
@@ -112,7 +156,7 @@
       "apply_url": "https://jobicy.com/jobs/154862-senior-strategic-implementation-specialist-americas-est",
       "source": "Jobicy",
       "posted_at": "2026-10-08T17:08:55.000Z",
-      "scraped_at": "2026-10-10T13:11:44.358Z",
+      "scraped_at": "2026-10-11T13:41:27.382Z",
       "status": "open"
     },
     {
@@ -134,7 +178,7 @@
       "apply_url": "https://jobicy.com/jobs/154814-senior-strategic-implementation-specialist-americas-pst",
       "source": "Jobicy",
       "posted_at": "2026-10-08T10:40:21.000Z",
-      "scraped_at": "2026-10-10T13:11:44.358Z",
+      "scraped_at": "2026-10-11T13:41:27.382Z",
       "status": "open"
     },
     {
@@ -156,7 +200,7 @@
       "apply_url": "https://jobicy.com/jobs/154816-product-support-specialist-apac",
       "source": "Jobicy",
       "posted_at": "2026-10-08T10:40:20.000Z",
-      "scraped_at": "2026-10-10T13:11:44.358Z",
+      "scraped_at": "2026-10-11T13:41:27.382Z",
       "status": "open"
     },
     {
@@ -178,7 +222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4741212005",
       "source": "greenhouse",
       "posted_at": "2026-10-08T00:15:44-04:00",
-      "scraped_at": "2026-10-10T13:11:17.977Z",
+      "scraped_at": "2026-10-11T13:41:04.113Z",
       "status": "open"
     },
     {
@@ -200,7 +244,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1252b51c-b738-4283-815c-aa7d9e7b4845",
       "source": "lever",
       "posted_at": "2026-10-07T07:46:43.958Z",
-      "scraped_at": "2026-10-10T13:11:20.480Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -222,7 +266,7 @@
       "apply_url": "https://jobs.lever.co/ro/5485b839-87f3-4976-aebe-a64821d790be",
       "source": "lever",
       "posted_at": "2026-10-06T16:09:43.504Z",
-      "scraped_at": "2026-10-10T13:11:40.501Z",
+      "scraped_at": "2026-10-11T13:41:22.564Z",
       "status": "open"
     },
     {
@@ -244,7 +288,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-10T13:11:42.938Z",
+      "scraped_at": "2026-10-11T13:41:26.718Z",
       "status": "open"
     },
     {
@@ -266,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.171Z",
       "status": "open"
     },
     {
@@ -288,7 +332,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -310,7 +354,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -332,7 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
       "source": "greenhouse",
       "posted_at": "2026-09-30T11:52:29-04:00",
-      "scraped_at": "2026-10-10T13:11:32.925Z",
+      "scraped_at": "2026-10-11T13:41:12.702Z",
       "status": "open"
     },
     {
@@ -354,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-10T13:11:19.174Z",
+      "scraped_at": "2026-10-11T13:41:05.358Z",
       "status": "open"
     },
     {
@@ -376,7 +420,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-10T13:11:09.285Z",
+      "scraped_at": "2026-10-11T13:40:57.085Z",
       "status": "open"
     },
     {
@@ -398,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-10T13:11:00.416Z",
+      "scraped_at": "2026-10-11T13:40:47.091Z",
       "status": "open"
     },
     {
@@ -420,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-10T13:11:00.417Z",
+      "scraped_at": "2026-10-11T13:40:47.092Z",
       "status": "open"
     },
     {
@@ -442,7 +486,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-10T13:11:00.417Z",
+      "scraped_at": "2026-10-11T13:40:47.092Z",
       "status": "open"
     },
     {
@@ -464,7 +508,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6163570004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:05-04:00",
-      "scraped_at": "2026-10-10T13:11:00.416Z",
+      "scraped_at": "2026-10-11T13:40:47.091Z",
       "status": "open"
     },
     {
@@ -486,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -508,7 +552,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-10T13:11:20.480Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -530,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-09-29T09:23:55-04:00",
-      "scraped_at": "2026-10-10T13:11:32.925Z",
+      "scraped_at": "2026-10-11T13:41:12.702Z",
       "status": "open"
     },
     {
@@ -552,7 +596,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -574,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-10T13:11:34.593Z",
+      "scraped_at": "2026-10-11T13:41:16.574Z",
       "status": "open"
     },
     {
@@ -596,7 +640,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -618,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-10T13:11:19.174Z",
+      "scraped_at": "2026-10-11T13:41:05.357Z",
       "status": "open"
     },
     {
@@ -640,7 +684,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -662,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-10-10T13:11:34.609Z",
+      "scraped_at": "2026-10-11T13:41:16.592Z",
       "status": "open"
     },
     {
@@ -684,7 +728,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -706,7 +750,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-10T13:11:09.285Z",
+      "scraped_at": "2026-10-11T13:40:57.086Z",
       "status": "open"
     },
     {
@@ -728,7 +772,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-09-11T20:16:48.000Z",
-      "scraped_at": "2026-10-10T13:11:42.938Z",
+      "scraped_at": "2026-10-11T13:41:26.718Z",
       "status": "open"
     },
     {
@@ -750,7 +794,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -772,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -794,7 +838,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
       "source": "lever",
       "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -816,7 +860,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -926,7 +970,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -948,7 +992,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -970,7 +1014,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -992,7 +1036,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -1014,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -1036,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-10T13:11:20.480Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -1058,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-10T13:11:20.480Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -1080,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -1102,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -1124,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-10T13:11:20.480Z",
+      "scraped_at": "2026-10-11T13:41:09.506Z",
       "status": "open"
     },
     {
@@ -1146,7 +1190,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -1168,7 +1212,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-10T13:11:42.431Z",
+      "scraped_at": "2026-10-11T13:41:26.172Z",
       "status": "open"
     },
     {
@@ -1190,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -1212,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -1234,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -1256,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-10T13:11:20.479Z",
+      "scraped_at": "2026-10-11T13:41:09.505Z",
       "status": "open"
     },
     {
@@ -1278,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
       "source": "lever",
       "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-10-10T13:11:16.473Z",
+      "scraped_at": "2026-10-11T13:41:01.441Z",
       "status": "open"
     },
     {
@@ -1300,7 +1344,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:00.588Z",
+      "scraped_at": "2026-10-11T13:40:47.138Z",
       "status": "open"
     },
     {
@@ -1322,7 +1366,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Talent-Acquisition-Specialist--12-Month-Contract-_REQ-5487",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.545Z",
       "status": "open"
     },
     {
@@ -1344,7 +1388,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Events---Partnerships-Coordinator_REQ-5503",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1366,7 +1410,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Support-Specialist_REQ-4525",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1388,7 +1432,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Australia/Customer-Support-Specialist--Enterprise_REQ-4526",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1410,7 +1454,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1432,7 +1476,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1454,7 +1498,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Senior-Accounts-Payable-Specialist_REQ-4616-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1476,7 +1520,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---IL-USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1498,7 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/New-York/Senior-Executive-Assistant_REQ-4506",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1520,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1542,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1564,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1586,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1608,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1630,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1652,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1674,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1696,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1718,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1740,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1762,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Junior-Renewals-Specialist_REQ-5109",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1784,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1806,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:06.468Z",
+      "scraped_at": "2026-10-11T13:40:53.546Z",
       "status": "open"
     },
     {
@@ -1828,7 +1872,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -1850,7 +1894,7 @@
       "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -1872,7 +1916,7 @@
       "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -1894,7 +1938,7 @@
       "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -1916,7 +1960,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -1938,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -1960,7 +2004,7 @@
       "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -1982,7 +2026,7 @@
       "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -2004,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -2026,7 +2070,7 @@
       "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -2048,7 +2092,7 @@
       "apply_url": "https://www.filevine.com/jobs/518f6c48-7977-4f35-83a4-e7794b61ca4c/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -2070,7 +2114,7 @@
       "apply_url": "https://www.filevine.com/jobs/5a6f6c7c-fad0-4f53-882e-2b33e7a4c2bf/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -2092,7 +2136,7 @@
       "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:08.863Z",
+      "scraped_at": "2026-10-11T13:40:56.626Z",
       "status": "open"
     },
     {
@@ -2114,7 +2158,7 @@
       "apply_url": "https://wise.jobs/job/senior-specialist-non-financial-risks-in-sao-paulo-jid-3805",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:09.775Z",
+      "scraped_at": "2026-10-11T13:40:57.852Z",
       "status": "open"
     },
     {
@@ -2136,7 +2180,7 @@
       "apply_url": "https://wise.jobs/job/financial-crime-reporting-specialist-bahasa-indonesia-speaker-in-budapest-jid-4297",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:09.775Z",
+      "scraped_at": "2026-10-11T13:40:57.852Z",
       "status": "open"
     },
     {
@@ -2158,51 +2202,7 @@
       "apply_url": "https://www.getyourguide.careers/jobs/8264075",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:11.853Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:getyourguide:https://www.getyourguide.careers/jobs/8207660",
-      "hub": "business",
-      "title": "People Operations Specialist APAC",
-      "company": "GetYourGuide",
-      "company_id": "getyourguide",
-      "priority": false,
-      "category": "Other",
-      "segment": "Travel Experiences Marketplace",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "People Operations Specialist APAC at GetYourGuide.",
-      "description": "",
-      "apply_url": "https://www.getyourguide.careers/jobs/8207660",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:11.853Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:getyourguide:https://www.getyourguide.careers/jobs/7571066",
-      "hub": "business",
-      "title": "Senior Localization Specialist",
-      "company": "GetYourGuide",
-      "company_id": "getyourguide",
-      "priority": false,
-      "category": "Other",
-      "segment": "Travel Experiences Marketplace",
-      "level": "Senior",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Localization Specialist at GetYourGuide.",
-      "description": "",
-      "apply_url": "https://www.getyourguide.careers/jobs/7571066",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-10T13:11:11.853Z",
+      "scraped_at": "2026-10-11T13:40:59.877Z",
       "status": "open"
     }
   ]
