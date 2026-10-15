@@ -1,10 +1,164 @@
 {
-  "generated_at": "2026-10-14T12:36:34.184Z",
+  "generated_at": "2026-10-15T12:21:34.615Z",
   "count": 100,
-  "total_open": 121,
-  "sources_ok": 54,
-  "sources_failed": 25,
+  "total_open": 126,
+  "sources_ok": 55,
+  "sources_failed": 24,
   "jobs": [
+    {
+      "id": "agg:weworkremotely:6sense-it-support-specialist",
+      "hub": "business",
+      "title": "IT Support Specialist",
+      "company": "6sense",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World, 🇺🇸 United States of America",
+      "employment_type": "full-time",
+      "comp_min": 73577,
+      "comp_max": 103913,
+      "summary": "Headquarters: United States, Remote Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.",
+      "description": "Headquarters: United States, Remote\n\nOur Mission:\n\n6sense's mission is to multiply what matters: growth, retention, and efficiency. We envision a future where companies, teams and people reach their full potential.\n\nOur People:\n\nPeople are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. Every 6sensor plays a part in deﬁning the future of our industry-leading technology. 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers. We want 6sense to be the best chapter of your career.\n\nIT Support Specialist\n\nAbout the Role\n\n6sense is looking for an IT Support Specialist who is passionate about delivering exceptional employee experiences through world-class IT support. This role combines hands-on end user support with administration of modern workplace technologies, identity systems, SaaS applications, endpoint management, and AI platforms.\n\nYou'll support a global workforce while helping improve IT operations through automation, documentation, and process improvement. We're looking for someone who enjoys solving problems, learning new technologies, and creating scalable solutions that make employees more productive.\n\nWhat You'll Do\n\n- Provide Tier 1 and Tier 2 support through tickets, chat, email, and remote support sessions.\n\n- Support macOS, Windows 11, Microsoft 365, Teams, Slack, and Zoom environments.\n\n- Manage user lifecycle processes including onboarding, offboarding, access requests, and role changes.\n\n- Administer and troubleshoot Okta, Entra ID, SSO, MFA, and identity-related services.\n\n- Support and manage SaaS platforms including Microsoft 365, Slack, Zoom, 1Password, GitHub, Claude Enterprise, and Workato.\n\n- Deploy, configure, and maintain endpoints using Intune, Iru, and CrowdStrike.\n\n- Maintain accurate asset inventory and device lifecycle management.\n\n- Support Microsoft Copilot, Claude, and other AI technologies while promoting responsible AI practices.\n\n- Develop scripts, automations, and workflow improvements that reduce manual effort and improve efficiency.\n\n- Create and maintain documentation, knowledge articles, and standard operating procedures.\n\n- Provide occasional support for Zoom Rooms, Teams meetings, executive users, and company events.\n\nWhat We're Looking For\n\n- 3+ years of experience in IT Support, Help Desk, Service Desk, or End User Computing.\n\n- Experience supporting macOS and Windows environments.\n\n- Hands-on experience with Microsoft 365, Teams, Slack, and Zoom.\n\n- Familiarity with identity and access management concepts including Okta, Entra ID, SSO, and MFA.\n\n- Experience with endpoint management tools such as Intune, Iru, or similar MDM platforms.\n\n- Strong troubleshooting, communication, and customer service skills.\n\n- Experience working in a fast-paced, remote-first environment.\n\n- Basic scripting or automation experience using PowerShell, Bash, Python, Workato, or similar tools.\n\n- Interest in AI technologies such as Microsoft Copilot and Claude.\n\n- Strong attention to detail, ownership, and a continuous improvement mindset.\n\nBonus Points\n\n- Experience administering Okta, Entra ID, Intune, or Iru.\n\n- Experience with Workato or workflow automation platforms.\n\n- Experience supporting AI platforms and governance practices.\n\n- ITIL, Okta, Microsoft, Apple, or security-related certifications.\n\n- Experience supporting executive stakeholders and globally distributed teams.\n\nSuccess in This Role\n\nYou'll thrive in this role if you're customer-obsessed, highly organized, technically curious, and motivated to improve how IT services are delivered. Success will be measured through service quality, SLA performance, knowledge sharing, asset management accuracy, and contributions to automation and process improvement.\n\nBase Salary Range: $73,577.25 - $103,913.30. The base salary range represents the anticipated low and high end of the base salary range for this position. Actual salaries may vary and may be above or below the range based on various factors, including but not limited to work location and experience. The base salary is one component of 6sense’s total compensation package for this position. Other compensation may include a bonus program or commission plan, and stock options if approved by 6sense’s board. In addition, 6sense provides a variety of benefits, including generous health insurance coverage, life, and disability insurance, a 401K employer matching program, paid holidays, self-care days, and paid time off (PTO). #Li-remote\n\nNotice of Collection and Use of Personal Information for California Residents: California Recruitment Privacy Notice and Policy\nOur Benefits:\n\nFull-time employees can take advantage of health coverage, paid parental leave, generous paid time-off and holidays, quarterly self-care days off, and stock options. We’ll make sure you have the equipment and support you need to work and connect with your teams, at home or in one of our oﬃces.\n\nWe have a growth mindset culture that is represented in all that we do, from onboarding through to numerous learning and development initiatives including access to our LinkedIn Learning platform. Employee well-being is also top of mind for us. We host quarterly wellness education sessions to encourage self care and personal growth. From wellness days to ERG-hosted events, we celebrate and energize all 6sense employees and their backgrounds.\n\nEqual Opportunity Employer:\n\n6sense is an Equal Employment Opportunity and Affirmative Action Employers. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender perception or identity, national origin, age, marital status, protected veteran status, or disability status. If you require reasonable accommodation in completing this application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please direct your inquiries to jobs@6sense.com.\n\nWe are aware of recruiting impersonation attempts that are not affiliated with 6sense in any way. All email communications from 6sense will originate from the @6sense.com domain. We will not initially contact you via text message and will never request payments. If you are uncertain whether you have been contacted by an official 6sense employee, reach out to jobs@6sense.com\n\nTo apply: https://weworkremotely.com/remote-jobs/6sense-it-support-specialist",
+      "apply_url": "https://weworkremotely.com/remote-jobs/6sense-it-support-specialist",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-15T07:31:14.000Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:customer-io-email-deliverability-specialist",
+      "hub": "business",
+      "title": "Email Deliverability Specialist",
+      "company": "Customer.io",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World",
+      "employment_type": "full-time",
+      "comp_min": 102000,
+      "comp_max": 110000,
+      "summary": "Headquarters: Americas Remote About Customer.io Over 9,000 companies — from scrappy startups to global brands — use our platform to send billions of emails, push notifications, in-…",
+      "description": "Headquarters: Americas Remote\n\nAbout Customer.io\n\nOver 9,000 companies — from scrappy startups to global brands — use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually want to receive. We help teams send smarter, more relevant messages using real-time behavioral data.\n\nAbout the role\n\nHi, my name is Caitlin, Senior Manager, Technical Support at Customer.io, and I'm looking for an Email Deliverability Specialist to join our deliverability program within Technical Support. You'll help customers reach the inbox by diagnosing sending issues, advising on best practices, and guiding senders through an email ecosystem that keeps changing.\n\nYou'll be one of several deliverability experts on a team that shares knowledge across Technical Support, so your work reaches well beyond your own queue. You'll partner with Customer Success, Technical Support, and Engineering: taking customer calls, equipping CSMs for customer conversations, working through complex technical cases alongside Engineering, and turning what you see in tickets into documentation, training, and better processes.\n\nYou'll thrive here if you think about the health of the whole program, enjoy improving how work gets done, and are equally comfortable digging into a detailed case and having a direct conversation with a customer about acceptable use.\n\nWhat we value\n\nEmpathy and curiosity: You approach every customer with patience and a desire to dig deeper, especially when a conversation gets uncomfortable.\n\nClarity: You explain complex technical concepts simply and help others do the same.\n\nCollaboration: You build strong partnerships across Support, Customer Success, and Engineering, and you treat customer outcomes as a shared goal.\n\nThinking at scale: You look at how we do things today and see what could work better for the whole organization, then you help make it happen.\n\nContinuous learning: You stay ahead of evolving standards and see change as a chance to improve how we work.\n\nWhat you'll do\n\n- Act as a trusted deliverability advisor to customers, handling complex cases through to full resolution and leading customer calls when a conversation needs it\n\n- Audit sender setup and monitor reputation across IPs and domains, using authentication (SPF, DKIM, DMARC) and BIMI, DNS configuration, and provider tools like Google Postmaster Tools, Yahoo Sender Hub, and Microsoft SNDS to diagnose blocklists, spam traps, and engagement drops\n\n- Work through highly technical issues with Engineering, taking ownership of the investigation first and sharing trends from customer cases with Product and Engineering\n\n- Identify acceptable use policy violations and spam complaints, hold clear and direct conversations with customers about compliance, and keep up with evolving standards (Gmail and Yahoo sender requirements, CAN-SPAM, GDPR)\n\n- Equip CSMs and Technical Support with the knowledge to handle deliverability conversations, through coaching, documentation, and training\n\n- Improve processes, tools, and one-to-many resources, such as help content, Academy course and proactive customer guidance, so deliverability support scales across the organization\n\nWhat we're looking for\n\n- 2-4 years of experience in email deliverability at a mid-size or large ESP, B2B SaaS company, or marketing automation platform, with exposure to deliverability at scale\n\n- Deep understanding of email authentication (SPF, DKIM, DMARC, BIMI) and infrastructure (SMTP, MTAs, DNS), with the technical comfort to work through complex issues with Engineering\n\n- Proficiency with provider data feeds (Google Postmaster Tools, Yahoo Sender Hub, Microsoft SNDS) and third-party deliverability monitoring tools like Everest, MXToolbox, or similar, and the analytical skill to turn bounce, engagement, and blocklist data into clear recommendations\n\n- Working knowledge of email compliance and acceptable use standards, and comfort having direct conversations with customers who are sending outside of them\n\n- Experience building or improving processes, documentation, or training that help a support or deliverability team scale\n\n- Excellent written and verbal communication, including comfort leading customer calls and simplifying technical concepts for any audience\n\n- Located in the United States or Canada\n\n- Bonus: participation in deliverability communities (M3AAWG, ESPC, or similar) and experience partnering with Customer Success teams\n\nCompensation & Benefits\n\nWe believe in transparency. Starting salary for this role is $102,000 - $110,000 USD (or equivalent in local currency) depending on experience and subject to market rate adjustment.\n\nWe know our people are what make us great, and we're committed to taking great care of them. Our inclusive benefits package supports your well-being and growth, including 100% coverage of medical, dental, vision, mental health, and supplemental insurance premiums for you and your family. We also offer 16 weeks paid parental leave, unlimited PTO, stipends for remote work and wellness, a professional development budget, and more.\n\nSee full benefits here →\n\nOur Process\n\nNo gotchas, no trick questions - just a clear, human process designed to help both of us make an informed decision.\n\n- 30-minute video call with a Recruiter\n\n- 45-minute video call with the Hiring Manager\n\n- 60 minute Case Study Review call with Cross-Functional Partners\n\n- 30 minute video call with potential Team Member\n\n- 30 minute final video call with Senior Leadership\n\nAll final candidates will be asked to complete a background check and employment verifications as part of our pre-employment process.\n\nCustomer.io recognizes the stifling impact of systemic injustice on diverse communities. We commit to using our influence to increase inclusion and equity within the tech industry. We strive to build an inclusive team culture, implement bias-free hiring practices, and develop community partnerships to expand our global impact.\n\nZoom is the only video conference platform that we use, virtual interviews will be conducted using the video capability (i.e., not via the chat), and offers will be extended in writing on official Customer.io letterhead. Please be vigilant in all of your job search activity, and if you have any questions please contact jobs@customer.io.\n\nJoin us!\n\nCheck out our careers page for more information about why you should come work with us! We believe in empathy, transparency, responsibility, and, yes, a little awkwardness. If you're excited by what you read — apply now.\n\nTo apply: https://weworkremotely.com/remote-jobs/customer-io-email-deliverability-specialist",
+      "apply_url": "https://weworkremotely.com/remote-jobs/customer-io-email-deliverability-specialist",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-15T07:31:00.000Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:150338",
+      "hub": "business",
+      "title": "Bilingual Print Customer Success Specialist (Contract)",
+      "company": "Staples",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Canada",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Some of what you will do: As the Digital Print Account Specialist, your role will be divided into two main areas of responsibility.",
+      "description": "Some of what you will do:\nAs the Digital Print Account Specialist, your role will be divided into two main areas of responsibility.\nFor new ePrint business opportunities, your primary responsibilities will involve prospecting potential ePrint clients, understanding their needs, and presenting our ePrint solutions to address those needs, and preparing business cases and building requests to the Digital Print Application Team. You will serve as a vital link between Staples and potential clients, contributing directly to our expansion and success.\nOn going account management for ePrint clients you will be responsible for building and maintaining strong relationships with clients and our internal account management team, constantly working to understand their ongoing and changing print and communication needs and developing and executing effective strategies to help them achieve their objectives. Your role will be crucial in ensuring client satisfaction, driving revenue growth, and customer retention, working closely with our wider account management team. \n \n \nSpecifically, You Will:\n- Act as the primary point of contact for assigned customers, fostering strong relationships, and understanding their unique business needs. \n\n- Liaise with the wider account management team, to help manage the customers relationship holistically. \n\n- Partners closely with Staples Print Sales team to retain and grow program account relationships. \n\n- Maintains detailed customer account information to highlight growth opportunities for software solutions.\n\n- Conducts quarterly reviews with customers to review storefront health and performance. Consistently seeks to find opportunities for growing relationships, working closely with Program Manager, ePrint Operations and Team Manager, ePrint.\n\n- Proactively address client concerns, troubleshoot issues, and manage client expectations. \n\n- Provides guidance and supports new sales reps in the development of program account opportunities. This includes participating in customer meetings and developing pricing & services strategies for the client. \n\n \n \nSome of what you need:\n- College or technical school diploma in graphic arts or related discipline or equivalent experience. \n\n- Reading-lengthy & complex texts to extract & interpret information. \n\n- Writing-technical & tailored texts. \n\n- Mathematical Skills-complete basic & complex mathematical calculations. \n\n- Basic skills with design software (Adobe Creative Suite).\n\n- Basic colour theory, typography print production and principles of file management and design. \n\n- Good use of Microsoft Office Suite (Outlook, Excel and PowerPoint). \n\n- Understands steps involved in the printing process. \n\n- Strong understanding of medium and complex print specifications and ability to assess the integrity of quotations from vendors. \n\n- Prior industry experience with knowledge of margins within multiple product categories. \n\n- 3 years’ experience in the graphic communication & printing industry.\n\n \n \nPhysical demands/working conditions:\n- Remote environment. \n\n \n \nSome of what you will get:\n- Associate discount\n\n- Health and Dental benefits\n\n- RRSP/DPSP\n\n- Performance bonuses\n\n- Learning & Development programs\n\n- And more...\n\n \n \n \n#MakeAnImpact \n\n We value transparency in our hiring processes. Please note, artificial intelligence may be used in certain stages to screen, assess, or select applicants, however, a human reviewer makes all final decisions. This posting is for an existing vacancy.",
+      "apply_url": "https://jobicy.com/jobs/150338-bilingual-print-customer-success-specialist-contract",
+      "source": "Jobicy",
+      "posted_at": "2026-10-15T02:50:29.000Z",
+      "scraped_at": "2026-10-15T12:21:34.109Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:cranky-concierge-travel-coordinator-1",
+      "hub": "business",
+      "title": "Travel Coordinator",
+      "company": "Cranky Concierge",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World, California, 🇺🇸 United States of America",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: Long Beach, CA URL: https://crankyconcierge.com/ The Travel Coordinator’s primary responsibilities are to manage inbound emails and phone calls, facilitate customer o…",
+      "description": "Headquarters: Long Beach, CA\n\nURL: https://crankyconcierge.com/\n\nThe Travel Coordinator’s primary responsibilities are to manage inbound emails and phone calls, facilitate customer onboarding, and keep the virtual office running smoothly. This role is well suited for someone who enjoys staying organized, communicating clearly, and helping keep things moving in a fast-paced environment.\n\nSchedule\n\nThis is a full-time, fully remote position and the standard working hours are 10am to 7pm ET Monday through Friday.\n\nJob Responsibilities\n\n-\nManage inbound emails and phone calls in a timely and professional manner.\n\n-\nSet up new trips for the Travel Planning team to work on.\n\n-\nBe the friendly, professional first point of contact for our clients.\n\n-\nInform new and existing clients about our services and pricing.\n\n-\nAssist with administrative tasks such as processing refunds, filing for compensation, and other pre- and post-travel tasks as needed.\n\n-\nAs time allows, assist with travel planning tasks including but not limited to: quoting travel insurance, purchasing seat assignments, and issuing tickets.\n\nIf this sounds like the kind of thing you like to do, then keep reading!\n\nWhat Matters in this Role\n\n-\nReliability. The team will be depending on you to stay on top of and manage the daily flow of client communications.\n\n-\nEnglish proficiency. Native-level written and verbal English is required.\n\n-\nAttention to detail. You’ll be managing a lot of information, sometimes under time pressure, so accuracy matters.\n\n-\nAbility to work under pressure. You’re responsible for ensuring that the relevant information reaches the right person in a timely manner even when there’s a lot going on.\n\n-\nHumility and teamwork. If you don't know the answer, be willing to ask others on the team for help.\n\n-\nCalm and collected. You must be able to roll with the punches and maintain a calm demeanor. The client may be stressed and angry; you can't be.\n\n-\nU.S. Work Authorization. To do this job, you’ll need to be legally authorized to work in the U.S. for any employer, without sponsorship.\n\n-\nBackground check. A clean background check will be required as this role involves handling sensitive client data.\n\n-\nLocation. This is a remote position, but you must be available and accessible during your standard working hours.\n\n-\nTechnology. You’ll need your own computer (Windows or Mac), reliable high-speed internet and a smartphone (Android or iPhone).\n\n-\nWorkspace. You’ll need access to a quiet work environment to accommodate communication with clients via email and phone.\n\nCompensation\n\n-\nStarting at $17/hr, depending on skills and experience\n\nBenefits\n\n-\n15 days of PTO per year, accruing from date of hire\n\n-\nPaid Federal holidays\n\n-\nHealth insurance\n\n-\n3% retirement match\n\n-\nMonthly phone and internet stipend\n\n-\nAccess to exclusive travel industry discounts after 6 months of employment\n\n-\nTwo company get-togethers each year\n\nWe can't stress enough how important attention to detail is, so please be sure to tell us your favorite airline in your application.\n\nTo apply: https://weworkremotely.com/remote-jobs/cranky-concierge-travel-coordinator-1",
+      "apply_url": "https://weworkremotely.com/remote-jobs/cranky-concierge-travel-coordinator-1",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-14T15:30:23.000Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:gocardless:8276080",
+      "hub": "fintech",
+      "title": "Paralegal",
+      "company": "GoCardless",
+      "company_id": "gocardless",
+      "priority": false,
+      "category": "Legal Assistant",
+      "segment": "Recurring Payments Platform",
+      "level": "Mid",
+      "location": "Leeds, UK",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nWe’re approaching ‘Legal Risk’ in Financial Services in a new way.\n\n- We are ready to serve everyone, if we wanted to - we ensure Legal Risk does not constrain the business but empowers it to achieve its goals;\n\n- We create the best possible customer experience - we want our customers (both internal and external) to look forward to going through our processes; and\n\n- We aim to automate everything we do - we don’t like inefficiencies nor do we believe that real risk mitigation is achieved by throwing people at the problem.\n\nThe Legal Team is at the forefront of GoCardless’ expansion. We must ensure that GoCardless adopts, implements and maintains forward-thinking and appropriate processes and controls, often coming across new challenges or issues that require innovative solutions.\n\nThe role\n\n- You will be an integral part of a collaborative and rapidly growing legal team at a fast-paced fintech scale-up. As a member of a busy legal team you will also contribute to team-wide initiatives and work with people from across our geos and get to learn a lot of new skills along the way.\n\n- Being the first port of call for a broad range of paralegal tasks from all business functions of a high-growth fintech scale-up\n\n- Managing the inflow of legal matters by answering basic queries from across the business and involving other members of the legal team as appropriate\n\n- Administrative tasks that require precision and quick thinking – triaging tickets, helping with setting up documents for signatures and other tasks that leave a big impact\n\n- Assisting with building out and maintaining self-help tools, playbooks and guides for the legal team and for the wider business\n\n- Helping members of the team with ad-hoc projects such as legal research, product launches, corporate projects and IP matters\n\n- An opportunity to work in a global team spanning different countries\n\nDesired skills\n\n- You have experience working as a Paralegal in a leading commercial law firm or in-house\n\n- You have a good understanding of the legal principles as well as the local law, experience in drafting agreements, corporate documents would be considered as an advantage\n\n- You are used to working independently and proactively on a variety of projects simultaneously, and can effectively prioritise, you are not afraid to think out of the box and adopt decisions when needed\n\n- You are easy to work with and are an effective communicator and want to work in a fun, fast-growing but demanding young company\n\n- Learning new things and precision is your second nature, you are tech-savvy and have a sense of how efficiency in processes is driven\n\nBase salary range: £27,976 - £37,200\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8276080",
+      "source": "greenhouse",
+      "posted_at": "2026-10-14T14:53:18-04:00",
+      "scraped_at": "2026-10-15T12:21:08.709Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:155304",
+      "hub": "business",
+      "title": "Technical Support Specialist, AU",
+      "company": "Nash",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Australia",
+      "employment_type": "full-time",
+      "comp_min": 75000,
+      "comp_max": 95000,
+      "summary": "Nash is looking for a Technical Support Specialist to join our global, 24/7 Technical Support team.",
+      "description": "Nash is looking for a Technical Support Specialist to join our global, 24/7 Technical Support team. This role sits at the heart of how Nash stabilizes the platform for our enterprise merchants - owning the investigation, resolution, and clean escalation of complex platform and integration issues across our delivery orchestration system.\n\nTechnical Support is Nash's intake and stabilization layer for everything beyond high-volume delivery inquiries. You'll be the person customers and internal teams rely on when something unusual is happening on the platform: a stuck integration, an unexpected provider behavior, a configuration question that needs real investigation. You'll resolve what you can, escalate what you can't with the context needed to move quickly, and help build the knowledge base that makes the next occurrence faster.\n\nThis is a role for someone who enjoys the detective work of complex, ambiguous technical problems, communicates clearly under pressure, and takes ownership seriously.\n\nLOCATION\n\nRemote in Australia (required)\n\nAEST - Friday - Tuesday, 11A - 8P\n\nTRAINING\n\n4 weeks, Monday - Friday\n\nA note on location\n\nThis is a remote role, but candidates must be located in Australia. This is a hard requirement driven by contractual data access obligations with our enterprise customers, not a preference - we are not able to make exceptions.\n\nWHAT YOU'LL OWN\n\n-\nPlatform and integration investigation. Diagnose configuration questions, known error patterns, API and webhook issues, and account-specific behavior across the Nash platform.\n\n-\nEscalation quality. When an issue needs Engineering or Enterprise Operations, you own the handoff — clear reproduction steps, investigation performed, impact assessment, and severity. Escalations from this team are expected to be actionable on arrival.\n\n-\nIncident coordination. Serve as the active shift team for P1 incidents — coordinating communication, engaging Engineering immediately, and keeping customers and internal stakeholders informed through resolution.\n\n-\nProactive monitoring. Watch Datadog dashboards, alerts, and logs for anomalies and emerging risks. Surface issues before they become customer-impacting where possible.\n\n-\nKnowledge base contribution. Document resolution patterns for novel issues so the next occurrence becomes a known pattern. Your work directly reduces future escalation volume.\n\n-\nOverflow support. Act as overflow for Delivery Support during peak windows when issues exceed their scope.\n\nWHAT WE'RE LOOKING FOR\n\n-\n5 - 6+ years in Technical Support, Support Engineering, or a related technical role in a SaaS environment\n\n-\nHands-on experience investigating complex platform issues - not just routing tickets, but actually diagnosing what is happening\n\n-\nComfort with APIs, webhooks, and integration troubleshooting in a production environment\n\n-\nExperience with monitoring and observability tools (Datadog, New Relic, Grafana, or similar)\n\n-\nClear, calm written communication — especially during incidents or when customers are frustrated\n\n-\nJudgment about when to investigate further versus escalate, and the discipline to document thoroughly either way\n\n-\nLocated in Australia (remote)\n\nNICE TO HAVE\n\n-\nExperience supporting logistics, marketplace, or high-volume transactional platforms\n\n-\nPrior incident response or post-mortem participation\n\n-\nExperience contributing to knowledge bases or support documentation that actually gets used\n\n-\nFamiliarity with ticketing platforms like Pylon, Zendesk, or similar\n\nMore about Nash\n\nNash is the platform that powers modern logistics.\n\nCommerce has inverted. For decades, customers came to where products and services were. Now products and services come to them, on their terms, in real time. That shift has turned every company into a logistics company, even though almost none of them were built to be one. Couriers, fleets, gig workers, parcel carriers, in-store labor, and increasingly autonomous systems all have to be coordinated in real time, against tighter windows and rising expectations, with hard-fought customer trust on the line.\n\nNash unifies decisioning, execution, and capacity into a single programmable platform. Real-time, AI-native intelligence determines what should happen, operational control executes it, and the platform dynamically orchestrates capacity from any source: a company's own fleets, partners, or the Nash delivery network. Whether a job involves a courier, a gig driver, an internal fleet, a store employee, a technician, or an autonomous vehicle, Nash selects the right resource and manages execution through completion.\n\nWe power delivery and logistics for some of the most recognizable brands in commerce, including Walmart, Urban Outfitters, 7-Eleven, and Woolworths, alongside platforms like Shopify and Toast. Over the next decade, logistics will become as foundational to commerce as payments, cloud, and connectivity. Nash is the platform that powers it.\n\nNash was founded in 2021 by Mahmoud Ghulman (2x Founder, MIT) and Aziz Alghunaim (2x Founder, 2x YC, Ex-Palantir, MIT) and is backed by Y Combinator, a16z, and other top investors. We are headquartered in San Francisco.\n\nWhat You’ll Love About Us\n\n✅ Early-stage, well-funded startup – directly impact the company and grow your career!\n✅ Quarterly broader team on-sites to bond with teammates\n✅ Competitive compensation and opportunity for equity\n✅ Flexible paid time off\n✅ Health, dental, and vision insurance for US employees",
+      "apply_url": "https://jobicy.com/jobs/155304-technical-support-specialist-au",
+      "source": "Jobicy",
+      "posted_at": "2026-10-14T14:04:05.000Z",
+      "scraped_at": "2026-10-15T12:21:34.109Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:clara-mx:5169731007",
+      "hub": "fintech",
+      "title": "Paid Media Specialist - Argentina (Hybrid)",
+      "company": "Clara",
+      "company_id": "clara-mx",
+      "priority": false,
+      "category": "Other",
+      "segment": "Corporate Card & Spend Management",
+      "level": "Mid",
+      "location": "Buenos Aires / C / Argentina",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation.",
+      "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others.\n\nWhat you'll do\n\nThis is a highly hands-on Paid Media role. You will work directly inside the advertising platforms every day—building and launching campaigns, uploading creatives and copy, checking tracking, monitoring performance, and making optimizations.\nThis is not a strategy-only, coordination, or people-management position. We’re looking for someone who enjoys executing the work themselves and taking direct ownership of campaigns from setup through ongoing optimization.\nYou’ll manage campaigns across multiple platforms and markets while using AI as a core part of your workflow. You’ll be operating within one of Latin America’s fastest-growing companies, as ranked by the Financial Times, on a team that is actively building AI-native workflows into everything we do.\nYour work will directly impact how Clara grows across Mexico, Brazil, and Colombia—and you’ll help define what AI-augmented Paid Media execution looks like at scale\n\nYour responsibilities will include:\n\n- Launch, monitor and quality assurance of campaigns across Google Ads, Meta Ads, LinkedIn Ads, and other platforms.\n\n- Set up tracking and attribution according to internal guidelines — including AI-assisted tagging validation and anomaly detection.\n\n- Use AI tools daily to accelerate campaign work: generating ad copy variants, summarizing performance data, building audience hypotheses, and drafting creative briefs.\n\n- Conduct keyword and audience research using both native platform tools and AI-powered research assistants (e.g. Claude, Perplexity, ChatGPT, custom GPTs).\n\n- Support in A/B tests and make regular optimizations — using AI to generate hypotheses, interpret results, and suggest next steps.\n\n- Build and maintain recurring performance reports, leveraging AI to surface insights and write narrative summaries.\n\n- Use automation tools (e.g. n8n, Make, Zapier) to reduce repetitive manual work and create scalable workflows around campaign management.\n\n- Work closely with the Growth Team and support teams — using AI to speed up collaboration, from briefing creative to aligning on copy.\n\nWho you are:\n\nWe’re looking for someone who meets the minimum requirements to be considered for the role. The preferred qualifications are a bonus, not a requirement.\n\nMust haves:\n\n- 2+ year of experience managing campaigns on Google Ads, Meta Ads and/or LinkedIn Ads (other platforms are a plus, but not required).\n\n- Knows how to navigate ad platforms, create audiences, choose formats, and optimize campaigns.\n\n- Confident working with data and tracking the main Paid Media KPIs (spreadsheets, Looker Studio, Power BI, platform native reporting tools or similar).\n\n- Active, daily user of AI tools — you use ChatGPT, Claude, Gemini, Perplexity or similar tools as part of your real workflow, not just occasionally.\n\n- Can write effective prompts: you know how to give AI models context, constraints and examples to get useful outputs on the first or second try.\n\n- Has experience using AI to produce or improve ad copy, creative briefs, keyword lists, or performance summaries.\n\n- Organized, precise and able to handle multiple campaigns in parallel.\n\n- Comfortable communicating with both technical and non-technical teams.\n\n- Genuinely interested in Paid Media and willing to go deep.\n\nNice to haves:\n\n- Experience with automation tools like n8n, Make or Zapier to build workflows around paid media tasks.\n\n- Experience building custom GPTs, AI agents, or AI-assisted reporting pipelines.\n\n- Experience with less common platforms (Spotify Ads, programmatic, Uber Ads etc.).\n\n- Interest or experience in AI workflows, internal tooling, or prompt engineering.\n\n- Experience collaborating with creative teams — including using AI to brief or iterate on creative assets.\n\n- Experience working with B2B SaaS or Fintech.\n\n- Experience with MMMs and/or advanced attribution models.\n\n- Basic understanding of landing page CRO, Google Analytics, or CRM tools like HubSpot.\n\nWhy Clara\n\n- A high talent-density team driven to make an impact in Latin America — low ego, high ownership.\n\n- Competitive salary and stock options (ESOP) from day one.\n\n- An annual learning budget and accelerated development paths.\n\n- English is our working language, with Spanish and Portuguese every day.\n\nHow we work\n\n- Clarity — Open and direct communication: we say what we mean and give context where it matters.\n\n- Simplicity — If it can be simpler, it should be.\n\n- Ownership — We own everything we do, end to end. When something needs to happen, we don't wait.\n\n- Pride — We hold ourselves to a high standard, and it shows in what we deliver.\n\n- ABC (Always Be Changing) — We adapt fast, embrace change, and keep learning.\n\n- Inclusivity — Diverse ideas, stories and perspectives build a better Clara.\n\nIf you meet the must-haves, apply — the nice-to-haves are a bonus, not a requirement.",
+      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169731007",
+      "source": "greenhouse",
+      "posted_at": "2026-10-14T12:47:33-04:00",
+      "scraped_at": "2026-10-15T12:21:22.269Z",
+      "status": "open"
+    },
     {
       "id": "agg:jobicy:153160",
       "hub": "business",
@@ -24,7 +178,7 @@
       "apply_url": "https://jobicy.com/jobs/153160-customer-success-specialist-5",
       "source": "Jobicy",
       "posted_at": "2026-10-14T02:27:16.000Z",
-      "scraped_at": "2026-10-14T12:36:33.814Z",
+      "scraped_at": "2026-10-15T12:21:34.109Z",
       "status": "open"
     },
     {
@@ -46,7 +200,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-13T16:00:30.000Z",
-      "scraped_at": "2026-10-14T12:36:32.688Z",
+      "scraped_at": "2026-10-15T12:21:33.110Z",
       "status": "open"
     },
     {
@@ -68,7 +222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-10-13T14:30:40-04:00",
-      "scraped_at": "2026-10-14T12:36:22.464Z",
+      "scraped_at": "2026-10-15T12:21:22.232Z",
       "status": "open"
     },
     {
@@ -90,7 +244,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
       "source": "greenhouse",
       "posted_at": "2026-10-13T14:30:40-04:00",
-      "scraped_at": "2026-10-14T12:36:22.464Z",
+      "scraped_at": "2026-10-15T12:21:22.232Z",
       "status": "open"
     },
     {
@@ -112,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/155154-tier-2-technical-support-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-12T16:18:20.000Z",
-      "scraped_at": "2026-10-14T12:36:33.814Z",
+      "scraped_at": "2026-10-15T12:21:34.109Z",
       "status": "open"
     },
     {
@@ -134,7 +288,7 @@
       "apply_url": "https://jobicy.com/jobs/155120-mid-market-implementation-specialist-americas",
       "source": "Jobicy",
       "posted_at": "2026-10-12T12:37:16.000Z",
-      "scraped_at": "2026-10-14T12:36:33.815Z",
+      "scraped_at": "2026-10-15T12:21:34.109Z",
       "status": "open"
     },
     {
@@ -156,7 +310,7 @@
       "apply_url": "https://jobicy.com/jobs/155093-customer-support-representative-night-shift",
       "source": "Jobicy",
       "posted_at": "2026-10-12T07:02:34.000Z",
-      "scraped_at": "2026-10-14T12:36:33.815Z",
+      "scraped_at": "2026-10-15T12:21:34.110Z",
       "status": "open"
     },
     {
@@ -178,7 +332,7 @@
       "apply_url": "https://jobicy.com/jobs/155085-order-processing-tech-support-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-12T06:59:51.000Z",
-      "scraped_at": "2026-10-14T12:36:33.815Z",
+      "scraped_at": "2026-10-15T12:21:34.110Z",
       "status": "open"
     },
     {
@@ -200,29 +354,7 @@
       "apply_url": "https://jobicy.com/jobs/155087-order-processing-tech-support-specialist-6-month-fixed-term-contract",
       "source": "Jobicy",
       "posted_at": "2026-10-12T06:59:50.000Z",
-      "scraped_at": "2026-10-14T12:36:33.815Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:153069",
-      "hub": "business",
-      "title": "Product Support Specialist - EMEA",
-      "company": "Ashby",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Europe",
-      "employment_type": "full-time",
-      "comp_min": 59500,
-      "comp_max": 76500,
-      "summary": "Hello! I’m Barry, Support Manager at Ashby. I'm excited to share that we're hiring Product Support Specialists in Europe.",
-      "description": "Hello! I’m Barry, Support Manager at Ashby. I'm excited to share that we're hiring Product Support Specialists in Europe.\n\nPlease note: we’re currently hiring Product Support Specialists to work one weekend day in exchange for a weekday off. This role will follow either a Tuesday–Saturday or Sunday–Thursday schedule, with occasional adjustments for holidays or business needs. You can share your preferred working hours in your application.\n\nOver the past few years, we’ve built a team of Ashby experts who delight customers through keen attention to detail, deep product knowledge, and fast, thoughtful support. By joining the team, you’ll contribute to delivering that same world-class experience.\n\nIn this role, you’ll work closely with customers every day. Ashby is a broad and complex product, so you can expect to handle everything from troubleshooting sophisticated integrations to guiding customers through detailed workflows and best practices.\n\nYou’ll also spend time on projects that make the work we do better. Past projects our team has taken on include:\n\n-\nAbsorbing and synthesizing highly technical work from our Engineering Team to create enablement for technical up-leveling of the broader Support Team.\n\n-\nDeveloping workflow automation allowing for better team cohesion and efficacy.\n\nAs a company, we value a strong sense of ownership, principled thinking over experience, and thoughtful communication. These and other values, which we’ll explore more deeply during the interview process, guide how we work.\n\nYou should apply if:\n\n-\nYou are already comfortable owning complex SaaS troubleshooting from first report through resolution, including isolating configuration issues, reproducing ambiguous behavior, and communicating clearly\n\n-\nYou can explain technical issues concisely, you think systematically, and operate with strong ownership in asynchronous environments. You can explain the same issue differently depending on the audience, while staying clear and direct.\n\n-\nYou’re curious—both when addressing customers and when creating solutions that improve our workflows. You seek the answers beyond what’s on the surface.\n\n-\nYou delight customers. You possess keen attention to detail, ensure your responses are thorough and clear, and are empathetic along the way.\n\n-\nYou can balance investigation, customer communication, and escalation quality in a fast-moving environment.\n\n-\nYou've done B2B support across company sizes, from SMB to enterprise.\n\nYou should not apply if:\n\n-\nYour recent experience is primarily customer success management, account management, or customer onboarding\n\n-\nYou're more drawn to coordination, enablement, or team leadership than spending your days deep in tickets.\n\n-\nYou avoid getting in the weeds of solving technical problems; each member of our support team is highly technical and capable of solving deeply complex tickets.\n\n-\nYou prefer to triage tickets swiftly; if tagging in Engineering early on (without attempting comprehensive solutions) is an exhale moment, this is likely not a great fit.\n\n-\nYou prefer to support a product you can know the ins and outs of quickly (such as a point solution) rather than a product that is rapidly evolving with quite a bit of surface area.\n\nAbout Ashby\n\nWe’re building the next generation of enterprise software, and we’re starting with a suite of products that help talent leaders, recruiters, and hiring managers run their hiring process significantly better. Learn more on our website: https://www.ashbyhq.com/\n\nWe are well funded and backed by great investors, including Y Combinator, Elad Gil and Lachy Groom. Following our Series D in 2025, we’re continuing to grow ARR at more than 100% year over year, serving over 4,000 customers, including industry leaders like Snowflake, OpenAI, Shopify, Ramp, Notion, Reddit, and Zapier (and many others who we cannot name!). Our growth and retention metrics are best-in-class among our peers. We’ll share more details once we meet. In short, it's the perfect time to join!\n\nAbout Go To Market\n\nWe view our Support team as an extension of the product itself, one that ensures an optimal customer experience for customers ranging across all market segments. Here are a few points that should give you an idea of what it is like to work with us:\n\n-\nWe spend a lot of time building best-in-class products since we believe a highly differentiated product is easier to sell.\n\n-\nWe also spend a lot of time building a best-in-class customer experience. We aim to offer deep expertise whenever we interact with prospects and customers.\n\n-\nWe strongly believe that small teams with very talented people and the right work environment deliver much better performance than teams with large headcount.\n\nWe value a strong sense of ownership, principled thinking over experience, and thoughtful communication (we put a lot of effort into using the right communication channels) - we’ll get into these and other values during the hiring process. You can take a look at our Leadership Principles to get a sense of what we value in People Leaders at Ashby.\n\nInterview Process\n\nOur interview process is thorough—we aim to ensure each person that joins the team is the right fit for Ashby and will provide ample information for you to assess if Ashby is the right fit for you. The process for this role is as follows:\n\n-\nIntro Call with Recruiting - 30 Minutes\n\n-\nTake Home Assessment - 1 week to complete\n\n-\nHiring Manager Interview - 45 Minutes\n\n-\nSkills Fit Interview - 45 Minutes\n\n-\nTeam Insights Interview + Hiring Manager Closing Questions - 40 Minutes\n\nThroughout our interview process, you will be evaluated on both technical reasoning and communication precision.\n\nOnboarding Process\n\nAshby is a highly complex product, and we invest a lot of time in ensuring our support team members are experts on the platform. Your first 30 days will focus primarily on onboarding and learning the product. With support and guidance, you’ll begin taking tickets in week one, so you can start getting to know our customers, our processes, and begin making an impact right away. All while continuing to build confidence and depth in the platform.\n\nBenefits\n\n-\n10-year exercise window for stock options. You shouldn’t feel pressure to purchase stock options if you leave Ashby —do it when you feel financially comfortable.\n\n-\nUnlimited PTO. Expect “Vacation?” in our one-on-one agenda until you start taking it\n\n-\nTwelve weeks of fully paid family leave in the US. We plan to expand this to employees in other countries as situations arise.\n\n-\nGenerous equipment, software, and office furniture budget. Get what you need to be happy and productive!\n\n-\n$100/month education budget with more expensive items (like conferences) covered with manager approval.\n\nAshby provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity, or gender expression. We are committed to a diverse and inclusive workforce and welcome people from all backgrounds, experiences, perspectives, and abilities.\n\nAshby is committed to a fair and transparent hiring process. We confirm that this advertisement is for an active, existing vacancy within our organization. Please be advised that we may use artificial intelligence-driven tools to assist our recruitment team in screening, assessing, and selecting candidates for this position.",
-      "apply_url": "https://jobicy.com/jobs/153069-product-support-specialist-emea",
-      "source": "Jobicy",
-      "posted_at": "2026-10-12T02:40:18.000Z",
-      "scraped_at": "2026-10-14T12:36:33.815Z",
+      "scraped_at": "2026-10-15T12:21:34.110Z",
       "status": "open"
     },
     {
@@ -244,7 +376,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-10-11T20:17:27.000Z",
-      "scraped_at": "2026-10-14T12:36:33.179Z",
+      "scraped_at": "2026-10-15T12:21:33.548Z",
       "status": "open"
     },
     {
@@ -266,51 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-11T15:26:05-04:00",
-      "scraped_at": "2026-10-14T12:36:22.514Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:154997",
-      "hub": "business",
-      "title": "CX Specialist (Temp)",
-      "company": "Atomic",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 25,
-      "comp_max": 30,
-      "summary": "About Golden Child Golden Child is redefining pet nutrition through an uncompromising focus on health, quality, and culinary craftsmanship.",
-      "description": "About Golden Child\n\nGolden Child is redefining pet nutrition through an uncompromising focus on health, quality, and culinary craftsmanship. A Miami-based startup, we've built a founding team of board-certified veterinary nutritionists, supply chain experts, and classically trained chefs to engineer a food system held to human-grade standards. Golden Child offers Our chef-crafted, science-backed Mains and functional Drizzles that are designed to support lifelong health. Because feeding your dog should be an expression of love, care, and taste.\n\nhttps://mygoldenchild.com/\n\nAbout the Role\n\nThe Temporary CX Specialist will keep our concierge-level customer experience running smoothly through the holiday season. This position reports directly to the Head of Customer Experience (CX). You will be the human in the loop for our AI support agent, own the conversations that need extra care, and make sure every customer gets a fast, warm, and accurate answer that reflects the Golden Child brand.\n\nThis is a hands-on, individual contributor role. It does not include managing people, setting strategy, or owning vendor relationships. The focus is quality, speed, and good judgment in the queue.\n\nDuration: Temporary, mid-November 2026 to mid-January 2027, with potential for extension based on business needs and performance.\n\nKey Responsibilities\n\n-\nOwning all aspects of monitoring and responding to email and SMS messages in Gorgias.\n\n-\nMonitor our AI tooling daily, reviewing AI-drafted and AI-sent replies to ensure they are accurate, on-brand, and aligned with our policies and brand tone.\n\n-\nCorrect AI errors before they reach customers, take over conversations the AI hands off, and flag recurring issues to the Head of CX.\n\n-\nLog gaps in AI knowledge or guidance so we can improve our automation after the holiday season.\n\n-\nOwn escalations and sensitive tickets, including delivery issues, damaged or missing boxes, billing and subscription questions, and unhappy customers.\n\n-\nRespond to and resolve customer inquiries in Gorgias with care and empathy across email, chat, and SMS.\n\n-\nResolve issues in Shopify and Recharge (order lookups, replacements, refunds, and subscription changes) within established guidelines.\n\n-\nRoute anything outside your scope, including pet health questions, to the right person quickly.\n\n-\nFollow standard processes so requests are resolved thoroughly and documented clearly, with accurate ticket tagging.\n\n-\nShare a short end-of-week summary covering volume, top customer issues, and AI quality observations.\n\nExperience and Competencies\n\n-\nMinimum 3 years of demonstrated success in customer support or client service within e-commerce/DTC, preferably in pet, consumables, or beauty.\n\n-\nHands-on experience with Gorgias and Shopify. Experience with Yuma.ai, or a similar AI support tool, is strongly required.\n\n-\nExceptional written communication skills, with a calm, professional, and empathetic tone, especially with frustrated customers.\n\n-\nStrong self-management skills, including prioritization and autonomous time management in a fully remote environment.\n\n-\nHighly organized, detail-oriented, with a consistent customer-first mindset.\n\n-\nAvailable weekdays for full engagement, including the weeks of Thanksgiving, Christmas, and New Year’s.\n\n-\nA love for pets and a passion for creating experiences that strengthen the bond between pets and their humans.\n\nWe are focused on building a diverse and inclusive workforce. If you’re excited about this role, but do not meet 100% of the qualifications listed above, we encourage you to apply.\n\n-----\n\nAtomic is an Equal Opportunity Employer and considers applicants for employment without regard to race, color, religion, sex, orientation, national origin, age, disability, genetics or any other basis forbidden under federal, state, or local law.\n\nPlease review our CCPA policies here.",
-      "apply_url": "https://jobicy.com/jobs/154997-cx-specialist-temp",
-      "source": "Jobicy",
-      "posted_at": "2026-10-11T06:01:33.000Z",
-      "scraped_at": "2026-10-14T12:36:33.815Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:152989",
-      "hub": "business",
-      "title": "Technical Support Specialist - German Speaking",
-      "company": "Synthesia",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "UK",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100.",
-      "description": "Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100. Founded in 2017, the company is headquartered in London, with offices and teams across Europe and the US.\n\nAs AI continues to shape the way we live and work, Synthesia develops products to enhance visual communication and enterprise skill development, helping people work better and stay at the center of successful organizations.\n\nFollowing our recent Series E funding round, where we raised $200 million, our valuation stands at $4 billion. Our total funding exceeds $530 million from premier investors including Accel, NVentures (Nvidia's VC arm), Kleiner Perkins, GV, and Evantic Capital, alongside the founders and operators of Stripe, Datadog, Miro, and Webflow.\n\nTechnical Support Specialist\n\nAs a Technical Support Specialist, you’ll play a key role in ensuring Synthesia\n\ndelivers a reliable and consistent experience for our customers. You’ll be the go-to\n\nteam for internal technical escalations and play a key part in Synthesia’s technical\n\nSuccess.\n\nYou’ll investigate complex platform issues, apply technical fixes where possible,\n\nand escalate clearly to Engineering when required. You’ll own cases end to end,\n\nreproducing problems, analysing logs and data, validating workarounds or\n\npatches, and confirming resolution with the customer.\n\nRole Responsibilities:\n\n-\nInvestigate and troubleshoot complex technical issues across the Synthesia\n\n-\nplatform\n\n-\nApply fixes, configuration changes, or validated workarounds where possible\n\n-\nEscalate to Engineering with clear diagnostic details and impact assessments\n\n-\nReproduce reported issues in internal environments to identify root causes\n\n-\nAnalyse logs, data, and customer configurations to support investigations\n\n-\nValidate fixes or patches and confirm resolution with the customer\n\n-\nDocument findings, solutions, and technical procedures for future reference\n\n-\nCollaborate with Product and Engineering teams to report bugs and suggest\n\n-\nimprovements\n\nAbout You:\n\n-\nMinimum 5 years of experience in a technical support or similar customer-facing technical role\n\n-\nStrong troubleshooting and problem-solving skills, with a logical and analytical approach\n\n-\nConfident communicator with clear, concise verbal and written skills\n\n-\nSolid technical foundation and curiosity to learn new systems and tools\n\n-\nExperienced in diagnosing and resolving technical issues remotely\n\n-\nAble to prioritise and manage workload in a fast-paced environment\n\n-\nComfortable working both independently and collaboratively across teams\n\nTechnical Experience:\n\n-\nSSO / WorkOS configuration and troubleshooting\n\n-\nREST APIs and Postman for testing and validation\n\n-\nMonitoring and debugging using Datadog\n\n-\nSaaS platform support and administration\n\n-\nAnalysing HAR files and network traffic for issue reproduction\n\nAt Synthesia we expect everyone to...\n\n-\nPut the Customer First\n\n-\nOwn it & Go Direct\n\n-\nBe Fast & Experimental\n\n-\nMake the Journey Fun\n\nThe good stuff...\n\nIn addition to being a part of a great team, working in a fun and innovative environment, we offer:\n\n-\nA competitive salary + stock options in our fast-growing Series D startup\n\n-\nPaid parental leave\n\n-\n25 days of annual leave + public holidays + paid sick leave\n\n-\nFun culture with regular socials\n\n-\nA generous referral scheme\n\n-\nA brand new computer + monitor",
-      "apply_url": "https://jobicy.com/jobs/152989-technical-support-specialist-german-speaking",
-      "source": "Jobicy",
-      "posted_at": "2026-10-11T03:50:07.000Z",
-      "scraped_at": "2026-10-14T12:36:33.815Z",
+      "scraped_at": "2026-10-15T12:21:22.269Z",
       "status": "open"
     },
     {
@@ -332,7 +420,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/netlify-customer-success-associate-denver-co",
       "source": "We Work Remotely",
       "posted_at": "2026-10-10T07:31:08.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -354,7 +442,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
       "source": "We Work Remotely",
       "posted_at": "2026-10-09T07:30:56.000Z",
-      "scraped_at": "2026-10-14T12:36:32.688Z",
+      "scraped_at": "2026-10-15T12:21:33.110Z",
       "status": "open"
     },
     {
@@ -376,7 +464,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1252b51c-b738-4283-815c-aa7d9e7b4845",
       "source": "lever",
       "posted_at": "2026-10-07T07:46:43.958Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -398,7 +486,7 @@
       "apply_url": "https://jobs.lever.co/ro/5485b839-87f3-4976-aebe-a64821d790be",
       "source": "lever",
       "posted_at": "2026-10-06T16:09:43.504Z",
-      "scraped_at": "2026-10-14T12:36:31.289Z",
+      "scraped_at": "2026-10-15T12:21:30.932Z",
       "status": "open"
     },
     {
@@ -420,7 +508,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-14T12:36:33.179Z",
+      "scraped_at": "2026-10-15T12:21:33.548Z",
       "status": "open"
     },
     {
@@ -442,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -464,7 +552,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -486,7 +574,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -504,11 +592,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensiv…",
-      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members across UK and India\n\n- Over $300 million raised in funding\n\n- Over 2,800 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE ROLE\n\nWe are looking for a highly skilled and data-driven Copywriter – SEO & ASO to lead our organic growth efforts across web and mobile. The ideal candidate will own end-to-end SEO and ASO strategy to drive high-intent organic acquisition for our MSME-focused financial products including Fixed Deposits, Insurance/Assurance, Lending, Prepaid Cards, and business banking solutions.\n\nKey Responsibilities:\n\nSearch Engine Optimization (SEO)\n\n- Build, own, and execute organic acquisition strategy to drive high-quality traffic and conversions from MSME merchants and financial product seekers.\n\n- Conduct keyword research and competitor analysis across MSME, lending, FD, assurance, and prepaid card segments.\n\n- Optimize website architecture, internal linking, product landing pages, blogs, and performance pages to improve rankings & search visibility.\n\n- Lead technical SEO improvements: crawlability, indexing, Core Web Vitals, site speed, structured data/schema.\n\n- Build content strategy with product & content teams—blog articles, product guides, comparison pages, FAQ hubs, UGC, etc.\n\n- Track organic funnel performance and optimize for sign-ups, applications, and revenue impact.\n\n- Manage agency relationships, freelancers, and internal resources.\n\nApp Store Optimization (ASO)\n\n- Own the growth of organic app installs for Android & iOS.\n\n- Optimize metadata: titles, descriptions, screenshots, preview videos, and localized content.\n\n- Research and implement keyword expansion, competitor benchmarking, and A/B testing strategies.\n\n- Improve app rating, reviews management, and conversion from store listing views to installs.\n\n- Partner with product teams to align features and releases with store optimization opportunities.\n\nAnalytics & Performance\n\n- Analyze data using GA4, Search Console, App Radar/Sensor Tower, AppFollow, SEMRush, Ahrefs, SimilarWeb, and other tools.\n\n- Define KPIs and report on organic install growth, ranking improvements, conversion impact, and business outcomes.\n\n- Build forecasting models for organic acquisition ROI & revenue contribution.\n\n- Collaborate with performance marketing to reduce CAC via organic uplift.\n\nQualifications & Skills\n\n- 3+ years of hands-on experience in SEO & ASO, ideally in Fintech or BFSI.\n\n- Proven track record of scaling organic acquisition and driving measurable business impact.\n\n- Strong expertise in keyword planning, technical SEO, link-building strategies, and app store analytics.\n\n- Comfort with tools like GA4, GSC, Ahrefs, SEMRush, App Radar, AppTweak, Firebase, Data Studio, Hotjar, etc.\n\n- Good understanding of MSME user behavior, digital lending ecosystem, RBI compliance environment, and financial product search trends.\n\n- Strong analytical & stakeholder communication skills; ability to convert insights into action.\n\nWhat You’ll Bring\n\n- Growth mindset with ownership attitude.\n\n- Ability to work cross-functionally with product, tech, and performance teams.\n\n- Passion for solving customer problems and building trust-first financial products.\n\nKey Performance Indicators\n\n- Organic traffic & ranking improvements.\n\n- Growth in organic registrations / applications / revenue.\n\n- Increase in app store conversion rate & keyword rankings.\n\n- Reduction in dependency on paid acquisition & CAC improvement.\n\nWHAT WE ARE LOOKING FOR\n\n- Experience in a content role, ideally 3+ years.\n\n- You are knowledgeable and passionate about content, conversion & SEO.\n\n- You are self-assured, driven, able to make decisions and take responsibility for them as well as great teamwork skills.\n\n- You are able to communicate with different audiences, internally and externally.\n\n- You have excellent communication and copywriting skills.\n\n- You have a strong grasp of English grammar, structure and punctuation.\n\n- You have an eye for detail, as well as excellent proofreading and editing skills.\n\n- You are able to adapt your writing style to fit Tide’s tone of voice.\n\n- You are familiar with industry trends and competition, identify strategic opportunities.\n\n- You have excellent planning, organisational and time management skills.\n\n- You are adaptable and able to grow with the role, working with different people whilst being flexible.\n\n- You may also have experience in Fin-tech, a start-up or fast growing company.\n\n- You may also have experience working in subscription and/or app-based business models.\n\nWHAT YOU’LL GET IN RETURN\n\nOur location-specific employee benefits are designed to cater to the unique needs of Tideans:\n\n- Competitive Compensation – Competitive salary.\n\n- Time Off – Generous annual leave on top of bank holidays.\n\n- Parental Leave – Paid maternity, paternity, and adoption leave to support your family journey.\n\n- Sabbatical – Extended unpaid and paid leave options after completing milestone years with Tide.\n\n- Health Insurance – Private family insurance with additional OPD coverage and top-up options.\n\n- Life & Accident Cover – Comprehensive accidental and life insurance protection.\n\n- Mental Wellbeing – Access to therapy sessions, courses, meditations, and workshops.\n\n- Volunteering & Development Days – Paid days annually for volunteering or personal growth.\n\n- Learning & Development – Annual budget for books, courses, coaching, and more.\n\n- Home Office Setup – Contribution towards setting up your home office.\n\n- Laptop Ownership – Keep your old laptop and get a new one when it’s time for a replacement.\n\n- Snacks & Meals – Office perks with snacks, coffee, tea, and lunch (location dependent).\n\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
+      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members globally and rapidly growing\n\n- Over $300 million raised in funding\n\n- 3,000 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE ROLE\n\nWe are looking for a highly skilled and data-driven Copywriter – SEO & ASO to lead our organic growth efforts across web and mobile. The ideal candidate will own end-to-end SEO and ASO strategy to drive high-intent organic acquisition for our MSME-focused financial products including Fixed Deposits, Insurance/Assurance, Lending, Prepaid Cards, and business banking solutions.\n\nKey Responsibilities:\n\nSearch Engine Optimization (SEO)\n\n- Build, own, and execute organic acquisition strategy to drive high-quality traffic and conversions from MSME merchants and financial product seekers.\n\n- Conduct keyword research and competitor analysis across MSME, lending, FD, assurance, and prepaid card segments.\n\n- Optimize website architecture, internal linking, product landing pages, blogs, and performance pages to improve rankings & search visibility.\n\n- Lead technical SEO improvements: crawlability, indexing, Core Web Vitals, site speed, structured data/schema.\n\n- Build content strategy with product & content teams—blog articles, product guides, comparison pages, FAQ hubs, UGC, etc.\n\n- Track organic funnel performance and optimize for sign-ups, applications, and revenue impact.\n\n- Manage agency relationships, freelancers, and internal resources.\n\nApp Store Optimization (ASO)\n\n- Own the growth of organic app installs for Android & iOS.\n\n- Optimize metadata: titles, descriptions, screenshots, preview videos, and localized content.\n\n- Research and implement keyword expansion, competitor benchmarking, and A/B testing strategies.\n\n- Improve app rating, reviews management, and conversion from store listing views to installs.\n\n- Partner with product teams to align features and releases with store optimization opportunities.\n\nAnalytics & Performance\n\n- Analyze data using GA4, Search Console, App Radar/Sensor Tower, AppFollow, SEMRush, Ahrefs, SimilarWeb, and other tools.\n\n- Define KPIs and report on organic install growth, ranking improvements, conversion impact, and business outcomes.\n\n- Build forecasting models for organic acquisition ROI & revenue contribution.\n\n- Collaborate with performance marketing to reduce CAC via organic uplift.\n\nQualifications & Skills\n\n- 3+ years of hands-on experience in SEO & ASO, ideally in Fintech or BFSI.\n\n- Proven track record of scaling organic acquisition and driving measurable business impact.\n\n- Strong expertise in keyword planning, technical SEO, link-building strategies, and app store analytics.\n\n- Comfort with tools like GA4, GSC, Ahrefs, SEMRush, App Radar, AppTweak, Firebase, Data Studio, Hotjar, etc.\n\n- Good understanding of MSME user behavior, digital lending ecosystem, RBI compliance environment, and financial product search trends.\n\n- Strong analytical & stakeholder communication skills; ability to convert insights into action.\n\nWhat You’ll Bring\n\n- Growth mindset with ownership attitude.\n\n- Ability to work cross-functionally with product, tech, and performance teams.\n\n- Passion for solving customer problems and building trust-first financial products.\n\nKey Performance Indicators\n\n- Organic traffic & ranking improvements.\n\n- Growth in organic registrations / applications / revenue.\n\n- Increase in app store conversion rate & keyword rankings.\n\n- Reduction in dependency on paid acquisition & CAC improvement.\n\nWHAT WE ARE LOOKING FOR\n\n- Experience in a content role, ideally 3+ years.\n\n- You are knowledgeable and passionate about content, conversion & SEO.\n\n- You are self-assured, driven, able to make decisions and take responsibility for them as well as great teamwork skills.\n\n- You are able to communicate with different audiences, internally and externally.\n\n- You have excellent communication and copywriting skills.\n\n- You have a strong grasp of English grammar, structure and punctuation.\n\n- You have an eye for detail, as well as excellent proofreading and editing skills.\n\n- You are able to adapt your writing style to fit Tide’s tone of voice.\n\n- You are familiar with industry trends and competition, identify strategic opportunities.\n\n- You have excellent planning, organisational and time management skills.\n\n- You are adaptable and able to grow with the role, working with different people whilst being flexible.\n\n- You may also have experience in Fin-tech, a start-up or fast growing company.\n\n- You may also have experience working in subscription and/or app-based business models.\n\nWHAT YOU’LL GET IN RETURN\n\nOur location-specific employee benefits are designed to cater to the unique needs of Tideans:\n\n- Competitive Compensation – Competitive salary.\n\n- Time Off – Generous annual leave on top of bank holidays.\n\n- Parental Leave – Paid maternity, paternity, and adoption leave to support your family journey.\n\n- Sabbatical – Extended unpaid and paid leave options after completing milestone years with Tide.\n\n- Health Insurance – Private family insurance with additional OPD coverage and top-up options.\n\n- Life & Accident Cover – Comprehensive accidental and life insurance protection.\n\n- Mental Wellbeing – Access to therapy sessions, courses, meditations, and workshops.\n\n- Volunteering & Development Days – Paid days annually for volunteering or personal growth.\n\n- Learning & Development – Annual budget for books, courses, coaching, and more.\n\n- Home Office Setup – Contribution towards setting up your home office.\n\n- Laptop Ownership – Keep your old laptop and get a new one when it’s time for a replacement.\n\n- Snacks & Meals – Office perks with snacks, coffee, tea, and lunch (location dependent).\n\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-14T12:36:18.016Z",
+      "scraped_at": "2026-10-15T12:21:17.494Z",
       "status": "open"
     },
     {
@@ -530,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-14T12:36:01.648Z",
+      "scraped_at": "2026-10-15T12:21:08.709Z",
       "status": "open"
     },
     {
@@ -552,7 +640,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-14T12:35:51.637Z",
+      "scraped_at": "2026-10-15T12:20:58.453Z",
       "status": "open"
     },
     {
@@ -574,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-14T12:35:51.638Z",
+      "scraped_at": "2026-10-15T12:20:58.453Z",
       "status": "open"
     },
     {
@@ -596,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-14T12:35:51.638Z",
+      "scraped_at": "2026-10-15T12:20:58.454Z",
       "status": "open"
     },
     {
@@ -618,7 +706,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -640,7 +728,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -662,7 +750,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -684,7 +772,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-14T12:36:26.514Z",
+      "scraped_at": "2026-10-15T12:21:25.860Z",
       "status": "open"
     },
     {
@@ -706,7 +794,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -724,11 +812,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensiv…",
-      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members across UK and India\n\n- Over $300 million raised in funding\n\n- Over 2,800 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE TEAM\n\nFunding Options joined the Tide family in early 2023 to lead their Partner Credit Services offering. Through their panel of 100 leading lender partners, Funding Options supports UK SMEs to get the right finance in place so they can trade, plan and grow with confidence. Through their multi award-winning platform, Funding Cloud, they can effectively match customers to the right lender and finance product that best suits their needs in minutes with funding decisions in as little as 20 seconds, giving every customer a 5 Star experience whether successful or not, through our sheer professionalism and outstanding standard of customer service.\n\nABOUT THE ROLE\n\nSome of the things you’ll be doing:\n\n- Contact, engage and manage our Small Business customers through their application process\n\n- Build and nurture working relationships with our commercial lending partners\n\n- Become confident in articulating the Funding Options proposition and service\n\n- Building on your extensive knowledge of business finance, and gaining an in-depth understanding of the wide variety of lenders and products in the market\n\n- Confidently articulating the different finance options available to customers across multiple business finance product classes\n\n- Maintaining accurate, up-to-date information on any prospects that you speak with (in Salesforce)\n\n- Monitoring and identify trends whilst adding new or enhanced customer profile information into Salesforce\n\n- Keeping up to date on industry trends, market & competition\n\n- Actively share stories and successes to the wider organisation through relevant comms channels\n\nWHAT WE ARE LOOKING FOR\n\nWe are looking for an experienced Senior Business Finance Specialist (Senior Commercial Finance Broker) to join our Sales Team and help as many customers as possible access the right finance, through effective conversations - Taking the time to understand about the businesses you engage with (how they work, growth plans, challenges, their experience of finance so far) and understanding customers’ finance needs and effectively matching them to the best product and lender that meets their need, giving every customer a 5 Star experience whether successful or not, through our sheer professionalism and mind-blowing standard of customer service.\n\nAs this is a senior position within our sales team, we are looking for somebody experienced in this space with a demonstrable track record of success who will be able to hit the ground running.\n\nWHAT MAKES YOU A GREAT FIT\n\n- Ideally you will already be working for a Commercial Finance Brokerage or have experience of Commercial Finance in a customer facing sales role\n\n- You will be able to demonstrate a track record of successfully meeting and exceeding revenue based targets\n\n- You’ll have excellent communication and interpersonal skills\n\n- You will be able to demonstrate a results-oriented work ethic with impeccable attention to detail, determination and drive\n\n- You’ll be obsessive about delivering the highest level of customer service\n\n- You will be extremely well organised and analytical and work well under pressure\n\n- You can troubleshoot issues quickly and effectively\n\n- You will be able to engage and quickly establish strong working relationships\n\n- You’re a self-starter who doesn’t wait for instruction, and who works backwards from targets to ensure effective execution\n\nWHAT YOU’LL GET IN RETURN\n\n- Flexible working options\n\n- Group Life Insurance\n\n- Vitality Health Insurance, with a proactive focus on mental and physical wellbeing\n\n- 25 days holiday with the ability to buy extra days\n\n- 3 days for L&D or volunteering time off per year\n\n- We invest in your development with a £1,000 professional L&D budget per year\n\n- Access to ‘salary sacrifice’ benefits such as Cycle to Work scheme and pension contribution\n\n- Spacious brand-new office near Old Street with an all-day snacks bar\n\n- Enhanced family-friendly leave\n\n- Sabbatical leave\n\nTIDEAN WAYS OF WORKING\n\nAt Tide, we champion a flexible workplace model that supports both in-person and remote work to cater to the specific needs of our different teams.\n\nWhile remote work is supported, we believe in the power of face-to-face interactions to foster team spirit and collaboration. Our offices are designed as hubs for innovation and team-building, where we encourage regular in-person gatherings to foster a strong sense of community.\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
+      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members globally and rapidly growing\n\n- Over $300 million raised in funding\n\n- 3,000 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE TEAM\n\nFunding Options joined the Tide family in early 2023 to lead their Partner Credit Services offering. Through their panel of 100 leading lender partners, Funding Options supports UK SMEs to get the right finance in place so they can trade, plan and grow with confidence. Through their multi award-winning platform, Funding Cloud, they can effectively match customers to the right lender and finance product that best suits their needs in minutes with funding decisions in as little as 20 seconds, giving every customer a 5 Star experience whether successful or not, through our sheer professionalism and outstanding standard of customer service.\n\nABOUT THE ROLE\n\nSome of the things you’ll be doing:\n\n- Contact, engage and manage our Small Business customers through their application process\n\n- Build and nurture working relationships with our commercial lending partners\n\n- Become confident in articulating the Funding Options proposition and service\n\n- Building on your extensive knowledge of business finance, and gaining an in-depth understanding of the wide variety of lenders and products in the market\n\n- Confidently articulating the different finance options available to customers across multiple business finance product classes\n\n- Maintaining accurate, up-to-date information on any prospects that you speak with (in Salesforce)\n\n- Monitoring and identify trends whilst adding new or enhanced customer profile information into Salesforce\n\n- Keeping up to date on industry trends, market & competition\n\n- Actively share stories and successes to the wider organisation through relevant comms channels\n\nWHAT WE ARE LOOKING FOR\n\nWe are looking for an experienced Senior Business Finance Specialist (Senior Commercial Finance Broker) to join our Sales Team and help as many customers as possible access the right finance, through effective conversations - Taking the time to understand about the businesses you engage with (how they work, growth plans, challenges, their experience of finance so far) and understanding customers’ finance needs and effectively matching them to the best product and lender that meets their need, giving every customer a 5 Star experience whether successful or not, through our sheer professionalism and mind-blowing standard of customer service.\n\nAs this is a senior position within our sales team, we are looking for somebody experienced in this space with a demonstrable track record of success who will be able to hit the ground running.\n\nWHAT MAKES YOU A GREAT FIT\n\n- Ideally you will already be working for a Commercial Finance Brokerage or have experience of Commercial Finance in a customer facing sales role\n\n- You will be able to demonstrate a track record of successfully meeting and exceeding revenue based targets\n\n- You’ll have excellent communication and interpersonal skills\n\n- You will be able to demonstrate a results-oriented work ethic with impeccable attention to detail, determination and drive\n\n- You’ll be obsessive about delivering the highest level of customer service\n\n- You will be extremely well organised and analytical and work well under pressure\n\n- You can troubleshoot issues quickly and effectively\n\n- You will be able to engage and quickly establish strong working relationships\n\n- You’re a self-starter who doesn’t wait for instruction, and who works backwards from targets to ensure effective execution\n\nWHAT YOU’LL GET IN RETURN\n\n- Flexible working options\n\n- Group Life Insurance\n\n- Vitality Health Insurance, with a proactive focus on mental and physical wellbeing\n\n- 25 days holiday with the ability to buy extra days\n\n- 3 days for L&D or volunteering time off per year\n\n- We invest in your development with a £1,000 professional L&D budget per year\n\n- Access to ‘salary sacrifice’ benefits such as Cycle to Work scheme and pension contribution\n\n- Spacious brand-new office near Old Street with an all-day snacks bar\n\n- Enhanced family-friendly leave\n\n- Sabbatical leave\n\nTIDEAN WAYS OF WORKING\n\nAt Tide, we champion a flexible workplace model that supports both in-person and remote work to cater to the specific needs of our different teams.\n\nWhile remote work is supported, we believe in the power of face-to-face interactions to foster team spirit and collaboration. Our offices are designed as hubs for innovation and team-building, where we encourage regular in-person gatherings to foster a strong sense of community.\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-14T12:36:18.016Z",
+      "scraped_at": "2026-10-15T12:21:17.494Z",
       "status": "open"
     },
     {
@@ -750,7 +838,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:19.483Z",
       "status": "open"
     },
     {
@@ -772,7 +860,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-09-16T06:17:24-04:00",
-      "scraped_at": "2026-10-14T12:36:26.533Z",
+      "scraped_at": "2026-10-15T12:21:25.877Z",
       "status": "open"
     },
     {
@@ -794,7 +882,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -816,7 +904,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-14T12:36:01.648Z",
+      "scraped_at": "2026-10-15T12:21:08.709Z",
       "status": "open"
     },
     {
@@ -838,7 +926,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:19.483Z",
       "status": "open"
     },
     {
@@ -860,29 +948,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
-      "status": "open"
-    },
-    {
-      "id": "lever:octopus-energy:dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
-      "hub": "business",
-      "title": "Customer Onboarding Specialist",
-      "company": "Octopus Energy",
-      "company_id": "octopus-energy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Energy Retailer & Tech",
-      "level": "Mid",
-      "location": "Manchester (GB)",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "We're making energy fair, clean, and simple for all using technology. Octopus Energy started with a bold idea: to build Britain’s first truly digital energy supplier.",
-      "description": "We're making energy fair, clean, and simple for all using technology. \nOctopus Energy started with a bold idea: to build Britain’s first truly digital energy supplier. By combining world-class tech with brilliant humans who care deeply about customers and driving the renewable energy transition, we made it happen and in 2025, we became Britain’s largest energy supplier. \n\nOctopus Energy Group is a global energy transition collective. 10 businesses working across 4 continents to tackle energy transformation at nearly every front.\n\nAnd we constantly push to make energy better. Tirelessly campaigning for fair protections for customers. And building innovative technologies that forge a path to a green energy system.\n\nWe’re made up of 10,000+ authentic, committed people working around the world on stuff you'd never expect. We're united by a shared goal: to drive the global green energy revolution. Read our Spotlight series to meet some of the team.\n\nAbout the role:\n \nWant a soul destroying call centre job? \nYeah, neither do we.\n \nWe’re not here to read scripts or tick boxes. We’re here to shake things up, to make energy better for our customers and the planet. That means real conversations, real problem-solving, and real impact. Your team? The best bunch of people you’ve ever worked with - curious, driven, and just as passionate about changing the industry as you are. No egos, no corporate nonsense - just a group of brilliant minds tackling challenges together.\n \nIt’s not always easy, but it’s worth it. We move fast. Things change. Just when you think you’ve nailed it...BOOM! Something new to learn! But if you love a challenge and thrive in a fast-paced environment, we’ll have your back every step of the way.\n\n- Make switching to us easy, cut through the noise and help customers select the best Gas and Electricity tariffs\n\n- Get to know the products! As you'll guide customers on the first steps to adopting our Low Carbon Technology (LCT), including Heat Pumps and Solar\n\n- Initiate the exciting journey for Electric Vehicle charger (EVC) customers, answering initial installation questions and ensuring a seamless handover to our specialist installation teams\n\n- Problem solve, so no more endless transfers, whether it's a supplier switch or an EV installation, you'll take full ownership of the query and find the right solution fast\n\n- Go above and beyond and treat every customer with the care and kindness you’d give your own friends and family. We believe in warmth, real conversations, and going the extra mile\n\n- Think on your feet so no robotic responses! Listen, understand, and deliver solutions that genuinely make sense. Get ready for a continuous learning curve\n\n- Passionate about delivering great customer service that makes someone's day just a little bit better\n\n- Adaptability and a love for change. Things move fast here - you’ll embrace learning new things and rolling with the punches\n\n- A curiosity for learning and a love of growth are key, as you'll get to dive into new challenges, projects, and areas of focus along the way\n\n- Clear communication, great attention to detail, and a focus on listening\n\n- A background in a fast-paced customer service or operations environment is a bonus, but we prioritise attitude and aptitude\n\n- A genuine care for the planet. We're fighting climate change, and we want people who share our passion\n\n- Salary: £26,600\n\n- 🎉 Octopus Energy Group is a unique culture. An organisation where people learn, decide, and build quicker. Where people work with autonomy, alongside a wide range of amazing co-owners, on projects that break new ground. We want your hard work to be rewarded with perks you actually care about! We won best company to work for in 2022, on Glassdoor we were voted 50 best places to work in 2022 and our Group CEO, Greg has recorded a podcast about our culture and how we empower our people. We’ve also been placed in the top 10 companies for senior leadership\n\n- 🎁 Visit our UK perks hub - Octopus Employee Benefits",
-      "apply_url": "https://jobs.lever.co/octoenergy/dd8fc42f-9c31-4bf0-9c18-a17965d611f3",
-      "source": "lever",
-      "posted_at": "2026-09-03T14:02:41.885Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -904,7 +970,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1014,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0b14cde9-0c0d-47a2-a064-799b51e372af",
       "source": "lever",
       "posted_at": "2026-08-06T13:57:16.813Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:19.483Z",
       "status": "open"
     },
     {
@@ -1036,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1058,7 +1124,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -1080,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1102,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1124,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:19.483Z",
       "status": "open"
     },
     {
@@ -1146,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1168,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1190,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:19.483Z",
       "status": "open"
     },
     {
@@ -1212,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1234,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1256,7 +1322,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -1278,7 +1344,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-14T12:36:32.689Z",
+      "scraped_at": "2026-10-15T12:21:33.111Z",
       "status": "open"
     },
     {
@@ -1300,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1322,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
+      "scraped_at": "2026-10-15T12:21:19.483Z",
       "status": "open"
     },
     {
@@ -1344,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-14T12:36:18.944Z",
+      "scraped_at": "2026-10-15T12:21:19.484Z",
       "status": "open"
     },
     {
@@ -1366,29 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-14T12:36:18.943Z",
-      "status": "open"
-    },
-    {
-      "id": "lever:qonto:19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
-      "hub": "fintech",
-      "title": "Social Media Manager Italian Market - Italian and English speaker",
-      "company": "Qonto",
-      "company_id": "qonto",
-      "priority": false,
-      "category": "Social Media Manager",
-      "segment": "Business Banking",
-      "level": "Mid",
-      "location": "Milan",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Our mission and customers: We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools.",
-      "description": "Our mission and customers: We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.8 on Trustpilot, based on 55,000+ reviews. Our culture puts customer satisfaction at the core of what we do, as proven by our Net Promoter Score of 75 (more about our culture here).\nOur journey: Founded in 2017 by Alexandre and Steve, Qonto has grown to 1,700 Qontoers serving over 750,000 customers across 8 European countries. We have been profitable since 2023, and we are just getting started.\nOur beliefs: We hire for skills and potential. With 80+ nationalities, 45% women, of which 56% of women in our leadership team, diversity isn't a program; It's who we are. We've built a discrimination-free hiring process because the best teams are built on merit.\nAI at Qonto: AI is deeply embedded in how we work (here) - Every Qontoer gets unlimited access to the best AI tools. We want people who experiment without waiting for permission, push AI beyond the obvious, know when to trust it, and when to question it.\n------------------------------------------------------------------------------------------------------\n\nJoin us as Social Media Manager Italy to define and execute Qonto's social media strategy across Instagram, LinkedIn, and YouTube for the Italian market. You'll drive brand awareness, engagement, and customer acquisition through culturally resonant content, influencer collaborations, and data-driven campaigns. You will report to Marta Rifà Llimós, Head of Southern Europe Marketing.\n➡️ What you'll do\nOwn the social strategy for Italy: Define the channel mix, content types (entertainment, product, educational, corporate), and calendar across IG, LinkedIn, and YouTube — with full autonomy.\nBuild and run the content calendar: Coordinate the monthly publishing plan across Design, Press, Events, PMM, Community, and external agencies. You ensure on-time delivery and strategic coherence.\nCreate content hands-on: Shoot and edit video/photo content using CapCut, Edits, Figma, or similar tools. Be comfortable on camera — you bring Qonto's Italian brand to life through owned content.\nRun paid social campaigns: Manage LinkedIn campaigns directly, coordinate Instagram paid with our Italian agency, and support YouTube Ads with the media team.\nTrack performance and evolve strategy: Extract KPIs, draw conclusions, and systematically apply learnings. You use data to evolve your approach, not just report on it.\n➡️ What we're looking for\n3 years as the in-house social media owner for an Italian brand — not agency-side. You've designed and executed the full channel strategy across IG, LinkedIn, and YouTube solo, without an account manager or team below you. B2B or scale-up experience strongly preferred\nItalian copywriting excellence: sharp, error-free, culturally resonant. You localise, not translate. Perfect written and oral Italian and English.\nData fluency: You work with Sprout, Google Analytics, Looker Studio (or equivalents) and you can walk through a campaign's performance metric by metric and tell me what you changed as a result — not just that results were positive\nInfluencer management: You've run creator campaigns end-to-end — sourcing, briefing, negotiation, performance tracking. You've owned the full cycle.\nPaid social experience: You've managed LinkedIn campaigns and can brief an agency on Instagram paid with clear objectives and creative direction.\n➡️ What we can offer you\nFull ownership of a market: You define Italy's social strategy and you execute it. No committee approvals — you own the output and the results.\nA growing content playground: Podcast, influencer collaborations, events coverage, video production — the formats are expanding and you'll shape what comes next.\nCross-functional collaboration across Southern Europe: You'll work daily with Design, Press, Events, PMM, Community, and Qonto's global social media team. Marta's team covers Italy, Spain, and Portugal — three markets, shared learnings.\nAI-first environment: Daily experimentation with AI tools is expected. You'll have access to the best tools on the market to evolve your craft.\n➡️ Your future manager\nYour manager will be Marta Rifà Llimós, Head of Marketing Southern Europe, based in Barcelona.\nHer path? 10+ years in digital marketing across Southern European markets. Marta spent 5+ years at Engel & Völkers growing from Digital Marketing Assistant to Marketing Manager Iberia, then led EU performance and cross-channel marketing at Birchbox. She joined Qonto in 2022 as Marketing Lead Spain, built the market from the ground up, and was promoted to Head of Marketing Southern Europe in 2025 — now leading Italy, Spain, and Portugal.\nWhat does she bring to the team? A hands-on, data-driven leadership style with deep multi-market experience. She's built marketing operations from scratch and knows what it takes to grow a market. She runs a flat team where ideas are welcomed and ownership is expected.",
-      "apply_url": "https://jobs.lever.co/qonto/19404ce8-0ac7-4f1b-939a-b322f0c9eefb",
-      "source": "lever",
-      "posted_at": "2022-01-18T10:44:07.589Z",
-      "scraped_at": "2026-10-14T12:36:06.361Z",
+      "scraped_at": "2026-10-15T12:21:19.483Z",
       "status": "open"
     },
     {
@@ -1410,7 +1454,29 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:51.526Z",
+      "scraped_at": "2026-10-15T12:20:58.375Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:loom:https://www.atlassian.com/company/careers/details/27404",
+      "hub": "business",
+      "title": "Chief Of Staff / Technical Advisor",
+      "company": "Loom",
+      "company_id": "loom",
+      "priority": false,
+      "category": "Executive Assistant",
+      "segment": "Async Video Messaging",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Chief Of Staff / Technical Advisor at Loom.",
+      "description": "",
+      "apply_url": "https://www.atlassian.com/company/careers/details/27404",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-15T12:21:00.546Z",
       "status": "open"
     },
     {
@@ -1432,7 +1498,51 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/26834",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:53.732Z",
+      "scraped_at": "2026-10-15T12:21:00.546Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:loom:https://www.atlassian.com/company/careers/details/27354",
+      "hub": "business",
+      "title": "Executive Assistant - AI Product Team",
+      "company": "Loom",
+      "company_id": "loom",
+      "priority": false,
+      "category": "Executive Assistant",
+      "segment": "Async Video Messaging",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Executive Assistant - AI Product Team at Loom.",
+      "description": "",
+      "apply_url": "https://www.atlassian.com/company/careers/details/27354",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-15T12:21:00.546Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:loom:https://www.atlassian.com/company/careers/details/27267",
+      "hub": "business",
+      "title": "Executive Assistant, Public Sector",
+      "company": "Loom",
+      "company_id": "loom",
+      "priority": false,
+      "category": "Executive Assistant",
+      "segment": "Async Video Messaging",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Executive Assistant, Public Sector at Loom.",
+      "description": "",
+      "apply_url": "https://www.atlassian.com/company/careers/details/27267",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-10-15T12:21:00.546Z",
       "status": "open"
     },
     {
@@ -1454,7 +1564,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/27636",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:53.733Z",
+      "scraped_at": "2026-10-15T12:21:00.546Z",
       "status": "open"
     },
     {
@@ -1476,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Support-Specialist_REQ-5538",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1498,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Enterprise-Customer-Support-Specialist_REQ-5431-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1520,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Talent-Acquisition-Specialist--12-Month-Contract-_REQ-5487",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1542,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Events---Partnerships-Coordinator_REQ-5503",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1564,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Support-Specialist_REQ-4525",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1586,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Australia/Customer-Support-Specialist--Enterprise_REQ-4526",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1608,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1630,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1652,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Senior-Accounts-Payable-Specialist_REQ-4616-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1674,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---IL-USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1696,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/New-York/Senior-Executive-Assistant_REQ-4506",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1718,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1740,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1762,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1784,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1806,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1828,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1850,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Manchester/Intermediate-IT-Specialist_REQ-5300",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1872,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1894,7 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1916,7 +2026,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1938,7 +2048,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1960,7 +2070,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -1982,7 +2092,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:35:58.370Z",
+      "scraped_at": "2026-10-15T12:21:05.038Z",
       "status": "open"
     },
     {
@@ -2004,7 +2114,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
+      "scraped_at": "2026-10-15T12:21:08.288Z",
       "status": "open"
     },
     {
@@ -2026,7 +2136,7 @@
       "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
+      "scraped_at": "2026-10-15T12:21:08.288Z",
       "status": "open"
     },
     {
@@ -2048,7 +2158,7 @@
       "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
+      "scraped_at": "2026-10-15T12:21:08.288Z",
       "status": "open"
     },
     {
@@ -2070,7 +2180,7 @@
       "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
+      "scraped_at": "2026-10-15T12:21:08.288Z",
       "status": "open"
     },
     {
@@ -2092,117 +2202,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
-      "hub": "legaltech",
-      "title": "Event Operations Coordinator",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Virtual Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Event Operations Coordinator at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
-      "hub": "legaltech",
-      "title": "Event Operations Coordinator",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Virtual Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Event Operations Coordinator at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
-      "hub": "legaltech",
-      "title": "Event Operations Coordinator",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Virtual Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Event Operations Coordinator at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
-      "hub": "legaltech",
-      "title": "Executive Assistant to the Chief Technology Officer",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Executive Assistant to the Chief Technology Officer at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
-      "hub": "legaltech",
-      "title": "Partner Onboarding Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Partner Onboarding Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-14T12:36:01.221Z",
+      "scraped_at": "2026-10-15T12:21:08.288Z",
       "status": "open"
     }
   ]
