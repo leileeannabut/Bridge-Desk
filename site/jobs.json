@@ -1,10 +1,76 @@
 {
-  "generated_at": "2026-10-17T11:18:16.741Z",
+  "generated_at": "2026-10-18T11:54:31.014Z",
   "count": 100,
-  "total_open": 122,
+  "total_open": 124,
   "sources_ok": 55,
   "sources_failed": 24,
   "jobs": [
+    {
+      "id": "agg:jobicy:155698",
+      "hub": "business",
+      "title": "IT Support Specialist",
+      "company": "6sense",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 73577,
+      "comp_max": 103913,
+      "summary": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency. We envision a future where companies, teams and people reach their full potential.",
+      "description": "Our Mission:\n\n6sense's mission is to multiply what matters: growth, retention, and efficiency. We envision a future where companies, teams and people reach their full potential.\n\nOur People:\n\nPeople are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. Every 6sensor plays a part in deﬁning the future of our industry-leading technology. 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers. We want 6sense to be the best chapter of your career.\n\nIT Support Specialist\n\nAbout the Role\n\n6sense is looking for an IT Support Specialist who is passionate about delivering exceptional employee experiences through world-class IT support. This role combines hands-on end user support with administration of modern workplace technologies, identity systems, SaaS applications, endpoint management, and AI platforms.\n\nYou'll support a global workforce while helping improve IT operations through automation, documentation, and process improvement. We're looking for someone who enjoys solving problems, learning new technologies, and creating scalable solutions that make employees more productive.\n\nWhat You'll Do\n\n- Provide Tier 1 and Tier 2 support through tickets, chat, email, and remote support sessions.\n\n- Support macOS, Windows 11, Microsoft 365, Teams, Slack, and Zoom environments.\n\n- Manage user lifecycle processes including onboarding, offboarding, access requests, and role changes.\n\n- Administer and troubleshoot Okta, Entra ID, SSO, MFA, and identity-related services.\n\n- Support and manage SaaS platforms including Microsoft 365, Slack, Zoom, 1Password, GitHub, Claude Enterprise, and Workato.\n\n- Deploy, configure, and maintain endpoints using Intune, Iru, and CrowdStrike.\n\n- Maintain accurate asset inventory and device lifecycle management.\n\n- Support Microsoft Copilot, Claude, and other AI technologies while promoting responsible AI practices.\n\n- Develop scripts, automations, and workflow improvements that reduce manual effort and improve efficiency.\n\n- Create and maintain documentation, knowledge articles, and standard operating procedures.\n\n- Provide occasional support for Zoom Rooms, Teams meetings, executive users, and company events.\n\nWhat We're Looking For\n\n- 3+ years of experience in IT Support, Help Desk, Service Desk, or End User Computing.\n\n- Experience supporting macOS and Windows environments.\n\n- Hands-on experience with Microsoft 365, Teams, Slack, and Zoom.\n\n- Familiarity with identity and access management concepts including Okta, Entra ID, SSO, and MFA.\n\n- Experience with endpoint management tools such as Intune, Iru, or similar MDM platforms.\n\n- Strong troubleshooting, communication, and customer service skills.\n\n- Experience working in a fast-paced, remote-first environment.\n\n- Basic scripting or automation experience using PowerShell, Bash, Python, Workato, or similar tools.\n\n- Interest in AI technologies such as Microsoft Copilot and Claude.\n\n- Strong attention to detail, ownership, and a continuous improvement mindset.\n\nBonus Points\n\n- Experience administering Okta, Entra ID, Intune, or Iru.\n\n- Experience with Workato or workflow automation platforms.\n\n- Experience supporting AI platforms and governance practices.\n\n- ITIL, Okta, Microsoft, Apple, or security-related certifications.\n\n- Experience supporting executive stakeholders and globally distributed teams.\n\nSuccess in This Role\n\nYou'll thrive in this role if you're customer-obsessed, highly organized, technically curious, and motivated to improve how IT services are delivered. Success will be measured through service quality, SLA performance, knowledge sharing, asset management accuracy, and contributions to automation and process improvement.\n\nBase Salary Range: $73,577.25 - $103,913.30. The base salary range represents the anticipated low and high end of the base salary range for this position. Actual salaries may vary and may be above or below the range based on various factors, including but not limited to work location and experience. The base salary is one component of 6sense’s total compensation package for this position. Other compensation may include a bonus program or commission plan, and stock options if approved by 6sense’s board. In addition, 6sense provides a variety of benefits, including generous health insurance coverage, life, and disability insurance, a 401K employer matching program, paid holidays, self-care days, and paid time off (PTO). #Li-remote\n\nNotice of Collection and Use of Personal Information for California Residents: California Recruitment Privacy Notice and Policy\n\nOur Benefits:\n\nFull-time employees can take advantage of health coverage, paid parental leave, generous paid time-off and holidays, quarterly self-care days off, and stock options. We’ll make sure you have the equipment and support you need to work and connect with your teams, at home or in one of our oﬃces.\n\nWe have a growth mindset culture that is represented in all that we do, from onboarding through to numerous learning and development initiatives including access to our LinkedIn Learning platform. Employee well-being is also top of mind for us. We host quarterly wellness education sessions to encourage self care and personal growth. From wellness days to ERG-hosted events, we celebrate and energize all 6sense employees and their backgrounds.\n\nEqual Opportunity Employer:\n\n6sense is an Equal Employment Opportunity and Affirmative Action Employers. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender perception or identity, national origin, age, marital status, protected veteran status, or disability status. If you require reasonable accommodation in completing this application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please direct your inquiries to jobs@6sense.com.\n\nWe are aware of recruiting impersonation attempts that are not affiliated with 6sense in any way. All email communications from 6sense will originate from the @6sense.com domain. We will not initially contact you via text message and will never request payments. If you are uncertain whether you have been contacted by an official 6sense employee, reach out to jobs@6sense.com",
+      "apply_url": "https://jobicy.com/jobs/155698-it-support-specialist-3",
+      "source": "Jobicy",
+      "posted_at": "2026-10-18T07:23:16.000Z",
+      "scraped_at": "2026-10-18T11:54:30.646Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:155701",
+      "hub": "business",
+      "title": "Technical Support Specialist - Tier 1 - US Remote",
+      "company": "PerfectServe",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 19,
+      "comp_max": 19,
+      "summary": "What is PerfectServe? PerfectServe is a leading provider of clinical communication and physician scheduling solutions in the health IT space.",
+      "description": "What is PerfectServe?\n\nPerfectServe is a leading provider of clinical communication and physician scheduling solutions in the health IT space. The company was founded in 1997 and has grown steadily since then, with a notable jump after several major acquisitions were announced in 2019. PerfectServe now has 400+ employees, 30,000+ customers — spanning medical practices, hospitals, and health systems — and $100 million+ in annual revenue.\n\nPerfectServe’s mission is to accelerate speed to care by optimizing provider schedules and routing communications — including messages, pages, calls, and alerts — to the right place at the right time in any care setting. By facilitating real-time information sharing, building better schedules, and automating important clinical workflows, we believe we can help our customers advance patient care and improve the well-being of their clinicians.\n\nLeading analyst firms like Gartner® and KLAS Research have consistently validated our approach:\n\n- In 2026, PerfectServe was named highest in execution and furthest in vision in the Gartner Magic Quadrant™ for Clinical Communication and Collaboration — the clear segment leader.\n\n- PerfectServe also received two Best in KLAS awards in 2026 — one for physician scheduling and another for ambulatory clinical communications. That makes for 11 Best in KLAS awards over the past 9 years.\n\nAt PerfectServe, you'll have a unique opportunity to join a collaborative team with decades of experience that finds new ways to delight our customers every day. This involves consistent efforts to stay on the cutting edge of product development, which includes everything from implementing AI in new and existing solutions to brainstorming with customers about novel workflows. But you don't have to be in product to make in impact — everybody at PerfectServe contributes to important work that moves the business forward.\n\nIf you're looking for a well-established, tech-forward company full of smart people doing meaningful work, you've found the right place!\n\nPosition Overview\n\nWhen a nurse can't reach the right physician at 2am, or a critical alert isn't routing where it should, our Support Specialists are the ones who fix it. Join PerfectServe's 24/7/365 support team and help keep clinical communication running for the hospitals, physicians, and care teams who depend on it.\n\nThe Role\n\nAs a Support Specialist, you'll support and troubleshoot for PerfectServe's end users, physicians, nurses, and system administrators. Day to day, that means user account management, end-user education, on-call schedule management, mobile and web application support, and hands-on troubleshooting.\n\nCompensation and Schedule\n\n- $19/hour to start + shift differential for nights/weekends, plus a comprehensive benefits package effective on day one\n\n- Most schedules include one weekend day and some holiday coverage\n\n- We're currently hiring for both day and night shifts\n\n- Fully remote within the United States\n\n- Able to start by November 16, 2026\n\nTraining\n\nNew hires onboard and train together on a Monday through Friday, daytime (EST) schedule, with mentorship before moving to your permanent shift. We expect 100% attendance during your first 60 days, this nesting period is what sets you up to succeed once you're on your own.\n\nWhat You’re Bringing\n\n- A dedicated, distraction-free home workspace with hardwired or verified reliable high-speed internet, this is a remote, mission-critical support role, so a stable setup matters from day one\n\n- A track record of troubleshooting through complex issues methodically, be ready to walk us through a real example: what broke, how you worked the problem, and how you resolved it\n\n- Experience supporting customers across multiple channels, phone, chat, and ticketing systems, and comfort managing escalations across all three\n\n- A pattern of growth in past roles: taking on more responsibility, training others, or earning a promotion, rather than a string of short, similar stints\n\n- Real interest in what PerfectServe does and why healthcare communication matters to you, we'd rather hear that than \"the schedule works for me\"\n\n- Excellent written and verbal communication skills\n\n- High customer empathy and a genuine drive to help people\n\n- Comfort working in a fast-paced environment with competing priorities\n\n- Willingness to work evenings, overnights, and/or weekends\n\nWhat You’ll Be Doing\n\n- Field incoming client communications via phone, chat, and our online customer portal\n\n- Help end-users administer their PerfectServe applications and train them on our phone, mobile, and web tools\n\n- Troubleshoot message delivery and content issues, from root-cause diagnosis through configuration fixes\n\n- Build and revise user accounts based on established standards\n\n- Partner with hospital IT teams to resolve mobile and web connectivity issues\n\n- Consult on and configure custom application builds to fit end-user workflows\n\n- Collaborate with customer success, integration, and technical teams on escalated issues\n\nOur Team, Our Culture\n\nWe're a distributed team, and we keep cameras on for internal and external meetings, it's a small thing that keeps us connected and engaged even when we're not in the same room.\n\nAbout PerfectServe\n\nPerfectServe offers unified healthcare communication solutions to help physicians, nurses, and care team members provide exceptional patient care. PerfectServe’s cloud-based solutions enhance patient safety and reduce provider burnout by automating workflows, speeding time to treatment, optimizing shift schedules, empowering nurse mobility, and engaging patients in their own care.\n\nEnvironment, Physical & Other Requirements\n\nThis position requires interaction with people and technology while either standing or sitting. In order to best service our customers on the phone, face-to-face, or on the computer, all employees must be able to communicate with or without reasonable accommodation. Depending on the assignment, may require ordinary ambulatory skills sufficient to visit other locations; or the ability to stand, walk and manipulate (lift, carry, move) light to medium weights of 10 - 50 pounds. Requires good hand-eye coordination, arm, hand and finger dexterity, including ability to grasp, and visual acuity to use a keyboard, operate equipment and read technical information.\n\nPerfectServe is committed to compliance with its obligations under all applicable state and federal laws prohibiting employment discrimination. In keeping with this commitment, it attempts to reasonably accommodate applicants and employees in accordance with the requirements of the disability discrimination laws. It also invites individuals with disabilities to participate in a good faith, interactive process to identify reasonable accommodations that can be made without imposing an undue hardship.\n\nThis position description is not designed to cover or contain a comprehensive listing of activities, duties or responsibilities that are required of the employee. PerfectServe, Inc. is an Equal Opportunity Employer -----M/F/D/V.\n\nWhy Join PerfectServe?\n\nAt PerfectServe, we are transforming healthcare communication and collaboration to help clinicians deliver better care. You’ll work with a dedicated and mission-driven team in an environment that values growth, transparency, and innovation.\nWe offer a compensation range at $19.00 USD / hour, with compensation tailored to your background, strengths, and potential to grow within the team. The salary range listed for this role reflects our commitment to pay transparency and is based on market data, internal equity, and the scope of responsibilities. compensation will be determined by a combination of factors, including the candidate’s experience, skills, and the specific team or product area they support.We regularly review compensation across the company to ensure fairness and consistency. If you are a current employee and have questions about how your compensation aligns with our ranges, we encourage you to speak with your manager or People Operations.\n\nBenefits:\n\n- Remote first work environment\n\n- Health, Dental, Vision, Life and Disability Insurance options available day one.\n\n- 401K - with match and immediately vested.\n\n- 17 company holidays, 2 floating holidays plus competitive paid time off policy\n\n- Internal Advancement Opportunities\n\nPerfectServe offers unified healthcare communication solutions to help physicians, nurses, and care team members provide exceptional patient care. PerfectServe’s cloud-based solutions enhance patient safety and reduce provider burnout by automating workflows, speeding time to treatment, optimizing shift schedules, empowering nurse mobility, and engaging patients in their own care.",
+      "apply_url": "https://jobicy.com/jobs/155701-technical-support-specialist-tier-1-us-remote",
+      "source": "Jobicy",
+      "posted_at": "2026-10-18T07:23:15.000Z",
+      "scraped_at": "2026-10-18T11:54:30.646Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:155643",
+      "hub": "business",
+      "title": "Product Support Representative",
+      "company": "Fieldguide",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "UK",
+      "employment_type": "full-time",
+      "comp_min": 35000,
+      "comp_max": 50000,
+      "summary": "About Us Fieldguide is establishing a new state of trust for global commerce and capital markets through automating and streamlining the work of assurance and audit practitioners s…",
+      "description": "About Us\n\nFieldguide is establishing a new state of trust for global commerce and capital markets through automating and streamlining the work of assurance and audit practitioners specifically within cybersecurity, privacy, and financial audit. Put simply, we build software for the people who enable trust between businesses.\n\nWe’re based in San Francisco, CA, but built as a remote-first company that enables you to do your best work from anywhere. We're backed by top investors including Growth Equity at Goldman Sachs Alternatives, Bessemer Venture Partners, 8VC, Floodgate, Y Combinator, DNX Ventures, Global Founders Capital, Justin Kan, Elad Gil, and more.\n\nWe value diversity — in backgrounds and in experiences. We need people from all backgrounds and walks of life to help build the future of audit and advisory. Fieldguide’s team is inclusive, driven, humble and supportive. We are deliberate and self-reflective about the kind of team and culture that we are building, seeking teammates that are not only strong in their own aptitudes but care deeply about supporting each other's growth.\n\nAs an early stage start-up employee, you’ll have the opportunity to build out the future of business trust. We make audit practitioners’ lives easier by bringing together up to 50% of their work and giving them better work-life balance. If you share our values and enthusiasm for building a great culture and product, you will find a home at Fieldguide.\n\nAbout the Role:\n\nAs a Product Support Representative at Fieldguide, you will be an integral member of our go-to-market team, helping build our support function.\n\nYou will provide customers with world-class support built to maximize our customers’ return on investment quickly and continuously. As a trusted expert on the Fieldguide platform, you will partner closely with firms to ensure their ongoing success with Fieldguide.\n\nThis hire must be comfortable working 9am - 6pm GMT.\n\nWhat You’ll Do:\n\n-\nBuild trust with customers. Respond quickly and accurately to client requests for assistance, always with a positive attitude.\n\n-\nProvide technical support: Offer prompt and efficient assistance to resolve technical issues related to Fieldguide's platform. Troubleshoot problems via email, phone, or chat, investigating and reproducing issues, and working through fixes with Engineering when needed.\n\n-\nEnhance user experience: Guide customers through the features and functionalities of the Fieldguide platform. Provide tips and best practices for optimal use, ensuring customers can leverage the software to its fullest potential.\n\n-\nAdvocate for the customer: Be the link between the customer and Fieldguide’s Engineering, Product, Design team. Be aware of and communicate customer needs internally to help shape the product roadmap. Help the customer participate in deployment of beta features, facilitating a frequent feedback loop.\n\n-\nBolster onboarding and retention: Assist in customer database setup and template creation to ensure a world-class client experience.\n\n-\nMaintain knowledge base: Contribute to and update the online help resources, FAQs, and support documentation, ensuring they are current and comprehensive for user self-service.\n\nAbout You:\n\n-\n1 - 3 years of customer support experience, 1 to 3 years in a customer-facing technical role. Support, implementation, solutions, or support plus engineering all count.\n\n-\nYou are a team player and are mission-first. You’re joining a hard-working team that trusts each other deeply. We won’t compromise on this.\n\n-\nStartup or scale-up experience where you have worn multiple hats and worked without full documentation.. The ideal candidate will have a proven track record of driving customer satisfaction and fostering long-term client relationships.\n\n-\nBias towards action. You take ownership of projects end-to-end and see them through to completion, with minimal direction or oversight.\n\n-\nAdaptable. You adjust quickly to changing processes and customer needs.\n\n-\nNice to have: Familiarity with the integration of merge tags in Microsoft Office applications is desirable.\n\nMore about Fieldguide:\n\nFieldguide is a values-based company. Our values are:\n\n-\nFearless - Inspire & break down seemingly impossible walls.\n\n-\nFast - Launch fast with excellence, iterate to perfection.\n\n-\nLovable - Deliver happiness & 11 star experiences.\n\n-\nOwners - Execute & run the business with ownership.\n\n-\nWin-win - Create mutual value & earn trust for life.\n\n-\nInclusive - Scale the best ideas with inclusive teams.",
+      "apply_url": "https://jobicy.com/jobs/155643-product-support-representative",
+      "source": "Jobicy",
+      "posted_at": "2026-10-18T04:32:32.000Z",
+      "scraped_at": "2026-10-18T11:54:30.646Z",
+      "status": "open"
+    },
     {
       "id": "agg:jobicy:155495",
       "hub": "business",
@@ -24,7 +90,7 @@
       "apply_url": "https://jobicy.com/jobs/155495-email-deliverability-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-16T16:46:30.000Z",
-      "scraped_at": "2026-10-17T11:18:16.376Z",
+      "scraped_at": "2026-10-18T11:54:30.647Z",
       "status": "open"
     },
     {
@@ -46,7 +112,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e1df27dd-5074-42d1-adde-3b074bf10b6b",
       "source": "lever",
       "posted_at": "2026-10-16T16:36:04.185Z",
-      "scraped_at": "2026-10-17T11:18:04.157Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -68,7 +134,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6111944004",
       "source": "greenhouse",
       "posted_at": "2026-10-16T15:40:19-04:00",
-      "scraped_at": "2026-10-17T11:17:45.667Z",
+      "scraped_at": "2026-10-18T11:53:58.639Z",
       "status": "open"
     },
     {
@@ -90,7 +156,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6226462004",
       "source": "greenhouse",
       "posted_at": "2026-10-16T11:34:03-04:00",
-      "scraped_at": "2026-10-17T11:17:45.666Z",
+      "scraped_at": "2026-10-18T11:53:58.637Z",
       "status": "open"
     },
     {
@@ -112,7 +178,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
       "source": "greenhouse",
       "posted_at": "2026-10-16T10:02:53-04:00",
-      "scraped_at": "2026-10-17T11:18:06.751Z",
+      "scraped_at": "2026-10-18T11:54:20.601Z",
       "status": "open"
     },
     {
@@ -134,7 +200,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/120541c5-8caa-4e7e-aefa-c12fcf3c5663",
       "source": "lever",
       "posted_at": "2026-10-16T09:21:51.285Z",
-      "scraped_at": "2026-10-17T11:18:04.157Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -156,7 +222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-10-16T02:53:50-04:00",
-      "scraped_at": "2026-10-17T11:18:09.773Z",
+      "scraped_at": "2026-10-18T11:54:23.596Z",
       "status": "open"
     },
     {
@@ -178,7 +244,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/6sense-it-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:14.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -200,7 +266,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/customer-io-email-deliverability-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:00.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -222,7 +288,7 @@
       "apply_url": "https://jobicy.com/jobs/150338-bilingual-print-customer-success-specialist-contract",
       "source": "Jobicy",
       "posted_at": "2026-10-15T02:50:29.000Z",
-      "scraped_at": "2026-10-17T11:18:16.376Z",
+      "scraped_at": "2026-10-18T11:54:30.647Z",
       "status": "open"
     },
     {
@@ -244,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cranky-concierge-travel-coordinator-1",
       "source": "We Work Remotely",
       "posted_at": "2026-10-14T15:30:23.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -266,29 +332,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8276080",
       "source": "greenhouse",
       "posted_at": "2026-10-14T14:53:18-04:00",
-      "scraped_at": "2026-10-17T11:17:55.683Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:155304",
-      "hub": "business",
-      "title": "Technical Support Specialist, AU",
-      "company": "Nash",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Australia",
-      "employment_type": "full-time",
-      "comp_min": 75000,
-      "comp_max": 95000,
-      "summary": "Nash is looking for a Technical Support Specialist to join our global, 24/7 Technical Support team.",
-      "description": "Nash is looking for a Technical Support Specialist to join our global, 24/7 Technical Support team. This role sits at the heart of how Nash stabilizes the platform for our enterprise merchants - owning the investigation, resolution, and clean escalation of complex platform and integration issues across our delivery orchestration system.\n\nTechnical Support is Nash's intake and stabilization layer for everything beyond high-volume delivery inquiries. You'll be the person customers and internal teams rely on when something unusual is happening on the platform: a stuck integration, an unexpected provider behavior, a configuration question that needs real investigation. You'll resolve what you can, escalate what you can't with the context needed to move quickly, and help build the knowledge base that makes the next occurrence faster.\n\nThis is a role for someone who enjoys the detective work of complex, ambiguous technical problems, communicates clearly under pressure, and takes ownership seriously.\n\nLOCATION\n\nRemote in Australia (required)\n\nAEST - Friday - Tuesday, 11A - 8P\n\nTRAINING\n\n4 weeks, Monday - Friday\n\nA note on location\n\nThis is a remote role, but candidates must be located in Australia. This is a hard requirement driven by contractual data access obligations with our enterprise customers, not a preference - we are not able to make exceptions.\n\nWHAT YOU'LL OWN\n\n-\nPlatform and integration investigation. Diagnose configuration questions, known error patterns, API and webhook issues, and account-specific behavior across the Nash platform.\n\n-\nEscalation quality. When an issue needs Engineering or Enterprise Operations, you own the handoff — clear reproduction steps, investigation performed, impact assessment, and severity. Escalations from this team are expected to be actionable on arrival.\n\n-\nIncident coordination. Serve as the active shift team for P1 incidents — coordinating communication, engaging Engineering immediately, and keeping customers and internal stakeholders informed through resolution.\n\n-\nProactive monitoring. Watch Datadog dashboards, alerts, and logs for anomalies and emerging risks. Surface issues before they become customer-impacting where possible.\n\n-\nKnowledge base contribution. Document resolution patterns for novel issues so the next occurrence becomes a known pattern. Your work directly reduces future escalation volume.\n\n-\nOverflow support. Act as overflow for Delivery Support during peak windows when issues exceed their scope.\n\nWHAT WE'RE LOOKING FOR\n\n-\n5 - 6+ years in Technical Support, Support Engineering, or a related technical role in a SaaS environment\n\n-\nHands-on experience investigating complex platform issues - not just routing tickets, but actually diagnosing what is happening\n\n-\nComfort with APIs, webhooks, and integration troubleshooting in a production environment\n\n-\nExperience with monitoring and observability tools (Datadog, New Relic, Grafana, or similar)\n\n-\nClear, calm written communication — especially during incidents or when customers are frustrated\n\n-\nJudgment about when to investigate further versus escalate, and the discipline to document thoroughly either way\n\n-\nLocated in Australia (remote)\n\nNICE TO HAVE\n\n-\nExperience supporting logistics, marketplace, or high-volume transactional platforms\n\n-\nPrior incident response or post-mortem participation\n\n-\nExperience contributing to knowledge bases or support documentation that actually gets used\n\n-\nFamiliarity with ticketing platforms like Pylon, Zendesk, or similar\n\nMore about Nash\n\nNash is the platform that powers modern logistics.\n\nCommerce has inverted. For decades, customers came to where products and services were. Now products and services come to them, on their terms, in real time. That shift has turned every company into a logistics company, even though almost none of them were built to be one. Couriers, fleets, gig workers, parcel carriers, in-store labor, and increasingly autonomous systems all have to be coordinated in real time, against tighter windows and rising expectations, with hard-fought customer trust on the line.\n\nNash unifies decisioning, execution, and capacity into a single programmable platform. Real-time, AI-native intelligence determines what should happen, operational control executes it, and the platform dynamically orchestrates capacity from any source: a company's own fleets, partners, or the Nash delivery network. Whether a job involves a courier, a gig driver, an internal fleet, a store employee, a technician, or an autonomous vehicle, Nash selects the right resource and manages execution through completion.\n\nWe power delivery and logistics for some of the most recognizable brands in commerce, including Walmart, Urban Outfitters, 7-Eleven, and Woolworths, alongside platforms like Shopify and Toast. Over the next decade, logistics will become as foundational to commerce as payments, cloud, and connectivity. Nash is the platform that powers it.\n\nNash was founded in 2021 by Mahmoud Ghulman (2x Founder, MIT) and Aziz Alghunaim (2x Founder, 2x YC, Ex-Palantir, MIT) and is backed by Y Combinator, a16z, and other top investors. We are headquartered in San Francisco.\n\nWhat You’ll Love About Us\n\n✅ Early-stage, well-funded startup – directly impact the company and grow your career!\n✅ Quarterly broader team on-sites to bond with teammates\n✅ Competitive compensation and opportunity for equity\n✅ Flexible paid time off\n✅ Health, dental, and vision insurance for US employees",
-      "apply_url": "https://jobicy.com/jobs/155304-technical-support-specialist-au",
-      "source": "Jobicy",
-      "posted_at": "2026-10-14T14:04:05.000Z",
-      "scraped_at": "2026-10-17T11:18:16.376Z",
+      "scraped_at": "2026-10-18T11:54:08.398Z",
       "status": "open"
     },
     {
@@ -310,29 +354,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169731007",
       "source": "greenhouse",
       "posted_at": "2026-10-14T12:47:33-04:00",
-      "scraped_at": "2026-10-17T11:18:06.804Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:153160",
-      "hub": "business",
-      "title": "Customer Success Specialist",
-      "company": "PolicyMe",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Canada",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Overview of the role: We’re on a mission to modernize insurance, making it simpler, more accessible, and customer-first.",
-      "description": "Overview of the role:\n\nWe’re on a mission to modernize insurance, making it simpler, more accessible, and customer-first. The insurance industry is a $1T market that has remained largely untouched by the digital revolution, and PolicyMe is here to change that. As a remote-first, Toronto-based startup with big ambitions, we’re looking for a Customer Success Specialist to help us build the future of insurance in Canada and beyond.\n\nAs a Customer Success Specialist, you will support our customers and Advisor Team throughout the life insurance journey. You’ll be responsible for policy servicing tasks, client communication, and helping us deliver an exceptional customer experience every step of the way.\n\nStandard working hours are 9:00 a.m. to 5:00 p.m. Eastern Time, with flexibility to support Pacific Time hours as business needs evolve.\n\nWhat you'll be doing\n\n- Manage a caseload of in-progress applications through the underwriting process\n\n- Navigate tools like HubSpot and Front to complete daily task queues\n\n- Coordinate and follow up on medical exam bookings with vendors and clients\n\n- Order and track underwriting requirements (e.g. APS, MVRs)\n\n- Handle inbound calls and respond to client emails\n\n- Track missed payments and help clients update billing info\n\n- Report underwriting decisions to the Medical Information Bureau (MIB)\n\n- Process policy change requests (address updates, beneficiary changes)\n\n- Maintain accurate records and submit the weekly MIB report\n\n- Collaborate cross-functionally with Advisors, QA, Sales, and Customer Service\n\n- Offer feedback and participate in process/tooling improvement discussions\n\nWhat we are looking for\n\n- 1–2 years of experience in insurance, customer service, or call center roles\n\n- Strong verbal and written communication in English\n\n- Comfortable using multiple systems and learning new tools quickly\n\n- Excellent attention to detail and ability to multitask in a fast-paced environment\n\n- Empathy, patience, and a natural drive to go above and beyond for customers\n\n- Integrity and reliability - someone who takes pride in doing things right\n\n- A proactive mindset and openness to giving and receiving feedback\n\nWhy join us:\n\n- Generous PTO - 20 vacation days\n\n- A comprehensive benefits plan with premiums paid in full by PolicyMe\n\n- Investment in your professional development, including an L&D budget, AI tooling budget, performance reviews twice a year and ongoing feedback to ensure you reach your highest potential\n\n- An extremely high performing, low-ego, remote-first team that is truly disrupting an old industry\n\n- Option to work from home or our Toronto-based office (bonus: we cover the costs to bring all our employees in-person twice a year for experiential socials!)\n\n- Access to stock options based on performance\n\n- Compensation: The total target cash compensation for this role is $55,000–$66,000 CAD, based on experience. We’ll walk through the details together during the interview.\n\nCompensation\n\nAdditional Information\n\nAbout PolicyMe:\n\nAt PolicyMe, we are Canada’s leading digital insurance solution, offering straightforward and affordable financial protection for families from coast to coast. Our product suite includes Life Insurance, Critical Illness Insurance, and Health & Dental Insurance, all tailored to Canadians' evolving needs. We also offer B2B2C solutions, partnering with organizations to provide seamless digital insurance options. Founded by a team of insurance experts and technology entrepreneurs, PolicyMe is committed to making insurance simpler and more accessible. Since our launch in 2018, we have grown exponentially, selling over $10 billion in insurance coverage to Canadians.\n\nWe are proud of the team we’ve built and are excited for those that are yet to join us. We operate with a remote-first culture, attracting top talent from across Canada. If you’re looking for a fast-paced, collaborative environment, working alongside incredibly ambitious yet humble humans, we may be the right place for you! To learn more, visit www.policyme.com.\n\nAdditional Notes:\n\nJob Vacancy: This role reflects growth in our team and expanded operational scope. We’re hiring to support increasing demand and continue delivering an exceptional customer experience.\n\nCommitment to Equal Opportunity: PolicyMe is an equal opportunity employer. We welcome applicants of all backgrounds and provide fair consideration regardless of race, colour, religion, sex, sexual orientation, gender identity, national origin, or disability.\n\nAccessibility Statement: We are committed to providing an accessible hiring experience. If you require accommodations during the application process, please indicate this in the “Additional Information” section of your application.\n\nWe thank all applicants for their interest, however, only those selected for an interview will be contacted.",
-      "apply_url": "https://jobicy.com/jobs/153160-customer-success-specialist-5",
-      "source": "Jobicy",
-      "posted_at": "2026-10-14T02:27:16.000Z",
-      "scraped_at": "2026-10-17T11:18:16.376Z",
+      "scraped_at": "2026-10-18T11:54:20.648Z",
       "status": "open"
     },
     {
@@ -354,7 +376,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-13T16:00:30.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -376,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-10-13T14:30:40-04:00",
-      "scraped_at": "2026-10-17T11:18:06.751Z",
+      "scraped_at": "2026-10-18T11:54:20.601Z",
       "status": "open"
     },
     {
@@ -398,7 +420,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-10-11T20:17:27.000Z",
-      "scraped_at": "2026-10-17T11:18:15.931Z",
+      "scraped_at": "2026-10-18T11:54:30.210Z",
       "status": "open"
     },
     {
@@ -420,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-11T15:26:05-04:00",
-      "scraped_at": "2026-10-17T11:18:06.804Z",
+      "scraped_at": "2026-10-18T11:54:20.647Z",
       "status": "open"
     },
     {
@@ -442,7 +464,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/netlify-customer-success-associate-denver-co",
       "source": "We Work Remotely",
       "posted_at": "2026-10-10T07:31:08.000Z",
-      "scraped_at": "2026-10-17T11:18:15.474Z",
+      "scraped_at": "2026-10-18T11:54:29.767Z",
       "status": "open"
     },
     {
@@ -464,7 +486,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
       "source": "We Work Remotely",
       "posted_at": "2026-10-09T07:30:56.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -486,7 +508,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-17T11:18:15.931Z",
+      "scraped_at": "2026-10-18T11:54:30.210Z",
       "status": "open"
     },
     {
@@ -508,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -530,7 +552,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-17T11:18:15.474Z",
+      "scraped_at": "2026-10-18T11:54:29.767Z",
       "status": "open"
     },
     {
@@ -552,7 +574,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -574,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-17T11:18:04.011Z",
+      "scraped_at": "2026-10-18T11:54:14.613Z",
       "status": "open"
     },
     {
@@ -596,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-17T11:17:55.683Z",
+      "scraped_at": "2026-10-18T11:54:08.397Z",
       "status": "open"
     },
     {
@@ -618,7 +640,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-17T11:17:45.667Z",
+      "scraped_at": "2026-10-18T11:53:58.638Z",
       "status": "open"
     },
     {
@@ -640,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-17T11:17:45.667Z",
+      "scraped_at": "2026-10-18T11:53:58.639Z",
       "status": "open"
     },
     {
@@ -662,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-17T11:17:45.667Z",
+      "scraped_at": "2026-10-18T11:53:58.639Z",
       "status": "open"
     },
     {
@@ -684,7 +706,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-17T11:18:15.474Z",
+      "scraped_at": "2026-10-18T11:54:29.767Z",
       "status": "open"
     },
     {
@@ -706,7 +728,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -728,7 +750,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-17T11:18:15.474Z",
+      "scraped_at": "2026-10-18T11:54:29.767Z",
       "status": "open"
     },
     {
@@ -750,7 +772,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-17T11:18:09.756Z",
+      "scraped_at": "2026-10-18T11:54:23.570Z",
       "status": "open"
     },
     {
@@ -772,7 +794,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -794,7 +816,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-17T11:18:04.011Z",
+      "scraped_at": "2026-10-18T11:54:14.612Z",
       "status": "open"
     },
     {
@@ -816,7 +838,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -838,7 +860,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -860,7 +882,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-17T11:17:55.683Z",
+      "scraped_at": "2026-10-18T11:54:08.398Z",
       "status": "open"
     },
     {
@@ -882,7 +904,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-17T11:18:04.157Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -904,7 +926,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-17T11:18:15.474Z",
+      "scraped_at": "2026-10-18T11:54:29.767Z",
       "status": "open"
     },
     {
@@ -926,7 +948,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1036,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0b14cde9-0c0d-47a2-a064-799b51e372af",
       "source": "lever",
       "posted_at": "2026-08-06T13:57:16.813Z",
-      "scraped_at": "2026-10-17T11:18:04.157Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -1058,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1080,7 +1102,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -1102,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1124,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1146,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -1168,7 +1190,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1190,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1212,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -1234,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -1256,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1278,7 +1300,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-17T11:18:15.474Z",
+      "scraped_at": "2026-10-18T11:54:29.767Z",
       "status": "open"
     },
     {
@@ -1300,7 +1322,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-17T11:18:15.473Z",
+      "scraped_at": "2026-10-18T11:54:29.766Z",
       "status": "open"
     },
     {
@@ -1322,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1344,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-17T11:18:04.157Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -1366,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-17T11:18:04.158Z",
+      "scraped_at": "2026-10-18T11:54:18.152Z",
       "status": "open"
     },
     {
@@ -1388,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-17T11:18:04.157Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -1410,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/bc1ce5ef-75fe-452d-9cd8-bcec9d9fd109",
       "source": "lever",
       "posted_at": "2023-07-07T13:05:55.846Z",
-      "scraped_at": "2026-10-17T11:18:04.157Z",
+      "scraped_at": "2026-10-18T11:54:18.151Z",
       "status": "open"
     },
     {
@@ -1432,7 +1454,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:45.687Z",
+      "scraped_at": "2026-10-18T11:53:58.670Z",
       "status": "open"
     },
     {
@@ -1454,7 +1476,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/27404",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:48.016Z",
+      "scraped_at": "2026-10-18T11:54:00.342Z",
       "status": "open"
     },
     {
@@ -1476,7 +1498,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/26834",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:48.016Z",
+      "scraped_at": "2026-10-18T11:54:00.342Z",
       "status": "open"
     },
     {
@@ -1498,7 +1520,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/27636",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:48.017Z",
+      "scraped_at": "2026-10-18T11:54:00.342Z",
       "status": "open"
     },
     {
@@ -1520,7 +1542,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Global-Benefits-Specialist_REQ-5172",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1542,7 +1564,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Support-Specialist_REQ-5538",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1564,7 +1586,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Talent-Acquisition-Specialist--12-Month-Contract-_REQ-5487",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1586,7 +1608,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Events---Partnerships-Coordinator_REQ-5503",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1608,7 +1630,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Support-Specialist_REQ-4525",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1630,7 +1652,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Australia/Customer-Support-Specialist--Enterprise_REQ-4526",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1652,7 +1674,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1674,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1696,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Senior-Accounts-Payable-Specialist_REQ-4616-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1718,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---IL-USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1740,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1762,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1784,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.867Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1806,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1828,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1850,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1872,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1894,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1916,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1938,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1960,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -1982,7 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:51.868Z",
+      "scraped_at": "2026-10-18T11:54:04.452Z",
       "status": "open"
     },
     {
@@ -2004,7 +2026,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     },
     {
@@ -2026,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     },
     {
@@ -2048,7 +2070,7 @@
       "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     },
     {
@@ -2070,7 +2092,7 @@
       "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     },
     {
@@ -2092,7 +2114,7 @@
       "apply_url": "https://www.filevine.com/jobs/7482b75e-ade7-4340-8c4f-b34fedbc5642/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     },
     {
@@ -2114,7 +2136,7 @@
       "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     },
     {
@@ -2136,7 +2158,7 @@
       "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     },
     {
@@ -2158,7 +2180,7 @@
       "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     },
     {
@@ -2180,29 +2202,7 @@
       "apply_url": "https://www.filevine.com/jobs/e6d3a16f-4fad-4685-846d-9b612c8723c7/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
-      "hub": "legaltech",
-      "title": "Partner Onboarding Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Partner Onboarding Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-17T11:17:55.268Z",
+      "scraped_at": "2026-10-18T11:54:07.986Z",
       "status": "open"
     }
   ]
