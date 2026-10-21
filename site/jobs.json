@@ -1,10 +1,230 @@
 {
-  "generated_at": "2026-10-20T12:27:50.765Z",
+  "generated_at": "2026-10-21T12:38:02.537Z",
   "count": 100,
-  "total_open": 137,
-  "sources_ok": 55,
-  "sources_failed": 24,
+  "total_open": 136,
+  "sources_ok": 54,
+  "sources_failed": 25,
   "jobs": [
+    {
+      "id": "agg:weworkremotely:ping-identity-chief-of-staff-cco",
+      "hub": "business",
+      "title": "Chief of Staff, CCO",
+      "company": "Ping Identity",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Executive Assistant",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World",
+      "employment_type": "full-time",
+      "comp_min": 155628,
+      "comp_max": 207504,
+      "summary": "Headquarters: USA - Remote About Ping Identity: At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise.",
+      "description": "Headquarters: USA - Remote\n\nAbout Ping Identity:\n\nAt Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built on digital freedom. They come to cultivate it.\n\nOur intelligent, cloud identity platform lets people shop, work, bank, and interact wherever and however they want. Without friction. Without fear.\n\nWhile protecting digital identities is at the core of our technology, protecting individual identities is at the core of our culture. We champion every identity. One of our core values, Respect Individuality, reminds us to celebrate differences so you are empowered to bring your authentic self to work.\n\nWe're headquartered in Denver, Colorado and we have offices and employees around the globe. We serve the largest, most demanding enterprises worldwide, including more than half of the Fortune 100. At Ping Identity, we're changing the way people and businesses think about cybersecurity, digital experiences, and identity and access management.\n\nWe are seeking a strategic and analytical Chief of Staff to partner with our Chief Customer Officer (CCO) in driving business performance across our Customer organization. This role combines financial and operational strategy, data-driven decision-making, and cross-functional collaboration to improve customer retention, revenue performance, and organizational effectiveness.\n\nThe ideal candidate brings strong financial and business acumen, a collaborative mindset, and the ability to translate complex information into actionable insights that inform executive decisions and strengthen financial and operational accountability.\n\nWhat You'll Do\n\n- Customer revenue metrics: In partnership with Finance, which owns ARR and financial reporting, to ensure customer metrics (ARR movement, gross and net revenue retention, renewal rates on up for renewal revenue, cohort views and churn drivers) follow Thoma Bravo standards and best-in-class methods. Translates those metrics into the customer organization's view, measures renewal forecast accuracy, and reports on cross-sell and upsell pipeline, which Renewals and Sales own.\n\n- Executive and board narrative: Prepares the CCO's materials for the executive leadership team, board, Thoma Bravo operating reviews and QBRs, framing performance, risk and investment asks in terms of business outcomes. Ensures what the board sees reconciles to how the organization operates.\n\n- Renewal and retention reporting: Owns renewal rate reporting and variance analysis of the official forecast against plan and actuals, explaining the drivers behind the numbers.\n\n- Renewal and retention plan and resource models: In partnership with Finance, builds the customer organization's annual renewal and retention plan (historical baselines, renewal rate assumptions and targets) and the headcount, coverage-ratio and capacity models tied to book-of-business segmentation.\n\n- Customer health and signals: Delivers the customer health scoring model and churn and risk analysis.\n\n- Customer reporting requirements and CCO analysis: Sets the customer organization's reporting requirements across Salesforce, the data warehouse and BI tools, aligned with Finance's metric definitions, which Systems & Operations and Data & Analytics build to. Handles the CCO's own analysis and reporting requests.\n\n- Cross-functional Alignment: Works with Revenue Operations and CRO leadership team to align on strategies and reporting for improving Net Retention Rate. Works with the Product Strategy team to align on churn analysis and forecasting by product.\n\nWhat You'll Bring\n\n- Significant experience in strategic finance, FP&A, business operations, revenue operations, customer success operations, or a related field, ideally within a B2B SaaS environment.\n\n- Strong understanding of SaaS business models and recurring revenue metrics, including ARR, GRR, NRR, renewals, and churn.\n\n- Experience translating business needs into reporting and analytics requirements, with familiarity using tools such as Salesforce, Excel, SQL, Power BI, or Tableau.\n\n- Ability to analyze complex datasets and communicate insights clearly to executive audiences.\n\n- Familiarity with CRM, reporting, and business intelligence tools such as Salesforce, Excel, SQL, Power BI, or Tableau.\n\n- Strong collaboration, communication, and problem-solving skills, with the ability to influence across teams.\n\n- Experience in private equity-backed environments or supporting executive and board-level reporting is a plus.\n\nSalary Range: $155,628 - $207,504\n\nIn accordance with Colorado’s Equal Pay for Equal Work Act (SB 19-085) the approximate compensation range for this role in Colorado is listed above. Final compensation for this role will be determined by various factors, such as knowledge, skills, and abilities.\nLife at Ping:\n\nWe believe in and facilitate a flexible, collaborative work environment. We’re growing quickly, but remain true to the innovative, can-do startup values that got us here. Most importantly, we keep hiring talented, smart, fun, and genuinely nice people because that’s who we want to succeed with every day.\n\nHere are just a few of the things that make Ping special:\n\n- A company culture that empowers you to do your best work.\n\n- Employee Resource Groups that create a sense of belonging for everyone.\n\n- Regular company and team bonding events.\n\n- Competitive benefits and perks.\n\n- Global volunteering and community initiatives\n\nOur Benefits:\n\n- Generous PTO & Holiday Schedule\n\n- Parental Leave\n\n- Progressive Healthcare Options\n\n- Retirement Programs\n\n- Opportunity for Education Reimbursement\n\n- Commuter Offset (Specific locations)\n\nPing is the collective sum of all our individual experiences, backgrounds and influences and we pride ourselves in growing and learning together. We are committed to building an inclusive and diverse environment where everyone’s individuality is respected and everyone has an Identity. In recruiting for new colleagues, we welcome the unique contributions you can bring and encourage you to be your best self.\n\nWe are an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex including sexual orientation and gender identity, national origin, disability, protected Veteran Status, or any other characteristic protected by applicable federal, state, or local law.\n\nTo apply: https://weworkremotely.com/remote-jobs/ping-identity-chief-of-staff-cco",
+      "apply_url": "https://weworkremotely.com/remote-jobs/ping-identity-chief-of-staff-cco",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-21T07:31:16.000Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:oportun-repossession-coordinator-r14323",
+      "hub": "business",
+      "title": "Repossession Coordinator (R14323)",
+      "company": "Oportun",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World",
+      "employment_type": "full-time",
+      "comp_min": 24510,
+      "comp_max": 36770,
+      "summary": "Headquarters: Remote - US Who We Are Oportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members' financial goals within reach.",
+      "description": "Headquarters: Remote - US\n\nWho We Are\n\nOportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a better financial future. Since inception, Oportun has provided more than $22.7 billion in responsible and affordable credit, saved its members more than $2.5 billion in interest and fees, and helped its members set aside an average of more than $1,800 annually.\n\nThe Opportunity\n\nAs part of the Collections team, the Repossession Coordinator manages key activities across Oportun’s repossession and remarketing process, supporting members with delinquent accounts while coordinating timely, accurate actions with internal partners and third-party vendors. Success in this role means maintaining strong operational controls, clear communication, accurate account and inventory reviews, and adherence to applicable lending regulations and Oportun policies.\n\nAt Oportun, we move fast and we hold each other to a high bar. If you care about doing your best work while actually moving the needle for real people, you'll fit right in.\n\nWhat You'll Do\n\nYour day-to-day\n\n- You'll provide support and guidance to members with delinquent accounts who may be eligible for repossession, ensuring clear and respectful communication throughout the process.\n\n- You'll coordinate repossession and remarketing activities with members, internal business partners, and third-party vendors to support timely and accurate execution.\n\n- You'll complete required account reviews, letters, scrubs, and other operational steps associated with repossession and remarketing.\n\n- You'll monitor repossession and remarketing inventory and account status, identifying issues and escalating or routing them accurately to the appropriate partners.\n\n- You'll communicate and collaborate effectively with business partners to resolve workflow issues and keep repossession and remarketing activities moving.\n\n- You'll maintain current knowledge of applicable lending regulations and Oportun policies and apply them consistently in day-to-day work.\n\nWho You Are\n\nThe right fit looks like this\n\n- You're detail-oriented, organized, and comfortable managing multiple priorities in a regulated operational environment.\n\n- You solve problems thoughtfully, communicate clearly with members and partners, and know when an issue needs to be escalated.\n\n- You're comfortable navigating complexity and don't wait for perfect information to move forward.\n\n- You're comfortable navigating complexity and don't wait for perfect information to move forward. You communicate clearly, give direct feedback, and expect the same in return.\n\nWhat You Bring\n\nSkills & experience\n\nRequired\n\n- You'll have 5–7 years of collections experience.\n\n- You'll have 5–7 years of repossession experience.\n\n- You've demonstrated strong problem-solving skills, attention to detail, and the ability to manage multiple priorities.\n\n- You communicate effectively and collaborate with members, business partners, and third-party vendors. You bring working knowledge of applicable lending regulations and the ability to follow established policies and procedures.\n\nNice to Have\n\n- Bilingual communication skills.\n\n- Experience supporting vehicle remarketing processes.\n\n- Familiarity with tools or systems used to manage collections, repossession, remarketing, or inventory workflows.\n\n- You've used AI tools (ChatGPT, Copilot, or similar) to improve your own productivity.\n\nOur AI Mindset\n\nWe build with AI. We lead with judgment.\n\nAI isn't a feature here. It's how we work.\n\nWe're excited about what AI makes possible, and we're looking for people who share that curiosity. You don't need to be an expert. You need to be open to experimenting, willing to learn, and able to apply new tools in ways that actually move the needle.\n\nIn this role, you'll be encouraged to explore AI tools, find practical use cases for your function, and bring ideas for working smarter. We believe the best outcomes come when human judgment and AI capability work together.\n\nWhy Oportun\n\nWhat's in it for you\n\nOportun offers a competitive compensation and benefits package designed to support your physical, financial, and professional well-being. Benefits vary by country of employment.\n\nSome of the benefits available to eligible employees include:\n\nUS Benefits\n\n- Medical, Dental & Vision Insurance\n\n- 401(k) including company match\n\n- Flexible PTO and Parental Leave\n\n- Company-paid Life & Disability Insurance\n\n- Eligibility and plan details vary by location and employment status. To learn more about Oportun and our benefits, visit oportun.com/careers.\n\nThe US hourly range for this full-time position is $24.51 - $36.77.\n\nOur salary ranges are determined by role, level, and location. The range displayed on each job posting reflects a national minimum and maximum range for new hire salaries for this position.\n\nWithin this range, individual pay is determined by work location and additional factors, such as job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range that meets your criteria during the hiring process.\n\nPlease note that the compensation range listed in this posting reflects only the base salary for this position and does not include other compensation elements or benefits. #LI-REMOTE #LI-RR1\n\nWe are proud to be an Equal Opportunity Employer and consider all qualified applicants for employment opportunities without regard to race, age, color, religion, gender, national origin, disability, sexual orientation, veteran status or any other category protected by the laws or regulations in the locations where we operate.\n\nCalifornia applicants can find a copy of Oportun's CCPA Notice here: https://oportun.com/privacy/california-privacy-notice/.\n\nWe will never request personal identifiable information (bank, credit card, etc.) before you are hired. We do not charge you for pre-employment fees such as background checks, training, or equipment. If you think you have been a victim of fraud by someone posing as us, please report your experience to the FBI’s Internet Crime Complaint Center (IC3).\n\nTo apply: https://weworkremotely.com/remote-jobs/oportun-repossession-coordinator-r14323",
+      "apply_url": "https://weworkremotely.com/remote-jobs/oportun-repossession-coordinator-r14323",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-21T07:31:02.000Z",
+      "scraped_at": "2026-10-21T12:38:00.847Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:gocardless:8242496",
+      "hub": "fintech",
+      "title": "Controls Specialist",
+      "company": "GoCardless",
+      "company_id": "gocardless",
+      "priority": false,
+      "category": "Other",
+      "segment": "Recurring Payments Platform",
+      "level": "Mid",
+      "location": "Riga, Latvia",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nAs a regulated payment provider, we must ensure we manage operational risk and our regulatory requirements correctly. We do this by having a robust control framework across some of our business-critical areas, like payments and billing.\n\nThis role will be central to ensuring our 1st line Operations teams continue to implement, manage, test and regularly update controls frameworks. You'll manage the end-to-end controls framework for our operational teams, including but not limited to Payments Operations, Billing and Credit Control. You will be a key point of contact for managing our annual Safeguarding and SOC1 audits, engaging with auditors and gathering and submitting evidence.\n\nThe role provides an excellent opportunity to work with the broader Enterprise Risk community and shape the controls environment for a fast-growing FinTech, putting your stamp on how controls are designed, implemented and managed.\n\nWhat excites you\n\n- Designing and implementing controls. Working with the Regulatory Compliance team to understand the complete picture of the control landscape and then collaborating with 1st line control owners in our Operation to implement relevant controls\n\n- Control assessment and reporting. Updating the safeguarding and SOC1 controls assessments on a regular cadence\n\n- Direct control management. Managing key controls within our Internal Operations teams\n\n- Understanding existing processes and re-designing controls to meet current and future business needs\n\n- Working with the Regulatory team to ensure audits are completed successfully, including explaining our first-line controls to auditors and regulators\n\n- Improving efficiency through the standardisation, automation or removal of controls\n\n- Building positive relationships with stakeholders across the different lines of defence to help develop a real understanding of our risk exposure, control environment, deficiencies and gaps\n\n- Autonomy to drive change from the ground up\n\nWhat excites us\n\n- Have worked in a regulated environment, preferably financial services or at a FinTech\n\n- Previous experience working in a similar role, such as Audit, you’re skilled in designing, implementing and testing the effectiveness of controls\n\n- You're a great communicator. You can simplify and clearly explain the what and why behind the controls you implement\n\n- You understand how to balance compliance and operational efficiency\n\n- You have a solid understanding of the three lines of defence and have experience working with Regulatory Compliance teams as well as external auditors\n\n- You have great attention to detail, you work in a structured manner and you’re comfortable with data\n\n- You’re comfortable working in a fast-paced environment where your responsibilities can evolve and change\n\n- You're a self-starter and can work independently with minimal supervision\n\nBase salary range: 2867 EUR/ months gross - 4300 EUR/ months gross\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
+      "source": "greenhouse",
+      "posted_at": "2026-10-21T07:12:05-04:00",
+      "scraped_at": "2026-10-21T12:37:33.483Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:gocardless:7996723",
+      "hub": "fintech",
+      "title": "Fraud Investigations Specialist",
+      "company": "GoCardless",
+      "company_id": "gocardless",
+      "priority": false,
+      "category": "Other",
+      "segment": "Recurring Payments Platform",
+      "level": "Mid",
+      "location": "Riga, Latvia",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nThe Fraud Risk Management team ensures that GoCardless adopts, implements and maintains innovative and appropriate controls as we have a duty to banking partners, regulators, schemes, merchants and their customers to review and monitor accounts and transactions with the utmost care.\n\nAs a Fraud Investigation Specialist you’ll be working as part of a small, close-knit team, conducting fraud investigations, with the aim of protecting GoCardless from fraud, financial and reputational risk.\n\nThe reason why we have this role open in an additional headcount - we are looking for an extra set of hands!\n\nOn a daily basis you will:\n\n- Monitor the risk alert queue and identify high risk behaviour within the business portfolio\n\n- Conduct fraud investigations within service level agreements to reduce potential revenue losses\n\n- Attain a thorough understanding of GoCardless’ product, policies and processes\n\n- Lead on customer-facing correspondence and work with various teams across the business to ensure we provide a seamless merchant experience\n\nWhat excites you\n\n- The opportunity to work in a high performing team and make important daily decisions that can make an impact on GoCardless’s future success\n\n- Having the opportunity to learn more about data and how to use it to make informative decisions across the business\n\n- Working in a global fraud team where you can share experiences and learn from other team members who come from a variety of industries\n\nWhat excites us\n\n- You have hands-on experience in a fraud investigations role or similar and are looking for your next challenge\n\n- You use logic and reasoning to separate legitimate behaviour from suspected illicit activity\n\n- You are comfortable with making accurate, fast decisions depending on the evidence at hand\n\n- You understand the implications of new information for both current and future problem-solving and decision-making\n\n- You use your written English skills to strike the right tone with internal and external stakeholders.\n\n- You’re driven by initiative, and understand the impact of every decision you make on our merchants\n\n- Results-focused: You can prioritise, organise, and show initiative and willing to get the job done\n\nWe don’t expect you to meet every requirement. If you’re excited by this role, we encourage you to apply.\n\nBase salary range: €1,867 - €2,800 (gross).\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (€1,867 - €2,333) of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
+      "source": "greenhouse",
+      "posted_at": "2026-10-21T07:12:05-04:00",
+      "scraped_at": "2026-10-21T12:37:33.483Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:tide-uk:6234225003",
+      "hub": "fintech",
+      "title": "Customer Support Associate - L2",
+      "company": "Tide",
+      "company_id": "tide-uk",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Business Banking",
+      "level": "Entry",
+      "location": "India, Hyderabad",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensiv…",
+      "description": "ABOUT TIDE\n\nAt Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.\n\nTide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.\n\nUsing advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.\n\nTide facts:\n\n- Tide is available for UK, Indian, German and French SMEs\n\n- Over 2 million members globally and rapidly growing\n\n- Over $300 million raised in funding\n\n- 3,000 Tideans globally\n\n- Recognised with Great Place to Work certification three years in a row, and among India’s Top 50 Best Workplaces in Banking, Financial Services, and Insurance in 2026\n\n- We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg\n\nABOUT THE TEAM\n\nAs a Customer Support Associate, you will be helping businesses all across the UK to become success stories. You’ll love talking to people and have an empathetic and proactive nature along with a passion for solving member issues. You will play a crucial part in helping Tide expand by providing round-the-clock support every day of the year. As part of the Customer Support team, you will build on the relationship with members who use our products to grow their business further. You will gain valuable insight into their needs as well as recognize opportunities.\n\nABOUT THE ROLE\n\n- Juggling priorities to ensure that members get a level 2 support experience - means time is of the essence, and detailed product knowledge is vital.\n\n- Spotting and noting patterns is second nature to you, and you’re always ready to highlight areas that can be improved in terms of product or member experience.\n\n- Getting to grips with brand new features which will streamline payment processing for members and their clients.\n\n- Delivering valuable feedback to Product and Operations Managers on a consistent basis.\n\n- Exploring data and aiding with reporting to track the performance of products and services.\n\n- Helping demonstrate your values to new team members, supporting them with your wisdom and experience, and assisting with everyday back-office tasks.\n\n- Being ready to assist all Level 1 colleagues when they have queries\n\nWHAT MAKES YOU A GREAT FIT\n\n- You have exceptional spoken and written English skills.\n\n- You are comfortable using industry tools like ticketing CRMs, GSuite, Jira, and Excel.\n\n- You are confident talking with our members (over all channels - phone, chat, email) to help them get the most from their business current accounts and products and suggest others that they might benefit from.\n\n- You enjoy finding innovative ways to solve complex problems.\n\n- You are always on the lookout for recurring issues and help create new workflows to solve them.\n\n- You have excellent organisational skills and take responsibility for your workload.\n\n- You have experience working in Customer Service for the finance industry.\n\n- You have some experience working in startups/scaleups.\n\nWHAT YOU'LL GET IN RETURN\n\n- Self & Family Health Insurance\n\n- Term & Life Insurance\n\n- OPD Benefits\n\n- Mental wellbeing through Plumm\n\n- Learning & Development Budget\n\n- WFH Setup allowance\n\n- Family & Friendly Leaves\n\nTIDE IS A PLACE FOR EVERYONE\n\nAt Tide, we believe that we can only succeed if we let our differences enrich our culture. Our Tideans come from a variety of backgrounds and experience levels. We consider everyone irrespective of their ethnicity, religion, sexual orientation, gender identity, family or parental status, national origin, veteran, neurodiversity or differently-abled status. We celebrate diversity in our workforce as a cornerstone of our success. Our commitment to a broad spectrum of ideas and backgrounds is what enables us to build products that resonate with our members’ diverse needs and lives.\n\nWe are One Team and foster a transparent and inclusive environment, where everyone’s voice is heard.\n\nAt Tide, we thrive on diversity, embracing various backgrounds and experiences. We welcome all individuals regardless of ethnicity, religion, sexual orientation, gender identity, or disability. Our inclusive culture is key to our success, helping us build products that meet our members' diverse needs. We are One Team, committed to transparency and ensuring everyone’s voice is heard.\n\nDisclaimer\n\nIt has come to our attention that individuals or agencies are falsely claiming to represent Tide and are reaching out to candidates regarding job opportunities. Please be aware that:\n\n- Tide does not charge any fees at any stage of the recruitment process.\n\n- All official Tide job opportunities are listed exclusively on our Careers Page and applications should be submitted through this channel.\n\n- Communication from Tide will only come from an official @tide.co email address.\n\n- Tide does not work with agencies or recruiters without prior formal engagement, and we do not authorize third parties to make job offers on our behalf.\n\nIf you are contacted by anyone misrepresenting Tide or requesting payment, please treat it as fraudulent and report it to us immediately at talent@tide.co\nYour safety and trust are important to us, and we are committed to ensuring a fair and transparent recruitment process.\n\nTide leverages AI to enhance our hiring experience. You can read more about how we use AI in our recruitment process in our AI Policy.\n\nYour personal data will be processed by Tide for recruitment purposes and in accordance with Tide's Recruitment Privacy Notice.",
+      "apply_url": "https://job-boards.greenhouse.io/tide/jobs/6234225003",
+      "source": "greenhouse",
+      "posted_at": "2026-10-21T04:48:05-04:00",
+      "scraped_at": "2026-10-21T12:37:40.159Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:151242",
+      "hub": "business",
+      "title": "Bilingual Client Retention Specialist",
+      "company": "Beyond Finance",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 19,
+      "comp_max": 21,
+      "summary": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future.",
+      "description": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future. Through compassionate, individualized care, a culture focused on compliance and ethics, supportive user-centric technology, and customized financial solutions, we've helped over 1 million clients on their path to a brighter future.\n\nWhile we're proud of what we've already accomplished, we're searching for new collaborators to help us get to the next level! If you're looking to join a forward-thinking, rapidly growing organization with helping people as its number one goal, we want to hear from you.\n\nAbout The Role\n\nOur Customer Success Team serves as the primary point of contact for valued customers enrolled in Beyond Finance’s financial hardship programs. Our Retention Specialists play a critical role in ensuring the continued loyalty of our Beyond customer base. As a Retention Specialist, your primary responsibility will be to educate and assist clients who are facing financial hardship and exploring options to become debt-free. You will play a crucial role in retaining clients within our financial hardship debt program. In this position, you will interact with clients primarily through inbound phone calls and be responsible for deescalating upset clients, empathizing with their financial difficulties, and helping them navigate the program. Their primary focus is on our at-risk customers who are struggling with the use and/or value of their enrolled program, requiring creative problem solving to help them better realize and understand the value of their decision.\n\nKey Responsibilities:\n\n- Educate Clients: Provide comprehensive information about Beyond Finance financial hardship debt program to clients, ensuring they have a clear understanding of the benefits, process, and available options.\n\n- Empathize and Deescalate: Display empathy and active listening skills to understand and deescalate upset clients, addressing their concerns and alleviating their stress regarding their financial situation.\n\n- Navigate CRM System: Effectively use our Customer Relationship Management (CRM) system to quickly access and comprehend client information, including their current financial status and program progress. Maintain accurate and detailed records of all client interactions and program progress in the CRM system.\n\n- Analyze Financial Situation: Assess the client's current financial situation and determine the most appropriate options to help them achieve their goal of becoming debt-free.\n\n- Retain Clients: Collaborate with clients to develop customized solutions that align with their financial goals, and encourage them to remain in the Beyond Finance program.\n\n- Achieve Retention Goals: Meet or exceed retention targets and earn commissions based on your ability to enable clients to achieve their financial objectives.\n\n- Above all else, provide a best-in-class customer service experience over the phone and through various communication tools responding to client requests and anticipating unstated needs\n\nWhat We Look For\n\n- Bilingual Spanish Required\n\n- Required - Experience in Retention, Sales, or Collections\n\n- High school diploma or equivalent (Associate's or Bachelor's degree is a plus)\n\n- Ability to work in a fast-paced environment and handle high call volumes\n\n- Resilient and able to remain calm under pressure\n\n- Demonstrated ability to negotiate and deescalate client issues effectively\n\n- Tech saavy and proficiency with a Client Relationship Management system (CRM)\n\n- Strong customer focus and adaptability to different personality types\n\n- Strong verbal and written communication skills along with active listening\n\n- Supports team/department collaboration & inclusion\n\n- Troubleshooting and problem solving skills\n\n- Ability to multi-task, set priorities and manage time effectively\n\n- Willingness to adapt to a changing environment and learn about new financial solutions.\n\n#LI-ST1\n\nThe base salary range represents the low and high end of the anticipated salary range for this position. The actual base salary offered will depend on numerous factors including the individual’s skills, experience, performance, and the location where work is performed.\n\nBase Pay Range\n\n$19—$21 USD\n\nWhy Join Us?\n\nWhile you make a difference for others, we’ll work to make a difference for you, providing an uplifting, collaborative work environment and benefits that reflect your value to us. For eligible full-time employees, we offer:\n\n- Considerable employer contributions for health, dental, and vision programs\n\n- Generous PTO, paid holidays, and paid parental leave\n\n- 401(k) matching program\n\n- Merit advancement opportunities\n\n- Career development & training\n\nAnd finally, our team spirit and culture! We cultivate an environment of community, connection, and belonging across our entire organization.\n\nBeyond Finance does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job positions. No fee will be paid to their parties who submit unsolicited candidates directly to Beyond Finance employees or the Beyond Finance HR team. No placement fee will be paid to any third party unless such a request has been made by the Beyond HR team.",
+      "apply_url": "https://jobicy.com/jobs/151242-bilingual-client-retention-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-10-21T03:10:04.000Z",
+      "scraped_at": "2026-10-21T12:38:02.042Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:151252",
+      "hub": "business",
+      "title": "Client Retention Specialist",
+      "company": "Beyond Finance",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 19,
+      "comp_max": 20,
+      "summary": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future.",
+      "description": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future. Through compassionate, individualized care, a culture focused on compliance and ethics, supportive user-centric technology, and customized financial solutions, we've helped over 1 million clients on their path to a brighter future.\n\nWhile we're proud of what we've already accomplished, we're searching for new collaborators to help us get to the next level! If you're looking to join a forward-thinking, rapidly growing organization with helping people as its number one goal, we want to hear from you.\n\nAbout The Role\n\nOur Customer Success Team serves as the primary point of contact for valued customers enrolled in Beyond Finance’s financial hardship programs. Our Retention Specialists play a critical role in ensuring the continued loyalty of our Beyond customer base. As a Retention Specialist, your primary responsibility will be to educate and assist clients who are facing financial hardship and exploring options to become debt-free. You will play a crucial role in retaining clients within the Beyond Finance financial hardship debt program. In this position, you will interact with clients primarily through inbound phone calls and be responsible for deescalating upset clients, empathizing with their financial difficulties, and helping them navigate the Beyond Finance program. Their primary focus is on our at-risk customers who are struggling with the use and/or value of their enrolled program, requiring creative problem solving to help them better realize and understand the value of their decision.\n\nKey Responsibilities:\n\n- Educate Clients: Provide comprehensive information about the Beyond Finance financial hardship debt program to clients, ensuring they have a clear understanding of the benefits, process, and available options.\n\n- Empathize and Deescalate: Display empathy and active listening skills to understand and deescalate upset clients, addressing their concerns and alleviating their stress regarding their financial situation.\n\n- Navigate CRM System: Effectively use our Customer Relationship Management (CRM) system to quickly access and comprehend client information, including their current financial status and program progress. Maintain accurate and detailed records of all client interactions and program progress in the CRM system.\n\n- Analyze Financial Situation: Assess the client's current financial situation and determine the most appropriate options to help them achieve their goal of becoming debt-free.\n\n- Retain Clients: Collaborate with clients to develop customized solutions that align with their financial goals, and encourage them to remain in the Beyond Finance program.\n\n- Achieve Retention Goals: Meet or exceed retention targets and earn commissions based on your ability to enable clients to achieve their financial objectives.\n\n- Above all else, provide a best-in-class customer service experience over the phone and through various communication tools responding to client requests and anticipating unstated needs\n\nWhat We Look For\n\n- Required - Experience in Retention, Sales, or Collections\n\n- High school diploma or equivalent (Associate's or Bachelor's degree is a plus)\n\n- Ability to work in a fast-paced environment and handle high call volumes\n\n- Resilient and able to remain calm under pressure\n\n- Demonstrated ability to negotiate and deescalate client issues effectively\n\n- Tech saavy and proficiency with a Client Relationship Management system (CRM)\n\n- Strong customer focus and adaptability to different personality types\n\n- Strong verbal and written communication skills along with active listening\n\n- Supports team/department collaboration & inclusion\n\n- Troubleshooting and problem solving skills\n\n- Ability to multi-task, set priorities and manage time effectively\n\n- Willingness to adapt to a changing environment and learn about new financial solutions.\n\n#LI-ST1\n\nThe base salary range represents the low and high end of the anticipated salary range for this position. The actual base salary offered will depend on numerous factors including the individual’s skills, experience, performance, and the location where work is performed.\n\nBase Pay Range\n\n$19—$20 USD\n\nWhy Join Us?\n\nWhile you make a difference for others, we’ll work to make a difference for you, providing an uplifting, collaborative work environment and benefits that reflect your value to us. For eligible full-time employees, we offer:\n\n- Considerable employer contributions for health, dental, and vision programs\n\n- Generous PTO, paid holidays, and paid parental leave\n\n- 401(k) matching program\n\n- Merit advancement opportunities\n\n- Career development & training\n\nAnd finally, our team spirit and culture! We cultivate an environment of community, connection, and belonging across our entire organization.\n\nBeyond Finance does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job positions. No fee will be paid to their parties who submit unsolicited candidates directly to Beyond Finance employees or the Beyond Finance HR team. No placement fee will be paid to any third party unless such a request has been made by the Beyond HR team.",
+      "apply_url": "https://jobicy.com/jobs/151252-client-retention-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-10-21T03:05:22.000Z",
+      "scraped_at": "2026-10-21T12:38:02.043Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:151247",
+      "hub": "business",
+      "title": "Bilingual Customer Service Representative",
+      "company": "Beyond Finance",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future.",
+      "description": "At Beyond Finance, we've made it our mission to help everyday Americans escape the endless cycle of crippling debt and step into a brighter financial future. Through compassionate, individualized care, a culture focused on compliance and ethics, supportive user-centric technology, and customized financial solutions, we've helped over 1 million clients on their path to a brighter future.\n\nWhile we're proud of what we've already accomplished, we're searching for new collaborators to help us get to the next level! If you're looking to join a forward-thinking, rapidly growing organization with helping people as its number one goal, we want to hear from you.\n\nAbout The Role\n\nOur Customer Service Representatives (CSR) serve as the primary point of contact for clients enrolled in Beyond Finance’s financial hardship programs. They are Beyond’s voice to the client and provide the connection between our Sales and Operations teams. Our CSRs possess a “second-to-none” work ethic and an upbeat, positive and passionate attitude about customer service. By responding promptly to client requests, and possessing an acute awareness that allows them to anticipate the client’s needs and exceed expectations, our Client Success Department is critical to the success of helping maintain Beyond’s exemplary customer brand.\n\nAs a Customer Service Representative, you will complete a 4 week training program to become an expert in Beyond's financial hardship programs. After you successfully complete training, you will be responsible for providing superior customer service and a positive experience to our clients. The Client Success Representative role is a remote position.\n\nOur call center is open 7 days a week. The hours are M-F 7:00am-10:00pm CST and Sat/Sun 7:00am-9:00pm CST.\n\nWhat You’ll Do\n\n- Above all else, provide a best-in-class customer service experience over the phone by responding to client requests, anticipating unstated needs, and educating them on our programs\n\n- Through demonstrated effective listening, analyze client problems and provide information and solutions in a timely and efficient manner\n\n- Employs strong interpersonal skills to handle difficult calls courteously and professionally\n\n- Thoroughly documents request outcomes for accurate tracking and analysis\n\n- Work efficiently and effectively to independently resolve client requests, both as a team and independently\n\n- Develops and maintains positive client relations and coordinates with other departments within the company to ensure client requests and questions are handled appropriately and in a timely manner\n\n- Operates a desktop computer to obtain and extract information; documents information, activities and changes in the CRM database (Client Relationship Management System) for client accounts\n\n- Utilizes appropriate resource materials to effectively and accurately interpret‚ respond and resolve client inquiries and problems\n\n- Handle a high volume of clients in a work from home call center environment\n\nWhat We Look For\n\n- 1 year call center experience (Required)\n\n- Bilingual - Spanish (Required)\n\n- Reliable, High Speed, Internet connection (Required)\n\n- Technical proficiency with Client Relationship Management system (CRM)\n\n- Strong customer service orientation\n\n- Strong communicator: Includes listening, verbal & written communication, courteous and professional active listening skills is a must\n\n- Effective problem solver\n\n- Effective at time management, planning & organizing tasks and time\n\n- Ability to understand and empathize with customer issue(s)\n\n- Ability to work from home in a distraction free environment\n\n#LI-NA1\n\nWhy Join Us?\n\nWhile you make a difference for others, we’ll work to make a difference for you, providing an uplifting, collaborative work environment and benefits that reflect your value to us. For eligible full-time employees, we offer:\n\n- Considerable employer contributions for health, dental, and vision programs\n\n- Generous PTO, paid holidays, and paid parental leave\n\n- 401(k) matching program\n\n- Merit advancement opportunities\n\n- Career development & training\n\nAnd finally, our team spirit and culture! We cultivate an environment of community, connection, and belonging across our entire organization.\n\nBeyond Finance does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job positions. No fee will be paid to their parties who submit unsolicited candidates directly to Beyond Finance employees or the Beyond Finance HR team. No placement fee will be paid to any third party unless such a request has been made by the Beyond HR team.",
+      "apply_url": "https://jobicy.com/jobs/151247-bilingual-customer-service-representative-2",
+      "source": "Jobicy",
+      "posted_at": "2026-10-21T03:05:20.000Z",
+      "scraped_at": "2026-10-21T12:38:02.043Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:156000",
+      "hub": "business",
+      "title": "Technical Support Specialist (Night Shift)",
+      "company": "Nextiva",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Ukraine",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Redefine the future of customer experiences. One conversation at a time. At Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collab…",
+      "description": "Redefine the future of customer experiences. One conversation at a time.\n\nAt Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collaboration on a single, conversation centric platform. Powered by AI, driven by human innovation.\n\nOur culture is forward thinking, customer obsessed and built on the belief that meaningful connections drive better business outcomes. Whether it’s through our signature Amazing Service®, the technology we create, or the experiences we cultivate, connection is at the core of who we are.\n\nIf you’re ready to collaborate with incredible people, make an impact, and help businesses everywhere deliver truly amazing experiences, this is where you belong.\n\nHow You’ll Make an Impact\n\nAs a Technical Support Specialist at Nextiva, you’ll be on the front lines of delivering exceptional customer experiences. You’re not just solving issues, you’re uncovering the “why,” guiding customers to the right solutions, and making their day easier.\n\nAs a Technical Support Representative, you will deliver Amazing Service® through high-quality technical support services by processing and resolving requests received across various communication channels; while continuously growing your skills in a fast-paced, learning environment. You’ll leverage modern tools, including AI, to work smarter, move faster, and deliver even better outcomes for customers.\n\nWhat You’ll Do\n\n- Solve What Matters: Troubleshoot customer issues across hardware, software, and networking systems, quickly identifying root causes and driving resolution\n\n- Deliver Great Experiences: Communicate clearly and professionally to ensure every interaction is positive and productive\n\n- Stay on the Details: Document customer interactions, issues, and resolutions with accuracy and consistency\n\n- Keep Systems Running: Provide, maintain, and update systems to ensure optimal performance for customers; managing multiple requests simultaneously in a fast-paced, high-volume environment\n\n- Own the Outcome: Take full ownership of customer issues, following through until resolution while meeting daily and monthly performance metrics\n\n- Continuous Learning: Continuously build technical knowledge of Nextiva products, systems, and troubleshooting processes to provide better service. Explore new tools and ways of working to improve performance\n\n- Work Smarter:\n\n- Leverage AI tools (e.g., ChatGPT, Copilot, or similar) to support daily workflows, such as summarizing customer interactions, identifying key action items, and improving response quality\n\n- Apply clear and structured inputs when using AI tools to generate accurate and relevant outputs; iterating and refining your approach when the responses aren't perfect (persistence is key!)\n\nAbout You:\n\n- 2+ years of customer service experience, preferably in technical support or help desk environment\n\n- Working knowledge of PC and Mac operating systems and Microsoft Office applications; hardware and/or networking knowledge preferred\n\n- Advanced English fluency required (spoken and written).\n\n- Ability to work remotely in Ukraine and regularly work shifts aligned with US business hours (between 12:00pm-4:00am Monday through Friday)\n\n- Curiosity and enthusiasm for learning new technologies\n\n- Comfort working in fast-paced environments with evolving tools and processes\n\nCore Competencies:\n\n- Customer First: Patient, conscientious and professional; providing great customer experiences with a focus on accuracy\n\n- Problem Solver: Strong troubleshooting and analytical skills with a persistent, solution-oriented mindset; able to overcome setbacks and willing to try multiple paths to reach the right solution\n\n- Detail-Oriented: Ability to manage multiple tasks or conversations simultaneously; strong attention to detail in both technical work and documentation\n\n- AI-Forward Mindset: Curiosity and willingness to experiment with AI & automation tools (e.g., ChatGPT, Microsoft Copilot); exposure to similar tools in a professional environment preferred\n\n- Team-Driven: You collaborate, share knowledge, and contribute to a positive team environment\n\nWhy Nextiva?\n\n- Impact: Join a company trusted by over a million users, helping businesses deliver better customer experiences every day\n\n- Innovation: Be part of a team building AI-powered solutions that drive efficiency and smarter customer engagement\n\n- Growth: Thrive in a culture focused on continuous learning, development, and career progression\n\n- Culture: Work alongside a supportive, high-energy team committed to Amazing Service® and meaningful connections\n\nNextiva DNA (Core Competencies)\n\nNextiva’s most successful team members share common traits and behaviors:\n\n- Drives Results: Action-oriented problem solvers who quickly bring clarity and simplicity to ambiguity, challenge the status quo, and lead meaningful change; celebrating wins to fuel momentum. They act swiftly and pragmatically, learning and improving as they go.\n\n- Critical Thinker: Data-driven, forward-thinking individuals who identify key drivers, anticipate risks, and deliver clear recommendations. They confidently leverage AI and automation to reduce friction, improve decision-making, and focus on higher-value work.\n\n- Right Attitude: Collaborative, competitive, and resilient team players who jump in to solve tough problems, learn from setbacks, and foster a culture of service, respect, and care for customers and teammates.\n\nTotal Rewards\n\nOur Total Rewards offerings are designed to allow Nexties to take care of themselves and their families so they can do their best.\n\nOur compensation packages are tailored to each role and candidate's qualifications. We consider a wide range of factors, including skills, experience, training, and certifications, when determining compensation. We aim to offer competitive salaries or wages that reflect the value you bring to our team. Depending on the position, compensation may include base salary, incentives, or bonuses.\n\n- Health – Comprehensive medical coverage, individual limit on exclusions and dental care\n\n- Insurance – Life, disability, traumatic injuries and critical diseases\n\n- Work-Life Balance ⚖️ – PTO for all employees, Paid Sick leave (official document required), paid parental leave and paid holidays\n\n- Wellness ‍ – Employee Assistance Program and wellness initiatives\n\n- Growth – Access to ongoing learning and development opportunities and career advancement\n\nAt Nextiva, we're committed to supporting our employees' health, well-being, and professional growth. Join us and build a rewarding career!\n\n#LI-AL1 #LI-Remote\n\nFounded in 2008, Nextiva has grown into a global leader trusted by over 100,000 businesses and 1M+ users worldwide. Headquartered in Scottsdale, Arizona, and with teams across the globe, we're the future of customer experience and team collaboration through our AI-powered, conversation-centric platform.\n\nWant to see what life at Nextiva is all about? Connect with us on Instagram, Instagram MX, YouTube, LinkedIn, and the Nextiva Blog.",
+      "apply_url": "https://jobicy.com/jobs/156000-technical-support-specialist-night-shift",
+      "source": "Jobicy",
+      "posted_at": "2026-10-20T15:24:11.000Z",
+      "scraped_at": "2026-10-21T12:38:02.043Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:mercury:6230088004",
+      "hub": "business",
+      "title": "Risk UX Specialist",
+      "company": "Mercury",
+      "company_id": "mercury",
+      "priority": false,
+      "category": "Other",
+      "segment": "Startup Banking",
+      "level": "Mid",
+      "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
+      "employment_type": "full-time",
+      "comp_min": 75900,
+      "comp_max": 85400,
+      "summary": "For the longest time, banking* has only really served one purpose, holding money securely. In doing so, it’s also slowed us down and overcomplicated things.",
+      "description": "For the longest time, banking* has only really served one purpose, holding money securely. In doing so, it’s also slowed us down and overcomplicated things. That’s where Mercury comes in. Banking should do more and we’re on a mission to make that happen through powerful banking solutions and simplifying all of the financial workflows that come with managing a business. To accomplish this end, we also need to ensure the trust and safety of our customers, partners and ecosystem. Thankfully, Mercury has a world class Risk team to detect and mitigate any threats. And this team is growing. We’re looking to bring on a Risk User Experience Specialist to make risk decisions in response to risk-related user inquiries, all while providing best-in-class user experiences.\n\nAs a Risk User Experience Specialist, you’ll be responsible for responding to transaction limit request increases, making risk decisions on queued payments and check deposits, and leveraging your general risk knowledge to escalate unusual or high risk behavior to relevant teams. You’ll be responsible for providing great user experiences to Mercury users while making highly efficient and high quality risk assessments. You will report directly to the Risk User Experience Lead and will be supported by a highly functional team.\n\n*Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\n\nSchedule Information:\n\nRequired: This position requires you to be able to work on the weekends in addition to weekdays\n\n- This position will be full time working Sunday - Thursday shift, with standard working hours (8am-5pm local time)\n\n- Your working schedule will be fixed - this is not a rotating shift\n\nHere are some things you’ll do on the job:\n\n- Respond to limit request increases from high and moderate risk users, while reviewing account and transactional activity, to determine if aligned with expected account usage\n\n- Review Overlimit transactions through a dedicated queue, evaluating account history and risk signals, and requesting supporting documentation as needed, to approve or reject within required cutoff times\n\n- Review and decision remote check deposits submitted by users utilizing internal tools, and third party systems\n\n- Manage a high-volume caseload within service level agreements and with critical attention to detail\n\n- Respond to Risk support requests in the mailbox and Slack channels, related to limit increases, and other account operations inquiries from financial partners, users, or other internal/external parties\n\n- Partner with our BPO team by providing second opinions and exception guidance on escalated reviews for both check deposits and overlimit transactions\n\n- Document rationale for risk decisions with supporting documentation\n\n- Write clear documentation on current processes and help train future teammates\n\n- Identify opportunities to make processes more observable, scalable, and efficient through tooling changes and procedure updates\n\n- Maintain a positive user experience, while mitigating any potential fraud loss or risk to Mercury\n\nYou should:\n\n- Have experience working in banking, fintech, or other financial services\n\n- Have 2-3 years of experience working in the risk space\n\n- Have product sense and knowledge of banking products (e.g., ACH, International Wires, SWIFT, checks, and debit card)\n\n- Exercise empathy and understanding when communicating with users\n\n- Manage relationships with external parties with confidence and kindness\n\n- Act as a generalist by assessing various types of risk when making decisions\n\n- Work with efficiency and focus\n\n- Write with clarity and purpose\n\n- Prioritize requests and keep track of follow-ups\n\n- Love problem solving and making teams, products, and processes more efficient\n\nMercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic. We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities or special needs. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role.\n\n#LI-JD1\nTotal Rewards\nThe total rewards package at Mercury includes base salary, equity (stock options/RSUs), and benefits.\n\nOur salary and equity ranges are highly competitive within the SaaS and fintech industry and are updated regularly using the most reliable compensation survey data for our industry. New hire offers are made based on a candidate’s experience, expertise, geographic location, and internal pay equity relative to peers.\n\nOur target new hire base salary ranges for this role are the following:\n\nUS employees in New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n$75,900—$85,400 USD\n\nUS employees outside of New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n$68,300—$76,900 USD",
+      "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6230088004",
+      "source": "greenhouse",
+      "posted_at": "2026-10-20T14:11:35-04:00",
+      "scraped_at": "2026-10-21T12:37:14.254Z",
+      "status": "open"
+    },
     {
       "id": "agg:weworkremotely:reddit-community-manager-dutch-speaking-contract",
       "hub": "business",
@@ -24,7 +244,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-dutch-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-10-20T07:30:57.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.847Z",
       "status": "open"
     },
     {
@@ -46,7 +266,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-10-20T05:53:00-04:00",
-      "scraped_at": "2026-10-20T12:27:40.344Z",
+      "scraped_at": "2026-10-21T12:37:54.452Z",
       "status": "open"
     },
     {
@@ -68,7 +288,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/abbott-clinical-specialist-crm-mobile-al",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T17:39:32.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -90,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/evolve-peptides-operations-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T17:25:15.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -112,7 +332,7 @@
       "apply_url": "https://jobicy.com/jobs/155902-customer-success-travel-operations-specialist-2",
       "source": "Jobicy",
       "posted_at": "2026-10-19T16:56:04.000Z",
-      "scraped_at": "2026-10-20T12:27:50.388Z",
+      "scraped_at": "2026-10-21T12:38:02.043Z",
       "status": "open"
     },
     {
@@ -134,7 +354,7 @@
       "apply_url": "https://jobicy.com/jobs/155904-customer-service-associate-4",
       "source": "Jobicy",
       "posted_at": "2026-10-19T16:56:01.000Z",
-      "scraped_at": "2026-10-20T12:27:50.388Z",
+      "scraped_at": "2026-10-21T12:38:02.043Z",
       "status": "open"
     },
     {
@@ -156,7 +376,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-care-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T07:31:25.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
       "status": "open"
     },
     {
@@ -178,7 +398,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-billing-and-claims-support-representative",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T07:31:12.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
       "status": "open"
     },
     {
@@ -200,7 +420,7 @@
       "apply_url": "https://jobicy.com/jobs/155767-customer-experience-specialist-7",
       "source": "Jobicy",
       "posted_at": "2026-10-18T16:18:47.000Z",
-      "scraped_at": "2026-10-20T12:27:50.388Z",
+      "scraped_at": "2026-10-21T12:38:02.043Z",
       "status": "open"
     },
     {
@@ -222,51 +442,7 @@
       "apply_url": "https://jobicy.com/jobs/155764-bilingual-customer-experience-specialist-spanish",
       "source": "Jobicy",
       "posted_at": "2026-10-18T16:10:40.000Z",
-      "scraped_at": "2026-10-20T12:27:50.388Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:155698",
-      "hub": "business",
-      "title": "IT Support Specialist",
-      "company": "6sense",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 73577,
-      "comp_max": 103913,
-      "summary": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency. We envision a future where companies, teams and people reach their full potential.",
-      "description": "Our Mission:\n\n6sense's mission is to multiply what matters: growth, retention, and efficiency. We envision a future where companies, teams and people reach their full potential.\n\nOur People:\n\nPeople are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. Every 6sensor plays a part in deﬁning the future of our industry-leading technology. 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers. We want 6sense to be the best chapter of your career.\n\nIT Support Specialist\n\nAbout the Role\n\n6sense is looking for an IT Support Specialist who is passionate about delivering exceptional employee experiences through world-class IT support. This role combines hands-on end user support with administration of modern workplace technologies, identity systems, SaaS applications, endpoint management, and AI platforms.\n\nYou'll support a global workforce while helping improve IT operations through automation, documentation, and process improvement. We're looking for someone who enjoys solving problems, learning new technologies, and creating scalable solutions that make employees more productive.\n\nWhat You'll Do\n\n- Provide Tier 1 and Tier 2 support through tickets, chat, email, and remote support sessions.\n\n- Support macOS, Windows 11, Microsoft 365, Teams, Slack, and Zoom environments.\n\n- Manage user lifecycle processes including onboarding, offboarding, access requests, and role changes.\n\n- Administer and troubleshoot Okta, Entra ID, SSO, MFA, and identity-related services.\n\n- Support and manage SaaS platforms including Microsoft 365, Slack, Zoom, 1Password, GitHub, Claude Enterprise, and Workato.\n\n- Deploy, configure, and maintain endpoints using Intune, Iru, and CrowdStrike.\n\n- Maintain accurate asset inventory and device lifecycle management.\n\n- Support Microsoft Copilot, Claude, and other AI technologies while promoting responsible AI practices.\n\n- Develop scripts, automations, and workflow improvements that reduce manual effort and improve efficiency.\n\n- Create and maintain documentation, knowledge articles, and standard operating procedures.\n\n- Provide occasional support for Zoom Rooms, Teams meetings, executive users, and company events.\n\nWhat We're Looking For\n\n- 3+ years of experience in IT Support, Help Desk, Service Desk, or End User Computing.\n\n- Experience supporting macOS and Windows environments.\n\n- Hands-on experience with Microsoft 365, Teams, Slack, and Zoom.\n\n- Familiarity with identity and access management concepts including Okta, Entra ID, SSO, and MFA.\n\n- Experience with endpoint management tools such as Intune, Iru, or similar MDM platforms.\n\n- Strong troubleshooting, communication, and customer service skills.\n\n- Experience working in a fast-paced, remote-first environment.\n\n- Basic scripting or automation experience using PowerShell, Bash, Python, Workato, or similar tools.\n\n- Interest in AI technologies such as Microsoft Copilot and Claude.\n\n- Strong attention to detail, ownership, and a continuous improvement mindset.\n\nBonus Points\n\n- Experience administering Okta, Entra ID, Intune, or Iru.\n\n- Experience with Workato or workflow automation platforms.\n\n- Experience supporting AI platforms and governance practices.\n\n- ITIL, Okta, Microsoft, Apple, or security-related certifications.\n\n- Experience supporting executive stakeholders and globally distributed teams.\n\nSuccess in This Role\n\nYou'll thrive in this role if you're customer-obsessed, highly organized, technically curious, and motivated to improve how IT services are delivered. Success will be measured through service quality, SLA performance, knowledge sharing, asset management accuracy, and contributions to automation and process improvement.\n\nBase Salary Range: $73,577.25 - $103,913.30. The base salary range represents the anticipated low and high end of the base salary range for this position. Actual salaries may vary and may be above or below the range based on various factors, including but not limited to work location and experience. The base salary is one component of 6sense’s total compensation package for this position. Other compensation may include a bonus program or commission plan, and stock options if approved by 6sense’s board. In addition, 6sense provides a variety of benefits, including generous health insurance coverage, life, and disability insurance, a 401K employer matching program, paid holidays, self-care days, and paid time off (PTO). #Li-remote\n\nNotice of Collection and Use of Personal Information for California Residents: California Recruitment Privacy Notice and Policy\n\nOur Benefits:\n\nFull-time employees can take advantage of health coverage, paid parental leave, generous paid time-off and holidays, quarterly self-care days off, and stock options. We’ll make sure you have the equipment and support you need to work and connect with your teams, at home or in one of our oﬃces.\n\nWe have a growth mindset culture that is represented in all that we do, from onboarding through to numerous learning and development initiatives including access to our LinkedIn Learning platform. Employee well-being is also top of mind for us. We host quarterly wellness education sessions to encourage self care and personal growth. From wellness days to ERG-hosted events, we celebrate and energize all 6sense employees and their backgrounds.\n\nEqual Opportunity Employer:\n\n6sense is an Equal Employment Opportunity and Affirmative Action Employers. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender perception or identity, national origin, age, marital status, protected veteran status, or disability status. If you require reasonable accommodation in completing this application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please direct your inquiries to jobs@6sense.com.\n\nWe are aware of recruiting impersonation attempts that are not affiliated with 6sense in any way. All email communications from 6sense will originate from the @6sense.com domain. We will not initially contact you via text message and will never request payments. If you are uncertain whether you have been contacted by an official 6sense employee, reach out to jobs@6sense.com",
-      "apply_url": "https://jobicy.com/jobs/155698-it-support-specialist-3",
-      "source": "Jobicy",
-      "posted_at": "2026-10-18T07:23:16.000Z",
-      "scraped_at": "2026-10-20T12:27:50.388Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:155643",
-      "hub": "business",
-      "title": "Product Support Representative",
-      "company": "Fieldguide",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "UK",
-      "employment_type": "full-time",
-      "comp_min": 35000,
-      "comp_max": 50000,
-      "summary": "About Us Fieldguide is establishing a new state of trust for global commerce and capital markets through automating and streamlining the work of assurance and audit practitioners s…",
-      "description": "About Us\n\nFieldguide is establishing a new state of trust for global commerce and capital markets through automating and streamlining the work of assurance and audit practitioners specifically within cybersecurity, privacy, and financial audit. Put simply, we build software for the people who enable trust between businesses.\n\nWe’re based in San Francisco, CA, but built as a remote-first company that enables you to do your best work from anywhere. We're backed by top investors including Growth Equity at Goldman Sachs Alternatives, Bessemer Venture Partners, 8VC, Floodgate, Y Combinator, DNX Ventures, Global Founders Capital, Justin Kan, Elad Gil, and more.\n\nWe value diversity — in backgrounds and in experiences. We need people from all backgrounds and walks of life to help build the future of audit and advisory. Fieldguide’s team is inclusive, driven, humble and supportive. We are deliberate and self-reflective about the kind of team and culture that we are building, seeking teammates that are not only strong in their own aptitudes but care deeply about supporting each other's growth.\n\nAs an early stage start-up employee, you’ll have the opportunity to build out the future of business trust. We make audit practitioners’ lives easier by bringing together up to 50% of their work and giving them better work-life balance. If you share our values and enthusiasm for building a great culture and product, you will find a home at Fieldguide.\n\nAbout the Role:\n\nAs a Product Support Representative at Fieldguide, you will be an integral member of our go-to-market team, helping build our support function.\n\nYou will provide customers with world-class support built to maximize our customers’ return on investment quickly and continuously. As a trusted expert on the Fieldguide platform, you will partner closely with firms to ensure their ongoing success with Fieldguide.\n\nThis hire must be comfortable working 9am - 6pm GMT.\n\nWhat You’ll Do:\n\n-\nBuild trust with customers. Respond quickly and accurately to client requests for assistance, always with a positive attitude.\n\n-\nProvide technical support: Offer prompt and efficient assistance to resolve technical issues related to Fieldguide's platform. Troubleshoot problems via email, phone, or chat, investigating and reproducing issues, and working through fixes with Engineering when needed.\n\n-\nEnhance user experience: Guide customers through the features and functionalities of the Fieldguide platform. Provide tips and best practices for optimal use, ensuring customers can leverage the software to its fullest potential.\n\n-\nAdvocate for the customer: Be the link between the customer and Fieldguide’s Engineering, Product, Design team. Be aware of and communicate customer needs internally to help shape the product roadmap. Help the customer participate in deployment of beta features, facilitating a frequent feedback loop.\n\n-\nBolster onboarding and retention: Assist in customer database setup and template creation to ensure a world-class client experience.\n\n-\nMaintain knowledge base: Contribute to and update the online help resources, FAQs, and support documentation, ensuring they are current and comprehensive for user self-service.\n\nAbout You:\n\n-\n1 - 3 years of customer support experience, 1 to 3 years in a customer-facing technical role. Support, implementation, solutions, or support plus engineering all count.\n\n-\nYou are a team player and are mission-first. You’re joining a hard-working team that trusts each other deeply. We won’t compromise on this.\n\n-\nStartup or scale-up experience where you have worn multiple hats and worked without full documentation.. The ideal candidate will have a proven track record of driving customer satisfaction and fostering long-term client relationships.\n\n-\nBias towards action. You take ownership of projects end-to-end and see them through to completion, with minimal direction or oversight.\n\n-\nAdaptable. You adjust quickly to changing processes and customer needs.\n\n-\nNice to have: Familiarity with the integration of merge tags in Microsoft Office applications is desirable.\n\nMore about Fieldguide:\n\nFieldguide is a values-based company. Our values are:\n\n-\nFearless - Inspire & break down seemingly impossible walls.\n\n-\nFast - Launch fast with excellence, iterate to perfection.\n\n-\nLovable - Deliver happiness & 11 star experiences.\n\n-\nOwners - Execute & run the business with ownership.\n\n-\nWin-win - Create mutual value & earn trust for life.\n\n-\nInclusive - Scale the best ideas with inclusive teams.",
-      "apply_url": "https://jobicy.com/jobs/155643-product-support-representative",
-      "source": "Jobicy",
-      "posted_at": "2026-10-18T04:32:32.000Z",
-      "scraped_at": "2026-10-20T12:27:50.388Z",
+      "scraped_at": "2026-10-21T12:38:02.043Z",
       "status": "open"
     },
     {
@@ -288,29 +464,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e1df27dd-5074-42d1-adde-3b074bf10b6b",
       "source": "lever",
       "posted_at": "2026-10-16T16:36:04.185Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:mercury:6111944004",
-      "hub": "business",
-      "title": "Senior Revenue Enablement Specialist - Product",
-      "company": "Mercury",
-      "company_id": "mercury",
-      "priority": false,
-      "category": "Other",
-      "segment": "Startup Banking",
-      "level": "Senior",
-      "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",
-      "employment_type": "full-time",
-      "comp_min": 142000,
-      "comp_max": 178000,
-      "summary": "In the early days of Silicon Valley, the most powerful ideas spread not through ads or algorithms, but through conversation.",
-      "description": "In the early days of Silicon Valley, the most powerful ideas spread not through ads or algorithms, but through conversation. It was founders sharing lessons over coffee, investors making connections at late-night dinners, communities forming around ambition and belief. These moments weren’t loud, but they were transformative.\n\nAt Mercury, we believe modern banking* should feel the same way - powerful, personal, and effortless. Our mission is to simplify finance for ambitious founders so they can spend less time managing money and more time building what matters.\n\nWe’re looking for a Senior Product Enablement Specialist to ensure our go-to-market teams are ready to sell every product we launch. Mercury is shipping new products faster than ever, and this role will own how our reps learn, practice, and prove they’re ready to sell with confidence from day one. You’ll build the programs, set the standard for what good looks like, and measure the impact it makes in the field.\n\nThis is a chance to build a function from the ground up at a pivotal moment in our growth. You’ll partner closely with product marketing, revenue strategy, and sales on high-visibility launches, helping define what great product enablement looks like at Mercury.\n\n*Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\n\nWhat you’ll do:\n\n- Own revenue readiness for product launches and major updates, from the enablement plan through delivery\n\n- Design and continuously improve product enablement programs that set a standard for what good looks like, certify reps against it before they sell, and scale as reusable resources for new hires\n\n- Conduct needs assessments to identify gaps or opportunities, prioritize across competing requests, and define the most appropriate solutions at the individual, team and department levels\n\n- Translate product and positioning into field-ready guidance, working with product marketing, product, and frontline subject matter experts to build talk tracks, discovery questions, demo paths, and competitive framing\n\n- Measure behavior change through conversation intelligence and enablement platform data, and connect programs to pipeline, attach, and win rates\n\n- Surface field insights back to product marketing, product, and revenue leadership to help inform what we build next\n\n- Identify where AI and other technologies can help improve employee effectiveness\n\n- Distribute, track, and maintain product enablement assets to ensure the accuracy of materials\n\nWhat We're Looking For:\n\n- 5+ years of experience in sales, revenue or product enablement, or a similar role supporting go-to-market teams\n\n- Experience partnering with business leaders within complex environments to develop business objectives, solve problems, and implement strategies\n\n- Ability to manage multiple projects concurrently in a fast-paced, constantly growing and evolving environment\n\n- Demonstrate a strong sense of ownership and ability to approach new problems with curiosity and first-principles thinking\n\n- Strong data fluency with the ability to pull your own data and navigate across sources to connect the dots yourself rather than waiting for someone else to do it\n\n- A genuine enthusiasm for AI and emerging technology meaning you actively seek out ways to integrate AI into your work, have experimented with tools like LLMs, copilots, or automation platforms, and see AI as a force multiplier for the type of strategic work this role demands\n\n- Demonstrated ability to bring structure and simplicity to a variety of complex and ambiguous business problems\n\n- Ability to work independently to identify issues and proactively propose, build and implement the solutions to address them from the ground up\n\n- Comfort working in an ambiguous, fast-paced environment, with a strong understanding of when to escalate urgent issues and to whom\n\n- Excellent oral and written communication skills, and time management and prioritization skills\n\nMercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic. We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities or special needs. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role.\n\n#LI-TG1\n\nTotal Rewards\nThe total rewards package at Mercury includes base salary, equity (stock options/RSUs), and benefits.\n\nOur salary and equity ranges are highly competitive within the SaaS and fintech industry and are updated regularly using the most reliable compensation survey data for our industry. New hire offers are made based on a candidate’s experience, expertise, geographic location, and internal pay equity relative to peers.\n\nOur target new hire base salary ranges for this role are the following:\n\nUS employees in New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n$142,000—$178,000 USD\n\nUS employees outside of New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n$128,200—$160,200 USD",
-      "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6111944004",
-      "source": "greenhouse",
-      "posted_at": "2026-10-16T15:40:19-04:00",
-      "scraped_at": "2026-10-20T12:27:11.383Z",
+      "scraped_at": "2026-10-21T12:37:40.910Z",
       "status": "open"
     },
     {
@@ -332,29 +486,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6226462004",
       "source": "greenhouse",
       "posted_at": "2026-10-16T11:34:03-04:00",
-      "scraped_at": "2026-10-20T12:27:11.382Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:ifood:8521814002",
-      "hub": "business",
-      "title": "Red Team Specialist",
-      "company": "iFood",
-      "company_id": "ifood",
-      "priority": false,
-      "category": "Other",
-      "segment": "Food Delivery Platform",
-      "level": "Mid",
-      "location": "Remoto",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Nosso Modo de Fazer no Time: Transforme sua carreira com o iFood! Somos uma empresa brasileira de tecnologia referência na América Latina.",
-      "description": "Nosso Modo de Fazer no Time:\n\nTransforme sua carreira com o iFood! Somos uma empresa brasileira de tecnologia referência na América Latina. Por meio de soluções inovadoras, conectamos milhares de restaurantes a milhões de consumidores diariamente com uma média de 100 milhões de pedidos mensais. Além do delivery de comida, também somos Mercado, Farmácia e Pet. Temos também o iFood Pago, nossa Fintech, que engloba o iFood Benefícios, o vale alimentação e refeição do iFood e o próprio iFood Pago, o banco do restaurante. Junte-se a nós e faça parte de uma equipe que está sempre à frente com tecnologia de ponta e inovação constante.\n\nSeu Cardápio Diário:\n\n- Planejar e executar operações ofensivas (Red Team engagements, Adversary Simulation/Emulation) contra a infraestrutura, aplicações e processos do iFood Pago, simulando adversários reais com foco em impacto financeiro.\n\n- Realizar testes de segurança em aplicações web, APIs (REST/GraphQL/gRPC) e aplicações mobile (Android e iOS), incluindo análise estática, dinâmica e de runtime.\n\n- Realizar testes e avaliar a segurança de ambientes cloud-native, incluindo Kubernetes, containers, service meshes.\n\n- Conduzir testes de segurança em sistemas AI-powered, identificando vulnerabilidades como prompt injection, model manipulation, data poisoning, bypass de guardrails, entre outras.\n\n- Desenvolver automações, ferramentas ofensivas e integrações utilizando AI/LLMs para escalar processos e aprimorar a identificação e exploração de vulnerabilidades.\n\n- Documentar findings com clareza, demonstrando impacto real ao negócio e propondo planos de ações para correção.\n\n- Colaborar com Blue Team e CSIRT em exercícios de Purple Team, contribuindo para melhoria contínua de detecção e resposta.\n\n- Manter-se atualizado sobre TTPs emergentes, especialmente aquelas direcionadas ao setor financeiro e de pagamentos na América Latina.\n\nIngredientes Que Buscamos:\n\n- Experiência em Red Team operations e Penetration Testing em ambientes corporativos.\n\n- Domínio em testes de segurança de aplicações web e APIs, incluindo vulnerabilidades além do OWASP Top 10 (broken authentication, mass assignment, BOLA/IDOR, race conditions, business logic flaws em fluxos financeiros).\n\n- Experiência em segurança mobile (Android/iOS): reversing de APKs/IPAs, hooking com Frida, bypass de certificate pinning, análise de armazenamento local, etc.\n\n- Conhecimento prático em segurança de ambientes cloud-native: Kubernetes (RBAC, pod escape, service account abuse), Docker (container breakout), AWS/GCP (privilege escalation, misconfiguration exploitation).\n\n- Experiência com infraestrutura de Red Team: C2 frameworks (Cobalt Strike, Sliver, custom C2), redirectors, OPSEC, evasão e persistência.\n\n- Habilidade em programação e scripting (Python, Go, Bash) para desenvolvimento de tooling ofensivo e automações.\n\n- Conhecimento do MITRE ATT&CK Framework e capacidade de mapear operações a TTPs relevantes.\n\n- Familiaridade com protocolos e sistemas financeiros é um diferencial forte.\n\n- Traduzir findings técnicos em risco de negócio para diferentes audiências.\n\nPara Realçar o Sabor:\n\n- Experiência em testes de segurança de sistemas baseados em LLMs/AI (prompt injection, jailbreaking, tool-use abuse, data exfiltration via AI agents).\n\n- Uso de AI/LLMs para automação de tarefas ofensivas (triagem de vulnerabilidades, geração de payloads, análise de código, reconhecimento automatizado).\n\n- Participação em programas de bug bounty com track record relevante.\n\n- Publicação de pesquisas, CVEs, write-ups ou palestras em conferências de segurança.\n\n- Certificações relevantes (OSCP, OSEP, OSWE, CRTO, CARTE, CRT, eMAPT).\n\n- Experiência prévia em fintechs, bancos ou empresas de pagamentos.\n\nBuscamos uma pessoa apaixonada por segurança da informação, que esteja sempre em busca de novos aprendizados e que goste de desafios. Se você se identifica com este perfil, adoraríamos conhecer você!",
-      "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521814002",
-      "source": "greenhouse",
-      "posted_at": "2026-10-16T10:02:53-04:00",
-      "scraped_at": "2026-10-20T12:27:34.053Z",
+      "scraped_at": "2026-10-21T12:37:14.252Z",
       "status": "open"
     },
     {
@@ -376,7 +508,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/120541c5-8caa-4e7e-aefa-c12fcf3c5663",
       "source": "lever",
       "posted_at": "2026-10-16T09:21:51.285Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
+      "scraped_at": "2026-10-21T12:37:40.910Z",
       "status": "open"
     },
     {
@@ -398,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/6sense-it-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:14.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -420,7 +552,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/customer-io-email-deliverability-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:00.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -442,29 +574,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cranky-concierge-travel-coordinator-1",
       "source": "We Work Remotely",
       "posted_at": "2026-10-14T15:30:23.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:gocardless:8276080",
-      "hub": "fintech",
-      "title": "Paralegal",
-      "company": "GoCardless",
-      "company_id": "gocardless",
-      "priority": false,
-      "category": "Legal Assistant",
-      "segment": "Recurring Payments Platform",
-      "level": "Mid",
-      "location": "Leeds, UK",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
-      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nWe’re approaching ‘Legal Risk’ in Financial Services in a new way.\n\n- We are ready to serve everyone, if we wanted to - we ensure Legal Risk does not constrain the business but empowers it to achieve its goals;\n\n- We create the best possible customer experience - we want our customers (both internal and external) to look forward to going through our processes; and\n\n- We aim to automate everything we do - we don’t like inefficiencies nor do we believe that real risk mitigation is achieved by throwing people at the problem.\n\nThe Legal Team is at the forefront of GoCardless’ expansion. We must ensure that GoCardless adopts, implements and maintains forward-thinking and appropriate processes and controls, often coming across new challenges or issues that require innovative solutions.\n\nThe role\n\n- You will be an integral part of a collaborative and rapidly growing legal team at a fast-paced fintech scale-up. As a member of a busy legal team you will also contribute to team-wide initiatives and work with people from across our geos and get to learn a lot of new skills along the way.\n\n- Being the first port of call for a broad range of paralegal tasks from all business functions of a high-growth fintech scale-up\n\n- Managing the inflow of legal matters by answering basic queries from across the business and involving other members of the legal team as appropriate\n\n- Administrative tasks that require precision and quick thinking – triaging tickets, helping with setting up documents for signatures and other tasks that leave a big impact\n\n- Assisting with building out and maintaining self-help tools, playbooks and guides for the legal team and for the wider business\n\n- Helping members of the team with ad-hoc projects such as legal research, product launches, corporate projects and IP matters\n\n- An opportunity to work in a global team spanning different countries\n\nDesired skills\n\n- You have experience working as a Paralegal in a leading commercial law firm or in-house\n\n- You have a good understanding of the legal principles as well as the local law, experience in drafting agreements, corporate documents would be considered as an advantage\n\n- You are used to working independently and proactively on a variety of projects simultaneously, and can effectively prioritise, you are not afraid to think out of the box and adopt decisions when needed\n\n- You are easy to work with and are an effective communicator and want to work in a fun, fast-growing but demanding young company\n\n- Learning new things and precision is your second nature, you are tech-savvy and have a sense of how efficiency in processes is driven\n\nBase salary range: £27,976 - £37,200\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
-      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8276080",
-      "source": "greenhouse",
-      "posted_at": "2026-10-14T14:53:18-04:00",
-      "scraped_at": "2026-10-20T12:27:24.599Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -486,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169731007",
       "source": "greenhouse",
       "posted_at": "2026-10-14T12:47:33-04:00",
-      "scraped_at": "2026-10-20T12:27:34.093Z",
+      "scraped_at": "2026-10-21T12:37:43.853Z",
       "status": "open"
     },
     {
@@ -508,7 +618,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-13T16:00:30.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
       "status": "open"
     },
     {
@@ -530,7 +640,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-10-13T14:30:40-04:00",
-      "scraped_at": "2026-10-20T12:27:34.053Z",
+      "scraped_at": "2026-10-21T12:37:43.674Z",
       "status": "open"
     },
     {
@@ -552,7 +662,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-10-11T20:17:27.000Z",
-      "scraped_at": "2026-10-20T12:27:49.954Z",
+      "scraped_at": "2026-10-21T12:38:01.374Z",
       "status": "open"
     },
     {
@@ -574,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-11T15:26:05-04:00",
-      "scraped_at": "2026-10-20T12:27:34.093Z",
+      "scraped_at": "2026-10-21T12:37:43.853Z",
       "status": "open"
     },
     {
@@ -596,7 +706,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/netlify-customer-success-associate-denver-co",
       "source": "We Work Remotely",
       "posted_at": "2026-10-10T07:31:08.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -618,7 +728,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
       "source": "We Work Remotely",
       "posted_at": "2026-10-09T07:30:56.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
       "status": "open"
     },
     {
@@ -640,7 +750,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-20T12:27:49.954Z",
+      "scraped_at": "2026-10-21T12:38:01.374Z",
       "status": "open"
     },
     {
@@ -662,7 +772,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
       "status": "open"
     },
     {
@@ -684,7 +794,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -706,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
       "status": "open"
     },
     {
@@ -728,29 +838,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8005135003",
       "source": "greenhouse",
       "posted_at": "2026-09-30T08:38:40-04:00",
-      "scraped_at": "2026-10-20T12:27:30.695Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:gocardless:8242496",
-      "hub": "fintech",
-      "title": "Controls Specialist",
-      "company": "GoCardless",
-      "company_id": "gocardless",
-      "priority": false,
-      "category": "Other",
-      "segment": "Recurring Payments Platform",
-      "level": "Mid",
-      "location": "Riga, Latvia",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
-      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nAs a regulated payment provider, we must ensure we manage operational risk and our regulatory requirements correctly. We do this by having a robust control framework across some of our business-critical areas, like payments and billing.\n\nThis role will be central to ensuring our 1st line Operations teams continue to implement, manage, test and regularly update controls frameworks. You'll manage the end-to-end controls framework for our operational teams, including but not limited to Payments Operations, Billing and Credit Control. You will be a key point of contact for managing our annual Safeguarding and SOC1 audits, engaging with auditors and gathering and submitting evidence.\n\nThe role provides an excellent opportunity to work with the broader Enterprise Risk community and shape the controls environment for a fast-growing FinTech, putting your stamp on how controls are designed, implemented and managed.\n\nWhat excites you\n\n- Designing and implementing controls. Working with the Regulatory Compliance team to understand the complete picture of the control landscape and then collaborating with 1st line control owners in our Operation to implement relevant controls\n\n- Control assessment and reporting. Updating the safeguarding and SOC1 controls assessments on a regular cadence\n\n- Direct control management. Managing key controls within our Internal Operations teams\n\n- Understanding existing processes and re-designing controls to meet current and future business needs\n\n- Working with the Regulatory team to ensure audits are completed successfully, including explaining our first-line controls to auditors and regulators\n\n- Improving efficiency through the standardisation, automation or removal of controls\n\n- Building positive relationships with stakeholders across the different lines of defence to help develop a real understanding of our risk exposure, control environment, deficiencies and gaps\n\n- Autonomy to drive change from the ground up\n\nWhat excites us\n\n- Have worked in a regulated environment, preferably financial services or at a FinTech\n\n- Previous experience working in a similar role, such as Audit, you’re skilled in designing, implementing and testing the effectiveness of controls\n\n- You're a great communicator. You can simplify and clearly explain the what and why behind the controls you implement\n\n- You understand how to balance compliance and operational efficiency\n\n- You have a solid understanding of the three lines of defence and have experience working with Regulatory Compliance teams as well as external auditors\n\n- You have great attention to detail, you work in a structured manner and you’re comfortable with data\n\n- You’re comfortable working in a fast-paced environment where your responsibilities can evolve and change\n\n- You're a self-starter and can work independently with minimal supervision\n\nBase salary range: 2867 EUR/ months gross - 4300 EUR/ months gross\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
-      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
-      "source": "greenhouse",
-      "posted_at": "2026-09-30T07:12:23-04:00",
-      "scraped_at": "2026-10-20T12:27:24.598Z",
+      "scraped_at": "2026-10-21T12:37:40.159Z",
       "status": "open"
     },
     {
@@ -772,7 +860,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-20T12:27:11.382Z",
+      "scraped_at": "2026-10-21T12:37:14.253Z",
       "status": "open"
     },
     {
@@ -794,7 +882,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-20T12:27:11.383Z",
+      "scraped_at": "2026-10-21T12:37:14.254Z",
       "status": "open"
     },
     {
@@ -816,7 +904,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-20T12:27:11.383Z",
+      "scraped_at": "2026-10-21T12:37:14.254Z",
       "status": "open"
     },
     {
@@ -838,7 +926,29 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
+      "status": "open"
+    },
+    {
+      "id": "lever:ro-health:a816b37f-fd0c-447c-bc12-e3838b29a2db",
+      "hub": "business",
+      "title": "Seasonal, Virtual Medical Assistant / Patient Advocate",
+      "company": "Ro",
+      "company_id": "ro-health",
+      "priority": false,
+      "category": "Other",
+      "segment": "Telehealth Platform",
+      "level": "Mid",
+      "location": "New York, NY or Remote",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Ro is a direct-to-patient healthcare company with a mission of helping patients achieve their health goals by delivering the easiest, most effective care possible.",
+      "description": "Ro is a direct-to-patient healthcare company with a mission of helping patients achieve their health goals by delivering the easiest, most effective care possible. Ro is the only company to offer nationwide telehealth, labs, and pharmacy services. This is enabled by Ro's vertically integrated platform that helps patients achieve their goals through a convenient, end-to-end healthcare experience spanning from diagnosis, to delivery of medication, to ongoing care. Since 2017, Ro has helped millions of patients in nearly every single county in the United States, including 99% of primary care deserts.\n \nRo is consistently recognized as a top workplace in Health Care, in New York, and for Women and Parents—earning more than 20 honors from Fortune, Great Place to Work, and PEOPLE since 2021. In 2025 alone, we ranked top 5 among medium workplaces in Health Care and New York, and top 50 nationwide.\n\nPatient Advocates are part of the Care Delivery team, supporting our patients and network of providers as the non-clinically licensed members of a patient’s healthcare team. Working alongside Registered Nurses and Practitioners, Patient Advocates provide non-clinical administrative support to providers and empathetic, high-touch service to patients. Patient Advocates serve as a connection point between patients, providers, pharmacies, and insurance partners, helping patients navigate their care experience and resolve non-clinical needs. They answer patient questions, investigate more complex issues, communicate clear next steps, and provide additional support when patients need help moving through the treatment journey. Through proactive problem-solving, clear communication, and patient advocacy, Patient Advocates help create a seamless, supportive healthcare experience at Ro.\n \nPlease note, this is a 6-month contract. \n\n- Provide empathetic, high-touch support to patients anticipating needs, answering non-clinical questions, and proactively helping patients navigate their care experience\n\n- Support providers with non-clinical administrative tasks in the Care Center (our Electronic Medical Record), including triaging, reassigning, and resolving patient messages accurately and efficiently\n\n- Investigate and navigate complex patient situations, working with clinical, pharmacy, insurance, and operational teams to resolve issues and translate complex information into clear, actionable next steps for patients\n\n- Contact pharmacies and insurance providers to assist patients with non-clinical prescription needs or issues, including benefits verification and prior authorizations\n\n- Partner with cross-functional team mates within the organization and medical practice to balance patient needs, share knowledge, and contribute to team service, quality, and operational goals\n\n- Surface recurring patient, provider, or workflow issues and provide feedback to help improve the patient experience and team operations\n\n- Participate in pilots and new initiatives that improve patient support, expand retention opportunities, or optimize operations\n\n- 1–2 years of experience in a patient-facing administrative, healthcare, customer service, or operations role\n\n- Strong written and verbal communication skills, with the ability to communicate complex information clearly and empathetically\n\n- Strong problem-solving skills and attention to detail, with the ability to investigate issues, identify next steps, and follow through to resolution\n\n- Excellent time management and organizational skills, with the ability to work independently and manage multiple priorities in a fast-paced, asynchronous environment\n\n- Demonstrated proficiency and comfort utilizing diverse technological tools and platforms to research and resolve patient inquiries; prior experience with EHR systems is strongly preferred\n\n- Comfort working with internally-approved LLM-based message systems, ability to critically review LLM-generated content for accuracy\n\n- Comfort utilizing internally-approved AI-based tooling for day-to-day workflows, comfort prompting AI tooling\n\n- Comfort working toward defined service, productivity, and quality expectations and metrics\n\n- Experience with health insurance plans, benefits verification, and/or prior authorizations preferred\nPatient-facing Medical Assistant or other relevant healthcare experience preferred\n\n- Bachelor's Degree preferred\n\n- Proficiency with collaboration and productivity tools such as Google Workspace and Slack\n\n- Adaptability and a proactive approach to working in a rapidly changing environment\n\n- Patients need support every day of the year, and that includes holidays. You will participate in a holiday work rotation.\n\n- Sunday–Wednesday: 1:00 PM - 11:30 PM ET\n\n- Wednesday–Saturday: 1:00 PM - 11:30 PM ET\n\n- Monday, Tuesday, Thursday, Friday: 1:00 PM - 11:30 PM ET\n\nThese 4x10 shifts are not available to candidates residing in California.\n\nWhile we try our best to accommodate schedule preferences whenever possible, schedules will be assigned based on the needs of the business.\n\nThis is a full-time role with an estimated 40 hours/week. Schedules will include a 30-minute unpaid lunch break.\n\n- Medical benefits through an Individual Coverage Health Reimbursement Arrangement (ICHRA), beginning the first day of the calendar month following your 60th day of employment\n\n- 401(k) with company match",
+      "apply_url": "https://jobs.lever.co/ro/a816b37f-fd0c-447c-bc12-e3838b29a2db",
+      "source": "lever",
+      "posted_at": "2026-09-29T15:57:07.557Z",
+      "scraped_at": "2026-10-21T12:37:58.836Z",
       "status": "open"
     },
     {
@@ -860,7 +970,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-20T12:27:30.747Z",
+      "scraped_at": "2026-10-21T12:37:40.912Z",
       "status": "open"
     },
     {
@@ -882,7 +992,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -904,7 +1014,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-09-25T12:34:07-04:00",
-      "scraped_at": "2026-10-20T12:27:40.321Z",
+      "scraped_at": "2026-10-21T12:37:54.415Z",
       "status": "open"
     },
     {
@@ -926,7 +1036,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -948,7 +1058,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-20T12:27:30.695Z",
+      "scraped_at": "2026-10-21T12:37:40.159Z",
       "status": "open"
     },
     {
@@ -970,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -992,29 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
-      "status": "open"
-    },
-    {
-      "id": "greenhouse:gocardless:7996723",
-      "hub": "fintech",
-      "title": "Fraud Investigations Specialist",
-      "company": "GoCardless",
-      "company_id": "gocardless",
-      "priority": false,
-      "category": "Other",
-      "segment": "Recurring Payments Platform",
-      "level": "Mid",
-      "location": "Riga, Latvia",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
-      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nThe Fraud Risk Management team ensures that GoCardless adopts, implements and maintains innovative and appropriate controls as we have a duty to banking partners, regulators, schemes, merchants and their customers to review and monitor accounts and transactions with the utmost care.\n\nAs a Fraud Investigation Specialist you’ll be working as part of a small, close-knit team, conducting fraud investigations, with the aim of protecting GoCardless from fraud, financial and reputational risk.\n\nThe reason why we have this role open in an additional headcount - we are looking for an extra set of hands!\n\nOn a daily basis you will:\n\n- Monitor the risk alert queue and identify high risk behaviour within the business portfolio\n\n- Conduct fraud investigations within service level agreements to reduce potential revenue losses\n\n- Attain a thorough understanding of GoCardless’ product, policies and processes\n\n- Lead on customer-facing correspondence and work with various teams across the business to ensure we provide a seamless merchant experience\n\nWhat excites you\n\n- The opportunity to work in a high performing team and make important daily decisions that can make an impact on GoCardless’s future success\n\n- Having the opportunity to learn more about data and how to use it to make informative decisions across the business\n\n- Working in a global fraud team where you can share experiences and learn from other team members who come from a variety of industries\n\nWhat excites us\n\n- You have hands-on experience in a fraud investigations role or similar and are looking for your next challenge\n\n- You use logic and reasoning to separate legitimate behaviour from suspected illicit activity\n\n- You are comfortable with making accurate, fast decisions depending on the evidence at hand\n\n- You understand the implications of new information for both current and future problem-solving and decision-making\n\n- You use your written English skills to strike the right tone with internal and external stakeholders.\n\n- You’re driven by initiative, and understand the impact of every decision you make on our merchants\n\n- Results-focused: You can prioritise, organise, and show initiative and willing to get the job done\n\nWe don’t expect you to meet every requirement. If you’re excited by this role, we encourage you to apply.\n\nBase salary range: €1,867 - €2,800 (gross).\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (€1,867 - €2,333) of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
-      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
-      "source": "greenhouse",
-      "posted_at": "2026-09-15T08:32:30-04:00",
-      "scraped_at": "2026-10-20T12:27:24.598Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1036,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
+      "scraped_at": "2026-10-21T12:37:40.910Z",
       "status": "open"
     },
     {
@@ -1058,7 +1146,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -1080,7 +1168,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-20T12:27:30.747Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1190,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0b14cde9-0c0d-47a2-a064-799b51e372af",
       "source": "lever",
       "posted_at": "2026-08-06T13:57:16.813Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
+      "scraped_at": "2026-10-21T12:37:40.910Z",
       "status": "open"
     },
     {
@@ -1208,11 +1296,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "Chi siamo Il sistema energetico funziona meglio quando le persone possono farne parte.",
-      "description": "Chi siamo \nIl sistema energetico funziona meglio quando le persone possono farne parte. In Octopus Energy lo facciamo già ogni giorno: rendiamo l'energia più equa e accessibile grazie alla tecnologia.\nPresenti in Italia dal 2022, siamo partiti da Ascoli Piceno, dove abbiamo la nostra sede. Oggi abbiamo superato un milione di utenze, con un team di oltre 300 persone tra Ascoli Piceno, Milano e Roma, e più di 250 milioni di euro investiti nel Paese. Una crescita nata da un modo diverso di fare energia: più semplice, più umano, più tecnologico.\n \nCome lavoriamo \nNon siamo una compagnia tradizionale e non vogliamo diventarlo. Non ci piacciono la burocrazia, le procedure inutili o i reparti che si scaricano i problemi a vicenda. Quando un cliente ha bisogno di aiuto, vogliamo che trovi persone capaci di ascoltare, prendersi la responsabilità e risolvere.\nQuesto approccio ci ha portati a essere valutati 4,9/5 su Trustpilot, a vincere la classifica Altroconsumo e a ricevere il premio \"Miglior Servizio Clienti\" del Corriere della Sera.\n \nLa tecnologia al servizio di tutti\nQui la tecnologia non è riservata a pochi esperti: è uno strumento che aiuta tutti a lavorare meglio. Non serve essere un mago del computer, ma serve curiosità. Usiamo dati, automazione e intelligenza artificiale per togliere complessità, capire meglio i problemi e dedicare più energia a ciò che conta: migliorare il modo in cui le persone vivono l’energia.\n \nCosa troverai in Octopus\nOctopus è un posto per chi vuole portare energia e buon senso. I problemi non arrivano sempre ordinati, le risposte non sono sempre già scritte e spesso c’è da costruire mentre si corre. Ma non sarai solo: lavorerai con persone curiose, generose e concrete, che si aiutano a vicenda e vogliono lasciare le cose meglio di come le hanno trovate. Stiamo già migliorando il modo in cui l’energia funziona per le persone: se vuoi prenderti responsabilità e contribuire a questo cambiamento, qui il tuo lavoro può avere un impatto vero.\n \n\nIl ruolo\nIn Octopus Energy crediamo che le strutture burocratiche tradizionali rischino spesso di infantilizzare le persone e soffocare la creatività. Le persone adulte non hanno bisogno di rigide regole dall'alto, ma di autonomia, responsabilità e fiducia.\nNon cerchiamo un HR tradizionale che imponga processi o \"gestisca\" le persone per conto dei manager. Cerchiamo una figura di People Operations capace di costruire strumenti e percorsi fluidi (come il nostro onboarding automatizzato) per rimuovere gli ostacoli e dare a ogni team il supporto per esprimersi al meglio fin dal primo giorno.\n\nGestione Contratti e Onboarding: Redazione e invio dei contratti di lavoro ai nuovi assunti, monitorando con cura lo stato di avanzamento della documentazione necessaria all’ingresso in azienda.\n\nSupporto ai Team Leader: Gestione operativa delle richieste quotidiane, delle segnalazioni e degli aggiornamenti provenienti dai Team Leader.\n\nAnagrafiche e Gestione Sistemi: Mantenimento e aggiornamento costante dei profili dei colleghi sui nostri sistemi gestionali (cambi di ruolo, variazioni contrattuali).\n\nMiglioramento dei Processi & Automazioni: Contributo attivo all’ottimizzazione dei flussi di lavoro, alla creazione/manutenzione di template operativi e all'implementazione di automazioni.\n\nRiservatezza e Cura dei Dati: Garanzia che ogni processo amministrativo e informativo sia gestito con massima cura, precisione e rispetto della riservatezza.\n\nProgetti Amministrativi e Supporto Trasversale: Supporto operativo a progetti speciali o ad altre attività amministrative in base alle esigenze del team.\n\nOttime capacità comunicative: ottima proprietà di linguaggio sia scritta che orale, fondamentale per interagire con trasparenza con colleghi e stakeholder.\n\nOrganizzazione e dettaglio: spiccata attenzione ai dettagli, precisione impeccabile e capacità di organizzare le proprie priorità in modo autonomo.\n\nSerietà e riservatezza: Elevata sensibilità nella gestione di informazioni riservate e dati personali.\n\nAttitudine digitale: familiarità con strumenti digitali, software di gestione del personale o tool di produttività, unita alla capacità di imparare velocemente nuovi sistemi.\n\nSpirito di squadra e proattività: attitudine collaborativa, capacità di anticipare i bisogni e orientamento pratico alla risoluzione dei problemi.\n\nFlessibilità in ambienti dinamici: abilità nel muoversi con disinvoltura in un contesto in rapida crescita, flessibile e privo di burocrazia inutile.\n\nConoscenza di base di sistemi o procedure paghe (rappresenta un vantaggio apprezzato).\n\nIn Octopus fare bene il tuo lavoro è naturale: trovi le condizioni giuste per esprimerti al meglio, perché i tuoi obiettivi, quelli dei colleghi e quelli dell’azienda sono perfettamente allineati.Lavorerai con persone curiose, brillanti e concrete, che hanno voglia di fare bene e migliorare davvero le cose.\nLavorerai per un’azienda che le persone scelgono perché si fidano: abbiamo un servizio clienti valutato 4,9/5 su Trustpilot e premiato da Altroconsumo e dal Corriere della Sera.\nFarai parte di una realtà concreta, veloce e poco burocratica, dove contano i risultati, il modo in cui li raggiungiamo e l’impatto che creiamo per i clienti.\n\nOctopus Energy è un luogo in cui le persone hanno spazio per imparare, prendersi responsabilità e fare davvero la differenza.\n\nEquity Options Scheme: in Octopus puoi avere accesso a opzioni su azioni del Gruppo. In pratica, puoi possedere la tua parte di Octopus Energy e partecipare al valore che costruiamo insieme.\n\nFocus sul tuo benessere: ti supportiamo con vantaggi concreti come i buoni pasto e un accesso gratuito a sessioni di benessere psicologico.\n\nCultura: ogni settimana, il venerdì, ci riuniamo tutti per gli aggiornamenti aziendali e un brindisi. Lo chiamiamo Family Dinner.\n\nSede: Ancarano/Ascoli Piceno\n\nOre: Tempo pieno\n\nPresenza in ufficio: Si",
+      "description": "Chi siamo \nIl sistema energetico funziona meglio quando le persone possono farne parte. In Octopus Energy lo facciamo già ogni giorno: rendiamo l'energia più equa e accessibile grazie alla tecnologia.\nPresenti in Italia dal 2022, siamo partiti da Ascoli Piceno, dove abbiamo la nostra sede. Oggi abbiamo superato un milione di utenze, con un team di oltre 300 persone tra Ascoli Piceno, Milano e Roma, e più di 250 milioni di euro investiti nel Paese. Una crescita nata da un modo diverso di fare energia: più semplice, più umano, più tecnologico.\n \nCome lavoriamo \nNon siamo una compagnia tradizionale e non vogliamo diventarlo. Non ci piacciono la burocrazia, le procedure inutili o i reparti che si scaricano i problemi a vicenda. Quando un cliente ha bisogno di aiuto, vogliamo che trovi persone capaci di ascoltare, prendersi la responsabilità e risolvere.\nQuesto approccio ci ha portati a essere valutati 4,9/5 su Trustpilot, a vincere la classifica Altroconsumo e a ricevere il premio \"Miglior Servizio Clienti\" del Corriere della Sera.\n \nLa tecnologia al servizio di tutti\nQui la tecnologia non è riservata a pochi esperti: è uno strumento che aiuta tutti a lavorare meglio. Non serve essere un mago del computer, ma serve curiosità. Usiamo dati, automazione e intelligenza artificiale per togliere complessità, capire meglio i problemi e dedicare più energia a ciò che conta: migliorare il modo in cui le persone vivono l’energia.\n \nCosa troverai in Octopus\nOctopus è un posto per chi vuole portare energia e buon senso. I problemi non arrivano sempre ordinati, le risposte non sono sempre già scritte e spesso c’è da costruire mentre si corre. Ma non sarai solo: lavorerai con persone curiose, generose e concrete, che si aiutano a vicenda e vogliono lasciare le cose meglio di come le hanno trovate. Stiamo già migliorando il modo in cui l’energia funziona per le persone: se vuoi prenderti responsabilità e contribuire a questo cambiamento, qui il tuo lavoro può avere un impatto vero.\n \n\nIl ruolo\nIn Octopus Energy crediamo che le strutture burocratiche tradizionali rischino spesso di infantilizzare le persone e soffocare la creatività. Le persone adulte non hanno bisogno di rigide regole dall'alto, ma di autonomia, responsabilità e fiducia.\nNon cerchiamo un HR tradizionale che imponga processi o \"gestisca\" le persone per conto dei manager. Cerchiamo una figura di People Operations capace di costruire strumenti e percorsi fluidi (come il nostro onboarding automatizzato) per rimuovere gli ostacoli e dare a ogni team il supporto per esprimersi al meglio fin dal primo giorno.\n\nGestione Contratti e Onboarding: Redazione e invio dei contratti di lavoro ai nuovi assunti, monitorando con cura lo stato di avanzamento della documentazione necessaria all’ingresso in azienda.\n\nSupporto ai Team Leader: Gestione operativa delle richieste quotidiane, delle segnalazioni e degli aggiornamenti provenienti dai Team Leader.\n\nAnagrafiche e Gestione Sistemi: Mantenimento e aggiornamento costante dei profili dei colleghi sui nostri sistemi gestionali (cambi di ruolo, variazioni contrattuali).\n\nMiglioramento dei Processi & Automazioni: Contributo attivo all’ottimizzazione dei flussi di lavoro, alla creazione/manutenzione di template operativi e all'implementazione di automazioni.\n\nRiservatezza e Cura dei Dati: Garanzia che ogni processo amministrativo e informativo sia gestito con massima cura, precisione e rispetto della riservatezza.\n\nProgetti Amministrativi e Supporto Trasversale: Supporto operativo a progetti speciali o ad altre attività amministrative in base alle esigenze del team.\n\nOttime capacità comunicative: ottima proprietà di linguaggio sia scritta che orale, fondamentale per interagire con trasparenza con colleghi e stakeholder.\n\nOrganizzazione e dettaglio: spiccata attenzione ai dettagli, precisione impeccabile e capacità di organizzare le proprie priorità in modo autonomo.\n\nSerietà e riservatezza: Elevata sensibilità nella gestione di informazioni riservate e dati personali.\n\nAttitudine digitale: familiarità con strumenti digitali, software di gestione del personale o tool di produttività, unita alla capacità di imparare velocemente nuovi sistemi.\n\nSpirito di squadra e proattività: attitudine collaborativa, capacità di anticipare i bisogni e orientamento pratico alla risoluzione dei problemi.\n\nFlessibilità in ambienti dinamici: abilità nel muoversi con disinvoltura in un contesto in rapida crescita, flessibile e privo di burocrazia inutile.\n\nConoscenza di base di sistemi o procedure paghe (rappresenta un vantaggio apprezzato).\n\nIn Octopus fare bene il tuo lavoro è naturale: trovi le condizioni giuste per esprimerti al meglio, perché i tuoi obiettivi, quelli dei colleghi e quelli dell’azienda sono perfettamente allineati. Lavorerai con persone curiose, brillanti e concrete, che hanno voglia di fare bene e migliorare davvero le cose.\nLavorerai per un’azienda che le persone scelgono perché si fidano: abbiamo un servizio clienti valutato 4,9/5 su Trustpilot e premiato da Altroconsumo e dal Corriere della Sera.\nFarai parte di una realtà concreta, veloce e poco burocratica, dove contano i risultati, il modo in cui li raggiungiamo e l’impatto che creiamo per i clienti.\n\nOctopus Energy è un luogo in cui le persone hanno spazio per imparare, prendersi responsabilità e fare davvero la differenza.\n\nEquity Options Scheme: in Octopus puoi avere accesso a opzioni su azioni del Gruppo. In pratica, puoi possedere la tua parte di Octopus Energy e partecipare al valore che costruiamo insieme.\n\nFocus sul tuo benessere: ti supportiamo con vantaggi concreti come i buoni pasto e un accesso gratuito a sessioni di benessere psicologico.\n\nCultura: ogni settimana, il venerdì, ci riuniamo tutti per gli aggiornamenti aziendali e un brindisi. Lo chiamiamo Family Dinner.\n\nSede: Ancarano/Ascoli Piceno\n\nOre: Tempo pieno\n\nPresenza in ufficio: Si",
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-20T12:27:30.747Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1234,7 +1322,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
       "status": "open"
     },
     {
@@ -1256,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f7027c5b-7d8a-48f9-bb57-dc53a422d30b",
       "source": "lever",
       "posted_at": "2026-07-22T14:14:55.016Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1278,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1300,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1322,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-20T12:27:30.747Z",
+      "scraped_at": "2026-10-21T12:37:40.912Z",
       "status": "open"
     },
     {
@@ -1344,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-20T12:27:30.747Z",
+      "scraped_at": "2026-10-21T12:37:40.912Z",
       "status": "open"
     },
     {
@@ -1366,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1388,7 +1476,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1410,7 +1498,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-20T12:27:30.747Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1432,7 +1520,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-20T12:27:49.368Z",
+      "scraped_at": "2026-10-21T12:38:00.849Z",
       "status": "open"
     },
     {
@@ -1454,7 +1542,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-20T12:27:49.367Z",
+      "scraped_at": "2026-10-21T12:38:00.848Z",
       "status": "open"
     },
     {
@@ -1476,7 +1564,29 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
+      "status": "open"
+    },
+    {
+      "id": "lever:octopus-energy:e8d2ddf7-9033-4777-9b84-c70ae07610b6",
+      "hub": "business",
+      "title": "Credit Specialist - Early Collections",
+      "company": "Octopus Energy",
+      "company_id": "octopus-energy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Energy Retailer & Tech",
+      "level": "Mid",
+      "location": "Coventry (GB)",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Are you passionate about making a positive impact on the planet and delivering exceptional customer experiences? Octopus Energy is looking for passionate and empathetic individuals…",
+      "description": "Are you passionate about making a positive impact on the planet and delivering exceptional customer experiences?\n \nOctopus Energy is looking for passionate and empathetic individuals to join our incredible team in Coventry as Credit Specialists. Our team plays a vital role in the business, helping to support Octopus Energy customers, who may have found themselves in financial difficulty.\n \nOur customers are at the centre of everything we do, so it’s on us to help and support them if they find themselves in financial difficulty. As a Credit Specialist, you should understand that each customer’s situation is different so we’re looking for someone who can use their own initiative to tackle a range of sensitive customer scenarios. This role will include a significant level of outbound calling to our customers, so the ability to demonstrate a deep care for our customers over many conversations will be key.\n \n\n- Talking to customers that might be in financial difficulty.\n\n- Handling customer communications through a range of channels such as inbound and outbound phone calls, emails and text messages.\n\n- Using your initiative to find the best way forward through agreeing appropriate repayment plans using external tools such as PayLink to review affordability levels and engage with customers to agree repayment plans.\n\n- Own customer issues from start to finish, resolving problems and maintaining contact throughout.\n\n- Identifying vulnerabilities customers may have - both financially and non-financially - to ensure we are providing the most appropriate level of care and service to them.\n\n- Be passionate about customers and always seek to provide a first class service.\n\n- A fast learner that has meticulous attention to detail.\n\n- Fluid and comfortable in a fast paced environment where you might be pulled in different directions.\n\n- Experience in credit collections or the energy industry is a bonus, but not essential – we're more interested in your passion for helping customers and making a difference.\n\n- Able to manage your own workload.\n\n- Helpful and patient (it’s a job with a thousand questions!)\n\n- Strong emotional resilience and empathy to support customers through challenging conversations at pace\n\n- A self starter that can use their own initiative to problem solve and make sound decisions.\n\n- 💰Starting Salary: £27,000Make the grade / probation passed: £29,700\n\n- 🎉 Octopus Energy Group is a unique culture. An organisation where people learn, decide, and build quicker. Where people work with autonomy, alongside a wide range of amazing co-owners, on projects that break new ground. We want your hard work to be rewarded with perks you actually care about! We won best company to work for in 2022, on Glassdoor we were voted 50 best places to work in 2022 and our Group CEO, Greg has recorded a podcast about our culture and how we empower our people. We’ve also been placed in the top 10 companies for senior leadership\n\n- 🎁 Visit our UK perks hub - Octopus Employee Benefits",
+      "apply_url": "https://jobs.lever.co/octoenergy/e8d2ddf7-9033-4777-9b84-c70ae07610b6",
+      "source": "lever",
+      "posted_at": "2025-06-18T08:41:32.740Z",
+      "scraped_at": "2026-10-21T12:37:40.910Z",
       "status": "open"
     },
     {
@@ -1498,7 +1608,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
+      "scraped_at": "2026-10-21T12:37:40.910Z",
       "status": "open"
     },
     {
@@ -1520,7 +1630,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-20T12:27:30.746Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1542,7 +1652,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
+      "scraped_at": "2026-10-21T12:37:40.910Z",
       "status": "open"
     },
     {
@@ -1564,29 +1674,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/bc1ce5ef-75fe-452d-9cd8-bcec9d9fd109",
       "source": "lever",
       "posted_at": "2023-07-07T13:05:55.846Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
-      "status": "open"
-    },
-    {
-      "id": "lever:octopus-energy:b3174af4-de6f-471b-81e3-de8cfd500b18",
-      "hub": "business",
-      "title": "Customer Success Specialist B2C",
-      "company": "Octopus Energy",
-      "company_id": "octopus-energy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Energy Retailer & Tech",
-      "level": "Mid",
-      "location": "Paris (FR)",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Tu as envie de travailler dans un environnement bienveillant qui avance vite ? 5ème fournisseur français en 10 ans, Octopus Energy est un fournisseur d’énergies renouvelables qui a…",
-      "description": "Tu as envie de travailler dans un environnement bienveillant qui avance vite ? 5ème fournisseur français en 10 ans, Octopus Energy est un fournisseur d’énergies renouvelables qui agit comme un véritable fer de lance pour la révolution électro tech.\n \nComment on fait ?  On ne peut pas révolutionner le monde en travaillant comme tout le monde On essaye de ne pas trop se prendre la tête, ici on évolue dans un environnement sans trop de process ni trop de règles. Le plus important, ce n’est pas seulement de suivre le mouvement, mais de le créer.\n\nOn ne veut pas créer des clones d’entreprise. On te veut toi, avec tes talents, tes perspectives et tes compétences uniques.\n\nDescriptif du poste\n \nChez Octopus Energy, notre mission est claire : révolutionner l'expérience client en offrant un service résolument différent, ultra-efficace et 100 % humain.\n \nL’équipe Opérations, chargée de la satisfaction de nos client-e-s, est donc au cœur même de notre stratégie. Dans ce cadre, et afin d’accompagner notre croissance forte, nous voulons renforcer l’équipe avec des personnes enthousiastes.\n \nPassionné-e par l’idée d’aider au mieux tes client-e-s et concerné-e par la transition énergétique, tu seras ambassadeur-rice de la marque !En équipe, tu accompagneras un portefeuille de client-e-s particuliers dans la gestion de leur contrat d’énergie. \n \nLes sujets seront variés : activation des contrats, suivi et conseils à la consommation, explication de factures ou des mensualités, support pour les paiements et aides sociales, gestion des déménagements ou encore pédagogie sur les spécificités du marché et des énergies renouvelables. \n\n- Représenter la marque et être la véritable voix d'Octopus au quotidien : tu aides tes client·e·s en répondant à leurs besoins principalement de vive voix (le téléphone sera ton meilleur allié !), mais aussi par email et WhatsApp, le tout avec ta touche personnelle.\n\n- Accompagner tes client-e-s dans le suivi et la réduction de leur consommation d’énergie.\n\n- S’assurer proactivement que les contrats de tes client-e-s ne rencontrent pas de problèmes, et trouver des solutions pour y remédier le cas échéant.\n\n- Identifier et analyser des axes d’amélioration de notre service et de nos façons de faire.\n\n- T’impliquer dans le développement et la croissance de l’équipe sur des sujets opérationnels, avec la possibilité d'élargir tes compétences via des missions annexes impactantes (facturation, satisfaction client, ou encore accompagnement de nos client·s les plus vulnérables).\n\n-\nTu dois être autonome et responsable ; quand tu t’empares d’un sujet, tu le portes jusqu’au bout !\n\n-\nTu es centré-e sur l’expérience de tes client-e-s, en étant toujours à leur écoute et en ayant envie de trouver des solutions à leurs problèmes.\n\n-\nTu t'épanouis dans un environnement de travail qui bouge en permanence et tu sais résister au stress et rester calme face à un pic d'activité ou un cas difficile par exemple !\n\n-\nTu aimes et sais travailler en équipe.\n\n-\nTu es curieux-se et prêt-e à mettre le nez dans des factures de clients avec plein de chiffres partout !\n\n-\nTu es authentique, sympa, et positif-ve :)\n\n-\nTu as une maîtrise impeccable du français à l’oral et à l’écrit.\n\n-\nIdéalement, tu peux aussi tenir une conversation dans la langue de Shakespeare (nous appartenons à un groupe anglais et quelques échanges avec nos collègues outre-Manche sont à prévoir)\n\nChez nous, on sait qu'un environnement de travail épanouissant fait toute la différence. Voici ce qui t'attend au quotidien :\n\n-\n🏡 Flexibilité & Équilibre : 2 jours de télétravail par semaine et la possibilité de t’engager 3 jours dans l’année pour des associations (via notre partenaire Komeet) !\n\n-\n🧘‍♂️ Santé & Bien-être : Accès à la plateforme de santé mentale Moka.care, mutuelle d'entreprise, ainsi que des cours de yoga réguliers.\n\n-\n🚲 Mobilité & Impact : Une prise en charge dédiée à la mobilité douce (vélo, transports, etc.) pour des trajets plus verts.\n\n-\n🏢 Cadre de travail : De superbes bureaux conviviaux, tout équipés, gourmands (snacks en libre accès !) et entièrement accessibles PMR.\n\n-\n🎉 Vie d'équipe & Convivialité : Des afterworks réguliers et notre grand séminaire annuel pour se retrouver, célébrer et créer de vrais liens.\n\nSimple, transparent et rapide :\n\n-\nÉtape 1 (30 min en visio) : Un premier échange avec 2 personnes de la Team Service Client. L'objectif ? Se présenter, découvrir le poste et répondre à toutes tes questions.\n\n-\nÉtape 2 (1h30 en présentiel) : Une rencontre dans nos locaux avec un manager et un membre de l'équipe. Au programme : des échanges approfondis et des mises en situation concrètes (pas de panique, c'est surtout pour se projeter ensemble !).",
-      "apply_url": "https://jobs.lever.co/octoenergy/b3174af4-de6f-471b-81e3-de8cfd500b18",
-      "source": "lever",
-      "posted_at": "2023-01-23T15:42:17.587Z",
-      "scraped_at": "2026-10-20T12:27:30.745Z",
+      "scraped_at": "2026-10-21T12:37:40.911Z",
       "status": "open"
     },
     {
@@ -1608,7 +1696,7 @@
       "apply_url": "https://retool.com/careers/staff-copywriter--design--united-states-remote",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:11.390Z",
+      "scraped_at": "2026-10-21T12:37:14.705Z",
       "status": "open"
     },
     {
@@ -1630,7 +1718,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/27404",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:13.578Z",
+      "scraped_at": "2026-10-21T12:37:26.343Z",
       "status": "open"
     },
     {
@@ -1652,7 +1740,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/26834",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:13.578Z",
+      "scraped_at": "2026-10-21T12:37:26.344Z",
       "status": "open"
     },
     {
@@ -1674,29 +1762,29 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/27636",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:13.579Z",
+      "scraped_at": "2026-10-21T12:37:26.345Z",
       "status": "open"
     },
     {
-      "id": "workday:clio:REQ-5431",
+      "id": "workday:clio:BF-REQ-3129",
       "hub": "legal",
-      "title": "Enterprise Customer Support Specialist",
+      "title": "Senior R&D Operations Specialist",
       "company": "Clio",
       "company_id": "clio",
       "priority": false,
-      "category": "Customer Support",
+      "category": "Other",
       "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
+      "level": "Senior",
       "location": "3 Locations",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Enterprise Customer Support Specialist at Clio.",
+      "summary": "Senior R&D Operations Specialist at Clio.",
       "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Enterprise-Customer-Support-Specialist_REQ-5431-1",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1718,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Global-Benefits-Specialist_REQ-5172",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1740,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Support-Specialist_REQ-5538",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1762,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Talent-Acquisition-Specialist--12-Month-Contract-_REQ-5487",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1784,29 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Events---Partnerships-Coordinator_REQ-5503",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4525",
-      "hub": "legal",
-      "title": "Intermediate Customer Support Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Toronto",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Intermediate Customer Support Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Intermediate-Customer-Support-Specialist_REQ-4525",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1828,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Australia/Customer-Support-Specialist--Enterprise_REQ-4526",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1850,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1872,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1894,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Senior-Accounts-Payable-Specialist_REQ-4616-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1916,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---IL-USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1938,7 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1960,7 +2026,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -1982,7 +2048,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -2004,7 +2070,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -2026,7 +2092,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -2048,7 +2114,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -2070,7 +2136,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -2092,29 +2158,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:BF-REQ-3129",
-      "hub": "legal",
-      "title": "Senior R&D Operations Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "Toronto",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior R&D Operations Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -2136,7 +2180,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     },
     {
@@ -2158,51 +2202,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4610",
-      "hub": "legal",
-      "title": "Intermediate Accounts Receivable Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Bogotá",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Intermediate Accounts Receivable Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:17.800Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
-      "hub": "legaltech",
-      "title": "Billing/Collections Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Billing/Collections Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-20T12:27:24.155Z",
+      "scraped_at": "2026-10-21T12:37:27.827Z",
       "status": "open"
     }
   ]
