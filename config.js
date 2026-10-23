@@ -424,7 +424,7 @@ export const COMPANIES = [
 
   // Brazil
   { id: "nubank", name: "Nubank", hub: "fintech", careersUrl: "https://nubank.com.br/en/carreiras/", website: "https://nubank.com.br", segment: "Digital Bank", country: "Brazil", verified: false, method: "dom", atsSlug: null, active: true },
-  { id: "loft-br", name: "Loft", hub: "business", careersUrl: "https://www.loft.com.br/carreiras", website: "https://www.loft.com.br", segment: "Real Estate Platform", country: "Brazil", verified: false, method: null, atsSlug: null, active: true },
+  { id: "loft-br", name: "Loft", hub: "business", careersUrl: "https://www.loft.com.br/carreiras", website: "https://www.loft.com.br", segment: "Real Estate Platform", country: "Brazil", verified: false, method: "dom", atsSlug: null, active: true },
 
   // Mexico
   { id: "kavak", name: "Kavak", hub: "business", careersUrl: "https://www.kavak.com/mx/careers", website: "https://www.kavak.com", segment: "Used Car Marketplace", country: "Mexico", verified: false, method: null, atsSlug: null, active: true },
