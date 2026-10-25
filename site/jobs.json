@@ -1,10 +1,54 @@
 {
-  "generated_at": "2026-10-24T11:45:52.083Z",
+  "generated_at": "2026-10-25T12:15:12.501Z",
   "count": 100,
   "total_open": 130,
   "sources_ok": 56,
   "sources_failed": 24,
   "jobs": [
+    {
+      "id": "agg:weworkremotely:talkspace-clinical-quality-specialist",
+      "hub": "business",
+      "title": "Clinical Quality Specialist",
+      "company": "Talkspace",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: New York, NY (Remote) Our mission at Talkspace is to help people heal. To get there, we need exceptionally passionate, bright, and motivated people.",
+      "description": "Headquarters: New York, NY (Remote)\n\nOur mission at Talkspace is to help people heal. To get there, we need exceptionally passionate, bright, and motivated people. Want to help over one million people receive quality mental healthcare? Come join our mission of getting therapy in the hands of everyone!\n\nWe are looking for an experienced Clinical Quality Specialist to join our Network and Clinical Quality team. As a Clinical Quality Specialist, you'll lead peer proficiency reviews, contribute to quality improvement initiatives, and provide essential clinical support for network providers. Your expertise will create a substantial impact in upholding the highest standards of care.\n\nTo work at Talkspace, you need to be as passionate as we are about our work, and excited to partner with us on delivering quality mental healthcare.\n\n*This is a remote position based on Eastern Time with a Monday - Friday daytime schedule.\n\nWhat You’ll Do\n\n- Peer Proficiency Review\n\n- Conduct room/documentation audits to investigate complaints and determine the validity of findings and evaluate improvement opportunities and risk\n\n- Assist with Interrater Reliability initiative\n\n- Develop and evolve criteria used to evaluate clinical quality\n\n- Clinical Support\n\n- Support providers in network with clinical issues and connect them with peer consultants as needed\n\n- Coordinate with CMO, SVP, Network, Director of Clinical & Quality, and/or Manager of Quality to support execution of special clinical projects\n\n- Assist with clinical risk management\n\n- Provide clinical support cross-departmentally\n\n- Quality Management\n\n- Coordinate with Quality Management about room/documentation audits to guide practitioner action plans\n\n- Assist with the development of clinical policy and procedures\n\n- Assist with provider performance monitoring and remediation\n\n- Engage in quality improvement initiatives as needed\n\n- Performs other related duties as assigned\n\nAbout You\n\n- Current license to practice independently without supervision (e.g. Professional Counselor, Licensed Mental Health Counselor, Social Worker, Marriage and Family Counselor, Psychologist) with diagnostic privileges\n\n- 5+ years of clinical experience\n\n- 2+ years experience in telehealth and QA\n\n- Experience with high acuity clients preferred\n\n- Demonstrated understanding of how AI is used in/impacts the clinical field preferred\n\nBenefits\n\n- Comprehensive Medical, Dental and Vision plans coverage\n\n- Pre-tax benefits: HSA/ FSA\n\n- 401k Retirement Savings Program with matching\n\n- Voluntary benefits\n\n- Monthly Wellness Stipend to promote mental and physical self-care\n\n- Flexible PTO and Remote First Environment\n\n- Regular team events, including Wellness Workshops and Team Building Events\n\n- Free access to Talkspace products for you and one household member, as well as access to a friends and family discount!\n\nCompensation\n\nAt Talkspace, we believe that pay transparency during the interview process is a critical part of diversity, equity, and inclusion. Our salary bands are based on internal and external compensation benchmarks, which we regularly evaluate to ensure we pay competitively.\n\nThe base salary range for this role is between $75,000 and $80,000. Within the salary bands, leveling corresponds to each candidate’s relevant experience, skills as assessed during the interview process, education, and applicable certifications.\n\nWhy Talkspace?\n\nTalkspace is the most comprehensive and convenient way to take care of your mental health and wellness, focused on providing quality mental health services on your own terms.\n\nOur signature psychotherapy and psychiatry product connects individual users with a network of thousands of licensed mental health providers through an easy-to-use and HIPAA-compliant web and mobile platform. With Talkspace, users can connect their dedicated provider via live video, text, or phone.\n\nBacked by over 10 years of industry-leading research and clinically proven results, our accessible care model continues to make huge strides in lowering the barriers to quality mental healthcare services nationwide. Talkspace is the top insurance-covered therapy service with over 112 million Americans covered and a leader within the Corporate Wellness Space, with more than 200 employer partnerships across several industries.\n\nOur focus to help people feel better starts at Talkspace, where we connect and collaborate as a team to make the world a better place. Fun company-wide events, happy hours, wellness perks, flex PTO, access to Talkspace products, and competitive benefits are just some of the ways we make Talkspace a great place to work. Do you want to save the world? Come join us!\n\nEQUAL OPPORTUNITY EMPLOYER\n\nTalkspace welcomes and celebrates talent from all backgrounds, perspectives, and walks of life to foster an innovative and diverse workforce. We encourage you to apply, even if you don’t meet every qualification, if you believe you could make a great addition to this team. Come as you are and learn about the exciting opportunities on our team.\n\nIndividuals seeking employment at Talkspace are considered without regard to race, color, religious creed, sex, national origin, citizenship status, age, physical or mental disability, sexual orientation, marital, parental, veteran or military status, unfavorable military discharge, or any other status protected by applicable federal, state or local law.\n\nHow do we define Diversity, Equity, Inclusion, and Belonging at Talkspace?\n\nDiversity\n\nDiversity encompasses the unique attributes of our employees as individuals. We value and embrace the richness arising from their varied backgrounds, perspectives, and experiences, which include, but are not limited to, age, ability, ethnicity, gender, race, and cultural background.\n\nEquity\n\nEquity refers to a fair and impartial workplace, aiming to ensure equal growth and advancement opportunities for all employees. This involves amplifying underrepresented voices, addressing unconscious biases, and providing inclusive, culturally competent mental health care.\n\nInclusion\n\nInclusion signifies the practice of granting equal access to opportunities and resources for all employees, particularly those who might otherwise be excluded or marginalized. It ensures that everyone feels a sense of belonging, value, support, and respect as an individual.\n\nBelonging\n\nBelonging reflects the affinity and positive relationships that develop among employees from diverse backgrounds when businesses actively promote diversity, equity, and inclusion in the workplace.\n\nTo apply: https://weworkremotely.com/remote-jobs/talkspace-clinical-quality-specialist",
+      "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-clinical-quality-specialist",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-25T07:30:54.000Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:156772",
+      "hub": "business",
+      "title": "Product Support Specialist- Eastern Time Zone",
+      "company": "Huntress",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 50000,
+      "comp_max": 65000,
+      "summary": "What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations.",
+      "description": "What We Do:\n\nCybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact.\n\nFounded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes. We work closely with security teams and service providers protecting complex environments, often without the time or headcount to handle it all. That’s why we build our technology in-house and back it with a 24/7 human-led Security Operations Center (SOC). As a result, our platform is never disconnected from the experts who manage it, ensuring our customers' protection.\n\nHuntress now secures more than 6M endpoints and 16M identities worldwide. Those numbers keep growing because more businesses rely on us to help carry the load and operate with more confidence. Every day, you can see that commitment in how we stand with our customers and how we show up for each other.\n\nReports to: Product Support Manager\n\nLocation: Remote US\n\nCompensation Range: $50,000 to $65,000 base plus bonus and equity\n\n*For this position, we are only considering candidates located in the Eastern Time Zone.\n\nWhat We Do:\n\nCybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact.\n\nFounded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes. We work closely with security teams and service providers protecting complex environments, often without the time or headcount to handle it all. That’s why we build our technology in-house and back it with a 24/7 human-led Security Operations Center (SOC). As a result, our platform is never disconnected from the experts who manage it, ensuring our customers' protection.\n\nHuntress now secures more than 5M endpoints and 14M identities worldwide. Those numbers keep growing because more businesses rely on us to help carry the load and operate with more confidence. Every day, you can see that commitment in how we stand with our customers and how we show up for each other.\n\nWhat You’ll Do:\n\nAt Huntress, we have built a team that is focused on protecting our customers against cybersecurity threats. We value transparency, honesty, and going above and beyond to do the right thing.\n\nWe have a world-class support team built with individuals who provide best-in-class service to our customers. We take pride in our 98%+ CSAT rating and ticket close times within hours of submission. We’re looking to hire an individual who has a passion for customer support, a strong team-player mentality, and the willingness to become an expert in our technology and product offerings.\n\nYou’ll join a department that cares deeply about providing training and mentoring opportunities to our team members. Leadership provides regular coaching, mentoring, and training opportunities.\n\nAs a Product Support Specialist here at Huntress, you will play a key role in interacting with our customers. You will have the opportunity to directly impact the bottom line by ensuring that we continue to deliver world-class support. This customer-facing role requires a customer-centric mentality, as you will be the first and primary point of contact for technical support. Our Product Support team works collaboratively and as one team in order to resolve customer inquiries as effectively and efficiently as possible, all while providing top-tier customer service.\n\nResponsibilities:\n\n- Provide initial partner support and convey resolutions to customers\n\n- Walk customers through problem-solving processes and provide assistance\n\n- Assess customer issues and properly escalate incidents as needed\n\n- Follow up with customers, provide feedback, and see problems through to resolution\n\n- Utilize excellent customer service skills and exceed customer expectations\n\n- Recommend changes to internal and customer-facing documentation where needed\n\n- Continually grow your knowledge of internal procedures, the Huntress product, and customer environments\n\nWhat You Bring To The Team:\n\n- Ability to adapt and pivot quickly to the day-to-day changes that hypergrowth companies experience\n\n- Highly collaborative mindset; being able to work together as one team to come to the best possible solutions for our partners\n\n- Consider themselves disciplined, with systematic problem-solving skills\n\n- Practical experience supporting Microsoft Windows Operating Systems, including familiarity with Windows internals such as services, the registry, etc., and troubleshooting common system and application issues\n\n- Practical experience with macOS, including familiarity with its directory structures, services, etc., and troubleshooting common system and application issues (knowledge of Terminal and Bash is a plus, but not required)\n\n- Experience with tools such as ProcMon and Process Explorer is a plus\n\n- Experience in configuring antivirus products and troubleshooting interactions between these products and specialty software\n\n- Is familiar with system configuration/management tools such as GPO, RMMs, and SCCM; scripting these tools is a plus\n\nWhat We Offer:\n\n- 100% remote work environment - since our founding in 2015\n\n- Generous paid time off policy, including vacation, sick time, and paid holidays\n\n- 12 weeks of paid parental leave\n\n- Highly competitive and comprehensive medical, dental, and vision benefits plans\n\n- 401(k) with a 5% contribution regardless of employee contribution\n\n- Life and Disability insurance plans\n\n- Stock options for all full-time employees\n\n- One-time $500 reimbursement for building/upgrading home office\n\n- Annual allowance for education and professional development assistance\n\n- $75 USD/month digital reimbursement\n\n- Access to the BetterUp platform for coaching, personal, and professional growth\n\nHuntress is committed to creating a culture of inclusivity where every single member of our team is valued, has a voice, and is empowered to come to work every day just as they are.\n\nWe do not discriminate based on race, ethnicity, color, ancestry, national origin, religion, sex, sexual orientation, gender identity, disability, veteran status, genetic information, marital status, or any other legally protected status.\n\nWe do discriminate against hackers who try to exploit businesses of all sizes.\n\nAccommodations:\n\nIf you require reasonable accommodation to complete this application, interview, or pre-employment testing or participate in the employee selection process, please direct your inquiries to accommodations@huntresslabs.com. Please note that non-accommodation requests to this inbox will not receive a response.\n\nHuntress uses artificial intelligence tools to assist in reviewing and evaluating job applications, including resume screening, skills assessment, and candidate matching and comparisons. These AI tools support our human recruiters in the initial review process, but do not make final hiring decisions without human involvement. By submitting your application, you acknowledge this use of AI in our recruitment process. Please review our Candidate Privacy Notice for more details on our practices and your data privacy rights.\n\n#BI-Remote\n\nHuntress is committed to creating a culture of inclusivity where every single member of our team is valued, has a voice, and is empowered to come to work every day just as they are.\n\nWe do not discriminate based on race, ethnicity, color, ancestry, national origin, religion, sex, sexual orientation, gender identity, disability, veteran status, genetic information, marital status, or any other legally protected status.\n\nWe do discriminate against hackers who try to exploit businesses of all sizes.\n\nAccommodations:\n\nIf you require reasonable accommodation to complete this application, interview, or pre-employment testing or participate in the employee selection process, please direct your inquiries to accommodations@huntresslabs.com. Please note that non-accommodation requests to this inbox will not receive a response.\n\nHuntress uses artificial intelligence tools to assist in reviewing and evaluating job applications, including resume screening, skills assessment, and candidate matching and comparisons. These AI tools support our human recruiters in the initial review process, but do not make final hiring decisions without human involvement. By submitting your application, you acknowledge this use of AI in our recruitment process. Please review our Candidate Privacy Notice for more details on our practices and your data privacy rights.\n\n#BI-Remote",
+      "apply_url": "https://jobicy.com/jobs/156772-product-support-specialist-eastern-time-zone",
+      "source": "Jobicy",
+      "posted_at": "2026-10-24T16:13:46.000Z",
+      "scraped_at": "2026-10-25T12:15:12.125Z",
+      "status": "open"
+    },
     {
       "id": "agg:jobicy:156682",
       "hub": "business",
@@ -24,7 +68,7 @@
       "apply_url": "https://jobicy.com/jobs/156682-bilingual-cx-specialist-french",
       "source": "Jobicy",
       "posted_at": "2026-10-23T18:57:35.000Z",
-      "scraped_at": "2026-10-24T11:45:51.719Z",
+      "scraped_at": "2026-10-25T12:15:12.125Z",
       "status": "open"
     },
     {
@@ -46,7 +90,7 @@
       "apply_url": "https://jobicy.com/jobs/156668-onboarding-specialist-remote-mexico",
       "source": "Jobicy",
       "posted_at": "2026-10-23T18:01:17.000Z",
-      "scraped_at": "2026-10-24T11:45:51.719Z",
+      "scraped_at": "2026-10-25T12:15:12.125Z",
       "status": "open"
     },
     {
@@ -68,7 +112,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-10-23T13:20:38-04:00",
-      "scraped_at": "2026-10-24T11:45:28.163Z",
+      "scraped_at": "2026-10-25T12:14:50.322Z",
       "status": "open"
     },
     {
@@ -90,7 +134,7 @@
       "apply_url": "https://jobicy.com/jobs/156590-renewals-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-23T12:30:22.000Z",
-      "scraped_at": "2026-10-24T11:45:51.719Z",
+      "scraped_at": "2026-10-25T12:15:12.125Z",
       "status": "open"
     },
     {
@@ -112,7 +156,7 @@
       "apply_url": "https://jobicy.com/jobs/156586-associate-renewals-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-23T12:30:19.000Z",
-      "scraped_at": "2026-10-24T11:45:51.719Z",
+      "scraped_at": "2026-10-25T12:15:12.126Z",
       "status": "open"
     },
     {
@@ -134,7 +178,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6232781004",
       "source": "greenhouse",
       "posted_at": "2026-10-23T11:03:22-04:00",
-      "scraped_at": "2026-10-24T11:45:19.291Z",
+      "scraped_at": "2026-10-25T12:14:39.150Z",
       "status": "open"
     },
     {
@@ -156,7 +200,7 @@
       "apply_url": "https://jobicy.com/jobs/156431-customer-support-specialist-3",
       "source": "Jobicy",
       "posted_at": "2026-10-22T15:48:33.000Z",
-      "scraped_at": "2026-10-24T11:45:51.719Z",
+      "scraped_at": "2026-10-25T12:15:12.126Z",
       "status": "open"
     },
     {
@@ -178,7 +222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272446007",
       "source": "greenhouse",
       "posted_at": "2026-10-22T12:23:01-04:00",
-      "scraped_at": "2026-10-24T11:45:39.934Z",
+      "scraped_at": "2026-10-25T12:14:59.886Z",
       "status": "open"
     },
     {
@@ -200,7 +244,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272406007",
       "source": "greenhouse",
       "posted_at": "2026-10-22T12:17:10-04:00",
-      "scraped_at": "2026-10-24T11:45:39.934Z",
+      "scraped_at": "2026-10-25T12:14:59.886Z",
       "status": "open"
     },
     {
@@ -222,51 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/156374-customer-support-specialist-full-remote-philippines",
       "source": "Jobicy",
       "posted_at": "2026-10-22T10:36:00.000Z",
-      "scraped_at": "2026-10-24T11:45:51.719Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:156337",
-      "hub": "business",
-      "title": "Technical Support Specialist",
-      "company": "Vultr",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 25,
-      "comp_max": 30,
-      "summary": "Who We Are Vultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world.",
-      "description": "Who We Are\n\nVultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world. With 33 global cloud data center locations, Vultr is trusted by hundreds of thousands of active customers across 185 countries for its flexible, scalable, global Cloud Compute, Cloud GPU, Bare Metal, and Cloud Storage solutions. In December 2024 Vultr announced an equity financing at a $3.5 billion valuation. Founded by David Aninowsky and self-funded for over a decade, Vultr has grown to become the world’s largest privately-held cloud infrastructure company.\n\nVultr Cares\n\n-\n100% company-paid insurance premiums for employee medical, dental and vision plans.\n\n-\n401(k) plan that matches 100% up to 4%, with immediate vesting\n\n-\nProfessional Development Reimbursement of $2,500 each year\n\n-\n11 Holidays + Paid Time Off Accrual + Rollover Plan\n\n-\nCommitment matters to Vultr! Increased PTO at 3 year and 10 year anniversary + 1 month paid sabbatical every 5 years + Anniversary Bonus each year\n\n-\n$500 stipend for remote office setup in first year + $400 each following year\n\n-\nInternet reimbursement up to $75 per month\n\n-\nGym membership reimbursement up to $50 per month\n\n-\nCompany paid Wellable subscription\n\nJoin Vultr\n\nVultr is seeking a Technical Support Specialist to support our customers and internal teams by responding to platform alerts, troubleshooting technical issues, and coordinating resolution across the organization.\n\nIn this role, you will serve as part of a triage and support function, responding to customer inquiries and system alerts, diagnosing issues using established tools and procedures, and escalating complex problems to Technical Support Engineers, System Administrators, and Engineering teams as needed. This position is highly collaborative, customer-facing, and operational in nature, and plays a key role in meeting service-level objectives and maintaining platform reliability.\n\nKey Responsibilities\n\n-\nRespond to customer inquiries regarding Vultr products and services through ticketing systems and other support channels.\n\n-\nAct as a first responder to platform-level alerts and issues, assessing impact and initiating appropriate troubleshooting and escalation.\n\n-\nTroubleshoot technical issues by reviewing system data, logs, and platform behavior using established procedures and documentation.\n\n-\nIdentify whether reported issues are related to customer configuration, product functionality, or platform-level events.\n\n-\nCoordinate with system administrators, engineering teams, network operations, and other internal stakeholders to support issue resolution.\n\n-\nEscalate incidents appropriately based on severity, service-level objectives, and established escalation frameworks.\n\n-\nCommunicate with remote data center staff via phone to address and resolve operational issues.\n\n-\nSupport the creation and ongoing maintenance of internal and customer-facing documentation, including knowledge base articles, product guides, and troubleshooting procedures.\n\n-\nMaintain professional and clear communication with both customers and internal teams, providing status updates and confirming resolution until the issue is fully closed.\n\nQualifications\n\n-\nFoundational understanding of servers, computing principles, and how infrastructure-as-a-service platforms operate\n\n-\nExperience with Linux Command Line\n\n-\nBasic knowledge of enterprise networking concepts sufficient to understand system behavior and assist with troubleshooting\n\n-\nStrong customer service skills and the ability to communicate clearly in high-pressure situations\n\n-\nAbility to manage multiple tickets or issues simultaneously while adapting to shifting priorities\n\n-\nStrong written and verbal communication skills, including the ability to explain technical concepts clearly to non-technical audiences.\n\n-\nProficiency in the English language\n\n-\nWillingness and ability to learn new technologies and follow established processes in an entry-level technical role\n\nCompensation\n\n$25 - $30 per hour\n\nFinal compensation will vary depending on years of experience, background/skill set, location, and applicable laws.\n\n[We are currently accepting applications from candidates residing in the following states: Alabama, Arizona, Colorado, Connecticut, Florida, Georgia, Idaho, Illinois, Indiana, Iowa, Kentucky, Louisiana, Maryland, Massachusetts, Michigan, Minnesota, Missouri, Montana, Nevada, New Jersey, New Mexico, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Rhode Island, South Carolina, Tennessee, Texas, Utah, Vermont, Virginia, Wisconsin.]\n\nInclusion & Privacy\n\nWe are an equal opportunity employer and are committed to creating an inclusive environment for all employees. We welcome applications from individuals of all backgrounds and experiences, and we prohibit discrimination based on race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected status under applicable laws. Vultr will consider qualified applicants with arrest or conviction records in accordance with applicable laws and will not conduct a background check until after an offer of employment has been extended and accepted.\n\nWe also take your privacy seriously. We handle personal information responsibly and follow applicable laws, including U.S. privacy rules and India’s Digital Personal Data Protection Act, 2023. Your data is used only for legitimate business purposes and is protected with proper security measures.\n\nWhere allowed by law, applicants may request details about the data we collect, access or delete their information, withdraw consent for its use, and opt out of nonessential communications. For more details, please see our Privacy Policy.",
-      "apply_url": "https://jobicy.com/jobs/156337-technical-support-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-10-22T09:29:53.000Z",
-      "scraped_at": "2026-10-24T11:45:51.719Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:156321",
-      "hub": "business",
-      "title": "Senior Deployment Specialist",
-      "company": "ChargePoint",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Senior",
-      "location": "Canada,  USA",
-      "employment_type": "full-time",
-      "comp_min": 70380,
-      "comp_max": 95220,
-      "summary": "About Us With electric vehicles expected to be nearly 30% of new vehicle sales by 2025 and more than 50% by 2040, electric mobility is becoming a reality.",
-      "description": "About Us\n\nWith electric vehicles expected to be nearly 30% of new vehicle sales by 2025 and more than 50% by 2040, electric mobility is becoming a reality. ChargePoint (NYSE: CHPT) is at the center of this revolution, powering one of the world’s leading EV charging networks and a comprehensive set of hardware, software and mobile solutions for every charging need across North America and Europe. We bring together drivers, businesses, automakers, policymakers, utilities and other stakeholders to make e-mobility a global reality.\n\nSince our founding in 2007, ChargePoint has focused solely on making the transition to electric easy for businesses, fleets and drivers. ChargePoint offers a once-in-a-lifetime opportunity to create an all-electric future and a trillion-dollar market.\n\nAt ChargePoint, we foster a positive and productive work environment by committing to live our values of Be Courageous, Charge Together, Love our Customers, Operate with Openness, and Relentlessly Pursue Awesome. These values guide how we show up every day, align, and work together to build a brighter future for all of us.\n\nJoin the team that is building the EV charging industry and make your mark on how people and goods will get everywhere they need to go, in any context, for generations to come.\n\nReports To\n\nActivation Support Supervisor\n\nWhat You Will Be Doing\n\nThe Senior Deployment Specialist plays a critical role in ensuring a seamless experience for new and returning station owners—from initial onboarding through the successful activation and configuration of ChargePoint networked charging stations. This position demands a highly organized, proactive professional with strong technical aptitude and genuine enthusiasm for the EV industry.\n\nWhat You Will Bring to ChargePoint\n\nDeployment & Activation\n\n- Own the end-to-end troubleshooting and technical support process for stations that fail to connect, guiding each unit through activation to working status.\n\n- Diagnose and resolve complex activation failures involving cellular connectivity, site-level issues, and hardware defects.\n\n- Coordinate with field technicians, Sales, and Deployment teams to clear punch-list items and escalate persistent hardware defects through engineering tickets.\n\nCustomer Support & Escalation Management\n\n- Manage all customer escalations via email and phone, delivering prompt, effective resolutions to inquiries and concerns.\n\n- Provide direct phone support during peak call volumes, ensuring station owners receive immediate assistance.\n\n- Proactively communicate station updates and status changes to customers using Salesforce.\n\nEquipment & Logistics\n\n- Process Dispatch requests for malfunctioning stations post-activation, coordinating replacements and repairs to maintain uptime while still adhering to company policies.\n\n- Oversee dispatch requests for parts replacement, ensuring timely and accurate delivery of required components.\n\nDocumentation & Collaboration\n\n- Maintain accurate records of customer interactions, technical support activities, and equipment maintenance for full visibility and accountability.\n\n- Collaborate cross-functionally to streamline the deployment process and resolve technical issues efficiently.\n\n- Lead and contribute to special projects, including partner collaborations and new product rollout tracking, to drive continuous improvement.\n\nRequirements\n\n- Minimum of 3 - 5 years of hands-on experience in technical support, deployment, or field service operations—preferably within the EV charging or alternative energy industry.\n\n- Associate's degree or vocational/technical diploma in automotive or electrical technology is accepted when paired with 3–5 years of relevant field experience.\n\n- Exceptional verbal and written communication skills.\n\n- Proficiency with technical troubleshooting methodologies and software tools.\n\n- Strong organizational skills with meticulous attention to detail.\n\n- Demonstrated analytical ability—able to evaluate, assess, and resolve complex issues effectively.\n\n- Effective time management with the ability to prioritize competing demands.\n\n- Willingness to learn and apply new technical knowledge in a fast-evolving environment.\n\n- Solid understanding of cellular connectivity protocols, carrier SIM provisioning, and signal strength verification\n\n- Familiarity with commercial AC and DC fast charging hardware systems (highly preferred).\n\nLocation\n\nRemote - North America\n\nThe base salary range for this role is $70,380 – $95,220 per year. In addition, this position is eligible for annual merit-based RSU grants. The company offers a comprehensive benefits package including health, dental, and vision insurance; 401(k); paid time off; parental leave; life and disability insurance; and wellness resources.\n\nCompensation may be adjusted based on work location.\n\nWe are committed to an inclusive and diverse team. ChargePoint is an equal opportunity employer. We do not discriminate based on race, color, ethnicity, ancestry, national origin, religion, sex, gender, gender identity, gender expression, sexual orientation, age, disability, veteran status, genetic information, marital status or any legally protected status.\n\nIf there is a match between your experiences/skills and the Company needs, we will contact you directly.\n\nChargePoint is committed to fostering an inclusive workplace that welcomes and supports all qualified individuals. In alignment with this commitment, we ensure that persons with disabilities are provided with reasonable accommodations throughout the employment process.\n\nIf you need a reasonable accommodation to participate in the application or interview process, to perform essential job functions, or to access any other benefits and privileges of employment, please contact us at accommodations@chargepoint.com.\n\nChargePoint is an equal opportunity employer.\nApplicants only - Recruiting agencies do not contact.",
-      "apply_url": "https://jobicy.com/jobs/156321-senior-deployment-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-10-22T09:29:36.000Z",
-      "scraped_at": "2026-10-24T11:45:51.719Z",
+      "scraped_at": "2026-10-25T12:15:12.126Z",
       "status": "open"
     },
     {
@@ -288,7 +288,7 @@
       "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4731060005",
       "source": "greenhouse",
       "posted_at": "2026-10-22T08:23:05-04:00",
-      "scraped_at": "2026-10-24T11:45:33.682Z",
+      "scraped_at": "2026-10-25T12:14:54.541Z",
       "status": "open"
     },
     {
@@ -310,7 +310,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6230088004",
       "source": "greenhouse",
       "posted_at": "2026-10-21T18:48:43-04:00",
-      "scraped_at": "2026-10-24T11:45:19.291Z",
+      "scraped_at": "2026-10-25T12:14:39.150Z",
       "status": "open"
     },
     {
@@ -332,7 +332,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-10-21T13:52:12-04:00",
-      "scraped_at": "2026-10-24T11:45:42.128Z",
+      "scraped_at": "2026-10-25T12:15:02.631Z",
       "status": "open"
     },
     {
@@ -354,7 +354,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/ping-identity-chief-of-staff-cco",
       "source": "We Work Remotely",
       "posted_at": "2026-10-21T07:31:16.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -376,7 +376,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/oportun-repossession-coordinator-r14323",
       "source": "We Work Remotely",
       "posted_at": "2026-10-21T07:31:02.000Z",
-      "scraped_at": "2026-10-24T11:45:50.634Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -398,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7996723",
       "source": "greenhouse",
       "posted_at": "2026-10-21T07:12:05-04:00",
-      "scraped_at": "2026-10-24T11:45:28.163Z",
+      "scraped_at": "2026-10-25T12:14:50.322Z",
       "status": "open"
     },
     {
@@ -420,7 +420,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-dutch-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-10-20T07:30:57.000Z",
-      "scraped_at": "2026-10-24T11:45:50.634Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -442,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-10-20T05:53:00-04:00",
-      "scraped_at": "2026-10-24T11:45:42.157Z",
+      "scraped_at": "2026-10-25T12:15:02.652Z",
       "status": "open"
     },
     {
@@ -464,7 +464,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/abbott-clinical-specialist-crm-mobile-al",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T17:39:32.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -486,7 +486,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/evolve-peptides-operations-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T17:25:15.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -508,7 +508,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-care-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T07:31:25.000Z",
-      "scraped_at": "2026-10-24T11:45:50.634Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -530,7 +530,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e1df27dd-5074-42d1-adde-3b074bf10b6b",
       "source": "lever",
       "posted_at": "2026-10-16T16:36:04.185Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -552,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6226462004",
       "source": "greenhouse",
       "posted_at": "2026-10-16T11:34:03-04:00",
-      "scraped_at": "2026-10-24T11:45:19.290Z",
+      "scraped_at": "2026-10-25T12:14:39.148Z",
       "status": "open"
     },
     {
@@ -574,7 +574,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/120541c5-8caa-4e7e-aefa-c12fcf3c5663",
       "source": "lever",
       "posted_at": "2026-10-16T09:21:51.285Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -596,7 +596,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/6sense-it-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:14.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.513Z",
       "status": "open"
     },
     {
@@ -618,7 +618,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/customer-io-email-deliverability-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:00.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.513Z",
       "status": "open"
     },
     {
@@ -640,7 +640,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cranky-concierge-travel-coordinator-1",
       "source": "We Work Remotely",
       "posted_at": "2026-10-14T15:30:23.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.513Z",
       "status": "open"
     },
     {
@@ -662,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169731007",
       "source": "greenhouse",
       "posted_at": "2026-10-14T12:47:33-04:00",
-      "scraped_at": "2026-10-24T11:45:39.934Z",
+      "scraped_at": "2026-10-25T12:14:59.886Z",
       "status": "open"
     },
     {
@@ -684,7 +684,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-13T16:00:30.000Z",
-      "scraped_at": "2026-10-24T11:45:50.634Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -706,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-10-13T14:30:40-04:00",
-      "scraped_at": "2026-10-24T11:45:39.815Z",
+      "scraped_at": "2026-10-25T12:14:59.799Z",
       "status": "open"
     },
     {
@@ -728,7 +728,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-10-11T20:17:27.000Z",
-      "scraped_at": "2026-10-24T11:45:51.139Z",
+      "scraped_at": "2026-10-25T12:15:10.971Z",
       "status": "open"
     },
     {
@@ -750,7 +750,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-11T15:26:05-04:00",
-      "scraped_at": "2026-10-24T11:45:39.933Z",
+      "scraped_at": "2026-10-25T12:14:59.886Z",
       "status": "open"
     },
     {
@@ -772,7 +772,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
       "source": "We Work Remotely",
       "posted_at": "2026-10-09T07:30:56.000Z",
-      "scraped_at": "2026-10-24T11:45:50.634Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -794,7 +794,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-24T11:45:51.139Z",
+      "scraped_at": "2026-10-25T12:15:10.971Z",
       "status": "open"
     },
     {
@@ -816,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-administrative-scheduler",
       "source": "We Work Remotely",
       "posted_at": "2026-10-02T16:55:50.000Z",
-      "scraped_at": "2026-10-24T11:45:50.634Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -838,7 +838,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.513Z",
       "status": "open"
     },
     {
@@ -860,7 +860,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/doximity-marketing-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-01T07:30:57.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -882,7 +882,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6200670004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-24T11:45:19.291Z",
+      "scraped_at": "2026-10-25T12:14:39.149Z",
       "status": "open"
     },
     {
@@ -904,7 +904,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6193873004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-24T11:45:19.291Z",
+      "scraped_at": "2026-10-25T12:14:39.149Z",
       "status": "open"
     },
     {
@@ -926,7 +926,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-09-30T01:02:07-04:00",
-      "scraped_at": "2026-10-24T11:45:19.291Z",
+      "scraped_at": "2026-10-25T12:14:39.150Z",
       "status": "open"
     },
     {
@@ -948,7 +948,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/icuc-social-social-media-content-specialist-bilingual-french-english-remote-in-canada-us",
       "source": "We Work Remotely",
       "posted_at": "2026-09-29T18:54:48.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.513Z",
       "status": "open"
     },
     {
@@ -970,7 +970,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.383Z",
       "status": "open"
     },
     {
@@ -992,7 +992,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.513Z",
       "status": "open"
     },
     {
@@ -1014,7 +1014,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e4a93560-2f38-44c7-81c6-336cd96dcf7c",
       "source": "lever",
       "posted_at": "2026-09-21T12:58:03.635Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.383Z",
       "status": "open"
     },
     {
@@ -1036,7 +1036,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-24T11:45:36.274Z",
+      "scraped_at": "2026-10-25T12:14:56.515Z",
       "status": "open"
     },
     {
@@ -1058,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1080,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/086a2b9a-ce51-47f4-bea9-618b0dcf9cc6",
       "source": "lever",
       "posted_at": "2026-09-15T19:07:45.528Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.383Z",
       "status": "open"
     },
     {
@@ -1102,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1124,7 +1124,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.513Z",
       "status": "open"
     },
     {
@@ -1146,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.383Z",
       "status": "open"
     },
     {
@@ -1256,7 +1256,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0b14cde9-0c0d-47a2-a064-799b51e372af",
       "source": "lever",
       "posted_at": "2026-08-06T13:57:16.813Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1278,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.383Z",
       "status": "open"
     },
     {
@@ -1300,7 +1300,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/advanced-shoulder-knee-ortho-spanish-speaking-virtual-medical-assistant-bilingual-english-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-07-28T18:52:53.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -1322,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/71f766cd-9242-45c2-9923-c071f00bf778",
       "source": "lever",
       "posted_at": "2026-07-21T09:56:04.926Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1344,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1366,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.383Z",
       "status": "open"
     },
     {
@@ -1388,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-24T11:45:38.198Z",
+      "scraped_at": "2026-10-25T12:14:58.383Z",
       "status": "open"
     },
     {
@@ -1410,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1432,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1454,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.383Z",
       "status": "open"
     },
     {
@@ -1476,7 +1476,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crae-group-ltd-customer-support-agent-remote",
       "source": "We Work Remotely",
       "posted_at": "2025-12-05T10:37:40.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.513Z",
       "status": "open"
     },
     {
@@ -1498,7 +1498,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-24T11:45:50.635Z",
+      "scraped_at": "2026-10-25T12:15:10.512Z",
       "status": "open"
     },
     {
@@ -1520,7 +1520,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/b496edee-1e96-4880-ba9f-1518d263e47c",
       "source": "lever",
       "posted_at": "2025-06-23T14:32:08.216Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1542,7 +1542,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e8d2ddf7-9033-4777-9b84-c70ae07610b6",
       "source": "lever",
       "posted_at": "2025-06-18T08:41:32.740Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1564,7 +1564,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1586,7 +1586,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/7037f66c-24b0-46ba-8271-d300d336114d",
       "source": "lever",
       "posted_at": "2024-09-18T16:04:29.335Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1608,7 +1608,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-24T11:45:38.197Z",
+      "scraped_at": "2026-10-25T12:14:58.382Z",
       "status": "open"
     },
     {
@@ -1630,7 +1630,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/27404",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:21.488Z",
+      "scraped_at": "2026-10-25T12:14:40.964Z",
       "status": "open"
     },
     {
@@ -1652,7 +1652,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/26834",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:21.488Z",
+      "scraped_at": "2026-10-25T12:14:40.964Z",
       "status": "open"
     },
     {
@@ -1674,7 +1674,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/27636",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:21.488Z",
+      "scraped_at": "2026-10-25T12:14:40.964Z",
       "status": "open"
     },
     {
@@ -1696,7 +1696,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1718,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Global-Benefits-Specialist_REQ-5172",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1740,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Support-Specialist_REQ-5538",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1762,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Australia/Customer-Support-Specialist--Enterprise_REQ-4526",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1784,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1806,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1828,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Senior-Accounts-Payable-Specialist_REQ-4616-1",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1850,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---IL-USA/Senior-Sales-Enablement-Specialist--Velocity_REQ-5152",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1872,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1894,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1916,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1938,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Marketing-Specialist--Enterprise_REQ-4886",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1960,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -1982,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -2004,7 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -2026,7 +2026,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Executive-Assistant_REQ-5167",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -2048,7 +2048,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Talent-Acquisition-Specialist--6-Month-Contract-_REQ-5110",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.924Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -2070,7 +2070,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Mexico/Account-Manager_REQ-4804",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.925Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -2092,7 +2092,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Accounts-Receivable-Specialist_REQ-4610",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:24.925Z",
+      "scraped_at": "2026-10-25T12:14:44.571Z",
       "status": "open"
     },
     {
@@ -2114,7 +2114,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:27.727Z",
+      "scraped_at": "2026-10-25T12:14:49.850Z",
       "status": "open"
     },
     {
@@ -2136,7 +2136,7 @@
       "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:27.727Z",
+      "scraped_at": "2026-10-25T12:14:49.850Z",
       "status": "open"
     },
     {
@@ -2158,7 +2158,7 @@
       "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:27.727Z",
+      "scraped_at": "2026-10-25T12:14:49.850Z",
       "status": "open"
     },
     {
@@ -2180,7 +2180,7 @@
       "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:27.727Z",
+      "scraped_at": "2026-10-25T12:14:49.850Z",
       "status": "open"
     },
     {
@@ -2202,7 +2202,7 @@
       "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-24T11:45:27.727Z",
+      "scraped_at": "2026-10-25T12:14:49.850Z",
       "status": "open"
     }
   ]
