@@ -1,10 +1,274 @@
 {
-  "generated_at": "2026-10-30T13:45:02.555Z",
+  "generated_at": "2026-10-31T13:14:36.685Z",
   "count": 100,
-  "total_open": 107,
+  "total_open": 118,
   "sources_ok": 55,
   "sources_failed": 25,
   "jobs": [
+    {
+      "id": "agg:jobicy:158176",
+      "hub": "business",
+      "title": "Customer Support Specialist",
+      "company": "Mercury",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 43300,
+      "comp_max": 58400,
+      "summary": "Mercury is building a complete finance stack for startups. Since we launched Mercury in 2019, our customer base has grown to over 300,000 startups and small businesses from all aro…",
+      "description": "Mercury is building a complete finance stack for startups. Since we launched Mercury in 2019, our customer base has grown to over 300,000 startups and small businesses from all around the world. This turns out to be a pretty wild endeavor, so we’re looking to bring someone smart onto our Customer Support team to help us out.\n\nAs a member of our Customer Support team, you’ll make sure our users are charmed by warmth and competence when they have questions or needs that aren’t being met by our product. You’ll radiate intelligence while exercising your best human qualities, like compassion and empathy, even in the face of frustration.\n\nYou’ll need to understand how our product works in detail. Banking* has a lot of moving pieces, so this is harder than it might seem. Finding efficient, elegant solutions for problems stemming from the oft-convoluted U.S. financial system isn’t always easy, but if you’re good at your job, our users will never know it.\n\n*Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\n\nWhat You’ll Do:\n\n- Answer user questions over chat, email, and phone\n\n- Handle user account requests, including application processing, card disputes, missing payments, card shipments, and a whole lot more\n\n- Teach customers how to use our product (hopefully most of it is self-explanatory), and translate user confusion into product suggestions\n\n- Identify the systemic flaws that lead to user problems\n\n- Work with our engineering team to find and squash bugs\n\n- Communicate our users' needs to our partner banks and work with them to improve their products and processes\n\n- Write help articles and FAQs\n\n- Learn our internal tools and figure out how to improve them\n\n- Put in place processes to make your job more efficient\n\n- Help with other compliance and customer tasks\n\n- Create and sustain warm relationships with our users\n\n- Help build out the customer support and ops infrastructure at Mercury\n\nWhat You Bring:\n\n- Have 2+ years of experience in a Customer Experience / Customer Support role\n\n- Consistently exercise empathy\n\n- Always seek to answer the question behind the question\n\n- Understand how to translate complex terminology into clear, human user communication\n\n- Enjoy thinking about how to automate as much of your job as possible\n\n- Keep a clean, ordered inbox\n\n- Stay calm and collected while working on ten things at once\n\n- Feel confident talking with startup folks in person, over chat, or on the phone\n\n- Use creativity while working within difficult constraints\n\n- Show kindness in the face of unpleasantness (our customers generally are really great, but they can get passionate when it comes to their businesses)\n\nWould be nice if you:\n\n- Have experience working in retail branch banking\n\n- Are passionate about uncovering customer needs\n\n- Enjoy solving customer problems and proactively offering solutions to unmet needs\n\nSchedule Information:\n\n- Required: be available to work at least one weekend day per 5 day shift\n\n- We are currently hiring for multiple shifts. Openings will be covered early in the interview process\n\n- Your working schedule will be fixed - this is long-term commitment, not a rotating shift\n\nMercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic. We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities or special needs. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role.\n\n#LI-RP1\n\nTotal Rewards\nThe total rewards package at Mercury includes base salary, equity (stock options/RSUs), and benefits.\n\nOur salary and equity ranges are highly competitive within the SaaS and fintech industry and are updated regularly using the most reliable compensation survey data for our industry. New hire offers are made based on a candidate’s experience, expertise, geographic location, and internal pay equity relative to peers.\n\nOur target new hire base salary ranges for this role are the following:\n\nUS employees in New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n\n$48,100—$58,400 USD\n\nUS employees outside of New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n\n$43,300—$52,500 USD",
+      "apply_url": "https://jobicy.com/jobs/158176-customer-support-specialist-7",
+      "source": "Jobicy",
+      "posted_at": "2026-10-31T10:09:20.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:158149",
+      "hub": "business",
+      "title": "Merchant Support Specialist",
+      "company": "Polar",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Europe",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Merchant Operations at Polar Merchant Operations at Polar is about delivering an exceptional merchant experience while building the processes, tooling and automation that allow us…",
+      "description": "Merchant Operations at Polar\n\nMerchant Operations at Polar is about delivering an exceptional merchant experience while building the processes, tooling and automation that allow us to scale. As we rethink how software companies monetize their products, we help merchants navigate the complexities of global payments, billing and financial workflows.\n\nPolar sits in the critical path of our merchants' businesses, where reliability, responsiveness and sound judgment matter deeply. We're looking for people who enjoy solving complex problems, understanding how products work and collaborating closely with Product and Engineering to turn merchant insights into meaningful improvements.\n\nWe're a small, fast-moving team where there's plenty of room to take ownership, challenge how things are done and make a meaningful impact. We value people who look beyond individual problems, spot opportunities to improve how we work and help build the systems and experiences that make Polar better as we scale.\n\nMore about Polar and how we work.\n\nRole & responsibilities: What you will do\n\nAs a Merchant Support Specialist, you'll be on the front lines helping merchants and customers succeed with Polar. You'll troubleshoot issues, answer questions, and work closely with Product and Engineering to improve the merchant experience.\n\nAs a small and fast-moving team, we’re looking for someone who wants to do more than resolve individual support requests. You’ll be close to the product and the people using it, identifying friction, spotting opportunities for improvement, and helping build the processes, tooling, and automation that allow Merchant Operations to scale alongside Polar.\n\nYou’ll work with the team to\n\n-\nOwn merchant and customer inquiries end-to-end across email, chat, and Slack, ensuring issues are understood, prioritized and driven to resolution.\n\n-\nInvestigate and troubleshoot issues across payments, payouts, subscriptions, checkout and the merchant dashboard, building a deep understanding of how Polar works.\n\n-\nHelp merchants successfully onboard, navigate the platform, and understand the operational and financial workflows involved in using Polar as their Merchant of Record.\n\n-\nPartner closely with Product and Engineering to reproduce bugs, uncover root causes, and turn merchant feedback into meaningful product improvements.\n\n-\nIdentify recurring support trends, proactively identifying recurring friction and opportunities to improve the Help Center, documentation, product, and internal processes.\n\n-\n Exercise sound judgment in prioritizing and escalating complex technical, payment, and account issues, balancing urgency, merchant impact, and operational risk.\n\n-\nMaintain a high bar for customer experience by providing thoughtful, accurate, and timely support.\n\n-\nContribute to operational improvements that help us scale support without sacrificing quality.\n\nWhat we’re looking for\n\nWe're looking for someone who is naturally curious, resourceful, and enjoys getting to the bottom of complex problems. You're comfortable working across multiple tools, can explain complex topics clearly, and care about delivering an excellent customer experience while balancing efficiency with attention to detail.\n\nSkills & Experience\n\n-\n2+ years of experience in customer support, merchant support, or customer success, preferably in SaaS, fintech, or payments.\n\n-\nExcellent written communication skills with a customer-first mindset.\n\n-\nStrong troubleshooting and problem-solving abilities.\n\n-\nExperience working with support platforms such as Plain, Zendesk, Intercom, or similar.\n\n-\nAbility to independently prioritize and manage multiple conversations while maintaining attention to detail.\n\n-\nComfortable collaborating with Product and Engineering teams to resolve customer issues.\n\n-\nFamiliarity with payments, subscriptions, or Merchant of Record platforms is a plus.",
+      "apply_url": "https://jobicy.com/jobs/158149-merchant-support-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-10-31T09:11:30.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:158139",
+      "hub": "business",
+      "title": "Client Support Specialist - After Hours",
+      "company": "Lyra Health",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 24,
+      "comp_max": 24,
+      "summary": "About Lyra Health Lyra Health is a leading provider of evidence-based mental health care, serving more than 20 million people globally in partnership with employers and more than 1…",
+      "description": "About Lyra Health\n\nLyra Health is a leading provider of evidence-based mental health care, serving more than 20 million people globally in partnership with employers and more than 100 million through health plan and partner relationships. The company has delivered more than 15 million sessions of mental health care, published more than 35 peer-reviewed studies, and delivered unmatched outcomes in terms of access, clinical effectiveness, and cost efficiency. Extensive peer-reviewed research confirms Lyra’s transformative care model helps people recover twice as fast and results in a 26% annual reduction in overall healthcare claims costs. Lyra is transforming access to life-changing mental health care through Lyra Empower, the only fully integrated, AI-powered platform combining the highest-quality care and technology solutions.\n\nAbout the Role\n\nThe Client Support Specialist serves as the critical first point of contact for Lyra clients seeking high-quality mental health care. This is a vital, client-facing role that supports individuals beginning their care journey.\n\nKey responsibilities include conducting needs assessments, connecting clients to appropriate care, performing risk triage and escalation to our clinical teams, and answering benefit, product, and technical questions. Lyra provides extensive training on how to support our clients and meet them where they are in their care journey.\n\nAbove all, this team member is committed to supporting each client with confidence and compassion. This is a high-volume, performance-driven contact center environment where proficiency in managing all inbound channels-calls, emails and chats is essential.\n\nMust be able to work one of the following shifts:\nMonday - Friday 7:30pm - 4:00am PT\n\nTuesday - Saturday 7:30pm - 4:00am PT\n\nSunday - Thursday 7:30pm - 4:00am PT\nTuesday - Saturday 9pm - 5:30am PT\n\nSunday - Thursday 9pm - 5:30am PT\n\nResponsibilities\n\n-\nDemonstrate strong time management skills and flexibility in fielding the unexpected throughout the workday\n\n-\nConduct needs assessment and educate clients about Lyra’s services and benefit offerings\n\n-\nPrioritize client safety and wellbeing, with an ability to recognize potential safety concerns and escalate to ensure clients receive an appropriate level of support\n\n-\nEngage in feedback and frequent self-assessment of strengths and areas for growth\n\n-\nWork well in a structured team environment\n\n-\nDemonstrate flexibility with shift changes.\n\n-\nExcellent communication skills: written and verbal\n\n-\nTechnical: You easily navigate through Customer Relationship Management tools.\n\n-\nAbility to handle a high volume workload either through chat, email or phones and the ability to pivot between servicing channels as needed\n\nQualifications\n\n-\nMinimum 1 year of direct experience in a customer support, customer service, or high-touch service role.\n\n-\nDemonstrate exceptional writing skills and the ability to provide information in a clear and concise manner while conveying a warm and friendly tone\n\n-\nExperience with Zendesk, Salesforce, and/or Chat tools; otherwise you pride yourself on picking up new tools/systems quickly.\n\n-\nThis role requires flexibility to work evenings, weekends, and holidays as part of our regular coverage schedule.\n\nDesired Skills:\n\n-\nExperience working remotely is a plus.\n\n-\nYou are passionate about improving mental health care and excited by our mission of leveraging technology to scale access to evidence-based therapies.\n\n-\nYou have a proven track record of working across multiple teams in a highly-collaborative manner to support members.\n\n-\nPrior experience working in healthcare and/or a technology environment preferred.\n\nCompensation\n\nAs a full-time Client Support Specialist, you will be employed by Lyra Health, Inc. The anticipated base rate for this full-time position is $24 per hour. The base rate is determined by role and level, and the base rate will depend on a number of job-related factors, including but not limited to your skills, qualifications, experience and location.\n\nAnnual salary is only one part of an employee’s total compensation package at Lyra. We also offer generous benefits that include:\n\n- Comprehensive healthcare coverage (including medical, dental, vision, FSA/HSA, life and disability insurances)\n\n- Lyra for Lyrians; coaching and therapy services\n\n- Competitive time off with pay policies including vacation, sick days, and company holidays\n\n- Paid parental leave\n\n- 401K retirement benefits\n\n- Monthly tech allowance\n\n- We like to spread joy throughout the year with well-being perks and activities, surprise swag, regular community celebration…and more!\n\nWe can’t wait to meet you.\n\nAdditional Information\n\n\"We are an Equal Opportunity Employer. We do not discriminate on the basis of race, color, religion, sex (including pregnancy), national origin, age, disability, genetic information or any other category protected by law.\n\nBy applying for this position, you acknowledge that your personal information will be processed as per the Lyra Health Workforce Privacy Notice. Through this application, to the extent permitted by law, we will collect personal information from you including, but not limited to, your name, email address, gender identity, employment information, and phone number for the purposes of recruiting and assessing suitability, aptitude, skills, qualifications, and interests for employment with Lyra. We may also collect information about your race, ethnicity, and sexual orientation, which is considered sensitive personal information under the California Privacy Rights Act (CPRA) and special category data under the UK and EU GDPR. Providing this information is optional and completely voluntary, and if you provide it you consent to Lyra processing it for the purposes as described at the point of collection, for example for diversity and inclusion initiatives. If you are a California resident and would like to limit how we use this information, please use the Limit the Use of My Sensitive Personal Information form. This information will only be retained for as long as needed to fulfill the purposes for which it was collected, as described above. Please note that Lyra does not “sell” or “share” personal information as defined by the CPRA. Outside of the United States, for example in the EU, Switzerland and the UK, you may have the right to request access to, or a copy of, your personal information, including in a portable format; request that we delete your information from our systems; object to or restrict processing of your information; or correct inaccurate or outdated personal information in our systems. These rights may be subject to legal limitations. To exercise your data privacy rights outside of the United States, please contact globaldpo@lyrahealth.com. For more information about how we use and retain your information, please see our Workforce Privacy Notice.\"",
+      "apply_url": "https://jobicy.com/jobs/158139-client-support-specialist-after-hours",
+      "source": "Jobicy",
+      "posted_at": "2026-10-31T09:09:25.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:prospex-crm-business-development-specialist",
+      "hub": "business",
+      "title": "Business Development Specialist",
+      "company": "Prospex CRM",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: Egypt URL: http://prospexcrm.xyz Read This First If you have not worked in a recruitment agency or sold recruitment services, stop here. This role is not for you.",
+      "description": "Headquarters: Egypt\n\nURL: http://prospexcrm.xyz\n\nRead This First\n\nIf you have not worked in a recruitment agency or sold recruitment services, stop here. This role is not for you.\nWe are hiring a pure hunter. This is not account management. This is not inbound. This is outbound sales, every day.\n\nThe Role\n\nWe are looking for a Business Development Specialist who knows recruitment sales inside out and is comfortable doing what most people avoid: cold calls, cold emails, and LinkedIn outreach at scale.\nYour job is simple and measurable:\n- Start conversations\n\n- Qualify real hiring needs\n\n- Book meetings\n\n- Generate revenue opportunities\n\nWhat You Will Do\n\n- Cold call decision-makers daily (founders, CEOs, HR, Talent leads)\n\n- Run high-volume cold email campaigns\n\n- Prospect and sell via LinkedIn outreach\n\n- Pitch recruitment services clearly, confidently, and without hesitation\n\n- Handle objections without panicking\n\n- Book qualified meetings that convert\n\n- Keep CRM clean and updated\n\n- Follow up relentlessly until you get a yes or a clear no\n\nNon-Negotiable Requirements\n\n- Previous experience in a recruitment agency (sales or BD)\n\n- You have sold permanent, contract, RPO, or staffing services before\n\n- Strong cold calling experience\n\n- Proven outbound sales mindset\n\n- Comfortable with rejection and pressure\n\n- Fluent English (spoken and written)\n\n- Self-driven. No hand-holding\n\nNice to Have\n- Experience selling recruitment internationally\n\n- Strong LinkedIn prospecting skills\n\n- Experience with CRM and sales tools\n\nTo apply: https://weworkremotely.com/remote-jobs/prospex-crm-business-development-specialist",
+      "apply_url": "https://weworkremotely.com/remote-jobs/prospex-crm-business-development-specialist",
+      "source": "We Work Remotely",
+      "posted_at": "2026-10-30T19:50:39.000Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:158085",
+      "hub": "business",
+      "title": "Field Specialist (Tasman)",
+      "company": "Halter",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "New Zealand",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations.",
+      "description": "About Halter\n\nAt Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from the time-intensive constraints of conventional practices. Imagine watching 500 cattle stand up and walk calmly towards their next break? No quad bikes, no dogs, no fences. Just a group of cattle walking at their own pace. People say it looks like magic. Our customers are revolutionizing grazing with Halter. It's changing lives and transforming an industry. People join Halter to do meaningful work. By joining us you’ll be solving challenging problems within a talented team and a culture built for high performance. Our team out-think, out-work and out-care. We’re committed to delivering real change in the world - this isn’t easy, and in truth, we love that it’s hard.\n\nWe’re backed to deliver on a mission that matters by Tier 1 investors including Founders Fund, Bessemer Venture Partners, BOND, DCVC, Blackbird, Promus Ventures, Rocket Lab’s Peter Beck and Icehouse ventures.\n\nTo find out more, visit our LinkedIn & Instagram.\n\nAbout the Role\n\nWe are seeking a motivated and high-performing Field Specialist to join our team in New Zealand, supporting the maintenance and performance of Halter’s on-farm hardware infrastructure. In this role, you will be responsible for ensuring our systems are operating efficiently, resolving technical issues quickly, and helping to refine and improve the reliability of our hardware across our customer network.\n\nNote this role is Tasman/Marlborough based with regular NZ travel.\n\nThis is a hands-on position that requires strong technical ability, problem-solving skills, and a proactive approach to field operations. You may find yourself maintaining and upgrading infrastructure one day and deploying new equipment on-farm the next. You’ll be the go-to person for ensuring everything runs smoothly, delivering exceptional service and support to our customers. As a Field Specialist, you’ll work closely with our hardware, product, and customer success teams, ensuring effective collaboration and a strong feedback loop between the field and our Auckland HQ.This role offers the opportunity to make a real impact in transforming New Zealand’s dairy and livestock industry through world-class agri-tech innovation.\n\nWhat your day could look like\n\n-\nInfrastructure Maintenance: Oversee the upkeep and repair of Halter’s infrastructure to ensure seamless operations.\n\n-\nHardware Diagnosis: Diagnose any issues with our hardware and feed this information back to the relevant team.\n\n-\nVersatility: Ability to transition smoothly between tasks, from repairing and upgrading infrastructure to delivering towers and collars as needed.\n\n-\nDeployment Support: Provide critical on-site support during farm deployments if needed, troubleshooting issues, and ensuring successful installations.\n\n-\nOn-call: Be part of the global on-call roster to support tower-related incidents and proactively find solutions in a timely manner.\n\n-\nCollaboration: Work closely across all of the Halter teams to ensure alignment and successful customer outcomes.\n\n-\nProblem-Solving: Address and resolve technical challenges promptly and effectively, ensuring minimal disruption to farm operations.\n\n-\nAdaptability: Be prepared to manage a variety of tasks, often simultaneously, to meet the dynamic needs of the role.\n\n-\nData Analysis: Ability to collect, interpret, and analyse data from our hardware, optimise processes, and inform decision-making. You'll ensure that actionable insights are extracted to improve operational efficiency and resolve issues proactively. Development and management of a maintenance system for our NZ market.\n\n-\nTravel: travel within the South Island region + some NZ wide travel will be required.\n\nWho are we looking for\n\n-\nPractical, hands-on experience with tools, electrical work, construction, networking, or equipment fitting is a must!\n\n-\nGo-Getter Attitude: A proactive approach, with a willingness to tackle challenges head-on and figure things out on the go.\n\n-\nHandiness: Practical skills and resourcefulness, with the ability to handle a wide range of tasks even without specific technical training.\n\n-\nTime management skills: Ability to manage your own time so that tasks are completed on schedule.\n\n-\nTeam-Oriented Approach: Strong collaboration skills, with the ability to work effectively with colleagues across different locations.\n\n-\nCommitment to Excellence: A dedication to providing the highest quality service, ensuring that Halter’s infrastructure is always operating at its best.\n\n-\nWillingness to travel: Spontaneous & planned travel will be included in this role. You might be 3 or 4 days on the road per week. You may also be 3 nights away from home per week.\n\nBonus Qualifications (These are not mandatory for you to apply)\n\n-\nAgriculture Experience (Preferred): While not mandatory, experience in the agriculture sector would be highly beneficial.\n\nJoin our team\n\nHalter is committed to promoting a diverse and inclusive workplace — a place where we can each be ourselves and do the best work of our lives. Research shows that while men apply to jobs when they meet an average of 60% of the requirements, women and under-represented groups of candidates tend to only apply when they meet every requirement. If you think you have what it takes but don’t necessarily tick every requirement on this job description, please still get in touch and apply to Halter. We’d love to chat to see if you’ll be an epic fit!\n\nIf this opportunity sounds like you, please apply below by sending through your cover letter explaining why you’re excited about this role and working at Halter, along with your CV, and we’ll be in touch!\n\nPlease also feel free to check out the careers page for more information on working at Halter and don't forget to follow us on LinkedIn & Instagram.\n\nWhy our team loves working at Halter:\n\n-\nWork that genuinely matters. Every now and again a company comes along that transforms an entire industry and leaves the world in a better place. Our team gets to be part of something truly meaningful, helping farmers improve their livelihoods, spend more time with their families, and build more sustainable operations.\n\n-\nSpectacular people solving hard problems. Our culture is designed for talented people to do work that changes lives. The team is filled with diverse, kind, and driven people who push each other to do their best work. You'll be thrown into the deep end, tackling complex challenges and building something tangible that solves real problems.\n\n-\nYou'll grow here. Autonomy, mastery, and learning define how we work. You'll have the freedom to work on interesting problems, master new skills, and continuously develop yourself, both through your role and our personal growth fund.\n\n-\nThis isn't easy, and we love that it's hard. Working at Halter will be the most rewarding and the most challenging work of your life. We move fast, take bold bets, and work hard to reshape an entire industry. As one team member put it: \"Joining Halter is a bit like strapping yourself to a rocket ship, but it's an epic journey to be a part of!\"",
+      "apply_url": "https://jobicy.com/jobs/158085-field-specialist-tasman",
+      "source": "Jobicy",
+      "posted_at": "2026-10-30T17:40:01.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:158083",
+      "hub": "business",
+      "title": "Field Operations Specialist (Tasmania)",
+      "company": "Halter",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Australia",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations.",
+      "description": "About Halter\n\nAt Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from the time-intensive constraints of conventional practices. Imagine watching 500 cattle stand up and walk calmly towards their next break? No quad bikes, no dogs, no fences. Just a group of cattle walking at their own pace. People say it looks like magic. Our customers are revolutionizing grazing with Halter. It's changing lives and transforming an industry. People join Halter to do meaningful work. By joining us you’ll be solving challenging problems within a talented team and a culture built for high performance. Our team out-think, out-work and out-care. We’re committed to delivering real change in the world - this isn’t easy, and in truth, we love that it’s hard.\n\nWe’re backed to deliver on a mission that matters by Tier 1 investors including Founders Fund, Bessemer Venture Partners, BOND, DCVC, Blackbird, Promus Ventures, Rocket Lab’s Peter Beck and Icehouse ventures.\n\nTo find out more, visit our LinkedIn & Instagram.\n\nAbout the role\n\nWe’re looking for a motivated, hands-on Field Ops Specialist to join our team as one of our first hardware technicians on the ground in Australia. What is the hardware? The collars and towers that are what makes us Halter. This is a rare opportunity to be part of something genuinely new.\n\nYou’ll be responsible for building an efficient operational system from the ground up, getting out onto farms, and making sure our hardware infrastructure runs without a hitch. One moment you’re diagnosing a technical issue in the field, the next you’re delivering collars to a new producer. You’ll be the go-to person on the ground, the kind of person who takes ownership and gets things done.\n\nYou’ll work closely with dedicated teams in Australia, and at Halter’s Auckland HQ. You’ll play a key role in making sure our pioneering producers in the region get an unmatched experience from day one.\n\nWhat your day could look like\n\n-\nInfrastructure maintenance: Oversee the upkeep and repair of Halter’s on-farm infrastructure to keep operations running smoothly.\n\n-\nHardware diagnosis: Diagnose issues with our hardware and feed that information back to the right team quickly.\n\n-\nDeployment support: Get out onto farms to help deploy Halter. Troubleshoot issues, support installations, and make sure things go well.\n\n-\nField insights: Feed your learnings back clearly to our product and engineering teams, so we’re always building what matters most for Australian cattle producers.\n\n-\nOn-call: Be part of our global on-call roster to support tower-related incidents and proactively find solutions in a timely manner.\n\n-\nData analysis: Collect, interpret, and analyse data from our hardware to optimise processes and improve operational efficiency. Spot issues before they become problems.\n\n-\nMaintenance system: Help build and manage a maintenance system tailored to the Australian market.\n\n-\nCollaboration: Work closely across Halter’s teams to stay aligned and drive strong customer outcomes.\n\n-\nTravel: With producers spread across Australia, you’ll be on the road regularly. Expect 3 to 4 days a week and some nights away from home.\n\n-\nWhatever else it takes: You’ll do what needs doing to make Halter continue to succeed in Australia.\n\nWho are we looking for\n\n-\nHands-on experience: Practical experience with tools, electrical work, construction, networking, or equipment fitting is a must.\n\n-\nGo-getter attitude: You’re proactive, you take ownership, and you’re not afraid to figure things out on the go.\n\n-\nStrong communicator: You can translate what you’re seeing in the field into clear, actionable feedback for a remote product and engineering team.\n\n-\nTime management: You manage your own time well and get tasks done on schedule without someone looking over your shoulder.\n\n-\nTeam player: You work well with people across different locations and time zones.\n\n-\nComfortable with ambiguity: This is early-stage market entry. Things will be imperfect. You’ll thrive on that rather than be frustrated by it.\n\n-\nCommitment to excellence: You take pride in delivering the best possible service and making sure Halter’s infrastructure is always at its best.\n\n-\nWillingness to travel: You’re up for regular and sometimes spontaneous travel across the region.\n\nJoin our team\n\nHalter is committed to promoting a diverse and inclusive workplace — a place where we can each be ourselves and do the best work of our lives. Research shows that while men apply to jobs when they meet an average of 60% of the requirements, women and under-represented groups of candidates tend to only apply when they meet every requirement. If you think you have what it takes but don’t necessarily tick every requirement on this job description, please still get in touch and apply to Halter. We’d love to chat to see if you’ll be an epic fit!\n\nIf this opportunity sounds like you, please apply below by sending through your cover letter explaining why you’re excited about this role and working at Halter, along with your CV, and we’ll be in touch!\n\nPlease also feel free to check out the careers page for more information on working at Halter and don't forget to follow us on LinkedIn & Instagram.\n\nWhy our team loves working at Halter:\n\n-\nWork that genuinely matters. Every now and again a company comes along that transforms an entire industry and leaves the world in a better place. Our team gets to be part of something truly meaningful, helping farmers improve their livelihoods, spend more time with their families, and build more sustainable operations.\n\n-\nSpectacular people solving hard problems. Our culture is designed for talented people to do work that changes lives. The team is filled with diverse, kind, and driven people who push each other to do their best work. You'll be thrown into the deep end, tackling complex challenges and building something tangible that solves real problems.\n\n-\nYou'll grow here. Autonomy, mastery, and learning define how we work. You'll have the freedom to work on interesting problems, master new skills, and continuously develop yourself, both through your role and our personal growth fund.\n\n-\nThis isn't easy, and we love that it's hard. Working at Halter will be the most rewarding and the most challenging work of your life. We move fast, take bold bets, and work hard to reshape an entire industry. As one team member put it: \"Joining Halter is a bit like strapping yourself to a rocket ship, but it's an epic journey to be a part of!\"",
+      "apply_url": "https://jobicy.com/jobs/158083-field-operations-specialist-tasmania",
+      "source": "Jobicy",
+      "posted_at": "2026-10-30T17:39:38.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:158080",
+      "hub": "business",
+      "title": "Field Operations Specialist (New South Wales)",
+      "company": "Halter",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Australia",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations.",
+      "description": "About Halter\n\nAt Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from the time-intensive constraints of conventional practices. Imagine watching 500 cattle stand up and walk calmly towards their next break? No quad bikes, no dogs, no fences. Just a group of cattle walking at their own pace. People say it looks like magic. Our customers are revolutionizing grazing with Halter. It's changing lives and transforming an industry. People join Halter to do meaningful work. By joining us you’ll be solving challenging problems within a talented team and a culture built for high performance. Our team out-think, out-work and out-care. We’re committed to delivering real change in the world - this isn’t easy, and in truth, we love that it’s hard.\n\nWe’re backed to deliver on a mission that matters by Tier 1 investors including Founders Fund, Bessemer Venture Partners, BOND, DCVC, Blackbird, Promus Ventures, Rocket Lab’s Peter Beck and Icehouse ventures.\n\nTo find out more, visit our LinkedIn & Instagram.\n\nAbout the role\n\nWe’re looking for a motivated, hands-on Field Ops Specialist to join our team as one of our first hardware technicians on the ground in Australia. What is the hardware? The collars and towers that are what makes us Halter. This is a rare opportunity to be part of something genuinely new.\n\nYou’ll be responsible for building an efficient operational system from the ground up, getting out onto farms, and making sure our hardware infrastructure runs without a hitch. One moment you’re diagnosing a technical issue in the field, the next you’re delivering collars to a new producer. You’ll be the go-to person on the ground, the kind of person who takes ownership and gets things done.\n\nYou’ll work closely with dedicated teams in Australia, and at Halter’s Auckland HQ. You’ll play a key role in making sure our pioneering producers in the region get an unmatched experience from day one.\n\nWhat your day could look like\n\n-\nInfrastructure maintenance: Oversee the upkeep and repair of Halter’s on-farm infrastructure to keep operations running smoothly.\n\n-\nHardware diagnosis: Diagnose issues with our hardware and feed that information back to the right team quickly.\n\n-\nDeployment support: Get out onto farms to help deploy Halter. Troubleshoot issues, support installations, and make sure things go well.\n\n-\nField insights: Feed your learnings back clearly to our product and engineering teams, so we’re always building what matters most for Australian cattle producers.\n\n-\nOn-call: Be part of our global on-call roster to support tower-related incidents and proactively find solutions in a timely manner.\n\n-\nData analysis: Collect, interpret, and analyse data from our hardware to optimise processes and improve operational efficiency. Spot issues before they become problems.\n\n-\nMaintenance system: Help build and manage a maintenance system tailored to the Australian market.\n\n-\nCollaboration: Work closely across Halter’s teams to stay aligned and drive strong customer outcomes.\n\n-\nTravel: With producers spread across Australia, you’ll be on the road regularly. Expect 3 to 4 days a week and some nights away from home.\n\n-\nWhatever else it takes: You’ll do what needs doing to make Halter continue to succeed in Australia.\n\nWho are we looking for\n\n-\nHands-on experience: Practical experience with tools, electrical work, construction, networking, or equipment fitting is a must.\n\n-\nGo-getter attitude: You’re proactive, you take ownership, and you’re not afraid to figure things out on the go.\n\n-\nStrong communicator: You can translate what you’re seeing in the field into clear, actionable feedback for a remote product and engineering team.\n\n-\nTime management: You manage your own time well and get tasks done on schedule without someone looking over your shoulder.\n\n-\nTeam player: You work well with people across different locations and time zones.\n\n-\nComfortable with ambiguity: This is early-stage market entry. Things will be imperfect. You’ll thrive on that rather than be frustrated by it.\n\n-\nCommitment to excellence: You take pride in delivering the best possible service and making sure Halter’s infrastructure is always at its best.\n\n-\nWillingness to travel: You’re up for regular and sometimes spontaneous travel across the region.\n\nJoin our team\n\nHalter is committed to promoting a diverse and inclusive workplace — a place where we can each be ourselves and do the best work of our lives. Research shows that while men apply to jobs when they meet an average of 60% of the requirements, women and under-represented groups of candidates tend to only apply when they meet every requirement. If you think you have what it takes but don’t necessarily tick every requirement on this job description, please still get in touch and apply to Halter. We’d love to chat to see if you’ll be an epic fit!\n\nIf this opportunity sounds like you, please apply below by sending through your cover letter explaining why you’re excited about this role and working at Halter, along with your CV, and we’ll be in touch!\n\nPlease also feel free to check out the careers page for more information on working at Halter and don't forget to follow us on LinkedIn & Instagram.\n\nWhy our team loves working at Halter:\n\n-\nWork that genuinely matters. Every now and again a company comes along that transforms an entire industry and leaves the world in a better place. Our team gets to be part of something truly meaningful, helping farmers improve their livelihoods, spend more time with their families, and build more sustainable operations.\n\n-\nSpectacular people solving hard problems. Our culture is designed for talented people to do work that changes lives. The team is filled with diverse, kind, and driven people who push each other to do their best work. You'll be thrown into the deep end, tackling complex challenges and building something tangible that solves real problems.\n\n-\nYou'll grow here. Autonomy, mastery, and learning define how we work. You'll have the freedom to work on interesting problems, master new skills, and continuously develop yourself, both through your role and our personal growth fund.\n\n-\nThis isn't easy, and we love that it's hard. Working at Halter will be the most rewarding and the most challenging work of your life. We move fast, take bold bets, and work hard to reshape an entire industry. As one team member put it: \"Joining Halter is a bit like strapping yourself to a rocket ship, but it's an epic journey to be a part of!\"",
+      "apply_url": "https://jobicy.com/jobs/158080-field-operations-specialist-new-south-wales",
+      "source": "Jobicy",
+      "posted_at": "2026-10-30T17:39:35.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:158075",
+      "hub": "business",
+      "title": "Merchant Support Specialist (Shopify)",
+      "company": "Fresh Prints",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About Frontier Frontier is a subsidiary of Fresh Prints. Fresh Prints is a New York-based, fast-growing, fully remote, 150-person company with most of our team based in India and t…",
+      "description": "About Frontier\n\nFrontier is a subsidiary of Fresh Prints. Fresh Prints is a New York-based, fast-growing, fully remote, 150-person company with most of our team based in India and the Philippines. A few years ago, Fresh Prints began helping other fast-growing companies build their teams. We got so good at it that we spun out a new company to focus exclusively on that — and called it Frontier.\n\nAt Frontier, we help companies grow full-time, cross-functional teams abroad. We hire the smartest people and place them into the best companies. In three years, we’ve never lost a client. If you’re interested in a Frontier role and you apply and are accepted, we’ll screen you through a couple of internal interviews and aim to get you an interview for a full-time job within the month.\n\nThink of us as your personal talent agent — and good luck with the application!\n\nAbout Intelligems\n\nThere are millions of e-commerce businesses around the world, and the industry is growing every year. Yet achieving profitability has never been harder. Most brands make guesses when it comes to pricing, discounts, shipping fees, and content — leaving 6–10% of potential profit on the table.\n\nIntelligems is a profit optimization platform that helps these businesses succeed. We provide merchants with A/B testing and personalization tools that help them run experiments, understand their data, and price dynamically — tools that were previously only available to companies like Amazon and Uber.\n\nWe're currently working with 500+ brands and have processed over $4B of data. Backed by Matchstick Ventures, Vinyl Capital, Techstars, and founders from Klaviyo, Postscript, and Stedi, Intelligems has raised over $4M in funding. Our team is high-performing, low-ego, and extremely collaborative — and we’re excited to scale with top talent.\n\nThe Role: Merchant Support Specialist\n\nWe’re looking for a Merchant Support Specialist to help our e-commerce clients understand, utilize, and troubleshoot our testing platform. You'll report to the Support & Implementation Manager and communicate with customers daily via email, Slack, and chat to resolve issues and deliver an outstanding customer experience.\n\nKey Responsibilities\n\n-\nDeliver a best-in-class customer experience by responding promptly to customer inquiries\n\n-\nTroubleshoot technical issues, identify root causes, and offer solutions or escalate when needed\n\n-\nBecome a product expert so you can answer questions quickly and accurately\n\n-\nManage 20–30 open customer conversations at a time\n\n-\nOwn follow-ups and ensure all tickets are resolved in a timely manner\n\n-\nCollaborate with internal teams on escalated or complex issues\n\n-\nSpot trends in support issues and share insights with product, tech, and ops\n\n-\nContribute to internal knowledge-sharing (documentation, training, etc.)\n\nQualifications\n\n-\nProven experience in customer/merchant support or a related role\n\n-\nExcellent communication and problem-solving skills\n\n-\nYou love helping people and can think on your feet\n\n-\nComfortable wearing many hats and juggling priorities\n\n-\nAbility to multitask, stay organized, and manage time effectively\n\n-\nExperience in e-commerce, SaaS, or analytics is a plus\n\n-\nFamiliarity with tools like Tableau, Looker, SQL, or BI platforms is a bonus\n\n- Comfortable with providing weekend support\n\nCulture & Values\n\nAt Intelligems, we’re customer-first and product-oriented — and our success is driven by the caliber of people we bring on board. We live by these values:\n\n-\nPut customers first\n\n-\nBe honest and transparent. Always act in the customer’s best interest.\n\n-\nBe helpful\n\n-\nSupport teammates, customers, and partners with generosity and kindness.\n\n-\nStrive for excellence\n\n-\nCommit to being world-class at what you do.\n\n-\nBuild and develop a diverse, world-class team\n\n-\nHire the best, and invest in feedback and growth.\n\n-\nHave a perspective\n\n-\nSpeak up when you disagree. Everyone is responsible for making us better.\n\nWhat’s Offered\n\n-\nCompetitive salary and equity packages\n\n-\nFlexible vacation and PTO",
+      "apply_url": "https://jobicy.com/jobs/158075-merchant-support-specialist-shopify",
+      "source": "Jobicy",
+      "posted_at": "2026-10-30T17:39:29.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:158038",
+      "hub": "business",
+      "title": "IT Support Specialist II",
+      "company": "hims &#038; hers",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 100000,
+      "comp_max": 120000,
+      "summary": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health.",
+      "description": "Hims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by putting the customer first and delivering access to care that is affordable, accessible, and personal, from diagnosis to treatment to delivery. No two people are the same, so we provide access to personalized care designed for results. By normalizing health & wellness challenges and innovating on their solutions, we’re making better health outcomes easier to achieve.\n\nHims & Hers is a public company, traded on the NYSE under the ticker symbol “HIMS.” To learn more about the brand and offerings, you can visit hims.com/about and hims.com/how-it-works . For information on the company’s outstanding benefits, culture, and its talent-first flexible/remote work approach, see below and visit www.hims.com/careers-professionals.\n\nLocation: Remote, with occasional in-person requirements in Palo Alto, CA (Ideally based in NorCal)\n\nAbout the Role:\n\nWe are seeking a mid-level IT Support Specialist II (Tier 2) to provide hardware, software, and onboarding support across the company. This role serves as the primary escalation point for Tier 1 support, resolving the more complex technical issues that Tier 1 can't resolve, while also offering day-to-day guidance and mentorship to the broader support team. You'll work across a range of enterprise platforms and device management systems, helping ensure a seamless, secure, and productive technology experience for the organization. This role is ideal for someone who thrives in a fast-paced environment, takes ownership of problems until they're solved, and is always looking for ways to improve how the team operates.\n\nYou Will:\n\n-\nProvide timely, high-quality technical support to end users across Microsoft, Apple, Atlassian, and Google enterprise environments\n\n-\nHandle complex technical issues escalated from Tier 1 support, serving as a subject-matter resource for more advanced troubleshooting\n\n-\nTroubleshoot and resolve issues related to conferencing, collaboration, and communication tools (Zoom, Google Workspace, Slack, Dropbox, and similar cloud-based applications)\n\n-\nManage and maintain devices using MDM solutions such as JAMF and Intune, including creating and enforcing policies through tools like Automox\n\n-\nImplement and maintain endpoint security best practices to protect company devices and data\n\n-\nPrioritize and manage a queue of support requests with a strong sense of urgency, ensuring timely completion of projects and tickets\n\n-\nMaintain a high standard of attention to detail, quality, and confidentiality across all support interactions and documentation\n\n-\nWork independently with minimal supervision, exercising sound judgment on when to escalate\n\n-\nProactively identify gaps or inefficiencies in existing IT processes and recommend improvements that elevate the team's standards\n\n-\nOccasionally travel to or work from our Palo Alto office to support in-person needs, events, or equipment setups\n\nYou Have:\n\n-\nProven experience in an IT support or helpdesk role (3-5 years preferred)\n\n-\nExperience resolving complex technical issues beyond the scope of Tier 1 support\n\n-\nFamiliarity with Microsoft, Apple, Atlassian, and Google products in an enterprise environment\n\n-\nWorking knowledge of conferencing, collaboration, and communication software, including Zoom, Google Apps, Slack, Dropbox, and other cloud-based applications\n\n-\nKnowledge of proper endpoint security management and protection practices on devices\n\n-\nExperience with MDM management solutions (JAMF or Intune) and policy creation using tools like Automox is highly preferred\n\n-\nA strong sense of urgency and commitment to completing projects and resolving issues in a timely manner\n\n-\nExcellent attention to detail and a commitment to quality and confidentiality\n\n-\nThe ability to work independently with little direct supervision\n\n-\nA proactive mindset; you notice opportunities to improve processes and aren't afraid to suggest or drive changes\n\n-\nWillingness and ability to travel occasionally to Palo Alto for in-person work\n\nOur Benefits (there are more but here are some highlights):\n\n-\nCompetitive salary & equity compensation for full-time roles\n\n-\nUnlimited PTO, company holidays, and quarterly mental health days\n\n-\nComprehensive health benefits including medical, dental & vision, and parental leave\n\n-\nEmployee Stock Purchase Program (ESPP)\n\n-\n401k benefits with employer matching contribution\n\n-\nOffsite team retreats\n\nWe are committed to building a workforce that reflects diverse perspectives and prioritizes ethics, wellness, and a strong sense of belonging. If you're excited about this role, we encourage you to apply—even if you're not sure if your background or experience is a perfect match.\n\nHims considers all qualified applicants for employment, including applicants with arrest or conviction records, in accordance with the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance, the California Fair Chance Act, and any similar state or local fair chance laws.\n\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\nHims & Hers is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If you need assistance or an accommodation due to a disability, please contact us at accommodations@forhims.com and describe the needed accommodation. Your privacy is important to us, and any information you share will only be used for the legitimate purpose of considering your request for accommodation. Hims & Hers gives consideration to all qualified applicants without regard to any protected status, including disability. Please do not send resumes to this email address.\n\nTo learn more about how we collect, use, retain, and disclose Personal Information, please visit our Global Candidate Privacy Statement.",
+      "apply_url": "https://jobicy.com/jobs/158038-it-support-specialist-ii",
+      "source": "Jobicy",
+      "posted_at": "2026-10-30T16:27:38.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:157982",
+      "hub": "business",
+      "title": "Customer Success Specialist",
+      "company": "LevelUp",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": 25000,
+      "comp_max": 30000,
+      "summary": "Company Overview LevelUp is a specialist agency that provides outsourcing solutions to agencies, software vendors, and website owners.",
+      "description": "Company Overview\n\nLevelUp is a specialist agency that provides outsourcing solutions to agencies, software vendors, and website owners. For over seven years, we have successfully collaborated with a variety of companies, providing valuable technical, operational, and back-office support. We have a large team of skilled and passionate professionals who are committed to delivering high-quality work for our clients.\n\nPosition Overview\n\nThe Customer Success Specialist is a key member of our team, responsible for managing the commercial execution and retention of high-volume accounts. This role focuses on the end-to-end renewal process, contract administration, and fostering strong customer relationships to ensure high revenue retention. Working in North America Central Time, the specialist will collaborate closely with Customer Success Managers (CSMs) to provide a unified and exceptional customer experience. This position requires a proactive, agile, and highly accountable individual who thrives in a collaborative, fast-paced environment and is committed to maintaining impeccable data integrity and driving performance against key metrics.\n\nWork Configuration & Benefits\n\n• Work Schedule: Monday to Friday, 10:00 PM to 7:00 AM PHT (8:00 AM to 5:00 PM CST). Absolute adherence to scheduled hours is required.\n\n• Setup: Fully remote position with a standard 40-hour fixed-schedule work week. Equipment is provided.\n\n• Benefits: HMO coverage and 13th-month pay.\n\n• Culture: A company culture focused on the well-being of its team members, promoting a good work-life balance and a respectful work environment.\n\nReference: 2644-128605\n\nKey Responsibilities\n\n- Renewal Management: Own the end-to-end renewal process for assigned high-volume accounts, ensuring timely contract execution and maintaining high Gross Revenue Retention (GRR).\n\n- Contract Administration: Manage the administrative side of the customer relationship, including processing amendments, handling billing inquiries, and ensuring CRM data integrity.\n\n- Downgrade Management: Assess, process, and accurately execute customer downgrade requests in alignment with policy, ensuring retention risks are identified, properly documented, and addressed through appropriate internal escalation or value-based conversations.\n\n- Special Projects & Initiatives: Contribute to special projects and customer-facing initiatives such as targeted customer campaigns, process pilots, or operational programs designed to support retention, efficiency, and evolving business priorities.\n\n- Live Customer Engagement: Facilitate customer calls and virtual meetings to support commercial execution and address customer needs as part of the renewal and retention lifecycle.\n\n- CSM Partnership: Work daily with a team of CSMs to provide a unified experience. The CSM team will focus on adoption and value programs.\n\n- Escalation Support: Act as the first line of defense for commercial escalations within the squad, coordinating with Finance and Legal to resolve obstacles to renewal.\n\n- Data Integrity: Maintain a high bar for CRM hygiene. Ensure all renewal dates, contact information, and commercial notes are updated in real-time to support accurate executive forecasting.\n\n- Process Improvement: Actively identify bottlenecks in the high-volume renewal process and propose automation or workflow changes to increase the squad's efficiency.\n\n- KPI Performance: Drive relentless execution against team-based KPIs, including Net Revenue Retention (NRR), On-Time Renewal Rate, and Task Completion Speed.\n\nQualifications\n\n- Experience: 1-2 years of experience in a customer-facing role such as Account Management, Sales, Support, or Customer Success.\n\n- Communication: Exceptional written and verbal communication skills; ability to manage high-volume email and chat correspondence with a professional executive presence.\n\n- Key Skills: Experience in retention and escalations; comfortable holding live customer calls.\n\n- Reliability: Absolute adherence to scheduled hours (North America Central Time).\n\n- Preferred Experience: Prior Customer Success experience is highly preferred.\n\n- Industry Knowledge: Background in a B2B SaaS or tech environment is a plus.\n\n- Tools: Experience using CRM tools like Salesforce and CS platforms such as Gainsight; proficient in Google Suite.\n\nMore Information\n\n- This is a fully remote position with a standard 40-hour fixed-schedule work week.\n\n- The exact work schedule depends on the client that you are assigned to but is often an afternoon or night schedule and so having flexibility when it comes to schedule is important.\n\n- We have a company culture that focuses on the well-being of its team members, with a good work life balance and respectful work environment.\n\n- Fully remote work arrangement\n\n- HMO\n\n- 13th- month pay\n\n- Equipment provided\n\n- Work Schedule: Mon-Fri, 10pm to 7am PHT or 8am to 5pm CST\n\nCompensation\n\nAdditional Information",
+      "apply_url": "https://jobicy.com/jobs/157982-customer-success-specialist-6",
+      "source": "Jobicy",
+      "posted_at": "2026-10-30T11:26:24.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:157974",
+      "hub": "business",
+      "title": "Customer Support Specialist, Bilingual (English/Spanish)",
+      "company": "Roofr",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Canada",
+      "employment_type": "full-time",
+      "comp_min": 50000,
+      "comp_max": 57500,
+      "summary": "At Roofr, we’re obsessed with our customers. We constantly gather feedback to shape, prioritize, and launch the products they truly need. That’s what makes Roofr’s CRM special.",
+      "description": "At Roofr, we’re obsessed with our customers. We constantly gather feedback to shape, prioritize, and launch the products they truly need. That’s what makes Roofr’s CRM special. We started by building essential sales tools like aerial roof measurements and digital sales proposals. But when our customers asked for a simple, affordable way to manage and scale their entire businesses, we listened. So, we created a CRM that connects these solutions—along with payments, material ordering, and more—into a seamless, powerful platform. With a clear roadmap ahead, we’re excited to continue expanding and leading the market with innovative products.\n\nWe have an amazing culture, strong financials, and best-in-class company metrics. It’s an exciting time to be part of an extraordinary startup that is already successful, yet still early enough to offer its team significant growth, equity, and the opportunity to make a real impact.\n\nThis position is for an existing vacancy.\n\n***A quick note: some of our emails may be filtered into your spam/junk folder. Please check there regularly for any communications from us, including interview scheduling, next steps, and updates on your application. If you find one of our emails in spam, please mark it as “Not Spam” to help ensure future messages reach your inbox.***\n\nWe’re growing and looking for motivated, customer-focused team members to join our Customer Support team! We believe customer support is about creating meaningful experiences, creative problem-solving, and being the voice of our users. If you’re someone who loves tackling challenges, working closely with a tight knit team, and having opportunities for growth and development, we want to hear from you.\n\nAs a bilingual (English + Spanish) Customer Support Specialist, you'll be the frontline of our customer support efforts, providing assistance and resolving inquiries with professionalism and care. Your role is crucial in ensuring our customers receive prompt and effective support, contributing to their overall satisfaction and loyalty. You will continuously improve on the customer experience, working cross-functionally with our revenue, product, and engineering teams to deliver exceptional solutions. As a key part of our team, you’ll have the opportunity to make a real impact, ensuring our customers have a world class customer support experience.\n\nWhat You'll Do:\n\n- Deliver high-quality customer support primarily via live interactions on phone and chat channels in both English and Spanish\n\n- Assist customers and internal teams with inquiries, troubleshoot complex issues, and provide solutions with a focus on providing exceptional service\n\n- Continuously build deep product knowledge by staying current on our quickly evolving product features and enhancements\n\n- Track and update support tickets and activities in our CRM\n\n- Work closely with our Sales, Customer Success, Onboarding, and Product teams to ensure an outstanding customer journey\n\n- Bring innovation and creativity to the role with a balanced focus on both quality and efficiency\n\nWhat You'll Bring to the Role:\n\n- 1 - 3 years of bilingual customer support experience\n\n- Excellent communication and creative problem-solving skills\n\n- Experience interacting with a high daily volume of customers by phone, email, and chat\n\n- Experience in a fast-paced startup environment is a big plus\n\n- Experience with Intercom is a plus\n\nWho You Are:\n\n- A bilingual (English and Spanish) Customer Support Specialist\n\n- You communicate with confidence and patience\n\n- You're innovative and solution-oriented\n\n- You're passionate about helping others\n\n- You’re naturally curious and proactive about learning\n\n- You’re energized by frequent product launches and enhancements\n\n- You thrive in a fast-paced environment and seek growth opportunities\n\n- You sweat the details\n\nWork hours & Schedule:\n\nWe value transparency about work expectations:\n\n- We’re looking to fill roles with start times of approximately 12 PM EST/9 AM PST to 1 PM EST/10 AM PST, with some flexibility based on team needs\n\n- Holiday coverage is required as part of a rotating schedule. Partial weekend coverage may be requested based on team needs\n\n- We provide schedules in advance, and flexibility is key to supporting our customers effectively\n\nAs a key part of our team, you’ll help us create a world-class support experience and ensure our customers feel heard, supported, and delighted every time they interact with us.\n\nIf this sounds like you, we’d love for you to apply and grow with us!\n\nCompensation Band: $50,000.00 - $57,500.00 CAD\n\nOur compensation ranges are built using multiple market benchmarks and reflect both the scope of the role and current market data. While many hires fall within the beginning to midpoint of the band to allow for growth over time, we tailor offers based on each candidate’s experience, seniority, and demonstrated impact.\n\n What we offer (US + Canada)\n\nWhen you join our team, you’re not just accepting a job. You’re making a career move. Here’s how we’ll support you in doing some of the most impactful work of your career:\n\n️ Vacation/Paid Time Off:\n\n- 1st week of employment is mandatory PTO! Start your journey with Roofr by decompressing and recharging - we will see you in week 2!\n\n- 1 Friday off per month (we call those our laundry days!)\n\n- Company wide paid shutdown for the week between Christmas and New Years\n\n- Flexible time off\n\n- 80% employer-paid benefits in the U.S. and 100% employer-paid premiums for Extended Healthcare and Dental in Canada\n\n- RRSP/401k match\n\n- Generous Parental Leave policy\n\n Perks:\n\n- We host an annual company retreat with great team building activities\n\n- Ample learning and development opportunities to continue growing your career\n\n- Home office setup stipend\n\n- Internet and phone allowance\n\n- Remote first culture\n\n- Weekly Friday paydays!\n\n AI Notice\n\nAt Roofr, we’re big fans of AI. It helps us write job descriptions that don’t put you to sleep, takes notes during interviews so we can actually listen, and even helps us track down awesome humans like you.\n\nFeel free to use AI to prep, research, or get pumped up for your interview (we see you, ChatGPT power users ). But when it’s time to chat, we’d love to meet you, not your AI alter ego. Bring your real, unfiltered self, we promise we will too.\n\nAnd don’t worry, a real, live human is behind every part of our process. Every application is reviewed by a real person, and you’ll always speak with real humans throughout the interview process. No bots, just good people ☺️\n\n⚠️ Important Notice\n\nWe’ve been made aware of an individual impersonating Roofr using a fraudulent domain: roofrr.com (note the extra “r”). Our company takes the security and privacy of job applicants very seriously. We will never ask for payment, bank details, or personal financial information as part of the application process. All our legitimate job postings can be found on our official career site. Please be cautious of job offers that come from non-company email addresses, instant messaging platforms, or unsolicited calls.\n\nTo ensure your application is legitimate, please apply directly through our official careers page: https://roofr.com/careers.\n\nIf you receive any suspicious messages or have questions, reach out to us at talent@roofr.com.\n\nYour safety and security are important to us — thank you for your vigilance!\n\nRoofr is proud to be an equal opportunity employer. We are committed to equal employment opportunity in the workplace regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or veteran status.",
+      "apply_url": "https://jobicy.com/jobs/157974-customer-support-specialist-bilingual-english-spanish",
+      "source": "Jobicy",
+      "posted_at": "2026-10-30T11:20:48.000Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:gocardless:8336768",
+      "hub": "fintech",
+      "title": "Internal Communications Specialist",
+      "company": "GoCardless",
+      "company_id": "gocardless",
+      "priority": false,
+      "category": "Other",
+      "segment": "Recurring Payments Platform",
+      "level": "Mid",
+      "location": "Riga, Latvia",
+      "employment_type": "contract",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nAbout the team\n\nThe Internal Communications team exists to:\n\n-\nDrive alignment to the company vision and strategy, so every employee has a clear understanding of our priorities, why they're important, and how their work impacts our success\n\n-\nBuild trust and connection, so employees are engaged as true advocates of the business; feel they have a clear voice and are listened to; and are equipped to deliver outstanding work through periods of transformational change, including the integration of Mollie and GoCardless\n\n-\nScale and iterate on our fantastic culture, so the combination of Mollie and GoCardless creates an irresistible place to work, with a strong sense of belonging.\n\nWhat excites you:\n\n-\nHelp lead the day-to-day planning and output of the Internal Comms team; this includes ensuring we execute against projects, whilst keeping the momentum going with our continuous 'drumbeat' of regular communications\n\n-\nDevelop communication plans to support the GoCardless and Mollie integration, helping colleagues across both businesses understand what's changing, why it matters, and what it means for them; building confidence as we come together\n\n-\nBe the primary owner of our Town Hall sessions, from shaping the agenda and briefing leaders and speakers to producing content, delivering the sessions and creating and sharing follow-up materials, so each one helps employees across the business understand where we're heading, and why\n\n-\nDevise and execute communication plans (for example, to roll out our engagement survey, business transformation, or to celebrate the launch of a new product) which deliver clear, measurable outcomes\n\n-\nBuild connections to become a trusted adviser to stakeholders around the business to advise them on achieving their communications goals\n\n-\nCo-manage our communications channels, including our intranet, Slack, and email tool, and help shape how these channels continually develop and help us to show up across both GoCardless and Mollie\n\n-\nHost and measure regular listening sessions with employees from all of our locations, including colleagues joining us through Mollie, to help inform our work and identify opportunities for improvement and impact.\n\nWhat excites us:\n\nThere's endless opportunity to have an impact in this role. The team sits at the heart of the business, helping to curate, contextualise, and build a shared understanding of the business' priorities, and the progress we're making. This is particularly important as we continue to integrate Mollie and GoCardless.\n\nWe distribute engaging company information and drive change via the right audiences, at the right time, using the most relevant channels. The integration is a huge opportunity for our team, meaning this is a demanding but very fulfilling time to join us. You should have demonstrable prior experience in internal communications at a fast-paced organisation where you've been able to prioritise effectively to deliver communications of a consistently high standard. You should be proactive, ultimately keeping your 'finger on the pulse' of the business to identify opportunities for internal comms to strengthen execution against our mission.\n\nSpecifically:\n\n-\nExperience in a busy internal communications team or function\n\n-\nAbility to originate and execute strategic internal communications plans; tactically deliver them; and measure results\n\n-\nExperience taking the lead on internal communications aligned to various business transformation projects, with involvement 'end to end'; experience of M&A or integration communications is a real plus\n\n-\nConfidently build relationships with stakeholders (at all levels), and other employees, so they trust us as experts\n\n-\nExceptional writing ability; you're unfazed by jargon and can easily transform complexity into something compelling and easy to understand, all in our authoritative and friendly tone of voice\n\n-\nAn omnichannel mindset; you know how to get the very best out of various channels and platforms, from straightforward emails through to Slack, Zoom, face to face, intranet and more; you're keen to explore new technologies that enhance what we do - such as AI\n\n-\nYou excel at, and are unfazed by, being 'hands on' to get things done, often having to prioritise multiple tasks at once. As a small team, we all chip in to deliver collective results\n\n-\nIdeally, experience handling logistics and communications for large company events, before, during and after.\n\nBase salary range: € 2060 - € 3100 (gross)\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (€2060 - €2580 (gross)) of the pay range until performance can be assessed in the role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Lunch- based on the location, you either get a meal voucher or a paid lunch when working from the office\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 20 working days in any 12-month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance + volunteer days for ERG events + one day off if you need to move house\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8336768",
+      "source": "greenhouse",
+      "posted_at": "2026-10-30T10:11:37-04:00",
+      "scraped_at": "2026-10-31T13:14:15.823Z",
+      "status": "open"
+    },
     {
       "id": "greenhouse:smartly-io:5808193004",
       "hub": "saas",
@@ -24,7 +288,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-10-30T08:37:44-04:00",
-      "scraped_at": "2026-10-30T13:44:53.201Z",
+      "scraped_at": "2026-10-31T13:14:25.979Z",
       "status": "open"
     },
     {
@@ -46,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/wolt-english-english-speaking-support-associate-full-time-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-10-30T07:31:12.000Z",
-      "scraped_at": "2026-10-30T13:45:00.687Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -68,7 +332,7 @@
       "apply_url": "https://jobicy.com/jobs/151977-solutions-engineering-integration-specialist",
       "source": "Jobicy",
       "posted_at": "2026-10-30T03:20:17.000Z",
-      "scraped_at": "2026-10-30T13:45:02.186Z",
+      "scraped_at": "2026-10-31T13:14:36.187Z",
       "status": "open"
     },
     {
@@ -90,7 +354,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crisis-connections-recovery-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-29T16:00:34.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -108,11 +372,11 @@
       "comp_min": null,
       "comp_max": null,
       "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
-      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nAs a regulated payment provider, we must ensure we manage operational risk and our regulatory requirements correctly. We do this by having a robust control framework across some of our business-critical areas, like payments and billing.\n\nThis role will be central to ensuring our 1st line Operations teams continue to implement, manage, test and regularly update controls frameworks. You'll manage the end-to-end controls framework for our operational teams, including but not limited to Payments Operations, Billing and Credit Control. You will be a key point of contact for managing our annual Safeguarding and SOC1 audits, engaging with auditors and gathering and submitting evidence.\n\nThe role provides an excellent opportunity to work with the broader Enterprise Risk community and shape the controls environment for a fast-growing FinTech, putting your stamp on how controls are designed, implemented and managed.\n\nWhat excites you\n\n- Designing and implementing controls. Working with the Regulatory Compliance team to understand the complete picture of the control landscape and then collaborating with 1st line control owners in our Operation to implement relevant controls\n\n- Control assessment and reporting. Updating the safeguarding and SOC1 controls assessments on a regular cadence\n\n- Direct control management. Managing key controls within our Internal Operations teams\n\n- Understanding existing processes and re-designing controls to meet current and future business needs\n\n- Working with the Regulatory team to ensure audits are completed successfully, including explaining our first-line controls to auditors and regulators\n\n- Improving efficiency through the standardisation, automation or removal of controls\n\n- Building positive relationships with stakeholders across the different lines of defence to help develop a real understanding of our risk exposure, control environment, deficiencies and gaps\n\n- Autonomy to drive change from the ground up\n\nWhat excites us\n\n- Have worked in a regulated environment, preferably financial services or at a FinTech\n\n- Previous experience working in a similar role, such as Audit, you’re skilled in designing, implementing and testing the effectiveness of controls\n\n- You're a great communicator. You can simplify and clearly explain the what and why behind the controls you implement\n\n- You understand how to balance compliance and operational efficiency\n\n- You have a solid understanding of the three lines of defence and have experience working with Regulatory Compliance teams as well as external auditors\n\n- You have great attention to detail, you work in a structured manner and you’re comfortable with data\n\n- You’re comfortable working in a fast-paced environment where your responsibilities can evolve and change\n\n- You're a self-starter and can work independently with minimal supervision\n\nBase salary range: 2867 EUR/ months gross - 4300 EUR/ months gross\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 90 days in any 12 month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance, + 3 annual volunteer days, + 4 annual business-wide wellness days (‘GC Fridays’)\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nAs a regulated payment provider, we must ensure we manage operational risk and our regulatory requirements correctly. We do this by having a robust control framework across some of our business-critical areas, like payments and billing.\n\nThis role will be central to ensuring our 1st line Operations teams continue to implement, manage, test and regularly update controls frameworks. You'll manage the end-to-end controls framework for our operational teams, including but not limited to Payments Operations, Billing and Credit Control. You will be a key point of contact for managing our annual Safeguarding and SOC1 audits, engaging with auditors and gathering and submitting evidence.\n\nThe role provides an excellent opportunity to work with the broader Enterprise Risk community and shape the controls environment for a fast-growing FinTech, putting your stamp on how controls are designed, implemented and managed.\n\nWhat excites you\n\n- Designing and implementing controls. Working with the Regulatory Compliance team to understand the complete picture of the control landscape and then collaborating with 1st line control owners in our Operation to implement relevant controls\n\n- Control assessment and reporting. Updating the safeguarding and SOC1 controls assessments on a regular cadence\n\n- Direct control management. Managing key controls within our Internal Operations teams\n\n- Understanding existing processes and re-designing controls to meet current and future business needs\n\n- Working with the Regulatory team to ensure audits are completed successfully, including explaining our first-line controls to auditors and regulators\n\n- Improving efficiency through the standardisation, automation or removal of controls\n\n- Building positive relationships with stakeholders across the different lines of defence to help develop a real understanding of our risk exposure, control environment, deficiencies and gaps\n\n- Autonomy to drive change from the ground up\n\nWhat excites us\n\n- Have worked in a regulated environment, preferably financial services or at a FinTech\n\n- Previous experience working in a similar role, such as Audit, you’re skilled in designing, implementing and testing the effectiveness of controls\n\n- You're a great communicator. You can simplify and clearly explain the what and why behind the controls you implement\n\n- You understand how to balance compliance and operational efficiency\n\n- You have a solid understanding of the three lines of defence and have experience working with Regulatory Compliance teams as well as external auditors\n\n- You have great attention to detail, you work in a structured manner and you’re comfortable with data\n\n- You’re comfortable working in a fast-paced environment where your responsibilities can evolve and change\n\n- You're a self-starter and can work independently with minimal supervision\n\nBase salary range: 2867 EUR/ months gross - 4300 EUR/ months gross\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Lunch- based on the location, you either get a meal voucher or a paid lunch when working from the office\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 20 working days in any 12-month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance + volunteer days for ERG events + one day off if you need to move house\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-10-29T05:59:26-04:00",
-      "scraped_at": "2026-10-30T13:44:38.317Z",
+      "scraped_at": "2026-10-31T13:14:15.822Z",
       "status": "open"
     },
     {
@@ -134,7 +398,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/6234225003",
       "source": "greenhouse",
       "posted_at": "2026-10-29T02:54:34-04:00",
-      "scraped_at": "2026-10-30T13:44:48.830Z",
+      "scraped_at": "2026-10-31T13:14:20.972Z",
       "status": "open"
     },
     {
@@ -156,7 +420,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/imerit-technology-ai-data-quality-specialist-ai-trainer",
       "source": "We Work Remotely",
       "posted_at": "2026-10-28T22:44:12.000Z",
-      "scraped_at": "2026-10-30T13:45:00.687Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -178,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272406007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:14:27-04:00",
-      "scraped_at": "2026-10-30T13:44:51.365Z",
+      "scraped_at": "2026-10-31T13:14:24.017Z",
       "status": "open"
     },
     {
@@ -200,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272446007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:13:55-04:00",
-      "scraped_at": "2026-10-30T13:44:51.365Z",
+      "scraped_at": "2026-10-31T13:14:24.017Z",
       "status": "open"
     },
     {
@@ -222,7 +486,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169731007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:11:31-04:00",
-      "scraped_at": "2026-10-30T13:44:51.365Z",
+      "scraped_at": "2026-10-31T13:14:24.017Z",
       "status": "open"
     },
     {
@@ -244,7 +508,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:04:14-04:00",
-      "scraped_at": "2026-10-30T13:44:51.365Z",
+      "scraped_at": "2026-10-31T13:14:24.017Z",
       "status": "open"
     },
     {
@@ -266,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/flag-theory-customer-onboarding-specialist-for-company-incorporations-full-time-3",
       "source": "We Work Remotely",
       "posted_at": "2026-10-28T15:26:29.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -288,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6226462004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-10-30T13:44:29.930Z",
+      "scraped_at": "2026-10-31T13:14:07.602Z",
       "status": "open"
     },
     {
@@ -310,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-10-30T13:44:29.931Z",
+      "scraped_at": "2026-10-31T13:14:07.603Z",
       "status": "open"
     },
     {
@@ -332,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6230088004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-10-30T13:44:29.932Z",
+      "scraped_at": "2026-10-31T13:14:07.603Z",
       "status": "open"
     },
     {
@@ -354,29 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6232781004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-10-30T13:44:29.932Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:157548",
-      "hub": "business",
-      "title": "Field Specialist (Oamaru)",
-      "company": "Halter",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "New Zealand",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "About Halter At Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations.",
-      "description": "About Halter\n\nAt Halter, we’re on a mission to enable farmers and graziers to run the most productive and sustainable operations. Our customers are using Halter to break free from the time-intensive constraints of conventional practices. Imagine watching 500 cattle stand up and walk calmly towards their next break? No quad bikes, no dogs, no fences. Just a group of cattle walking at their own pace. People say it looks like magic. Our customers are revolutionizing grazing with Halter. It's changing lives and transforming an industry. People join Halter to do meaningful work. By joining us you’ll be solving challenging problems within a talented team and a culture built for high performance. Our team out-think, out-work and out-care. We’re committed to delivering real change in the world - this isn’t easy, and in truth, we love that it’s hard.\n\nWe’re backed to deliver on a mission that matters by Tier 1 investors including Founders Fund, Bessemer Venture Partners, BOND, DCVC, Blackbird, Promus Ventures, Rocket Lab’s Peter Beck and Icehouse ventures.\n\nTo find out more, visit our LinkedIn & Instagram.\n\nAbout the Role\n\nWe are seeking a motivated and high-performing Field Specialist to join our team in New Zealand, supporting the maintenance and performance of Halter’s on-farm hardware infrastructure. In this role, you will be responsible for ensuring our systems are operating efficiently, resolving technical issues quickly, and helping to refine and improve the reliability of our hardware across our customer network.\n\nNote this role is Oamaru based with regular NZ travel.\n\nThis is a hands-on position that requires strong technical ability, problem-solving skills, and a proactive approach to field operations. You may find yourself maintaining and upgrading infrastructure one day and deploying new equipment on-farm the next. You’ll be the go-to person for ensuring everything runs smoothly, delivering exceptional service and support to our customers. As a Field Specialist, you’ll work closely with our hardware, product, and customer success teams, ensuring effective collaboration and a strong feedback loop between the field and our Auckland HQ.This role offers the opportunity to make a real impact in transforming New Zealand’s dairy and livestock industry through world-class agri-tech innovation.\n\nWhat your day could look like\n\n-\nInfrastructure Maintenance: Oversee the upkeep and repair of Halter’s infrastructure to ensure seamless operations.\n\n-\nHardware Diagnosis: Diagnose any issues with our hardware and feed this information back to the relevant team.\n\n-\nVersatility: Ability to transition smoothly between tasks, from repairing and upgrading infrastructure to delivering towers and collars as needed.\n\n-\nDeployment Support: Provide critical on-site support during farm deployments if needed, troubleshooting issues, and ensuring successful installations.\n\n-\nOn-call: Be part of the global on-call roster to support tower-related incidents and proactively find solutions in a timely manner.\n\n-\nCollaboration: Work closely across all of the Halter teams to ensure alignment and successful customer outcomes.\n\n-\nProblem-Solving: Address and resolve technical challenges promptly and effectively, ensuring minimal disruption to farm operations.\n\n-\nAdaptability: Be prepared to manage a variety of tasks, often simultaneously, to meet the dynamic needs of the role.\n\n-\nData Analysis: Ability to collect, interpret, and analyse data from our hardware, optimise processes, and inform decision-making. You'll ensure that actionable insights are extracted to improve operational efficiency and resolve issues proactively. Development and management of a maintenance system for our NZ market.\n\n-\nTravel: travel within the South Island region + some NZ wide travel will be required.\n\nWho are we looking for\n\n-\nPractical, hands-on experience with tools, electrical work, construction, networking, or equipment fitting is a must!\n\n-\nGo-Getter Attitude: A proactive approach, with a willingness to tackle challenges head-on and figure things out on the go.\n\n-\nHandiness: Practical skills and resourcefulness, with the ability to handle a wide range of tasks even without specific technical training.\n\n-\nTime management skills: Ability to manage your own time so that tasks are completed on schedule.\n\n-\nTeam-Oriented Approach: Strong collaboration skills, with the ability to work effectively with colleagues across different locations.\n\n-\nCommitment to Excellence: A dedication to providing the highest quality service, ensuring that Halter’s infrastructure is always operating at its best.\n\n-\nWillingness to travel: Spontaneous & planned travel will be included in this role. You might be 3 or 4 days on the road per week. You may also be 3 nights away from home per week.\n\nBonus Qualifications (These are not mandatory for you to apply)\n\n-\nAgriculture Experience (Preferred): While not mandatory, experience in the agriculture sector would be highly beneficial.\n\nJoin our team\n\nHalter is committed to promoting a diverse and inclusive workplace — a place where we can each be ourselves and do the best work of our lives. Research shows that while men apply to jobs when they meet an average of 60% of the requirements, women and under-represented groups of candidates tend to only apply when they meet every requirement. If you think you have what it takes but don’t necessarily tick every requirement on this job description, please still get in touch and apply to Halter. We’d love to chat to see if you’ll be an epic fit!\n\nIf this opportunity sounds like you, please apply below by sending through your cover letter explaining why you’re excited about this role and working at Halter, along with your CV, and we’ll be in touch!\n\nPlease also feel free to check out the careers page for more information on working at Halter and don't forget to follow us on LinkedIn & Instagram.\n\nWhy our team loves working at Halter:\n\n-\nWork that genuinely matters. Every now and again a company comes along that transforms an entire industry and leaves the world in a better place. Our team gets to be part of something truly meaningful, helping farmers improve their livelihoods, spend more time with their families, and build more sustainable operations.\n\n-\nSpectacular people solving hard problems. Our culture is designed for talented people to do work that changes lives. The team is filled with diverse, kind, and driven people who push each other to do their best work. You'll be thrown into the deep end, tackling complex challenges and building something tangible that solves real problems.\n\n-\nYou'll grow here. Autonomy, mastery, and learning define how we work. You'll have the freedom to work on interesting problems, master new skills, and continuously develop yourself, both through your role and our personal growth fund.\n\n-\nThis isn't easy, and we love that it's hard. Working at Halter will be the most rewarding and the most challenging work of your life. We move fast, take bold bets, and work hard to reshape an entire industry. As one team member put it: \"Joining Halter is a bit like strapping yourself to a rocket ship, but it's an epic journey to be a part of!\"",
-      "apply_url": "https://jobicy.com/jobs/157548-field-specialist-oamaru",
-      "source": "Jobicy",
-      "posted_at": "2026-10-28T13:15:21.000Z",
-      "scraped_at": "2026-10-30T13:45:02.186Z",
+      "scraped_at": "2026-10-31T13:14:07.604Z",
       "status": "open"
     },
     {
@@ -398,7 +640,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/freshly-commerce-technical-support-specialist-1",
       "source": "We Work Remotely",
       "posted_at": "2026-10-27T16:45:57.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -420,7 +662,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/21af1f6e-4454-48d8-9d1b-a5ceac4aff7c",
       "source": "lever",
       "posted_at": "2026-10-27T10:56:29.554Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -442,7 +684,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/replika-lifecycle-crm-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-26T19:35:20.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -464,7 +706,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/a8c7ee7c-ccdf-4d98-aa0a-d73f15d15e6b",
       "source": "lever",
       "posted_at": "2026-10-26T14:47:35.219Z",
-      "scraped_at": "2026-10-30T13:44:49.434Z",
+      "scraped_at": "2026-10-31T13:14:21.582Z",
       "status": "open"
     },
     {
@@ -486,7 +728,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-26T07:31:27.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -508,7 +750,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-clinical-quality-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-25T07:30:54.000Z",
-      "scraped_at": "2026-10-30T13:45:00.687Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -530,7 +772,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-10-21T13:52:12-04:00",
-      "scraped_at": "2026-10-30T13:44:53.181Z",
+      "scraped_at": "2026-10-31T13:14:25.960Z",
       "status": "open"
     },
     {
@@ -552,7 +794,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/oportun-repossession-coordinator-r14323",
       "source": "We Work Remotely",
       "posted_at": "2026-10-21T07:31:02.000Z",
-      "scraped_at": "2026-10-30T13:45:00.687Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -574,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-dutch-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-10-20T07:30:57.000Z",
-      "scraped_at": "2026-10-30T13:45:00.687Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -596,7 +838,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/abbott-clinical-specialist-crm-mobile-al",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T17:39:32.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -618,7 +860,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/evolve-peptides-operations-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T17:25:15.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -640,7 +882,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-care-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T07:31:25.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -662,7 +904,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e1df27dd-5074-42d1-adde-3b074bf10b6b",
       "source": "lever",
       "posted_at": "2026-10-16T16:36:04.185Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -684,7 +926,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/120541c5-8caa-4e7e-aefa-c12fcf3c5663",
       "source": "lever",
       "posted_at": "2026-10-16T09:21:51.285Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -706,7 +948,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/6sense-it-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:14.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -728,7 +970,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/customer-io-email-deliverability-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:00.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -750,7 +992,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cranky-concierge-travel-coordinator-1",
       "source": "We Work Remotely",
       "posted_at": "2026-10-14T15:30:23.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -772,7 +1014,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-13T16:00:30.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -794,7 +1036,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-10-13T14:30:40-04:00",
-      "scraped_at": "2026-10-30T13:44:51.181Z",
+      "scraped_at": "2026-10-31T13:14:23.796Z",
       "status": "open"
     },
     {
@@ -816,7 +1058,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-10-11T20:17:27.000Z",
-      "scraped_at": "2026-10-30T13:45:01.178Z",
+      "scraped_at": "2026-10-31T13:14:35.220Z",
       "status": "open"
     },
     {
@@ -838,7 +1080,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/affirm-administrative-assistant-iv",
       "source": "We Work Remotely",
       "posted_at": "2026-10-09T07:30:56.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -860,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1252b51c-b738-4283-815c-aa7d9e7b4845",
       "source": "lever",
       "posted_at": "2026-10-07T07:46:43.958Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.582Z",
       "status": "open"
     },
     {
@@ -882,29 +1124,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-10-02T20:01:00.000Z",
-      "scraped_at": "2026-10-30T13:45:01.178Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:weworkremotely:limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
-      "hub": "business",
-      "title": "Japanese Speaking Customer Service Agent - for Netflix Japan",
-      "company": "Limitless Technology",
-      "company_id": "agg:weworkremotely",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "We Work Remotely",
-      "level": "Mid",
-      "location": "Anywhere in the World, Lancashire",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Headquarters: London URL: https://www.limitlesstech.com/ Limitless, in partnership with Netflix, is looking for Japanese-speaking freelance customer service representatives to supp…",
-      "description": "Headquarters: London\n\nURL: https://www.limitlesstech.com/\n\nLimitless, in partnership with Netflix, is looking for Japanese-speaking freelance customer service representatives to support Netflix customers in Japan.\n\nThis is a fully remote freelance opportunity for people who are confident speaking with customers, comfortable using online systems and able to work independently from home.\n\nYou will provide voice-based customer support to Netflix customers, helping with account queries, service questions, technical issues and general support. You will use Netflix systems, knowledge resources and agreed support processes to provide clear, accurate and friendly resolutions.\n\nKey responsibilities include:\n\n-\nProviding customer support in Japanese by voice\n\n-\nHelping customers with account, service and technical queries\n\n-\nFollowing Netflix support processes and quality standards\n\n-\nUsing online systems and knowledge tools to resolve customer issues\n\n-\nDelivering a professional, friendly and efficient customer experience\n\n-\nCompleting required training, assessments and programme updates\n\n-\nWorking independently from home while staying connected with the wider support team\n\nWhat we are looking for:\n\n-\nFluent or near-native Japanese language ability\n\n-\nStrong spoken communication skills\n\n- Comfortable supporting customers by phone\n\n-\nConfident using online systems and digital tools\n\n-\nReliable internet connection and suitable home working environment\n\n-\nAbility to work independently and follow defined processes\n\n-\nCustomer service experience is useful but not essential\n\nTraining:\n\nTraining starts on 9th October 2026 and runs for four weeks, Monday to Friday, from 13:00 to 17:00 Japan Standard Time.\n\nTraining is delivered virtually in Japanese and attendance across the fixed training schedule is required.\n\nWorking hours:\n\nOnce live, the current available service windows are:\n\n-\nMonday to Friday\n\n-\n09:00-13:00 JST\n\n-\n17:00-21:00 JST\n\nAvailable working patterns and shifts will be confirmed during training.\n\nEarnings:\n\nYou will be paid $20 USD per hour during training and the initial live period.\n\nYou will then move to an On-Target Earnings model of up to $20 USD per hour, linked to agreed service and performance measures. Please note, if you achieve the contract KPIs (speed of handling and quality), you WILL get $20 - we want and need to pay you $20 as that means we are hitting our targets!\n\nFreelance arrangement:\n\nThis is an independent freelance opportunity, not an employed position. You will register on the Limitless platform and complete the required online verification, assessments and programme qualification stages before joining training. Payment is made monthly, directly to your PayPal. We do not withhold any earnings for any regulatory requirement. As an independant contractor, all regulatory requirements in your region are your responsibility. We accept freelancers from most countries and regions, however, if your country or region is not 'gig-friendly' it will not appear as an option, meaning you can not onboarding. The onboarding process should take no more than 1 hour total effort before being invited to training.\n\nTo apply: https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
-      "apply_url": "https://weworkremotely.com/remote-jobs/limitless-technology-japanese-speaking-customer-service-agent-for-netflix-japan",
-      "source": "We Work Remotely",
-      "posted_at": "2026-10-01T08:39:07.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:35.220Z",
       "status": "open"
     },
     {
@@ -926,7 +1146,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.582Z",
       "status": "open"
     },
     {
@@ -948,7 +1168,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -970,7 +1190,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/7667360003",
       "source": "greenhouse",
       "posted_at": "2026-09-18T07:47:15-04:00",
-      "scraped_at": "2026-10-30T13:44:48.830Z",
+      "scraped_at": "2026-10-31T13:14:20.972Z",
       "status": "open"
     },
     {
@@ -992,7 +1212,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1014,7 +1234,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1036,7 +1256,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.755Z",
       "status": "open"
     },
     {
@@ -1058,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1168,7 +1388,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0b14cde9-0c0d-47a2-a064-799b51e372af",
       "source": "lever",
       "posted_at": "2026-08-06T13:57:16.813Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1190,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.582Z",
       "status": "open"
     },
     {
@@ -1212,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1234,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.582Z",
       "status": "open"
     },
     {
@@ -1256,7 +1476,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-10-30T13:44:49.434Z",
+      "scraped_at": "2026-10-31T13:14:21.582Z",
       "status": "open"
     },
     {
@@ -1278,7 +1498,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1300,7 +1520,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1322,7 +1542,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.582Z",
       "status": "open"
     },
     {
@@ -1344,7 +1564,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-10-30T13:45:00.688Z",
+      "scraped_at": "2026-10-31T13:14:34.754Z",
       "status": "open"
     },
     {
@@ -1366,7 +1586,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e8d2ddf7-9033-4777-9b84-c70ae07610b6",
       "source": "lever",
       "posted_at": "2025-06-18T08:41:32.740Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1388,7 +1608,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1410,7 +1630,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-10-30T13:44:49.433Z",
+      "scraped_at": "2026-10-31T13:14:21.581Z",
       "status": "open"
     },
     {
@@ -1432,7 +1652,7 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/26834",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:31.822Z",
+      "scraped_at": "2026-10-31T13:14:09.348Z",
       "status": "open"
     },
     {
@@ -1454,7 +1674,29 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/27636",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:31.823Z",
+      "scraped_at": "2026-10-31T13:14:09.348Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-5019",
+      "hub": "legal",
+      "title": "Customer Support Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Mid",
+      "location": "2 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Customer Support Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Calgary/Customer-Support-Specialist--New-Grads-_REQ-5019",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1476,7 +1718,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/Senior-Billing-Specialist_REQ-5541",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1498,7 +1740,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1520,7 +1762,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Global-Benefits-Specialist_REQ-5172",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1542,7 +1784,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Support-Specialist_REQ-5538",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1564,7 +1806,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Australia/Customer-Support-Specialist--Enterprise_REQ-4526",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1586,7 +1828,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1608,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1630,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1652,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1674,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1696,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1718,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:35.721Z",
+      "scraped_at": "2026-10-31T13:14:12.463Z",
       "status": "open"
     },
     {
@@ -1740,7 +1982,7 @@
       "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1762,7 +2004,7 @@
       "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1784,7 +2026,7 @@
       "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1806,7 +2048,7 @@
       "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1828,7 +2070,7 @@
       "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1850,7 +2092,7 @@
       "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1872,7 +2114,7 @@
       "apply_url": "https://www.filevine.com/jobs/594dba01-0f77-4f99-9484-ccebeacf39de/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1894,7 +2136,7 @@
       "apply_url": "https://www.filevine.com/jobs/4f3c925a-e780-417b-acad-65b1d49c0735/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1916,7 +2158,7 @@
       "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1938,7 +2180,7 @@
       "apply_url": "https://www.filevine.com/jobs/6c220fe7-5652-43c8-8ee2-42f8492b1ad1/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     },
     {
@@ -1960,249 +2202,7 @@
       "apply_url": "https://www.filevine.com/jobs/518f6c48-7977-4f35-83a4-e7794b61ca4c/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/5a6f6c7c-fad0-4f53-882e-2b33e7a4c2bf/",
-      "hub": "legaltech",
-      "title": "Sales Enablement Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Sales Enablement Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/5a6f6c7c-fad0-4f53-882e-2b33e7a4c2bf/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/47d66dab-ae72-4256-90d3-8d9e82904370/",
-      "hub": "legaltech",
-      "title": "Security Specialist, Intern",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "contract",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Security Specialist, Intern at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/47d66dab-ae72-4256-90d3-8d9e82904370/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
-      "hub": "legaltech",
-      "title": "Technical Support (Email Specialist)",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Technical Support (Email Specialist) at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/9c8a70f2-be13-464f-98d4-c504dfc8b026/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:37.907Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:getyourguide:https://www.getyourguide.careers/jobs/8305682",
-      "hub": "business",
-      "title": "Partner Engagement Specialist",
-      "company": "GetYourGuide",
-      "company_id": "getyourguide",
-      "priority": false,
-      "category": "Other",
-      "segment": "Travel Experiences Marketplace",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Partner Engagement Specialist at GetYourGuide.",
-      "description": "",
-      "apply_url": "https://www.getyourguide.careers/jobs/8305682",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:44.219Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:getyourguide:https://www.getyourguide.careers/jobs/8264075",
-      "hub": "business",
-      "title": "Executive Assistant to CFO (12 month contract)",
-      "company": "GetYourGuide",
-      "company_id": "getyourguide",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Travel Experiences Marketplace",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Executive Assistant to CFO (12 month contract) at GetYourGuide.",
-      "description": "",
-      "apply_url": "https://www.getyourguide.careers/jobs/8264075",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:44.219Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:getyourguide:https://www.getyourguide.careers/jobs/8207660",
-      "hub": "business",
-      "title": "People Operations Specialist APAC",
-      "company": "GetYourGuide",
-      "company_id": "getyourguide",
-      "priority": false,
-      "category": "Other",
-      "segment": "Travel Experiences Marketplace",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "People Operations Specialist APAC at GetYourGuide.",
-      "description": "",
-      "apply_url": "https://www.getyourguide.careers/jobs/8207660",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:44.219Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:supercell:https://supercell.com/en/careers/aso-specialist/22572ef7-36ef-4cef-8185-144c94800a85/?source=Supercell.com",
-      "hub": "business",
-      "title": "ASO Specialist",
-      "company": "Supercell",
-      "company_id": "supercell",
-      "priority": false,
-      "category": "Other",
-      "segment": "Mobile Gaming Studio",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "ASO Specialist at Supercell.",
-      "description": "",
-      "apply_url": "https://supercell.com/en/careers/aso-specialist/22572ef7-36ef-4cef-8185-144c94800a85/?source=Supercell.com",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:53.227Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:athena:EJR-010",
-      "hub": "business",
-      "title": "Executive Assistant",
-      "company": "Athena",
-      "company_id": "athena",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Executive Assistant Staffing & Training",
-      "level": "Mid",
-      "location": "Alabang",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Executive Assistant at Athena.",
-      "description": "",
-      "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Alabang/Executive-Partner_EJR-010",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:55.047Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:athena:EJR-015",
-      "hub": "business",
-      "title": "Executive Assistant",
-      "company": "Athena",
-      "company_id": "athena",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Executive Assistant Staffing & Training",
-      "level": "Mid",
-      "location": "Quezon City",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Executive Assistant at Athena.",
-      "description": "",
-      "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Quezon-City/Executive-Partner_EJR-015",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:55.047Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:athena:R-00555",
-      "hub": "business",
-      "title": "Accounts Payable Specialist",
-      "company": "Athena",
-      "company_id": "athena",
-      "priority": false,
-      "category": "Other",
-      "segment": "Executive Assistant Staffing & Training",
-      "level": "Mid",
-      "location": "Quezon City",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Accounts Payable Specialist at Athena.",
-      "description": "",
-      "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Quezon-City/Accounts-Payable-Specialist_R-00555",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:55.047Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:athena:R-00529",
-      "hub": "business",
-      "title": "Specialist, Asset Management",
-      "company": "Athena",
-      "company_id": "athena",
-      "priority": false,
-      "category": "Other",
-      "segment": "Executive Assistant Staffing & Training",
-      "level": "Mid",
-      "location": "Nairobi",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Specialist, Asset Management at Athena.",
-      "description": "",
-      "apply_url": "https://athenago.wd108.myworkdayjobs.com/athena/job/Nairobi/Specialist--Asset-Management_R-00529",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-10-30T13:44:55.047Z",
+      "scraped_at": "2026-10-31T13:14:15.424Z",
       "status": "open"
     }
   ]
