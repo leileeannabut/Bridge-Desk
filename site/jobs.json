@@ -1,10 +1,164 @@
 {
-  "generated_at": "2026-11-03T14:47:41.463Z",
+  "generated_at": "2026-11-04T15:00:55.522Z",
   "count": 100,
-  "total_open": 119,
+  "total_open": 122,
   "sources_ok": 55,
   "sources_failed": 25,
   "jobs": [
+    {
+      "id": "greenhouse:gocardless:8352299",
+      "hub": "fintech",
+      "title": "Assistant Management Accountant",
+      "company": "GoCardless",
+      "company_id": "gocardless",
+      "priority": false,
+      "category": "Other",
+      "segment": "Recurring Payments Platform",
+      "level": "Mid",
+      "location": "Lisbon, Portugal",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nThis is a key role in the Financial Control team. We are responsible for the month-end close, the preparation of financial accounts, and play a key role in delivering audits. Reporting to the Finance Manager, you will be an Assistant Management Accountant with experience delivering month-end activities and performing P&L and balance sheet reconciliations.\n\nWhat excites you\n\nOwnership:\n\n- Own the preparation and posting of monthly journals such as accruals, prepayments and adjustments across all entities.\n\n- Own key balance sheet accounts across the group, completing monthly reconciliations and resolving variances in a timely, documented manner\n\nCollaboration:\n\n- Work closely with teams across the business, including AP, Tax and Management Reporting\n\n- Supporting the Finance Manager when required\n\n- Assist with the annual audits in preparation and provide the requested documents\n\nAnalysis:\n\n- Produce P&L variance analysis and commentary\n\nWhat must you have\n\n- Experience in a financial control or management accounting environment\n\n- Use Excel or Google Sheets with confidence\n\n- Show attention to detail\n\n- Be a team player, with ability to work independently\n\nWhat might you have\n\n- Perform multi-currency balance sheet reconciliations, ideally across multiple entities\n\n- Familiar with NetSuite and FloQast apps\n\n- Communicate confidently with internationally based stakeholders\n\n- Hold an accounting qualification\n\n- Use AI to identify process efficiencies\n\n- Ability to prioritise time and stay organised in a fast-paced environment\n\nBase salary range: € 25,600- € 38,400 (gross), (including 13th and 14th salary).\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (€ 25,600 - € 32,000) of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Lunch- based on the location, you either get a meal voucher or a paid lunch when working from the office\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 20 working days in any 12-month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance + volunteer days for ERG events + one day off if you need to move house\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8352299",
+      "source": "greenhouse",
+      "posted_at": "2026-11-04T07:05:48-05:00",
+      "scraped_at": "2026-11-04T14:59:55.514Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:gocardless:8301377",
+      "hub": "fintech",
+      "title": "Treasury Assistant",
+      "company": "GoCardless",
+      "company_id": "gocardless",
+      "priority": false,
+      "category": "Other",
+      "segment": "Recurring Payments Platform",
+      "level": "Mid",
+      "location": "Leeds, UK",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send b…",
+      "description": "About us\n\nGoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday.\n\nWe are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more information, please visit www.gocardless.com and follow us on LinkedIn @GoCardless.\n\nMollie is the leading payments and financial services partner for business, rooted in Europe, with global reach.\n\nThe role\n\nWe are looking for a Treasury Assistant to join the financial reporting team. Working closely with the head of financial reporting and the treasury manager, you will have the opportunity to get involved in the treasury management of GoCardless.\n\nWhat excites you\n\n- Preparing weekly and daily cash flows and performing liquidity controls to ensure sufficient liquidity within the groups entities.\n\n- Collaborating with other teams including AP and management reporting ensuring accurate treasury balance forecasting.\n\n- Ownership of monitoring the groups bank accounts and reconciling accounts to balances.\n\n- Provide cover for bank reconciliations.\n\n- Supporting the treasury manager and head of financial reporting as required.\n\n- Support ad hoc projects as and when required.\n\nWhat excites us\n\n- 2-3 years of treasury experience\n\n- Intermediate excel / google sheet skills\n\n- Ability to use AI and to automate tasks and processes\n\n- Experience in treasury forecasting\n\n- Ability to prioritise time and stay organised in a fast-paced environment\n\n- Experience with multi-currency treasury operations\n\n- Ability to produce accurate work and consistently deliver to reporting deadlines\n\n- Team player but ability to work independently\n\nWe don’t expect you to meet every requirement. If you’re excited by this role, we encourage you to apply.\n\nBase salary range: £32,000 - £48,000\n\nBase salary ranges are based on role, job level, location, and market data. Please note that whilst we strive to offer competitive compensation, our approach is to pay between the minimum and the mid-point (£32,000 - £40,000) of the pay range until performance can be assessed in role. Offers will take into account level of experience, interview assessment, budgets and parity between you and fellow employees at GoCardless doing similar work.\n(some of) The good stuff\n\n- Wellbeing - stay healthy with dedicated support and medical cover\n\n- Lunch- based on the location, you either get a meal voucher or a paid lunch when working from the office\n\n- Work away scheme - gives you the option to work away from your country of residence for up to 20 working days in any 12-month period\n\n- Adaptive Working - allows you to work flexibly, around your lifestyle\n\n- Parental leave - to suit everyone embarking on life's great adventure\n\n- Learning Budget - lead your own development with an annual learning budget\n\n- Time off - generous holiday allowance + volunteer days for ERG events + one day off if you need to move house\n\nLife at GoCardless\n\nWe're an organisation defined by our values; We start with why before we begin any project, to ensure it’s aligned with our mission. We make it happen, working with urgency and taking personal accountability for getting things done. We act with integrity, always. We care deeply about what we do and we know it's essential that we be humble whilst we do it. Our Values form part of the GoCardless DNA, and are used to not only help us nurture and develop our culture, but to deliver impactful work that will help us to achieve our vision.\n\nDiversity & Inclusion\n\nAs of April 2025, we had 806 employees (GeeCees) globally, with 524 based in the UK, 163 based in Latvia and 119 across our other offices.\n\nTo ensure that we're representative of the world around us - and to be able to review relevant benchmarks - we ask GeeCees to voluntarily disclose diversity data. This year, the proportion of GeeCees providing data increased to 88% (up from 79% in 2024). With regards to diversity within GoCardless, we can see GeeCees identifying as:\n\nAsian, Black, Mixed or Other — 25%\n\nNeurodiverse — 9%\n\nLGBTQIA+ — 9%\n\nDisabled — 1%\n\nAverage age — 33\n\nFemale — 45%\n\nMale — 55%\n\nWe’re rooting for you during your application and GoCardless aims to provide reasonable adjustments to make our recruitment process as remarkable and accessible as we can. Please speak to your Talent Partner if you need extra support.\n\nIf you want to learn more, you can read about our Employee Resource Groups and objectives here\n\nSustainability\n\nWe’re committed to reducing our impact on the environment, leaving a more sustainable world for future generations. Check out our sustainability action plan here.\n\nFind out more about Life at GoCardless via Twitter, Instagram and LinkedIn.",
+      "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8301377",
+      "source": "greenhouse",
+      "posted_at": "2026-11-04T06:52:18-05:00",
+      "scraped_at": "2026-11-04T14:59:55.514Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:154077",
+      "hub": "business",
+      "title": "Inbound Support Coordinator",
+      "company": "HomeLight",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "*** This is a permanent work from home position from the Philippines, 9am to 5pm US Pacific time *** Who We Are We’re building the future of real estate — today.",
+      "description": "*** This is a permanent work from home position from the Philippines, 9am to 5pm US Pacific time ***\n\nWho We Are\n\nWe’re building the future of real estate — today.\n\nHomeLight is the real estate technology platform powering innovative transactions for top agents, lenders, and their clients. Our technology makes it easier to buy and sell homes, whether that's enabling clients to buy before they sell, find a top agent, or have certainty through a modern closing process. Each year, HomeLight facilitates billions of dollars of residential real estate business on its platform for thousands of agents and loan officers. Our vision is a world where every real estate transaction is simple, certain, and satisfying for all.\n\nOur team breaks barriers every day while staying committed to HomeLight's goals and core values, which is a crucial element to our shared success.\n\nWho You Are\n\nYou are a highly organized and efficient individual that can multitask and accomplish goals in a timely manner. Your duties and responsibilities include researching client/agent concerns using HomeLights HubSpot ticketing system and communicating solutions accordingly. You will be trained on how to use HomeLight sales applications as well as use the Internet to research appropriate solutions. A strong, reliable Internet is required.\n\nWhat You’ll Do Here\n\n- Handle inbound calls from HomeLight customers, real estate agents, and people interested in selling their homes.\n\n- Answer questions related to home selling, HomeLight services, Buy Before You Sell, offers, and other customer inquiries.\n\n- Provide timely and thoughtful support through email and CRM-based support tickets.\n\n- Troubleshoot basic account and software-related issues, including password resets and agent account support.\n\n- Complete other customer and agent support tasks as needed.\n\n- Document interactions and maintain accurate information in our CRM and support systems.\n\n- Deliver a consistently professional, empathetic, and \"white glove\" customer experience.\n\nWhat you Bring\n\n- Excellent phone communication skills — you are comfortable spending several hours a day on the phone and communicating with a wide variety of people.\n\n- Strong customer service and written communication skills.\n\n- A genuine customer-first mindset and the ability to provide a high-touch, \"white glove\" experience.\n\n- Experience working with HubSpot, CRM, customer support, or ticketing software.\n\n- Ability to stay calm, professional, and helpful when handling difficult, unexpected, or high-volume inquiries.\n\n- Strong organization and attention to detail.\n\nLet’s chat!\n\n#remote",
+      "apply_url": "https://jobicy.com/jobs/154077-inbound-support-coordinator",
+      "source": "Jobicy",
+      "posted_at": "2026-11-04T03:37:10.000Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:152379",
+      "hub": "business",
+      "title": "SaaS Onboarding Specialist",
+      "company": "Housecall Pro",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Mexico",
+      "employment_type": "full-time",
+      "comp_min": 25450,
+      "comp_max": 28500,
+      "summary": "Why Housecall Pro? Help us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service profession…",
+      "description": "Why Housecall Pro?\n\nHelp us build solutions that build better lives. At Housecall Pro, we show up to work every day to make a difference for real people: the home service professionals that support America’s 100 million homes. We’re all about the Pro, and dedicate our days to helping them streamline operations, scale their businesses, and—ultimately—save time so they can be with their families and live well.\n\nWhile our headquarters are based in Denver, Colorado, our team spans the globe, with teammates across Brazil, Poland, the Philippines, Mexico, and beyond. We care deeply about our customers and foster a culture where our company, people and Pros grow and succeed together—no matter where they’re based. Leadership is as focused on growing team members’ careers as they expect their teams to be on creating solutions for Pros.\n\nWe also offer:\n\n- Paid holidays and flexible, take-it-as-you-need-it scheduled time off\n\n- A culture built on innovation that values big ideas, no matter where they come from\n\nRole Overview:\n\nAs a Specialist, Onboarding, you are a professional who thrives in ensuring a seamless and positive onboarding experience for our service professionals (our Pros) to our platform. You are responsible for coordinating and facilitating customer onboarding, while providing exceptional customer service and answering Pros' questions and concerns.\n\nAs the dedicated and primary point of contact during the most critical window post-enrollment, you take ownership of the Pro experience, guiding them through early adoption, building confidence, and ensuring they realize value quickly. You bring a proactive approach to addressing challenges, empathy, and problem-solving skills to help better our team and improve the lives of our Pros. You operate with an ownership mindset, acting as a continuation of the sales experience by reinforcing the value of HCP and ensuring Pros feel confident they made the right decision.\n\nOur team is passionate, empathetic, hard working, and above all else focused on improving the lives of our Pros. Our success is their success.\n\nWhat You Do Each Day:\n\n- Own relationship during initial onboarding phase for new Pros including account activation and transition, adoption and product utilization, relationship building, and delivery of product and service value\n\n- Serve as the primary and dedicated resource for Pros during their early lifecycle, ensuring a smooth transition from sales through onboarding\n\n- Reinforce and “resell” the value of HCP, helping Pros build confidence in their decision and driving early product adoption\n\n- Effectively communicate client information, trends, and feedback across teams (i.e. Sales, Marketing, Engineering, and Tech Support)\n\n- Partner cross-functionally to support Pro success, especially collaborating with Account Managers to mitigate risk, drive retention, and ensure long-term growth\n\n- Develop, prepare, and nurture our Pros for advocacy, using a consultative and empathetic approach\n\n- Identify opportunities for expansion, recommend areas for improvement, and proactively look for ways to better our Pros experience\n\n- Manage details, timelines, and action to drive efficiency\n\n- Improve our Pros opportunities by leveraging qualitative and quantitative analysis\n\n- Develop processes that distinguish our brand by exceeding customer expectations in support delivery\n\n- Eloquently troubleshoot technical issues, have deep product knowledge, and think outside the box for solutions\n\nQualifications:\n\n- 1-3+ years experience in full-time customer success, implementation or sales\n\n- Bachelor's degree or equivalent experience in a related field\n\n- Proven success in developing relationships with new customers and exceeding success metrics\n\n- Ability to work the scheduled shifts: Monday - Friday 11am-8pm PST\n\n- Advanced English proficiency\n\nWhat Will Help You Succeed:\n\n- Self-starter with motivation, drive, and ability to work in a fast paced environment\n\n- Strong problem solving skills\n\n- Excellent written and verbal communication skills\n\n- Prompt attention to detail\n\n- Strong time management and organizational skills\n\n- Experience using AI tools to increase quality and efficiency of work\n\n- A natural curiosity backed by action; you are multi-dimensional (volunteering, creative outlets, side projects, hobbies, athletics), with a proven ability to successfully start over, learn from scratch, and thrive in new environments\n\nLocation Dependent Information\n\nThis role is open to candidates and the expected compensation range for this role is $25,450-$28,500 annual OTE (includes range of $19,750-$22,800 base plus variable bonus). The specific rate for the successful candidate will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location. Housecall Pro is growing fast and we’re scaling our team to help enable and accelerate our growth.\n\nFounded in 2013, Housecall Pro helps home service professionals (Pros) streamline every aspect of their business. With easy-to-use tools for scheduling, dispatching, payments, and more, Housecall Pro enables Pros to save time, grow profitably, and provide best-in-class service.\n\nHousecall Pro’s brand portfolio includes Business Coaching by Housecall Pro, a business coaching solution for home services businesses. Our brands are united by a singular mission to champion our Pros to success.\n\nWe support more than 50,000 businesses and have over 2,000 ambitious, mission-driven, genuinely fun-loving teammates across the globe. If you want to do work that impacts real people, supported by a team that will invest in you every step of the way, we’d love to hear from you.\n\nHousecall Pro celebrates diversity and we are committed to creating an inclusive environment. We are an equal opportunity employer and do not discriminate on the basis of gender, race, religion, national origin, ethnicity, disability, gender identity/expression, sexual orientation, veteran or military status, or any other category protected under the law. #LI-Remote\n\nPrivacy Notice for California Job Candidates - Housecall Pro\n\nUse of Artificial Intelligence in Hiring and Engagement Processes: we may use artificial intelligence (AI)-powered tools to support the review and evaluation of employment and independent contractor applications, including screening and qualification assessments. All final hiring and engagement decisions are made by human representatives, not AI tools.",
+      "apply_url": "https://jobicy.com/jobs/152379-saas-onboarding-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-11-04T03:35:24.000Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:150068",
+      "hub": "business",
+      "title": "Chat Support Agent - 15-18/hr",
+      "company": "NoGigiddy",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "NoGigiddy, a leading company in the on demand staffing and recruiting industry, is seeking a dedicated and passionate Chat Support Agent to join our remote team.",
+      "description": "NoGigiddy, a leading company in the on demand staffing and recruiting industry, is seeking a dedicated and passionate Chat Support Agent to join our remote team. In this role, you will play a vital role in ensuring a positive gig worker experience by providing top-notch customer support through our chat system. With our innovative platform connecting gig workers to various staffing local businesses, you will have the opportunity to make a real impact in revolutionizing the gig staffing industry.\nAt NoGigiddy, we prioritize our gig workers and aim to promote flexibility and convenience. Our dedication to improving the gig worker experience sets us apart, as we constantly explore new ways to create even more earning opportunities for gig workers. By joining our GigSquad, you will be part of a team that values your contribution and offers various paths for growth and development.\n\nResponsibilities\n - Respond promptly to gig workers' inquiries and provide accurate and helpful information through our chat support system.\n - Address and resolve gig workers' concerns, issues, or complaints with empathy and professionalism.\n - Collaborate with other team members to ensure a seamless and efficient chat support experience for gig workers.\n - Stay up-to-date with the features and functionalities of the NoGigiddy platform and our partner staffing apps.\n - Assist gig workers in navigating the NoGigiddy platform and troubleshoot any technical issues they may encounter.\n - Actively promote the benefits and features of NoGigiddy to gig workers to encourage engagement and participation.\n - Document and escalate complex or unresolved queries to the appropriate departments for further assistance.\n Requirements\n - Proven experience as a customer support agent or similar role, preferably in the gig economy or staffing industry.\n - Excellent written and verbal communication skills, with the ability to communicate clearly and concisely.\n - Strong multitasking and problem-solving skills, with the ability to navigate between multiple chat conversations efficiently.\n - Empathetic and customer-oriented mindset, with a genuine desire to help gig workers succeed.\n - Proficient computer skills, including the ability to navigate software applications and work with chat support tools.\n - Ability to work independently and remotely while maintaining a high level of productivity and focus.\n - Flexibility to work during peak hours, including evenings and weekends, to provide support as needed.",
+      "apply_url": "https://jobicy.com/jobs/150068-chat-support-agent-remote-15-18-hr",
+      "source": "Jobicy",
+      "posted_at": "2026-11-04T03:22:20.000Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
+      "status": "open"
+    },
+    {
+      "id": "greenhouse:clara-mx:5283621007",
+      "hub": "fintech",
+      "title": "Product Marketing Specialist - Hybrid",
+      "company": "Clara",
+      "company_id": "clara-mx",
+      "priority": false,
+      "category": "Other",
+      "segment": "Corporate Card & Spend Management",
+      "level": "Mid",
+      "location": "Sao Paulo / SP / Brazil",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation.",
+      "description": "Clara is the leading platform in Latin America for companies to execute and manage every payment operation. More than 50,000 leading and fast-growing businesses run on our corporate cards, bill pay, financing and B2B payments, and in 2025 the Financial Times named Clara the region’s fastest-growing company. We’re passionate about helping every company we work with become more effective—and, through that, raising the region’s competitiveness. We’re ~400 people, backed by Notable Capital, Coatue, Kaszek, monashees, DST Global, ICONIQ, General Catalyst and Goldman Sachs, among others.\n\nProduct Marketing Specialist, Brasil\n\nReady to accelerate your career?\n\nClara is the fastest-growing company in Latin America. We've built the leading solution for companies to make and manage all their payments. We already help over 20,000 large and growing businesses operate with agility and financial clarity through locally issued corporate cards, bill pay, financing, and a powerful B2B platform built for scale.\n\nClara is backed by some of the most successful investors in the world, including top regional VCs like monashees, Kaszek, and Canary, and leading global funds like Notable Capital, Coatue, DST Global Partners, ICONIQ Growth, General Catalyst, Citi Ventures, SV Angel, Citius, Endeavor Catalyst, and Goldman Sachs, in addition to dozens of angel investors and local family offices.\n\nWe're building the financial infrastructure that powers high-performing organizations across the region. Join us if you want a fast-paced environment that will accelerate your career, alongside a passionate and committed team distributed across the Americas.\n\nWhat you'll do\n\nYou'll own product marketing execution for Brazil: messaging, launches, sales enablement, and content that turns product capability into a story the Brazilian market believes. You'll work closely with the Head of Product Marketing & GTM, LatAm, and use AI to produce at a pace a small team shouldn't be able to match.\n\nYour responsibilities\n\n- Localize and adapt global positioning and messaging for Brazil, accounting for local market dynamics, competitors, and buyer language, not just translation.\n\n- Execute go-to-market for product launches and features in Brazil: enablement materials, customer communications, and launch content.\n\n- Build and maintain sales enablement assets: battlecards, FAQs, objection handling, and competitive comparisons for the Brazilian sales team.\n\n- Use AI Building processes daily to accelerate production: drafting content, generating messaging variants, researching competitors, and turning briefs into usable assets quickly.\n\n- Track and report on the metrics that show whether messaging and launches are working: activation, win rates, sales feedback, and content performance.\n\n- Partner with Growth Marketing and Sales in Brazil to keep narrative and campaigns aligned with what's actually happening in the market.\n\n- Monitor Brazilian fintech competitors and feed intelligence back into positioning and enablement.\n\nMust haves\n\n- 2-4 years in product marketing, growth marketing, or a closely related function.\n\n- Strong storyteller: writing samples or work you can point to that turned a product fact into a clear, persuasive narrative.\n\n- Analytical: comfortable working with data to judge whether messaging or a launch actually worked.\n\n- Active, daily use of AI Building tools as part of your real workflow.\n\n- Native or fluent Portuguese, strong written and spoken English.\n\n- Based in Brasil, with a working understanding of the Brazilian B2B buyer and competitive landscape.\n\n- Organized and able to execute independently once direction is set.\n\nNice to haves\n\n- Fintech, payments, or B2B SaaS experience.\n\n- Startup experience, where you've had to move fast with limited resources.\n\n- Experience building AI-assisted research, content, or enablement workflows.\n\n- Experience working with global or distributed marketing teams.\n\nWhy Clara\n\n- A high talent-density team driven to make an impact in Latin America — low ego, high ownership.\n\n- Competitive salary and stock options (ESOP) from day one.\n\n- An annual learning budget and accelerated development paths.\n\n- English is our working language, with Spanish and Portuguese every day.\n\nHow we work\n\n- Clarity — Open and direct communication: we say what we mean and give context where it matters.\n\n- Simplicity — If it can be simpler, it should be.\n\n- Ownership — We own everything we do, end to end. When something needs to happen, we don't wait.\n\n- Pride — We hold ourselves to a high standard, and it shows in what we deliver.\n\n- ABC (Always Be Changing) — We adapt fast, embrace change, and keep learning.\n\n- Inclusivity — Diverse ideas, stories and perspectives build a better Clara.\n\nIf you meet the must-haves, apply — the nice-to-haves are a bonus, not a requirement.",
+      "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5283621007",
+      "source": "greenhouse",
+      "posted_at": "2026-11-03T16:55:52-05:00",
+      "scraped_at": "2026-11-04T15:00:13.344Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:158691",
+      "hub": "business",
+      "title": "Customer Support Associate",
+      "company": "Fresh Prints",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Jobicy",
+      "level": "Entry",
+      "location": "Philippines",
+      "employment_type": "full-time",
+      "comp_min": 700,
+      "comp_max": 700,
+      "summary": "Customer Support Associate – SeatGeek Job Description Location: Remote – Philippines Working hours: 8AM - 5PM EST Working days: 5 working days in a week with 2 days off in a row Co…",
+      "description": "Customer Support Associate – SeatGeek Job Description\n\nLocation: Remote – Philippines\nWorking hours: 8AM - 5PM EST\nWorking days: 5 working days in a week with 2 days off in a row\nCompensation: $700 per month\n\nAbout SeatGeek\n\nSeatGeek believes live events are powerful experiences that unite humans. With our technological savvy and fan-first attitude, we’re simplifying and modernizing the ticketing industry.\n\nAs a Customer Support Representative supporting SeatGeek through Frontier, you’ll help fans navigate every stage of their live-event experience. From accessing tickets before a major game to resolving an unexpected issue close to event time, you’ll provide clear, empathetic, and dependable support when customers need it most.\n\nYou’ll assist customers through phone, email, and live chat while developing a strong understanding of SeatGeek’s platform, policies, and customer experience standards. This is a great opportunity for someone who enjoys solving problems, communicating with people, and creating positive experiences in a fast-moving environment.\n\nWhat you’ll do\n\n- Support SeatGeek customers through phone, email, and live chat\n\n- Help customers with questions related to ticket purchases, ticket delivery, transfers, account access, payments, refunds, and event changes\n\n- Investigate customer concerns using SeatGeek’s systems, policies, and internal resources\n\n- Communicate clearly and empathetically, particularly when customers are dealing with urgent or frustrating situations\n\n- Take ownership of customer issues and work toward accurate, timely, and practical resolutions\n\n- Document customer interactions and resolutions accurately\n\n- Identify situations that require additional support and escalate them through the appropriate channels\n\n- Meet expectations related to customer satisfaction, quality, productivity, attendance, and schedule adherence\n\n- Participate in regular coaching, quality reviews, training, and team meetings\n\n- Follow all customer-data, account-security, confidentiality, and information-security requirements\n\n- Share recurring customer concerns and process gaps with the Team Lead to help improve the overall fan experience\n\n- Collaborate closely with teammates and internal partners to create a consistent and reliable customer experience\n\nWhat you have\n\n- At least two years of experience in customer support, customer service, contact-center operations, or another customer-facing role\n\n- Strong spoken and written English\n\n- Experience assisting customers through phone, email, or live chat; experience working across multiple channels is preferred\n\n- A customer-first mindset and the ability to remain calm and helpful during difficult conversations\n\n- Strong problem-solving skills and the judgment to determine when an issue should be resolved independently or escalated\n\n- High attention to detail and the ability to document information accurately\n\n- Comfort learning new systems, policies, and workflows\n\n- Ability to manage multiple priorities in a fast-paced environment\n\n- A track record of reliability, punctuality, and ownership\n\n- Openness to feedback and the ability to apply coaching quickly\n\n- A collaborative, “one team” approach to working with colleagues\n\nRemote-work requirements\n\n- A reliable computer and headset with a microphone for the training period (work equipment is provided once you join the live team)\n\n- A stable high-speed internet connection suitable for voice and video calls\n\n- A dependable backup internet connection\n\n- A quiet and professional workspace\n\n- Ability to meet SeatGeek and Frontier’s information-security and workspace requirements\n\nTraining\n\nYour journey starts with an advanced assessment sessions conducted by Frontier to set you up for success from day one. You’ll get hands-on with SeatGeek’s platform, support tools, and phone, email, and chat workflows, practice with realistic customer scenarios, and learn directly from experienced coaches and teammates who want you to thrive.\n\nBy the end, you’ll have the product knowledge, confidence, and skills to handle live customer conversations with ease. Your $700 monthly compensation begins when you join the live support team after completing training.\n\nTo join the live team, you’ll meet the program’s standards for attendance, knowledge, quality, security, and customer simulations. Everyone who completes it graduates ready to deliver great support and make a real difference for fans.\n\nWhy you’ll love this role\n\n- You’ll help fans enjoy memorable sports, concert, theater, and live entertainment experiences\n\n- You’ll solve meaningful customer problems rather than simply provide scripted responses\n\n- You’ll be part of a new team and have the opportunity to help shape how it grows\n\n- You’ll gain experience supporting a leading technology platform in the live-events industry\n\n- You’ll work with a collaborative team that values ownership, transparency, and continuous improvement\n\nCompensation and benefits\n\n- Monthly compensation: $700 per month, beginning when you join the live support team\n\n- Full-time, remote working arrangement\n\n- Work equipment provided",
+      "apply_url": "https://jobicy.com/jobs/158691-customer-support-associate",
+      "source": "Jobicy",
+      "posted_at": "2026-11-03T15:11:08.000Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
+      "status": "open"
+    },
     {
       "id": "agg:jobicy:158624",
       "hub": "business",
@@ -24,7 +178,7 @@
       "apply_url": "https://jobicy.com/jobs/158624-product-support-representative-2",
       "source": "Jobicy",
       "posted_at": "2026-11-03T08:23:01.000Z",
-      "scraped_at": "2026-11-03T14:47:41.096Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
       "status": "open"
     },
     {
@@ -46,7 +200,29 @@
       "apply_url": "https://jobicy.com/jobs/152290-senior-implementation-specialist",
       "source": "Jobicy",
       "posted_at": "2026-11-03T03:27:05.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:remotive:1749306",
+      "hub": "business",
+      "title": "Freelance Copywriter",
+      "company": "Coalition Technologies ",
+      "company_id": "agg:remotive",
+      "priority": false,
+      "category": "Content Writer",
+      "segment": "Remotive",
+      "level": "Mid",
+      "location": "Worldwide",
+      "employment_type": "full-time",
+      "comp_min": 20000,
+      "comp_max": 35000,
+      "summary": "CT Marketing Agency is seeking skilled Freelance Copywriters to write high-quality, SEO-driven content for eCommerce and lead generation websites.",
+      "description": "CT Marketing Agency is seeking skilled Freelance Copywriters to write high-quality, SEO-driven content for eCommerce and lead generation websites. This is a freelance, project-based writing role.\n\n \n\nThe ideal candidate has excellent English writing skills, strong research ability, and experience writing content that follows detailed, client-specific guidelines. Projects commonly include category pages, product descriptions, blog posts, SEO landing pages, and website copy.\n\n \n\nAbout the Role\n\nOur client base is constantly evolving, and writers may create content across a wide range of industries, including:\n\n- Fashion, including mass-market and luxury brands\n\n- Skincare and beauty\n\n- Tech and software\n\n- Finance and investing\n\n- Law, including family law, divorce, and product liability\n\n- Education\n\n- Home improvement\n\n- Automobiles and motorcycles\n\n- Health and wellness\n\n- Medical and clinical fields\n\n- Digital marketing\n\n- SEO, PR, advertising, and marketing\n\nWriters with experience in highly specialized industries such as tech, finance, law, health, medical, SEO, PR, advertising, or marketing are strongly encouraged to apply.\n\nResponsibilities\n\n- Write clear, engaging, SEO-friendly content for eCommerce and lead generation websites\n\n- Create category pages, product descriptions, blog posts, landing pages, and website copy\n\n- Research client industries, products, services, audiences, and competitors\n\n- Follow detailed client guidelines and adapt to different brand voices\n\n- Blend SEO best practices with brand priorities and conversion-focused writing\n\n- Complete assignments by deadline and communicate professionally with the team\n\nQualifications\n\n- Excellent English writing, grammar, editing, and proofreading skills\n\n- 2 to 4 years of professional, non-academic writing experience preferred\n\n- Strong understanding of SEO writing best practices\n\n- Ability to research unfamiliar industries and technical topics\n\n- Ability to write creative, engaging, accurate, and ROI-focused content\n\n- Portfolio featuring published work preferred\n\n- Experience in specialized industries strongly preferred\n\nCompensation\n\nWriters are paid on a per-word basis. Rates are assessed according to our KPI rubric.\n\nInitial compensation is up to $0.06 per word, with $0.034 per word being the most typical rate\n\nThis equals approximately $30 or $17 per 500-word page\n\nAfter 400 live pages, the top rate increases to $0.064 per word, with $0.038 per word being the most typical rate\n\nAfter 800 live pages, the top rate increases to $0.07 per word, with $0.044 per word being the most typical rate\n\n \n\nApplication Process\n\nCandidates should be prepared to provide a portfolio featuring published work. Once an offer is extended, writers will complete a brief training course.",
+      "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
+      "source": "Remotive",
+      "posted_at": "2026-11-02T20:01:00.000Z",
+      "scraped_at": "2026-11-04T15:00:47.037Z",
       "status": "open"
     },
     {
@@ -90,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/158534-online-support-representative",
       "source": "Jobicy",
       "posted_at": "2026-11-02T13:02:37.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
       "status": "open"
     },
     {
@@ -134,7 +310,7 @@
       "apply_url": "https://jobicy.com/jobs/158433-customer-service-representative-portuguese-english",
       "source": "Jobicy",
       "posted_at": "2026-11-02T04:27:41.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
       "status": "open"
     },
     {
@@ -156,7 +332,7 @@
       "apply_url": "https://jobicy.com/jobs/158431-customer-service-representative-french-english",
       "source": "Jobicy",
       "posted_at": "2026-11-02T04:27:40.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
       "status": "open"
     },
     {
@@ -178,7 +354,7 @@
       "apply_url": "https://jobicy.com/jobs/142189-customer-service-representative-spanish-bilingual",
       "source": "Jobicy",
       "posted_at": "2026-11-02T03:05:04.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
       "status": "open"
     },
     {
@@ -200,7 +376,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8336768",
       "source": "greenhouse",
       "posted_at": "2026-11-02T03:04:42-05:00",
-      "scraped_at": "2026-11-03T14:47:18.787Z",
+      "scraped_at": "2026-11-04T14:59:55.514Z",
       "status": "open"
     },
     {
@@ -266,7 +442,7 @@
       "apply_url": "https://jobicy.com/jobs/158311-field-specialist-taranaki",
       "source": "Jobicy",
       "posted_at": "2026-11-01T06:18:32.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
       "status": "open"
     },
     {
@@ -288,7 +464,7 @@
       "apply_url": "https://jobicy.com/jobs/158309-field-specialist-northland",
       "source": "Jobicy",
       "posted_at": "2026-11-01T06:18:29.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
+      "scraped_at": "2026-11-04T15:00:54.422Z",
       "status": "open"
     },
     {
@@ -311,72 +487,6 @@
       "source": "We Work Remotely",
       "posted_at": "2026-10-31T16:00:16.000Z",
       "scraped_at": "2026-11-03T14:47:39.601Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:158176",
-      "hub": "business",
-      "title": "Customer Support Specialist",
-      "company": "Mercury",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 43300,
-      "comp_max": 58400,
-      "summary": "Mercury is building a complete finance stack for startups. Since we launched Mercury in 2019, our customer base has grown to over 300,000 startups and small businesses from all aro…",
-      "description": "Mercury is building a complete finance stack for startups. Since we launched Mercury in 2019, our customer base has grown to over 300,000 startups and small businesses from all around the world. This turns out to be a pretty wild endeavor, so we’re looking to bring someone smart onto our Customer Support team to help us out.\n\nAs a member of our Customer Support team, you’ll make sure our users are charmed by warmth and competence when they have questions or needs that aren’t being met by our product. You’ll radiate intelligence while exercising your best human qualities, like compassion and empathy, even in the face of frustration.\n\nYou’ll need to understand how our product works in detail. Banking* has a lot of moving pieces, so this is harder than it might seem. Finding efficient, elegant solutions for problems stemming from the oft-convoluted U.S. financial system isn’t always easy, but if you’re good at your job, our users will never know it.\n\n*Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\n\nWhat You’ll Do:\n\n- Answer user questions over chat, email, and phone\n\n- Handle user account requests, including application processing, card disputes, missing payments, card shipments, and a whole lot more\n\n- Teach customers how to use our product (hopefully most of it is self-explanatory), and translate user confusion into product suggestions\n\n- Identify the systemic flaws that lead to user problems\n\n- Work with our engineering team to find and squash bugs\n\n- Communicate our users' needs to our partner banks and work with them to improve their products and processes\n\n- Write help articles and FAQs\n\n- Learn our internal tools and figure out how to improve them\n\n- Put in place processes to make your job more efficient\n\n- Help with other compliance and customer tasks\n\n- Create and sustain warm relationships with our users\n\n- Help build out the customer support and ops infrastructure at Mercury\n\nWhat You Bring:\n\n- Have 2+ years of experience in a Customer Experience / Customer Support role\n\n- Consistently exercise empathy\n\n- Always seek to answer the question behind the question\n\n- Understand how to translate complex terminology into clear, human user communication\n\n- Enjoy thinking about how to automate as much of your job as possible\n\n- Keep a clean, ordered inbox\n\n- Stay calm and collected while working on ten things at once\n\n- Feel confident talking with startup folks in person, over chat, or on the phone\n\n- Use creativity while working within difficult constraints\n\n- Show kindness in the face of unpleasantness (our customers generally are really great, but they can get passionate when it comes to their businesses)\n\nWould be nice if you:\n\n- Have experience working in retail branch banking\n\n- Are passionate about uncovering customer needs\n\n- Enjoy solving customer problems and proactively offering solutions to unmet needs\n\nSchedule Information:\n\n- Required: be available to work at least one weekend day per 5 day shift\n\n- We are currently hiring for multiple shifts. Openings will be covered early in the interview process\n\n- Your working schedule will be fixed - this is long-term commitment, not a rotating shift\n\nMercury values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Mercury are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, sexual orientation, or any other legally protected characteristic. We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities or special needs. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role.\n\n#LI-RP1\n\nTotal Rewards\nThe total rewards package at Mercury includes base salary, equity (stock options/RSUs), and benefits.\n\nOur salary and equity ranges are highly competitive within the SaaS and fintech industry and are updated regularly using the most reliable compensation survey data for our industry. New hire offers are made based on a candidate’s experience, expertise, geographic location, and internal pay equity relative to peers.\n\nOur target new hire base salary ranges for this role are the following:\n\nUS employees in New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n\n$48,100—$58,400 USD\n\nUS employees outside of New York City, Los Angeles, Seattle, or the San Francisco Bay Area:\n\n$43,300—$52,500 USD",
-      "apply_url": "https://jobicy.com/jobs/158176-customer-support-specialist-7",
-      "source": "Jobicy",
-      "posted_at": "2026-10-31T10:09:20.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:158149",
-      "hub": "business",
-      "title": "Merchant Support Specialist",
-      "company": "Polar",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Europe",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Merchant Operations at Polar Merchant Operations at Polar is about delivering an exceptional merchant experience while building the processes, tooling and automation that allow us…",
-      "description": "Merchant Operations at Polar\n\nMerchant Operations at Polar is about delivering an exceptional merchant experience while building the processes, tooling and automation that allow us to scale. As we rethink how software companies monetize their products, we help merchants navigate the complexities of global payments, billing and financial workflows.\n\nPolar sits in the critical path of our merchants' businesses, where reliability, responsiveness and sound judgment matter deeply. We're looking for people who enjoy solving complex problems, understanding how products work and collaborating closely with Product and Engineering to turn merchant insights into meaningful improvements.\n\nWe're a small, fast-moving team where there's plenty of room to take ownership, challenge how things are done and make a meaningful impact. We value people who look beyond individual problems, spot opportunities to improve how we work and help build the systems and experiences that make Polar better as we scale.\n\nMore about Polar and how we work.\n\nRole & responsibilities: What you will do\n\nAs a Merchant Support Specialist, you'll be on the front lines helping merchants and customers succeed with Polar. You'll troubleshoot issues, answer questions, and work closely with Product and Engineering to improve the merchant experience.\n\nAs a small and fast-moving team, we’re looking for someone who wants to do more than resolve individual support requests. You’ll be close to the product and the people using it, identifying friction, spotting opportunities for improvement, and helping build the processes, tooling, and automation that allow Merchant Operations to scale alongside Polar.\n\nYou’ll work with the team to\n\n-\nOwn merchant and customer inquiries end-to-end across email, chat, and Slack, ensuring issues are understood, prioritized and driven to resolution.\n\n-\nInvestigate and troubleshoot issues across payments, payouts, subscriptions, checkout and the merchant dashboard, building a deep understanding of how Polar works.\n\n-\nHelp merchants successfully onboard, navigate the platform, and understand the operational and financial workflows involved in using Polar as their Merchant of Record.\n\n-\nPartner closely with Product and Engineering to reproduce bugs, uncover root causes, and turn merchant feedback into meaningful product improvements.\n\n-\nIdentify recurring support trends, proactively identifying recurring friction and opportunities to improve the Help Center, documentation, product, and internal processes.\n\n-\n Exercise sound judgment in prioritizing and escalating complex technical, payment, and account issues, balancing urgency, merchant impact, and operational risk.\n\n-\nMaintain a high bar for customer experience by providing thoughtful, accurate, and timely support.\n\n-\nContribute to operational improvements that help us scale support without sacrificing quality.\n\nWhat we’re looking for\n\nWe're looking for someone who is naturally curious, resourceful, and enjoys getting to the bottom of complex problems. You're comfortable working across multiple tools, can explain complex topics clearly, and care about delivering an excellent customer experience while balancing efficiency with attention to detail.\n\nSkills & Experience\n\n-\n2+ years of experience in customer support, merchant support, or customer success, preferably in SaaS, fintech, or payments.\n\n-\nExcellent written communication skills with a customer-first mindset.\n\n-\nStrong troubleshooting and problem-solving abilities.\n\n-\nExperience working with support platforms such as Plain, Zendesk, Intercom, or similar.\n\n-\nAbility to independently prioritize and manage multiple conversations while maintaining attention to detail.\n\n-\nComfortable collaborating with Product and Engineering teams to resolve customer issues.\n\n-\nFamiliarity with payments, subscriptions, or Merchant of Record platforms is a plus.",
-      "apply_url": "https://jobicy.com/jobs/158149-merchant-support-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-10-31T09:11:30.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:158139",
-      "hub": "business",
-      "title": "Client Support Specialist - After Hours",
-      "company": "Lyra Health",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 24,
-      "comp_max": 24,
-      "summary": "About Lyra Health Lyra Health is a leading provider of evidence-based mental health care, serving more than 20 million people globally in partnership with employers and more than 1…",
-      "description": "About Lyra Health\n\nLyra Health is a leading provider of evidence-based mental health care, serving more than 20 million people globally in partnership with employers and more than 100 million through health plan and partner relationships. The company has delivered more than 15 million sessions of mental health care, published more than 35 peer-reviewed studies, and delivered unmatched outcomes in terms of access, clinical effectiveness, and cost efficiency. Extensive peer-reviewed research confirms Lyra’s transformative care model helps people recover twice as fast and results in a 26% annual reduction in overall healthcare claims costs. Lyra is transforming access to life-changing mental health care through Lyra Empower, the only fully integrated, AI-powered platform combining the highest-quality care and technology solutions.\n\nAbout the Role\n\nThe Client Support Specialist serves as the critical first point of contact for Lyra clients seeking high-quality mental health care. This is a vital, client-facing role that supports individuals beginning their care journey.\n\nKey responsibilities include conducting needs assessments, connecting clients to appropriate care, performing risk triage and escalation to our clinical teams, and answering benefit, product, and technical questions. Lyra provides extensive training on how to support our clients and meet them where they are in their care journey.\n\nAbove all, this team member is committed to supporting each client with confidence and compassion. This is a high-volume, performance-driven contact center environment where proficiency in managing all inbound channels-calls, emails and chats is essential.\n\nMust be able to work one of the following shifts:\nMonday - Friday 7:30pm - 4:00am PT\n\nTuesday - Saturday 7:30pm - 4:00am PT\n\nSunday - Thursday 7:30pm - 4:00am PT\nTuesday - Saturday 9pm - 5:30am PT\n\nSunday - Thursday 9pm - 5:30am PT\n\nResponsibilities\n\n-\nDemonstrate strong time management skills and flexibility in fielding the unexpected throughout the workday\n\n-\nConduct needs assessment and educate clients about Lyra’s services and benefit offerings\n\n-\nPrioritize client safety and wellbeing, with an ability to recognize potential safety concerns and escalate to ensure clients receive an appropriate level of support\n\n-\nEngage in feedback and frequent self-assessment of strengths and areas for growth\n\n-\nWork well in a structured team environment\n\n-\nDemonstrate flexibility with shift changes.\n\n-\nExcellent communication skills: written and verbal\n\n-\nTechnical: You easily navigate through Customer Relationship Management tools.\n\n-\nAbility to handle a high volume workload either through chat, email or phones and the ability to pivot between servicing channels as needed\n\nQualifications\n\n-\nMinimum 1 year of direct experience in a customer support, customer service, or high-touch service role.\n\n-\nDemonstrate exceptional writing skills and the ability to provide information in a clear and concise manner while conveying a warm and friendly tone\n\n-\nExperience with Zendesk, Salesforce, and/or Chat tools; otherwise you pride yourself on picking up new tools/systems quickly.\n\n-\nThis role requires flexibility to work evenings, weekends, and holidays as part of our regular coverage schedule.\n\nDesired Skills:\n\n-\nExperience working remotely is a plus.\n\n-\nYou are passionate about improving mental health care and excited by our mission of leveraging technology to scale access to evidence-based therapies.\n\n-\nYou have a proven track record of working across multiple teams in a highly-collaborative manner to support members.\n\n-\nPrior experience working in healthcare and/or a technology environment preferred.\n\nCompensation\n\nAs a full-time Client Support Specialist, you will be employed by Lyra Health, Inc. The anticipated base rate for this full-time position is $24 per hour. The base rate is determined by role and level, and the base rate will depend on a number of job-related factors, including but not limited to your skills, qualifications, experience and location.\n\nAnnual salary is only one part of an employee’s total compensation package at Lyra. We also offer generous benefits that include:\n\n- Comprehensive healthcare coverage (including medical, dental, vision, FSA/HSA, life and disability insurances)\n\n- Lyra for Lyrians; coaching and therapy services\n\n- Competitive time off with pay policies including vacation, sick days, and company holidays\n\n- Paid parental leave\n\n- 401K retirement benefits\n\n- Monthly tech allowance\n\n- We like to spread joy throughout the year with well-being perks and activities, surprise swag, regular community celebration…and more!\n\nWe can’t wait to meet you.\n\nAdditional Information\n\n\"We are an Equal Opportunity Employer. We do not discriminate on the basis of race, color, religion, sex (including pregnancy), national origin, age, disability, genetic information or any other category protected by law.\n\nBy applying for this position, you acknowledge that your personal information will be processed as per the Lyra Health Workforce Privacy Notice. Through this application, to the extent permitted by law, we will collect personal information from you including, but not limited to, your name, email address, gender identity, employment information, and phone number for the purposes of recruiting and assessing suitability, aptitude, skills, qualifications, and interests for employment with Lyra. We may also collect information about your race, ethnicity, and sexual orientation, which is considered sensitive personal information under the California Privacy Rights Act (CPRA) and special category data under the UK and EU GDPR. Providing this information is optional and completely voluntary, and if you provide it you consent to Lyra processing it for the purposes as described at the point of collection, for example for diversity and inclusion initiatives. If you are a California resident and would like to limit how we use this information, please use the Limit the Use of My Sensitive Personal Information form. This information will only be retained for as long as needed to fulfill the purposes for which it was collected, as described above. Please note that Lyra does not “sell” or “share” personal information as defined by the CPRA. Outside of the United States, for example in the EU, Switzerland and the UK, you may have the right to request access to, or a copy of, your personal information, including in a portable format; request that we delete your information from our systems; object to or restrict processing of your information; or correct inaccurate or outdated personal information in our systems. These rights may be subject to legal limitations. To exercise your data privacy rights outside of the United States, please contact globaldpo@lyrahealth.com. For more information about how we use and retain your information, please see our Workforce Privacy Notice.\"",
-      "apply_url": "https://jobicy.com/jobs/158139-client-support-specialist-after-hours",
-      "source": "Jobicy",
-      "posted_at": "2026-10-31T09:09:25.000Z",
-      "scraped_at": "2026-11-03T14:47:41.097Z",
       "status": "open"
     },
     {
@@ -420,7 +530,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-10-30T08:37:44-04:00",
-      "scraped_at": "2026-11-03T14:47:31.509Z",
+      "scraped_at": "2026-11-04T15:00:15.428Z",
       "status": "open"
     },
     {
@@ -486,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8242496",
       "source": "greenhouse",
       "posted_at": "2026-10-29T05:59:26-04:00",
-      "scraped_at": "2026-11-03T14:47:18.787Z",
+      "scraped_at": "2026-11-04T14:59:55.514Z",
       "status": "open"
     },
     {
@@ -508,7 +618,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/6234225003",
       "source": "greenhouse",
       "posted_at": "2026-10-29T02:54:34-04:00",
-      "scraped_at": "2026-11-03T14:47:24.712Z",
+      "scraped_at": "2026-11-04T15:00:01.599Z",
       "status": "open"
     },
     {
@@ -552,7 +662,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272406007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:14:27-04:00",
-      "scraped_at": "2026-11-03T14:47:28.496Z",
+      "scraped_at": "2026-11-04T15:00:13.344Z",
       "status": "open"
     },
     {
@@ -574,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272446007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:13:55-04:00",
-      "scraped_at": "2026-11-03T14:47:28.496Z",
+      "scraped_at": "2026-11-04T15:00:13.344Z",
       "status": "open"
     },
     {
@@ -596,7 +706,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169731007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:11:31-04:00",
-      "scraped_at": "2026-11-03T14:47:28.496Z",
+      "scraped_at": "2026-11-04T15:00:13.344Z",
       "status": "open"
     },
     {
@@ -618,7 +728,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:04:14-04:00",
-      "scraped_at": "2026-11-03T14:47:28.496Z",
+      "scraped_at": "2026-11-04T15:00:13.343Z",
       "status": "open"
     },
     {
@@ -662,7 +772,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6226462004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-11-03T14:47:06.483Z",
+      "scraped_at": "2026-11-04T14:59:46.819Z",
       "status": "open"
     },
     {
@@ -684,7 +794,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6199653004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-11-03T14:47:06.484Z",
+      "scraped_at": "2026-11-04T14:59:46.820Z",
       "status": "open"
     },
     {
@@ -706,7 +816,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6230088004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-11-03T14:47:06.484Z",
+      "scraped_at": "2026-11-04T14:59:46.820Z",
       "status": "open"
     },
     {
@@ -728,7 +838,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6232781004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-11-03T14:47:06.484Z",
+      "scraped_at": "2026-11-04T14:59:46.820Z",
       "status": "open"
     },
     {
@@ -772,7 +882,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/21af1f6e-4454-48d8-9d1b-a5ceac4aff7c",
       "source": "lever",
       "posted_at": "2026-10-27T10:56:29.554Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -816,7 +926,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/a8c7ee7c-ccdf-4d98-aa0a-d73f15d15e6b",
       "source": "lever",
       "posted_at": "2026-10-26T14:47:35.219Z",
-      "scraped_at": "2026-11-03T14:47:26.299Z",
+      "scraped_at": "2026-11-04T15:00:11.638Z",
       "status": "open"
     },
     {
@@ -860,7 +970,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-10-21T13:52:12-04:00",
-      "scraped_at": "2026-11-03T14:47:31.521Z",
+      "scraped_at": "2026-11-04T15:00:15.583Z",
       "status": "open"
     },
     {
@@ -992,7 +1102,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/120541c5-8caa-4e7e-aefa-c12fcf3c5663",
       "source": "lever",
       "posted_at": "2026-10-16T09:21:51.285Z",
-      "scraped_at": "2026-11-03T14:47:26.297Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1102,7 +1212,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-10-13T14:30:40-04:00",
-      "scraped_at": "2026-11-03T14:47:28.511Z",
+      "scraped_at": "2026-11-04T15:00:13.477Z",
       "status": "open"
     },
     {
@@ -1124,7 +1234,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-10-11T20:17:27.000Z",
-      "scraped_at": "2026-11-03T14:47:40.096Z",
+      "scraped_at": "2026-11-04T15:00:47.037Z",
       "status": "open"
     },
     {
@@ -1168,7 +1278,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1252b51c-b738-4283-815c-aa7d9e7b4845",
       "source": "lever",
       "posted_at": "2026-10-07T07:46:43.958Z",
-      "scraped_at": "2026-11-03T14:47:26.299Z",
+      "scraped_at": "2026-11-04T15:00:11.638Z",
       "status": "open"
     },
     {
@@ -1190,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-11-03T14:47:26.299Z",
+      "scraped_at": "2026-11-04T15:00:11.638Z",
       "status": "open"
     },
     {
@@ -1234,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/4f975d78-90be-4910-af6b-b4a99de3a96e",
       "source": "lever",
       "posted_at": "2026-09-17T12:07:55.315Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1256,7 +1366,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1300,7 +1410,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1410,7 +1520,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0b14cde9-0c0d-47a2-a064-799b51e372af",
       "source": "lever",
       "posted_at": "2026-08-06T13:57:16.813Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1432,7 +1542,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1454,7 +1564,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1476,7 +1586,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
       "source": "lever",
       "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-11-03T14:47:26.299Z",
+      "scraped_at": "2026-11-04T15:00:11.638Z",
       "status": "open"
     },
     {
@@ -1498,7 +1608,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-11-03T14:47:26.299Z",
+      "scraped_at": "2026-11-04T15:00:11.638Z",
       "status": "open"
     },
     {
@@ -1520,7 +1630,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1542,7 +1652,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1564,7 +1674,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-11-03T14:47:26.299Z",
+      "scraped_at": "2026-11-04T15:00:11.638Z",
       "status": "open"
     },
     {
@@ -1608,7 +1718,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e8d2ddf7-9033-4777-9b84-c70ae07610b6",
       "source": "lever",
       "posted_at": "2025-06-18T08:41:32.740Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1630,7 +1740,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1652,7 +1762,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-11-03T14:47:26.298Z",
+      "scraped_at": "2026-11-04T15:00:11.637Z",
       "status": "open"
     },
     {
@@ -1674,29 +1784,51 @@
       "apply_url": "https://www.atlassian.com/company/careers/details/26834",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:08.397Z",
+      "scraped_at": "2026-11-04T14:59:48.814Z",
       "status": "open"
     },
     {
-      "id": "dom:loom:https://www.atlassian.com/company/careers/details/27636",
-      "hub": "business",
-      "title": "Sales Enablement Specialist, DX",
-      "company": "Loom",
-      "company_id": "loom",
+      "id": "workday:clio:REQ-4568",
+      "hub": "legal",
+      "title": "Payroll Specialist",
+      "company": "Clio",
+      "company_id": "clio",
       "priority": false,
       "category": "Other",
-      "segment": "Async Video Messaging",
+      "segment": "Legal Practice Management SaaS",
       "level": "Mid",
-      "location": "See posting",
+      "location": "2 Locations",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Sales Enablement Specialist, DX at Loom.",
+      "summary": "Payroll Specialist at Clio.",
       "description": "",
-      "apply_url": "https://www.atlassian.com/company/careers/details/27636",
-      "source": "dom",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
+      "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:08.398Z",
+      "scraped_at": "2026-11-04T14:59:52.361Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-4487",
+      "hub": "legal",
+      "title": "Senior Marketing Operations Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Senior",
+      "location": "3 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Marketing Operations Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Marketing-Operations-Specialist_REQ-4487",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1718,7 +1850,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Calgary/Customer-Support-Specialist--New-Grads-_REQ-5019",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.184Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1740,7 +1872,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/Senior-Billing-Specialist_REQ-5541",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.184Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1762,7 +1894,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.184Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1784,7 +1916,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Global-Benefits-Specialist_REQ-5172",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.184Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1806,7 +1938,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Support-Specialist_REQ-5538",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.184Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1828,7 +1960,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.185Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1850,7 +1982,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.185Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1872,7 +2004,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.185Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1894,7 +2026,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.185Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1916,7 +2048,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.185Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1938,7 +2070,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.185Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -1960,29 +2092,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:12.185Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
-      "hub": "legaltech",
-      "title": "Billing/Collections Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Billing/Collections Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
+      "scraped_at": "2026-11-04T14:59:52.362Z",
       "status": "open"
     },
     {
@@ -2004,7 +2114,7 @@
       "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
+      "scraped_at": "2026-11-04T14:59:55.098Z",
       "status": "open"
     },
     {
@@ -2026,7 +2136,29 @@
       "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
+      "scraped_at": "2026-11-04T14:59:55.098Z",
+      "status": "open"
+    },
+    {
+      "id": "dom:clio-legal:https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
+      "hub": "legaltech",
+      "title": "Collections Specialist",
+      "company": "Filevine",
+      "company_id": "clio-legal",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Case Management Software",
+      "level": "Mid",
+      "location": "See posting",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Collections Specialist at Filevine.",
+      "description": "",
+      "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
+      "source": "dom",
+      "posted_at": null,
+      "scraped_at": "2026-11-04T14:59:55.098Z",
       "status": "open"
     },
     {
@@ -2048,51 +2180,7 @@
       "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
-      "hub": "legaltech",
-      "title": "Event Operations Coordinator",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Virtual Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Event Operations Coordinator at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/5dfaafbc-4526-4233-bcc5-52215b6e143e/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
-      "hub": "legaltech",
-      "title": "Event Operations Coordinator",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Virtual Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Event Operations Coordinator at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/a4addb23-91e1-48c2-814a-861ac1cc634d/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
+      "scraped_at": "2026-11-04T14:59:55.098Z",
       "status": "open"
     },
     {
@@ -2114,95 +2202,7 @@
       "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
       "source": "dom",
       "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/594dba01-0f77-4f99-9484-ccebeacf39de/",
-      "hub": "legaltech",
-      "title": "Executive Assistant to the CEO",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Executive Assistant to the CEO at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/594dba01-0f77-4f99-9484-ccebeacf39de/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/4f3c925a-e780-417b-acad-65b1d49c0735/",
-      "hub": "legaltech",
-      "title": "Executive Assistant, Chief Growth Officer",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Executive Assistant, Chief Growth Officer at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/4f3c925a-e780-417b-acad-65b1d49c0735/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
-      "hub": "legaltech",
-      "title": "Partner Onboarding Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Partner Onboarding Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/02fba2b0-3b76-4ffb-b3fe-48dc33ca0b0b/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/6c220fe7-5652-43c8-8ee2-42f8492b1ad1/",
-      "hub": "legaltech",
-      "title": "Renewals Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Renewals Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/6c220fe7-5652-43c8-8ee2-42f8492b1ad1/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-03T14:47:18.380Z",
+      "scraped_at": "2026-11-04T14:59:55.098Z",
       "status": "open"
     }
   ]
