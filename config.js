@@ -532,7 +532,7 @@ export const COMPANIES = [
   { id: "gostudent", name: "GoStudent", hub: "business", careersUrl: "https://gostudent.org/careers", website: "https://gostudent.org", segment: "Online Tutoring Platform", country: "Austria", verified: false, method: null, atsSlug: null, active: true },
 
   // Denmark
-  { id: "pleo", name: "Pleo", hub: "fintech", careersUrl: "https://www.pleo.io/en/careers", website: "https://www.pleo.io", segment: "Company Card & Spend Management", country: "Denmark", verified: false, method: null, atsSlug: null, active: true },
+  { id: "pleo", name: "Pleo", hub: "fintech", careersUrl: "https://www.pleo.io/en/careers", website: "https://www.pleo.io", segment: "Company Card & Spend Management", country: "Denmark", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "vivino", name: "Vivino", hub: "business", careersUrl: "https://www.vivino.com/careers", website: "https://www.vivino.com", segment: "Wine Marketplace & Social App", country: "Denmark", verified: false, method: null, atsSlug: null, active: true },
   { id: "templafy", name: "Templafy", hub: "saas", careersUrl: "https://www.templafy.com/careers/", website: "https://www.templafy.com", segment: "Document Generation Platform", country: "Denmark", verified: false, method: "dom", atsSlug: null, active: true },
 
