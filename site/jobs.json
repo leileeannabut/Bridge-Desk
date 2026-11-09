@@ -1,10 +1,208 @@
 {
-  "generated_at": "2026-11-08T13:59:55.974Z",
+  "generated_at": "2026-11-09T17:01:30.042Z",
   "count": 100,
-  "total_open": 120,
-  "sources_ok": 55,
-  "sources_failed": 26,
+  "total_open": 131,
+  "sources_ok": 56,
+  "sources_failed": 25,
   "jobs": [
+    {
+      "id": "agg:weworkremotely:iqvia-coordinator-senior-coordinator-project-services-laboratories-remote-east-c",
+      "hub": "business",
+      "title": "Coordinator / Senior Coordinator, Project Services - Laboratories (Remote - East Coast)",
+      "company": "IQVIA",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Senior",
+      "location": "USA Only",
+      "employment_type": "full-time",
+      "comp_min": 44500,
+      "comp_max": 111800,
+      "summary": "Headquarters: Marietta, Georgia, United States URL: https://www.iqvia.com We are seeking laboratory professionals to join the Project Services team with IQVIA Laboratories.",
+      "description": "Headquarters: Marietta, Georgia, United States\n\nURL: https://www.iqvia.com\n\nWe are seeking laboratory professionals to join the Project Services team with IQVIA Laboratories.\n\nThis role is 100% remote (Eastern Time business hours). We are hiring at multiple levels — candidates are aligned to the appropriate level based on experience.\n\nWe hire passionate innovators who drive healthcare forward through thoughtful and inclusive collaboration. If you want to discover a career with greater purpose, join us as we transform and accelerate research and development.\nJob Summary:\nUnder general direction, manage laboratory-related aspects of clinical trial projects for a client or client program, supporting project delivery from startup through closeout. You will partner closely with the Project Manager and cross-functional teams to keep work on track, communicate progress, and help ensure high-quality execution across multiple studies.\nWhat You'll Be Doing:\n- Support the Project Manager with study initiation activities, including required documentation, coordination, and readiness tracking\n\n- Coordinate day-to-day laboratory project activities to support delivery of agreed timelines, milestones, and client expectations\n\n- Serve as a key point of contact for assigned clients after study award, maintaining clear and timely communications throughout the study lifecycle\n\n- Monitor project status, identify risks or blockers, and escalate appropriately with proposed mitigation actions\n\n- Manage multiple priorities across mid-size and large pharma accounts, balancing urgency and accuracy under pressure\n\n- Leverage internal team members and stakeholders to resolve issues, align on next steps, and keep deliverables moving\n\n- Maintain organized project records and ensure adherence to applicable procedures, quality standards, and study requirements\n\nWhat We Are Looking For:\n- Bachelor’s degree in any discipline\n\n- 1 year of experience supporting clinical trial or laboratory operations projects, including study startup and ongoing coordination activities\n\n- Proficiency with project tracking and documentation tools (e.g., MS Office/Excel, project trackers) and comfort working in structured processes\n\n- Proficiency in English\n\n- Other Equivalent combination of education, training, and experience may be accepted in lieu of degree\n\nThe Knowledge, Skills and Abilities Needed for This Role:\n- Highly organized with strong attention to detail and the ability to manage competing priorities and deadlines\n\n- Effective written and verbal communication skills with confidence interacting with clients and internal teams\n\n- Ability to work calmly and efficiently in a fast-paced environment, proactively identifying issues and driving to resolution\n\n- Collaborative mindset with demonstrated ability to coordinate across teams and unblock work through influence and follow-through\n\nWhat We Offer You:\nWe put our employees at the center of everything we do and are committed to providing them, and their families, with benefits that meet their diverse and changing needs. We invest in integrated benefits programs and resources to take care of our employees' physical, mental and emotional, financial and social well-being so they can thrive at home and at work, at any stage of their well-being journey.\nTo learn more about our benefits, visit https://jobs.iqvia.com/benefits.\nIf you're looking to unleash your potential, join IQVIA Laboratories to help make the extraordinary possible!\n\nIQVIA is a leading global provider of clinical research services, commercial insights and healthcare intelligence to the life sciences and healthcare industries. We create intelligent connections to accelerate the development and commercialization of innovative medical treatments to help improve patient outcomes and population health worldwide. Learn more at https://jobs.iqvia.com\n\nIQVIA is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other status protected by applicable law. https://jobs.iqvia.com/eoe\n\nIQVIA is committed to integrity in our hiring process and maintains a zero tolerance policy for candidate fraud. All information and credentials submitted in your application must be truthful and complete. Any false statements, misrepresentations, or material omissions during the recruitment process will result in immediate disqualification of your application, or termination of employment if discovered later, in accordance with applicable law. We appreciate your honesty and professionalism.\n\nThe potential base pay range for this role, when annualized, is $44,500.00 - $111,800.00. The actual base pay offered may vary based on a number of factors including job-related qualifications such as knowledge, skills, education, and experience; location; and/or schedule (full or part-time). Dependent on the position offered, incentive plans, bonuses, and/or other forms of compensation may be offered, in addition to a range of health and welfare and/or other benefits.\n\nTo apply: https://weworkremotely.com/remote-jobs/iqvia-coordinator-senior-coordinator-project-services-laboratories-remote-east-coast",
+      "apply_url": "https://weworkremotely.com/remote-jobs/iqvia-coordinator-senior-coordinator-project-services-laboratories-remote-east-coast",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-09T09:06:59.000Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:cvs-health-senior-customer-service-representative",
+      "hub": "business",
+      "title": "Senior Customer Service Representative",
+      "company": "CVS Health",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "We Work Remotely",
+      "level": "Senior",
+      "location": "USA Only",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: Winnipeg, Manitoba, Canada URL: http://CVSHealth.com We’re building a world of health around every individual — shaping a more connected, convenient and compassionate…",
+      "description": "Headquarters: Winnipeg, Manitoba, Canada\n\nURL: http://CVSHealth.com\n\nWe’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time.\n\nRequisition Job Description\nPosition Summary\nMeritain Health an Aetna/CVS affiliate has multiple openings for Sr. Customer Service Representatives in our permanent work from home role $19.50/hr wage. This position handles customer service inquiries for our Fully Insured or High Profile role, they should be able to address problems via telephone, internet or written correspondence. Customer inquiries are of basic and routine nature.\n- Handle incoming calls from members and providers regarding claims status, benefits and eligibility, PPO participation, etc\n- Maintain department established performance metrics at a meets or exceeds expectations level\n- Work together as a team and apply the Aetna Core Values in day-to-day operations\n- Creating a Differentiated Service Experience\n- Demonstrating Service Discipline\n- Handling Service Challenges\n- Providing Solutions to Constituent Needs\n- Working Across Boundaries\n\nRequired Qualifications\n- 1+ years of customer service experience\n- Experience in a metric based environment\n- Proficiency with full suite of Microsoft Applications\n- Comfortability utilizing search engines\n- Excellent multi-tasking skills\n- Ability to Effectively Communicate\n\nPreferred Qualifications\n- Experience working in a call center environment\n- Medical terminology/insurance experience\n- Results oriented and self-motivated\n- Experience working remotely\n\nEducation\n- High School diploma, G.E.D. or equivalent experience\n\nAnticipated Weekly Hours\n40\n\nTime Type\nFull time\n\nPay Range\nThe typical pay range for this role is:\n\n$18.50 - $42.35\nThis pay range represents the base hourly rate or base annual full-time salary for all positions in the job grade within which this position falls. The actual base salary offer will depend on a variety of factors including experience, education, geography and other relevant factors.\n\nOur people fuel our future. Our teams reflect the customers, patients, members and communities we serve and we are committed to fostering a workplace where every colleague feels valued and that they belong.\n\nGreat benefits for great people\n\nWe take pride in offering a comprehensive and competitive mix of pay and benefits that reflects our commitment to our colleagues and their families.\n\nThis full‑time position is eligible for a comprehensive benefits package designed to support the physical, emotional, and financial well‑being of colleagues and their families. The benefits for this position include medical, dental, and vision coverage, paid time off, retirement savings options, wellness programs, and other resources, based on eligibility.\nAdditional details about available benefits are provided during the application process and on Benefits Moments.\n\nThis job does not have an application deadline, as CVS Health accepts applications on an ongoing basis.\n\nQualified applicants with arrest or conviction records will be considered for employment in accordance with all federal, state and local laws.\n\nTo apply: https://weworkremotely.com/remote-jobs/cvs-health-senior-customer-service-representative",
+      "apply_url": "https://weworkremotely.com/remote-jobs/cvs-health-senior-customer-service-representative",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-09T09:06:49.000Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:theranica-usa-inc-patient-support-associate",
+      "hub": "business",
+      "title": "Patient Support Associate",
+      "company": "Theranica USA, Inc.",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Entry",
+      "location": "USA Only",
+      "employment_type": "full-time",
+      "comp_min": 20000,
+      "comp_max": 27000,
+      "summary": "Headquarters: United States URL: https://jobs.workable.com/company/3wgtrh3s6EV5NeGDfrNXdR/jobs-at-theranica-usa%2C-inc. Customer Support Associate – Theranica USA, Inc.",
+      "description": "Headquarters: United States\n\nURL: https://jobs.workable.com/company/3wgtrh3s6EV5NeGDfrNXdR/jobs-at-theranica-usa%2C-inc.\n\nCustomer Support Associate – Theranica USA, Inc.\nFull-Time, Remote position\n\nTheranica USA is based in Bridgewater, NJ. It is a wholly owned subsidiary of Theranica Bioelectronics, an Israeli bio-medical technology company devoted to developing and commercializing clinically effective, non-invasive, personal, and connected medical devices for the treatment and management of migraine. Theranica USA's first marketed medical device is Nerivio®, a first-in-category, FDA-cleared medical device indicated for the acute treatment of migraine. For more information: www.Nerivio.com.\n\nWe are looking for a Nerivio Customer Support Associate to support the company’s Patient Journey programs, reporting to the department manager, and working cross-functionally with other departments impacting the patient journey.\n\nMain Responsibilities, include but not limited to:\n\n- Work as part of the Nerivio Cares Customer Support team to deliver high-quality, patient-centered support.\n- Serve as a primary point of contact for patients and prescribers, providing professional, empathetic assistance through phone, email, and chat.\n- Communicate clearly and effectively—both verbally and in writing—to answer questions, troubleshoot issues, and guide patients through Nerivio products and processes.\n- Support patients by problem-solving, addressing concerns, and ensuring a smooth, positive experience throughout the support process.\n- Coordinate and assist in the day-to-day activities of Nerivio Cares Customer Support.\n- Answer and respond to incoming call center requests via phone/email/chat.\n- Utilize Standard Responses to respond to requests, being able to escalate to the correct point of contact and/or department when necessary.\n- Record all patient interactions in Customer Feedback database.\n- Creation of shipping labels, tracking, and documentation of US-based patient shipments for Device Recycling Program and Special Request equipment.\n\nJob Requirements and Qualifications:\n- 2+ years of customer-facing service or support\n- Working knowledge of medical terminology and familiarity of pharmacy/medical insurance and claims process.\n- Proficient skills using cloud-based software solutions (i.e. SalesForce, Intercom, Zendesk, JIRA, QuickBase).\n- Proficient knowledge of computer and Microsoft Office skills, including Excel, Word, Outlook, and SharePoint (or other file-sharing programs).\n- Strong organization, multitasking, time management, and problem-solving skills\n- Strong avility to maintains a positive, professional, and people-oriented attitude, promoting a supportive, respectful, and solutions-focused environment for both patients and team members\n- Strong abilities to adhere to email communications with excellent writing skills and rapid responses.\n- Ability to adhere to all standard operating procedures and compliance guidelines as defined by governing bodies.\n- Shows initiative, sets priorities, organizes tasks, and is able to work independently and as part of a team while completing daily tasks, managing the full lifecycle of daily tasks and larger projects.\n- Innate ability to work in a team environment, collaborate accordingly and be able to handle stressful situations with ease.\n- Professional communication skills (phone, chat, email, social media, conference calls, and face-to-face interaction)\n- Listens carefully and communicates clearly with patients to ensure understanding of patient’s request.\n- Handles stressful patient/customer situations appropriately and delivers seamless patient/customer service while ensuring patient confidentiality, following all HIPAA guidelines.\n- Must have a quiet environment to work, free from distractions.\nPreferred Qualifications\n- 2+ years’ experience working in a pharmaceutical or healthcare organization preferred. Patient support experience is a plus.\n- Technical background/experience with apps and devices – an advantage\n\n - 2+ years of customer-facing service or support\n - Must be based in Central, Mountain or Pacific Time Zone and/or willing to work PST hours\n - Working knowledge of medical terminology and familiarity of pharmacy/medical insurance and claims process.·\n - Proficient skills in Microsoft Office (Excel, Word, Outlook, SharePoint) and using cloud-based software solutions (i.e. Intercom, Zendesk, JIRA, QuickBase).\n - Strong organization, multitasking, time management, and problem-solving skills\n - Strong abilities to adhere to all Standard Operating Procedures (SOPs) and email communications with excellent writing skills and rapid responses.\n - Innate ability to work in a team environment, collaborate accordingly and be able to handle stressful situations with ease.\n - Ability to work in a team environment and employs professional communication skills (phone, chat, email, social media, conference calls, and face-to-face interaction)\n - Listens carefully and communicates clearly with patients to ensure understanding of patient’s request.\n - Handles stressful patient/customer situations appropriately and delivers seamless patient/customer service while ensuring patient confidentiality, following all HIPAA guidelines.\n - Must have a quiet environment to work, free from distractions.\n\nPreferred Qualifications\n - 2+ years’ experience working in a pharmaceutical or healthcare organization preferred. Patient support experience is a plus.\n - Technical background/experience with apps and devices – an advantage\n - Bachelor's degree in healthcare-related discipline or work experience equivalent.\n\nSalary Range: $20 - $27 hourly\nBenefits:\n - Fully remote work experience\n - Comprehensive medical, dental, and vision package, with other optional benefits\n - 401K eligible\n - Flexible PTO and Company Holidays\n\nTo apply: https://weworkremotely.com/remote-jobs/theranica-usa-inc-patient-support-associate",
+      "apply_url": "https://weworkremotely.com/remote-jobs/theranica-usa-inc-patient-support-associate",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-09T09:06:47.000Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:nm-mitchell-consultancy-ltd-remote-scheduling-specialist",
+      "hub": "business",
+      "title": "Remote Scheduling Specialist",
+      "company": "NM MITCHELL CONSULTANCY LTD",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World, Nevada",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: United Kingdom We seeking an experienced Remote Scheduling Specialist with solid HR and recruitment experience.",
+      "description": "Headquarters: United Kingdom\n\nWe seeking an experienced Remote Scheduling Specialist with solid HR and recruitment experience. This role focuses on candidate outreach, interview invitation, and offline interview arrangement.\n\nJob Responsibilities\n\n1. Conduct active candidate sourcing, cold outreach, and follow-up communication with potential candidates through multiple channels, accurately understand candidate's job intentions, background and job-hunting demands.\n\n2. Complete professional pre-screening evaluation, verify candidate work experience, job stability, career direction and matching degree with vacant positions.\n\n3. Responsible for interview invitation, schedule confirmation, time coordination and interview reminder, independently complete large-volume daily candidate arrangement work.\n\n4. Arrange and coordinate offline on-site interviews, communicate with interviewers and candidates to confirm interview locations, time and process, ensure smooth offline interview arrangement.\n\nJob Requirements\n\n1. Has rich formal HR and recruitment working experience, familiar with the whole process of enterprise recruitment and interview arrangement.\n\n2. Excellent oral and written communication skills, strong negotiation ability and candidate control ability.\n\n3. Patient, careful, responsible, with strong service awareness and stable working attitude.\n\n4. Support fully remote work, able to work stably for a long term.\n\nTo apply: https://weworkremotely.com/remote-jobs/nm-mitchell-consultancy-ltd-remote-scheduling-specialist",
+      "apply_url": "https://weworkremotely.com/remote-jobs/nm-mitchell-consultancy-ltd-remote-scheduling-specialist",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-09T03:24:16.000Z",
+      "scraped_at": "2026-11-09T17:01:28.464Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:medelite-group-llc-patient-monitoring-coordinator-rn",
+      "hub": "business",
+      "title": "Patient Monitoring Coordinator (RN)",
+      "company": "MedElite Group, LLC.",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "USA Only",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: Hollywood, Florida, United States URL: http://medelitegrp.com Patient Remote Monitoring Location: Hollywood, FL Schedule: Full-Time (3 month contract) Salary: $28.85…",
+      "description": "Headquarters: Hollywood, Florida, United States\n\nURL: http://medelitegrp.com\n\nPatient Remote Monitoring\n\nLocation: Hollywood, FL\nSchedule: Full-Time (3 month contract)\nSalary: $28.85 an hour - $36.06 an hour (based on CPT codes)\n\nAbout Infinite Medical P.C.\n\nInfinite Medical P.C. is a nationwide network of advanced practice providers and specialty clinicians committed to delivering high-quality, proactive care directly to residents in skilled nursing and long-term care facilities. Our partnership with MedElite Healthcare Management Group empowers us to focus on what matters most: providing compassionate, personalized care that meets the unique needs of each resident. Together, we champion continuous innovation and collaboration in our shared mission to redefine senior care across the country.\n\nJob Summary\n\nWe are seeking a dedicated LPN CoCM Care Coordinator to join our team. In this role, you will be responsible for reviewing patient charts and communicating with the Clinical department and providers about any irregularities as part of chronic care management. This position is open to Registered Nurses (RNs) as well as candidates with a background in social work.\n\nResponsibilities\n\n- Provide assessment and care management services, including:\n\n- Administration of validated rating scales.\n\n- Initiation of behavioral health care planning concerning behavioral or psychiatric health problems.\n\n- Revision and modification of care plans for patients not progressing or whose status changes.\n\n- Brief psychosocial interventions as needed.\n\n- Engage in ongoing collaboration with the billing practitioner.\n\n- Maintain the registry/tracking sheets.\n\n- Consult with the psychiatric consultant.\n\n- Maintain a continuous relationship with patients.\n\n- Foster collaborative, integrated relationships with the rest of the care team.\n\n- Conduct interdisciplinary care plan meetings to review patient beneficiaries.\n\nRequirements\n\n- Bachelor's degree in social work or a Registered Nurse (RN) license, required\n\n- Experience in long-term care preferred.\n\n- Experience in behavioral health preferred.\n\nBenefits\n\n- Competitive salary: $28.85 an hour - $36.06 an hour (based on CPT codes)\n\n- Health\n\n- Dental\n\n- Vision\n\n- 401K\n\n- Company-Sponsored Life Insurance\n\n- Paid Time Off\n\nWhy Work With Us?\n\n- Make a meaningful impact on the lives of seniors\n\n- Work in a collaborative, mission-driven environment\n\n- Enjoy work-life balance\n\nEqual Opportunity Employer\n\nInfinite Medical P.C is an equal-opportunity employer. We acknowledge and honor the fundamental value and dignity of all individuals. We pledge ourselves to crafting and maintaining an environment that respects diverse traditions, heritages, and experiences. Infinite Medical P.C is an Equal Employment Opportunity and Affirmative Action employer. We do not discriminate based on race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.\n\nThe above-noted job description is not intended to describe, in detail, the multitude of tasks that may be assigned but rather to give the applicant a general sense of the responsibilities and expectations of this position. As the nature of business demands change so, too, may the essential functions of the position.\n\nReady to Make a Difference?\n\nApply today and help us deliver compassionate, personalized care where it matters most.\n\nTo apply: https://weworkremotely.com/remote-jobs/medelite-group-llc-patient-monitoring-coordinator-rn",
+      "apply_url": "https://weworkremotely.com/remote-jobs/medelite-group-llc-patient-monitoring-coordinator-rn",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-09T01:53:45.000Z",
+      "scraped_at": "2026-11-09T17:01:28.464Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:intertek-client-experience-specialist",
+      "hub": "business",
+      "title": "Client Experience Specialist",
+      "company": "Intertek",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "USA Only",
+      "employment_type": "full-time",
+      "comp_min": 60000,
+      "comp_max": 70000,
+      "summary": "Headquarters: United States URL: https://hcog.fa.em2.oraclecloud.com:443/hcmUI/CandidateExperience/ Client Experience Specialist – Remote Intertek, a leading provider of quality an…",
+      "description": "Headquarters: United States\n\nURL: https://hcog.fa.em2.oraclecloud.com:443/hcmUI/CandidateExperience/\n\nClient Experience Specialist – Remote\nIntertek, a leading provider of quality and safety solutions to many of the world’s top-recognized brands and companies, is actively seeking a Client Experience Specialist to join our People Assurance team. This is a fantastic opportunity to grow a versatile career in SaaS.\nIntertek's People Assurance teams empower your workforce to identify and close operational gaps and mitigate risk by assuring smart actions across your organization. Intertek Alchemy provides frontline worker training solutions for processors, manufacturers, packagers, and distributors of all sizes. Intertek Catalyst inspires and engages workforces with highly creative, custom-branded, asset protection communication programs tailor-made strategic solutions designed to leverage our clients' company brand, values, and objectives to optimize the culture of their people. Intertek Wisetail provides a custom branded training and communication platform built to engage today’s workforce with a complete learning management system, giving customers the tools to grow their passionate workforce. Intertek is continually innovating and evolving to reduce risk for consumers, brands and organizations in every sector and industry around the world. We go beyond Testing, Inspection and Certification of products: we are a Total Quality Assurance Provider to industries worldwide. Our Purpose: Bringing quality, safety, and sustainability to life.\nWhat are we looking for?\nThe Client Experience Specialist is responsible for supporting the Account Management team as it scales, across renewals support, CRM migration work and day-to-day client communication. The Client Experience Specialist blends human and AI-assisted approaches to help drive renewals, lays a key role in Wisetail's ongoing CRM migration and serves as a responsive point of contact for routine client needs. This is a hands-on generalist position suited to someone early in an account management or client success career who wants broad exposure and a direct hand in shaping how the team operates and scales. This position may travel up to 15% of the time.\nShift/Schedule: 8:00 AM to 5:00 PM Local Time\nSalary & Benefits Information\nThe base wage or salary range for this position is $60,000 - $70,000. Individual compensation packages are based on a variety of factors unique to each candidate including skill set, experience, qualifications, and other job-related reasons.\nIn addition to competitive compensation packages, when working with Intertek you can expect benefits including medical, dental, vision, life, disability, 401(k) with company match, generous vacation / sick time (PTO), tuition reimbursement and more.\nWhat you’ll do:\n- Manage contract renewals by tracking upcoming expiration dates, preparing renewal documentation, and identifying at-risk accounts and growth opportunities for the Account Management team.\n\n- Support CRM migration efforts through data cleanup, record migration, QA testing, and maintaining accurate client and pipeline data throughout the transition.\n\n- Leverage AI tools to draft renewal summaries, contract recaps, follow-up communications, and routine client responses, ensuring all content is reviewed and personalized before delivery.\n\n- Provide day-to-day client support by resolving inquiries directly when possible, routing issues to appropriate internal teams, and assisting with support queue management.\n\n- Prepare client-facing materials, including renewal proposals, account summaries, check-in agendas, and other account management documentation.\n\n- Use AI and productivity tools to summarize meetings, client calls, and internal updates while identifying opportunities to improve processes through automation and AI-driven efficiencies.\n\n- Contribute to client retention, renewal, and satisfaction goals through proactive support, attention to detail, continuous learning, and execution of other assigned responsibilities.\n\nThis position outline is a general guideline and does not represent all encompassing details. The position assumes that the incumbent has both the mental and physical requirements to carry out the above defined duties.\nMinimum Requirements & Qualifications:\n- Bachelor’s degree (or equivalent combination of education and experience) with 2 to 4 years of experience in account management, client success, sales operations, or a similar client-facing role, preferably within a SaaS or technology environment.\n- Experience using CRM platforms and AI productivity tools (e.g., ChatGPT, Claude, Copilot) to support communication, organization, and workflow efficiency, with a willingness to continue developing these skills.\n- Strong organizational, time management, and problem-solving abilities, with the capacity to manage multiple priorities, adapt to changing deadlines, and work independently in a fast-paced remote environment.\n- Excellent customer service, communication, and technical skills; ability to travel up to 15% as needed; and authorization to legally work in the United States for this remote position.\n\nPreferred Requirements & Qualifications:\n- Background in SaaS or technology-driven environments.\n- Exposure to CRM migration projects or data cleanup work.\n- Hands-on experience using AI tools to support client communication, data organization, or content drafting in a professional setting.\n- Ability to work cross-functionally with a variety of teams.\n\nIntertek: Total Quality. Assured.\nIntertek is a world leader in the Quality Assurance market, with a proven, high-quality business model and a global network of customer-focused operations and highly engaged subject matter experts. With passion, pace, and precision we work to exceed our customers’ expectations, while engaging with our employees to be 10X in their performance and professional growth.\nIntertek is a drug-free workplace. As a condition of employment, certain positions may be required to pass a pre-employment drug test based on the type of work that will be performed.\nWe Value Diversity\nIntertek’s network of phenomenal people are our greatest assets, and the diversity they bring fuels our success. Intertek is an Equal Employment Opportunity Employer that values inclusion and diversity. We take affirmative action to ensure all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or other legally protected characteristics.\nFor individuals with disabilities who would like to request accommodation, or who need assistance applying, please email intertekhrusa@intertek.com or call 1-877-694-8543 (option #5) to speak with a member of the HR Department.\n\n#LI-TT\n#LI-REMOTE\n\nIntertek is a leading Total Quality Assurance provider to industries worldwide. Our network of more than 1,000 laboratories and offices in more than 100 countries, delivers innovative and bespoke Assurance, Testing, Inspection and Certification (ATIC) solutions for our customers' operations and supply chains. Working at Intertek means joining a global network of state-of-the-art facilities and passionate people who deliver superior customer service with a purpose of bringing quality, safety, and sustainability to life.\n\nIntertek’s People Assurance team provides range of workforce-focused solutions that empower our clients’ employees to identify and close operational gaps and mitigate risk by assuring smart actions across organizations. Our services give clients the tools they need to build, maintain, and protect their brands, supporting them in the continuous evolution of their workforce to maximize employee potential.\n\nTo apply: https://weworkremotely.com/remote-jobs/intertek-client-experience-specialist",
+      "apply_url": "https://weworkremotely.com/remote-jobs/intertek-client-experience-specialist",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-08T17:00:35.000Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:diamond-care-transportation-dispatcher-scheduling-coordinator",
+      "hub": "business",
+      "title": "Dispatcher & Scheduling Coordinator",
+      "company": "Diamond Care Transportation",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "USA Only",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: United States URL: https://diamondcaretransportation.com About us Diamond Care Transportation provides non-emergency medical transportation (NEMT) across the DC Metro…",
+      "description": "Headquarters: United States\n\nURL: https://diamondcaretransportation.com\n\nAbout us\n Diamond Care Transportation provides non-emergency medical transportation (NEMT) across the DC Metropolitan area, including wheelchair-accessible trips, for broker partners.\n\nAbout the role\n This isn’t just answering phones and assigning trips. You’ll build driver schedules ahead of time, run the day-to-day operation, and be the first person to fix problems when they come up. Drivers and riders will come to you with questions, and you’ll be expected to know the answers, including our company policies. You’ll work directly with the owner, take direction from him, and carry it out with the drivers. It isn’t a supervisor title, but the role has real operational responsibility.\n\nWhat you’ll do\n\n- Build daily, weekly and monthly driver schedules ahead of time using our scheduling tools\n\n- Claim and manage trips on broker portals (MTM, Verida and others)\n\n- Dispatch and adjust trips in real time when riders cancel, drivers run late or schedules change\n\n- Coordinate with drivers throughout the day and make sure they follow company policy\n\n- Handle rider, facility and broker calls with good customer service\n\n- Fix problems first and escalate to the owner only when needed\n\n- Keep accurate trip records and documentation\n\nWhat we’re looking for\n\n- Several years of NEMT experience, dispatch or scheduling preferred\n\n- Hands-on experience with broker portals such as MTM and Verida\n\n- Tech-savvy: comfortable learning new apps and the custom tools the owner builds (we use Bambi, Deputy and more)\n\n- Customer service experience\n\n- Organized and calm under pressure, with good judgment about what to handle and what to escalate\n\n- Clear communication with drivers, riders and management\n\n- A reliable home workspace with a computer and internet\n\nThis is a remote position.\n\nTo apply: https://weworkremotely.com/remote-jobs/diamond-care-transportation-dispatcher-scheduling-coordinator",
+      "apply_url": "https://weworkremotely.com/remote-jobs/diamond-care-transportation-dispatcher-scheduling-coordinator",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-08T17:00:31.000Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:caretalk-health-patient-support-specialist-remote",
+      "hub": "business",
+      "title": "Patient Support Specialist (Remote)",
+      "company": "CareTalk Health",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "USA Only",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: United States URL: https://www.caretalkhealth.com Job Title: Patient Support Specialist - Remote Location: Remote - United States Employment Type: FT W2 Compensation:…",
+      "description": "Headquarters: United States\n\nURL: https://www.caretalkhealth.com\n\nJob Title: Patient Support Specialist - Remote\n\nLocation: Remote - United States\n\nEmployment Type: FT W2\n\nCompensation: $20 per hour\n\nCareTalk Health\n\nCareTalk Health is a fully remote, nationwide virtual medical practice. We partner with Medicare Advantage plans to deliver Annual Wellness Visits and close care gaps, reaching members wherever they are. We believe virtual care isn't a compromise — it's care delivered the way patients actually want it. Our job is to make that experience simple, reliable, and human.\n\nAbout the Role\n\nWe are seeking Patient Support Specialists (PSS) who are the first point of contact for patients in our virtual clinic and play a critical role in ensuring smooth, timely, and high-quality care delivery. The PSS is the starting point of the virtual care experience. They contact scheduled patients, confirm readiness for the visit, and seamlessly coordinate the handoff to the care team. By ensuring smooth patient flow, the PSS plays a critical role in maintaining patient satisfaction, keeping the clinical schedule on track, and delivering an exceptional virtual care experience.\n\nWe are hiring for multiple full-time positions. All opportunities are fully remote. The hours are Monday-Friday 9-6pm EST, compensated at a rate of $20 per hour.\n\nWhat You’ll Do\n\nKey Responsibilities\n\nCare Team Coordination\n\n- Serve as the central coordinator for multiple care teams at once, ensuring patients are connected with the right clinician at the right time.\n\n- Drive patient engagement by keeping the flow of visits moving smoothly across several concurrent schedules.\n\n- Transfer patients to the appropriate care team members using call handling tools and provide real-time intake information.\n\n- Notify the RN when a patient is ready, track the status of each visit, and anticipate next steps to prevent delays.\n\n- Monitor call activity across teams and proactively support timely handoffs from RN to provider.\n\n- Escalate scheduling conflicts, clinical concerns, or patient-related issues promptly to protect care quality and efficiency.\n\nPatient Intake and Check-In\n\n- Initiate outbound calls to scheduled patients to confirm appointments, verify identity, and ensure readiness for the visit.\n\n- Conduct pre-visit intake, including review of demographics, consent, and any required pre-screening questions.\n\n- Perform technology checks when appropriate (e.g., audio, video readiness) to prevent delays during the visit.\n\n- Set a professional, welcoming tone that builds trust and positions the patient for a positive care experience.\n\n- Take inbound calls to assist patients with questions about their visit, scheduling, or technical navigation.\n\nCommunication and Documentation\n\n- Maintain accurate documentation of patient outreach, intake, call routing, and handoff activities in the designated system(s).\n\n- Provide real-time updates to the clinical team on patient status and any scheduling adjustments.\n\n- Support patient satisfaction by answering questions or redirecting concerns to the appropriate resource.\n\nTechnical Navigation & Support\n\n- Use tools to route patients per clinical workflow.\n\n- Troubleshoot minor technical issues (e.g., patient audio or video) and escalate as needed.\n\n- Communicate with patients and care team members via internal chat or phone to coordinate activities.\n\nRequired\n\n- Experience in a healthcare or customer service setting required\n\n- Strong digital fluency and comfort with navigating multiple platforms (Zoom, Teams, EHR/CRM tools)\n\n- Excellent interpersonal and communication skills\n\n- Ability to multitask, prioritize, and maintain calm in a fast-paced virtual environment\n\nPreferred\n\n- Experience in telehealth, medical office or remote care delivery\n\n- Familiarity with HIPAA and patient privacy regulations\n\n- Bilingual in English and Spanish (or other language) is a plus\n\nWork Location Requirement\n\nThis is a remote U.S.-based position. Employees must perform all work physically within the United States. International work is not permitted during scheduled work hours.\n\nWork Environment\n\nThis is a remote position and may be “on camera” at any time. The Patient Support Specialist will work from a home office, requiring reliable internet connectivity and a secure, private workspace.\n\nTechnical Requirements:\n\n-\nComputer:\n\n-\nWindows or Apple (macOS) Computer ONLY (NO Chromebooks, Linux Machines, or Smartphones)\n\n-\nMust have at least Windows 10 or macOS 14 Sonoma.\n\n-\nHardware:\n\n-\nProcessor: Intel Core i5 or AMD Equivalent (Windows); Apple Silicon (Macs)\n\n-\nRAM: 16 GB\n\n-\nHeadphones: Wired headphones required for optimal audio quality. (NO built-in mics)\n\n-\nInternet Speed: Meet minimum internet speed requirements (100 MBPS download speed and 50 MBPS upload speed). Must have an ethernet cable connecting computer directly into router.\n\n-\nBrowser and System: Use Google Chrome with Amazon Workspaces (regardless of computer type). \n\n-\nWebcam: A webcam is required for video calls. Most laptops have a built-in webcam, which is acceptable. If your computer does not have a webcam, you will need to use an external webcam.\n\n-\nRecommended Equipment: A second monitor is highly suggested for laptop users; dual monitors for PC users. \n\nWhy CareTalk Health\n\nCareTalk Health is a fast-growing telehealth organization that delivers high-quality virtual care at scale. This role offers the opportunity to shape contractor operations, influence performance outcomes, and support innovative care models across a nationwide clinical workforce.\n\nCareTalk Health is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.\n\nTo apply: https://weworkremotely.com/remote-jobs/caretalk-health-patient-support-specialist-remote",
+      "apply_url": "https://weworkremotely.com/remote-jobs/caretalk-health-patient-support-specialist-remote",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-08T17:00:27.000Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:jobicy:159842",
+      "hub": "business",
+      "title": "Customer Experience T3 Specialist",
+      "company": "Instacart",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "USA",
+      "employment_type": "full-time",
+      "comp_min": 17,
+      "comp_max": 21,
+      "summary": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more t…",
+      "description": "We're transforming the grocery industry\n\nAt Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.\n\nInstacart is a Flex First team\n\nThere’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work.\n\nOverview\n\nJoin Instacart as a Customer Experience T3 Specialist, where you’ll play a key role in supporting the delivery experience for pharmacy orders and contributing to our mission of empowering healthier living. As part of a dedicated team, you’ll help create seamless, empathetic, and impactful interactions that enhance our customers’ trust and satisfaction with Instacart’s services.\n\nWe are currently seeking a Customer Experience T3 Specialist to join our team. In this role, you’ll be the voice of Instacart, delivering exceptional service through real-time calls and occasionally emails. You’ll work directly with customers, shoppers, pharmacists, and retail partners to create personalized support experiences that reflect empathy, kindness, and professionalism. Your work will focus on ensuring customer satisfaction by supporting Instacart Health initiatives like Fresh Funds and delivery-related inquiries for Rx orders, helping users during the moments that matter most.\n\nThe Instacart Customer Experience Consumer Vanguard team is dedicated to supporting a range of interactions across our customer, shopper, retailer, and partner community. From assisting with inquiries about Fresh Funds under our Instacart Health initiative to supporting Rx customers with prescription delivery and related questions, we provide empathetic and solutions-focused service. Whether resolving app issues or troubleshooting delivery concerns, our team is committed to advocating on behalf of our users and creating exceptional support experiences that contribute to Instacart’s vision of accessible and reliable services for all.\n\nAbout the Job\n\n- Take ownership of delivering real-time support to customers with a focus on Rx delivery-related inquiries and Instacart Health programs like Fresh Funds.\n\n- Leverage exceptional problem-solving skills to provide fast, effective resolutions while navigating complex and evolving challenges at scale.\n\n- Thrive in a fast-paced, dynamic work environment where processes may rapidly change, and new priorities emerge without warning.\n\n- Communicate clearly, empathetically, and professionally across all interactions, ensuring a personalized and meaningful service experience that builds lasting trust.\n\n- Embrace operational ownership by proactively identifying trends in customer feedback and collaborating with your Manager to streamline processes and improve outcomes.\n\nAbout You\n\nMinimum Qualifications\n\n- 1+ years of experience in customer service or call center support, with a proven ability to handle high-pressure scenarios.\n\n- Superior communication skills, including clear and professional phone etiquette and excellent written skills.\n\n- Comfort and proficiency with technology, from navigating web-based support platforms to using and troubleshooting smartphone apps (iPhone/Android).\n\n- A proven ability to multitask, prioritize, and problem-solve in a fast-paced, constantly changing environment.\n\n- A strong sense of empathy, customer advocacy, and sound judgment for creating positive outcomes in difficult or time-sensitive situations.\n\nPreferred Qualifications\n\n- Experience in delivery-focused customer support, particularly within delivery apps\n\n- Familiarity with handling inbound customer service calls and/or working within HIPAA-compliant environments.\n\n- Prior experience in a fast-paced, metrics-driven contact center setting.\n\n- Proficiency with customer support tools like Salesforce, Geneys, Admin or similar platforms.\n\n- A demonstrated ability to identify trends and provide feedback for continuous improvement in processes and workflows.\n\nWork Schedule:\nThe working hours for this role are Wednesday – Sunday, 2:00 PM – 11:00 PM ET or Friday - Tuesday 2:00 PM - 11:00 PM ET.\n\n#LI-Remote\n\nInstacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here.\n\nOffers may vary based on many factors, such as candidate experience and skills required for the role. Additionally, this role is eligible for a new hire equity grant as well as annual refresh grants. Please read more about our benefits offerings here.\n\nFor US based candidates, the base pay ranges for a successful candidate are listed below.\n\nCA, NY, CT, NJ\n\n$20.67—$21.88 USD\n\nWA\n\n$19.71—$20.92 USD\n\nOR, DE, ME, MA, MD, NH, RI, VT, DC, PA, VA, CO, TX, IL, HI\n\n$19.23—$20.19 USD\n\nAll other states\n\n$17.31—$18.27 USD",
+      "apply_url": "https://jobicy.com/jobs/159842-customer-experience-t3-specialist",
+      "source": "Jobicy",
+      "posted_at": "2026-11-08T16:16:04.000Z",
+      "scraped_at": "2026-11-09T17:01:29.671Z",
+      "status": "open"
+    },
     {
       "id": "agg:jobicy:159803",
       "hub": "business",
@@ -24,7 +222,7 @@
       "apply_url": "https://jobicy.com/jobs/159803-operations-service-specialist",
       "source": "Jobicy",
       "posted_at": "2026-11-08T10:08:18.000Z",
-      "scraped_at": "2026-11-08T13:59:55.610Z",
+      "scraped_at": "2026-11-09T17:01:29.671Z",
       "status": "open"
     },
     {
@@ -46,7 +244,7 @@
       "apply_url": "https://jobicy.com/jobs/154816-product-support-specialist-apac",
       "source": "Jobicy",
       "posted_at": "2026-11-08T02:55:29.000Z",
-      "scraped_at": "2026-11-08T13:59:55.610Z",
+      "scraped_at": "2026-11-09T17:01:29.671Z",
       "status": "open"
     },
     {
@@ -68,7 +266,7 @@
       "apply_url": "https://jobicy.com/jobs/148515-chat-support-agent-remote-entry-level-no-degree-required-15-18-per-hour",
       "source": "Jobicy",
       "posted_at": "2026-11-08T02:45:06.000Z",
-      "scraped_at": "2026-11-08T13:59:55.610Z",
+      "scraped_at": "2026-11-09T17:01:29.671Z",
       "status": "open"
     },
     {
@@ -90,7 +288,7 @@
       "apply_url": "https://jobicy.com/jobs/148512-technical-support-specialist-remote-entry-level-no-degree-required-15-18",
       "source": "Jobicy",
       "posted_at": "2026-11-08T02:45:05.000Z",
-      "scraped_at": "2026-11-08T13:59:55.610Z",
+      "scraped_at": "2026-11-09T17:01:29.671Z",
       "status": "open"
     },
     {
@@ -112,7 +310,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gitlab-executive-assistant-office-of-the-cfo",
       "source": "We Work Remotely",
       "posted_at": "2026-11-07T17:01:19.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -134,7 +332,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/vitas-healthcare-patient-care-coordinator-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-11-07T17:00:30.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -156,29 +354,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/170151a9-a548-484f-9d31-4d4df419fa21",
       "source": "lever",
       "posted_at": "2026-11-06T16:43:47.471Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:159327",
-      "hub": "business",
-      "title": "Bilingual Customer Experience T3 Specialist (Spanish)",
-      "company": "Instacart",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 17,
-      "comp_max": 20,
-      "summary": "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more t…",
-      "description": "We're transforming the grocery industry\n\nAt Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers.\n\nInstacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table.\n\nInstacart is a Flex First team\n\nThere’s no one-size fits all approach to how we do our best work. Our employees have the flexibility to choose where they do their best work—whether it’s from home, an office, or your favorite coffee shop—while staying connected and building community through regular in-person events. Learn more about our flexible approach to where we work.\n\nOverview\n\nJoin Instacart as a Bilingual Customer Experience T3 Specialist, where you’ll play a key role in supporting the delivery experience for pharmacy orders and contributing to our mission of empowering healthier living. As part of a dedicated team, you’ll help create seamless, empathetic, and impactful interactions that enhance our customers’ trust and satisfaction with Instacart’s services.\n\nWe are currently seeking a Bilingual Customer Experience T3 Specialist to join our team. In this role, you’ll be the voice of Instacart, delivering exceptional service through real-time calls and occasionally emails. You’ll work directly with customers, shoppers, pharmacists, and retail partners to create personalized support experiences that reflect empathy, kindness, and professionalism. Your work will focus on ensuring customer satisfaction by supporting Instacart Health initiatives like Fresh Funds and delivery-related inquiries for Rx orders, helping users during the moments that matter most.\n\nThe Instacart Customer Experience Consumer Vanguard team is dedicated to supporting a range of interactions across our customer, shopper, retailer, and partner community. From assisting with inquiries about Fresh Funds under our Instacart Health initiative to supporting Rx customers with prescription delivery and related questions, we provide empathetic and solutions-focused service. Whether resolving app issues or troubleshooting delivery concerns, our team is committed to advocating on behalf of our users and creating exceptional support experiences that contribute to Instacart’s vision of accessible and reliable services for all.\n\nAbout the Job\n\n- Take ownership of delivering real-time support to customers with a focus on Rx delivery-related inquiries and Instacart Health programs like Fresh Funds.\n\n- Leverage exceptional problem-solving skills to provide fast, effective resolutions while navigating complex and evolving challenges at scale.\n\n- Thrive in a fast-paced, dynamic work environment where processes may rapidly change, and new priorities emerge without warning.\n\n- Communicate clearly, empathetically, and professionally across all interactions, ensuring a personalized and meaningful service experience that builds lasting trust.\n\n- Embrace operational ownership by proactively identifying trends in customer feedback and collaborating with your Manager to streamline processes and improve outcomes.\n\nAbout You\n\nMinimum Qualifications\n\n- 1+ years of experience in customer service or call center support, with a proven ability to handle high-pressure scenarios.\n\n- Superior communication skills, including clear and professional phone etiquette and excellent written skills.\n\n- Fluency in Spanish, both spoken and written\n\n- Comfort and proficiency with technology, from navigating web-based support platforms to using and troubleshooting smartphone apps (iPhone/Android).\n\n- A proven ability to multitask, prioritize, and problem-solve in a fast-paced, constantly changing environment.\n\n- A strong sense of empathy, customer advocacy, and sound judgment for creating positive outcomes in difficult or time-sensitive situations.\n\nPreferred Qualifications\n\n- Experience in delivery-focused customer support, particularly within delivery apps\n\n- Familiarity with handling inbound customer service calls and/or working within HIPAA-compliant environments.\n\n- Prior experience in a fast-paced, metrics-driven contact center setting.\n\n- Proficiency with customer support tools like Salesforce, Geneys, Admin or similar platforms.\n\n- A demonstrated ability to identify trends and provide feedback for continuous improvement in processes and workflows.\n\nWork Schedule:\nFor Bilingual only:\n\nThe working hours for this role are Monday - Friday 9:00 AM - 6:00 PM ET or Friday - Tuesday 9:00 AM - 6:00 PM ET\n\n#LI-Remote\n\nInstacart provides highly market-competitive compensation and benefits in each location where our employees work. This role is remote and the base pay range for a successful candidate is dependent on their permanent work location. Please review our Flex First remote work policy here.\n\nOffers may vary based on many factors, such as candidate experience and skills required for the role. Additionally, this role is eligible for a new hire equity grant as well as annual refresh grants. Please read more about our benefits offerings here.\n\nFor US based candidates, the base pay ranges for a successful candidate are listed below.\n\nCA, NY, CT, NJ\n\n$20.67—$20.92 USD\n\nWA\n\n$19.71—$20.92 USD\n\nOR, DE, ME, MA, MD, NH, RI, VT, DC, PA, VA, CO, TX, IL, HI\n\n$19.23—$20.19 USD\n\nAll other states\n\n$17.31—$18.27 USD",
-      "apply_url": "https://jobicy.com/jobs/159327-bilingual-customer-experience-t3-specialist-spanish",
-      "source": "Jobicy",
-      "posted_at": "2026-11-06T15:07:23.000Z",
-      "scraped_at": "2026-11-08T13:59:55.610Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -200,7 +376,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/collective-residential-offshore-virtual-executive-assistant-to-the-ceo",
       "source": "We Work Remotely",
       "posted_at": "2026-11-06T07:13:00.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -222,7 +398,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/vital-virtuals-global-hr-solutions-llc-medical-virtual-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-11-06T04:12:16.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -244,7 +420,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paid-ads-academy-paid-ads-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-05T21:33:36.000Z",
-      "scraped_at": "2026-11-08T13:59:54.331Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -266,7 +442,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/billiontoone-client-services-associate-i-oncology-east-coast",
       "source": "We Work Remotely",
       "posted_at": "2026-11-05T13:22:27.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -288,7 +464,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8355218",
       "source": "greenhouse",
       "posted_at": "2026-11-05T09:29:42-05:00",
-      "scraped_at": "2026-11-08T13:59:31.592Z",
+      "scraped_at": "2026-11-09T17:00:42.823Z",
       "status": "open"
     },
     {
@@ -310,7 +486,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6105549004",
       "source": "greenhouse",
       "posted_at": "2026-11-05T03:56:40-05:00",
-      "scraped_at": "2026-11-08T13:59:45.556Z",
+      "scraped_at": "2026-11-09T17:00:56.189Z",
       "status": "open"
     },
     {
@@ -332,7 +508,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/6234225003",
       "source": "greenhouse",
       "posted_at": "2026-11-05T02:20:44-05:00",
-      "scraped_at": "2026-11-08T13:59:41.043Z",
+      "scraped_at": "2026-11-09T17:00:50.775Z",
       "status": "open"
     },
     {
@@ -354,7 +530,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521816002",
       "source": "greenhouse",
       "posted_at": "2026-11-04T14:31:57-05:00",
-      "scraped_at": "2026-11-08T13:59:43.165Z",
+      "scraped_at": "2026-11-09T17:00:53.900Z",
       "status": "open"
     },
     {
@@ -376,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8352299",
       "source": "greenhouse",
       "posted_at": "2026-11-04T07:05:48-05:00",
-      "scraped_at": "2026-11-08T13:59:31.591Z",
+      "scraped_at": "2026-11-09T17:00:42.823Z",
       "status": "open"
     },
     {
@@ -398,7 +574,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8301377",
       "source": "greenhouse",
       "posted_at": "2026-11-04T06:52:18-05:00",
-      "scraped_at": "2026-11-08T13:59:31.592Z",
+      "scraped_at": "2026-11-09T17:00:42.823Z",
       "status": "open"
     },
     {
@@ -420,7 +596,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5283621007",
       "source": "greenhouse",
       "posted_at": "2026-11-03T16:55:52-05:00",
-      "scraped_at": "2026-11-08T13:59:43.314Z",
+      "scraped_at": "2026-11-09T17:00:54.042Z",
       "status": "open"
     },
     {
@@ -442,7 +618,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-11-02T20:01:00.000Z",
-      "scraped_at": "2026-11-08T13:59:54.825Z",
+      "scraped_at": "2026-11-09T17:01:28.988Z",
       "status": "open"
     },
     {
@@ -464,7 +640,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/ninja-partners-llc-customer-service-representative-ii-seasonal",
       "source": "We Work Remotely",
       "posted_at": "2026-11-02T17:00:15.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -486,7 +662,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/salesloft-people-operations-coordinator-temp-to-fte-opportunity",
       "source": "We Work Remotely",
       "posted_at": "2026-11-02T07:31:04.000Z",
-      "scraped_at": "2026-11-08T13:59:54.331Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -508,7 +684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8336768",
       "source": "greenhouse",
       "posted_at": "2026-11-02T03:04:42-05:00",
-      "scraped_at": "2026-11-08T13:59:31.591Z",
+      "scraped_at": "2026-11-09T17:00:42.823Z",
       "status": "open"
     },
     {
@@ -530,7 +706,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/connexus-resource-group-inc-customer-service-representative-work-from-home",
       "source": "We Work Remotely",
       "posted_at": "2026-11-01T17:00:19.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -552,7 +728,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/teleperformance-healthcare-customer-service-representative-remote-tx-tn-pa-mi-fl-only",
       "source": "We Work Remotely",
       "posted_at": "2026-11-01T17:00:15.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -574,7 +750,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/axon-sr-technical-support-representative",
       "source": "We Work Remotely",
       "posted_at": "2026-10-31T16:00:16.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -596,7 +772,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/prospex-crm-business-development-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-30T19:50:39.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -618,7 +794,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-10-30T08:37:44-04:00",
-      "scraped_at": "2026-11-08T13:59:45.556Z",
+      "scraped_at": "2026-11-09T17:00:56.189Z",
       "status": "open"
     },
     {
@@ -640,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/wolt-english-english-speaking-support-associate-full-time-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-10-30T07:31:12.000Z",
-      "scraped_at": "2026-11-08T13:59:54.331Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -662,7 +838,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/crisis-connections-recovery-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-29T16:00:34.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -684,7 +860,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/imerit-technology-ai-data-quality-specialist-ai-trainer",
       "source": "We Work Remotely",
       "posted_at": "2026-10-28T22:44:12.000Z",
-      "scraped_at": "2026-11-08T13:59:54.331Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -706,7 +882,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272406007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:14:27-04:00",
-      "scraped_at": "2026-11-08T13:59:43.314Z",
+      "scraped_at": "2026-11-09T17:00:54.042Z",
       "status": "open"
     },
     {
@@ -728,7 +904,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272446007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:13:55-04:00",
-      "scraped_at": "2026-11-08T13:59:43.314Z",
+      "scraped_at": "2026-11-09T17:00:54.042Z",
       "status": "open"
     },
     {
@@ -750,7 +926,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169731007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:11:31-04:00",
-      "scraped_at": "2026-11-08T13:59:43.314Z",
+      "scraped_at": "2026-11-09T17:00:54.042Z",
       "status": "open"
     },
     {
@@ -772,7 +948,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:04:14-04:00",
-      "scraped_at": "2026-11-08T13:59:43.314Z",
+      "scraped_at": "2026-11-09T17:00:54.042Z",
       "status": "open"
     },
     {
@@ -794,7 +970,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/flag-theory-customer-onboarding-specialist-for-company-incorporations-full-time-3",
       "source": "We Work Remotely",
       "posted_at": "2026-10-28T15:26:29.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -816,7 +992,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6226462004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-11-08T13:59:22.663Z",
+      "scraped_at": "2026-11-09T17:00:33.454Z",
       "status": "open"
     },
     {
@@ -838,7 +1014,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6230088004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-11-08T13:59:22.664Z",
+      "scraped_at": "2026-11-09T17:00:33.455Z",
       "status": "open"
     },
     {
@@ -860,7 +1036,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6232781004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-11-08T13:59:22.664Z",
+      "scraped_at": "2026-11-09T17:00:33.455Z",
       "status": "open"
     },
     {
@@ -882,7 +1058,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/freshly-commerce-technical-support-specialist-1",
       "source": "We Work Remotely",
       "posted_at": "2026-10-27T16:45:57.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -904,7 +1080,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/21af1f6e-4454-48d8-9d1b-a5ceac4aff7c",
       "source": "lever",
       "posted_at": "2026-10-27T10:56:29.554Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -926,7 +1102,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/replika-lifecycle-crm-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-26T19:35:20.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -948,7 +1124,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/a8c7ee7c-ccdf-4d98-aa0a-d73f15d15e6b",
       "source": "lever",
       "posted_at": "2026-10-26T14:47:35.219Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.151Z",
       "status": "open"
     },
     {
@@ -970,7 +1146,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-26T07:31:27.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -992,7 +1168,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-10-21T13:52:12-04:00",
-      "scraped_at": "2026-11-08T13:59:47.268Z",
+      "scraped_at": "2026-11-09T17:00:58.064Z",
       "status": "open"
     },
     {
@@ -1014,7 +1190,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/oportun-repossession-coordinator-r14323",
       "source": "We Work Remotely",
       "posted_at": "2026-10-21T07:31:02.000Z",
-      "scraped_at": "2026-11-08T13:59:54.331Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -1036,7 +1212,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-dutch-speaking-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-10-20T07:30:57.000Z",
-      "scraped_at": "2026-11-08T13:59:54.331Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -1058,7 +1234,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/abbott-clinical-specialist-crm-mobile-al",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T17:39:32.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -1080,7 +1256,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/evolve-peptides-operations-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T17:25:15.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -1102,7 +1278,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-care-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-10-19T07:31:25.000Z",
-      "scraped_at": "2026-11-08T13:59:54.331Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -1124,7 +1300,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/120541c5-8caa-4e7e-aefa-c12fcf3c5663",
       "source": "lever",
       "posted_at": "2026-10-16T09:21:51.285Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1146,7 +1322,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/6sense-it-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:14.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -1168,7 +1344,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/customer-io-email-deliverability-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-15T07:31:00.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -1190,7 +1366,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cranky-concierge-travel-coordinator-1",
       "source": "We Work Remotely",
       "posted_at": "2026-10-14T15:30:23.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -1212,7 +1388,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paragon-planners-part-time-remote-database-crm-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-13T16:00:30.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -1234,7 +1410,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-10-11T20:17:27.000Z",
-      "scraped_at": "2026-11-08T13:59:54.825Z",
+      "scraped_at": "2026-11-09T17:01:28.988Z",
       "status": "open"
     },
     {
@@ -1256,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/1252b51c-b738-4283-815c-aa7d9e7b4845",
       "source": "lever",
       "posted_at": "2026-10-07T07:46:43.958Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.151Z",
       "status": "open"
     },
     {
@@ -1278,7 +1454,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.151Z",
       "status": "open"
     },
     {
@@ -1300,7 +1476,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
       "source": "We Work Remotely",
       "posted_at": "2026-09-28T23:53:19.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -1322,7 +1498,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/75855892-4cde-40be-8493-f2b2a4acf006",
       "source": "lever",
       "posted_at": "2026-09-11T15:42:52.768Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1344,7 +1520,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
       "source": "We Work Remotely",
       "posted_at": "2026-09-04T22:58:37.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.466Z",
       "status": "open"
     },
     {
@@ -1366,7 +1542,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/dbaa6400-1fad-406b-8ef4-bbb5a19b0608",
       "source": "lever",
       "posted_at": "2026-08-27T15:26:30.304Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1476,7 +1652,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0b14cde9-0c0d-47a2-a064-799b51e372af",
       "source": "lever",
       "posted_at": "2026-08-06T13:57:16.813Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1498,7 +1674,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/643bf1a9-f777-4402-aac1-c6ad0f4bcb47",
       "source": "lever",
       "posted_at": "2026-08-06T07:53:58.611Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1520,29 +1696,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/210776d8-b462-424e-9712-8b224c0ddea2",
       "source": "lever",
       "posted_at": "2026-06-24T14:09:55.163Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
-      "status": "open"
-    },
-    {
-      "id": "lever:octopus-energy:ab15d13d-213e-4b20-9835-df81db814cf9",
-      "hub": "business",
-      "title": "Process Specialist – Energy Balancing & Operations (m/w/d)",
-      "company": "Octopus Energy",
-      "company_id": "octopus-energy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Energy Retailer & Tech",
-      "level": "Mid",
-      "location": "Berlin (DE)",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Als global tätiges EnerTech-Unternehmen verbinden wir Energieversorgung, Technologie und Services.",
-      "description": "Als global tätiges EnerTech-Unternehmen verbinden wir Energieversorgung, Technologie und Services. Unser Ziel ist es, mehr Menschen Zugang zu modernen Energielösungen zu ermöglichen. Dafür bieten wir Stromtarife aus 100% erneuerbaren Energien an, installieren Wärmepumpen und entwickeln smarte Tarife.\n \nDabei sind unsere Ökostromtarife nur die Basis. Bereits seit 2022 installieren wir Wärmepumpen-Komplettlösungen mit eigenen Fachkräften. Außerdem arbeiten wir aktiv an der flächendeckenden Einführung von Smart Metern, Elektromobilitätslösungen und der eigenen Stromerzeugung aus Wind- und Sonnenenergie.\n \nDas schaffen wir allerdings nicht alleine, sondern dazu brauchen wir dich! Werde Teil unseres Teams und fordere den Status Quo heraus. Mit Energie, die gut für den Planeten ist und gut für dein Karma. 💚  Finde jetzt deinen Traumjob und werde Teil der Energierevolution von Octopus Energy Germany.\n\n💡Wichtiger Hinweis vorab: Dies ist keine Marketing- oder PR-Stelle. Wir suchen eine(n) Expert*in für Prozessautomatisierung & Marktprozesse in der Energiewirtschaft, um unsere operativen Abläufe aufs nächste Level zu heben.\n\n- Operative Verantwortung: Du unterstützt die operative Steuerung unseres Bilanzkreismanagements für Strom und Gas und koordinierst die Kommunikation mit Marktpartnern, Dienstleistern und internen Teams. Dabei behältst du den Überblick über laufende Clearing- und Marktkommunikationsprozesse, unterstützt das Monitoring von Forecastqualität und Bilanzkreisabweichungen und hilfst bei der Erstellung von Auswertungen und KPIs, die unsere täglichen Entscheidungen unterstützen.\n\n- Datenqualität & Clearing: Du überwachst und koordinierst Clearing-Prozesse mit Netzbetreibern und hilfst dabei, Datenabweichungen systematisch zu identifizieren, zu beheben und Bilanzierungsrisiken zu reduzieren.\n\n- Prozesse & Automatisierung: Du identifizierst Verbesserungspotenziale in bestehenden Prozessen und arbeitest gemeinsam mit Data-, Tech- und Operations-Teams an skalierbaren Lösungen. Du unterstützt die Weiterentwicklung und Automatisierung unserer Bilanzkreismanagement-Prozesse, um manuelle Aufwände zu reduzieren und die operative Stabilität zu erhöhen. Du arbeitest eng mit unseren System- und Dienstleistungspartnern (u. a. Kraken) zusammen und bringst Anforderungen aus dem operativen Geschäft in die Weiterentwicklung unserer Systeme ein.\n\n- Projekte & Weiterentwicklung: Du wirkst an energiewirtschaftlichen Projekten rund um Bilanzierung, Marktkommunikation und Forecasting mit. Du hilfst dabei, Transparenz über Bilanzkreisrisiken, Forecastqualität und Datenqualität zu schaffen und unterstützt die Entwicklung von KPIs, Monitoring-Dashboards und Reports.\n\n- Du hast ein abgeschlossenes Studium oder eine vergleichbare Ausbildung mit energiewirtschaftlichem, wirtschaftlichem, oder analytischem Schwerpunkt.\n\n- Erste Erfahrungen in der Energiewirtschaft sind von Vorteil.\n\n- Kenntnisse der Marktkommunikation (z. B. GPKE, GeLi Gas oder MaBiS) sind ein Plus, aber kein Muss.\n\n- Du arbeitest strukturiert, eigenverantwortlich und lösungsorientiert.\n\n- Du hast Spaß daran, komplexe energiewirtschaftliche Prozesse zu verstehen und weiterzuentwickeln.\n\n- Du bringst eine hohe Affinität für Daten, Prozesse und operative Abläufe mit.\n\n- Du kommunizierst sicher auf Deutsch und Englisch und arbeitest gerne mit unterschiedlichen Stakeholdern zusammen.",
-      "apply_url": "https://jobs.lever.co/octoenergy/ab15d13d-213e-4b20-9835-df81db814cf9",
-      "source": "lever",
-      "posted_at": "2026-06-22T09:19:35.270Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1564,7 +1718,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/876840d3-b6de-411b-813c-198e96d421f9",
       "source": "lever",
       "posted_at": "2026-05-27T13:38:08.065Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.151Z",
       "status": "open"
     },
     {
@@ -1586,7 +1740,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/f69b3798-8eed-4518-8880-8f71c6cc1b5c",
       "source": "lever",
       "posted_at": "2026-02-04T07:29:47.969Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1608,7 +1762,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/c61e2fa2-5dfc-4e5c-b680-41058d3bffa7",
       "source": "lever",
       "posted_at": "2025-12-23T14:51:01.168Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1630,7 +1784,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/df19d584-582f-486b-afe9-66fcda82d3d6",
       "source": "lever",
       "posted_at": "2025-12-10T16:29:40.286Z",
-      "scraped_at": "2026-11-08T13:59:41.656Z",
+      "scraped_at": "2026-11-09T17:00:51.151Z",
       "status": "open"
     },
     {
@@ -1652,7 +1806,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
       "source": "We Work Remotely",
       "posted_at": "2025-11-11T00:58:24.000Z",
-      "scraped_at": "2026-11-08T13:59:54.332Z",
+      "scraped_at": "2026-11-09T17:01:28.465Z",
       "status": "open"
     },
     {
@@ -1674,7 +1828,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/5920b958-5fed-48d8-ad59-c18a5ad23200",
       "source": "lever",
       "posted_at": "2025-10-03T13:07:03.024Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1696,7 +1850,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e8d2ddf7-9033-4777-9b84-c70ae07610b6",
       "source": "lever",
       "posted_at": "2025-06-18T08:41:32.740Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1718,7 +1872,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/0884a692-8fec-4d63-855d-66f674aba4cc",
       "source": "lever",
       "posted_at": "2025-01-12T21:27:22.751Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1740,139 +1894,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/e757ad15-d75e-499b-bccb-49e7d9437f7f",
       "source": "lever",
       "posted_at": "2023-12-11T06:26:48.606Z",
-      "scraped_at": "2026-11-08T13:59:41.655Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5172",
-      "hub": "legal",
-      "title": "Senior Global Benefits Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "4 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Global Benefits Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Global-Benefits-Specialist_REQ-5172",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4490",
-      "hub": "legal",
-      "title": "Social Media Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Social Media Manager",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "2 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Social Media Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Social-Media-Specialist_REQ-4490",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4568",
-      "hub": "legal",
-      "title": "Payroll Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "2 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Payroll Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-4487",
-      "hub": "legal",
-      "title": "Senior Marketing Operations Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "3 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Marketing Operations Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Marketing-Operations-Specialist_REQ-4487",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5019",
-      "hub": "legal",
-      "title": "Customer Support Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "2 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Customer Support Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Calgary/Customer-Support-Specialist--New-Grads-_REQ-5019",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5541",
-      "hub": "legal",
-      "title": "Senior Billing Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Senior",
-      "location": "Barcelona",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Senior Billing Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/Senior-Billing-Specialist_REQ-5541",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
+      "scraped_at": "2026-11-09T17:00:51.150Z",
       "status": "open"
     },
     {
@@ -1894,7 +1916,183 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-R-D-Operations-Specialist_BF-REQ-3129",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
+      "scraped_at": "2026-11-09T17:00:39.811Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-5643",
+      "hub": "legal",
+      "title": "Customer Onboarding Specialist (Italian Speaking)",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Mid",
+      "location": "Remote - Ireland",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Customer Onboarding Specialist (Italian Speaking) at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Ireland/Customer-Onboarding-Specialist--Italian-Speaking-_REQ-5643",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-09T17:00:39.812Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:BF-REQ-2637",
+      "hub": "legal",
+      "title": "Customer Onboarding Specialist EMEA (Spanish Speaking)",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Mid",
+      "location": "Dublin",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Customer Onboarding Specialist EMEA (Spanish Speaking) at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Onboarding-Specialist-EMEA_BF-REQ-2637",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-09T17:00:39.812Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-5172",
+      "hub": "legal",
+      "title": "Senior Global Benefits Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Senior",
+      "location": "4 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Global Benefits Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Senior-Global-Benefits-Specialist_REQ-5172",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-09T17:00:39.812Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-4490",
+      "hub": "legal",
+      "title": "Social Media Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Social Media Manager",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Mid",
+      "location": "2 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Social Media Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Vancouver/Social-Media-Specialist_REQ-4490",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-09T17:00:39.812Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-4568",
+      "hub": "legal",
+      "title": "Payroll Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Mid",
+      "location": "2 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Payroll Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Sydney/Payroll-Specialist_REQ-4568",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-09T17:00:39.812Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-4487",
+      "hub": "legal",
+      "title": "Senior Marketing Operations Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Senior",
+      "location": "3 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Marketing Operations Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Senior-Marketing-Operations-Specialist_REQ-4487",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-09T17:00:39.812Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-5019",
+      "hub": "legal",
+      "title": "Customer Support Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Customer Support",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Mid",
+      "location": "2 Locations",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Customer Support Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Calgary/Customer-Support-Specialist--New-Grads-_REQ-5019",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-09T17:00:39.812Z",
+      "status": "open"
+    },
+    {
+      "id": "workday:clio:REQ-5541",
+      "hub": "legal",
+      "title": "Senior Billing Specialist",
+      "company": "Clio",
+      "company_id": "clio",
+      "priority": false,
+      "category": "Other",
+      "segment": "Legal Practice Management SaaS",
+      "level": "Senior",
+      "location": "Barcelona",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Senior Billing Specialist at Clio.",
+      "description": "",
+      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/Senior-Billing-Specialist_REQ-5541",
+      "source": "workday",
+      "posted_at": null,
+      "scraped_at": "2026-11-09T17:00:39.812Z",
       "status": "open"
     },
     {
@@ -1916,7 +2114,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Dublin/Customer-Support-Specialist_REQ-5538",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
+      "scraped_at": "2026-11-09T17:00:39.812Z",
       "status": "open"
     },
     {
@@ -1938,7 +2136,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Bogot/Intermediate-Customer-Onboarding-Specialist_REQ-5511",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
+      "scraped_at": "2026-11-09T17:00:39.812Z",
       "status": "open"
     },
     {
@@ -1960,7 +2158,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Systems-Specialist--FP-A_REQ-5221",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
+      "scraped_at": "2026-11-09T17:00:39.812Z",
       "status": "open"
     },
     {
@@ -1982,7 +2180,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Senior-Talent-Acquisition-Specialist_REQ-5484",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
+      "scraped_at": "2026-11-09T17:00:39.812Z",
       "status": "open"
     },
     {
@@ -2004,205 +2202,7 @@
       "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---England/Lead-Content-Licensing-Specialist_REQ-5446",
       "source": "workday",
       "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5216",
-      "hub": "legal",
-      "title": "Content Specialist, Enterprise",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "3 Locations",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Content Specialist, Enterprise at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Toronto/Content-Specialist--Enterprise_REQ-5216",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5262",
-      "hub": "legal",
-      "title": "IT Specialist",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Barcelona",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "IT Specialist at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Barcelona/IT-Specialist_REQ-5262",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "workday:clio:REQ-5082",
-      "hub": "legal",
-      "title": "Graphic Designer (5 Month Contract)",
-      "company": "Clio",
-      "company_id": "clio",
-      "priority": false,
-      "category": "Graphic Designer",
-      "segment": "Legal Practice Management SaaS",
-      "level": "Mid",
-      "location": "Remote - Canada",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Graphic Designer (5 Month Contract) at Clio.",
-      "description": "",
-      "apply_url": "https://clio.wd3.myworkdayjobs.com/ClioCareerSite/job/Remote---Canada/Graphic-Designer--5-Month-Contract-_REQ-5082",
-      "source": "workday",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:28.399Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
-      "hub": "legaltech",
-      "title": "Business Development Onboarding & Training Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Business Development Onboarding & Training Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/1720de58-fd44-4ef5-a10e-c2f2bbeadfd5/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:31.146Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
-      "hub": "legaltech",
-      "title": "Business Development Onboarding & Training Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Business Development Onboarding & Training Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/493fa0f7-1579-4e70-9f6f-cea6a9f6a96e/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:31.146Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
-      "hub": "legaltech",
-      "title": "Collections Specialist",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Other",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Collections Specialist at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/f05ee7f9-50ef-43c6-b597-64a42b01ad44/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:31.146Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
-      "hub": "legaltech",
-      "title": "Customer Success Associate",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Legal Case Management Software",
-      "level": "Entry",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Customer Success Associate at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/0bf3dc09-2254-43a6-9c0a-e914ec722c1a/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:31.146Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
-      "hub": "legaltech",
-      "title": "Event Operations Coordinator",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Virtual Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Event Operations Coordinator at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/e4abb2f5-baa4-4f57-a48f-0c8d760d8dd2/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:31.146Z",
-      "status": "open"
-    },
-    {
-      "id": "dom:clio-legal:https://www.filevine.com/jobs/594dba01-0f77-4f99-9484-ccebeacf39de/",
-      "hub": "legaltech",
-      "title": "Executive Assistant to the CEO",
-      "company": "Filevine",
-      "company_id": "clio-legal",
-      "priority": false,
-      "category": "Executive Assistant",
-      "segment": "Legal Case Management Software",
-      "level": "Mid",
-      "location": "See posting",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Executive Assistant to the CEO at Filevine.",
-      "description": "",
-      "apply_url": "https://www.filevine.com/jobs/594dba01-0f77-4f99-9484-ccebeacf39de/",
-      "source": "dom",
-      "posted_at": null,
-      "scraped_at": "2026-11-08T13:59:31.146Z",
+      "scraped_at": "2026-11-09T17:00:39.812Z",
       "status": "open"
     }
   ]
