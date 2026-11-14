@@ -394,7 +394,7 @@ export const COMPANIES = [
   { id: "celonis", name: "Celonis", hub: "saas", careersUrl: "https://www.celonis.com/careers/", website: "https://www.celonis.com", segment: "Process Mining Software", country: "Germany", verified: false, method: null, atsSlug: null, active: true },
 
   // Sweden
-  { id: "klarna", name: "Klarna", hub: "fintech", careersUrl: "https://www.klarna.com/careers/", website: "https://www.klarna.com", segment: "Buy Now, Pay Later / Fintech", country: "Sweden", verified: false, method: null, atsSlug: null, active: true },
+  { id: "klarna", name: "Klarna", hub: "fintech", careersUrl: "https://www.klarna.com/careers/", website: "https://www.klarna.com", segment: "Buy Now, Pay Later / Fintech", country: "Sweden", verified: false, method: "dom", atsSlug: null, active: true },
   { id: "spotify", name: "Spotify", hub: "business", careersUrl: "https://www.lifeatspotify.com/jobs", website: "https://www.spotify.com", segment: "Audio Streaming", country: "Sweden", verified: false, method: null, atsSlug: null, active: true },
 
   // Netherlands
