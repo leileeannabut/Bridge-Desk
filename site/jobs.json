@@ -1,30 +1,74 @@
 {
-  "generated_at": "2026-11-26T17:28:45.149Z",
+  "generated_at": "2026-11-27T17:07:28.948Z",
   "count": 100,
-  "total_open": 147,
-  "sources_ok": 55,
-  "sources_failed": 27,
+  "total_open": 134,
+  "sources_ok": 52,
+  "sources_failed": 30,
   "jobs": [
     {
-      "id": "agg:weworkremotely:synapticure-care-team-intake-specialist",
+      "id": "agg:jobicy:164557",
       "hub": "business",
-      "title": "Care Team Intake Specialist",
-      "company": "Synapticure",
+      "title": "Technical Support Specialist",
+      "company": "Elation Health",
+      "company_id": "agg:jobicy",
+      "priority": false,
+      "category": "Other",
+      "segment": "Jobicy",
+      "level": "Mid",
+      "location": "Canada",
+      "employment_type": "full-time",
+      "comp_min": 52500,
+      "comp_max": 75000,
+      "summary": "Our team is committed to enhancing physician and patient quality of life through Elation, a SaaS cloud-based clinical platform.",
+      "description": "Our team is committed to enhancing physician and patient quality of life through Elation, a SaaS cloud-based clinical platform. Since inception, we've been focused on building a delightful, world-class experience that empowers physicians to deliver phenomenal care to patients.\n\nCustomer support has been the same job for twenty years: a queue, a ticket, an SLA, a closed case. That's ending, fast. Over the next 6–9 months, AI will take on more of the routine, repetitive cases at Elation. That doesn't shrink the human role — it builds on it. The work becomes product intelligence: shaping how AI handles conversations, holding the customer-trust moments that need real judgment, and turning patterns into priorities Engineering delivers.\n\nWe're hiring Technical Support Specialists to anchor that shift: people who don't just close tickets, but build the systems that eliminate them, design how AI handles conversations, and turn customer patterns into product priorities.\n\nYou might’ve been the person on a team who builds the dashboards, automations, or workflows that make everyone else better from a Support, Implementation, CS Ops, or Analyst seat. Now you want to formalize that work as the role itself. As a Technical Support Specialist, you'll bring empathy and judgment to the cases that need it most, own the quality of AI-driven solutions in your domain, and synthesize patterns that influence Product and Engineering roadmaps. We hire for judgment, taste, and curiosity, not process adherence. The bar isn't how many cases you closed; it's how much you reshaped the conditions under which cases happen.\n\nRole and Responsibilities\n\n- Use Good Judgment to Solve Cases. Own customer escalations with cases that genuinely require seasoned judgment, the ones AI can't safely close. Build and protect customer trust in moments that matter.\n\n- Build and own AI quality. Configure AI within Elation's stack (intents, knowledge sources, escalation rules), build lightweight external automations, and own the quality of AI outputs in your domain.\n\n- Synthesize and partner with Product/Eng. Produce formal weekly and monthly insights, participate in roadmap conversations with Product Development teams, and mentor Associates on their build and synthesis work.\n\nWhat success looks like in your first 6 months\n\n- Shipped 3–5 AI solutions\n\n- A monthly drumbeat of synthesized insights that Product and Engineering act on, with visible impact on customer experience or a measurable drop in case volume\n\n- Owns a measurable case-volume reduction in your domain by making cases not happen, not by closing them faster\n\n- You question default workflows instead of just executing them, and you ship more by removing work, not just doing more of it.\n\n- You build with AI to make yourself and the teammates around you faster — automating triage, drafting responses, prototyping internal tools, and turning one-off builds into reusable patterns Associates can run with.\n\n- Mentors Associate teammates on AI builds and pattern synthesis\n\nProfessional Qualifications\n\n- 0-4+ years of relevant experience inSupport, Implementation, CS Ops, embedded data analyst, or AI/automation tinkerer in any field.\n\n- A concrete portfolio of things you've built or shipped: prompt-engineered systems, dashboards, automations — with evidence of outcomes\n\n- Strong customer-facing communication and trust-building skills\n\n- Pattern recognition and synthesis muscle\n\n- AI-native default. Reaches for AI tools first, treats ambiguity as the work rather than a blocker, and wants to learn how to configure and supervise these systems — not just use them\n\n- A deep desire to drive results for our customers, with high ownership over the outcomes you own\n\n- Curiosity and natural problem-solving instincts\n\n- An instinct to raise the bar for the teammates around you — teaching others to build and synthesize, not just modeling it yourself\n\nShow us your work\n\nAlong with your application, in a cover letter send us:\n\n- 2–3 things you've built or shipped that changed a metric or outcome — what you made, who it was for, why did you need to do it, and what changed.\n\n- A short story about a time your analysis or insight changed a decision someone else made.\n\nSalary range: $52,500 - 75,000 CAD\n\nElation welcomes individuals from all backgrounds and walks of life. Elation is proud to be an Equal Opportunity Employer and is dedicated to creating and maintaining a diverse and inclusive work environment.\n\nWe are committed to equal opportunity for all employees and applicants, and value individuals with diverse perspectives including, but not limited to: race, color, religion, sex, sexual orientation, socioeconomic status, age, gender identity or gender expression, national origin, disability or veteran status.\n\nElation also complies with all applicable national, state and local laws governing nondiscrimination in employment as well as work authorization and employment eligibility verification requirements of the Immigration and Nationality Act and IRCA. We firmly believe a strong culture that supports a diverse and inclusive workforce allows us to achieve Elation’s mission of helping independent primary care thrive.",
+      "apply_url": "https://jobicy.com/jobs/164557-technical-support-specialist-2",
+      "source": "Jobicy",
+      "posted_at": "2026-11-27T12:52:15.000Z",
+      "scraped_at": "2026-11-27T17:07:28.472Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:qr-8-ltd-eu-economic-and-financial-policy-specialist",
+      "hub": "business",
+      "title": "EU Economic and Financial Policy Specialist",
+      "company": "QR 8 LTD",
       "company_id": "agg:weworkremotely",
       "priority": false,
       "category": "Other",
       "segment": "We Work Remotely",
       "level": "Mid",
-      "location": "USA Only",
+      "location": "Anywhere in the World, Ohio",
       "employment_type": "full-time",
       "comp_min": null,
       "comp_max": null,
-      "summary": "Headquarters: Remote About Synapticure Synapticure is the largest, most comprehensive specialty care and life sciences company in the country for those living with neurodegenerativ…",
-      "description": "Headquarters: Remote\n\nAbout Synapticure\n\nSynapticure is the largest, most comprehensive specialty care and life sciences company in the country for those living with neurodegenerative diseases. Founded by patients and caregivers living with these diseases, we are redefining the care and the research paradigm for conditions like Alzheimer's, Parkinson's, and ALS in all 50 states.\n\nOur business is powered by two connected engines.\n\nThe CARES Engine (Clinical Operations)\n\nA scalable, 50-state virtualized clinical network providing timely access to expert neurologists and cutting edge treatments with wraparound care coordination and behavioral health support. Our team creates personalized care plans focused on education and empowerment, connecting patients with a multidisciplinary team of subspecialty neurologists, geriatricians, psychologists, and care coordinators who collaborate to deliver comprehensive care.\n\nThe CURES Engine (Research & Innovation)\n\nLeveraging our deeply engaged, well characterized national patient cohort, CURES partners with life science, pharma, biotech, and medical device companies to accelerate the development of neurodegenerative treatments, spanning discovery stage lab services, clinical trial services, and real world evidence data and analytics.\n\nPartnering with providers, health plans, and life sciences companies, including CMS' GUIDE dementia care model, Synapticure is dedicated to transforming the lives of millions of individuals and their families living with neurodegenerative diseases.\nAbout the Role\n\nSynapticure is dedicated to ensuring all individuals living with neurodegenerative diseases have equitable access to the highest standard of care while fueling the advancement of personalized treatments. We create a guided, compassionate journey for every patient, caregiver, and family, educating and empowering them while facilitating access to critical tests and leading specialists across the United States.\n\nAs a Care Team Intake Specialist, you will be the welcoming first point of contact for members, caregivers, and loved ones navigating neurodegenerative conditions. You will drive essential clinical and administrative support functions, including scheduling, registration, referrals, and prior authorizations, serving as a trusted representative of Synapticure to our members, external healthcare organizations, and payer partners.\n\nThis is an opportunity to make a meaningful, daily impact on people's lives within a mission-driven, rapidly evolving environment. We are looking for an empathetic, curious, and organized communicator who thrives in collaborative spaces and is committed to delivering respectful, culturally responsive, and accessible care to diverse communities.\n\nThe Day to Day\n\nMember Engagement & Care Coordination\n\n- Conduct welcoming, empathetic intake calls with new patients and caregivers to gather medical histories, current and past provider details, and insurance information.\n\n- Schedule, confirm, and manage clinical appointments across virtual platforms, ensuring daily scheduling benchmarks and protocols are met.\n\n- Proactively manage cancellations, rescheduling requests, and appointment reminders via phone, video, and digital communication tools.\n\n- Collaborate closely with the multidisciplinary care team to coordinate care, complete visit-related tasks, and execute FMLA forms.\n\n- Advocate on behalf of patients and families with clinical providers, billing departments, and insurance partners while maintaining strict adherence to HIPAA guidelines.\n\nOperations, Documentation & Follow-Up\n\n- Request, collect, and audit external medical records, member consents, and HIPAA forms to ensure care teams have complete information prior to appointments.\n\n- Conduct insurance eligibility checks and assist with prior authorizations and referral management.\n\n- Accurately document member clinical and demographic data, calls, and correspondence in our Electronic Health Record (EHR) and care facilitation platforms in a timely manner.\n\n- Manage incoming and outgoing communications, including faxes, digital messages, and mailed member resources.\n\n- Follow standardized operating procedures and quality assurance protocols while remaining adaptable to evolving workflows and priorities.\n\n- Generate standard operational reports and support additional care team initiatives as needed.\n\nMinimum Qualifications\n\n- 1-2+ years of experience in patient communication, care coordination, medical scheduling, or managing referrals and prior authorizations.\n\n- Comfort with digital communication tools, telehealth platforms, Electronic Health Record (EHR) systems, and standard office technology.\n\n- Working knowledge of HIPAA privacy guidelines and handling confidential medical records.\n\n- Strong active listening skills and the ability to communicate clearly, patiently, and non-judgmentally with individuals from diverse backgrounds and varying accessibility needs.\n\n- Ability to stay organized, prioritize tasks effectively, and adapt in a fast-paced, evolving environment.\n\nPreferred Qualifications\n\n- 3+ years of experience in a healthcare setting, such as a Medical Assistant (MA), Patient Care Coordinator, Medical Records Specialist, or similar clinical/administrative support role.\n\n- Familiarity with healthcare operations, medical terminology, FMLA documentation, and frequently prescribed medications.\n\n- Experience requesting, reviewing, and auditing external medical records for completeness and accuracy.\n\n- Hands-on proficiency with cloud-based EHR systems (e.g., Epic, Athenahealth, eClinicalWorks), macOS, and Google Workspace.\n\n- Experience working in a remote setting, startup, or mission-driven organization undergoing rapid growth and change.\n\nSchedule\nWe are looking for candidates who are flexible to work the below schedule, based on your time zone, Monday through Friday.\n\n- Pacific: 8:00 AM to 4:30 PM PT\n\n- Mountain: 9:00 AM to 5:30 PM MT\n\n- Central: 10:00 AM to 6:30 PM CT\n\n- Eastern: 11:00 AM to 7:30 PM ET\nCompensation\n\nFinal compensation will be determined based on location, experience, and qualifications.\n\nOur Values\n\nWe are a remote-first company. While our team is located all across the United States, these core principles tie us together around a common identity:\n\n- Relentless focus on patients and caregivers: We are determined to provide an exceptional experience for every patient we have the privilege to serve, and we put our patients first in everything we do.\n\n- Embody the spirit and humanity of those living with neurodegenerative disease: Inspired by our founders, families, and personal experiences, we recognize the seriousness of our patients' circumstances and meet that challenge every day with empathy, compassion, kindness, joy, and hope.\n\n- Seek to understand, and stay curious: We start by listening to one another, our partners, our patients, and their caregivers. We communicate with authenticity and humility, prioritizing honesty and directness while recognizing we always have something to learn.\n\n- Embrace the opportunity: We are energized by the importance of our mission and maintain a strong bias toward action.\n\nBenefits & Perks\n\nFull time employees are eligible for:\n\n- Remote First: Work from anywhere in the 50 United States, with home office technology provided.\n\n- Comprehensive Healthcare: Medical, dental, and vision insurance options for you and your family.\n\n- Financial & Retirement Support: 401(k) plan with employer matching, plus short and long-term disability, and basic and supplemental life insurance.\n\n- Time Off & Leave: 15 vacation days, 5 sick days, 12 paid holidays, and 2 floating holidays, plus a fully paid end-of-year company holiday break (typically Christmas through New Year's).\n\n- Wellness & Family Growth: Comprehensive family-building and fertility services through Kindbody (where available) at a 20% discount, 24/7 mental health support via Health Advocate and Talkspace (including 12 free on-demand sessions per year), and access to One Medical.\n\nTravel Requirements & Remote Workplace Setup\n\nWe're a remote-first company and provide the necessary technology to work from home. Most roles involve only occasional travel, such as for team meetings or professional collaboration events, unless otherwise specified in the job-specific details above.\n\nEqual Opportunity Employer\n\nSynapticure is an equal opportunity employer and a remote-first workplace. We believe that embedding equity, inclusion, compliance, and operational excellence across all aspects of our employee lifecycle directly reflects our core values. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, or any other characteristic protected by law. Please apply even if you feel you do not meet all qualifications.\n\nAt this time, Synapticure is unable to provide work visa sponsorship.\n\nIf you require reasonable accommodation in completing this application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please direct your inquiries to careers@synapticure.com.\n\nTo apply: https://weworkremotely.com/remote-jobs/synapticure-care-team-intake-specialist",
-      "apply_url": "https://weworkremotely.com/remote-jobs/synapticure-care-team-intake-specialist",
+      "summary": "Headquarters: London, United Kingdom URL: https://qr-8.co.uk/ About the Role We are seeking an experienced EU Economic and Financial Policy Specialist to support research, analysis…",
+      "description": "Headquarters: London, United Kingdom\n\nURL: https://qr-8.co.uk/\n\nAbout the Role\n\nWe are seeking an experienced EU Economic and Financial Policy Specialist to support research, analysis, and advisory work related to European Union economic governance, financial regulation, monetary policy, and macroeconomic developments.\n\nThe specialist will monitor key policy developments across EU institutions and euro-area authorities, conduct structured research, and produce clear, actionable policy assessments and reports. This is a remote, part-time consulting engagement suitable for professionals with direct experience in EU economic and financial institutions, national central banks, or related policy and research environments.\n\nKey Responsibilities\n\n- Monitor and analyse EU economic and financial policy developments, including monetary policy, fiscal governance, and regulatory changes, and regularly produce policy briefs and in-depth research reports.\n\n- Conduct research and professional analysis on EU macroeconomic indicators, fiscal rules, and financial regulatory frameworks, delivering clear, reliable, and decision-ready assessments.\n\n- Provide depth information and insights that go beyond publicly available sources, where relevant to the project.\n\n- Track developments related to the Stability and Growth Pact, the European Semester, the Banking Union, the Capital Markets Union, and other core elements of the EU economic governance framework.\n\n- Prepare concise analytical notes, risk and policy assessments, and strategic recommendations.\n\n- Engage with relevant European financial institutions, think tanks, policy experts, and regulatory communities to support research needs (as appropriate to the project).\n\nCandidate Profile\n\nWe welcome applications from professionals with experience in one or more of the following areas:\n\n- European Central Bank (ECB), European Investment Bank (EIB), European Stability Mechanism (ESM), or DG ECFIN of the European Commission\n\n- Euro-area national central banks or financial regulatory authorities\n\n- EU economic governance, fiscal policy, or financial regulation\n\n- Macroeconomic research, monetary policy analysis, or financial policy advisory\n\n- Think tanks, research institutions, or policy advisory roles focused on the euro area and EU economic affairs\n\nRequirements\n\n- Ideally 3+ years of relevant professional experience in EU economic or financial policy analysis, central banking, financial regulation, macroeconomic research, or related fields.\n\n- Strong familiarity with euro exchange rate formation, ECB monetary policy tools and their transmission channels.\n\n- In-depth understanding of the EU economic governance framework, including the Stability and Growth Pact, the European Semester, the Banking Union, and the Capital Markets Union.\n\n- Demonstrated ability to independently interpret EU macroeconomic indicators, fiscal rules, and financial regulatory frameworks and produce clear policy assessments.\n\n- Strong analytical and report-writing skills; ability to work independently on time-sensitive research assignments.\n\n- Professional proficiency in English. Additional European languages are an advantage.\n\nPreferred Qualifications\n\nPrior experience working directly within, or professionally engaging with:\n\n- European Central Bank, European Investment Bank, European Stability Mechanism, or European Commission (DG ECFIN)\n\n- Euro-area national central banks or financial supervisory authorities\n\n- EU institutions, think tanks, or policy research organisations focused on economic and financial affairs\n\nCompensation\n\nCompetitive project-based compensation, depending on professional experience, expertise, and scope of work. Options include:\n\n- €500–1,000 per analytical article/report\n\n- Per assignment / project basis\n\n- Approximately €100/hour\n\nFor deeper collaboration, we value the ability to provide depth information and insights beyond publicly available sources.\n\nHow to Apply\n\nPlease send your CV and a short cover letter to aya@qr-8.co.uk. You may also attach sample reports or writing samples from previous work (with any confidential information removed).\n\nTo apply: https://weworkremotely.com/remote-jobs/qr-8-ltd-eu-economic-and-financial-policy-specialist",
+      "apply_url": "https://weworkremotely.com/remote-jobs/qr-8-ltd-eu-economic-and-financial-policy-specialist",
       "source": "We Work Remotely",
-      "posted_at": "2026-11-26T14:40:18.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "posted_at": "2026-11-27T12:35:30.000Z",
+      "scraped_at": "2026-11-27T17:07:27.316Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:affirm-contract-management-specialist-ii",
+      "hub": "business",
+      "title": "Contract Management Specialist II",
+      "company": "Affirm",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World",
+      "employment_type": "full-time",
+      "comp_min": 100000,
+      "comp_max": 150000,
+      "summary": "Headquarters: Remote US At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs…",
+      "description": "Headquarters: Remote US\n\nAt Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAbout the Legal, Compliance, and Public Affairs team\n\nThe Legal, Compliance, and Public Affairs team is a group of dedicated professionals committed to helping Affirm scale, innovate, and provide outstanding products for consumers, merchants, and key partners. We combine legal, compliance, and policy expertise to guide growth, shape products, and build trust across our ecosystem. Our work spans multiple professional disciplines and provides the foundation for Affirm’s mission to deliver honest financial products.\n\nAbout the role\n\nWe are looking for a business-minded Contract Management Specialist II to help deliver responsive, consistent contract support for the Commercial and Vendor Legal teams.\n\nYou’ll manage a wide range of agreements, support legal intake and business questions, and partner closely with Legal, Legal Operations, Revenue, Finance, Procurement, and other internal teams. You’ll independently handle routine matters while supporting attorneys on strategic, complex negotiations. This is a hands-on role that rewards resourcefulness, speed, curiosity, a continuous improvement mindset, and good judgment.\n\nWhat you'll do\n\n-\nDraft, negotiate, and manage commercial and vendor agreements, amendments, NDAs, and other contracts\n\n-\nTriage incoming legal requests, support the business by answering contract and process questions, and route matters that require specialized knowledge\n\n-\nCoordinate contract approvals and cross-functional reviews and help keep contract matters moving toward execution\n\n-\nMaintain and help improve standard contract templates, playbooks, training materials, and knowledge management resources\n\n-\nCommunicate contract positions, requirements, risks and next steps clearly and concisely to internal business partners\n\n-\nIdentify recurring pain points and opportunities to implement process improvements that optimize for speed, efficiency, and quality\n\n-\nManage and meet aggressive internal SLAs while balancing shifting priorities and escalating urgent or high-risk matters appropriately\n\n-\nPartner with Legal Operations, Financial Systems, and Procurement on solution design and delivery\n\n-\nSupport ad hoc matters and special projects as the contract management function evolves\n\nWhat we look for\n\n-\n3+ years of relevant experience in contract management, as a paralegal, or in a comparable contracting role, preferably at a fast-paced technology company\n\n-\nBachelor’s degree (no JD required)\n\n-\nExperience using a contract lifecycle management platform; Ironclad experience is preferred\n\n-\nStrong organizational and project management skills, with the ability to manage multiple matters and competing deadlines\n\n-\nExcellent written and verbal communication skills\n\n-\nAbility to independently manage routine and moderately complex contract matters and recognize when attorney or specialist involvement is appropriate\n\n-\nSharp judgment and critical thinking, with a track record of applying lessons learned across negotiations, template drafting, and internal guidance\n\n-\nComfort operating in a high-volume, fast-moving environment where priorities may shift\n\n-\nDetail-oriented, proactive, and solutions-focused\n\n-\nTeam-first mindset: no task is too small, no problem is too big\n\n-\nWillingness to contribute to both shared operational work and specialized contracting matters\n\nBase Pay Grade - H\n\nEquity Grade - 3\n\nEmployees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills.\n\nBase pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.)\n\nUSA base pay range (CA, WA, NY, NJ, CT) per year: $100,000 - $150,000\n\nUSA base pay range (all other U.S. states) per year: $88,000 - $138,000\n\nPlease note that visa sponsorship is not available for this position.\n\n#LI-Remote\n\nRemote-first with flexibility built in\nAffirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience.\n\nBenefits designed for you\nOur benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights:\n\n- Health coverage at no cost: We cover 100% of premiums for employees and their dependents.\n\n- Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you.\n\n- Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to.\n\n- Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount.\n\nWe’re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we’re happy to help.\n\nFor positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law.\n\nBy clicking \"Submit Application,\" you acknowledge that you have read Affirm's Global Candidate Privacy Notice and consent to the use of your personal information as described.\n\nTo apply: https://weworkremotely.com/remote-jobs/affirm-contract-management-specialist-ii",
+      "apply_url": "https://weworkremotely.com/remote-jobs/affirm-contract-management-specialist-ii",
+      "source": "We Work Remotely",
+      "posted_at": "2026-11-27T06:02:42.000Z",
+      "scraped_at": "2026-11-27T17:07:27.316Z",
       "status": "open"
     },
     {
@@ -46,7 +90,7 @@
       "apply_url": "https://jobicy.com/jobs/164384-dutch-speaking-support-specialist",
       "source": "Jobicy",
       "posted_at": "2026-11-26T12:56:50.000Z",
-      "scraped_at": "2026-11-26T17:28:44.781Z",
+      "scraped_at": "2026-11-27T17:07:28.472Z",
       "status": "open"
     },
     {
@@ -68,7 +112,7 @@
       "apply_url": "https://jobicy.com/jobs/164349-assistant-vip-relationship-manager",
       "source": "Jobicy",
       "posted_at": "2026-11-26T10:09:40.000Z",
-      "scraped_at": "2026-11-26T17:28:44.781Z",
+      "scraped_at": "2026-11-27T17:07:28.472Z",
       "status": "open"
     },
     {
@@ -90,7 +134,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/okx-assistant-vip-relationship-manager",
       "source": "We Work Remotely",
       "posted_at": "2026-11-26T09:00:11.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -112,7 +156,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cadence-health-outbound-patient-enrollment-specialist-bilingual-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-11-26T06:01:37.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "scraped_at": "2026-11-27T17:07:27.316Z",
       "status": "open"
     },
     {
@@ -134,7 +178,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/partners-behavioral-health-management-access-member-services-specialist-remote-nc",
       "source": "We Work Remotely",
       "posted_at": "2026-11-26T02:40:09.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -156,7 +200,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gitlab-candidate-experience-specialist-contractor-aus",
       "source": "We Work Remotely",
       "posted_at": "2026-11-25T18:33:00.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -178,51 +222,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/clover-health-inpatient-coding-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-25T18:32:22.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:164290",
-      "hub": "business",
-      "title": "Associate Customer Support Specialist",
-      "company": "Fleetio",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Customer Support",
-      "segment": "Jobicy",
-      "level": "Entry",
-      "location": "Canada,  USA",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "A little about us…Fleetio is a modern software platform that helps thousands of organizations worldwide manage their fleet operations.",
-      "description": "A little about us…Fleetio is a modern software platform that helps thousands of organizations worldwide manage their fleet operations. Transportation technology is a hot market, and we’re leading the charge with raving fans and new customers signing up every day. We raised $450M in our Series D funding round in March of 2025 and are on an exciting trajectory as a company. Fleetio is also a proud founding member of the Rails Foundation!\n\nMore about our team and company:\n\n- Fleetio overview video: https://www.youtube.com/watch?v=YoXyXTFWbkg\n\n- Our careers page: https://www.fleetio.com/careers\n\nThe Customer Support team is seeking a knowledgeable and customer-focused team member to join our team as an Associate Customer Support Specialist / Customer Support Specialist! As a member of the Support Team, you will be the first point of contact for our fleet management software, providing basic technical support and product knowledge to our customers. You will play a critical role in ensuring customer satisfaction, resolving complex technical issues, and delivering exceptional support experiences. This position requires a deep understanding of fleet management software, strong problem-solving skills, and the ability to communicate technical concepts effectively.\n\nWho you are\n\nThe ideal candidate for this role has served as the primary point of contact for basic technical support and product-related inquiries from customers in the software space. You've provided exceptional customer service through various channels, including phone and email while maintaining a high level of professionalism and empathy. The ideal candidate can demonstrate comprehensive knowledge of our fleet management software to customers, including a basic understanding of its features, functionalities, and integrations. Excelling in collaborative team environments, you will work closely with our Support Specialists and Shift Leads teams to escalate customer issues to the appropriate team. You continuously identify opportunities to improve the customer support process, including streamlining workflows, enhancing documentation, and implementing customer-focused initiatives. This role will report to our Customer Support Manager. The schedule for this role is Monday through Friday from 11am - 8pm Eastern with Respect to Daylight Savings time.\n\nResponsibilities:\n\n- Serve as the primary point of contact for basic technical support and product-related inquiries from customers using Fleetio.\n\n- Provide exceptional customer service for tier 1 tickets via phone calls while maintaining a high level of professionalism and empathy.\n\n- Demonstrate comprehensive knowledge of our fleet management software, including a basic understanding of its features, functionalities, and integrations.\n\n- Investigate complex software issues reported by customers, collaborating with Support Specialists, SME’s, Shift Leads, and Support Engineering teams to identify and escalate customer issues to the appropriate team.\n\n- Continuously identify opportunities to improve the customer support process, including streamlining workflows, enhancing documentation, and implementing customer-focused initiatives.\n\nYour experience\n\n- Previous experience in a customer support or technical support role, preferably in the software industry.\n\n- In-depth knowledge of fleet management software and related technologies is a plus!\n\n- Strong analytical and problem-solving skills, with the ability to troubleshoot complex technical issues effectively.\n\n- Excellent communication skills, both verbal and written, with the ability to convey technical concepts to customers clearly and concisely.\n\n- Customer-centric mindset with a passion for delivering exceptional support experiences.\n\n- Strong organizational skills and the ability to prioritize and manage multiple tasks simultaneously.\n\n- Proficiency in using customer support tools and software, including ticketing systems, CRM software, and remote support tools.\n\n- Flexibility to work occasional evenings or weekends to accommodate customer needs.\n\nBenefits\n\n- Multiple health/dental coverage options (100% coverage for employee, 50% for family)\n\n- Vision insurance\n\n- Incentive stock options\n\n- 401(k) match of 4%\n\n- PTO - 4 weeks (increases at year two!)\n\n- 12 company holidays + 2 floating holidays\n\n- Parental leave - birthing parent (16 weeks paid) non-birthing (4 weeks paid)\n\n- FSA & HSA options\n\n- Short and long term disability (short term 100% paid)\n\n- Community service funds\n\n- Professional development funds\n\n- Wellbeing fund - $150 quarterly\n\n- Business expense stipend - $125 quarterly\n\n- Mac laptop + new hire equipment stipend\n\n- Fully stocked kitchen with tons of drinks & snacks (BHM only)\n\n- Remote working friendly since 2012 #LI-Remote\n\nFleetio provides equal employment opportunities to all employees and applicants and prohibits discrimination and harassment. We celebrate diversity and are committed to creating an inclusive environment for all. All employment is decided on the basis of qualifications, merit and business need.\n\nThis application is not intended to and does not create a contract or offer of employment. Employment with Fleetio is at will.\n\nIf you have a disability or a special need that requires an accommodation to fill out the online application, please let us know by calling (205) 718-7500.",
-      "apply_url": "https://jobicy.com/jobs/164290-associate-customer-support-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-11-25T14:26:55.000Z",
-      "scraped_at": "2026-11-26T17:28:44.781Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:164233",
-      "hub": "business",
-      "title": "Field Coordination Specialist",
-      "company": "AssetWatch",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": 55000,
-      "comp_max": 60000,
-      "summary": "AssetWatch serves global manufacturers by powering manufacturing uptime through the delivery of an unparalleled condition monitoring experience, with a passion to care about the as…",
-      "description": "AssetWatch serves global manufacturers by powering manufacturing uptime through the delivery of an unparalleled condition monitoring experience, with a passion to care about the assets our customers care for every day. We are a devoted and capable team that includes world-renowned engineers and distinguished business leaders united by a common goal – To build the future of predictive maintenance. As we enter the next phase of rapid growth, we are seeking people to help lead the journey.\n\nField Coordination Specialist\n\nThe Field Coordination team serves as the central hub between customers, field technicians, and internal teams—ensuring work is scheduled, supported, and executed seamlessly. They proactively manage incoming requests, troubleshoot issues in real time, and coordinate across stakeholders to deliver a consistent, world-class customer experience. Through strong communication and operational oversight, they help keep field operations running efficiently while anticipating and resolving challenges before they impact the customer.\n\n- You want to be an integral part of creating the future of condition-based monitoring with industrial manufacturers\n\n- You pride yourself on delivering the absolute best customer experience possible\n\n- You are comfortable working autonomously, in a fully remote environment, through daily tasks and challenges\n\n- You have a start-up mindset and an ardent desire to help build a great company from the early stages\n\n- You are the epitome of a team player who communicates and collaborates with other team members and divisions fluidly\n\n- You are an eternal optimist and know that every issue is an opportunity to show how great our customer support process is\n\n- You know that Han shot first in the bar scene in Star Wars\n\n- You possess great empathy and can solve customer problems with speed and precision when problems arise\n\n- You are obsessed with our customers and creating a world class customer experience\n\n- You have a growth mindset and are not happy with the status quo or doing the same thing day in and day out\n\n- You know that great things can be accomplished when intelligent, passionate people work together toward a common goal\n\n- You have no problem jumping into support the team wherever that may be, regardless of defined role\n\nResponsibilities\n\n- Rapidly respond to and address field technician concerns as they arise\n\n- Develop a deep knowledge of company software and hardware solutions to deliver the right solution to customer and internal challenges\n\n- Manage multiple incoming streams of incoming scheduling requests coming in via software, phone, email, and Slack\n\n- Coordinate with internal and external stakeholders as needed to address more challenging concerns and ensure a long-term solution\n\n- Work internally across multiple departments to ensure and support the delivery of a world class customer experience\n\n- Build a strong, trusting relationship with internal stakeholders through fluid and timely communication\n\n- Identify opportunities to proactively address potential challenges\n\n- Utilize numerous software tools to accurately diagnose problems and proceed with the correct solution\n\n- Assist our Field Service Team via timely confirmation of on-site visits and facility reviews\n\n- Schedule and confirm work orders for the Field Service Team.\n\n- Work with our Partner organizations to fulfill a seamless experience for their customers\n\n- Respond to inventory concerns raised by our supply chain team to account for hardware\n\n- Other responsibilities as directed by the Field Coordination Manager.\n\nQualifications\n\n- Some form of technical support or equivalent experience\n\n- 2-5 years of customer service interaction in a startup environment\n\n- Experience with CRM platforms (Salesforce proficiency required)\n\n- Ability to use remote communication tools to interact and add value to internal and external stakeholders (ie. Zoom, Slack, etc)\n\n- Outbound phone customer service preferred\n\n- Some college preferred. 4 year degree, highly preferred\n\n- Empathic, positive, and professional attitude toward our customers at all times\n\n- Ability to communicate clearly, concisely and in a friendly manner through verbal and written forms\n\n- Demonstrate the desire and knowledge to understand and solve customer needs.\n\n- Extremely comfortable multitasking and problem solving\n\n- Eager to learn and not afraid to ask questions to get the job done correctly\n\n- Ability to multi-task, prioritize and manage time effectively.\n\n- Exceptional organizational skills despite limited/changing workflow structure; be results-oriented with a bias for action\n\n- Must embrace a culture of accountability.\n\n- Must enjoy a challenge, have a desire to learn, be passionate about your work and have a commitment to excellence and continuous improvement.\n\n- Always behave ethically, act fairly, and take responsibility for accomplishing work goals.\n\n- Ability to adapt to change quickly\n\n- Any dispatching and scheduling experience\n\n- Work autonomously with minimal supervision\n\n- Provide personalized, professional, and courteous service, accurate information, continuous communication, and the ability to address customer expectations in an appropriate manner.\n\n- Strong collaborator who can build trust and contribute to the success of the team\n\n- Understand how all departments and team members contribute to the success of the organization and be comfortable to step in support however needed.\n\n- Professional appearance, excellent communication skills and professional conduct\n\n- Fluency in English; other languages are a plus\n\n- Legally authorized to work in the USA, without sponsorship\n\n#LI-REMOTE\n\nThe base salary range for this full-time position is posted below, plus equity and benefits. Variable pay, bonuses, and other cash compensation will be discussed throughout the interview process.\n\nThe salary range was determined by role, level, and location. Individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range applicable to your location during the hiring process.\n\nAssetWatch Salary Range (US)\n\n$55,000—$60,000 USD\n\nWhat We Offer:\nAssetWatch is a remote-first company that puts people at the center of everything we do. We want our team members to thrive - that’s why we offer a range of benefits and perks designed to support your well-being, growth, and work-life balance.\n\n- Competitive compensation package including stock options\n\n- Flexible work schedule\n\n- Comprehensive benefits including retirement plan match\n\n- Opportunity to make a real impact every day\n\n- Work with a dynamic and growing team\n\n- Unlimited PTO\n\nWe have a distributed team that works remotely across locations in the United States and Ontario, Canada. Collaboration within core working hours is required.",
-      "apply_url": "https://jobicy.com/jobs/164233-field-coordination-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-11-25T11:32:35.000Z",
-      "scraped_at": "2026-11-26T17:28:44.781Z",
+      "scraped_at": "2026-11-27T17:07:27.316Z",
       "status": "open"
     },
     {
@@ -244,7 +244,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6264795004",
       "source": "greenhouse",
       "posted_at": "2026-11-25T06:45:27-05:00",
-      "scraped_at": "2026-11-26T17:28:35.539Z",
+      "scraped_at": "2026-11-27T17:07:14.129Z",
       "status": "open"
     },
     {
@@ -266,7 +266,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6126669004",
       "source": "greenhouse",
       "posted_at": "2026-11-25T06:45:27-05:00",
-      "scraped_at": "2026-11-26T17:28:35.539Z",
+      "scraped_at": "2026-11-27T17:07:14.129Z",
       "status": "open"
     },
     {
@@ -288,7 +288,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/launchdarkly-executive-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-11-25T06:02:45.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -310,7 +310,7 @@
       "apply_url": "https://job-boards.greenhouse.io/tide/jobs/8213860003",
       "source": "greenhouse",
       "posted_at": "2026-11-25T03:05:04-05:00",
-      "scraped_at": "2026-11-26T17:28:28.313Z",
+      "scraped_at": "2026-11-27T17:06:56.370Z",
       "status": "open"
     },
     {
@@ -332,7 +332,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gitlab-candidate-experience-specialist-contractor-amer",
       "source": "We Work Remotely",
       "posted_at": "2026-11-24T18:31:23.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -354,7 +354,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/gitlab-senior-ta-operations-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-24T17:01:17.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -376,51 +376,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/custom-data-processing-retail-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-24T17:00:36.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:164151",
-      "hub": "business",
-      "title": "Member Support Specialist",
-      "company": "Fruitful Ventures",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "USA",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Fruitful is the financial membership that transforms every paycheck into progress—guided by experts and powered by AI automation.",
-      "description": "Fruitful is the financial membership that transforms every paycheck into progress—guided by experts and powered by AI automation. Through our proprietary Money Map, Fruitful converts financial advice into a personalized money system that automates someone's entire financial life with a single click—closing the long-standing execution gap in financial planning. Members partner with a dedicated CERTIFIED FINANCIAL PLANNER® who designs and oversees their Money Map, allocating income across bills, spending, savings, and investments, putting their money on autopilot to drive measurable progress.\n\nWe're looking for an incredible person to join our Hospitality team and help push Fruitful forward.\n\nFruitful has the opportunity to be more affordable, accessible, and comprehensive than anyone in the industry, and it starts with a world-class member experience… Ready to help us build it?\n\nHospitality @ Fruitful\n\nOur Hospitality team goes beyond traditional customer service, offering members exceptional care at every step of their journey. As a Member Support Specialist, you'll be the consistent, knowledgeable voice our members rely on — handling day-to-day support while helping us build the systems, documentation, and processes that will shape how this function grows.\n\nAs Member Support Specialist, you will:\n\n- Own the member support queue end-to-end — triaging, responding to, and resolving inbound email inquiries with care and consistency\n\n- Handle phone callbacks from our main support line, returning calls within defined SLA windows\n\n- Manage membership and account inquiries including cancellations, billing questions, banking and account servicing issues\n\n- Identify and escalate issues that require input from our Guidance, Bank / Investing Ops, or Engineering teams\n\n- Contribute to building our internal knowledge base, macro library, and documentation\n\n- Flag recurring issues and help develop solutions so the same problems stop landing in the queue\n\n- Work a set schedule of 9am-6pm PT, four weekdays plus one weekend day. Remote from any time zone; hours are anchored to 9am-6pm PT (e.g., 12-9pm ET). Schedule may change in the future as different needs arise.\n\nYour Background & Values\n\n- 2–3 years of experience in a member-facing, customer-facing, or support role\nStrong written communication skills — you write clearly, warmly, and without jargon\nA genuine care for the people you're helping, not just closing tickets but actually solving problems\nHighly organized and able to manage your own time and priorities in a remote environment\nEnergized by process and improvement — you notice when something keeps breaking and want to fix it\nComfortable with ambiguity and working somewhere that's still being figured out\nFamiliarity with a support tool like Zendesk, Intercom, or Freshdesk is a plus\nExperience in fintech, banking, or financial services is preferred\n\nCompensation and Benefits\n\n- Competitive compensation package including salary and equity\nFlexible, self-directed time-off\nFully remote\nWork-from-home setup stipend\n401(k) program with company match\nComprehensive health benefits package with a substantial employer subsidy\n\nFruitful is building a team that seeks to represent the diversity of our member base. We are an equal opportunity employer and strongly encourage applicants from every background and life experience without attention to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.",
-      "apply_url": "https://jobicy.com/jobs/164151-member-support-specialist",
-      "source": "Jobicy",
-      "posted_at": "2026-11-24T15:19:11.000Z",
-      "scraped_at": "2026-11-26T17:28:44.781Z",
-      "status": "open"
-    },
-    {
-      "id": "agg:jobicy:164089",
-      "hub": "business",
-      "title": "Technical Onboarding Specialist (Night Shift)",
-      "company": "Nextiva",
-      "company_id": "agg:jobicy",
-      "priority": false,
-      "category": "Other",
-      "segment": "Jobicy",
-      "level": "Mid",
-      "location": "Ukraine",
-      "employment_type": "full-time",
-      "comp_min": null,
-      "comp_max": null,
-      "summary": "Redefine the future of customer experiences. One conversation at a time. At Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collab…",
-      "description": "Redefine the future of customer experiences. One conversation at a time.\n\nAt Nextiva, we’re reimagining how businesses connect, bringing together customer experience and team collaboration on a single, conversation centric platform. Powered by AI, driven by human innovation.\n\nOur culture is forward thinking, customer obsessed and built on the belief that meaningful connections drive better business outcomes. Whether it’s through our signature Amazing Service®, the technology we create, or the experiences we cultivate, connection is at the core of who we are.\n\nIf you’re ready to collaborate with incredible people, make an impact, and help businesses everywhere deliver truly amazing experiences, this is where you belong.\n\nLocation & Schedule: This position requires the ability to work remotely in Ukraine and regularly work shifts aligned with US business hours (Mon-Fri 4:00pm-3:00 am).\n\nThe Technical Onboarding Specialist / Onboarding Technician is responsible for guiding new customers through the setup, configuration, and successful adoption of Nextiva’s platform. This role combines customer support, technical configuration, and product training to ensure a seamless onboarding experience.\n\nKey Responsibilities\n\n- Assist customers with initial account setup via phone and screen share\n\n- Guide customers through login, configuration, and product functionality\n\n- Configure accounts, call flows, and devices with accuracy and attention to detail\n\n- Perform network checks and basic troubleshooting\n\n- Test configurations to ensure successful implementation\n\n- Deliver customer training on features and product usage\n\n- Meet daily productivity and performance metrics (appointments, call handling, completion rates)\n\n- Handle both inbound onboarding calls and scheduled appointments\n\n- Cross-functional collaboration: Partner with teams such as Sales, Product Support, CRM, and other internal groups to improve the overall customer experience\n\nAI & Future-Focused Responsibilities\n\n- Demonstrate interest in AI tools and automation in customer support/onboarding workflows\n\n- Collaborate with AI-driven onboarding systems by handling escalations or edge cases AI cannot resolve\n\n- Contribute insights to improve AI onboarding agents based on real customer scenarios\n\n- Adapt to a future-state environment where onboarding is increasingly AI-assisted and backend-focused\n\nQualifications\n\n- Proficient English (written and verbal communication)\n\n- Experience in a customer-facing or support role\n\n- Strong problem-solving and troubleshooting skills\n\n- Strong communication and active listening skills\n\n- Commitment to delivering amazing customer service\n\n- Attention to detail and time management\n\n- Basic technical aptitude (software support, device setup, networking fundamentals)\n\nPreferred\n\n- Experience with CRM tools\n\n- Microsoft Office proficiency\n\n- VoIP experience preferred\n\n- Basic networking knowledge\n\n- Exposure to or curiosity about AI tools, automation, or prompt-based systems\n\nNextiva DNA (Core Competencies)\n\nNextiva’s most successful team members share common traits and behaviors:\n\n- Drives Results: Action-oriented problem solvers who quickly bring clarity and simplicity to ambiguity, challenge the status quo, and lead meaningful change; celebrating wins to fuel momentum. They act swiftly and pragmatically, learning and improving as they go.\n\n- Critical Thinker: Data-driven, forward-thinking individuals who identify key drivers, anticipate risks, and deliver clear recommendations. They confidently leverage AI and automation to reduce friction, improve decision-making, and focus on higher-value work.\n\n- Right Attitude: Collaborative, competitive, and resilient team players who jump in to solve tough problems, learn from setbacks, and foster a culture of service, respect, and care for customers and teammates.\n\nTotal Rewards\n\nOur Total Rewards offerings are designed to allow Nexties to take care of themselves and their families so they can be their best, in and out of the office.\n\nOur compensation packages are tailored to each role and candidate's qualifications. We consider a wide range of factors, including skills, experience, training, and certifications, when determining compensation. We aim to offer competitive salaries or wages that reflect the value you bring to our team. Depending on the position, compensation may include base salary, hourly wages, incentives, or bonuses.\n\n- Health 🍏- Major Health insurance for you, your legal partner, and children under 25 years, including Vision and Dental coverage\n\n- Insurance 💼- Life Insurance (24 times your monthly salary)\n\n- Work-Life Balance ⚖️ - Newly hired full-time employees at Nextiva receive 10 personal days before their first anniversary, 12 vacation days on their first anniversary, and 5 personal days annually thereafter in addition to vacation time\n\n- Financial Security 💰- Enjoy a 30-day Christmas bonus, 50% vacation premium, company-matched food vouchers (1 UMA/month), and a 13% matched savings fund (capped at 1.3x annual UMA)\n\n- Wellness 🤸‍- Employee Assistance Program and comprehensive wellness initiatives\n\n- Growth 🌱- Access to ongoing learning and development opportunities and career advancement\n\nAt Nextiva, we're committed to supporting our employees' health, well-being, and professional growth. Join us and build a rewarding career!\n\n#LI-AL1 #LI-Onsite\n\nFounded in 2008, Nextiva has grown into a global leader trusted by over 100,000 businesses and 1M+ users worldwide. Headquartered in Scottsdale, Arizona, and with teams across the globe, we're the future of customer experience and team collaboration through our AI-powered, conversation-centric platform.\n\nWant to see what life at Nextiva is all about? Connect with us on Instagram, Instagram MX, YouTube, LinkedIn, and the Nextiva Blog.",
-      "apply_url": "https://jobicy.com/jobs/164089-technical-onboarding-specialist-night-shift-2",
-      "source": "Jobicy",
-      "posted_at": "2026-11-24T11:49:35.000Z",
-      "scraped_at": "2026-11-26T17:28:44.781Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -442,7 +398,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cadence-health-outbound-patient-enrollment-specialist-new-college-graduate",
       "source": "We Work Remotely",
       "posted_at": "2026-11-24T06:02:28.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "scraped_at": "2026-11-27T17:07:27.316Z",
       "status": "open"
     },
     {
@@ -464,7 +420,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/affirm-chief-of-staff-director-product",
       "source": "We Work Remotely",
       "posted_at": "2026-11-24T06:01:48.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -486,7 +442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8383172",
       "source": "greenhouse",
       "posted_at": "2026-11-24T03:14:31-05:00",
-      "scraped_at": "2026-11-26T17:28:18.276Z",
+      "scraped_at": "2026-11-27T17:06:43.598Z",
       "status": "open"
     },
     {
@@ -508,7 +464,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mercury-executive-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-11-23T18:31:56.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "scraped_at": "2026-11-27T17:07:27.316Z",
       "status": "open"
     },
     {
@@ -530,7 +486,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/elation-health-technical-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-23T18:31:03.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -552,7 +508,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/umaez-llc-customer-support-resolution-outbound-retention-specialist-voice",
       "source": "We Work Remotely",
       "posted_at": "2026-11-23T17:00:23.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -574,7 +530,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/jobgether-email-crm-marketing-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-23T15:46:33.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -596,7 +552,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8258146",
       "source": "greenhouse",
       "posted_at": "2026-11-23T02:36:38-05:00",
-      "scraped_at": "2026-11-26T17:28:18.276Z",
+      "scraped_at": "2026-11-27T17:06:43.598Z",
       "status": "open"
     },
     {
@@ -618,7 +574,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cadence-health-outbound-patient-enrollment-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-22T18:31:25.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "scraped_at": "2026-11-27T17:07:27.317Z",
       "status": "open"
     },
     {
@@ -640,7 +596,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/furry-fellas-pet-service-llc-part-time-remote-administrative-operations-bookkeeping-specialist-furry-fellas",
       "source": "We Work Remotely",
       "posted_at": "2026-11-22T17:01:01.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -662,7 +618,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/aveanna-healthcare-patient-support-representative-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-11-22T17:00:16.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -684,7 +640,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/tines-paralegal",
       "source": "We Work Remotely",
       "posted_at": "2026-11-22T06:02:33.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -706,7 +662,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/coinbase-chief-of-staff-cto",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T18:32:33.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -728,7 +684,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cadence-health-medical-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T18:31:39.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "scraped_at": "2026-11-27T17:07:27.317Z",
       "status": "open"
     },
     {
@@ -750,7 +706,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/oscar-health-bilingual-spanish-physician-assistant-virtual-health-assessment-ga-license-required",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:02:17.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "scraped_at": "2026-11-27T17:07:27.317Z",
       "status": "open"
     },
     {
@@ -772,7 +728,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/medamerica-claims-specialist-west-coast-preferred",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:01:44.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -794,7 +750,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/vessel-advisors-accounts-payable-ap-specialist-staff-accountant",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:01:40.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -816,7 +772,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/remotepass-eor-partnerships-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:01:19.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -838,7 +794,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/vivant-talent-acquisition-specialist-remote-latam",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:01:05.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "scraped_at": "2026-11-27T17:07:27.317Z",
       "status": "open"
     },
     {
@@ -860,7 +816,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/vital-care-infusion-services-rcm-intake-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:01:00.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -882,7 +838,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/vital-care-infusion-services-collections-specialist-rcm",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:00:54.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -904,7 +860,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/natera-patient-success-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:00:12.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -926,7 +882,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/resolv-global-remote-customer-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-21T17:00:09.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -948,7 +904,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/sezzle-customer-service-agent",
       "source": "We Work Remotely",
       "posted_at": "2026-11-20T18:32:06.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -970,7 +926,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/talkspace-care-coordinator-manager",
       "source": "We Work Remotely",
       "posted_at": "2026-11-20T18:31:58.000Z",
-      "scraped_at": "2026-11-26T17:28:43.619Z",
+      "scraped_at": "2026-11-27T17:07:27.317Z",
       "status": "open"
     },
     {
@@ -992,7 +948,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/resolv-global-bilingual-customer-support-specialist-english-french-canadian",
       "source": "We Work Remotely",
       "posted_at": "2026-11-20T17:00:30.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -1014,7 +970,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/global-dimensions-llc-part-time-hubzone-business-operations-support-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-20T17:00:26.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -1036,7 +992,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6261770004",
       "source": "greenhouse",
       "posted_at": "2026-11-20T14:31:36-05:00",
-      "scraped_at": "2026-11-26T17:28:13.302Z",
+      "scraped_at": "2026-11-27T17:06:37.969Z",
       "status": "open"
     },
     {
@@ -1058,7 +1014,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-specialist-risk",
       "source": "We Work Remotely",
       "posted_at": "2026-11-20T06:01:14.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -1080,7 +1036,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/cadence-health-bilingual-spanish-speaking-medical-assistant",
       "source": "We Work Remotely",
       "posted_at": "2026-11-20T06:01:10.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.317Z",
       "status": "open"
     },
     {
@@ -1102,7 +1058,7 @@
       "apply_url": "https://jobs.lever.co/ro/2d8805ac-9fa3-4e57-9e1f-da0f54ca95e2",
       "source": "lever",
       "posted_at": "2026-11-19T21:43:07.718Z",
-      "scraped_at": "2026-11-26T17:28:40.414Z",
+      "scraped_at": "2026-11-27T17:07:24.660Z",
       "status": "open"
     },
     {
@@ -1124,7 +1080,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/finch-legal-intake-specialist-bilingual-english-spanish-saturday-wednesday-6-00a-4-00p-est",
       "source": "We Work Remotely",
       "posted_at": "2026-11-19T17:00:35.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -1146,7 +1102,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/providence-patient-services-specialist-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-11-19T17:00:29.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -1168,7 +1124,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/driversnote-customer-support-specialist-30-hrs",
       "source": "We Work Remotely",
       "posted_at": "2026-11-19T08:26:44.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -1190,7 +1146,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521852002",
       "source": "greenhouse",
       "posted_at": "2026-11-19T07:42:02-05:00",
-      "scraped_at": "2026-11-26T17:28:31.156Z",
+      "scraped_at": "2026-11-27T17:06:59.470Z",
       "status": "open"
     },
     {
@@ -1212,7 +1168,7 @@
       "apply_url": "https://job-boards.greenhouse.io/ifoodcarreiras/jobs/8521816002",
       "source": "greenhouse",
       "posted_at": "2026-11-19T07:42:02-05:00",
-      "scraped_at": "2026-11-26T17:28:31.156Z",
+      "scraped_at": "2026-11-27T17:06:59.470Z",
       "status": "open"
     },
     {
@@ -1234,7 +1190,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/reddit-community-manager-french-speaking-12-month-contract",
       "source": "We Work Remotely",
       "posted_at": "2026-11-19T06:01:57.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.317Z",
       "status": "open"
     },
     {
@@ -1256,7 +1212,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/instacart-bilingual-customer-experience-t3-specialist-spanish",
       "source": "We Work Remotely",
       "posted_at": "2026-11-19T06:01:49.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.317Z",
       "status": "open"
     },
     {
@@ -1278,7 +1234,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/intelligent-technical-solutions-purchasing-coordinator-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-11-18T11:31:49.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -1300,7 +1256,7 @@
       "apply_url": "https://job-boards.greenhouse.io/cultureamp/jobs/8394839",
       "source": "greenhouse",
       "posted_at": "2026-11-16T23:53:41-05:00",
-      "scraped_at": "2026-11-26T17:28:16.411Z",
+      "scraped_at": "2026-11-27T17:06:40.975Z",
       "status": "open"
     },
     {
@@ -1322,7 +1278,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6261778004",
       "source": "greenhouse",
       "posted_at": "2026-11-16T17:00:58-05:00",
-      "scraped_at": "2026-11-26T17:28:13.302Z",
+      "scraped_at": "2026-11-27T17:06:37.969Z",
       "status": "open"
     },
     {
@@ -1344,7 +1300,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/prospex-crm-business-development-specialist-1",
       "source": "We Work Remotely",
       "posted_at": "2026-11-16T16:21:25.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -1366,7 +1322,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/d70691dd-a9fc-4db9-9d8c-3778ec4137fa",
       "source": "lever",
       "posted_at": "2026-11-16T14:13:14.273Z",
-      "scraped_at": "2026-11-26T17:28:28.635Z",
+      "scraped_at": "2026-11-27T17:06:57.791Z",
       "status": "open"
     },
     {
@@ -1388,7 +1344,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/6177cea8-69ee-4c69-8a90-78e3a131ad2b",
       "source": "lever",
       "posted_at": "2026-11-16T14:12:20.007Z",
-      "scraped_at": "2026-11-26T17:28:28.635Z",
+      "scraped_at": "2026-11-27T17:06:57.791Z",
       "status": "open"
     },
     {
@@ -1410,7 +1366,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/collette-travel-service-inc-group-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-14T17:00:29.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.321Z",
       "status": "open"
     },
     {
@@ -1432,7 +1388,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/content-creator-youtube-2091173",
       "source": "Remotive",
       "posted_at": "2026-11-13T17:29:57.000Z",
-      "scraped_at": "2026-11-26T17:28:44.119Z",
+      "scraped_at": "2026-11-27T17:07:27.804Z",
       "status": "open"
     },
     {
@@ -1454,7 +1410,7 @@
       "apply_url": "https://job-boards.greenhouse.io/talkdesk2/jobs/8186832",
       "source": "greenhouse",
       "posted_at": "2026-11-13T17:08:08-05:00",
-      "scraped_at": "2026-11-26T17:28:35.503Z",
+      "scraped_at": "2026-11-27T17:07:14.110Z",
       "status": "open"
     },
     {
@@ -1476,7 +1432,7 @@
       "apply_url": "https://jobs.lever.co/includedhealth/ebbbe036-c260-477b-88bb-104650f9bd66",
       "source": "lever",
       "posted_at": "2026-11-13T15:27:00.886Z",
-      "scraped_at": "2026-11-26T17:28:40.597Z",
+      "scraped_at": "2026-11-27T17:07:19.472Z",
       "status": "open"
     },
     {
@@ -1498,7 +1454,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/metics-media-content-creator-youtube",
       "source": "We Work Remotely",
       "posted_at": "2026-11-13T13:59:29.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -1520,7 +1476,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6260859004",
       "source": "greenhouse",
       "posted_at": "2026-11-13T08:56:59-05:00",
-      "scraped_at": "2026-11-26T17:28:13.301Z",
+      "scraped_at": "2026-11-27T17:06:37.969Z",
       "status": "open"
     },
     {
@@ -1542,7 +1498,7 @@
       "apply_url": "https://jobs.lever.co/includedhealth/1f0f1564-6e23-4ade-aeca-f4a974d2b96e",
       "source": "lever",
       "posted_at": "2026-11-12T18:46:38.364Z",
-      "scraped_at": "2026-11-26T17:28:40.597Z",
+      "scraped_at": "2026-11-27T17:07:19.472Z",
       "status": "open"
     },
     {
@@ -1564,7 +1520,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/stayd-collective-cleaning-operations-coordinator",
       "source": "We Work Remotely",
       "posted_at": "2026-11-12T17:02:20.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.319Z",
       "status": "open"
     },
     {
@@ -1586,7 +1542,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6260698004",
       "source": "greenhouse",
       "posted_at": "2026-11-12T14:38:53-05:00",
-      "scraped_at": "2026-11-26T17:28:13.301Z",
+      "scraped_at": "2026-11-27T17:06:37.969Z",
       "status": "open"
     },
     {
@@ -1608,7 +1564,7 @@
       "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
       "source": "Remotive",
       "posted_at": "2026-11-11T20:17:48.000Z",
-      "scraped_at": "2026-11-26T17:28:44.119Z",
+      "scraped_at": "2026-11-27T17:07:27.804Z",
       "status": "open"
     },
     {
@@ -1630,7 +1586,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/vector-outsourcing-solutions-phils-inc-senior-accounting-specialist-work-from-home",
       "source": "We Work Remotely",
       "posted_at": "2026-11-11T17:01:20.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -1652,7 +1608,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/magic-inc-client-account-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-11T17:00:36.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.322Z",
       "status": "open"
     },
     {
@@ -1674,7 +1630,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/weekday-interview-coordination-no-show-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-11T17:00:32.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.322Z",
       "status": "open"
     },
     {
@@ -1696,7 +1652,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/17e30055-b917-45f7-bfb5-e5ee6c1235e8",
       "source": "lever",
       "posted_at": "2026-11-11T14:06:39.648Z",
-      "scraped_at": "2026-11-26T17:28:28.635Z",
+      "scraped_at": "2026-11-27T17:06:57.792Z",
       "status": "open"
     },
     {
@@ -1718,7 +1674,7 @@
       "apply_url": "https://remotive.com/remote-jobs/customer-service/customer-service-representative-2091171",
       "source": "Remotive",
       "posted_at": "2026-11-11T09:11:58.000Z",
-      "scraped_at": "2026-11-26T17:28:44.119Z",
+      "scraped_at": "2026-11-27T17:07:27.804Z",
       "status": "open"
     },
     {
@@ -1740,7 +1696,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5169731007",
       "source": "greenhouse",
       "posted_at": "2026-11-09T15:44:33-05:00",
-      "scraped_at": "2026-11-26T17:28:31.144Z",
+      "scraped_at": "2026-11-27T17:06:59.526Z",
       "status": "open"
     },
     {
@@ -1762,7 +1718,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/nm-mitchell-consultancy-ltd-remote-scheduling-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-09T03:24:16.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -1784,7 +1740,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/collective-residential-offshore-virtual-executive-assistant-to-the-ceo",
       "source": "We Work Remotely",
       "posted_at": "2026-11-06T07:13:00.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.320Z",
       "status": "open"
     },
     {
@@ -1806,7 +1762,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/paid-ads-academy-paid-ads-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-11-05T21:33:36.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -1828,7 +1784,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/6105549004",
       "source": "greenhouse",
       "posted_at": "2026-11-05T03:56:40-05:00",
-      "scraped_at": "2026-11-26T17:28:35.539Z",
+      "scraped_at": "2026-11-27T17:07:14.130Z",
       "status": "open"
     },
     {
@@ -1850,7 +1806,7 @@
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/8352299",
       "source": "greenhouse",
       "posted_at": "2026-11-04T07:05:48-05:00",
-      "scraped_at": "2026-11-26T17:28:18.276Z",
+      "scraped_at": "2026-11-27T17:06:43.598Z",
       "status": "open"
     },
     {
@@ -1872,7 +1828,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5283621007",
       "source": "greenhouse",
       "posted_at": "2026-11-03T16:55:52-05:00",
-      "scraped_at": "2026-11-26T17:28:31.144Z",
+      "scraped_at": "2026-11-27T17:06:59.526Z",
       "status": "open"
     },
     {
@@ -1894,7 +1850,7 @@
       "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
       "source": "Remotive",
       "posted_at": "2026-11-02T20:01:00.000Z",
-      "scraped_at": "2026-11-26T17:28:44.119Z",
+      "scraped_at": "2026-11-27T17:07:27.804Z",
       "status": "open"
     },
     {
@@ -1916,7 +1872,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/salesloft-people-operations-coordinator-temp-to-fte-opportunity",
       "source": "We Work Remotely",
       "posted_at": "2026-11-02T07:31:04.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -1938,7 +1894,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/connexus-resource-group-inc-customer-service-representative-work-from-home",
       "source": "We Work Remotely",
       "posted_at": "2026-11-01T17:00:19.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.322Z",
       "status": "open"
     },
     {
@@ -1960,7 +1916,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/axon-sr-technical-support-representative",
       "source": "We Work Remotely",
       "posted_at": "2026-10-31T16:00:16.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.322Z",
       "status": "open"
     },
     {
@@ -1982,7 +1938,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/prospex-crm-business-development-specialist",
       "source": "We Work Remotely",
       "posted_at": "2026-10-30T19:50:39.000Z",
-      "scraped_at": "2026-11-26T17:28:43.621Z",
+      "scraped_at": "2026-11-27T17:07:27.322Z",
       "status": "open"
     },
     {
@@ -2004,7 +1960,7 @@
       "apply_url": "https://job-boards.greenhouse.io/smartlyio/jobs/5808193004",
       "source": "greenhouse",
       "posted_at": "2026-10-30T08:37:44-04:00",
-      "scraped_at": "2026-11-26T17:28:35.539Z",
+      "scraped_at": "2026-11-27T17:07:14.130Z",
       "status": "open"
     },
     {
@@ -2026,7 +1982,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/wolt-english-english-speaking-support-associate-full-time-remote",
       "source": "We Work Remotely",
       "posted_at": "2026-10-30T07:31:12.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -2048,7 +2004,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/imerit-technology-ai-data-quality-specialist-ai-trainer",
       "source": "We Work Remotely",
       "posted_at": "2026-10-28T22:44:12.000Z",
-      "scraped_at": "2026-11-26T17:28:43.620Z",
+      "scraped_at": "2026-11-27T17:07:27.318Z",
       "status": "open"
     },
     {
@@ -2070,7 +2026,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272406007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:14:27-04:00",
-      "scraped_at": "2026-11-26T17:28:31.144Z",
+      "scraped_at": "2026-11-27T17:06:59.526Z",
       "status": "open"
     },
     {
@@ -2092,7 +2048,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5272446007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:13:55-04:00",
-      "scraped_at": "2026-11-26T17:28:31.144Z",
+      "scraped_at": "2026-11-27T17:06:59.526Z",
       "status": "open"
     },
     {
@@ -2114,7 +2070,7 @@
       "apply_url": "https://job-boards.greenhouse.io/clara/jobs/5230227007",
       "source": "greenhouse",
       "posted_at": "2026-10-28T19:04:14-04:00",
-      "scraped_at": "2026-11-26T17:28:31.144Z",
+      "scraped_at": "2026-11-27T17:06:59.526Z",
       "status": "open"
     },
     {
@@ -2136,7 +2092,7 @@
       "apply_url": "https://weworkremotely.com/remote-jobs/flag-theory-customer-onboarding-specialist-for-company-incorporations-full-time-3",
       "source": "We Work Remotely",
       "posted_at": "2026-10-28T15:26:29.000Z",
-      "scraped_at": "2026-11-26T17:28:43.622Z",
+      "scraped_at": "2026-11-27T17:07:27.322Z",
       "status": "open"
     },
     {
@@ -2158,7 +2114,7 @@
       "apply_url": "https://job-boards.greenhouse.io/mercury/jobs/6232781004",
       "source": "greenhouse",
       "posted_at": "2026-10-28T14:13:34-04:00",
-      "scraped_at": "2026-11-26T17:28:13.302Z",
+      "scraped_at": "2026-11-27T17:06:37.970Z",
       "status": "open"
     },
     {
@@ -2180,7 +2136,7 @@
       "apply_url": "https://jobs.lever.co/octoenergy/21af1f6e-4454-48d8-9d1b-a5ceac4aff7c",
       "source": "lever",
       "posted_at": "2026-10-27T10:56:29.554Z",
-      "scraped_at": "2026-11-26T17:28:28.635Z",
+      "scraped_at": "2026-11-27T17:06:57.791Z",
       "status": "open"
     },
     {
@@ -2202,7 +2158,51 @@
       "apply_url": "https://jobs.lever.co/octoenergy/caec47a9-304e-498d-858e-9f7a568fe81e",
       "source": "lever",
       "posted_at": "2026-09-29T15:29:41.113Z",
-      "scraped_at": "2026-11-26T17:28:28.635Z",
+      "scraped_at": "2026-11-27T17:06:57.792Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-yo",
+      "hub": "business",
+      "title": "Benefits Verification Specialist ( Call Center Agent- REMOTE)-Must have your own computer MUST LIVE IN US",
+      "company": "MMC Group",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World, Texas, 🇺🇸 United States of America",
+      "employment_type": "full-time",
+      "comp_min": null,
+      "comp_max": null,
+      "summary": "Headquarters: MMC Group URL: http://www.mmcgrp.com Please look over the states you can not live in order to be considered for this postion. You must also reside in the US.",
+      "description": "Headquarters: MMC Group\n\nURL: http://www.mmcgrp.com\n\nPlease look over the states you can not live in order to be considered for this postion. You must also reside in the US.\n\nBenefits Verification Specialist – Remote\n\nPay: $17.00/hour\nSchedule: Monday–Friday, 8:30 AM–5:30 PM EST\nBreaks: 1-hour unpaid lunch + two paid 15-minute breaks\nWork Setup: Remote | BYOD\n\nPosition Summary\n\nWe are seeking a Benefits Verification Specialist to verify patient insurance benefits and accurately document coverage information.\n\nResponsibilities\n\n- Verify patient insurance benefits and eligibility.\n\n- Review coverage, cost share, provider options, and restrictions.\n\n- Contact insurance companies and document benefit details.\n\n- Assist with prior authorizations and claims appeals when needed.\n\n- Complete accurate data entry and quality reviews.\n\n- Identify and escalate missing information or reimbursement issues.\n\nRequirements\n\n- High school diploma/GED required.\n\n- 2+ years of related experience or a 2-year degree.\n\n- Healthcare, insurance, medical billing, or customer service experience preferred.\n\n- Benefits verification experience strongly preferred.\n\n- Strong computer, communication, problem-solving, and attention-to-detail skills.\n\n- Proficiency with Outlook, Word, and Excel.\n\nRemote BYOD position | $17/hour\n\nCan't Live in these states:\n\nCalifornia\n\nColorado\n\nConnecticut\n\nHawaii\n\nWashington DC\n\nIllinois\n\nIowa\n\nMaine\n\nMaryland\n\nMassachusetts\n\nMichigan\n\nMinnesota\n\nMontana\n\nNew Hampsire\n\nNew Mexico\n\nNevada\n\nNorth Dakota\n\nNew Jersey\n\nNew York\n\nOregon\n\nPennsylvania\n\nRhode Island\n\nSouth Dakota\n\nVermont\n\nWashington\n\nWest Virginia\n\nTo apply: https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
+      "apply_url": "https://weworkremotely.com/remote-jobs/mmc-group-benefits-verification-specialist-call-center-agent-remote-must-have-your-own-computer-must",
+      "source": "We Work Remotely",
+      "posted_at": "2026-09-28T23:53:19.000Z",
+      "scraped_at": "2026-11-27T17:07:27.322Z",
+      "status": "open"
+    },
+    {
+      "id": "agg:weworkremotely:porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benef",
+      "hub": "business",
+      "title": "Live Technical Support Representative — Full-Time — $45,000 - $55,000/year + Benefits (Sat-Sun required) (Location: Remote, U.S.-based)",
+      "company": "Porkbun",
+      "company_id": "agg:weworkremotely",
+      "priority": false,
+      "category": "Other",
+      "segment": "We Work Remotely",
+      "level": "Mid",
+      "location": "Anywhere in the World, Oregon, 🇺🇸 United States of America",
+      "employment_type": "full-time",
+      "comp_min": 45000,
+      "comp_max": 55000,
+      "summary": "Headquarters: Oregon USA URL: https://porkbun.com Live Technical Support Representative — Full-Time — $45,000 - $55,000/year + Benefits (Sat-Sun required) (Location: Remote, U.S.-b…",
+      "description": "Headquarters: Oregon USA\n\nURL: https://porkbun.com\n\nLive Technical Support Representative — Full-Time — $45,000 - $55,000/year + Benefits (Sat-Sun required) (Location: Remote, U.S.-based)\n\nIt's time to hire another amazing individual again. You could be the pick of the litter! Are you a resourceful problem solver who loves delivering top-notch customer service? Can you provide amazing and personalized phone support? If you’re good at diagnosing technical issues, enjoy helping customers, and can deliver a mind-blowing experience via phone, chat, and email support, then please apply!\n\nPorkbun is a fully remote domain name registrar. We’re looking to add multiple U.S.-based, full-time Technical Support Representatives. Applicants must be based in the USA and eligible for employment.\n\nTypical issues:\n\n-\n“How do I connect my domain to Shopify?”\n\n-\n“How do I transfer my domain to Porkbun?”\n\n-\n“My website isn’t working.”\n\n-\n“How do I purchase WordPress hosting?”\n\n-\n“Why didn’t my payment go through?”\n\n-\n“How do I connect my hosted email to Outlook?”\n\n-\n“Why is your company named Porkbun?”\n\nExperience – professional or personal – with domains, hosting, DNS is required, or, absent that, very strong experience in live technical support. We are looking for someone with proven technical and diagnostic ability who loves learning new things. Live support experience that spans multiple modes of support, such as email, chat, and phone, is valued.\n\nImportant skills:\n\n-\nYou can provide amazing live support via phone and chat, even in the face of customer stress, tantrums, and disasters of their own making (and sometimes ours)\n\n-\nYou can write emails with a professional tone\n\n-\nYou love the feeling of making a customer happy\n\n-\nYou’re an excellent problem solver\n\n-\nYou have at least two years of tech support experience, either at an internal help desk or customer-facing position\n\n-\nYou're experienced with domains, DNS, or hosting\n\n-\nYou have a steady Internet connection and a quiet room to work out of\n\n-\nYou work efficiently in a remote work environment\n\n-\nYou are perfectly fine with horrible hilarious puns\n\nCompensation: Starting pay: $45,000 - $55,000 / year + benefits. Applicants with years of professional experience in a domain registrar or hosting company are eligible for a starting salary at the higher-end of the range.\n\nHow to apply: If the above describes you, please follow the instructions below EXACTLY and respond accurately -- failure to do so means we will filter out your application.\n\n-\nAttach your resume and cover letter to an email as two separate .pdf documents\n\n-\nAddress your email with the subject line “Technical Support Representative”\n\n-\nBegin your email body by copying, pasting, and responding to the below qualifying questions. If you are responding NO, we are sorry, but you are not eligible for the role:\n\n-\nAre you based in the USA and eligible for employment (Yes/No)?\n\n- Do you have two or more years of live technical support experience, or experience with domains, DNS, hosting (Yes/No)?\n\n-\nAre you available and interested in working both Saturday and Sunday(Yes/No)?\n\n-\nFeel free to add other relevant, brief content to your email but it must begin with those questions and your accurate responses\n\n-\nSend that email with attachments to careers+support@porkbun.com\n\nWe are leaning into our growth and hiring for shifts that will bolster our live support coverage for US time zones. Answering phones and chats will be the primary priority of this role.\n\nWe are hiring for the following standard shifts (all times Pacific):\n\nWe are hiring for the following shift. Available Shifts:\n\n- Saturday - Wednesday 9 AM - 5 PM Pacific Time, and\n\n- Thursday - Monday, 9 AM - 5 PM Pacific Time\n\nWe believe that to do your job well, you need to take paid breaks – all 8-hour shifts include a total of one hour of paid breaks.\n\nOur hiring process: We run a three-round interview process. Your interview process is run by the role’s direct manager, and culminates in an interview with our CEO. Before round 1 you'll need two professional references, including at least one direct manager. We don't contact them until after round 3, but having them ready is required to move forward. After round 3, as we check your references we invite you to check ours: you can choose to interview any other current Porkbun employee.\n\nTo apply: https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
+      "apply_url": "https://weworkremotely.com/remote-jobs/porkbun-live-technical-support-representative-full-time-45-000-55-000-year-benefits-sat-sun-required",
+      "source": "We Work Remotely",
+      "posted_at": "2026-09-04T22:58:37.000Z",
+      "scraped_at": "2026-11-27T17:07:27.322Z",
       "status": "open"
     }
   ]
